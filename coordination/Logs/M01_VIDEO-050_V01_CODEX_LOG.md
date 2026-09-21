@@ -7,7 +7,7 @@ Status: PASS
 - Individual prompt: `coordination/Prompts/M01_VIDEO-050_V01_GPT_PROMPT.md`
 - Master prompt read first: `coordination/Prompts/M01_VIDEO_MASTER_V01_GPT_PROMPT.md`
 - Subject: POVU Smart Factory Grand Tour
-- Temporary camera: `VID_050_POVU_VID_050_POVU_Smart_Factory_Grand_Tour`
+- Temporary camera: `VID_050_POVU_Smart_Factory_Grand_Tour`
 - Source master: `3d/revisions/REV003/POVU_REV003_MASTER.glb`
 - Source SHA-256: `033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d`
 - Source preserved; temporary imported scene and camera were used.

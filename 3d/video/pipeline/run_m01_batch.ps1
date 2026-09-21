@@ -19,8 +19,8 @@ function Get-VideoInfo([int]$Id) {
   if (-not (Test-Path -LiteralPath $promptPath)) { throw "Missing prompt: $promptPath" }
   $prompt = Get-Content -Raw -LiteralPath $promptPath
   $titleMatch = [regex]::Match($prompt, '## Video\s*\r?\n\d+\s+—\s+([^\r\n]+)')
-  $prefixMatch = [regex]::Match($prompt, 'Filename prefix:\s*([A-Za-z0-9_]+)')
-  $cameraMatch = [regex]::Match($prompt, 'Temporary(?: production)? camera:\s*([A-Za-z0-9_]+)')
+  $prefixMatch = [regex]::Match($prompt, 'Filename prefix:?\s*([A-Za-z0-9_]+)')
+  $cameraMatch = [regex]::Match($prompt, 'Temporary(?: production)? camera:?\s*([A-Za-z0-9_]+)')
   $title = if ($titleMatch.Success) {$titleMatch.Groups[1].Value.Trim()} else {"M01 Video $n"}
   $prefix = if ($prefixMatch.Success) {$prefixMatch.Groups[1].Value.Trim()} else {"POVU_VID_${n}_$($title -replace '[^A-Za-z0-9]+','_')"}
   $camera = if ($cameraMatch.Success) {$cameraMatch.Groups[1].Value.Trim()} else {"VID_${n}_$($prefix -replace '^POVU_VID_'+$n+'_','')"}
