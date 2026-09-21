@@ -1,0 +1,263 @@
+{
+  "video": 2,
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "camera": "VID_HOG_V02_CAMERA",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "resolution_percentage": 100,
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "frames_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V02_CAMERA_TRUE_TEST\\VIDEO_02_HANDS_OF_GROWTH\\frames",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V02_CAMERA_TRUE_TEST\\VIDEO_02_HANDS_OF_GROWTH\\render.blend",
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -128.0,
+        -125.0,
+        40.95000076293945
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        8.75
+      ],
+      "label": "plaza_establish_from_QA_landmark_view",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FOREARM_L",
+        "HOG_FOREARM_R",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    },
+    {
+      "frame": 121,
+      "location": [
+        -134.0,
+        -117.0,
+        22.950000762939453
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        8.75
+      ],
+      "label": "landmark_approach",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FOREARM_L",
+        "HOG_FOREARM_R",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    },
+    {
+      "frame": 241,
+      "location": [
+        -116.20848083496094,
+        -101.55262756347656,
+        14.950000762939453
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        8.75
+      ],
+      "label": "arc_start",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FOREARM_L",
+        "HOG_FOREARM_R",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    },
+    {
+      "frame": 361,
+      "location": [
+        -94.8077392578125,
+        -97.84049987792969,
+        14.950000762939453
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        8.75
+      ],
+      "label": "landmark_arc",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FOREARM_L",
+        "HOG_FOREARM_R",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    },
+    {
+      "frame": 481,
+      "location": [
+        -85.0875244140625,
+        -81.00458526611328,
+        14.950000762939453
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        8.75
+      ],
+      "label": "arc_finish",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FOREARM_L",
+        "HOG_FOREARM_R",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    },
+    {
+      "frame": 601,
+      "location": [
+        -96.72368621826172,
+        -74.89575958251953,
+        13.450000762939453
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        8.75
+      ],
+      "label": "detail_approach",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_TREE_CROWN_0",
+        "HOG_PLINTH"
+      ]
+    },
+    {
+      "frame": 720,
+      "location": [
+        -128.0,
+        -125.0,
+        30.950000762939453
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        8.75
+      ],
+      "label": "complete_landmark_hero",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FOREARM_L",
+        "HOG_FOREARM_R",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    }
+  ],
+  "rendered_at_utc": "2026-09-21T14:45:07.457300+00:00"
+}

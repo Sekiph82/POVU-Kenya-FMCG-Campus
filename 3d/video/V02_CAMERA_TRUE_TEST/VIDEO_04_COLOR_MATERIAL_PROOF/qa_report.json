@@ -1,0 +1,310 @@
+{
+  "video": 4,
+  "checkpoints": [
+    {
+      "video": 4,
+      "frame": 1,
+      "time_seconds": 0.0,
+      "active_camera": "VID_COLOR_PROOF_V02_CAMERA",
+      "camera_world_xyz": [
+        -38.0,
+        -128.0,
+        5.5
+      ],
+      "camera_rotation_euler": [
+        1.5327342748641968,
+        -3.630390210673795e-08,
+        0.5325607657432556
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -94.06500244140625,
+        4.0
+      ],
+      "semantic_target": "vip_arrival",
+      "visible_target_objects": [
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "POVU_PLAZA"
+      ],
+      "visible_materials": [
+        "POVU_Water_Aqua",
+        "V2_Paving",
+        "VIP_Bronze"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 4,
+      "frame": 121,
+      "time_seconds": 5.0,
+      "active_camera": "VID_COLOR_PROOF_V02_CAMERA",
+      "camera_world_xyz": [
+        -55.0,
+        -119.0,
+        5.0
+      ],
+      "camera_rotation_euler": [
+        1.5310002565383911,
+        -3.561580808053577e-09,
+        0.11973731219768524
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -94.06500244140625,
+        4.0
+      ],
+      "semantic_target": "vip_approach",
+      "visible_target_objects": [
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "POVU_WATER_WALL_BASIN_WATER"
+      ],
+      "visible_materials": [
+        "POVU_Water_Aqua",
+        "VIP_Bronze"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 4,
+      "frame": 241,
+      "time_seconds": 10.0,
+      "active_camera": "VID_COLOR_PROOF_V02_CAMERA",
+      "camera_world_xyz": [
+        -80.0,
+        -112.0,
+        5.5
+      ],
+      "camera_rotation_euler": [
+        1.585145115852356,
+        5.623483012584529e-09,
+        -0.2414984256029129
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -75.0,
+        -91.69999694824219,
+        5.800000190734863
+      ],
+      "semantic_target": "water_and_living_wall",
+      "visible_target_objects": [
+        "POVU_WATER_WALL_BASIN_WATER",
+        "LIVING_WALL_PANEL"
+      ],
+      "visible_materials": [
+        "POVU_Water_Aqua",
+        "VIP_Leaf"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 4,
+      "frame": 361,
+      "time_seconds": 15.0,
+      "active_camera": "VID_COLOR_PROOF_V02_CAMERA",
+      "camera_world_xyz": [
+        -125.0,
+        -130.0,
+        10.0
+      ],
+      "camera_rotation_euler": [
+        1.5326814651489258,
+        1.2324115061801422e-08,
+        -0.32175061106681824
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -108.0,
+        -79.0,
+        7.950000286102295
+      ],
+      "semantic_target": "plaza_and_growth_reveal",
+      "visible_target_objects": [
+        "POVU_PLAZA",
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ],
+      "visible_materials": [
+        "POVU_Bronze_Signature",
+        "POVU_Graphite",
+        "POVU_Landmark_Green",
+        "V2_Paving"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 4,
+      "frame": 481,
+      "time_seconds": 20.0,
+      "active_camera": "VID_COLOR_PROOF_V02_CAMERA",
+      "camera_world_xyz": [
+        -135.0,
+        -120.0,
+        15.0
+      ],
+      "camera_rotation_euler": [
+        1.4281630516052246,
+        1.1794529797271025e-08,
+        -0.5823531150817871
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -108.0,
+        -79.0,
+        7.950000286102295
+      ],
+      "semantic_target": "signature_landmarks",
+      "visible_target_objects": [
+        "POVU_PLAZA",
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ],
+      "visible_materials": [
+        "POVU_Bronze_Signature",
+        "POVU_Graphite",
+        "POVU_Landmark_Green",
+        "V2_Paving"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 4,
+      "frame": 601,
+      "time_seconds": 25.0,
+      "active_camera": "VID_COLOR_PROOF_V02_CAMERA",
+      "camera_world_xyz": [
+        -120.0,
+        -110.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.4495583772659302,
+        -1.2488836631519007e-08,
+        -0.3693336546421051
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -108.0,
+        -79.0,
+        7.950000286102295
+      ],
+      "semantic_target": "hands_of_growth_context",
+      "visible_target_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4",
+        "POVU_PLAZA"
+      ],
+      "visible_materials": [
+        "POVU_Bronze_Signature",
+        "POVU_Graphite",
+        "POVU_Landmark_Green",
+        "V2_Paving"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 4,
+      "frame": 720,
+      "time_seconds": 29.9583,
+      "active_camera": "VID_COLOR_PROOF_V02_CAMERA",
+      "camera_world_xyz": [
+        -85.0,
+        -115.0,
+        10.0
+      ],
+      "camera_rotation_euler": [
+        1.396952748298645,
+        -6.172090394329643e-08,
+        -0.9112550020217896
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -94.06500244140625,
+        4.0
+      ],
+      "semantic_target": "color_water_green_light_hero",
+      "visible_target_objects": [
+        "POVU_PLAZA",
+        "POVU_WATER_WALL_7M",
+        "POVU_WATER_WALL_BASIN_WATER",
+        "LIVING_WALL_PANEL"
+      ],
+      "visible_materials": [
+        "POVU_Water_Aqua",
+        "V2_Paving",
+        "VIP_Leaf"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    }
+  ],
+  "all_pass": true
+}

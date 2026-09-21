@@ -1,0 +1,260 @@
+{
+  "video": 3,
+  "checkpoints": [
+    {
+      "video": 3,
+      "frame": 1,
+      "time_seconds": 0.0,
+      "active_camera": "VID_GLASS_DECK_V02_CAMERA",
+      "camera_world_xyz": [
+        -100.0,
+        -28.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.5276232957839966,
+        -3.2243002712206703e-10,
+        -1.2545101642608643
+      ],
+      "camera_lens": 32.0,
+      "look_at_xyz": [
+        -45,
+        -10,
+        9.5
+      ],
+      "semantic_target": "production_facade_context",
+      "visible_target_objects": [
+        "GlassDeck_East",
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR",
+        "DECK_EAST_TIMBER_FLOOR",
+        "GLASS_DECK_LINK",
+        "GLASS_DECK_LINK_FLOOR",
+        "Production_Hall"
+      ],
+      "visible_materials": [
+        "Glass",
+        "PROC_Wood",
+        "REF_Glass",
+        "REF_Wood",
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 3,
+      "frame": 121,
+      "time_seconds": 5.0,
+      "active_camera": "VID_GLASS_DECK_V02_CAMERA",
+      "camera_world_xyz": [
+        -82.0,
+        -21.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.4374287128448486,
+        3.202565679316649e-08,
+        -1.1071488857269287
+      ],
+      "camera_lens": 32.0,
+      "look_at_xyz": [
+        -62,
+        -11,
+        9.0
+      ],
+      "semantic_target": "deck_access_approach",
+      "visible_target_objects": [
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR"
+      ],
+      "visible_materials": [
+        "Glass",
+        "PROC_Wood"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 3,
+      "frame": 241,
+      "time_seconds": 10.0,
+      "active_camera": "VID_GLASS_DECK_V02_CAMERA",
+      "camera_world_xyz": [
+        -60.0,
+        -9.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.4711828231811523,
+        -2.157430678551009e-08,
+        -1.604117512702942
+      ],
+      "camera_lens": 32.0,
+      "look_at_xyz": [
+        -30,
+        -10,
+        9.0
+      ],
+      "semantic_target": "onto_west_glass_deck",
+      "visible_target_objects": [
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR"
+      ],
+      "visible_materials": [
+        "Glass",
+        "PROC_Graphite",
+        "PROC_Wood"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 3,
+      "frame": 361,
+      "time_seconds": 15.0,
+      "active_camera": "VID_GLASS_DECK_V02_CAMERA",
+      "camera_world_xyz": [
+        -20.0,
+        -9.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.4853259325027466,
+        2.7259705603910334e-08,
+        -1.5993599891662598
+      ],
+      "camera_lens": 32.0,
+      "look_at_xyz": [
+        15,
+        -10,
+        9.0
+      ],
+      "semantic_target": "walk_west_deck",
+      "visible_target_objects": [
+        "DECK_TIMBER_FLOOR",
+        "GlassDeck_West",
+        "Production_Hall"
+      ],
+      "visible_materials": [
+        "Glass",
+        "PROC_Wood",
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 3,
+      "frame": 481,
+      "time_seconds": 20.0,
+      "active_camera": "VID_GLASS_DECK_V02_CAMERA",
+      "camera_world_xyz": [
+        70.0,
+        5.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.4464412927627563,
+        -0.0,
+        0.0
+      ],
+      "camera_lens": 32.0,
+      "look_at_xyz": [
+        70,
+        25,
+        9.5
+      ],
+      "semantic_target": "walk_glass_deck_link",
+      "visible_target_objects": [
+        "GLASS_DECK_LINK",
+        "GLASS_DECK_LINK_FLOOR"
+      ],
+      "visible_materials": [
+        "REF_Glass",
+        "REF_Wood"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 3,
+      "frame": 601,
+      "time_seconds": 25.0,
+      "active_camera": "VID_GLASS_DECK_V02_CAMERA",
+      "camera_world_xyz": [
+        55.0,
+        50.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.4852910041809082,
+        -2.595387194048726e-08,
+        1.5707963705062866
+      ],
+      "camera_lens": 32.0,
+      "look_at_xyz": [
+        20,
+        50,
+        9.0
+      ],
+      "semantic_target": "east_deck_transition",
+      "visible_target_objects": [
+        "GlassDeck_East",
+        "DECK_EAST_TIMBER_FLOOR"
+      ],
+      "visible_materials": [
+        "Glass",
+        "REF_Wood"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    },
+    {
+      "video": 3,
+      "frame": 720,
+      "time_seconds": 29.9583,
+      "active_camera": "VID_GLASS_DECK_V02_CAMERA",
+      "camera_world_xyz": [
+        0.0,
+        50.0,
+        12.0
+      ],
+      "camera_rotation_euler": [
+        1.454654574394226,
+        8.683382191065903e-08,
+        -3.141592502593994
+      ],
+      "camera_lens": 32.0,
+      "look_at_xyz": [
+        0,
+        20,
+        8.5
+      ],
+      "semantic_target": "through_glass_to_production",
+      "visible_target_objects": [
+        "GlassDeck_East",
+        "DECK_EAST_TIMBER_FLOOR",
+        "Production_Hall"
+      ],
+      "visible_materials": [
+        "Glass",
+        "REF_Wood",
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "camera_semantic_association": true,
+      "status": "PASS"
+    }
+  ],
+  "automated_projection_all_pass": true,
+  "manual_visual_qa": "FAIL",
+  "failure_code": "MATERIAL_SOURCE_LIMITATION",
+  "all_pass": false
+}

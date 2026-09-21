@@ -1,0 +1,205 @@
+{
+  "video": 4,
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d-jutsu-Untitled-3D-Jutsu-2026-09-21-07-44-56.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "camera": "VID_COLOR_PROOF_V02_CAMERA",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "resolution_percentage": 100,
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "frames_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V02_CAMERA_TRUE_TEST\\VIDEO_04_COLOR_MATERIAL_PROOF\\frames",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V02_CAMERA_TRUE_TEST\\VIDEO_04_COLOR_MATERIAL_PROOF\\render.blend",
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -38,
+        -128,
+        5.5
+      ],
+      "target": [
+        -58.0,
+        -94.06500244140625,
+        4.0
+      ],
+      "label": "vip_arrival",
+      "semantic_objects": [
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "POVU_PLAZA"
+      ]
+    },
+    {
+      "frame": 121,
+      "location": [
+        -55,
+        -119,
+        5.0
+      ],
+      "target": [
+        -58.0,
+        -94.06500244140625,
+        4.0
+      ],
+      "label": "vip_approach",
+      "semantic_objects": [
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "POVU_WATER_WALL_BASIN_WATER"
+      ]
+    },
+    {
+      "frame": 241,
+      "location": [
+        -80,
+        -112,
+        5.5
+      ],
+      "target": [
+        -75.0,
+        -91.69999694824219,
+        5.800000190734863
+      ],
+      "label": "water_and_living_wall",
+      "semantic_objects": [
+        "POVU_WATER_WALL_7M",
+        "POVU_WATER_WALL_BASIN_WATER",
+        "LIVING_WALL_PANEL"
+      ]
+    },
+    {
+      "frame": 361,
+      "location": [
+        -125,
+        -130,
+        10.0
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        7.950000286102295
+      ],
+      "label": "plaza_and_growth_reveal",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    },
+    {
+      "frame": 481,
+      "location": [
+        -135,
+        -120,
+        15.0
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        7.950000286102295
+      ],
+      "label": "signature_landmarks",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4"
+      ]
+    },
+    {
+      "frame": 601,
+      "location": [
+        -120,
+        -110,
+        12.0
+      ],
+      "target": [
+        -108.0,
+        -79.0,
+        7.950000286102295
+      ],
+      "label": "hands_of_growth_context",
+      "semantic_objects": [
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_TREE_TRUNK",
+        "HOG_PLINTH",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4",
+        "POVU_PLAZA"
+      ]
+    },
+    {
+      "frame": 720,
+      "location": [
+        -85,
+        -115,
+        10.0
+      ],
+      "target": [
+        -58.0,
+        -94.06500244140625,
+        4.0
+      ],
+      "label": "color_water_green_light_hero",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_WATER_WALL_7M",
+        "POVU_WATER_WALL_BASIN_WATER",
+        "LIVING_WALL_PANEL"
+      ]
+    }
+  ],
+  "rendered_at_utc": "2026-09-21T15:32:27.477513+00:00"
+}
