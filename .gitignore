@@ -2,3 +2,7 @@
 3d/video/**/*.mp4
 3d/video/**/*_frames/
 3d/video/**/*.blend
+3d/video/**/*.blend1
+3d/video/**/*.preview.json
+3d/video/**/qa_*/
+3d/video/**/*.console.log
