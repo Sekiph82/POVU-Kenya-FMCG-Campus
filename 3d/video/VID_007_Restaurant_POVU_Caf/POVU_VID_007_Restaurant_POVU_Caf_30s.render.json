@@ -1,0 +1,137 @@
+{
+  "object_count": 1898,
+  "bounds_min": [
+    -140.0,
+    -125.0,
+    -1.2
+  ],
+  "bounds_max": [
+    140.0,
+    125.0,
+    16.0
+  ],
+  "dimensions": [
+    280.0,
+    250.0,
+    17.2
+  ],
+  "sample_objects": [
+    "Admin_RD_QC",
+    "AIR_RECEIVER",
+    "AIRLOCK",
+    "AMR_00",
+    "AMR_01",
+    "AMR_02",
+    "AMR_03",
+    "AMR_04",
+    "AMR_05",
+    "AMR_06",
+    "AMR_CROSS",
+    "AMR_SPINE",
+    "AMR_TOP_00",
+    "AMR_TOP_01",
+    "AMR_TOP_02",
+    "AMR_TOP_03",
+    "AMR_TOP_04",
+    "AMR_TOP_05",
+    "AMR_TOP_06",
+    "BAG_FILL_10_20KG",
+    "BENCH",
+    "BENCH001",
+    "BENCH002",
+    "BENCH003",
+    "BENCH004",
+    "BENCH005",
+    "BENCH_PLANTER",
+    "BENCH_PLANTER001",
+    "BENCH_PLANTER002",
+    "BENCH_PLANTER003"
+  ],
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "video_id": 7,
+  "title": "Restaurant + POVU Caf\u00e9",
+  "output": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_007_Restaurant_POVU_Caf\\POVU_VID_007_Restaurant_POVU_Caf_30s.mp4",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_007_Restaurant_POVU_Caf\\POVU_VID_007_Restaurant_POVU_Caf_30s.blend",
+  "frame_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_007_Restaurant_POVU_Caf\\POVU_VID_007_Restaurant_POVU_Caf_30s_frames",
+  "frame_format": "JPEG",
+  "render_engine": "BLENDER_WORKBENCH",
+  "engine_requested": "workbench",
+  "resolution": [
+    1280,
+    720
+  ],
+  "resolution_percentage": 25,
+  "fps": 24,
+  "frame_start": 0,
+  "frame_end": 719,
+  "duration_seconds_expected": 30.0,
+  "elapsed_seconds": 34.925,
+  "route": [
+    [
+      0,
+      [
+        219.53,
+        -484.795,
+        125.0
+      ],
+      [
+        0.0,
+        0.0,
+        10.496
+      ]
+    ],
+    [
+      120,
+      [
+        174.935,
+        -362.031,
+        103.832
+      ],
+      [
+        0.0,
+        0.0,
+        10.496
+      ]
+    ],
+    [
+      288,
+      [
+        109.955,
+        -226.746,
+        65.64
+      ],
+      [
+        0.0,
+        0.0,
+        10.496
+      ]
+    ],
+    [
+      480,
+      [
+        21.692,
+        -152.542,
+        52.2
+      ],
+      [
+        0.0,
+        0.0,
+        10.84
+      ]
+    ],
+    [
+      719,
+      [
+        -49.925,
+        -110.097,
+        49.512
+      ],
+      [
+        0.0,
+        0.0,
+        11.528
+      ]
+    ]
+  ],
+  "blender_version": "5.2.2 LTS"
+}
