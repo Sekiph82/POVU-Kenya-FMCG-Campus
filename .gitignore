@@ -1,0 +1,4 @@
+# Local production outputs are intentionally kept on the Windows workstation.
+3d/video/**/*.mp4
+3d/video/**/*_frames/
+3d/video/**/*.blend
