@@ -1,0 +1,232 @@
+{
+  "video": 1,
+  "checkpoints": [
+    {
+      "frame": 1,
+      "requested_time_seconds": 0.0,
+      "active_camera": "PRES_15_MIXING_HALL",
+      "camera_world_xyz": [
+        -69.0,
+        -1.0,
+        10.199999809265137
+      ],
+      "look_at_xyz": [
+        -40.54829406738281,
+        8.328434944152832,
+        7.134321689605713
+      ],
+      "semantic_target": "actual_PRES_15_start",
+      "visible_target_objects": [
+        "ProcessTank_01",
+        "ProcessTank_02",
+        "ProcessTank_03",
+        "ProcessTank_04",
+        "ProcessTank_05",
+        "ProcessTank_06"
+      ],
+      "visible_materials": [
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "checks": {
+        "tank_visible": true,
+        "clean_render_settings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 121,
+      "requested_time_seconds": 5.0,
+      "active_camera": "PRES_15_MIXING_HALL",
+      "camera_world_xyz": [
+        -50.0,
+        -2.0,
+        10.199999809265137
+      ],
+      "look_at_xyz": [
+        -35,
+        12,
+        5.0
+      ],
+      "semantic_target": "dolly_to_tanks_01_06",
+      "visible_target_objects": [
+        "ProcessTank_01",
+        "ProcessTank_02",
+        "ProcessTank_03",
+        "ProcessTank_04",
+        "ProcessTank_05",
+        "ProcessTank_06"
+      ],
+      "visible_materials": [
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "checks": {
+        "tank_visible": true,
+        "clean_render_settings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 241,
+      "requested_time_seconds": 10.0,
+      "active_camera": "PRES_15_MIXING_HALL",
+      "camera_world_xyz": [
+        -25.0,
+        -2.0,
+        10.199999809265137
+      ],
+      "look_at_xyz": [
+        -5,
+        12,
+        5.0
+      ],
+      "semantic_target": "lateral_mixing_platform",
+      "visible_target_objects": [
+        "ProcessTank_02",
+        "ProcessTank_03",
+        "ProcessTank_04",
+        "ProcessTank_05",
+        "ProcessTank_06",
+        "MIXING_PLATFORM"
+      ],
+      "visible_materials": [
+        "PROC_Graphite",
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "checks": {
+        "tank_visible": true,
+        "clean_render_settings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 361,
+      "requested_time_seconds": 15.0,
+      "active_camera": "PRES_15_MIXING_HALL",
+      "camera_world_xyz": [
+        10.0,
+        -2.0,
+        10.199999809265137
+      ],
+      "look_at_xyz": [
+        25,
+        12,
+        5.0
+      ],
+      "semantic_target": "industrial_walkthrough",
+      "visible_target_objects": [
+        "ProcessTank_04",
+        "ProcessTank_05",
+        "ProcessTank_06",
+        "MIXING_PLATFORM"
+      ],
+      "visible_materials": [
+        "PROC_Graphite",
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "checks": {
+        "tank_visible": true,
+        "clean_render_settings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 481,
+      "requested_time_seconds": 20.0,
+      "active_camera": "PRES_15_MIXING_HALL",
+      "camera_world_xyz": [
+        -45.0,
+        22.0,
+        10.199999809265137
+      ],
+      "look_at_xyz": [
+        -35,
+        32,
+        5.0
+      ],
+      "semantic_target": "dolly_to_tanks_07_11",
+      "visible_target_objects": [
+        "ProcessTank_08",
+        "ProcessTank_09",
+        "ProcessTank_10",
+        "ProcessTank_11"
+      ],
+      "visible_materials": [
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "checks": {
+        "tank_visible": true,
+        "clean_render_settings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 601,
+      "requested_time_seconds": 25.0,
+      "active_camera": "PRES_15_MIXING_HALL",
+      "camera_world_xyz": [
+        -10.0,
+        22.0,
+        11.199999809265137
+      ],
+      "look_at_xyz": [
+        5,
+        32,
+        5.0
+      ],
+      "semantic_target": "second_group_reveal",
+      "visible_target_objects": [
+        "ProcessTank_09",
+        "ProcessTank_10",
+        "ProcessTank_11"
+      ],
+      "visible_materials": [
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "checks": {
+        "tank_visible": true,
+        "clean_render_settings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 718,
+      "requested_time_seconds": 29.9,
+      "active_camera": "PRES_15_MIXING_HALL",
+      "camera_world_xyz": [
+        25.0,
+        18.0,
+        11.199999809265137
+      ],
+      "look_at_xyz": [
+        10,
+        25,
+        6.0
+      ],
+      "semantic_target": "wet_processing_hero",
+      "visible_target_objects": [
+        "ProcessTank_06",
+        "ProcessTank_11",
+        "MIXING_PLATFORM",
+        "PROCESS_EPOXY_FLOOR"
+      ],
+      "visible_materials": [
+        "PROC_Epoxy",
+        "PROC_Graphite",
+        "WarmWhite"
+      ],
+      "render_engine": "BLENDER_EEVEE",
+      "checks": {
+        "tank_visible": true,
+        "clean_render_settings": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "all_pass": true
+}

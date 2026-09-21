@@ -1,0 +1,19 @@
+{
+  "video": 1,
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "camera": "PRES_15_MIXING_HALL",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "resolution_percentage": 100,
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "frames_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CORRECTIVE\\VIDEO_01_WET_PROCESSING\\frames",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CORRECTIVE\\VIDEO_01_WET_PROCESSING\\render.blend",
+  "temporary_glass_override": [],
+  "rendered_at_utc": "2026-09-21T20:53:52.710923+00:00"
+}

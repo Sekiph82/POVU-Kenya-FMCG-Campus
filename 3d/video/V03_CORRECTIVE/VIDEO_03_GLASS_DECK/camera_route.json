@@ -1,0 +1,169 @@
+{
+  "video": 3,
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "resolution": [
+    1280,
+    720
+  ],
+  "render_engine": "BLENDER_EEVEE",
+  "camera": {
+    "name": "VID_GLASS_DECK_V03_CAMERA",
+    "target_subject": "POVU Glass Deck",
+    "semantic_targets": [
+      "GlassDeck_East",
+      "GlassDeck_West",
+      "DECK_TIMBER_FLOOR",
+      "DECK_EAST_TIMBER_FLOOR",
+      "GLASS_DECK_LINK",
+      "GLASS_DECK_LINK_FLOOR",
+      "DECK_EAST_GLASS",
+      "Production_Hall"
+    ],
+    "glazing_objects": [
+      "DECK_EAST_GLASS",
+      "GLASS_DECK_LINK",
+      "GlassDeck_East",
+      "GlassDeck_West"
+    ],
+    "camera_inside_requirement": "frames 361, 481, 601, 718 lie within GlassDeck_West spatial bounds"
+  },
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -105,
+        -32,
+        14.0
+      ],
+      "target": [
+        -62,
+        -11,
+        10.2
+      ],
+      "label": "glass_deck_exterior_context",
+      "semantic_objects": [
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR",
+        "Production_Hall"
+      ]
+    },
+    {
+      "frame": 121,
+      "location": [
+        -88,
+        -23,
+        12.0
+      ],
+      "target": [
+        -72,
+        -11,
+        10.4
+      ],
+      "label": "approach_actual_access",
+      "semantic_objects": [
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR"
+      ]
+    },
+    {
+      "frame": 241,
+      "location": [
+        -64,
+        -15,
+        10.5
+      ],
+      "target": [
+        -42,
+        -11,
+        10.1
+      ],
+      "label": "at_deck_access_threshold",
+      "semantic_objects": [
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR",
+        "DECK_MULLION"
+      ]
+    },
+    {
+      "frame": 361,
+      "location": [
+        -45,
+        -10,
+        9.7
+      ],
+      "target": [
+        -5,
+        -11,
+        9.5
+      ],
+      "label": "physically_on_west_deck",
+      "semantic_objects": [
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR",
+        "DECK_EAST_GLASS"
+      ]
+    },
+    {
+      "frame": 481,
+      "location": [
+        -5,
+        -10,
+        9.7
+      ],
+      "target": [
+        20,
+        -11,
+        9.5
+      ],
+      "label": "longitudinal_walk_on_deck",
+      "semantic_objects": [
+        "GlassDeck_West",
+        "DECK_TIMBER_FLOOR",
+        "Production_Hall"
+      ]
+    },
+    {
+      "frame": 601,
+      "location": [
+        5,
+        -10.5,
+        10.0
+      ],
+      "target": [
+        0,
+        14,
+        9.0
+      ],
+      "label": "turn_through_corrected_glazing",
+      "semantic_objects": [
+        "GlassDeck_West",
+        "DECK_EAST_GLASS",
+        "Production_Hall"
+      ]
+    },
+    {
+      "frame": 718,
+      "location": [
+        5,
+        -10.5,
+        10.0
+      ],
+      "target": [
+        0,
+        24,
+        8.7
+      ],
+      "label": "final_through_glass_to_production",
+      "semantic_objects": [
+        "GlassDeck_West",
+        "DECK_EAST_GLASS",
+        "Production_Hall"
+      ]
+    }
+  ],
+  "camera_true_rule": "Final MP4 frame N is rendered from the active camera at frame N in this disposable V03 scene."
+}

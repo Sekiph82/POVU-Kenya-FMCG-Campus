@@ -1,0 +1,60 @@
+{
+  "video": 3,
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "camera": "VID_GLASS_DECK_V03_CAMERA",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "resolution_percentage": 100,
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "frames_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CORRECTIVE\\VIDEO_03_GLASS_DECK\\frames",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CORRECTIVE\\VIDEO_03_GLASS_DECK\\render.blend",
+  "temporary_glass_override": [
+    {
+      "object": "DECK_EAST_GLASS",
+      "slots": [
+        {
+          "slot": 0,
+          "original_material": "REF_Glass",
+          "override_material": "V03_TEMP_GLASS_DECK_TRANSPARENT"
+        }
+      ]
+    },
+    {
+      "object": "GLASS_DECK_LINK",
+      "slots": [
+        {
+          "slot": 0,
+          "original_material": "REF_Glass",
+          "override_material": "V03_TEMP_GLASS_DECK_TRANSPARENT"
+        }
+      ]
+    },
+    {
+      "object": "GlassDeck_East",
+      "slots": [
+        {
+          "slot": 0,
+          "original_material": "Glass",
+          "override_material": "V03_TEMP_GLASS_DECK_TRANSPARENT"
+        }
+      ]
+    },
+    {
+      "object": "GlassDeck_West",
+      "slots": [
+        {
+          "slot": 0,
+          "original_material": "Glass",
+          "override_material": "V03_TEMP_GLASS_DECK_TRANSPARENT"
+        }
+      ]
+    }
+  ],
+  "rendered_at_utc": "2026-09-21T21:27:01.409490+00:00"
+}
