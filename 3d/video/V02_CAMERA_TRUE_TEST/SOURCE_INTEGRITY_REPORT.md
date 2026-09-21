@@ -1,6 +1,6 @@
 # M01 V02 Camera-True Batch — Source Integrity Report
 
-Status: `SOURCE_INTEGRITY_FAIL_WRONG_REV003`
+Status: `CORRECT_SOURCE_FILE_IS_NOT_LANDMARK_REV003`
 
 The mandatory source gate failed before any V02 camera was created or any frame was rendered.
 
@@ -14,6 +14,6 @@ The mandatory source gate failed before any V02 camera was created or any frame 
 | Repository REV003 SHA-256 | `033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d` |
 | Explicitly rejected SHA-256 | `033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d` |
 
-Both files exactly match the explicitly rejected hash. Per mission authority, scene inventory, camera creation, checkpoint QA, rendering, and final video validation were not run. Object, mesh, material, camera, and required-landmark results are therefore `NOT RUN AFTER HASH GATE FAILURE`.
+Both files exactly match the explicitly rejected hash. Per remediation mission authority, source replacement, scene inventory, camera creation, checkpoint QA, rendering, and final video validation were not run. Object, mesh, material, camera, and required-landmark results are therefore `NOT RUN AFTER HASH GATE FAILURE`.
 
 No V01 output was overwritten and no V02 MP4 was created.

@@ -4,13 +4,13 @@ Status: `BLOCKED`
 
 ## Global source gate
 
-- Result: `SOURCE_INTEGRITY_FAIL_WRONG_REV003`
+- Result: `CORRECT_SOURCE_FILE_IS_NOT_LANDMARK_REV003`
 - Requested source SHA-256: `033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d`
 - Repository REV003 SHA-256: `033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d`
 - Rejected SHA-256 from mission: `033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d`
 - Evidence: `3d/video/V02_CAMERA_TRUE_TEST/SOURCE_INTEGRITY_REPORT.json` and `SOURCE_INTEGRITY_REPORT.md`
 
-The proposed source is the explicitly rejected pre-landmark REV003 source. The mission requires stopping immediately. No scene inventory, camera creation, checkpoint QA, Blender render, MP4 encode, or final-video validation was performed.
+The proposed source is still the explicitly rejected pre-landmark REV003 source. The remediation mission requires stopping immediately. No source replacement, scene inventory, camera creation, checkpoint QA, Blender render, MP4 encode, or final-video validation was performed.
 
 ## Video results
 

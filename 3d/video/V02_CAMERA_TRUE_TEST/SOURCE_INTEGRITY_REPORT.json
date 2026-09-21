@@ -1,5 +1,5 @@
 {
-  "status": "SOURCE_INTEGRITY_FAIL_WRONG_REV003",
+  "status": "CORRECT_SOURCE_FILE_IS_NOT_LANDMARK_REV003",
   "checked_at": "2026-09-21",
   "source_path_requested": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d-jutsu-POVU-Kenya-Integrated-Manufacturing-Camp-2026-09-20-22-10-57.glb",
   "repository_rev003_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
@@ -18,5 +18,5 @@
   "scene_inventory": "NOT_RUN_AFTER_HASH_GATE_FAILURE",
   "camera_creation": "NOT_RUN",
   "rendering": "NOT_RUN",
-  "reason": "The proposed source is the explicitly rejected pre-landmark REV003 hash. The mission authority requires an immediate stop before scene inventory, camera creation, or rendering."
+  "reason": "The proposed source is still the explicitly rejected pre-landmark REV003 hash. The remediation mission requires an immediate stop before source replacement, scene inventory, camera creation, or rendering."
 }
