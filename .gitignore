@@ -6,3 +6,8 @@
 3d/video/**/*.preview.json
 3d/video/**/qa_*/
 3d/video/**/*.console.log
+
+# POVU M01 V02 local checkpoint/frame outputs remain workstation evidence.
+3d/video/V02_CAMERA_TRUE_TEST/VIDEO_*/frames/
+3d/video/V02_CAMERA_TRUE_TEST/VIDEO_*/checkpoints/
+3d/video/V02_CAMERA_TRUE_TEST/VIDEO_*/final_qa/
