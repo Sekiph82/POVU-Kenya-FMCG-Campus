@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_INTEGRITY_FAIL_WRONG_REV003",
+  "checked_at": "2026-09-21",
+  "source_path_requested": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d-jutsu-POVU-Kenya-Integrated-Manufacturing-Camp-2026-09-20-22-10-57.glb",
+  "repository_rev003_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_size_bytes": 6839260,
+  "source_sha256": "033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d",
+  "repository_rev003_size_bytes": 6839260,
+  "repository_rev003_sha256": "033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d",
+  "rejected_sha256": "033337f2fcd54e1166a2ca5560c5779fcdd96a55589ef84c6f72b3155ab5dd1d",
+  "source_matches_rejected_hash": true,
+  "repository_rev003_matches_rejected_hash": true,
+  "object_count": null,
+  "mesh_count": null,
+  "material_count": null,
+  "camera_count": null,
+  "required_object_results": null,
+  "scene_inventory": "NOT_RUN_AFTER_HASH_GATE_FAILURE",
+  "camera_creation": "NOT_RUN",
+  "rendering": "NOT_RUN",
+  "reason": "The proposed source is the explicitly rejected pre-landmark REV003 hash. The mission authority requires an immediate stop before scene inventory, camera creation, or rendering."
+}
