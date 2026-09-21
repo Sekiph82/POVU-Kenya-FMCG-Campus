@@ -1,0 +1,162 @@
+{
+  "video": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\POVU_VID_013_MES_Production_Control_Room_30s.mp4",
+  "bytes": 7148849,
+  "sha256": "d3d2baf60f6200a9c283c44d1a8a76a0326a0a150b36c02da7eceeea4ff0bd27",
+  "duration_seconds": 30.0,
+  "width": 1280,
+  "height": 720,
+  "fps": 24.0,
+  "codec": "h264",
+  "checks": {
+    "exists": true,
+    "nonzero": true,
+    "duration_approximately_30s": true,
+    "resolution_1280x720": true,
+    "fps_24": true,
+    "codec_h264": true,
+    "probeable": true
+  },
+  "metadata": {
+    "object_count": 1898,
+    "bounds_min": [
+      -140.0,
+      -125.0,
+      -1.2
+    ],
+    "bounds_max": [
+      140.0,
+      125.0,
+      16.0
+    ],
+    "dimensions": [
+      280.0,
+      250.0,
+      17.2
+    ],
+    "sample_objects": [
+      "Admin_RD_QC",
+      "AIR_RECEIVER",
+      "AIRLOCK",
+      "AMR_00",
+      "AMR_01",
+      "AMR_02",
+      "AMR_03",
+      "AMR_04",
+      "AMR_05",
+      "AMR_06",
+      "AMR_CROSS",
+      "AMR_SPINE",
+      "AMR_TOP_00",
+      "AMR_TOP_01",
+      "AMR_TOP_02",
+      "AMR_TOP_03",
+      "AMR_TOP_04",
+      "AMR_TOP_05",
+      "AMR_TOP_06",
+      "BAG_FILL_10_20KG",
+      "BENCH",
+      "BENCH001",
+      "BENCH002",
+      "BENCH003",
+      "BENCH004",
+      "BENCH005",
+      "BENCH_PLANTER",
+      "BENCH_PLANTER001",
+      "BENCH_PLANTER002",
+      "BENCH_PLANTER003"
+    ],
+    "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+    "video_id": 13,
+    "title": "MES Production Control Room",
+    "output": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\POVU_VID_013_MES_Production_Control_Room_30s.mp4",
+    "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\POVU_VID_013_MES_Production_Control_Room_30s.blend",
+    "frame_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\POVU_VID_013_MES_Production_Control_Room_30s_frames",
+    "frame_format": "JPEG",
+    "render_engine": "BLENDER_WORKBENCH",
+    "engine_requested": "workbench",
+    "resolution": [
+      1280,
+      720
+    ],
+    "resolution_percentage": 25,
+    "fps": 24,
+    "frame_start": 0,
+    "frame_end": 719,
+    "duration_seconds_expected": 30.0,
+    "elapsed_seconds": 183.009,
+    "route": [
+      [
+        0,
+        [
+          -487.534,
+          213.379,
+          125.0
+        ],
+        [
+          0.0,
+          0.0,
+          10.496
+        ]
+      ],
+      [
+        120,
+        [
+          -372.248,
+          151.987,
+          103.832
+        ],
+        [
+          0.0,
+          0.0,
+          10.496
+        ]
+      ],
+      [
+        288,
+        [
+          -233.435,
+          94.931,
+          65.64
+        ],
+        [
+          0.0,
+          0.0,
+          10.496
+        ]
+      ],
+      [
+        480,
+        [
+          -118.191,
+          98.846,
+          52.2
+        ],
+        [
+          0.0,
+          0.0,
+          10.84
+        ]
+      ],
+      [
+        719,
+        [
+          -36.568,
+          115.224,
+          49.512
+        ],
+        [
+          0.0,
+          0.0,
+          11.528
+        ]
+      ]
+    ],
+    "blender_version": "5.2.2 LTS"
+  },
+  "qa_frames": [
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\qa\\begin_probe.png",
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\qa\\middle_probe.png",
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\qa\\end_probe.png",
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_013_MES_Production_Control_Room\\qa\\contact_sheet.png"
+  ]
+}
