@@ -1,0 +1,36 @@
+name: POVU Blender Video 01
+on:
+  workflow_dispatch:
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Blender
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y blender ffmpeg
+          blender --version
+      - name: Find source GLB
+        id: src
+        shell: bash
+        run: |
+          GLB=$(find 3d -type f -iname "*.glb" | sort | tail -n 1)
+          if [ -z "$GLB" ]; then echo "No GLB found under 3d/" >&2; exit 2; fi
+          echo "glb=$GLB" >> "$GITHUB_OUTPUT"
+      - name: Import GLB
+        run: blender -b --python-expr "import bpy; bpy.ops.import_scene.gltf(filepath=r\'\'\'${{ steps.src.outputs.glb }}\'\'\'); bpy.ops.wm.save_as_mainfile(filepath=\'POVU_Master_From_GLB.blend\')"
+      - name: Render Video 01
+        run: |
+          mkdir -p renders/video01
+          blender -b POVU_Master_From_GLB.blend -P blender/render_video01.py -- "$(pwd)/renders/video01/POVU_VID_01_Campus_Aerial.mp4"
+      - name: Probe output
+        run: ffprobe -v error -show_entries format=duration,size -show_entries stream=width,height,r_frame_rate,codec_name -of json renders/video01/POVU_VID_01_Campus_Aerial.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: POVU-Video-01-Campus-Aerial
+          path: |
+            renders/video01/POVU_VID_01_Campus_Aerial.mp4
+            POVU_VID01_Render.blend
+          retention-days: 30
