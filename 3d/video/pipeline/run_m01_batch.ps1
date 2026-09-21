@@ -24,7 +24,8 @@ function Get-VideoInfo([int]$Id) {
   $title = if ($titleMatch.Success) {$titleMatch.Groups[1].Value.Trim()} else {"M01 Video $n"}
   $prefix = if ($prefixMatch.Success) {$prefixMatch.Groups[1].Value.Trim()} else {"POVU_VID_${n}_$($title -replace '[^A-Za-z0-9]+','_')"}
   $camera = if ($cameraMatch.Success) {$cameraMatch.Groups[1].Value.Trim()} else {"VID_${n}_$($prefix -replace '^POVU_VID_'+$n+'_','')"}
-  $suffix = $prefix -replace '^POVU_VID_'+$n+'_',''
+  $prefixPattern = '^POVU_VID_' + $n + '_'
+  $suffix = $prefix -replace $prefixPattern,''
   $folder = Join-Path $repo "3d\video\VID_${n}_${suffix}"
   [pscustomobject]@{
     Id = $Id; N = $n; PromptPath = $promptPath; Prompt = $prompt; Title = $title
