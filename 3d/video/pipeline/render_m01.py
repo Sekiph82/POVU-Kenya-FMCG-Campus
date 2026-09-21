@@ -24,6 +24,7 @@ def parse_args():
     parser.add_argument("--resolution-percentage", type=int, default=100)
     parser.add_argument("--engine", choices=["eevee", "workbench"], default="eevee")
     parser.add_argument("--merge-meshes", action="store_true")
+    parser.add_argument("--frame-format", choices=["PNG", "JPEG"], default="JPEG")
     return parser.parse_args(raw)
 
 
@@ -195,7 +196,7 @@ def main():
         (output.with_suffix(".preview.json")).write_text(json.dumps(payload, indent=2), encoding="utf-8")
         print(f"POVU_M01_PREVIEW_DONE video={args.video_id:03d}")
         return
-    scene.render.image_settings.file_format = "PNG"
+    scene.render.image_settings.file_format = args.frame_format
     scene.render.filepath = str(frame_dir / "frame_")
     start = time.time()
     print(f"POVU_M01_RENDER_START video={args.video_id:03d} output={output}")
@@ -205,6 +206,7 @@ def main():
         "output": str(output),
         "blend_archive": str(blend_path),
         "frame_dir": str(frame_dir),
+        "frame_format": args.frame_format,
         "render_engine": scene.render.engine,
         "engine_requested": args.engine,
         "resolution": [scene.render.resolution_x, scene.render.resolution_y],
