@@ -1,0 +1,162 @@
+{
+  "video": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\POVU_VID_023_Caps_Closures_Manufacturing_30s.mp4",
+  "bytes": 7035380,
+  "sha256": "f78ad9d12225848a4e2fa1e7e9b799f3d0748786b40a2f81220767e51d1a2f0a",
+  "duration_seconds": 30.0,
+  "width": 1280,
+  "height": 720,
+  "fps": 24.0,
+  "codec": "h264",
+  "checks": {
+    "exists": true,
+    "nonzero": true,
+    "duration_approximately_30s": true,
+    "resolution_1280x720": true,
+    "fps_24": true,
+    "codec_h264": true,
+    "probeable": true
+  },
+  "metadata": {
+    "object_count": 1898,
+    "bounds_min": [
+      -140.0,
+      -125.0,
+      -1.2
+    ],
+    "bounds_max": [
+      140.0,
+      125.0,
+      16.0
+    ],
+    "dimensions": [
+      280.0,
+      250.0,
+      17.2
+    ],
+    "sample_objects": [
+      "Admin_RD_QC",
+      "AIR_RECEIVER",
+      "AIRLOCK",
+      "AMR_00",
+      "AMR_01",
+      "AMR_02",
+      "AMR_03",
+      "AMR_04",
+      "AMR_05",
+      "AMR_06",
+      "AMR_CROSS",
+      "AMR_SPINE",
+      "AMR_TOP_00",
+      "AMR_TOP_01",
+      "AMR_TOP_02",
+      "AMR_TOP_03",
+      "AMR_TOP_04",
+      "AMR_TOP_05",
+      "AMR_TOP_06",
+      "BAG_FILL_10_20KG",
+      "BENCH",
+      "BENCH001",
+      "BENCH002",
+      "BENCH003",
+      "BENCH004",
+      "BENCH005",
+      "BENCH_PLANTER",
+      "BENCH_PLANTER001",
+      "BENCH_PLANTER002",
+      "BENCH_PLANTER003"
+    ],
+    "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+    "video_id": 23,
+    "title": "Caps & Closures Manufacturing",
+    "output": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\POVU_VID_023_Caps_Closures_Manufacturing_30s.mp4",
+    "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\POVU_VID_023_Caps_Closures_Manufacturing_30s.blend",
+    "frame_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\POVU_VID_023_Caps_Closures_Manufacturing_30s_frames",
+    "frame_format": "JPEG",
+    "render_engine": "BLENDER_WORKBENCH",
+    "engine_requested": "workbench",
+    "resolution": [
+      1280,
+      720
+    ],
+    "resolution_percentage": 25,
+    "fps": 24,
+    "frame_start": 0,
+    "frame_end": 719,
+    "duration_seconds_expected": 30.0,
+    "elapsed_seconds": 192.343,
+    "route": [
+      [
+        0,
+        [
+          -517.18,
+          125.478,
+          125.0
+        ],
+        [
+          0.0,
+          0.0,
+          10.496
+        ]
+      ],
+      [
+        120,
+        [
+          -392.985,
+          85.037,
+          103.832
+        ],
+        [
+          0.0,
+          0.0,
+          10.496
+        ]
+      ],
+      [
+        288,
+        [
+          -246.374,
+          52.953,
+          65.64
+        ],
+        [
+          0.0,
+          0.0,
+          10.496
+        ]
+      ],
+      [
+        480,
+        [
+          -133.56,
+          76.82,
+          52.2
+        ],
+        [
+          0.0,
+          0.0,
+          10.84
+        ]
+      ],
+      [
+        719,
+        [
+          -56.021,
+          107.124,
+          49.512
+        ],
+        [
+          0.0,
+          0.0,
+          11.528
+        ]
+      ]
+    ],
+    "blender_version": "5.2.2 LTS"
+  },
+  "qa_frames": [
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\qa\\begin_probe.png",
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\qa\\middle_probe.png",
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\qa\\end_probe.png",
+    "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\VID_023_Caps_Closures_Manufacturing\\qa\\contact_sheet.png"
+  ]
+}
