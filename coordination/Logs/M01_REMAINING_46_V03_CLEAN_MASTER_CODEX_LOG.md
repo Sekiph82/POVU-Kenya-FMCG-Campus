@@ -9,7 +9,7 @@ This run rebuilds the 48 canonical videos with IDs 001–011 and 013–050 using
 - Renderer: local Windows Blender Eevee only
 - Output root: `3d/video/V03_CLEAN_MASTER/`
 - Target count: 48
-- Counts: {"FAIL": 2, "PASS": 3, "PENDING": 43}
+- Counts: {"FAIL": 2, "PASS": 4, "PENDING": 42}
 - Approved existing: 012, 019
 
 ## Quality contract
@@ -25,7 +25,7 @@ Each rebuilt video requires actual REV003 semantic targets, a subject-specific c
 | 003 | People & Employee Campus | FAIL |
 | 004 | Administration & Headquarters | PASS |
 | 005 | R&D + QC Innovation Centre | FAIL |
-| 006 | Training & POVU Academy | PENDING |
+| 006 | Training & POVU Academy | PASS |
 | 007 | Restaurant + POVU Café | PENDING |
 | 008 | Wellness & Recreation | PENDING |
 | 009 | Daycare & Family Facilities | PENDING |
@@ -73,4 +73,4 @@ Each rebuilt video requires actual REV003 semantic targets, a subject-specific c
 
 On interruption, inspect `coordination/batch_state.json` and each V03 output directory. Resume at the first video that is not genuinely PASS or documented `BLOCKED_MISSING_GEOMETRY`. Do not rerender an already validated PASS output.
 
-Updated UTC: 2026-09-22T09:37:29.645361+00:00
+Updated UTC: 2026-09-22T09:58:50.471146+00:00

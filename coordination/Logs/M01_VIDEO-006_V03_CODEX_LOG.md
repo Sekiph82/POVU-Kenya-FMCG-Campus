@@ -1,0 +1,24 @@
+# M01 VIDEO-006 V03 Codex Log
+
+- Status: **PASS**
+- Subject: Training & POVU Academy
+- Source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
+- Active camera: `VID_006_Training_POVU_Academy_V03_CAMERA`
+- Semantic targets requested: MULTIPURPOSE_STUDIO, EXPERIENCE_ROOF, GARDENPOD_TABLE, GARDENPOD_DECK_00
+- Semantic targets resolved: MULTIPURPOSE_STUDIO, EXPERIENCE_ROOF, GARDENPOD_TABLE, GARDENPOD_DECK_00
+- Camera route: 7 locked checkpoints at frames 1, 121, 241, 361, 481, 601, 718; route is stored in `camera_route.json`.
+- Material overrides: none unless listed in `render_settings.json`; source GLB was not modified.
+- Render settings: local Blender Eevee, native 1280x720, 100%, 24 fps, frames 1–720, Workbench false; stored in `render_settings.json`.
+- Checkpoint QA: automated=True; visual=PASS; final report stored in `qa_report.json`.
+- Visual QA note: Visual contact-sheet QA passed: modeled multipurpose studio/experience facilities remain visible across checkpoints.
+- MP4 absolute Windows path: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_006_Training_POVU_Academy\POVU_VID_006_Training_POVU_Academy_30s.mp4`
+- File size: 1802149 bytes
+- SHA-256: `3CC2AE998B345D9514B74B5A50871A64824D7FE7102C2D039EE4BD83257D81E3`
+- Duration: 30.000000 seconds
+- FPS: 24/1
+- Resolution: 1280x720
+- Codec: h264
+- Render time: 00:19:55
+- Limitations: Training-specific signage or classroom equipment is not separately named in the REV003 inventory; route uses the modeled multipurpose studio and experience facilities.
+- Evidence directory: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_006_Training_POVU_Academy`
+- Log updated UTC: 2026-09-22T09:58:50.332142+00:00

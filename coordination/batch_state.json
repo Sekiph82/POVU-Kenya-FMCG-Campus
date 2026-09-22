@@ -48,9 +48,10 @@
     {
       "video": 6,
       "title": "Training & POVU Academy",
-      "status": "PENDING",
-      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
-      "note": ""
+      "status": "PASS",
+      "updated_at_utc": "2026-09-22T09:58:50.400140+00:00",
+      "note": "Local Blender V03 final render, exact MP4 validation, final QA frames, and visual QA passed.",
+      "render_time": "00:19:55"
     },
     {
       "video": 7,
@@ -347,10 +348,10 @@
       "note": ""
     }
   ],
-  "updated_at_utc": "2026-09-22T09:37:29.590459+00:00",
+  "updated_at_utc": "2026-09-22T09:58:50.400140+00:00",
   "counts": {
-    "PASS": 3,
+    "PASS": 4,
     "FAIL": 2,
-    "PENDING": 43
+    "PENDING": 42
   }
 }

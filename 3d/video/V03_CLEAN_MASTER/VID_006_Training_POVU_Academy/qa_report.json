@@ -1,0 +1,232 @@
+{
+  "video": 6,
+  "title": "Training & POVU Academy",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "checkpoints": [
+    {
+      "frame": 1,
+      "requested_time_seconds": 0.0,
+      "active_camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+      "camera_world_xyz": [
+        -12.623664855957031,
+        -106.26850891113281,
+        17.888168334960938
+      ],
+      "camera_rotation_euler": [
+        1.344950556755066,
+        5.968321659111098e-08,
+        0.38625040650367737
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "semantic_target": "building_facade_pass_1",
+      "visible_target_objects": [
+        "EXPERIENCE_ROOF"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 121,
+      "requested_time_seconds": 5.0,
+      "active_camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+      "camera_world_xyz": [
+        -3.2153587341308594,
+        -102.8797378540039,
+        15.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.395110011100769,
+        -6.038787603301898e-08,
+        0.610158383846283
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "semantic_target": "building_facade_pass_2",
+      "visible_target_objects": [
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 241,
+      "requested_time_seconds": 10.0,
+      "active_camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+      "camera_world_xyz": [
+        4.311285018920898,
+        -100.16871643066406,
+        14.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.4253870248794556,
+        4.8487503789829134e-08,
+        0.7726925015449524
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "semantic_target": "building_facade_pass_3",
+      "visible_target_objects": [
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 361,
+      "requested_time_seconds": 15.0,
+      "active_camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+      "camera_world_xyz": [
+        -25.795291900634766,
+        -111.0127944946289,
+        14.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.4171602725982666,
+        1.0268239591937345e-09,
+        0.07107558101415634
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "semantic_target": "building_facade_pass_4",
+      "visible_target_objects": [
+        "EXPERIENCE_ROOF"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 481,
+      "requested_time_seconds": 20.0,
+      "active_camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+      "camera_world_xyz": [
+        -35.20359802246094,
+        -114.40156555175781,
+        15.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.4085352420806885,
+        -2.3633434764747108e-08,
+        -0.12747439742088318
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "semantic_target": "building_facade_pass_5",
+      "visible_target_objects": [
+        "EXPERIENCE_ROOF"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 601,
+      "requested_time_seconds": 25.0,
+      "active_camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+      "camera_world_xyz": [
+        -20.150310516357422,
+        -108.97953033447266,
+        16.888168334960938
+      ],
+      "camera_rotation_euler": [
+        1.368761420249939,
+        -9.741413009578537e-09,
+        0.20306678116321564
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "semantic_target": "building_facade_pass_6",
+      "visible_target_objects": [
+        "EXPERIENCE_ROOF"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 718,
+      "requested_time_seconds": 29.9,
+      "active_camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+      "camera_world_xyz": [
+        -12.623664855957031,
+        -106.26850891113281,
+        19.888168334960938
+      ],
+      "camera_rotation_euler": [
+        1.3017115592956543,
+        -9.775629195019064e-09,
+        0.38625049591064453
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "semantic_target": "building_facade_pass_7",
+      "visible_target_objects": [
+        "EXPERIENCE_ROOF"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "automated_all_pass": true,
+  "visual_qa": "PASS",
+  "visual_qa_note": "Visual contact-sheet QA passed: modeled multipurpose studio/experience facilities remain visible across checkpoints.",
+  "all_pass": true
+}

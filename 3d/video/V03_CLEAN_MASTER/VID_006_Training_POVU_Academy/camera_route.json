@@ -1,0 +1,238 @@
+{
+  "video": 6,
+  "title": "Training & POVU Academy",
+  "camera": "VID_006_Training_POVU_Academy_V03_CAMERA",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -12.623664855957031,
+        -106.26850891113281,
+        17.888168334960938
+      ],
+      "target": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "label": "building_facade_pass_1",
+      "semantic_objects": [
+        "MULTIPURPOSE_STUDIO",
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "time_seconds": 0.0,
+      "camera_xyz": [
+        -12.623664855957031,
+        -106.26850891113281,
+        17.888168334960938
+      ],
+      "camera_rotation_euler": [
+        1.344950556755066,
+        5.968321659111098e-08,
+        0.38625040650367737
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 121,
+      "location": [
+        -3.2153587341308594,
+        -102.8797378540039,
+        15.888167381286621
+      ],
+      "target": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "label": "building_facade_pass_2",
+      "semantic_objects": [
+        "MULTIPURPOSE_STUDIO",
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "time_seconds": 5.0,
+      "camera_xyz": [
+        -3.2153587341308594,
+        -102.8797378540039,
+        15.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.395110011100769,
+        -6.038787603301898e-08,
+        0.610158383846283
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 241,
+      "location": [
+        4.311285018920898,
+        -100.16871643066406,
+        14.888167381286621
+      ],
+      "target": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "label": "building_facade_pass_3",
+      "semantic_objects": [
+        "MULTIPURPOSE_STUDIO",
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "time_seconds": 10.0,
+      "camera_xyz": [
+        4.311285018920898,
+        -100.16871643066406,
+        14.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.4253870248794556,
+        4.8487503789829134e-08,
+        0.7726925015449524
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 361,
+      "location": [
+        -25.795291900634766,
+        -111.0127944946289,
+        14.888167381286621
+      ],
+      "target": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "label": "building_facade_pass_4",
+      "semantic_objects": [
+        "MULTIPURPOSE_STUDIO",
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "time_seconds": 15.0,
+      "camera_xyz": [
+        -25.795291900634766,
+        -111.0127944946289,
+        14.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.4171602725982666,
+        1.0268239591937345e-09,
+        0.07107558101415634
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 481,
+      "location": [
+        -35.20359802246094,
+        -114.40156555175781,
+        15.888167381286621
+      ],
+      "target": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "label": "building_facade_pass_5",
+      "semantic_objects": [
+        "MULTIPURPOSE_STUDIO",
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "time_seconds": 20.0,
+      "camera_xyz": [
+        -35.20359802246094,
+        -114.40156555175781,
+        15.888167381286621
+      ],
+      "camera_rotation_euler": [
+        1.4085352420806885,
+        -2.3633434764747108e-08,
+        -0.12747439742088318
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 601,
+      "location": [
+        -20.150310516357422,
+        -108.97953033447266,
+        16.888168334960938
+      ],
+      "target": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "label": "building_facade_pass_6",
+      "semantic_objects": [
+        "MULTIPURPOSE_STUDIO",
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "time_seconds": 25.0,
+      "camera_xyz": [
+        -20.150310516357422,
+        -108.97953033447266,
+        16.888168334960938
+      ],
+      "camera_rotation_euler": [
+        1.368761420249939,
+        -9.741413009578537e-09,
+        0.20306678116321564
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 718,
+      "location": [
+        -12.623664855957031,
+        -106.26850891113281,
+        19.888168334960938
+      ],
+      "target": [
+        -29.0,
+        -66.0,
+        7.899999618530273
+      ],
+      "label": "building_facade_pass_7",
+      "semantic_objects": [
+        "MULTIPURPOSE_STUDIO",
+        "EXPERIENCE_ROOF",
+        "GARDENPOD_TABLE",
+        "GARDENPOD_DECK_00"
+      ],
+      "time_seconds": 29.9,
+      "camera_xyz": [
+        -12.623664855957031,
+        -106.26850891113281,
+        19.888168334960938
+      ],
+      "camera_rotation_euler": [
+        1.3017115592956543,
+        -9.775629195019064e-09,
+        0.38625049591064453
+      ],
+      "lens": 42.0
+    }
+  ],
+  "camera_true_rule": "Final frame N is rendered from the active Blender production camera at frame N."
+}
