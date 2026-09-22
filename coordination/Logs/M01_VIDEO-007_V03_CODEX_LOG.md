@@ -1,0 +1,24 @@
+# M01 VIDEO-007 V03 Codex Log
+
+- Status: **FAIL**
+- Subject: Restaurant + POVU Café
+- Source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
+- Active camera: `VID_007_Restaurant_POVU_Cafe_V03_CAMERA`
+- Semantic targets requested: Restaurant_Wellness, CAFE_TERRACE, CAFE_TABLE, CAFE_GLASS_FRONT, CAFE_WATER_CHANNEL
+- Semantic targets resolved: Restaurant_Wellness, CAFE_TERRACE, CAFE_TABLE, CAFE_GLASS_FRONT, CAFE_WATER_CHANNEL
+- Camera route: 7 locked checkpoints at frames 1, 121, 241, 361, 481, 601, 718; route is stored in `camera_route.json`.
+- Material overrides: none unless listed in `render_settings.json`; source GLB was not modified.
+- Render settings: local Blender Eevee, native 1280x720, 100%, 24 fps, frames 1–720, Workbench false; stored in `render_settings.json`.
+- Checkpoint QA: automated=True; visual=FAIL; final report stored in `qa_report.json`.
+- Visual QA note: Final still QA failed: first/middle/last frames remain roof/blank-surface dominant; cafe subject not consistently framed. Production paused after VIDEO-007 per user request.
+- MP4 absolute Windows path: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_007_Restaurant_POVU_Cafe\POVU_VID_007_Restaurant_POVU_Cafe_30s.mp4`
+- File size: 1507221 bytes
+- SHA-256: `2173B95661F51AEB1459B27652430AE2EB21CF5EA80C99871ECD367DF96E977F`
+- Duration: 30.000000 seconds
+- FPS: 24/1
+- Resolution: 1280x720
+- Codec: h264
+- Render time: 00:23:25
+- Limitations: none recorded
+- Evidence directory: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_007_Restaurant_POVU_Cafe`
+- Log updated UTC: 2026-09-22T10:28:56.839896+00:00

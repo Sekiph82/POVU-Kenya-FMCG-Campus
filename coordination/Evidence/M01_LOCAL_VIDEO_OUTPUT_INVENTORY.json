@@ -1,0 +1,90 @@
+{
+  "batch": "M01_REMAINING_48_V03_CLEAN_MASTER",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "generated_at_utc": "2026-09-22T10:29:37.647426+00:00",
+  "production_paused_after": "007",
+  "local_output_root": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER",
+  "note": "012 and 019 are preserved approved V03_CORRECTIVE outputs; failed 003 and 007 MP4s are retained as evidence; 005 has no MP4 because checkpoint QA failed before full render.",
+  "videos": [
+    {
+      "video": "001",
+      "title": "POVU Campus Aerial",
+      "status": "PASS",
+      "relative_path": "3d/video/V03_CLEAN_MASTER/VID_001_POVU_Campus_Aerial/POVU_VID_001_POVU_Campus_Aerial_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_001_POVU_Campus_Aerial\\POVU_VID_001_POVU_Campus_Aerial_30s.mp4",
+      "exists": true,
+      "bytes": 2481979,
+      "sha256": "9FBEF25C5DD0F38B4CEA3475BDBE3C0F32838AD7CA29F387C9D87BF2EC55DA86"
+    },
+    {
+      "video": "002",
+      "title": "Main Entrance & POVU Plaza",
+      "status": "PASS",
+      "relative_path": "3d/video/V03_CLEAN_MASTER/VID_002_Main_Entrance_POVU_Plaza/POVU_VID_002_Main_Entrance_POVU_Plaza_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_002_Main_Entrance_POVU_Plaza\\POVU_VID_002_Main_Entrance_POVU_Plaza_30s.mp4",
+      "exists": true,
+      "bytes": 2632294,
+      "sha256": "61CDAAA2A91090DCCACA079BD1C3B2A676792776A1EC475C1262E918144F0420"
+    },
+    {
+      "video": "003",
+      "title": "People & Employee Campus",
+      "status": "FAIL",
+      "relative_path": "3d/video/V03_CLEAN_MASTER/VID_003_People_Employee_Campus/POVU_VID_003_People_Employee_Campus_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_003_People_Employee_Campus\\POVU_VID_003_People_Employee_Campus_30s.mp4",
+      "exists": true,
+      "bytes": 2191835,
+      "sha256": "44AABB81CF8AC839299BA18C51E110459AD28984185F298D380A761A4E597CE8"
+    },
+    {
+      "video": "004",
+      "title": "Administration & Headquarters",
+      "status": "PASS",
+      "relative_path": "3d/video/V03_CLEAN_MASTER/VID_004_Administration_Headquarters/POVU_VID_004_Administration_Headquarters_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_004_Administration_Headquarters\\POVU_VID_004_Administration_Headquarters_30s.mp4",
+      "exists": true,
+      "bytes": 2234121,
+      "sha256": "9C4B096A1C6C40D229E336B2E9CEDE9330CD3E384D4EFA5AA77D6525477FD009"
+    },
+    {
+      "video": "006",
+      "title": "Training & POVU Academy",
+      "status": "PASS",
+      "relative_path": "3d/video/V03_CLEAN_MASTER/VID_006_Training_POVU_Academy/POVU_VID_006_Training_POVU_Academy_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_006_Training_POVU_Academy\\POVU_VID_006_Training_POVU_Academy_30s.mp4",
+      "exists": true,
+      "bytes": 1802149,
+      "sha256": "3CC2AE998B345D9514B74B5A50871A64824D7FE7102C2D039EE4BD83257D81E3"
+    },
+    {
+      "video": "007",
+      "title": "Restaurant + POVU Cafe",
+      "status": "FAIL",
+      "relative_path": "3d/video/V03_CLEAN_MASTER/VID_007_Restaurant_POVU_Cafe/POVU_VID_007_Restaurant_POVU_Cafe_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_007_Restaurant_POVU_Cafe\\POVU_VID_007_Restaurant_POVU_Cafe_30s.mp4",
+      "exists": true,
+      "bytes": 1507221,
+      "sha256": "2173B95661F51AEB1459B27652430AE2EB21CF5EA80C99871ECD367DF96E977F"
+    },
+    {
+      "video": "012",
+      "title": "POVU Glass Deck",
+      "status": "V03_APPROVED",
+      "relative_path": "3d/video/V03_CORRECTIVE/VIDEO_03_GLASS_DECK/POVU_VID_GLASS_DECK_V03_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CORRECTIVE\\VIDEO_03_GLASS_DECK\\POVU_VID_GLASS_DECK_V03_30s.mp4",
+      "exists": true,
+      "bytes": 1657656,
+      "sha256": "EC8EC8123AAA9AB375C25D6D8D4770CC6946675402B731113CF4C56649D96F3D"
+    },
+    {
+      "video": "019",
+      "title": "Liquid Mixing / Wet Processing",
+      "status": "V03_APPROVED",
+      "relative_path": "3d/video/V03_CORRECTIVE/VIDEO_01_WET_PROCESSING/POVU_VID_019_V03_Wet_Processing_CLEAN_30s.mp4",
+      "absolute_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CORRECTIVE\\VIDEO_01_WET_PROCESSING\\POVU_VID_019_V03_Wet_Processing_CLEAN_30s.mp4",
+      "exists": true,
+      "bytes": 2230949,
+      "sha256": "BC44895AB0AD7F750A671999527A1645BEA30924D14AD765884B78798867E7B5"
+    }
+  ]
+}

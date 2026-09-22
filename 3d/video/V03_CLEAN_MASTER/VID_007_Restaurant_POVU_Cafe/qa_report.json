@@ -1,0 +1,251 @@
+{
+  "video": 7,
+  "title": "Restaurant + POVU Caf\u00e9",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "checkpoints": [
+    {
+      "frame": 1,
+      "requested_time_seconds": 0.0,
+      "active_camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+      "camera_world_xyz": [
+        -18.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.4444953203201294,
+        -8.29854087669446e-08,
+        -0.6540828347206116
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "semantic_target": "cafe_frontage_pass_1",
+      "visible_target_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 121,
+      "requested_time_seconds": 5.0,
+      "active_camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+      "camera_world_xyz": [
+        -10.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.4286532402038574,
+        -5.141492565030603e-08,
+        -0.4636476933956146
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "semantic_target": "cafe_frontage_pass_2",
+      "visible_target_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 241,
+      "requested_time_seconds": 10.0,
+      "active_camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+      "camera_world_xyz": [
+        0.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.414264440536499,
+        -6.087545134647598e-09,
+        -0.16514870524406433
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "semantic_target": "cafe_frontage_pass_3",
+      "visible_target_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 361,
+      "requested_time_seconds": 15.0,
+      "active_camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+      "camera_world_xyz": [
+        10.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.414264440536499,
+        6.087545134647598e-09,
+        0.16514870524406433
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "semantic_target": "cafe_frontage_pass_4",
+      "visible_target_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 481,
+      "requested_time_seconds": 20.0,
+      "active_camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+      "camera_world_xyz": [
+        20.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.4286532402038574,
+        5.141492565030603e-08,
+        0.4636476933956146
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "semantic_target": "cafe_frontage_pass_5",
+      "visible_target_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 601,
+      "requested_time_seconds": 25.0,
+      "active_camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+      "camera_world_xyz": [
+        5.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.412140965461731,
+        -0.0,
+        0.0
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "semantic_target": "cafe_frontage_pass_6",
+      "visible_target_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 718,
+      "requested_time_seconds": 29.9,
+      "active_camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+      "camera_world_xyz": [
+        5.0,
+        -110.0,
+        10.0
+      ],
+      "camera_rotation_euler": [
+        1.3798191547393799,
+        -0.0,
+        0.0
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "semantic_target": "cafe_frontage_pass_7",
+      "visible_target_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "automated_all_pass": true,
+  "visual_qa": "FAIL",
+  "visual_qa_note": "Final still QA failed: first/middle/last frames remain roof/blank-surface dominant; cafe subject not consistently framed. Production paused after VIDEO-007 per user request.",
+  "all_pass": false
+}

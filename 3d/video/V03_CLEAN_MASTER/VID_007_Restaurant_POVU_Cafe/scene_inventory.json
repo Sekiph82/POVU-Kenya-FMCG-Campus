@@ -1,0 +1,58 @@
+{
+  "video": 7,
+  "title": "Restaurant + POVU Caf\u00e9",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "requested_targets": [
+    "Restaurant_Wellness",
+    "CAFE_TERRACE",
+    "CAFE_TABLE",
+    "CAFE_GLASS_FRONT",
+    "CAFE_WATER_CHANNEL"
+  ],
+  "resolved_targets": [
+    "Restaurant_Wellness",
+    "CAFE_TERRACE",
+    "CAFE_TABLE",
+    "CAFE_GLASS_FRONT",
+    "CAFE_WATER_CHANNEL"
+  ],
+  "target_mapping": {
+    "Restaurant_Wellness": [
+      "Restaurant_Wellness"
+    ],
+    "CAFE_TERRACE": [
+      "CAFE_TERRACE"
+    ],
+    "CAFE_TABLE": [
+      "CAFE_TABLE"
+    ],
+    "CAFE_GLASS_FRONT": [
+      "CAFE_GLASS_FRONT"
+    ],
+    "CAFE_WATER_CHANNEL": [
+      "CAFE_WATER_CHANNEL"
+    ]
+  },
+  "target_bounds": {
+    "min": [
+      -16.0,
+      -91.0,
+      1.1999998092651367
+    ],
+    "max": [
+      26.0,
+      -55.5,
+      9.199999809265137
+    ],
+    "center": [
+      5.0,
+      -73.25,
+      5.199999809265137
+    ],
+    "dimensions": [
+      42.0,
+      35.5,
+      8.0
+    ]
+  }
+}

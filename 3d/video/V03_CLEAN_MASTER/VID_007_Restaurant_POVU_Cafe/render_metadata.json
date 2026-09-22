@@ -1,0 +1,18 @@
+{
+  "video": 7,
+  "title": "Restaurant + POVU Caf\u00e9",
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "frames_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_007_Restaurant_POVU_Cafe\\frames",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_007_Restaurant_POVU_Cafe\\render.blend",
+  "rendered_at_utc": "2026-09-22T10:26:26.609813+00:00"
+}

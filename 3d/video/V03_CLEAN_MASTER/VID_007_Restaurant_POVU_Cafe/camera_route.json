@@ -1,0 +1,245 @@
+{
+  "video": 7,
+  "title": "Restaurant + POVU Caf\u00e9",
+  "camera": "VID_007_Restaurant_POVU_Cafe_V03_CAMERA",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -18.0,
+        -110.0,
+        9.0
+      ],
+      "target": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "label": "cafe_frontage_pass_1",
+      "semantic_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "time_seconds": 0.0,
+      "camera_xyz": [
+        -18.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.4444953203201294,
+        -8.29854087669446e-08,
+        -0.6540828347206116
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 121,
+      "location": [
+        -10.0,
+        -110.0,
+        9.0
+      ],
+      "target": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "label": "cafe_frontage_pass_2",
+      "semantic_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "time_seconds": 5.0,
+      "camera_xyz": [
+        -10.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.4286532402038574,
+        -5.141492565030603e-08,
+        -0.4636476933956146
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 241,
+      "location": [
+        0.0,
+        -110.0,
+        9.0
+      ],
+      "target": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "label": "cafe_frontage_pass_3",
+      "semantic_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "time_seconds": 10.0,
+      "camera_xyz": [
+        0.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.414264440536499,
+        -6.087545134647598e-09,
+        -0.16514870524406433
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 361,
+      "location": [
+        10.0,
+        -110.0,
+        9.0
+      ],
+      "target": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "label": "cafe_frontage_pass_4",
+      "semantic_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "time_seconds": 15.0,
+      "camera_xyz": [
+        10.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.414264440536499,
+        6.087545134647598e-09,
+        0.16514870524406433
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 481,
+      "location": [
+        20.0,
+        -110.0,
+        9.0
+      ],
+      "target": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "label": "cafe_frontage_pass_5",
+      "semantic_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "time_seconds": 20.0,
+      "camera_xyz": [
+        20.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.4286532402038574,
+        5.141492565030603e-08,
+        0.4636476933956146
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 601,
+      "location": [
+        5.0,
+        -110.0,
+        9.0
+      ],
+      "target": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "label": "cafe_frontage_pass_6",
+      "semantic_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "time_seconds": 25.0,
+      "camera_xyz": [
+        5.0,
+        -110.0,
+        9.0
+      ],
+      "camera_rotation_euler": [
+        1.412140965461731,
+        -0.0,
+        0.0
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 718,
+      "location": [
+        5.0,
+        -110.0,
+        10.0
+      ],
+      "target": [
+        5.0,
+        -80.0,
+        4.199999809265137
+      ],
+      "label": "cafe_frontage_pass_7",
+      "semantic_objects": [
+        "Restaurant_Wellness",
+        "CAFE_TERRACE",
+        "CAFE_TABLE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_WATER_CHANNEL"
+      ],
+      "time_seconds": 29.9,
+      "camera_xyz": [
+        5.0,
+        -110.0,
+        10.0
+      ],
+      "camera_rotation_euler": [
+        1.3798191547393799,
+        -0.0,
+        0.0
+      ],
+      "lens": 42.0
+    }
+  ],
+  "camera_true_rule": "Final frame N is rendered from the active Blender production camera at frame N."
+}

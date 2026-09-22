@@ -9,8 +9,9 @@ This run rebuilds the 48 canonical videos with IDs 001–011 and 013–050 using
 - Renderer: local Windows Blender Eevee only
 - Output root: `3d/video/V03_CLEAN_MASTER/`
 - Target count: 48
-- Counts: {"FAIL": 2, "PASS": 4, "PENDING": 42}
+- Counts: {"FAIL": 3, "PASS": 4, "PENDING": 41}
 - Approved existing: 012, 019
+- Production status: `PAUSED` after VIDEO-007 at the user's direction; VIDEO-008 was not started.
 
 ## Quality contract
 
@@ -26,7 +27,7 @@ Each rebuilt video requires actual REV003 semantic targets, a subject-specific c
 | 004 | Administration & Headquarters | PASS |
 | 005 | R&D + QC Innovation Centre | FAIL |
 | 006 | Training & POVU Academy | PASS |
-| 007 | Restaurant + POVU Café | PENDING |
+| 007 | Restaurant + POVU Café | FAIL |
 | 008 | Wellness & Recreation | PENDING |
 | 009 | Daycare & Family Facilities | PENDING |
 | 010 | Occupational Health Centre | PENDING |
@@ -73,4 +74,8 @@ Each rebuilt video requires actual REV003 semantic targets, a subject-specific c
 
 On interruption, inspect `coordination/batch_state.json` and each V03 output directory. Resume at the first video that is not genuinely PASS or documented `BLOCKED_MISSING_GEOMETRY`. Do not rerender an already validated PASS output.
 
-Updated UTC: 2026-09-22T09:58:50.471146+00:00
+## Local output preservation
+
+`coordination/Evidence/M01_LOCAL_VIDEO_OUTPUT_INVENTORY.json` records the eight locally available production-set MP4s: passing 001, 002, 004, and 006; failed-render evidence 003 and 007; and preserved approved V03 outputs 012 and 019. VIDEO-005 has no MP4 because checkpoint visual QA failed before full render.
+
+Updated UTC: 2026-09-22T10:28:56.953897+00:00

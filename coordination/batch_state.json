@@ -56,9 +56,10 @@
     {
       "video": 7,
       "title": "Restaurant + POVU Caf\u00e9",
-      "status": "PENDING",
-      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
-      "note": ""
+      "status": "FAIL",
+      "updated_at_utc": "2026-09-22T10:28:56.896899+00:00",
+      "note": "Final visual QA failed: first/middle/last frames remain roof/blank-surface dominant; cafe subject not consistently framed. Production paused after VIDEO-007 per user request.",
+      "render_time": "00:23:25"
     },
     {
       "video": 8,
@@ -348,10 +349,13 @@
       "note": ""
     }
   ],
-  "updated_at_utc": "2026-09-22T09:58:50.400140+00:00",
+  "updated_at_utc": "2026-09-22T10:28:56.896899+00:00",
+  "production_status": "PAUSED",
+  "paused_after_video": "007",
+  "pause_note": "User-directed production pause after VIDEO-007; do not start VIDEO-008 until resumed.",
   "counts": {
     "PASS": 4,
-    "FAIL": 2,
-    "PENDING": 42
+    "FAIL": 3,
+    "PENDING": 41
   }
 }

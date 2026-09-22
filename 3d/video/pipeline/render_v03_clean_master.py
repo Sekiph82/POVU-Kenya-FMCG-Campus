@@ -191,6 +191,20 @@ def route_for_spec(spec, target_names, mapping, target_bounds):
         locations = [base + offset for offset in offsets]
         targets = [location + forward * 100.0 for location in locations]
         return [point(frame, locations[i], targets[i], f"mes_control_room_pass_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
+    if spec.get("id") == 7:
+        # Café frontage is a low terrace/glass wall on the south side of the
+        # restaurant mass; keep the camera on that modeled visitor approach.
+        cafe_target = Vector((5.0, -80.0, 4.2))
+        locations = [
+            Vector((-18.0, -110.0, 9.0)),
+            Vector((-10.0, -110.0, 9.0)),
+            Vector((0.0, -110.0, 9.0)),
+            Vector((10.0, -110.0, 9.0)),
+            Vector((20.0, -110.0, 9.0)),
+            Vector((5.0, -110.0, 9.0)),
+            Vector((5.0, -110.0, 10.0)),
+        ]
+        return [point(frame, locations[i], cafe_target, f"cafe_frontage_pass_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
     if style == "building":
         # Keep building films on the presentation/visitor side of the subject. A
         # wide orbit crosses the roof envelope and produces blank-wall frames.
