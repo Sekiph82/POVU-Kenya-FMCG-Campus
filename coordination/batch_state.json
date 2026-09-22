@@ -33,9 +33,10 @@
     {
       "video": 4,
       "title": "Administration & Headquarters",
-      "status": "PENDING",
-      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
-      "note": ""
+      "status": "PASS",
+      "updated_at_utc": "2026-09-22T09:32:47.374959+00:00",
+      "note": "Corrected sign/lobby-focused local Blender V03 render, exact MP4 validation, final QA frames, and visual QA passed.",
+      "render_time": "00:27:20"
     },
     {
       "video": 5,
@@ -346,10 +347,10 @@
       "note": ""
     }
   ],
-  "updated_at_utc": "2026-09-22T06:06:32.154501+00:00",
+  "updated_at_utc": "2026-09-22T09:32:47.374959+00:00",
   "counts": {
-    "PASS": 2,
+    "PASS": 3,
     "FAIL": 1,
-    "PENDING": 45
+    "PENDING": 44
   }
 }

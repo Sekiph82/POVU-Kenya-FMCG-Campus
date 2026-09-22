@@ -181,6 +181,30 @@ def route_for_spec(spec, target_names, mapping, target_bounds):
             Vector((-18.0, -62.0, 40.0)),
         ]
         return [point(frame, locations[i], garden_target, f"employee_campus_garden_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
+    if style == "building":
+        # Keep building films on the presentation/visitor side of the subject. A
+        # wide orbit crosses the roof envelope and produces blank-wall frames.
+        depth = max(24.0, min(55.0, radius * 1.35))
+        front = center + direction * depth
+        focus = Vector((center.x, center.y, max(2.5, center.z)))
+        focus_terms = ("SIGN", "LOBBY", "ENTRY", "FRONT", "CANOPY", "SCREEN")
+        focus_candidates = [bpy.data.objects.get(name) for name in target_names]
+        focus_candidates = [obj for obj in focus_candidates if obj and obj.type == "MESH"]
+        focus_candidates.sort(key=lambda obj: (0 if any(term in obj.name.upper() for term in focus_terms) else 1, obj.name))
+        if focus_candidates:
+            focus_box = bbox_for_object(focus_candidates[0])
+            if focus_box:
+                focus = Vector(focus_box["center"])
+        locations = [
+            front + Vector((0.0, 0.0, 4.0)),
+            front + perpendicular * 10.0 + Vector((0.0, 0.0, 2.0)),
+            front + perpendicular * 18.0 + Vector((0.0, 0.0, 1.0)),
+            front - perpendicular * 14.0 + Vector((0.0, 0.0, 1.0)),
+            front - perpendicular * 24.0 + Vector((0.0, 0.0, 2.0)),
+            front - perpendicular * 8.0 + Vector((0.0, 0.0, 3.0)),
+            front + Vector((0.0, 0.0, 6.0)),
+        ]
+        return [point(frame, locations[i], focus, f"building_facade_pass_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
     start = anchor_location.copy()
     if (start - center).length > 160.0:
         start = center + direction * max(35.0, radius * 2.5) + Vector((0.0, 0.0, min(35.0, radius)))

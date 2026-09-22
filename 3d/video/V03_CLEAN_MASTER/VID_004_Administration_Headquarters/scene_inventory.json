@@ -1,0 +1,58 @@
+{
+  "video": 4,
+  "title": "Administration & Headquarters",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "requested_targets": [
+    "Admin_RD_QC",
+    "HQ_GLASS_LOBBY",
+    "POVU_HQ_SIGN",
+    "HQ_CANOPY",
+    "EXPERIENCE_LINK"
+  ],
+  "resolved_targets": [
+    "Admin_RD_QC",
+    "HQ_GLASS_LOBBY",
+    "POVU_HQ_SIGN",
+    "HQ_CANOPY",
+    "EXPERIENCE_LINK"
+  ],
+  "target_mapping": {
+    "Admin_RD_QC": [
+      "Admin_RD_QC"
+    ],
+    "HQ_GLASS_LOBBY": [
+      "HQ_GLASS_LOBBY"
+    ],
+    "POVU_HQ_SIGN": [
+      "POVU_HQ_SIGN"
+    ],
+    "HQ_CANOPY": [
+      "HQ_CANOPY"
+    ],
+    "EXPERIENCE_LINK": [
+      "EXPERIENCE_LINK"
+    ]
+  },
+  "target_bounds": {
+    "min": [
+      -84.0,
+      -93.0,
+      1.1999998092651367
+    ],
+    "max": [
+      -21.5,
+      -49.0,
+      11.199999809265137
+    ],
+    "center": [
+      -52.75,
+      -71.0,
+      6.199999809265137
+    ],
+    "dimensions": [
+      62.5,
+      44.0,
+      10.0
+    ]
+  }
+}

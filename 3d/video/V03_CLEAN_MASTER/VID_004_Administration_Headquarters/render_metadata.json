@@ -1,0 +1,18 @@
+{
+  "video": 4,
+  "title": "Administration & Headquarters",
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "frames_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_004_Administration_Headquarters\\frames",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_004_Administration_Headquarters\\render.blend",
+  "rendered_at_utc": "2026-09-22T07:08:49.116320+00:00"
+}

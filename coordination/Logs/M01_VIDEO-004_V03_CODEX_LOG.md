@@ -1,0 +1,24 @@
+# M01 VIDEO-004 V03 Codex Log
+
+- Status: **PASS**
+- Subject: Administration & Headquarters
+- Source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
+- Active camera: `VID_004_Administration_Headquarters_V03_CAMERA`
+- Semantic targets requested: Admin_RD_QC, HQ_GLASS_LOBBY, POVU_HQ_SIGN, HQ_CANOPY, EXPERIENCE_LINK
+- Semantic targets resolved: Admin_RD_QC, HQ_GLASS_LOBBY, POVU_HQ_SIGN, HQ_CANOPY, EXPERIENCE_LINK
+- Camera route: 7 locked checkpoints at frames 1, 121, 241, 361, 481, 601, 718; route is stored in `camera_route.json`.
+- Material overrides: none unless listed in `render_settings.json`; source GLB was not modified.
+- Render settings: local Blender Eevee, native 1280x720, 100%, 24 fps, frames 1–720, Workbench false; stored in `render_settings.json`.
+- Checkpoint QA: automated=True; visual=REVIEW_REQUIRED; final report stored in `qa_report.json`.
+- Visual QA note: not recorded
+- MP4 absolute Windows path: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_004_Administration_Headquarters\POVU_VID_004_Administration_Headquarters_30s.mp4`
+- File size: 2234121 bytes
+- SHA-256: `9C4B096A1C6C40D229E336B2E9CEDE9330CD3E384D4EFA5AA77D6525477FD009`
+- Duration: 30.000000 seconds
+- FPS: 24/1
+- Resolution: 1280x720
+- Codec: h264
+- Render time: 00:27:20
+- Limitations: none recorded
+- Evidence directory: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_004_Administration_Headquarters`
+- Log updated UTC: 2026-09-22T09:32:47.309451+00:00

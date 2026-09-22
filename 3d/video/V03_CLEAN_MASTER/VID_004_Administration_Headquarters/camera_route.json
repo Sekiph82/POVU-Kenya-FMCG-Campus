@@ -1,0 +1,245 @@
+{
+  "video": 4,
+  "title": "Administration & Headquarters",
+  "camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -18.750335693359375,
+        -101.87085723876953,
+        16.874780654907227
+      ],
+      "target": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "label": "building_facade_pass_1",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY",
+        "EXPERIENCE_LINK"
+      ],
+      "time_seconds": 0.0,
+      "camera_xyz": [
+        -18.750335693359375,
+        -101.87085723876953,
+        16.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.414425015449524,
+        8.453939415176137e-08,
+        1.1865400075912476
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 121,
+      "location": [
+        -12.028130531311035,
+        -94.46734619140625,
+        14.874780654907227
+      ],
+      "target": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "label": "building_facade_pass_2",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY",
+        "EXPERIENCE_LINK"
+      ],
+      "time_seconds": 5.0,
+      "camera_xyz": [
+        -12.028130531311035,
+        -94.46734619140625,
+        14.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4711220264434814,
+        6.110909822609756e-08,
+        1.3886524438858032
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 241,
+      "location": [
+        -6.650365829467773,
+        -88.54454040527344,
+        13.874780654907227
+      ],
+      "target": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "label": "building_facade_pass_3",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY",
+        "EXPERIENCE_LINK"
+      ],
+      "time_seconds": 10.0,
+      "camera_xyz": [
+        -6.650365829467773,
+        -88.54454040527344,
+        13.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4994416236877441,
+        3.847597085382404e-08,
+        1.5212838649749756
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 361,
+      "location": [
+        -28.161422729492188,
+        -112.23577117919922,
+        13.874780654907227
+      ],
+      "target": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "label": "building_facade_pass_4",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY",
+        "EXPERIENCE_LINK"
+      ],
+      "time_seconds": 15.0,
+      "camera_xyz": [
+        -28.161422729492188,
+        -112.23577117919922,
+        13.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4785703420639038,
+        -4.125859831560774e-08,
+        0.849560558795929
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 481,
+      "location": [
+        -34.883628845214844,
+        -119.6392822265625,
+        14.874780654907227
+      ],
+      "target": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "label": "building_facade_pass_5",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY",
+        "EXPERIENCE_LINK"
+      ],
+      "time_seconds": 20.0,
+      "camera_xyz": [
+        -34.883628845214844,
+        -119.6392822265625,
+        14.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4567608833312988,
+        3.1424480795294585e-08,
+        0.6020725965499878
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 601,
+      "location": [
+        -24.12809944152832,
+        -107.79366302490234,
+        15.874780654907227
+      ],
+      "target": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "label": "building_facade_pass_6",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY",
+        "EXPERIENCE_LINK"
+      ],
+      "time_seconds": 25.0,
+      "camera_xyz": [
+        -24.12809944152832,
+        -107.79366302490234,
+        15.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4308252334594727,
+        -7.983428673696835e-08,
+        0.9990647435188293
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 718,
+      "location": [
+        -18.750335693359375,
+        -101.87085723876953,
+        18.874780654907227
+      ],
+      "target": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "label": "building_facade_pass_7",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY",
+        "EXPERIENCE_LINK"
+      ],
+      "time_seconds": 29.9,
+      "camera_xyz": [
+        -18.750335693359375,
+        -101.87085723876953,
+        18.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.3686952590942383,
+        4.830464916949495e-09,
+        1.1865400075912476
+      ],
+      "lens": 42.0
+    }
+  ],
+  "camera_true_rule": "Final frame N is rendered from the active Blender production camera at frame N."
+}

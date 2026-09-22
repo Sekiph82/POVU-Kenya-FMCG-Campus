@@ -1,0 +1,247 @@
+{
+  "video": 4,
+  "title": "Administration & Headquarters",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "checkpoints": [
+    {
+      "frame": 1,
+      "requested_time_seconds": 0.0,
+      "active_camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+      "camera_world_xyz": [
+        -18.750335693359375,
+        -101.87085723876953,
+        16.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.414425015449524,
+        8.453939415176137e-08,
+        1.1865400075912476
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "semantic_target": "building_facade_pass_1",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 121,
+      "requested_time_seconds": 5.0,
+      "active_camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+      "camera_world_xyz": [
+        -12.028130531311035,
+        -94.46734619140625,
+        14.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4711220264434814,
+        6.110909822609756e-08,
+        1.3886524438858032
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "semantic_target": "building_facade_pass_2",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 241,
+      "requested_time_seconds": 10.0,
+      "active_camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+      "camera_world_xyz": [
+        -6.650365829467773,
+        -88.54454040527344,
+        13.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4994416236877441,
+        3.847597085382404e-08,
+        1.5212838649749756
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "semantic_target": "building_facade_pass_3",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 361,
+      "requested_time_seconds": 15.0,
+      "active_camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+      "camera_world_xyz": [
+        -28.161422729492188,
+        -112.23577117919922,
+        13.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4785703420639038,
+        -4.125859831560774e-08,
+        0.849560558795929
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "semantic_target": "building_facade_pass_4",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 481,
+      "requested_time_seconds": 20.0,
+      "active_camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+      "camera_world_xyz": [
+        -34.883628845214844,
+        -119.6392822265625,
+        14.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4567608833312988,
+        3.1424480795294585e-08,
+        0.6020725965499878
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "semantic_target": "building_facade_pass_5",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 601,
+      "requested_time_seconds": 25.0,
+      "active_camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+      "camera_world_xyz": [
+        -24.12809944152832,
+        -107.79366302490234,
+        15.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.4308252334594727,
+        -7.983428673696835e-08,
+        0.9990647435188293
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "semantic_target": "building_facade_pass_6",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 718,
+      "requested_time_seconds": 29.9,
+      "active_camera": "VID_004_Administration_Headquarters_V03_CAMERA",
+      "camera_world_xyz": [
+        -18.750335693359375,
+        -101.87085723876953,
+        18.874780654907227
+      ],
+      "camera_rotation_euler": [
+        1.3686952590942383,
+        4.830464916949495e-09,
+        1.1865400075912476
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -58.0,
+        -86.0,
+        10.199999809265137
+      ],
+      "semantic_target": "building_facade_pass_7",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "HQ_GLASS_LOBBY",
+        "POVU_HQ_SIGN",
+        "HQ_CANOPY"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "automated_all_pass": true,
+  "visual_qa": "REVIEW_REQUIRED"
+}
