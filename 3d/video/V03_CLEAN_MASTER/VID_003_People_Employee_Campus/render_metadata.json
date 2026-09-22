@@ -1,0 +1,18 @@
+{
+  "video": 3,
+  "title": "People & Employee Campus",
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+  "render_engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "frames_dir": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_003_People_Employee_Campus\\frames",
+  "blend_archive": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\video\\V03_CLEAN_MASTER\\VID_003_People_Employee_Campus\\render.blend",
+  "rendered_at_utc": "2026-09-22T06:04:36.113179+00:00"
+}

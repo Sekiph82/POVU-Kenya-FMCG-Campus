@@ -1,0 +1,240 @@
+{
+  "video": 3,
+  "title": "People & Employee Campus",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "checkpoints": [
+    {
+      "frame": 1,
+      "requested_time_seconds": 0.0,
+      "active_camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+      "camera_world_xyz": [
+        -18.0,
+        -62.0,
+        35.0
+      ],
+      "camera_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "semantic_target": "employee_campus_garden_1",
+      "visible_target_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 121,
+      "requested_time_seconds": 5.0,
+      "active_camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+      "camera_world_xyz": [
+        -35.0,
+        -62.0,
+        28.0
+      ],
+      "camera_rotation_euler": [
+        0.5755698084831238,
+        -2.0206778472697806e-08,
+        -1.5707963705062866
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "semantic_target": "employee_campus_garden_2",
+      "visible_target_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 241,
+      "requested_time_seconds": 10.0,
+      "active_camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+      "camera_world_xyz": [
+        -18.0,
+        -82.0,
+        30.0
+      ],
+      "camera_rotation_euler": [
+        0.6168869733810425,
+        -0.0,
+        0.0
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "semantic_target": "employee_campus_garden_3",
+      "visible_target_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 361,
+      "requested_time_seconds": 15.0,
+      "active_camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+      "camera_world_xyz": [
+        2.0,
+        -62.0,
+        28.0
+      ],
+      "camera_rotation_euler": [
+        0.6519961357116699,
+        -7.985408245758663e-08,
+        1.5707963705062866
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "semantic_target": "employee_campus_garden_4",
+      "visible_target_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 481,
+      "requested_time_seconds": 20.0,
+      "active_camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+      "camera_world_xyz": [
+        -18.0,
+        -42.0,
+        26.0
+      ],
+      "camera_rotation_euler": [
+        0.6906599402427673,
+        5.5692328970735616e-08,
+        3.141592502593994
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "semantic_target": "employee_campus_garden_5",
+      "visible_target_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 601,
+      "requested_time_seconds": 25.0,
+      "active_camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+      "camera_world_xyz": [
+        -42.0,
+        -72.0,
+        31.0
+      ],
+      "camera_rotation_euler": [
+        0.7274919748306274,
+        -1.1060240723281822e-08,
+        -1.1760053634643555
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "semantic_target": "employee_campus_garden_6",
+      "visible_target_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 718,
+      "requested_time_seconds": 29.9,
+      "active_camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+      "camera_world_xyz": [
+        -18.0,
+        -62.0,
+        40.0
+      ],
+      "camera_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "semantic_target": "employee_campus_garden_7",
+      "visible_target_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "automated_all_pass": true,
+  "visual_qa": "FAIL",
+  "visual_qa_note": "Final still QA failed: first/middle/last frames remain roof/blank-surface dominant despite checkpoint projection passing; route correction required.",
+  "all_pass": false
+}

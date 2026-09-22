@@ -166,6 +166,21 @@ def route_for_spec(spec, target_names, mapping, target_bounds):
             Vector((center.x - 4.0, front_y - 12.0, max(10.0, center.z + 7.0))),
         ]
         return [point(frame, locations[i], center, f"arrival_plaza_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
+    if style == "campus" and spec.get("id") == 3:
+        # Employee-campus geometry sits at the west/south edge of the wellness
+        # building. Explicit eye-level cross-axis views keep the pond, benches and
+        # canopy in frame instead of looking into the building roof.
+        garden_target = Vector((-18.0, -62.0, 1.8))
+        locations = [
+            Vector((-18.0, -62.0, 35.0)),
+            Vector((-35.0, -62.0, 28.0)),
+            Vector((-18.0, -82.0, 30.0)),
+            Vector((2.0, -62.0, 28.0)),
+            Vector((-18.0, -42.0, 26.0)),
+            Vector((-42.0, -72.0, 31.0)),
+            Vector((-18.0, -62.0, 40.0)),
+        ]
+        return [point(frame, locations[i], garden_target, f"employee_campus_garden_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
     start = anchor_location.copy()
     if (start - center).length > 160.0:
         start = center + direction * max(35.0, radius * 2.5) + Vector((0.0, 0.0, min(35.0, radius)))

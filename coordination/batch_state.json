@@ -25,9 +25,10 @@
     {
       "video": 3,
       "title": "People & Employee Campus",
-      "status": "PENDING",
-      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
-      "note": ""
+      "status": "FAIL",
+      "updated_at_utc": "2026-09-22T06:06:32.154501+00:00",
+      "note": "Final visual QA failed: roof/blank-surface dominant final frames; reroute required.",
+      "render_time": "00:27:40"
     },
     {
       "video": 4,
@@ -345,9 +346,10 @@
       "note": ""
     }
   ],
-  "updated_at_utc": "2026-09-22T05:25:27.378893+00:00",
+  "updated_at_utc": "2026-09-22T06:06:32.154501+00:00",
   "counts": {
     "PASS": 2,
-    "PENDING": 46
+    "FAIL": 1,
+    "PENDING": 45
   }
 }

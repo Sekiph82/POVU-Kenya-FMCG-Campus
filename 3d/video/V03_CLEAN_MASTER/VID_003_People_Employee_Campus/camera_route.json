@@ -1,0 +1,238 @@
+{
+  "video": 3,
+  "title": "People & Employee Campus",
+  "camera": "VID_003_People_Employee_Campus_V03_CAMERA",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -18.0,
+        -62.0,
+        35.0
+      ],
+      "target": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "label": "employee_campus_garden_1",
+      "semantic_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH",
+        "TREE_CANOPY021"
+      ],
+      "time_seconds": 0.0,
+      "camera_xyz": [
+        -18.0,
+        -62.0,
+        35.0
+      ],
+      "camera_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 121,
+      "location": [
+        -35.0,
+        -62.0,
+        28.0
+      ],
+      "target": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "label": "employee_campus_garden_2",
+      "semantic_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH",
+        "TREE_CANOPY021"
+      ],
+      "time_seconds": 5.0,
+      "camera_xyz": [
+        -35.0,
+        -62.0,
+        28.0
+      ],
+      "camera_rotation_euler": [
+        0.5755698084831238,
+        -2.0206778472697806e-08,
+        -1.5707963705062866
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 241,
+      "location": [
+        -18.0,
+        -82.0,
+        30.0
+      ],
+      "target": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "label": "employee_campus_garden_3",
+      "semantic_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH",
+        "TREE_CANOPY021"
+      ],
+      "time_seconds": 10.0,
+      "camera_xyz": [
+        -18.0,
+        -82.0,
+        30.0
+      ],
+      "camera_rotation_euler": [
+        0.6168869733810425,
+        -0.0,
+        0.0
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 361,
+      "location": [
+        2.0,
+        -62.0,
+        28.0
+      ],
+      "target": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "label": "employee_campus_garden_4",
+      "semantic_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH",
+        "TREE_CANOPY021"
+      ],
+      "time_seconds": 15.0,
+      "camera_xyz": [
+        2.0,
+        -62.0,
+        28.0
+      ],
+      "camera_rotation_euler": [
+        0.6519961357116699,
+        -7.985408245758663e-08,
+        1.5707963705062866
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 481,
+      "location": [
+        -18.0,
+        -42.0,
+        26.0
+      ],
+      "target": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "label": "employee_campus_garden_5",
+      "semantic_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH",
+        "TREE_CANOPY021"
+      ],
+      "time_seconds": 20.0,
+      "camera_xyz": [
+        -18.0,
+        -42.0,
+        26.0
+      ],
+      "camera_rotation_euler": [
+        0.6906599402427673,
+        5.5692328970735616e-08,
+        3.141592502593994
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 601,
+      "location": [
+        -42.0,
+        -72.0,
+        31.0
+      ],
+      "target": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "label": "employee_campus_garden_6",
+      "semantic_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH",
+        "TREE_CANOPY021"
+      ],
+      "time_seconds": 25.0,
+      "camera_xyz": [
+        -42.0,
+        -72.0,
+        31.0
+      ],
+      "camera_rotation_euler": [
+        0.7274919748306274,
+        -1.1060240723281822e-08,
+        -1.1760053634643555
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 718,
+      "location": [
+        -18.0,
+        -62.0,
+        40.0
+      ],
+      "target": [
+        -18.0,
+        -62.0,
+        1.7999999523162842
+      ],
+      "label": "employee_campus_garden_7",
+      "semantic_objects": [
+        "EMPLOYEE_REFLECTION_POND",
+        "Restaurant_Wellness",
+        "GARDEN_BENCH",
+        "TREE_CANOPY021"
+      ],
+      "time_seconds": 29.9,
+      "camera_xyz": [
+        -18.0,
+        -62.0,
+        40.0
+      ],
+      "camera_rotation_euler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 42.0
+    }
+  ],
+  "camera_true_rule": "Final frame N is rendered from the active Blender production camera at frame N."
+}

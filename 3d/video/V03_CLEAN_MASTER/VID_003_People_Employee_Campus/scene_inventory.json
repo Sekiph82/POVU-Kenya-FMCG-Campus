@@ -1,0 +1,55 @@
+{
+  "video": 3,
+  "title": "People & Employee Campus",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "requested_targets": [
+    "EMPLOYEE_REFLECTION_POND",
+    "Restaurant_Wellness",
+    "GARDEN_BENCH",
+    "TREE_CANOPY021",
+    "PRES_42_EMPLOYEE_GARDENS"
+  ],
+  "resolved_targets": [
+    "EMPLOYEE_REFLECTION_POND",
+    "Restaurant_Wellness",
+    "GARDEN_BENCH",
+    "TREE_CANOPY021"
+  ],
+  "target_mapping": {
+    "EMPLOYEE_REFLECTION_POND": [
+      "EMPLOYEE_REFLECTION_POND"
+    ],
+    "Restaurant_Wellness": [
+      "Restaurant_Wellness"
+    ],
+    "GARDEN_BENCH": [
+      "GARDEN_BENCH"
+    ],
+    "TREE_CANOPY021": [
+      "TREE_CANOPY021"
+    ],
+    "PRES_42_EMPLOYEE_GARDENS": []
+  },
+  "target_bounds": {
+    "min": [
+      -31.5,
+      -105.6369857788086,
+      1.1999998092651367
+    ],
+    "max": [
+      26.0,
+      -55.5,
+      10.299999237060547
+    ],
+    "center": [
+      -2.75,
+      -80.5684928894043,
+      5.749999523162842
+    ],
+    "dimensions": [
+      57.5,
+      50.136985778808594,
+      9.09999942779541
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+# M01 VIDEO-003 V03 Codex Log
+
+- Status: **FAIL**
+- Subject: People & Employee Campus
+- Source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
+- Active camera: `VID_003_People_Employee_Campus_V03_CAMERA`
+- Semantic targets requested: EMPLOYEE_REFLECTION_POND, Restaurant_Wellness, GARDEN_BENCH, TREE_CANOPY021, PRES_42_EMPLOYEE_GARDENS
+- Semantic targets resolved: EMPLOYEE_REFLECTION_POND, Restaurant_Wellness, GARDEN_BENCH, TREE_CANOPY021
+- Camera route: 7 locked checkpoints at frames 1, 121, 241, 361, 481, 601, 718; route is stored in `camera_route.json`.
+- Material overrides: none unless listed in `render_settings.json`; source GLB was not modified.
+- Render settings: local Blender Eevee, native 1280x720, 100%, 24 fps, frames 1–720, Workbench false; stored in `render_settings.json`.
+- Checkpoint QA: automated=True; visual=FAIL; final report stored in `qa_report.json`.
+- Visual QA note: Final still QA failed: first/middle/last frames remain roof/blank-surface dominant despite checkpoint projection passing; route correction required.
+- MP4 absolute Windows path: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_003_People_Employee_Campus\POVU_VID_003_People_Employee_Campus_30s.mp4`
+- File size: 2191835 bytes
+- SHA-256: `44AABB81CF8AC839299BA18C51E110459AD28984185F298D380A761A4E597CE8`
+- Duration: 30.000000 seconds
+- FPS: 24/1
+- Resolution: 1280x720
+- Codec: h264
+- Render time: 00:27:40
+- Limitations: none recorded
+- Evidence directory: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_003_People_Employee_Campus`
+- Log updated UTC: 2026-09-22T06:06:32.097027+00:00
