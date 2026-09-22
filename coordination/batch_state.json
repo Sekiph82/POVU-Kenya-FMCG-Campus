@@ -1,0 +1,353 @@
+{
+  "batch": "M01_REMAINING_48_V03_CLEAN_MASTER",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "target_count": 48,
+  "approved_existing": {
+    "012": "V03_APPROVED",
+    "019": "V03_APPROVED"
+  },
+  "videos": [
+    {
+      "video": 1,
+      "title": "POVU Campus Aerial",
+      "status": "PASS",
+      "updated_at_utc": "2026-09-22T04:54:28.682388+00:00",
+      "note": "Checkpoint visual QA, final MP4 QA, ffprobe and SHA-256 passed.",
+      "render_time": "21m 30s observed Blender render"
+    },
+    {
+      "video": 2,
+      "title": "Main Entrance & POVU Plaza",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 3,
+      "title": "People & Employee Campus",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 4,
+      "title": "Administration & Headquarters",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 5,
+      "title": "R&D + QC Innovation Centre",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 6,
+      "title": "Training & POVU Academy",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 7,
+      "title": "Restaurant + POVU Caf\u00e9",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 8,
+      "title": "Wellness & Recreation",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 9,
+      "title": "Daycare & Family Facilities",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 10,
+      "title": "Occupational Health Centre",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 11,
+      "title": "Production Building Overview",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 13,
+      "title": "MES Production Control Room",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 14,
+      "title": "Raw Material Receiving",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 15,
+      "title": "Raw Material Warehouse",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 16,
+      "title": "Chemical Storage & Unloading",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 17,
+      "title": "Raw Material Supermarket",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 18,
+      "title": "Liquid Ingredient Feeding",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 20,
+      "title": "Hypochlorite Production",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 21,
+      "title": "CIP & Hygiene Systems",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 22,
+      "title": "Bottle Manufacturing",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 23,
+      "title": "Caps & Closures Manufacturing",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 24,
+      "title": "Trigger Spray Manufacturing",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 25,
+      "title": "Liquid Bottle Filling",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 26,
+      "title": "Liquid Sachet Packaging",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 27,
+      "title": "Powder Handling",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 28,
+      "title": "Powder Packaging",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 29,
+      "title": "Toothpaste Manufacturing",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 30,
+      "title": "Toothpaste Packaging",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 31,
+      "title": "Standard Wet Wipes",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 32,
+      "title": "Medical & Baby Wipes",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 33,
+      "title": "Flushable Wipes",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 34,
+      "title": "Packaging Material Warehouse",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 35,
+      "title": "Packaging Material Supermarket",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 36,
+      "title": "End-of-Line Automation",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 37,
+      "title": "Finished Goods Flow",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 38,
+      "title": "Finished Goods Warehouse",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 39,
+      "title": "Dispatch & Truck Loading",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 40,
+      "title": "AMR & Smart Internal Logistics",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 41,
+      "title": "Forklift & Pedestrian Safety",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 42,
+      "title": "Fire & Emergency Systems",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 43,
+      "title": "Utilities Centre",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 44,
+      "title": "ETP / Water Treatment",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 45,
+      "title": "2.5 MW Solar Energy System",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 46,
+      "title": "Heavy Maintenance & Workshop",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 47,
+      "title": "Sustainability & Green Campus",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 48,
+      "title": "Safety & Zero-Harm Campus",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 49,
+      "title": "Employee Experience",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    },
+    {
+      "video": 50,
+      "title": "POVU Smart Factory Grand Tour",
+      "status": "PENDING",
+      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
+      "note": ""
+    }
+  ],
+  "updated_at_utc": "2026-09-22T04:54:28.682388+00:00",
+  "counts": {
+    "PASS": 1,
+    "PENDING": 47
+  }
+}

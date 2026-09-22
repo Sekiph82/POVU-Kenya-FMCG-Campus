@@ -18,3 +18,11 @@
 3d/video/V03_CORRECTIVE/VIDEO_*/final_qa/
 3d/video/V03_CORRECTIVE/probe_tmp.log
 3d/video/V03_CORRECTIVE/material_probe.log
+
+# POVU M01 V03 clean-master local render sequences and extracted frame evidence.
+3d/video/V03_CLEAN_MASTER/VID_*/frames/
+3d/video/V03_CLEAN_MASTER/VID_*/final_qa/
+3d/video/V03_CLEAN_MASTER/VID_*/qa/
+3d/video/V03_CLEAN_MASTER/VID_*/render.blend*
+3d/video/V03_CLEAN_MASTER/VID_*/checkpoint_render.console.log
+3d/video/V03_CLEAN_MASTER/VID_*/final_render.console.log

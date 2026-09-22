@@ -1,0 +1,24 @@
+# M01 VIDEO-001 V03 Codex Log
+
+- Status: **PASS**
+- Subject: POVU Campus Aerial
+- Source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
+- Active camera: `VID_001_POVU_Campus_Aerial_V03_CAMERA`
+- Semantic targets requested: POVU_PLAZA, POVU_PRODUCTION_SIGN, Production_Hall, Admin_RD_QC, RM_Warehouse, FG_Warehouse
+- Semantic targets resolved: POVU_PLAZA, POVU_PRODUCTION_SIGN, Production_Hall, Admin_RD_QC, RM_Warehouse, FG_Warehouse
+- Camera route: 7 locked checkpoints at frames 1, 121, 241, 361, 481, 601, 718; route is stored in `camera_route.json`.
+- Material overrides: none unless listed in `render_settings.json`; source GLB was not modified.
+- Render settings: local Blender Eevee, native 1280x720, 100%, 24 fps, frames 1–720, Workbench false; stored in `render_settings.json`.
+- Checkpoint QA: automated=True; visual=PASS; final report stored in `qa_report.json`.
+- Visual QA note: Visual contact-sheet QA passed: deliberate oblique campus aerial views, actual campus composition, no sky-only or empty-ground checkpoint.
+- MP4 absolute Windows path: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_001_POVU_Campus_Aerial\POVU_VID_001_POVU_Campus_Aerial_30s.mp4`
+- File size: 2481979 bytes
+- SHA-256: `9FBEF25C5DD0F38B4CEA3475BDBE3C0F32838AD7CA29F387C9D87BF2EC55DA86`
+- Duration: 30.000000 seconds
+- FPS: 24/1
+- Resolution: 1280x720
+- Codec: h264
+- Render time: 21m 30s observed Blender render
+- Limitations: none recorded
+- Evidence directory: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_001_POVU_Campus_Aerial`
+- Log updated UTC: 2026-09-22T04:54:42.274949+00:00

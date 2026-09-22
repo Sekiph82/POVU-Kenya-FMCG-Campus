@@ -1,0 +1,252 @@
+{
+  "video": 1,
+  "title": "POVU Campus Aerial",
+  "camera": "VID_001_POVU_Campus_Aerial_V03_CAMERA",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        336.536865234375,
+        -468.6787414550781,
+        440.937744140625
+      ],
+      "target": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "label": "aerial_oblique_campus_1",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_PRODUCTION_SIGN",
+        "Production_Hall",
+        "Admin_RD_QC",
+        "RM_Warehouse",
+        "FG_Warehouse"
+      ],
+      "time_seconds": 0.0,
+      "camera_xyz": [
+        336.536865234375,
+        -468.6787414550781,
+        440.937744140625
+      ],
+      "camera_rotation_euler": [
+        0.9237598776817322,
+        -6.249951667314235e-08,
+        0.6227405667304993
+      ],
+      "lens": 50.0
+    },
+    {
+      "frame": 121,
+      "location": [
+        180.0,
+        -180.0,
+        185.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "label": "aerial_oblique_campus_2",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_PRODUCTION_SIGN",
+        "Production_Hall",
+        "Admin_RD_QC",
+        "RM_Warehouse",
+        "FG_Warehouse"
+      ],
+      "time_seconds": 5.0,
+      "camera_xyz": [
+        180.0,
+        -180.0,
+        185.0
+      ],
+      "camera_rotation_euler": [
+        0.9553165435791016,
+        -6.873074909208299e-08,
+        0.7853981852531433
+      ],
+      "lens": 50.0
+    },
+    {
+      "frame": 241,
+      "location": [
+        125.0,
+        -155.0,
+        145.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "label": "aerial_oblique_campus_3",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_PRODUCTION_SIGN",
+        "Production_Hall",
+        "Admin_RD_QC",
+        "RM_Warehouse",
+        "FG_Warehouse"
+      ],
+      "time_seconds": 10.0,
+      "camera_xyz": [
+        125.0,
+        -155.0,
+        145.0
+      ],
+      "camera_rotation_euler": [
+        0.9580044150352478,
+        -9.887924079521326e-08,
+        0.6786624789237976
+      ],
+      "lens": 50.0
+    },
+    {
+      "frame": 361,
+      "location": [
+        65.0,
+        -125.0,
+        105.0
+      ],
+      "target": [
+        -35.0,
+        -45.0,
+        5.0
+      ],
+      "label": "aerial_oblique_campus_4",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_PRODUCTION_SIGN",
+        "Production_Hall",
+        "Admin_RD_QC",
+        "RM_Warehouse",
+        "FG_Warehouse"
+      ],
+      "time_seconds": 15.0,
+      "camera_xyz": [
+        65.0,
+        -125.0,
+        105.0
+      ],
+      "camera_rotation_euler": [
+        0.9078301787376404,
+        1.2335441113009438e-07,
+        0.896055281162262
+      ],
+      "lens": 50.0
+    },
+    {
+      "frame": 481,
+      "location": [
+        -135.0,
+        85.0,
+        115.0
+      ],
+      "target": [
+        -55.0,
+        65.0,
+        5.0
+      ],
+      "label": "aerial_oblique_campus_5",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_PRODUCTION_SIGN",
+        "Production_Hall",
+        "Admin_RD_QC",
+        "RM_Warehouse",
+        "FG_Warehouse"
+      ],
+      "time_seconds": 20.0,
+      "camera_xyz": [
+        -135.0,
+        85.0,
+        115.0
+      ],
+      "camera_rotation_euler": [
+        0.6432806849479675,
+        5.420023541091723e-08,
+        -1.8157751560211182
+      ],
+      "lens": 50.0
+    },
+    {
+      "frame": 601,
+      "location": [
+        115.0,
+        45.0,
+        110.0
+      ],
+      "target": [
+        65.0,
+        -35.0,
+        5.0
+      ],
+      "label": "aerial_oblique_campus_6",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_PRODUCTION_SIGN",
+        "Production_Hall",
+        "Admin_RD_QC",
+        "RM_Warehouse",
+        "FG_Warehouse"
+      ],
+      "time_seconds": 25.0,
+      "camera_xyz": [
+        115.0,
+        45.0,
+        110.0
+      ],
+      "camera_rotation_euler": [
+        0.7319716215133667,
+        -3.8219898357283455e-08,
+        2.582993268966675
+      ],
+      "lens": 50.0
+    },
+    {
+      "frame": 718,
+      "location": [
+        15.0,
+        -145.0,
+        85.0
+      ],
+      "target": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "label": "aerial_oblique_campus_7",
+      "semantic_objects": [
+        "POVU_PLAZA",
+        "POVU_PRODUCTION_SIGN",
+        "Production_Hall",
+        "Admin_RD_QC",
+        "RM_Warehouse",
+        "FG_Warehouse"
+      ],
+      "time_seconds": 29.9,
+      "camera_xyz": [
+        15.0,
+        -145.0,
+        85.0
+      ],
+      "camera_rotation_euler": [
+        1.068878412246704,
+        2.1055135412950676e-09,
+        0.1030816063284874
+      ],
+      "lens": 50.0
+    }
+  ],
+  "camera_true_rule": "Final frame N is rendered from the active Blender production camera at frame N."
+}

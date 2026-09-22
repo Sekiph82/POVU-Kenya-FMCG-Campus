@@ -1,0 +1,63 @@
+{
+  "video": 1,
+  "title": "POVU Campus Aerial",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "requested_targets": [
+    "POVU_PLAZA",
+    "POVU_PRODUCTION_SIGN",
+    "Production_Hall",
+    "Admin_RD_QC",
+    "RM_Warehouse",
+    "FG_Warehouse"
+  ],
+  "resolved_targets": [
+    "POVU_PLAZA",
+    "POVU_PRODUCTION_SIGN",
+    "Production_Hall",
+    "Admin_RD_QC",
+    "RM_Warehouse",
+    "FG_Warehouse"
+  ],
+  "target_mapping": {
+    "POVU_PLAZA": [
+      "POVU_PLAZA"
+    ],
+    "POVU_PRODUCTION_SIGN": [
+      "POVU_PRODUCTION_SIGN"
+    ],
+    "Production_Hall": [
+      "Production_Hall"
+    ],
+    "Admin_RD_QC": [
+      "Admin_RD_QC"
+    ],
+    "RM_Warehouse": [
+      "RM_Warehouse"
+    ],
+    "FG_Warehouse": [
+      "FG_Warehouse"
+    ]
+  },
+  "target_bounds": {
+    "min": [
+      -108.5,
+      -98.0,
+      1.1999998092651367
+    ],
+    "max": [
+      109.0,
+      100.0,
+      17.200000762939453
+    ],
+    "center": [
+      0.25,
+      1.0,
+      9.200000286102295
+    ],
+    "dimensions": [
+      217.5,
+      198.0,
+      16.000000953674316
+    ]
+  }
+}

@@ -1,0 +1,1753 @@
+{
+  "source_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "file_size_bytes": 7503776,
+  "sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "format": "GLB imported by Blender",
+  "object_count": 2031,
+  "mesh_count": 1937,
+  "material_count": 95,
+  "camera_count": 50,
+  "object_type_counts": {
+    "EMPTY": 42,
+    "MESH": 1937,
+    "CAMERA": 50,
+    "LIGHT": 2
+  },
+  "required_exact": {
+    "HOG_PALM_L": true,
+    "HOG_PALM_R": true,
+    "HOG_TREE_TRUNK": true,
+    "HOG_PLINTH": true,
+    "POVU_WATER_WALL_7M": true,
+    "QA_LANDMARK_CAMERA": true,
+    "PRES_15_MIXING_HALL": true,
+    "MIXING_PLATFORM": true,
+    "PROCESS_EPOXY_FLOOR": true,
+    "ProcessTank_01": true,
+    "ProcessTank_02": true,
+    "ProcessTank_03": true,
+    "ProcessTank_04": true,
+    "ProcessTank_05": true,
+    "ProcessTank_06": true,
+    "ProcessTank_07": true,
+    "ProcessTank_08": true,
+    "ProcessTank_09": true,
+    "ProcessTank_10": true,
+    "ProcessTank_11": true
+  },
+  "required_patterns": {
+    "HOG_FINGER_*": [
+      "HOG_FINGER_-1_0",
+      "HOG_FINGER_-1_1",
+      "HOG_FINGER_-1_2",
+      "HOG_FINGER_-1_3",
+      "HOG_FINGER_-1_4",
+      "HOG_FINGER_1_0",
+      "HOG_FINGER_1_1",
+      "HOG_FINGER_1_2",
+      "HOG_FINGER_1_3",
+      "HOG_FINGER_1_4"
+    ],
+    "HOG_TREE_CROWN_*": [
+      "HOG_TREE_CROWN_0",
+      "HOG_TREE_CROWN_1",
+      "HOG_TREE_CROWN_2",
+      "HOG_TREE_CROWN_3",
+      "HOG_TREE_CROWN_4"
+    ],
+    "HOG_FOREARM_L": [
+      "HOG_FOREARM_L"
+    ],
+    "HOG_FOREARM_R": [
+      "HOG_FOREARM_R"
+    ]
+  },
+  "all_required_present": true,
+  "related_scene_objects": [
+    "Aim_CINEMATIC_01_CAMPUS_TO_PRODUCTION",
+    "CAFE_GLASS_FRONT",
+    "CAFE_WATER_CHANNEL",
+    "CANOPY_BRANCH",
+    "CANOPY_BRANCH001",
+    "CANOPY_BRANCH002",
+    "CANOPY_BRANCH003",
+    "CANOPY_BRANCH004",
+    "CANOPY_BRANCH005",
+    "CANOPY_BRANCH006",
+    "CANOPY_BRANCH007",
+    "CANOPY_BRANCH008",
+    "CANOPY_BRANCH009",
+    "CANOPY_BRANCH010",
+    "CANOPY_BRANCH011",
+    "CANOPY_BRANCH012",
+    "CANOPY_BRANCH013",
+    "CANOPY_BRANCH014",
+    "CANOPY_BRANCH015",
+    "CANOPY_BRANCH016",
+    "CANOPY_BRANCH017",
+    "CANOPY_BRANCH018",
+    "CANOPY_BRANCH019",
+    "CANOPY_BRANCH020",
+    "CANOPY_BRANCH021",
+    "CANOPY_BRANCH022",
+    "CANOPY_BRANCH023",
+    "CANOPY_TREE_COLUMN",
+    "CANOPY_TREE_COLUMN001",
+    "CANOPY_TREE_COLUMN002",
+    "CINEMATIC_01_CAMPUS_TO_PRODUCTION",
+    "CLEANROOM_GLASS_N",
+    "CLEANROOM_GLASS_S",
+    "CLINIC_CANOPY",
+    "DECK_EAST_GLASS",
+    "DECK_EAST_MULLION",
+    "DECK_EAST_MULLION001",
+    "DECK_EAST_MULLION002",
+    "DECK_EAST_MULLION003",
+    "DECK_EAST_MULLION004",
+    "DECK_EAST_MULLION005",
+    "DECK_EAST_MULLION006",
+    "DECK_EAST_MULLION007",
+    "DECK_EAST_MULLION008",
+    "DECK_EAST_MULLION009",
+    "DECK_EAST_MULLION010",
+    "DECK_EAST_MULLION011",
+    "DECK_EAST_MULLION012",
+    "DECK_EAST_MULLION013",
+    "DECK_EAST_MULLION014",
+    "DECK_EAST_MULLION015",
+    "DECK_EAST_MULLION016",
+    "DECK_EAST_MULLION017",
+    "DECK_EAST_MULLION018",
+    "DECK_EAST_MULLION019",
+    "DECK_EAST_TIMBER_FLOOR",
+    "DECK_MULLION",
+    "DECK_MULLION001",
+    "DECK_MULLION002",
+    "DECK_MULLION003",
+    "DECK_MULLION004",
+    "DECK_MULLION005",
+    "DECK_MULLION006",
+    "DECK_MULLION007",
+    "DECK_MULLION008",
+    "DECK_MULLION009",
+    "DECK_MULLION010",
+    "DECK_MULLION011",
+    "DECK_MULLION012",
+    "DECK_MULLION013",
+    "DECK_MULLION014",
+    "DECK_MULLION015",
+    "DECK_MULLION016",
+    "DECK_MULLION017",
+    "DECK_MULLION018",
+    "DECK_MULLION019",
+    "DECK_TIMBER_FLOOR",
+    "FIRE_WATER_TANK",
+    "Fire_Water_Tank",
+    "Focus_CINEMATIC_01_CAMPUS_TO_PRODUCTION",
+    "GARDENPOD_DECK_00",
+    "GARDENPOD_DECK_01",
+    "GARDENPOD_DECK_02",
+    "GARDENPOD_DECK_03",
+    "GLASS_DECK_LINK",
+    "GLASS_DECK_LINK_FLOOR",
+    "GardenPod_Canopy",
+    "GardenPod_Canopy001",
+    "GardenPod_Canopy002",
+    "GlassDeck_East",
+    "GlassDeck_West",
+    "HQ_CANOPY",
+    "HQ_CANOPY_WOOD",
+    "HQ_GLASS_LOBBY",
+    "LIVING_WALL_FOLIAGE",
+    "LIVING_WALL_FOLIAGE001",
+    "LIVING_WALL_FOLIAGE002",
+    "LIVING_WALL_FOLIAGE003",
+    "LIVING_WALL_FOLIAGE004",
+    "LIVING_WALL_FOLIAGE005",
+    "LIVING_WALL_FOLIAGE006",
+    "LIVING_WALL_FOLIAGE007",
+    "LIVING_WALL_FOLIAGE008",
+    "LIVING_WALL_FOLIAGE009",
+    "LIVING_WALL_FOLIAGE010",
+    "LIVING_WALL_FOLIAGE011",
+    "LIVING_WALL_FOLIAGE012",
+    "LIVING_WALL_FOLIAGE013",
+    "LIVING_WALL_FOLIAGE014",
+    "LIVING_WALL_FOLIAGE015",
+    "LIVING_WALL_FOLIAGE016",
+    "LIVING_WALL_FOLIAGE017",
+    "LIVING_WALL_FOLIAGE018",
+    "LIVING_WALL_FOLIAGE019",
+    "LIVING_WALL_FOLIAGE020",
+    "LIVING_WALL_FOLIAGE021",
+    "LIVING_WALL_FOLIAGE022",
+    "LIVING_WALL_FOLIAGE023",
+    "LIVING_WALL_PANEL",
+    "LIVING_WALL_PANEL001",
+    "MEETING_GLASS",
+    "MEETING_GLASS001",
+    "MEETING_GLASS002",
+    "MEETING_GLASS003",
+    "MES_GLASS",
+    "MUSTER_SIGN_00",
+    "MUSTER_SIGN_01",
+    "MUSTER_SIGN_02",
+    "PLAZA_CANOPY_HUB",
+    "PLAZA_CANOPY_RIB",
+    "PLAZA_CANOPY_RIB001",
+    "PLAZA_CANOPY_RIB002",
+    "PLAZA_CANOPY_RIB003",
+    "PLAZA_CANOPY_RIB004",
+    "PLAZA_CANOPY_RIB005",
+    "PLAZA_CANOPY_RIB006",
+    "PLAZA_CANOPY_RIB007",
+    "PLAZA_CANOPY_RIB008",
+    "PLAZA_CANOPY_RIB009",
+    "PLAZA_CANOPY_RIB010",
+    "POD_DECK",
+    "POD_DECK001",
+    "POD_DECK002",
+    "POVU_CANOPY_LIGHT_RING",
+    "POVU_GATE_SIGN",
+    "POVU_HQ_SIGN",
+    "POVU_PLAZA",
+    "POVU_PRODUCTION_GLOW",
+    "POVU_PRODUCTION_SIGN",
+    "POVU_VIP_SIGN",
+    "POVU_WATER_WALL_7M",
+    "POVU_WATER_WALL_BASIN",
+    "POVU_WATER_WALL_BASIN_WATER",
+    "POVU_WATER_WALL_CREST",
+    "POVU_WATER_WALL_FRAME",
+    "PRES_02_VIP_APPROACH",
+    "PRES_03_WATER_ENTRANCE",
+    "PRES_04_POVU_PLAZA",
+    "PRES_06_PRODUCTION_FACADE",
+    "PRES_07_GLASS_DECK",
+    "PRES_13_VIP_HERO",
+    "PRES_16_GLASS_DECK_INTERIOR",
+    "PRES_44_REFINED_VIP",
+    "PRES_45_REFINED_PRODUCTION",
+    "PRES_46_REFINED_GLASSDECK",
+    "Path_CINEMATIC_01_CAMPUS_TO_PRODUCTION",
+    "Production_Hall",
+    "SHADE_TREE_CANOPY",
+    "SHADE_TREE_CANOPY001",
+    "SHADE_TREE_CANOPY002",
+    "SHADE_TREE_CANOPY003",
+    "Security_Canopy",
+    "Security_Glass",
+    "TREE_CANOPY",
+    "TREE_CANOPY001",
+    "TREE_CANOPY002",
+    "TREE_CANOPY003",
+    "TREE_CANOPY004",
+    "TREE_CANOPY005",
+    "TREE_CANOPY006",
+    "TREE_CANOPY007",
+    "TREE_CANOPY008",
+    "TREE_CANOPY009",
+    "TREE_CANOPY010",
+    "TREE_CANOPY011",
+    "TREE_CANOPY012",
+    "TREE_CANOPY013",
+    "TREE_CANOPY014",
+    "TREE_CANOPY015",
+    "TREE_CANOPY016",
+    "TREE_CANOPY017",
+    "TREE_CANOPY018",
+    "TREE_CANOPY019",
+    "TREE_CANOPY020",
+    "TREE_CANOPY021",
+    "TREE_CANOPY022",
+    "TREE_CANOPY023",
+    "TREE_CANOPY024",
+    "TREE_CANOPY025",
+    "TREE_CANOPY026",
+    "TREE_CANOPY027",
+    "TREE_CANOPY028",
+    "TREE_CANOPY029",
+    "TREE_CANOPY030",
+    "TREE_CANOPY031",
+    "TREE_CANOPY032",
+    "TREE_CANOPY033",
+    "TREE_CANOPY034",
+    "TREE_CANOPY035",
+    "TREE_CANOPY036",
+    "TREE_CANOPY037",
+    "TREE_CANOPY038",
+    "TREE_CANOPY039",
+    "TREE_CANOPY040",
+    "TREE_CANOPY041",
+    "TREE_CANOPY042",
+    "TREE_CANOPY043",
+    "TREE_CANOPY044",
+    "TREE_CANOPY045",
+    "TREE_CANOPY046",
+    "TREE_CANOPY047",
+    "TREE_CANOPY048",
+    "TREE_CANOPY049",
+    "TREE_CANOPY050",
+    "TREE_CANOPY051",
+    "TREE_CANOPY052",
+    "TREE_CANOPY053",
+    "TREE_CANOPY054",
+    "TREE_CANOPY055",
+    "TREE_CANOPY056",
+    "TREE_CANOPY057",
+    "TREE_CANOPY058",
+    "TREE_CANOPY059",
+    "TREE_CANOPY060",
+    "TREE_CANOPY061",
+    "TREE_CANOPY062",
+    "VIP_AREA_LIGHT",
+    "VIP_AREA_LIGHT001",
+    "VIP_AREA_LIGHT002",
+    "VIP_AREA_LIGHT003",
+    "VIP_BRONZE_HEADER",
+    "VIP_BronzeFrame",
+    "VIP_BronzeFrame001",
+    "VIP_BronzeFrame002",
+    "VIP_Entrance_Pavilion",
+    "VIP_FIN",
+    "VIP_FIN001",
+    "VIP_FIN002",
+    "VIP_FIN003",
+    "VIP_FIN004",
+    "VIP_FIN005",
+    "VIP_FIN006",
+    "VIP_FIN007",
+    "VIP_FIN008",
+    "VIP_FIN009",
+    "VIP_FIN010",
+    "VIP_FIN011",
+    "VIP_FIN012",
+    "VIP_FIN013",
+    "VIP_FIN014",
+    "VIP_LivingWall",
+    "VIP_POOL_LIGHT",
+    "VIP_ReflectionPool",
+    "VIP_WATER_STEP",
+    "VIP_WATER_STEP001",
+    "VIP_WATER_STEP002",
+    "VIP_WATER_STEP003",
+    "VIP_Waterfall",
+    "WATERFALL_LIGHT",
+    "WATERFALL_LIGHT001",
+    "WATERFALL_LIGHT002",
+    "WATERWALL_FRAME",
+    "WATER_CURTAIN",
+    "WATER_CURTAIN001",
+    "WATER_CURTAIN002",
+    "WATER_CURTAIN003",
+    "WATER_CURTAIN004",
+    "WATER_CURTAIN005",
+    "WATER_CURTAIN006",
+    "WATER_TANK",
+    "WELLNESS_GLASS"
+  ],
+  "semantic_inventory": {
+    "HOG_FINGER_-1_0": {
+      "name": "HOG_FINGER_-1_0",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -111.09500122070312,
+        -79.64799499511719,
+        6.349999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -111.90604400634766,
+          -80.20170593261719,
+          5.5562615394592285
+        ],
+        "max": [
+          -110.2839584350586,
+          -79.09428405761719,
+          7.143738269805908
+        ],
+        "center": [
+          -111.09500122070312,
+          -79.64799499511719,
+          6.349999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.8696211576461792
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_-1_1": {
+      "name": "HOG_FINGER_-1_1",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -111.04499816894531,
+        -79.32400512695312,
+        6.474999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -111.70103454589844,
+          -79.72726440429688,
+          5.599118709564209
+        ],
+        "max": [
+          -110.38896179199219,
+          -78.92074584960938,
+          7.350881099700928
+        ],
+        "center": [
+          -111.04499816894531,
+          -79.32400512695312,
+          6.474999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.7950890064239502
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_-1_2": {
+      "name": "HOG_FINGER_-1_2",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -110.9949951171875,
+        -79.0,
+        6.599999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -111.44242095947266,
+          -79.19999694824219,
+          5.645479202270508
+        ],
+        "max": [
+          -110.54756927490234,
+          -78.80000305175781,
+          7.554520606994629
+        ],
+        "center": [
+          -110.9949951171875,
+          -79.0,
+          6.599999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.8708561658859253
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_-1_3": {
+      "name": "HOG_FINGER_-1_3",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -111.16500091552734,
+        -78.67599487304688,
+        6.474999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -111.72393798828125,
+          -79.09335327148438,
+          5.619139671325684
+        ],
+        "max": [
+          -110.60606384277344,
+          -78.25863647460938,
+          7.330860137939453
+        ],
+        "center": [
+          -111.16500091552734,
+          -78.67599487304688,
+          6.474999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.694682240486145
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_-1_4": {
+      "name": "HOG_FINGER_-1_4",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -111.33500671386719,
+        -78.35200500488281,
+        6.349999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -111.94354248046875,
+          -78.9210205078125,
+          5.582383155822754
+        ],
+        "max": [
+          -110.72647094726562,
+          -77.78298950195312,
+          7.117616653442383
+        ],
+        "center": [
+          -111.33500671386719,
+          -78.35200500488281,
+          6.349999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.3999999761581421,
+        0.4000000059604645,
+        1.6073193550109863
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_1_0": {
+      "name": "HOG_FINGER_1_0",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -104.90499877929688,
+        -79.64799499511719,
+        6.349999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -105.7160415649414,
+          -80.20170593261719,
+          5.5562615394592285
+        ],
+        "max": [
+          -104.09395599365234,
+          -79.09428405761719,
+          7.143738269805908
+        ],
+        "center": [
+          -104.90499877929688,
+          -79.64799499511719,
+          6.349999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.8696211576461792
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_1_1": {
+      "name": "HOG_FINGER_1_1",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -104.95500183105469,
+        -79.32400512695312,
+        6.474999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -105.61103820800781,
+          -79.72726440429688,
+          5.599118709564209
+        ],
+        "max": [
+          -104.29896545410156,
+          -78.92074584960938,
+          7.350881099700928
+        ],
+        "center": [
+          -104.95500183105469,
+          -79.32400512695312,
+          6.474999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.7950890064239502
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_1_2": {
+      "name": "HOG_FINGER_1_2",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -105.0050048828125,
+        -79.0,
+        6.599999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -105.45243072509766,
+          -79.19999694824219,
+          5.645479202270508
+        ],
+        "max": [
+          -104.55757904052734,
+          -78.80000305175781,
+          7.554520606994629
+        ],
+        "center": [
+          -105.0050048828125,
+          -79.0,
+          6.599999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.8708561658859253
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_1_3": {
+      "name": "HOG_FINGER_1_3",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -104.83499908447266,
+        -78.67599487304688,
+        6.474999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -105.39393615722656,
+          -79.09335327148438,
+          5.619139671325684
+        ],
+        "max": [
+          -104.27606201171875,
+          -78.25863647460938,
+          7.330860137939453
+        ],
+        "center": [
+          -104.83499908447266,
+          -78.67599487304688,
+          6.474999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.4000000059604645,
+        0.4000000059604645,
+        1.694682240486145
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FINGER_1_4": {
+      "name": "HOG_FINGER_1_4",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -104.66499328613281,
+        -78.35200500488281,
+        6.349999904632568
+      ],
+      "bbox_world": {
+        "min": [
+          -105.27352905273438,
+          -78.9210205078125,
+          5.582383155822754
+        ],
+        "max": [
+          -104.05645751953125,
+          -77.78298950195312,
+          7.117616653442383
+        ],
+        "center": [
+          -104.66499328613281,
+          -78.35200500488281,
+          6.349999904632568
+        ]
+      },
+      "dimensions_world": [
+        0.3999999761581421,
+        0.4000000059604645,
+        1.6073193550109863
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FOREARM_L": {
+      "name": "HOG_FOREARM_L",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -110.9000015258789,
+        -79.0,
+        2.9000000953674316
+      ],
+      "bbox_world": {
+        "min": [
+          -112.25962829589844,
+          -79.75,
+          0.7572336792945862
+        ],
+        "max": [
+          -109.54037475585938,
+          -78.25,
+          5.042766571044922
+        ],
+        "center": [
+          -110.9000015258789,
+          -79.0,
+          2.900000125169754
+        ]
+      },
+      "dimensions_world": [
+        1.5,
+        1.5,
+        4.016218185424805
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_FOREARM_R": {
+      "name": "HOG_FOREARM_R",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -105.0999984741211,
+        -79.0,
+        2.9000000953674316
+      ],
+      "bbox_world": {
+        "min": [
+          -106.45962524414062,
+          -79.75,
+          0.7572336792945862
+        ],
+        "max": [
+          -103.74037170410156,
+          -78.25,
+          5.042766571044922
+        ],
+        "center": [
+          -105.0999984741211,
+          -79.0,
+          2.900000125169754
+        ]
+      },
+      "dimensions_world": [
+        1.5,
+        1.5,
+        4.016218185424805
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_PALM_L": {
+      "name": "HOG_PALM_L",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -110.25,
+        -79.0,
+        5.25
+      ],
+      "bbox_world": {
+        "min": [
+          -111.5,
+          -79.72000122070312,
+          3.5999999046325684
+        ],
+        "max": [
+          -109.0,
+          -78.27999877929688,
+          6.900000095367432
+        ],
+        "center": [
+          -110.25,
+          -79.0,
+          5.25
+        ]
+      },
+      "dimensions_world": [
+        2.4999990463256836,
+        1.4399998188018799,
+        3.299999952316284
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_PALM_R": {
+      "name": "HOG_PALM_R",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -105.75,
+        -79.0,
+        5.25
+      ],
+      "bbox_world": {
+        "min": [
+          -107.0,
+          -79.72000122070312,
+          3.5999999046325684
+        ],
+        "max": [
+          -104.5,
+          -78.27999877929688,
+          6.900000095367432
+        ],
+        "center": [
+          -105.75,
+          -79.0,
+          5.25
+        ]
+      },
+      "dimensions_world": [
+        2.4999990463256836,
+        1.4399998188018799,
+        3.299999952316284
+      ],
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_PLINTH": {
+      "name": "HOG_PLINTH",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -108.0,
+        -79.0,
+        0.44999998807907104
+      ],
+      "bbox_world": {
+        "min": [
+          -112.5999984741211,
+          -82.80000305175781,
+          0.0
+        ],
+        "max": [
+          -103.4000015258789,
+          -75.19999694824219,
+          0.8999999761581421
+        ],
+        "center": [
+          -108.0,
+          -79.0,
+          0.44999998807907104
+        ]
+      },
+      "dimensions_world": [
+        9.199999809265137,
+        7.599999904632568,
+        0.8999999761581421
+      ],
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_TREE_CROWN_0": {
+      "name": "HOG_TREE_CROWN_0",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -108.0,
+        -79.0,
+        8.100000381469727
+      ],
+      "bbox_world": {
+        "min": [
+          -110.5,
+          -81.125,
+          6.300000190734863
+        ],
+        "max": [
+          -105.5,
+          -76.875,
+          9.90000057220459
+        ],
+        "center": [
+          -108.0,
+          -79.0,
+          8.100000381469727
+        ]
+      },
+      "dimensions_world": [
+        4.999998092651367,
+        4.249999046325684,
+        3.5999999046325684
+      ],
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_TREE_CROWN_1": {
+      "name": "HOG_TREE_CROWN_1",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -106.0,
+        -79.0,
+        7.800000190734863
+      ],
+      "bbox_world": {
+        "min": [
+          -107.79999542236328,
+          -80.52999877929688,
+          6.504000186920166
+        ],
+        "max": [
+          -104.19999694824219,
+          -77.47000122070312,
+          9.096000671386719
+        ],
+        "center": [
+          -105.99999618530273,
+          -79.0,
+          7.800000429153442
+        ]
+      },
+      "dimensions_world": [
+        3.5999984741210938,
+        3.059999465942383,
+        2.5920000076293945
+      ],
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_TREE_CROWN_2": {
+      "name": "HOG_TREE_CROWN_2",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -110.0,
+        -78.80000305175781,
+        7.800000190734863
+      ],
+      "bbox_world": {
+        "min": [
+          -111.79999542236328,
+          -80.33000183105469,
+          6.504000186920166
+        ],
+        "max": [
+          -108.19999694824219,
+          -77.27000427246094,
+          9.096000671386719
+        ],
+        "center": [
+          -109.99999618530273,
+          -78.80000305175781,
+          7.800000429153442
+        ]
+      },
+      "dimensions_world": [
+        3.5999984741210938,
+        3.059999465942383,
+        2.5920000076293945
+      ],
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_TREE_CROWN_3": {
+      "name": "HOG_TREE_CROWN_3",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -106.80000305175781,
+        -77.80000305175781,
+        8.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -108.4000015258789,
+          -79.16000366210938,
+          7.547999858856201
+        ],
+        "max": [
+          -105.20000457763672,
+          -76.44000244140625,
+          9.851999282836914
+        ],
+        "center": [
+          -106.80000305175781,
+          -77.80000305175781,
+          8.699999570846558
+        ]
+      },
+      "dimensions_world": [
+        3.1999988555908203,
+        2.7199997901916504,
+        2.303999900817871
+      ],
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_TREE_CROWN_4": {
+      "name": "HOG_TREE_CROWN_4",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -109.19999694824219,
+        -80.0,
+        8.600000381469727
+      ],
+      "bbox_world": {
+        "min": [
+          -110.79999542236328,
+          -81.36000061035156,
+          7.448000431060791
+        ],
+        "max": [
+          -107.5999984741211,
+          -78.63999938964844,
+          9.75200080871582
+        ],
+        "center": [
+          -109.19999694824219,
+          -80.0,
+          8.600000619888306
+        ]
+      },
+      "dimensions_world": [
+        3.1999988555908203,
+        2.7199997901916504,
+        2.303999900817871
+      ],
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "HOG_TREE_TRUNK": {
+      "name": "HOG_TREE_TRUNK",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -108.0,
+        -79.0,
+        3.950000047683716
+      ],
+      "bbox_world": {
+        "min": [
+          -108.37999725341797,
+          -79.37999725341797,
+          0.9000000953674316
+        ],
+        "max": [
+          -107.62000274658203,
+          -78.62000274658203,
+          7.0
+        ],
+        "center": [
+          -108.0,
+          -79.0,
+          3.950000047683716
+        ]
+      },
+      "dimensions_world": [
+        0.7599999904632568,
+        0.7599999904632568,
+        6.099999904632568
+      ],
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "MIXING_PLATFORM": {
+      "name": "MIXING_PLATFORM",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -8.0,
+        19.0,
+        7.600000381469727
+      ],
+      "bbox_world": {
+        "min": [
+          -60.5,
+          17.0,
+          7.350000381469727
+        ],
+        "max": [
+          44.5,
+          21.0,
+          7.850000381469727
+        ],
+        "center": [
+          -8.0,
+          19.0,
+          7.600000381469727
+        ]
+      },
+      "dimensions_world": [
+        105.0,
+        4.0,
+        0.5
+      ],
+      "materials": [
+        "PROC_Graphite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "POVU_WATER_WALL_7M": {
+      "name": "POVU_WATER_WALL_7M",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -58.0,
+        -92.55000305175781,
+        4.0
+      ],
+      "bbox_world": {
+        "min": [
+          -64.9000015258789,
+          -92.67000579833984,
+          0.5
+        ],
+        "max": [
+          -51.099998474121094,
+          -92.43000030517578,
+          7.5
+        ],
+        "center": [
+          -58.0,
+          -92.55000305175781,
+          4.0
+        ]
+      },
+      "dimensions_world": [
+        13.800000190734863,
+        0.23999999463558197,
+        7.0
+      ],
+      "materials": [
+        "POVU_Water_Aqua"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "PRES_15_MIXING_HALL": {
+      "name": "PRES_15_MIXING_HALL",
+      "type": "CAMERA",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -69.0,
+        -1.0,
+        10.199999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -69.0,
+          -1.0,
+          10.199999809265137
+        ],
+        "max": [
+          -69.0,
+          -1.0,
+          10.199999809265137
+        ],
+        "center": [
+          -69.0,
+          -1.0,
+          10.199999809265137
+        ]
+      },
+      "dimensions_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "PROCESS_EPOXY_FLOOR": {
+      "name": "PROCESS_EPOXY_FLOOR",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        0.0,
+        20.0,
+        1.3200000524520874
+      ],
+      "bbox_world": {
+        "min": [
+          -73.0,
+          -14.0,
+          1.2000000476837158
+        ],
+        "max": [
+          73.0,
+          54.0,
+          1.440000057220459
+        ],
+        "center": [
+          0.0,
+          20.0,
+          1.3200000524520874
+        ]
+      },
+      "dimensions_world": [
+        146.0,
+        68.0,
+        0.23999999463558197
+      ],
+      "materials": [
+        "PROC_Epoxy"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_01": {
+      "name": "ProcessTank_01",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -55.0,
+        12.0,
+        5.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -60.0,
+          7.0,
+          1.1999998092651367
+        ],
+        "max": [
+          -50.0,
+          17.0,
+          10.199999809265137
+        ],
+        "center": [
+          -55.0,
+          12.0,
+          5.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        10.0,
+        10.0,
+        9.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_02": {
+      "name": "ProcessTank_02",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -36.0,
+        12.0,
+        5.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -41.0,
+          7.0,
+          1.1999998092651367
+        ],
+        "max": [
+          -31.0,
+          17.0,
+          10.199999809265137
+        ],
+        "center": [
+          -36.0,
+          12.0,
+          5.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        10.0,
+        10.0,
+        9.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_03": {
+      "name": "ProcessTank_03",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -17.0,
+        12.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -20.600000381469727,
+          8.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          -13.399999618530273,
+          15.600000381469727,
+          8.199999809265137
+        ],
+        "center": [
+          -17.0,
+          12.0,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_04": {
+      "name": "ProcessTank_04",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        2.0,
+        12.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -1.5999999046325684,
+          8.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          5.599999904632568,
+          15.600000381469727,
+          8.199999809265137
+        ],
+        "center": [
+          2.0,
+          12.0,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_05": {
+      "name": "ProcessTank_05",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        21.0,
+        12.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          17.399999618530273,
+          8.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          24.600000381469727,
+          15.600000381469727,
+          8.199999809265137
+        ],
+        "center": [
+          21.0,
+          12.0,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_06": {
+      "name": "ProcessTank_06",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        40.0,
+        12.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          36.400001525878906,
+          8.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          43.599998474121094,
+          15.600000381469727,
+          8.199999809265137
+        ],
+        "center": [
+          40.0,
+          12.0,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_07": {
+      "name": "ProcessTank_07",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -55.0,
+        32.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -58.599998474121094,
+          28.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          -51.400001525878906,
+          35.599998474121094,
+          8.199999809265137
+        ],
+        "center": [
+          -55.0,
+          31.999999046325684,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_08": {
+      "name": "ProcessTank_08",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -36.0,
+        32.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -39.599998474121094,
+          28.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          -32.400001525878906,
+          35.599998474121094,
+          8.199999809265137
+        ],
+        "center": [
+          -36.0,
+          31.999999046325684,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_09": {
+      "name": "ProcessTank_09",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        -17.0,
+        32.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -20.600000381469727,
+          28.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          -13.399999618530273,
+          35.599998474121094,
+          8.199999809265137
+        ],
+        "center": [
+          -17.0,
+          31.999999046325684,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_10": {
+      "name": "ProcessTank_10",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        2.0,
+        32.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          -1.5999999046325684,
+          28.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          5.599999904632568,
+          35.599998474121094,
+          8.199999809265137
+        ],
+        "center": [
+          2.0,
+          31.999999046325684,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "ProcessTank_11": {
+      "name": "ProcessTank_11",
+      "type": "MESH",
+      "collection": "Scene Collection",
+      "parent": "Scene_1",
+      "location_world": [
+        21.0,
+        32.0,
+        4.699999809265137
+      ],
+      "bbox_world": {
+        "min": [
+          17.399999618530273,
+          28.399999618530273,
+          1.1999998092651367
+        ],
+        "max": [
+          24.600000381469727,
+          35.599998474121094,
+          8.199999809265137
+        ],
+        "center": [
+          21.0,
+          31.999999046325684,
+          4.699999809265137
+        ]
+      },
+      "dimensions_world": [
+        7.199999809265137,
+        7.199999809265137,
+        7.0
+      ],
+      "materials": [
+        "WarmWhite"
+      ],
+      "visible_viewport": true,
+      "visible_render": true
+    },
+    "QA_LANDMARK_CAMERA": {
+      "name": "QA_LANDMARK_CAMERA",
+      "type": "CAMERA",
+      "collection": "Scene Collection",
+      "parent": "Scene",
+      "location_world": [
+        -128.0,
+        -125.0,
+        26.0
+      ],
+      "bbox_world": {
+        "min": [
+          -128.0,
+          -125.0,
+          26.0
+        ],
+        "max": [
+          -128.0,
+          -125.0,
+          26.0
+        ],
+        "center": [
+          -128.0,
+          -125.0,
+          26.0
+        ]
+      },
+      "dimensions_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "materials": [],
+      "visible_viewport": true,
+      "visible_render": true
+    }
+  }
+}
