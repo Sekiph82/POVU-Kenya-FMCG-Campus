@@ -1,0 +1,24 @@
+# M01 VIDEO-005 V03 Codex Log
+
+- Status: **FAIL**
+- Subject: R&D + QC Innovation Centre
+- Source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
+- Active camera: `VID_005_R_D_QC_Innovation_Centre_V03_CAMERA`
+- Semantic targets requested: Admin_RD_QC, GREEN_ROOF_Admin_RD_QC, MEETING_TABLE, MES_SCREEN
+- Semantic targets resolved: Admin_RD_QC, GREEN_ROOF_Admin_RD_QC, MEETING_TABLE, MES_SCREEN
+- Camera route: 7 locked checkpoints at frames 1, 121, 241, 361, 481, 601, 718; route is stored in `camera_route.json`.
+- Material overrides: none unless listed in `render_settings.json`; source GLB was not modified.
+- Render settings: local Blender Eevee, native 1280x720, 100%, 24 fps, frames 1–720, Workbench false; stored in `render_settings.json`.
+- Checkpoint QA: automated=True; visual=FAIL; final report stored in `qa_report.json`.
+- Visual QA note: Checkpoint visual QA failed: corrected MES anchor still resolves to corridor/wall surfaces; MES screens/control room not visible. Full render not started.
+- MP4 absolute Windows path: `not produced`
+- File size: 0 bytes
+- SHA-256: ``
+- Duration: not available seconds
+- FPS: not available
+- Resolution: not availablexnot available
+- Codec: not available
+- Render time: not rendered after checkpoint failure
+- Limitations: none recorded
+- Evidence directory: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\video\V03_CLEAN_MASTER\VID_005_R_D_QC_Innovation_Centre`
+- Log updated UTC: 2026-09-22T09:37:29.534359+00:00

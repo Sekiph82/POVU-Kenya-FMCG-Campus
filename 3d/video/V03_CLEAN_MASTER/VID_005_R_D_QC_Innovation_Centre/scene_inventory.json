@@ -1,0 +1,53 @@
+{
+  "video": 5,
+  "title": "R&D + QC Innovation Centre",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "requested_targets": [
+    "Admin_RD_QC",
+    "GREEN_ROOF_Admin_RD_QC",
+    "MEETING_TABLE",
+    "MES_SCREEN"
+  ],
+  "resolved_targets": [
+    "Admin_RD_QC",
+    "GREEN_ROOF_Admin_RD_QC",
+    "MEETING_TABLE",
+    "MES_SCREEN"
+  ],
+  "target_mapping": {
+    "Admin_RD_QC": [
+      "Admin_RD_QC"
+    ],
+    "GREEN_ROOF_Admin_RD_QC": [
+      "GREEN_ROOF_Admin_RD_QC"
+    ],
+    "MEETING_TABLE": [
+      "MEETING_TABLE"
+    ],
+    "MES_SCREEN": [
+      "MES_SCREEN"
+    ]
+  },
+  "target_bounds": {
+    "min": [
+      -84.0,
+      -79.0,
+      1.1999998092651367
+    ],
+    "max": [
+      -32.0,
+      -11.5,
+      11.699999809265137
+    ],
+    "center": [
+      -58.0,
+      -45.25,
+      6.449999809265137
+    ],
+    "dimensions": [
+      52.0,
+      67.5,
+      10.5
+    ]
+  }
+}

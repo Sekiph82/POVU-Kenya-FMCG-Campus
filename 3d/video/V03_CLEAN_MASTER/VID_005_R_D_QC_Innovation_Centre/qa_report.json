@@ -1,0 +1,246 @@
+{
+  "video": 5,
+  "title": "R&D + QC Innovation Centre",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "checkpoints": [
+    {
+      "frame": 1,
+      "requested_time_seconds": 0.0,
+      "active_camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+      "camera_world_xyz": [
+        -52.0,
+        -7.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -147.4412078857422,
+        -36.82538604736328,
+        9.207016944885254
+      ],
+      "semantic_target": "mes_control_room_pass_1",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 121,
+      "requested_time_seconds": 5.0,
+      "active_camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+      "camera_world_xyz": [
+        -50.0,
+        -6.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -145.4412078857422,
+        -35.82538604736328,
+        9.207016944885254
+      ],
+      "semantic_target": "mes_control_room_pass_2",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 241,
+      "requested_time_seconds": 10.0,
+      "active_camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+      "camera_world_xyz": [
+        -48.0,
+        -5.0,
+        10.59999942779541
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -143.4412078857422,
+        -34.82538604736328,
+        9.40701675415039
+      ],
+      "semantic_target": "mes_control_room_pass_3",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 361,
+      "requested_time_seconds": 15.0,
+      "active_camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+      "camera_world_xyz": [
+        -50.0,
+        -4.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -145.4412078857422,
+        -33.82538604736328,
+        9.207016944885254
+      ],
+      "semantic_target": "mes_control_room_pass_4",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MES_SCREEN"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 481,
+      "requested_time_seconds": 20.0,
+      "active_camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+      "camera_world_xyz": [
+        -54.0,
+        -4.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -149.4412078857422,
+        -33.82538604736328,
+        9.207016944885254
+      ],
+      "semantic_target": "mes_control_room_pass_5",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MES_SCREEN"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 601,
+      "requested_time_seconds": 25.0,
+      "active_camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+      "camera_world_xyz": [
+        -56.0,
+        -6.0,
+        10.59999942779541
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -151.4412078857422,
+        -35.82538604736328,
+        9.40701675415039
+      ],
+      "semantic_target": "mes_control_room_pass_6",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 718,
+      "requested_time_seconds": 29.9,
+      "active_camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+      "camera_world_xyz": [
+        -52.0,
+        -7.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -147.4412078857422,
+        -36.82538604736328,
+        9.207016944885254
+      ],
+      "semantic_target": "mes_control_room_pass_7",
+      "visible_target_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "automated_all_pass": true,
+  "visual_qa": "FAIL",
+  "visual_qa_note": "Checkpoint visual QA failed: corrected MES anchor still resolves to corridor/wall surfaces; MES screens/control room not visible. Full render not started.",
+  "all_pass": false
+}

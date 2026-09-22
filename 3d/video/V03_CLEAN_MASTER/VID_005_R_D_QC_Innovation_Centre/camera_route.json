@@ -1,0 +1,238 @@
+{
+  "video": 5,
+  "title": "R&D + QC Innovation Centre",
+  "camera": "VID_005_R_D_QC_Innovation_Centre_V03_CAMERA",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -52.0,
+        -7.0,
+        10.399999618530273
+      ],
+      "target": [
+        -147.4412078857422,
+        -36.82538604736328,
+        9.207016944885254
+      ],
+      "label": "mes_control_room_pass_1",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "time_seconds": 0.0,
+      "camera_xyz": [
+        -52.0,
+        -7.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 121,
+      "location": [
+        -50.0,
+        -6.0,
+        10.399999618530273
+      ],
+      "target": [
+        -145.4412078857422,
+        -35.82538604736328,
+        9.207016944885254
+      ],
+      "label": "mes_control_room_pass_2",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "time_seconds": 5.0,
+      "camera_xyz": [
+        -50.0,
+        -6.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 241,
+      "location": [
+        -48.0,
+        -5.0,
+        10.59999942779541
+      ],
+      "target": [
+        -143.4412078857422,
+        -34.82538604736328,
+        9.40701675415039
+      ],
+      "label": "mes_control_room_pass_3",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "time_seconds": 10.0,
+      "camera_xyz": [
+        -48.0,
+        -5.0,
+        10.59999942779541
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 361,
+      "location": [
+        -50.0,
+        -4.0,
+        10.399999618530273
+      ],
+      "target": [
+        -145.4412078857422,
+        -33.82538604736328,
+        9.207016944885254
+      ],
+      "label": "mes_control_room_pass_4",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "time_seconds": 15.0,
+      "camera_xyz": [
+        -50.0,
+        -4.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 481,
+      "location": [
+        -54.0,
+        -4.0,
+        10.399999618530273
+      ],
+      "target": [
+        -149.4412078857422,
+        -33.82538604736328,
+        9.207016944885254
+      ],
+      "label": "mes_control_room_pass_5",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "time_seconds": 20.0,
+      "camera_xyz": [
+        -54.0,
+        -4.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 601,
+      "location": [
+        -56.0,
+        -6.0,
+        10.59999942779541
+      ],
+      "target": [
+        -151.4412078857422,
+        -35.82538604736328,
+        9.40701675415039
+      ],
+      "label": "mes_control_room_pass_6",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "time_seconds": 25.0,
+      "camera_xyz": [
+        -56.0,
+        -6.0,
+        10.59999942779541
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 718,
+      "location": [
+        -52.0,
+        -7.0,
+        10.399999618530273
+      ],
+      "target": [
+        -147.4412078857422,
+        -36.82538604736328,
+        9.207016944885254
+      ],
+      "label": "mes_control_room_pass_7",
+      "semantic_objects": [
+        "Admin_RD_QC",
+        "GREEN_ROOF_Admin_RD_QC",
+        "MEETING_TABLE",
+        "MES_SCREEN"
+      ],
+      "time_seconds": 29.9,
+      "camera_xyz": [
+        -52.0,
+        -7.0,
+        10.399999618530273
+      ],
+      "camera_rotation_euler": [
+        1.558866262435913,
+        4.6980286327880094e-08,
+        1.8736815452575684
+      ],
+      "lens": 42.0
+    }
+  ],
+  "camera_true_rule": "Final frame N is rendered from the active Blender production camera at frame N."
+}

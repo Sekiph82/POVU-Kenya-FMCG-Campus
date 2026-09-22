@@ -41,9 +41,9 @@
     {
       "video": 5,
       "title": "R&D + QC Innovation Centre",
-      "status": "PENDING",
-      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
-      "note": ""
+      "status": "FAIL",
+      "updated_at_utc": "2026-09-22T09:37:29.590459+00:00",
+      "note": "Checkpoint visual QA failed: MES control room not visible; full render not started."
     },
     {
       "video": 6,
@@ -347,10 +347,10 @@
       "note": ""
     }
   ],
-  "updated_at_utc": "2026-09-22T09:32:47.374959+00:00",
+  "updated_at_utc": "2026-09-22T09:37:29.590459+00:00",
   "counts": {
     "PASS": 3,
-    "FAIL": 1,
-    "PENDING": 44
+    "FAIL": 2,
+    "PENDING": 43
   }
 }

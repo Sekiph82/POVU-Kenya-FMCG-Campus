@@ -1,0 +1,1092 @@
+{
+  "video": 5,
+  "title": "R&D + QC Innovation Centre",
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV003\\POVU_REV003_MASTER.glb",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "engine": "BLENDER_EEVEE",
+  "resolution": [
+    1280,
+    720
+  ],
+  "resolution_percentage": 100,
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 720,
+  "workbench": false,
+  "render_settings": {
+    "engine": "BLENDER_EEVEE",
+    "resolution": [
+      1280,
+      720
+    ],
+    "resolution_percentage": 100,
+    "fps": 24,
+    "frame_start": 1,
+    "frame_end": 720,
+    "taa_render_samples": 32,
+    "taa_samples": 32,
+    "use_taa_reprojection": false,
+    "use_raytracing": false,
+    "use_shadow_jitter_viewport": false,
+    "use_volumetric_shadows": false,
+    "shadow_resolution_scale": 2.0,
+    "shadow_ray_count": 4,
+    "shadow_step_count": 4,
+    "use_shadows": false,
+    "exposure": -0.25,
+    "world_strength": 0.22,
+    "shadow_policy": "disabled in disposable V03 Eevee scene to remove stochastic grain",
+    "material_stabilization": {
+      "changed_material_count": 95,
+      "changed_materials": [
+        {
+          "material": "Bronze",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_Belt",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_Blue",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_Dark",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_Orange",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_SS",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_White",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "FLOW_Yellow",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Glass",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Graphite",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Landscape",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "LivingGreen",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "MES_Screen",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Aqua",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Blue",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Bronze",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Dark",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Glass",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Green2",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Sand",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Warm",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_White",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PEO_Wood",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "POVU_Bronze_Signature",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "POVU_Graphite",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "POVU_Landmark_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "POVU_Warm_Glow",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "POVU_Water_Aqua",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Blue",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Epoxy",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Glass",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Graphite",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Safety",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Stainless",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "PROC_Wood",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "REF_Bronze",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "REF_Glass",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "REF_Graphite",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "REF_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "REF_WarmLight",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "REF_Wood",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Road",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Solar",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Aqua",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Belt",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Blue",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Dark",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Glass",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Pink",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_SS",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_White",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "SPEC_Yellow",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Stone",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Aqua",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Blue",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Concrete",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Dark",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Red",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Solar",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_SS",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_White",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "UTIL_Yellow",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "V2_Bronze",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "V2_Charcoal",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "V2_Leaf",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "V2_LeafLight",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "V2_Paving",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "V2_Timber",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "V2_Water",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Bronze",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Glass",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Graphite",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Leaf",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Leaf2",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Stone",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_WarmGlow",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Water",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "VIP_Wood",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WarmWhite",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Water",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Blue",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Box",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Dark",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Green",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Orange",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Pallet",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Rack",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_White",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "WH_Yellow",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        },
+        {
+          "material": "Wood",
+          "before": {
+            "blend_method": "HASHED",
+            "surface_render_method": "DITHERED"
+          },
+          "after": {
+            "blend_method": "BLEND",
+            "surface_render_method": "BLENDED"
+          }
+        }
+      ],
+      "scope": "disposable V03 scene only"
+    }
+  },
+  "limitations": ""
+}

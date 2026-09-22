@@ -181,6 +181,16 @@ def route_for_spec(spec, target_names, mapping, target_bounds):
             Vector((-18.0, -62.0, 40.0)),
         ]
         return [point(frame, locations[i], garden_target, f"employee_campus_garden_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
+    if spec.get("id") == 5:
+        # R&D/QC is represented by the modeled MES control-room presentation camera;
+        # a building-envelope orbit cannot see the interior screens.
+        forward = anchor.matrix_world.to_quaternion() @ Vector((0.0, 0.0, -1.0))
+        base_target = anchor.matrix_world.translation + forward * 100.0
+        base = anchor.matrix_world.translation.copy()
+        offsets = [Vector((0.0, 0.0, 0.0)), Vector((2.0, 1.0, 0.0)), Vector((4.0, 2.0, 0.2)), Vector((2.0, 3.0, 0.0)), Vector((-2.0, 3.0, 0.0)), Vector((-4.0, 1.0, 0.2)), Vector((0.0, 0.0, 0.0))]
+        locations = [base + offset for offset in offsets]
+        targets = [location + forward * 100.0 for location in locations]
+        return [point(frame, locations[i], targets[i], f"mes_control_room_pass_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
     if style == "building":
         # Keep building films on the presentation/visitor side of the subject. A
         # wide orbit crosses the roof envelope and produces blank-wall frames.
