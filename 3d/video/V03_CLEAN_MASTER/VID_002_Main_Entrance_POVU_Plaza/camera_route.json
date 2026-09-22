@@ -1,0 +1,245 @@
+{
+  "video": 2,
+  "title": "Main Entrance & POVU Plaza",
+  "camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "route": [
+    {
+      "frame": 1,
+      "location": [
+        -58.0,
+        -135.0,
+        13.199999809265137
+      ],
+      "target": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "label": "arrival_plaza_1",
+      "semantic_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "time_seconds": 0.0,
+      "camera_xyz": [
+        -58.0,
+        -135.0,
+        13.199999809265137
+      ],
+      "camera_rotation_euler": [
+        1.4409668445587158,
+        -2.7988109607690603e-09,
+        0.23277178406715393
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 121,
+      "location": [
+        -63.75,
+        -153.6162567138672,
+        15.417400360107422
+      ],
+      "target": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "label": "arrival_plaza_2",
+      "semantic_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "time_seconds": 5.0,
+      "camera_xyz": [
+        -63.75,
+        -153.6162567138672,
+        15.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.44170343875885,
+        2.300299950519502e-09,
+        0.10403947532176971
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 241,
+      "location": [
+        -77.75,
+        -141.6162567138672,
+        10.417400360107422
+      ],
+      "target": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "label": "arrival_plaza_3",
+      "semantic_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "time_seconds": 10.0,
+      "camera_xyz": [
+        -77.75,
+        -141.6162567138672,
+        10.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.4938998222351074,
+        6.548885878032706e-10,
+        -0.09259039908647537
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 361,
+      "location": [
+        -104.08999633789062,
+        -135.6162567138672,
+        8.417400360107422
+      ],
+      "target": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "label": "arrival_plaza_4",
+      "semantic_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "time_seconds": 15.0,
+      "camera_xyz": [
+        -104.08999633789062,
+        -135.6162567138672,
+        8.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.5260140895843506,
+        -2.5457051577859602e-08,
+        -0.5041659474372864
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 481,
+      "location": [
+        -39.40999984741211,
+        -135.6162567138672,
+        8.417400360107422
+      ],
+      "target": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "label": "arrival_plaza_5",
+      "semantic_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "time_seconds": 20.0,
+      "camera_xyz": [
+        -39.40999984741211,
+        -135.6162567138672,
+        8.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.5260140895843506,
+        5.201158614909218e-09,
+        0.5041659474372864
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 601,
+      "location": [
+        -71.75,
+        -131.6162567138672,
+        9.417400360107422
+      ],
+      "target": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "label": "arrival_plaza_6",
+      "semantic_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "time_seconds": 25.0,
+      "camera_xyz": [
+        -71.75,
+        -131.6162567138672,
+        9.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.4976886510849,
+        -0.0,
+        0.0
+      ],
+      "lens": 42.0
+    },
+    {
+      "frame": 718,
+      "location": [
+        -75.75,
+        -147.6162567138672,
+        12.417400360107422
+      ],
+      "target": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "label": "arrival_plaza_7",
+      "semantic_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "time_seconds": 29.9,
+      "camera_xyz": [
+        -75.75,
+        -147.6162567138672,
+        12.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.4721488952636719,
+        -5.674476444283982e-10,
+        -0.0565837100148201
+      ],
+      "lens": 42.0
+    }
+  ],
+  "camera_true_rule": "Final frame N is rendered from the active Blender production camera at frame N."
+}

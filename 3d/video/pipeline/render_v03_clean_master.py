@@ -151,6 +151,21 @@ def route_for_spec(spec, target_names, mapping, target_bounds):
             route.append(point(frame, subject + offset, subject, f"grand_tour_zone_{index + 1}", target_names))
         route[0]["location"] = list(anchor_location)
         return route
+    if style == "arrival":
+        # Keep the visitor film on the modeled approach/plaza side of the entrance.
+        # The generic depth pass can otherwise cross the pavilion roof and produce a
+        # mathematically valid but visually occluded frame.
+        front_y = center.y - max(18.0, radius * 1.45)
+        locations = [
+            anchor_location,
+            Vector((center.x + 8.0, front_y - 18.0, max(12.0, center.z + 10.0))),
+            Vector((center.x - 6.0, front_y - 6.0, max(8.0, center.z + 5.0))),
+            Vector((center.x - radius * 0.8, front_y, max(7.0, center.z + 3.0))),
+            Vector((center.x + radius * 0.8, front_y, max(7.0, center.z + 3.0))),
+            Vector((center.x, front_y + 4.0, max(8.0, center.z + 4.0))),
+            Vector((center.x - 4.0, front_y - 12.0, max(10.0, center.z + 7.0))),
+        ]
+        return [point(frame, locations[i], center, f"arrival_plaza_{i + 1}", target_names) for i, frame in enumerate(CHECKPOINTS)]
     start = anchor_location.copy()
     if (start - center).length > 160.0:
         start = center + direction * max(35.0, radius * 2.5) + Vector((0.0, 0.0, min(35.0, radius)))

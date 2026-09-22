@@ -2,34 +2,75 @@
 
 ## Batch scope
 
-This production run rebuilds the 48 canonical videos with IDs 001–011 and 013–050 using local Windows Blender. Approved canonical 012 and 019 are retained as existing approved V03 outputs and are not rerendered. Hands of Growth and Color/Materials Proof are additional approved validation films and are also untouched.
+This run rebuilds the 48 canonical videos with IDs 001–011 and 013–050 using local Windows Blender. Approved canonical 012 and 019 remain untouched; Hands of Growth and Color/Materials Proof remain untouched validation films.
 
-- Batch state: `coordination/batch_state.json`
-- Source: `3d/revisions/REV003/POVU_REV003_MASTER.glb`
-- Required source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
-- Verified source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
+- Batch: `M01_REMAINING_48_V03_CLEAN_MASTER`
+- Source SHA-256: `839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07`
 - Renderer: local Windows Blender Eevee only
 - Output root: `3d/video/V03_CLEAN_MASTER/`
-- Current status: **IN PROGRESS — VIDEO-001 rendering**
+- Target count: 48
+- Counts: {"PASS": 2, "PENDING": 46}
+- Approved existing: 012, 019
 
 ## Quality contract
 
-Every rebuilt video requires actual REV003 semantic targets, a subject-specific camera route, native 1280x720 Eevee at 24 fps for frames 1–720, seven full-resolution checkpoint renders, visual contact-sheet QA, final H.264 encoding, ffprobe, seven extracted final QA frames, SHA-256, an individual log, and GitHub publication. Source geometry and source GLB materials remain unchanged; all camera, lighting, visibility, and material stabilization changes are disposable-scene changes.
+Each rebuilt video requires actual REV003 semantic targets, a subject-specific camera route, native 1280x720 Eevee at 24 fps for frames 1–720, seven checkpoint renders, visual contact-sheet QA, final H.264, ffprobe, seven extracted final QA frames, SHA-256, an individual log, and GitHub publication. Source geometry and source GLB materials remain unchanged.
 
 ## Video results
 
-Detailed results are maintained in the per-video logs `M01_VIDEO-NNN_V03_CODEX_LOG.md`. The batch state is authoritative for restart status.
-
 | Video | Subject | Status |
 |---:|---|---|
-| 001 | POVU Campus Aerial | RENDERING |
-| 002–011 | Remaining campus/people/facility subjects | PENDING |
-| 012 | POVU Glass Deck | APPROVED EXISTING — not rerendered |
-| 013–018 | Raw material/control subjects | PENDING |
-| 019 | Liquid Mixing / Wet Processing | APPROVED EXISTING — not rerendered |
-| 020–050 | Remaining production/logistics/site subjects | PENDING |
+| 001 | POVU Campus Aerial | PASS |
+| 002 | Main Entrance & POVU Plaza | PASS |
+| 003 | People & Employee Campus | PENDING |
+| 004 | Administration & Headquarters | PENDING |
+| 005 | R&D + QC Innovation Centre | PENDING |
+| 006 | Training & POVU Academy | PENDING |
+| 007 | Restaurant + POVU Café | PENDING |
+| 008 | Wellness & Recreation | PENDING |
+| 009 | Daycare & Family Facilities | PENDING |
+| 010 | Occupational Health Centre | PENDING |
+| 011 | Production Building Overview | PENDING |
+| 013 | MES Production Control Room | PENDING |
+| 014 | Raw Material Receiving | PENDING |
+| 015 | Raw Material Warehouse | PENDING |
+| 016 | Chemical Storage & Unloading | PENDING |
+| 017 | Raw Material Supermarket | PENDING |
+| 018 | Liquid Ingredient Feeding | PENDING |
+| 020 | Hypochlorite Production | PENDING |
+| 021 | CIP & Hygiene Systems | PENDING |
+| 022 | Bottle Manufacturing | PENDING |
+| 023 | Caps & Closures Manufacturing | PENDING |
+| 024 | Trigger Spray Manufacturing | PENDING |
+| 025 | Liquid Bottle Filling | PENDING |
+| 026 | Liquid Sachet Packaging | PENDING |
+| 027 | Powder Handling | PENDING |
+| 028 | Powder Packaging | PENDING |
+| 029 | Toothpaste Manufacturing | PENDING |
+| 030 | Toothpaste Packaging | PENDING |
+| 031 | Standard Wet Wipes | PENDING |
+| 032 | Medical & Baby Wipes | PENDING |
+| 033 | Flushable Wipes | PENDING |
+| 034 | Packaging Material Warehouse | PENDING |
+| 035 | Packaging Material Supermarket | PENDING |
+| 036 | End-of-Line Automation | PENDING |
+| 037 | Finished Goods Flow | PENDING |
+| 038 | Finished Goods Warehouse | PENDING |
+| 039 | Dispatch & Truck Loading | PENDING |
+| 040 | AMR & Smart Internal Logistics | PENDING |
+| 041 | Forklift & Pedestrian Safety | PENDING |
+| 042 | Fire & Emergency Systems | PENDING |
+| 043 | Utilities Centre | PENDING |
+| 044 | ETP / Water Treatment | PENDING |
+| 045 | 2.5 MW Solar Energy System | PENDING |
+| 046 | Heavy Maintenance & Workshop | PENDING |
+| 047 | Sustainability & Green Campus | PENDING |
+| 048 | Safety & Zero-Harm Campus | PENDING |
+| 049 | Employee Experience | PENDING |
+| 050 | POVU Smart Factory Grand Tour | PENDING |
 
 ## Restart rule
 
 On interruption, inspect `coordination/batch_state.json` and each V03 output directory. Resume at the first video that is not genuinely PASS or documented `BLOCKED_MISSING_GEOMETRY`. Do not rerender an already validated PASS output.
 
+Updated UTC: 2026-09-22T05:25:27.440361+00:00

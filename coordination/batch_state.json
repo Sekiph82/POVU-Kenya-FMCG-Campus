@@ -18,9 +18,9 @@
     {
       "video": 2,
       "title": "Main Entrance & POVU Plaza",
-      "status": "PENDING",
-      "updated_at_utc": "2026-09-22T04:34:01.687307+00:00",
-      "note": ""
+      "status": "PASS",
+      "updated_at_utc": "2026-09-22T05:25:27.378893+00:00",
+      "note": "Local Blender V03 final render, exact MP4 validation, final QA frames, and visual QA passed."
     },
     {
       "video": 3,
@@ -345,9 +345,9 @@
       "note": ""
     }
   ],
-  "updated_at_utc": "2026-09-22T04:54:28.682388+00:00",
+  "updated_at_utc": "2026-09-22T05:25:27.378893+00:00",
   "counts": {
-    "PASS": 1,
-    "PENDING": 47
+    "PASS": 2,
+    "PENDING": 46
   }
 }

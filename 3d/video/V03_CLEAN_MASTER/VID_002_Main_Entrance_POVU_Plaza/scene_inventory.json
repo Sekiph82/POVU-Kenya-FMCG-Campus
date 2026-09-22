@@ -1,0 +1,58 @@
+{
+  "video": 2,
+  "title": "Main Entrance & POVU Plaza",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "requested_targets": [
+    "VIP_Entrance_Pavilion",
+    "POVU_VIP_SIGN",
+    "POVU_WATER_WALL_7M",
+    "LIVING_WALL_PANEL",
+    "POVU_PLAZA"
+  ],
+  "resolved_targets": [
+    "VIP_Entrance_Pavilion",
+    "POVU_VIP_SIGN",
+    "POVU_WATER_WALL_7M",
+    "LIVING_WALL_PANEL",
+    "POVU_PLAZA"
+  ],
+  "target_mapping": {
+    "VIP_Entrance_Pavilion": [
+      "VIP_Entrance_Pavilion"
+    ],
+    "POVU_VIP_SIGN": [
+      "POVU_VIP_SIGN"
+    ],
+    "POVU_WATER_WALL_7M": [
+      "POVU_WATER_WALL_7M"
+    ],
+    "LIVING_WALL_PANEL": [
+      "LIVING_WALL_PANEL"
+    ],
+    "POVU_PLAZA": [
+      "POVU_PLAZA"
+    ]
+  },
+  "target_bounds": {
+    "min": [
+      -108.5,
+      -98.0,
+      0.5
+    ],
+    "max": [
+      -35.0,
+      -56.0,
+      10.334799766540527
+    ],
+    "center": [
+      -71.75,
+      -77.0,
+      5.417399883270264
+    ],
+    "dimensions": [
+      73.5,
+      42.0,
+      9.834799766540527
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "video": 2,
+  "title": "Main Entrance & POVU Plaza",
+  "source_sha256": "839d70086df52604284c3cdce8599ac7738a1cdc916b56dacf50a6b3a5eebc07",
+  "checkpoints": [
+    {
+      "frame": 1,
+      "requested_time_seconds": 0.0,
+      "active_camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+      "camera_world_xyz": [
+        -58.0,
+        -135.0,
+        13.199999809265137
+      ],
+      "camera_rotation_euler": [
+        1.4409668445587158,
+        -2.7988109607690603e-09,
+        0.23277178406715393
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "semantic_target": "arrival_plaza_1",
+      "visible_target_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 121,
+      "requested_time_seconds": 5.0,
+      "active_camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+      "camera_world_xyz": [
+        -63.75,
+        -153.6162567138672,
+        15.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.44170343875885,
+        2.300299950519502e-09,
+        0.10403947532176971
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "semantic_target": "arrival_plaza_2",
+      "visible_target_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 241,
+      "requested_time_seconds": 10.0,
+      "active_camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+      "camera_world_xyz": [
+        -77.75,
+        -141.6162567138672,
+        10.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.4938998222351074,
+        6.548885878032706e-10,
+        -0.09259039908647537
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "semantic_target": "arrival_plaza_3",
+      "visible_target_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 361,
+      "requested_time_seconds": 15.0,
+      "active_camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+      "camera_world_xyz": [
+        -104.08999633789062,
+        -135.6162567138672,
+        8.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.5260140895843506,
+        -2.5457051577859602e-08,
+        -0.5041659474372864
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "semantic_target": "arrival_plaza_4",
+      "visible_target_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 481,
+      "requested_time_seconds": 20.0,
+      "active_camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+      "camera_world_xyz": [
+        -39.40999984741211,
+        -135.6162567138672,
+        8.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.5260140895843506,
+        5.201158614909218e-09,
+        0.5041659474372864
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "semantic_target": "arrival_plaza_5",
+      "visible_target_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 601,
+      "requested_time_seconds": 25.0,
+      "active_camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+      "camera_world_xyz": [
+        -71.75,
+        -131.6162567138672,
+        9.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.4976886510849,
+        -0.0,
+        0.0
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "semantic_target": "arrival_plaza_6",
+      "visible_target_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    },
+    {
+      "frame": 718,
+      "requested_time_seconds": 29.9,
+      "active_camera": "VID_002_Main_Entrance_POVU_Plaza_V03_CAMERA",
+      "camera_world_xyz": [
+        -75.75,
+        -147.6162567138672,
+        12.417400360107422
+      ],
+      "camera_rotation_euler": [
+        1.4721488952636719,
+        -5.674476444283982e-10,
+        -0.0565837100148201
+      ],
+      "camera_lens": 42.0,
+      "look_at_xyz": [
+        -71.75,
+        -77.0,
+        5.417399883270264
+      ],
+      "semantic_target": "arrival_plaza_7",
+      "visible_target_objects": [
+        "VIP_Entrance_Pavilion",
+        "POVU_VIP_SIGN",
+        "POVU_WATER_WALL_7M",
+        "LIVING_WALL_PANEL",
+        "POVU_PLAZA"
+      ],
+      "checks": {
+        "correct_subject_projected": true,
+        "clean_render_settings": true,
+        "camera_height_valid": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "automated_all_pass": true,
+  "visual_qa": "PASS",
+  "visual_qa_note": "Visual contact-sheet QA passed: modeled VIP/visitor approach, POVU sign, living wall, water feature and plaza frontage remain visible across all checkpoints.",
+  "all_pass": true
+}
