@@ -1,0 +1,33 @@
+{
+  "module": "M07",
+  "title": "POVU KENYA COMPLETE CAMPUS & FACTORY TOUR",
+  "source": {
+    "file": "3d/revisions/REV004.1/POVU_REV004_1_FINAL_MASTER.glb",
+    "sha256": "BD3DF0AE5FDCE88F112547D8CCE84CA1B36682767510204771977103F3D5AB6A"
+  },
+  "planning": {
+    "baseline_commit": "1ebb97007e0e3b9a90574d8cb3695a6afe89672d",
+    "matrix_rows": 69,
+    "required_rows": 66,
+    "rendered_shots": 62,
+    "raw_duration_seconds": 1393,
+    "chapters": 11
+  },
+  "delivery": {
+    "file": "output/complete-tour-r01/POVU_KENYA_COMPLETE_CAMPUS_FACTORY_TOUR_R01.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 1393,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "audio": "silent stereo AAC 48 kHz",
+    "sha256": "AE15C7BC61DE5E676607E40A7FA7D2A9ABD4B2CC7DE28F95D3977C91E9D0CB16"
+  },
+  "solar_locations": [
+    {"id": "PV_LOCATION_02_GROUND_FIELD", "chapter": "CH02", "time_seconds": 27, "evidence": "qa/solar/PV_LOCATION_02_GROUND_FIELD.jpg"},
+    {"id": "PV_LOCATION_03_CANOPY", "chapter": "CH02", "time_seconds": 53, "evidence": "qa/solar/PV_LOCATION_03_CANOPY.jpg"},
+    {"id": "PV_LOCATION_01_INVERTER_CLUSTER", "chapter": "CH02", "time_seconds": 73, "evidence": "qa/solar/PV_LOCATION_01_INVERTER_CLUSTER.jpg"}
+  ],
+  "render_method": "Local Windows Remotion 2-fps deterministic chapter sampling converted to delivery-rate 30-fps H.264 by local FFmpeg sample-and-hold; no cloud renderer."
+}

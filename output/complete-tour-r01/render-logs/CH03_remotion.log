@@ -1,0 +1,867 @@
+Bundling 8%
+Bundling 21%
+Bundling 65%
+Bundling 70%
+Bundling 75%
+Bundling 81%
+Bundling 87%
+Bundling 93%
+Bundling 100%
+Copying public dir 16.6 MB
+Getting composition
+Composition          M07-S2-CH03
+Codec                h264
+Output               output/complete-tour-r01/raw2fps/CH03_2fps.mp4
+Concurrency          8x
+Rendered 0/206
+[Tab 0, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 1, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 2, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 3, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 4, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 6, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 7, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 5, node_modules/three/build/three.core.js:2022] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 1/206, time remaining: 57m 1s
+Rendered 2/206, time remaining: 37m 21s
+Rendered 3/206, time remaining: 30m 0s
+Rendered 4/206, time remaining: 22m 24s
+Rendered 5/206, time remaining: 17m 54s
+Rendered 6/206, time remaining: 14m 51s
+Rendered 7/206, time remaining: 12m 40s
+Rendered 8/206, time remaining: 11m 2s
+Rendered 9/206, time remaining: 9m 47s
+Rendered 10/206, time remaining: 8m 47s
+Rendered 11/206, time remaining: 11m 54s
+Rendered 12/206, time remaining: 10m 52s
+Rendered 13/206, time remaining: 9m 58s
+Rendered 14/206, time remaining: 9m 13s
+Rendered 15/206, time remaining: 8m 34s
+Rendered 16/206, time remaining: 8m 0s
+Rendered 17/206, time remaining: 7m 29s
+Rendered 18/206, time remaining: 7m 2s
+Rendered 18/206, time remaining: 7m 2s
+Rendered 18/206, time remaining: 7m 2s
+Rendered 18/206, time remaining: 7m 2s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 19/206, time remaining: 6m 55s
+Rendered 20/206, time remaining: 8m 40s
+Rendered 20/206, time remaining: 8m 40s
+Rendered 21/206, time remaining: 8m 13s
+Rendered 22/206, time remaining: 7m 48s
+Rendered 23/206, time remaining: 7m 25s
+Rendered 24/206, time remaining: 7m 5s
+Rendered 25/206, time remaining: 6m 46s
+Rendered 26/206, time remaining: 6m 28s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 27/206, time remaining: 6m 12s
+Rendered 28/206, time remaining: 7m 23s
+Rendered 28/206, time remaining: 7m 23s
+Rendered 29/206, time remaining: 7m 7s
+Rendered 30/206, time remaining: 6m 50s
+Rendered 31/206, time remaining: 6m 35s
+Rendered 32/206, time remaining: 6m 20s
+Rendered 33/206, time remaining: 6m 7s
+Rendered 34/206, time remaining: 5m 54s
+Rendered 35/206, time remaining: 5m 42s
+Rendered 35/206, time remaining: 5m 42s
+Rendered 35/206, time remaining: 5m 42s
+Rendered 35/206, time remaining: 5m 42s
+Rendered 35/206, time remaining: 5m 42s
+Rendered 35/206, time remaining: 5m 42s
+Rendered 35/206, time remaining: 5m 42s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 36/206, time remaining: 5m 48s
+Rendered 37/206, time remaining: 6m 29s
+Rendered 38/206, time remaining: 6m 17s
+Rendered 39/206, time remaining: 6m 5s
+Rendered 39/206, time remaining: 6m 5s
+Rendered 40/206, time remaining: 5m 54s
+Rendered 41/206, time remaining: 5m 44s
+Rendered 42/206, time remaining: 5m 33s
+Rendered 43/206, time remaining: 5m 24s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 44/206, time remaining: 5m 14s
+Rendered 45/206, time remaining: 5m 55s
+Rendered 46/206, time remaining: 5m 45s
+Rendered 47/206, time remaining: 5m 36s
+Rendered 48/206, time remaining: 5m 27s
+Rendered 49/206, time remaining: 5m 18s
+Rendered 50/206, time remaining: 5m 10s
+Rendered 51/206, time remaining: 5m 2s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 52/206, time remaining: 4m 54s
+Rendered 53/206, time remaining: 5m 26s
+Rendered 54/206, time remaining: 5m 18s
+Rendered 55/206, time remaining: 5m 11s
+Rendered 56/206, time remaining: 5m 3s
+Rendered 57/206, time remaining: 4m 56s
+Rendered 58/206, time remaining: 4m 49s
+Rendered 59/206, time remaining: 4m 42s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 60/206, time remaining: 4m 35s
+Rendered 61/206, time remaining: 5m 1s
+Rendered 62/206, time remaining: 4m 55s
+Rendered 63/206, time remaining: 4m 48s
+Rendered 64/206, time remaining: 4m 42s
+Rendered 65/206, time remaining: 4m 35s
+Rendered 66/206, time remaining: 4m 29s
+Rendered 67/206, time remaining: 4m 23s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 68/206, time remaining: 4m 18s
+Rendered 69/206, time remaining: 4m 41s
+Rendered 70/206, time remaining: 4m 36s
+Rendered 71/206, time remaining: 4m 30s
+Rendered 72/206, time remaining: 4m 24s
+Rendered 73/206, time remaining: 4m 19s
+Rendered 74/206, time remaining: 4m 13s
+Rendered 75/206, time remaining: 4m 8s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 76/206, time remaining: 4m 3s
+Rendered 77/206, time remaining: 4m 23s
+Rendered 77/206, time remaining: 4m 23s
+Rendered 77/206, time remaining: 4m 23s
+Rendered 78/206, time remaining: 4m 19s
+Rendered 79/206, time remaining: 4m 14s
+Rendered 80/206, time remaining: 4m 9s
+Rendered 81/206, time remaining: 4m 4s
+Rendered 82/206, time remaining: 3m 59s
+Rendered 83/206, time remaining: 3m 54s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 84/206, time remaining: 3m 49s
+Rendered 85/206, time remaining: 4m 6s
+Rendered 86/206, time remaining: 4m 1s
+Rendered 87/206, time remaining: 3m 56s
+Rendered 88/206, time remaining: 3m 52s
+Rendered 89/206, time remaining: 3m 47s
+Rendered 90/206, time remaining: 3m 43s
+Rendered 91/206, time remaining: 3m 38s
+Rendered 92/206, time remaining: 3m 34s
+Rendered 92/206, time remaining: 3m 34s
+Rendered 92/206, time remaining: 3m 34s
+Rendered 92/206, time remaining: 3m 34s
+Rendered 92/206, time remaining: 3m 34s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 93/206, time remaining: 3m 32s
+Rendered 94/206, time remaining: 3m 47s
+Rendered 95/206, time remaining: 3m 43s
+Rendered 96/206, time remaining: 3m 38s
+Rendered 97/206, time remaining: 3m 34s
+Rendered 98/206, time remaining: 3m 30s
+Rendered 99/206, time remaining: 3m 26s
+Rendered 100/206, time remaining: 3m 22s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 101/206, time remaining: 3m 18s
+Rendered 102/206, time remaining: 3m 30s
+Rendered 103/206, time remaining: 3m 26s
+Rendered 104/206, time remaining: 3m 22s
+Rendered 105/206, time remaining: 3m 19s
+Rendered 106/206, time remaining: 3m 15s
+Rendered 107/206, time remaining: 3m 11s
+Rendered 108/206, time remaining: 3m 7s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 109/206, time remaining: 3m 4s
+Rendered 110/206, time remaining: 3m 14s
+Rendered 111/206, time remaining: 3m 10s
+Rendered 112/206, time remaining: 3m 6s
+Rendered 113/206, time remaining: 3m 3s
+Rendered 114/206, time remaining: 2m 59s
+Rendered 115/206, time remaining: 2m 56s
+Rendered 116/206, time remaining: 2m 52s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 117/206, time remaining: 2m 49s
+Rendered 118/206, time remaining: 2m 57s
+Rendered 119/206, time remaining: 2m 54s
+Rendered 120/206, time remaining: 2m 50s
+Rendered 121/206, time remaining: 2m 47s
+Rendered 122/206, time remaining: 2m 44s
+Rendered 123/206, time remaining: 2m 40s
+Rendered 124/206, time remaining: 2m 37s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 125/206, time remaining: 2m 34s
+Rendered 126/206, time remaining: 2m 41s
+Rendered 127/206, time remaining: 2m 38s
+Rendered 128/206, time remaining: 2m 34s
+Rendered 129/206, time remaining: 2m 31s
+Rendered 130/206, time remaining: 2m 28s
+Rendered 131/206, time remaining: 2m 25s
+Rendered 132/206, time remaining: 2m 22s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 133/206, time remaining: 2m 19s
+Rendered 134/206, time remaining: 2m 24s
+Rendered 135/206, time remaining: 2m 21s
+Rendered 136/206, time remaining: 2m 18s
+Rendered 137/206, time remaining: 2m 15s
+Rendered 138/206, time remaining: 2m 12s
+Rendered 139/206, time remaining: 2m 9s
+Rendered 140/206, time remaining: 2m 7s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 141/206, time remaining: 2m 4s
+Rendered 142/206, time remaining: 2m 7s
+Rendered 142/206, time remaining: 2m 7s
+Rendered 143/206, time remaining: 2m 4s
+Rendered 144/206, time remaining: 2m 1s
+Rendered 145/206, time remaining: 1m 59s
+Rendered 146/206, time remaining: 1m 56s
+Rendered 147/206, time remaining: 1m 53s
+Rendered 148/206, time remaining: 1m 51s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 149/206, time remaining: 1m 48s
+Rendered 150/206, time remaining: 1m 50s
+Rendered 151/206, time remaining: 1m 42s
+Rendered 152/206, time remaining: 1m 39s
+Rendered 153/206, time remaining: 1m 35s
+Rendered 154/206, time remaining: 1m 33s
+Rendered 155/206, time remaining: 1m 31s
+Rendered 156/206, time remaining: 1m 30s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 157/206, time remaining: 1m 28s
+Rendered 158/206, time remaining: 1m 30s
+Rendered 159/206, time remaining: 1m 29s
+Rendered 160/206, time remaining: 1m 27s
+Rendered 161/206, time remaining: 1m 21s
+Rendered 162/206, time remaining: 1m 19s
+Rendered 163/206, time remaining: 1m 17s
+Rendered 164/206, time remaining: 1m 15s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 165/206, time remaining: 1m 13s
+Rendered 166/206, time remaining: 1m 15s
+Rendered 167/206, time remaining: 1m 13s
+Rendered 168/206, time remaining: 1m 11s
+Rendered 168/206, time remaining: 1m 11s
+Rendered 169/206, time remaining: 1m 9s
+Rendered 170/206, time remaining: 1m 4s
+Rendered 171/206, time remaining: 1m 2s
+Rendered 172/206, time remaining: 1m 0s
+Rendered 173/206, time remaining: 59s
+Rendered 173/206, time remaining: 59s
+Rendered 173/206, time remaining: 59s
+Rendered 173/206, time remaining: 59s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 174/206, time remaining: 57s
+Rendered 175/206, time remaining: 58s
+Rendered 176/206, time remaining: 56s
+Rendered 177/206, time remaining: 54s
+Rendered 178/206, time remaining: 50s
+Rendered 179/206, time remaining: 48s
+Rendered 180/206, time remaining: 46s
+Rendered 181/206, time remaining: 44s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 182/206, time remaining: 43s
+Rendered 183/206, time remaining: 43s
+Rendered 184/206, time remaining: 41s
+Rendered 184/206, time remaining: 41s
+Rendered 185/206, time remaining: 39s
+Rendered 186/206, time remaining: 37s
+Rendered 187/206, time remaining: 33s
+Rendered 188/206, time remaining: 32s
+Rendered 189/206, time remaining: 30s
+Rendered 190/206, time remaining: 28s
+Rendered 190/206, time remaining: 28s
+Rendered 190/206, time remaining: 28s
+Rendered 191/206, time remaining: 26s
+Rendered 191/206, time remaining: 26s
+Rendered 191/206, time remaining: 26s
+Rendered 191/206, time remaining: 26s
+Rendered 191/206, time remaining: 26s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 192/206, time remaining: 25s
+Rendered 193/206, time remaining: 24s
+Rendered 194/206, time remaining: 22s
+Rendered 195/206, time remaining: 19s
+Rendered 196/206, time remaining: 18s
+Rendered 197/206, time remaining: 16s
+Rendered 198/206, time remaining: 14s
+Rendered 199/206, time remaining: 12s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 200/206, time remaining: 10s
+Rendered 201/206, time remaining: 9s
+Rendered 202/206, time remaining: 7s
+Rendered 203/206, time remaining: 5s
+Rendered 204/206, time remaining: 3s
+Rendered 205/206, time remaining: 1s
+Encoded 105/206
+Encoded 131/206
+Encoded 165/206
+Encoded 206/206
++                    output/complete-tour-r01/raw2fps/CH03_2fps.mp4 1.5 MB

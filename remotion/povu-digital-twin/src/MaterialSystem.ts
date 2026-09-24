@@ -26,8 +26,12 @@ const assign = (object: THREE.Object3D, material: THREE.Material) => {
   const mesh = object as THREE.Mesh;
   if (!mesh.isMesh) return;
   mesh.material = material;
-  mesh.castShadow = true;
-  mesh.receiveShadow = true;
+  // The long-form Remotion renderer uses ambient + directional lighting without
+  // a shadow map. Disabling per-mesh shadow participation keeps the exact GLB
+  // geometry/material assignment while avoiding a costly shadow pass on every
+  // frame of the 23-minute tour.
+  mesh.castShadow = false;
+  mesh.receiveShadow = false;
 };
 
 export const applyRev004MaterialSystem = (input: THREE.Object3D) => {
