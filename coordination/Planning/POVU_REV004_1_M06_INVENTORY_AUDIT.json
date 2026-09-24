@@ -1,0 +1,97 @@
+{
+  "audit": "POVU_REV004_1_M06_INVENTORY_AUDIT",
+  "status": "PASS_WITH_EVIDENCE_GAPS",
+  "source": {
+    "path": "3d/revisions/REV004.1/POVU_REV004_1_FINAL_MASTER.glb",
+    "sha256_expected": "BD3DF0AE5FDCE88F112547D8CCE84CA1B36682767510204771977103F3D5AB6A",
+    "sha256_actual": "BD3DF0AE5FDCE88F112547D8CCE84CA1B36682767510204771977103F3D5AB6A",
+    "frozen": true
+  },
+  "model_counts": {
+    "gltf_nodes": 2227,
+    "semantic_manifest_entries": 855,
+    "unique_semantic_object_names": 848,
+    "semantic_categories": 15,
+    "mesh_objects": 2083,
+    "materials": 105,
+    "cameras": 55
+  },
+  "planning_counts": {
+    "coverage_matrix_rows": 69,
+    "required_rows": 66,
+    "documented_not_modeled_rows": 1,
+    "uncertain_rows": 2,
+    "building_facility_groups": 19,
+    "production_area_groups": 17,
+    "machine_equipment_semantic_objects": 334,
+    "solar_locations_identified": 3,
+    "proposed_chapters": 11,
+    "proposed_shots": 69,
+    "raw_shot_seconds": 1439,
+    "estimated_complete_tour_seconds": 1525
+  },
+  "solar_locations": [
+    {
+      "id": "SOL-01",
+      "semantic_group": "SOLAR_ARRAY through SOLAR_ARRAY083",
+      "panel_surface_count": 84,
+      "bounds_approx": {"x": [27.0, 110.0], "y": [94.5, 121.5], "z": [2.2, 3.0]},
+      "type": "ground_field_proxy"
+    },
+    {
+      "id": "SOL-02",
+      "semantic_group": "SolarPanel through SolarPanel047",
+      "panel_surface_count": 48,
+      "bounds_approx": {"x": [44.0, 122.0], "y": [86.8, 109.2], "z": [2.05, 2.75]},
+      "type": "low_mounted_panel_field_mounting_uncertain"
+    },
+    {
+      "id": "SOL-03",
+      "semantic_group": "SOLAR_CARPORT_PANEL through SOLAR_CARPORT_PANEL010",
+      "panel_surface_count": 11,
+      "support_count": 11,
+      "bounds_approx": {"x": [-14.5, 94.5], "y": [-92.0, -86.0], "z": [5.28, 6.32]},
+      "type": "canopy_carport_proxy"
+    }
+  ],
+  "evidence_class_rollup": {
+    "A_documented_and_modeled": 62,
+    "A_B_hybrid": 1,
+    "A_C_hybrid": 1,
+    "B_modeled_only": 2,
+    "C_documented_not_modeled": 1,
+    "D_uncertain": 2
+  },
+  "documents_reviewed": [
+    "README.md",
+    "docs/README.md",
+    "source/README.md",
+    "3d/revisions/REV004.1/REV004_1_ARCHITECTURAL_MANIFEST.json",
+    "3d/revisions/REV004.1/audit/REV004_1_GLTF_RELOAD_INVENTORY.json",
+    "3d/revisions/REV004.1/audit/REV004_1_BUILD_AUDIT.json",
+    "3d/revisions/REV004.1/audit/REV004_source_semantic_audit.json",
+    "3d/revisions/REV004/REV004_ARCHITECTURAL_MANIFEST.json",
+    "coordination/Evidence/REV003_scene_inventory.json",
+    "coordination/Evidence/REV003_full_inventory.json",
+    "3d/video/pipeline/v03_clean_master_manifest.json",
+    "coordination/Logs/M03_REV004_FINAL_ARCHITECTURAL_MASTER_CODEX_LOG.md",
+    "coordination/Logs/M04_REMOTION_DIGITAL_TWIN_POC_R02_CODEX_LOG.md",
+    "coordination/Logs/M05_REV004_1_FINAL_CLEANUP_CODEX_LOG.md",
+    "remotion/povu-digital-twin/src/R02Video.tsx",
+    "remotion/povu-digital-twin/src/MaterialSystem.ts",
+    "output/poc-r02/qa/qa-report.json",
+    "output/poc-r02/qa/camera-route-report.json",
+    "output/poc-r02/qa/material-override-report.json",
+    "output/poc-r02/qa/waterwall-qa.json",
+    "output/poc-r02/qa/label-tracking-report.json"
+  ],
+  "unavailable_named_documents": [
+    "POVU Kenya World-Class FMCG Campus Masterplan V2 HSE",
+    "Kenya market research presentation",
+    "POVU Brand Kenya Strategy",
+    "budgeting / extended-line 91-SKU workbook",
+    "separate process/equipment workbook"
+  ],
+  "frozen_master_modified": false,
+  "final_long_form_render_started": false
+}
