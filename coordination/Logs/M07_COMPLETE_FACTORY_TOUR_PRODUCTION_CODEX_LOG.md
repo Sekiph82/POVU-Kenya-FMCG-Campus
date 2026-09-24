@@ -35,7 +35,7 @@ This log records the local Remotion production of the M07 long-form campus and f
 
 ## Final result
 
-M07 COMPLETE pending Git publication and remote verification. Final master path: `output/complete-tour-r01/POVU_KENYA_COMPLETE_CAMPUS_FACTORY_TOUR_R01.mp4`.
+M07 COMPLETE. Source, manifests, QA evidence, status, and this log were pushed to `origin/main` at commit `39366aa`. The large MP4 and intermediate media remain local-only by design. Final master path: `output/complete-tour-r01/POVU_KENYA_COMPLETE_CAMPUS_FACTORY_TOUR_R01.mp4`.
 
 ## Render method
 
