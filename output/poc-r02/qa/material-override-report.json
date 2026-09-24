@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "system": "Semantic runtime material classification in src/MaterialSystem.ts",
+  "categories": [
+    "water",
+    "living wall",
+    "Hands of Growth",
+    "solar/PV",
+    "glass",
+    "machines",
+    "architecture",
+    "paving",
+    "landscape",
+    "smart totems"
+  ],
+  "sourceGeometryPreserved": true,
+  "runtimePresentationOverrides": [
+    "Production_Hall shell hidden for separated production view",
+    "source living-wall meshes hidden where runtime green VIP wall is staged",
+    "SITE_7HA ground receives neutral paving treatment"
+  ],
+  "shaderNotes": [
+    "Water Wall uses a frame-driven custom shader with uTime = frame / 30",
+    "No useFrame or wall-clock animation is used"
+  ]
+}

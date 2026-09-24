@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "coordinateConvention": "Blender Z-up positions are transformed to Three.js Y-up as [x, z, -y].",
+  "keyframes": [
+    {
+      "frame": 0,
+      "positionBlender": [
+        205,
+        -230,
+        155
+      ],
+      "targetBlender": [
+        150,
+        -170,
+        105
+      ]
+    },
+    {
+      "frame": 180,
+      "positionBlender": [
+        145,
+        -165,
+        92
+      ],
+      "targetBlender": [
+        100,
+        -120,
+        60
+      ]
+    },
+    {
+      "frame": 330,
+      "positionBlender": [
+        76,
+        -124,
+        38
+      ],
+      "targetBlender": [
+        20,
+        -80,
+        8
+      ]
+    },
+    {
+      "frame": 540,
+      "positionBlender": [
+        -58,
+        -140,
+        14
+      ],
+      "targetBlender": [
+        -50,
+        -92,
+        4.5
+      ]
+    },
+    {
+      "frame": 630,
+      "positionBlender": [
+        -112,
+        -126,
+        15
+      ],
+      "targetBlender": [
+        -108,
+        -79,
+        5
+      ]
+    },
+    {
+      "frame": 750,
+      "positionBlender": [
+        -135,
+        -116,
+        27
+      ],
+      "targetBlender": [
+        -108,
+        -79,
+        5
+      ]
+    },
+    {
+      "frame": 990,
+      "positionBlender": [
+        -58,
+        -44,
+        14
+      ],
+      "targetBlender": [
+        -4,
+        -7,
+        8
+      ]
+    },
+    {
+      "frame": 1200,
+      "positionBlender": [
+        -28,
+        -2,
+        11
+      ],
+      "targetBlender": [
+        -17,
+        12,
+        4.7
+      ]
+    },
+    {
+      "frame": 1440,
+      "positionBlender": [
+        -55,
+        -1,
+        12
+      ],
+      "targetBlender": [
+        -30,
+        12,
+        5
+      ]
+    },
+    {
+      "frame": 1620,
+      "positionBlender": [
+        -45,
+        -8,
+        11
+      ],
+      "targetBlender": [
+        -30,
+        12,
+        5
+      ]
+    },
+    {
+      "frame": 1799,
+      "positionBlender": [
+        -40,
+        -15,
+        10
+      ],
+      "targetBlender": [
+        -25,
+        12,
+        5
+      ]
+    }
+  ],
+  "routeCoverage": [
+    "campus aerial",
+    "VIP entrance",
+    "Water Wall",
+    "Hands of Growth",
+    "POVU glass deck",
+    "smart manufacturing"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "mission": "POVU Kenya FMCG Campus M04 Remotion Digital Twin POC R02",
+  "status": "PASS",
+  "composition": {
+    "id": "R02",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "durationInFrames": 1800,
+    "durationSeconds": 60
+  },
+  "source": {
+    "path": "3d/revisions/REV004/POVU_REV004_FINAL_MASTER.glb",
+    "runtimeCopy": "remotion/povu-digital-twin/public/POVU_REV004_FINAL_MASTER.glb",
+    "sha256": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA"
+  },
+  "checkpointFrames": [
+    {
+      "frame": 0,
+      "timeSeconds": 0,
+      "path": "qa/checkpoint_0000.png",
+      "exists": true
+    },
+    {
+      "frame": 180,
+      "timeSeconds": 6,
+      "path": "qa/checkpoint_0180.png",
+      "exists": true
+    },
+    {
+      "frame": 360,
+      "timeSeconds": 12,
+      "path": "qa/checkpoint_0360.png",
+      "exists": true
+    },
+    {
+      "frame": 540,
+      "timeSeconds": 18,
+      "path": "qa/checkpoint_0540.png",
+      "exists": true
+    },
+    {
+      "frame": 720,
+      "timeSeconds": 24,
+      "path": "qa/checkpoint_0720.png",
+      "exists": true
+    },
+    {
+      "frame": 900,
+      "timeSeconds": 30,
+      "path": "qa/checkpoint_0900.png",
+      "exists": true
+    },
+    {
+      "frame": 1080,
+      "timeSeconds": 36,
+      "path": "qa/checkpoint_1080.png",
+      "exists": true
+    },
+    {
+      "frame": 1260,
+      "timeSeconds": 42,
+      "path": "qa/checkpoint_1260.png",
+      "exists": true
+    },
+    {
+      "frame": 1440,
+      "timeSeconds": 48,
+      "path": "qa/checkpoint_1440.png",
+      "exists": true
+    },
+    {
+      "frame": 1620,
+      "timeSeconds": 54,
+      "path": "qa/checkpoint_1620.png",
+      "exists": true
+    },
+    {
+      "frame": 1797,
+      "timeSeconds": 59.9,
+      "path": "qa/checkpoint_1797.png",
+      "exists": true
+    }
+  ],
+  "waterWallCloseups": [
+    {
+      "frame": 450,
+      "timeSeconds": 15,
+      "path": "qa/checkpoint_0450.png",
+      "exists": true,
+      "qa": "Animated aqua streak shader, basin plane, entrance signage, and architectural water-wall treatment visually present."
+    },
+    {
+      "frame": 500,
+      "timeSeconds": 16.666666666666668,
+      "path": "qa/checkpoint_0500.png",
+      "exists": true,
+      "qa": "Animated aqua streak shader, basin plane, entrance signage, and architectural water-wall treatment visually present."
+    },
+    {
+      "frame": 535,
+      "timeSeconds": 17.833333333333332,
+      "path": "qa/checkpoint_0535.png",
+      "exists": true,
+      "qa": "Animated aqua streak shader, basin plane, entrance signage, and architectural water-wall treatment visually present."
+    }
+  ],
+  "manifestCounts": {
+    "object_count": 2221,
+    "mesh_object_count": 2082,
+    "mesh_data_count": 2082,
+    "material_count": 104,
+    "camera_count": 55
+  },
+  "finalMp4": {
+    "path": "output/poc-r02/POVU_REMOTION_DIGITAL_TWIN_POC_R02.mp4",
+    "exists": true,
+    "sha256": "5812D874B1F862B387186E11C774FCB2AF88F374216AE89D4BFB65626ADBF6B4"
+  },
+  "generatedAt": "2026-09-24T06:54:22.905Z"
+}

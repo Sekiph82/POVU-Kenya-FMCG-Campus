@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "anchors": [
+    {
+      "label": "PROCESS TANK 03",
+      "anchorBlender": [
+        -17,
+        12,
+        8.4
+      ]
+    },
+    {
+      "label": "PROCESS TANK 07",
+      "anchorBlender": [
+        -55,
+        32,
+        8.4
+      ]
+    },
+    {
+      "label": "MIXING PLATFORM",
+      "anchorBlender": [
+        -8,
+        19,
+        7.8
+      ]
+    }
+  ],
+  "sampleFrames": [
+    1370,
+    1440,
+    1510,
+    1620,
+    1770,
+    1797
+  ],
+  "checks": [
+    "world-space anchor projection",
+    "screen-space clamping",
+    "subject label readability at production hero",
+    "no label plate beyond output bounds"
+  ]
+}

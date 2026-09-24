@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "frames": [
+    {
+      "frame": 450,
+      "timeSeconds": 15,
+      "visualChecks": [
+        "animated vertical flow bands",
+        "aqua/transparent water treatment",
+        "basin and façade context",
+        "POVU signage remains legible"
+      ],
+      "image": "checkpoint_0450.png"
+    },
+    {
+      "frame": 500,
+      "timeSeconds": 16.666666666666668,
+      "visualChecks": [
+        "animated vertical flow bands",
+        "aqua/transparent water treatment",
+        "basin and façade context",
+        "POVU signage remains legible"
+      ],
+      "image": "checkpoint_0500.png"
+    },
+    {
+      "frame": 535,
+      "timeSeconds": 17.833333333333332,
+      "visualChecks": [
+        "animated vertical flow bands",
+        "aqua/transparent water treatment",
+        "basin and façade context",
+        "POVU signage remains legible"
+      ],
+      "image": "checkpoint_0535.png"
+    }
+  ]
+}
