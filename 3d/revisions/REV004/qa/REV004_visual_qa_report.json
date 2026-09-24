@@ -1,0 +1,41 @@
+{
+  "blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\POVU_KENYA_FMCG_CAMPUS_REV004_FINAL_ARCHITECTURAL_MASTER.blend",
+  "rendered": [
+    {
+      "camera": "PRES_VIP_ENTRANCE",
+      "status": "PASS",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\qa\\PRES_VIP_ENTRANCE.png",
+      "bytes": 238671
+    },
+    {
+      "camera": "PRES_HANDS_OF_GROWTH",
+      "status": "PASS",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\qa\\PRES_HANDS_OF_GROWTH.png",
+      "bytes": 274670
+    },
+    {
+      "camera": "PRES_GLASS_DECK_EAST_ACCESS",
+      "status": "PASS",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\qa\\PRES_GLASS_DECK_EAST_ACCESS.png",
+      "bytes": 225164
+    },
+    {
+      "camera": "PRES_GLASS_DECK_WEST_ACCESS",
+      "status": "PASS",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\qa\\PRES_GLASS_DECK_WEST_ACCESS.png",
+      "bytes": 275272
+    },
+    {
+      "camera": "PRES_GLASS_DECK_CENTRAL_ACCESS",
+      "status": "PASS",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\qa\\PRES_GLASS_DECK_CENTRAL_ACCESS.png",
+      "bytes": 287090
+    },
+    {
+      "camera": "PRES_01_CAMPUS_HERO",
+      "status": "PASS",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\qa\\PRES_01_CAMPUS_HERO.png",
+      "bytes": 203508
+    }
+  ]
+}

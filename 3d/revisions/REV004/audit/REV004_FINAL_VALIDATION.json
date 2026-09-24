@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_exists": true,
+    "source_sha256_matches_expected": true,
+    "source_inventory_matches_expected": true,
+    "final_blend_exists": true,
+    "final_glb_exists": true,
+    "final_glb_reload_inventory_matches_export": true,
+    "required_source_names_present": true,
+    "required_final_names_present_after_reload": true,
+    "five_totem_placements_documented": true,
+    "visual_qa_cameras_rendered": true,
+    "remotion_not_started": true
+  },
+  "failed_checks": [],
+  "source_sha256": "839D70086DF52604284C3CDCE8599AC7738A1CDC916B56DACF50A6B3A5EEBC07",
+  "final_glb_sha256": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+  "source_inventory_counts": {
+    "object_count": 2031,
+    "mesh_object_count": 1937,
+    "material_count": 95,
+    "camera_count": 50
+  },
+  "final_reload_counts": {
+    "object_count": 2221,
+    "mesh_object_count": 2082,
+    "material_count": 101,
+    "camera_count": 55
+  },
+  "final_missing_names": [],
+  "source_missing_names": [],
+  "visual_qa_missing_or_failed": [],
+  "totem_placement_count": 5,
+  "manifest_revision": "REV004_FINAL_ARCHITECTURAL_MASTER",
+  "blender_version": "5.2.2 LTS",
+  "artifacts": {
+    "blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\POVU_KENYA_FMCG_CAMPUS_REV004_FINAL_ARCHITECTURAL_MASTER.blend",
+    "glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\POVU_REV004_FINAL_MASTER.glb",
+    "manifest": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\REV004_ARCHITECTURAL_MANIFEST.json",
+    "visual_qa_report": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\qa\\REV004_visual_qa_report.json"
+  }
+}
