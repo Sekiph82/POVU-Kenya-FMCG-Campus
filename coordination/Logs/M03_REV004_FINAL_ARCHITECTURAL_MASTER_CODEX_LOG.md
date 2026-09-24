@@ -89,4 +89,4 @@ The East access camera is partially occluded by the imported source massing; the
 
 The REV003 source remains untouched. The pre-existing untracked `remotion/` directory was preserved. Only REV004 pipeline scripts, audit/manifest/QA evidence, the required log, and the final REV004 master artifacts are in scope for publication. The REV004 `.blend` and `.glb` are 2.1 MB and 8.2 MB respectively and are suitable for normal repository publication; the generated `.blend1` backup and temporary East trial images are not publication artifacts.
 
-Publication commit: to be filled after the final commit is created.
+Publication commit: `970c1de` (`Finalize REV004 architectural master`).
