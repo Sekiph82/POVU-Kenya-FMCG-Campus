@@ -1,0 +1,234 @@
+{
+  "status": "PASS",
+  "composition": {
+    "fps": 30,
+    "durationInFrames": 1800,
+    "durationSeconds": 60,
+    "fov": 52
+  },
+  "cameraSystem": {
+    "persistentCamera": true,
+    "hardCuts": 0,
+    "controlPointCount": 14,
+    "interpolation": "smoothstep position and target interpolation"
+  },
+  "maxFrameToFramePositionDelta": {
+    "value": 2.554195525887761,
+    "frame": 1171
+  },
+  "maxFrameToFrameAngularDeltaDegrees": {
+    "value": 0.61242504826569,
+    "frame": 1527
+  },
+  "maxFrameToFrameFovDelta": {
+    "value": 0,
+    "frame": 0
+  },
+  "maxPositionAccelerationDelta": {
+    "value": 0.16466469859374128,
+    "frame": 1200
+  },
+  "maxAngularAccelerationDelta": {
+    "value": 0.04212096559816243,
+    "frame": 1502
+  },
+  "discontinuities": [],
+  "keyframes": [
+    {
+      "frame": 0,
+      "positionBlender": [
+        205,
+        -230,
+        155
+      ],
+      "targetBlender": [
+        150,
+        -170,
+        105
+      ],
+      "section": "campus overview"
+    },
+    {
+      "frame": 180,
+      "positionBlender": [
+        145,
+        -165,
+        92
+      ],
+      "targetBlender": [
+        100,
+        -120,
+        60
+      ],
+      "section": "campus overview"
+    },
+    {
+      "frame": 330,
+      "positionBlender": [
+        76,
+        -124,
+        38
+      ],
+      "targetBlender": [
+        20,
+        -80,
+        8
+      ],
+      "section": "arrival approach"
+    },
+    {
+      "frame": 540,
+      "positionBlender": [
+        -58,
+        -140,
+        14
+      ],
+      "targetBlender": [
+        -50,
+        -92,
+        4.5
+      ],
+      "section": "VIP entrance and water wall"
+    },
+    {
+      "frame": 750,
+      "positionBlender": [
+        -135,
+        -116,
+        27
+      ],
+      "targetBlender": [
+        -108,
+        -79,
+        5
+      ],
+      "section": "Hands of Growth"
+    },
+    {
+      "frame": 990,
+      "positionBlender": [
+        -18,
+        -110,
+        11
+      ],
+      "targetBlender": [
+        5,
+        -80,
+        4
+      ],
+      "section": "people and campus facilities"
+    },
+    {
+      "frame": 1080,
+      "positionBlender": [
+        -18,
+        -100,
+        20
+      ],
+      "targetBlender": [
+        5,
+        -75,
+        6
+      ],
+      "section": "people and campus facilities"
+    },
+    {
+      "frame": 1140,
+      "positionBlender": [
+        0,
+        -50,
+        42
+      ],
+      "targetBlender": [
+        35,
+        0,
+        6
+      ],
+      "section": "Glass Deck approach"
+    },
+    {
+      "frame": 1200,
+      "positionBlender": [
+        35,
+        45,
+        28
+      ],
+      "targetBlender": [
+        55,
+        68,
+        6
+      ],
+      "section": "Glass Deck approach"
+    },
+    {
+      "frame": 1350,
+      "positionBlender": [
+        28,
+        58,
+        25
+      ],
+      "targetBlender": [
+        55,
+        68,
+        6
+      ],
+      "section": "East Stair relationship"
+    },
+    {
+      "frame": 1410,
+      "positionBlender": [
+        35,
+        65,
+        14
+      ],
+      "targetBlender": [
+        55,
+        68,
+        5
+      ],
+      "section": "East Stair relationship"
+    },
+    {
+      "frame": 1500,
+      "positionBlender": [
+        45,
+        72,
+        8
+      ],
+      "targetBlender": [
+        55,
+        68,
+        5
+      ],
+      "section": "East Stair relationship"
+    },
+    {
+      "frame": 1650,
+      "positionBlender": [
+        -69,
+        -1,
+        10
+      ],
+      "targetBlender": [
+        -20,
+        12,
+        7
+      ],
+      "section": "smart manufacturing"
+    },
+    {
+      "frame": 1799,
+      "positionBlender": [
+        -72,
+        -5,
+        14
+      ],
+      "targetBlender": [
+        -17,
+        12,
+        4.7
+      ],
+      "section": "smart manufacturing"
+    }
+  ]
+}

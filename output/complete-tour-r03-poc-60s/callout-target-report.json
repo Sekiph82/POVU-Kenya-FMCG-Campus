@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "source": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\POVU_REV004_1_FINAL_MASTER.glb",
+  "sourceObjectCount": 2227,
+  "callouts": [
+    {
+      "label": "POVU ENTRANCE / WATER WALL",
+      "queries": [
+        "VIP_ENTRANCE_SIGNAGE",
+        "POVU_WATER_WALL_7M",
+        "VIP_ENTRANCE_CANOPY"
+      ],
+      "resolved": "VIP_ENTRANCE_SIGNAGE"
+    },
+    {
+      "label": "HANDS OF GROWTH",
+      "queries": [
+        "NAV_TARGET_HANDS_OF_GROWTH",
+        "HANDS_OF_GROWTH",
+        "HOG_HAND_LEFT"
+      ],
+      "resolved": "NAV_TARGET_HANDS_OF_GROWTH"
+    },
+    {
+      "label": "RESTAURANT / POVU CAFE",
+      "queries": [
+        "RESTAURANT_ENTRANCE_SIGNAGE",
+        "CAFE_GLASS_FRONT",
+        "CAFE_TERRACE"
+      ],
+      "resolved": "RESTAURANT_ENTRANCE_SIGNAGE"
+    },
+    {
+      "label": "EAST STAIR / GLASS DECK",
+      "queries": [
+        "GLASS_DECK_EAST_STAIR_STEP_06",
+        "GLASS_DECK_EAST_STAIR"
+      ],
+      "resolved": "GLASS_DECK_EAST_STAIR_STEP_06"
+    },
+    {
+      "label": "POVU SMART MANUFACTURING",
+      "queries": [
+        "MIXING_PLATFORM",
+        "ProcessTank_01",
+        "PRODUCTION_FLOOR"
+      ],
+      "resolved": "MIXING_PLATFORM"
+    }
+  ],
+  "overviewLabels": [
+    {
+      "label": "R&D / QC",
+      "queries": [
+        "R_D_QC_ENTRANCE_SIGNAGE",
+        "R_D_QC_ENTRANCE_CANOPY"
+      ],
+      "resolved": "R_D_QC_ENTRANCE_SIGNAGE"
+    },
+    {
+      "label": "RESTAURANT / CAFE",
+      "queries": [
+        "RESTAURANT_ENTRANCE_SIGNAGE",
+        "CAFE_GLASS_FRONT"
+      ],
+      "resolved": "RESTAURANT_ENTRANCE_SIGNAGE"
+    },
+    {
+      "label": "WELLNESS / RECREATION",
+      "queries": [
+        "WELLNESS_PAVILION",
+        "RECREATION_COURT"
+      ],
+      "resolved": "WELLNESS_PAVILION"
+    },
+    {
+      "label": "POVU FACTORY",
+      "queries": [
+        "PRODUCTION_FLOOR",
+        "Production_Hall"
+      ],
+      "resolved": "PRODUCTION_FLOOR"
+    }
+  ],
+  "missing": []
+}

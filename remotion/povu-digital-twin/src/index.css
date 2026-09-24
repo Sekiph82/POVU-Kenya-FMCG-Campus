@@ -37,6 +37,22 @@ body { margin: 0; background: #aebdca; overflow: hidden; }
 .tour-caveat { position: absolute; left: 50%; bottom: 92px; transform: translateX(-50%); min-width: 470px; padding: 13px 18px; text-align: center; border: 1px solid rgba(230,191,123,.8); background: rgba(45,35,25,.86); color: #f4dfba; letter-spacing: 1.8px; font-size: 15px; }
 .tour-process-flow { position: absolute; left: 50%; bottom: 42px; transform: translateX(-50%); padding: 12px 18px; background: rgba(19,31,37,.78); border: 1px solid rgba(227,193,126,.45); color: #e8e2d2; font-size: 13px; letter-spacing: 1.8px; white-space: nowrap; }
 .tour-process-flow b { color: #70d5d8; padding: 0 8px; }
+.r03-root { font-family: Arial, Helvetica, sans-serif; background: #aebdca; }
+.r03-overlay { position: absolute; inset: 0; pointer-events: none; color: #f4f5f0; text-shadow: 0 2px 18px rgba(0,0,0,.4); }
+.r03-route { position: absolute; top: 42px; left: 72px; padding: 10px 15px; color: rgba(238,244,241,.76); background: rgba(16,31,36,.38); letter-spacing: 2.4px; font-size: 14px; }
+.r03-route span { color: #e6bf7b; }
+.r03-route b { color: rgba(238,244,241,.4); padding: 0 8px; }
+.r03-title { position: absolute; left: 78px; bottom: 102px; font-size: 48px; font-weight: 700; letter-spacing: 3px; }
+.r03-eyebrow { color: #d4ae70; letter-spacing: 4px; font-size: 15px; margin-bottom: 12px; font-weight: 500; }
+.r03-title small { display: block; margin-top: 12px; color: #dce6e3; font-size: 18px; font-weight: 400; letter-spacing: 2px; }
+.r03-signature { position: absolute; right: 72px; bottom: 40px; color: rgba(240,245,241,.68); font-size: 12px; letter-spacing: 2.4px; }
+.r03-callout-title { position: absolute; right: 78px; bottom: 112px; padding: 14px 18px; border-left: 2px solid #70d5d8; background: rgba(16,36,45,.82); color: #f3e7cb; letter-spacing: 2.5px; font-size: 20px; }
+.r03-progress { position: absolute; left: 72px; right: 72px; bottom: 28px; height: 2px; background: rgba(240,245,241,.2); }
+.r03-progress span { display: block; height: 100%; background: #70d5d8; transform-origin: left center; }
+.r03-callout { position: absolute; transform: translate(-50%, -50%); padding: 10px 15px 9px 28px; background: rgba(17,31,37,.88); border: 1px solid rgba(227,193,126,.75); color: #f6ead4; letter-spacing: 1.7px; font-size: 16px; white-space: nowrap; box-shadow: 0 5px 25px rgba(0,0,0,.22); }
+.r03-callout i { position: absolute; left: 12px; top: 16px; width: 7px; height: 7px; border-radius: 50%; background: #6dd6d5; box-shadow: 0 0 12px #6dd6d5; }
+.r03-overview-labels { position: absolute; inset: 0; }
+.r03-overview-label { position: absolute; transform: translate(-50%, -50%); padding: 8px 12px; background: rgba(17,31,37,.78); border-left: 2px solid #70d5d8; color: #f6ead4; letter-spacing: 1.5px; font-size: 14px; white-space: nowrap; }
 .tour-world-label { position: absolute; transform: translate(-50%, -50%); padding: 10px 15px 9px 28px; background: rgba(17,31,37,.86); border: 1px solid rgba(227,193,126,.75); color: #f6ead4; letter-spacing: 1.7px; font-size: 16px; white-space: nowrap; box-shadow: 0 5px 25px rgba(0,0,0,.22); }
 .tour-world-label i { position: absolute; left: 12px; top: 16px; width: 7px; height: 7px; border-radius: 50%; background: #6dd6d5; box-shadow: 0 0 12px #6dd6d5; }
 .tour-world-label small { display: block; margin-top: 5px; color: #88b9b8; font-size: 9px; letter-spacing: 1.2px; }
