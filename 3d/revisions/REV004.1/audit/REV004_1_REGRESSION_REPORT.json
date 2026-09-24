@@ -1,0 +1,43 @@
+{
+  "report": "REV004_1_REGRESSION_REPORT",
+  "status": "PASS",
+  "source_revision": "REV004",
+  "source_rev004_glb_sha256_expected": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+  "source_rev004_glb_sha256_actual": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+  "output_revision": "REV004.1",
+  "output_glb_sha256": "BD3DF0AE5FDCE88F112547D8CCE84CA1B36682767510204771977103F3D5AB6A",
+  "reload": {
+    "status": "PASS",
+    "hands_of_growth_root_count": 1,
+    "vip_flagship_smart_totem_count": 1,
+    "campus_smart_totem_count": 4,
+    "required_names_missing": []
+  },
+  "visual_qa": {
+    "status": "PASS",
+    "image_count": 6,
+    "required_views": [
+      "VIP entrance front",
+      "VIP entrance oblique",
+      "full extended Living Wall",
+      "Hands of Growth front",
+      "Hands of Growth oblique",
+      "wider plaza proving one HOG"
+    ]
+  },
+  "locked_regressions": {
+    "vip_doors_glazing_portal_canopy": "preserved",
+    "water_wall": "preserved",
+    "glass_deck_stairs_lift": "preserved",
+    "production_hall_machinery": "preserved",
+    "solar_facades_roads_logistics_utilities_landscaping": "preserved_except_living_wall_backing_extension",
+    "r02_remotion_source_and_mp4": "unchanged_and_not_rerendered",
+    "complete_factory_tour": "not_started"
+  },
+  "duplicate_hands_of_growth_audit": {
+    "status": "PASS",
+    "duplicate_glb_root_candidates": 0,
+    "objects_removed": [],
+    "finding": "The approved REV004 GLB contains one original HOG component set. The apparent second sculpture belongs to the locked R02 Remotion runtime overlay."
+  }
+}

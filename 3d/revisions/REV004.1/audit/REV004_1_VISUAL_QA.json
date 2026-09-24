@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\POVU_KENYA_FMCG_CAMPUS_REV004_1_FINAL_ARCHITECTURAL_MASTER.blend",
+  "rendered": [
+    {
+      "camera": "QA_01_VIP_ENTRANCE_FRONT",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\qa\\QA_01_VIP_ENTRANCE_FRONT.png",
+      "bytes": 573576,
+      "status": "PASS",
+      "focused_hog_only_mask": false
+    },
+    {
+      "camera": "QA_02_VIP_ENTRANCE_OBLIQUE",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\qa\\QA_02_VIP_ENTRANCE_OBLIQUE.png",
+      "bytes": 726243,
+      "status": "PASS",
+      "focused_hog_only_mask": false
+    },
+    {
+      "camera": "QA_03_FULL_EXTENDED_LIVING_WALL",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\qa\\QA_03_FULL_EXTENDED_LIVING_WALL.png",
+      "bytes": 648378,
+      "status": "PASS",
+      "focused_hog_only_mask": false
+    },
+    {
+      "camera": "QA_04_HANDS_OF_GROWTH_FRONT",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\qa\\QA_04_HANDS_OF_GROWTH_FRONT.png",
+      "bytes": 385418,
+      "status": "PASS",
+      "focused_hog_only_mask": true
+    },
+    {
+      "camera": "QA_05_HANDS_OF_GROWTH_OBLIQUE",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\qa\\QA_05_HANDS_OF_GROWTH_OBLIQUE.png",
+      "bytes": 329752,
+      "status": "PASS",
+      "focused_hog_only_mask": true
+    },
+    {
+      "camera": "QA_06_WIDER_PLAZA_SINGLE_HOG",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\qa\\QA_06_WIDER_PLAZA_SINGLE_HOG.png",
+      "bytes": 690477,
+      "status": "PASS",
+      "focused_hog_only_mask": false
+    }
+  ],
+  "hands_of_growth_landmark_roots": [
+    "HANDS_OF_GROWTH"
+  ],
+  "hands_of_growth_root_count": 1,
+  "vip_flagship_smart_totems": [
+    "SMART_TOTEM_VIP_BODY"
+  ],
+  "vip_flagship_smart_totem_count": 1,
+  "campus_smart_totems": [
+    "SMART_TOTEM_CAMPUS_01_BODY",
+    "SMART_TOTEM_CAMPUS_02_BODY",
+    "SMART_TOTEM_CAMPUS_03_BODY",
+    "SMART_TOTEM_CAMPUS_04_BODY"
+  ],
+  "campus_smart_totem_count": 4,
+  "expected": {
+    "hands_of_growth_root_count": 1,
+    "vip_flagship_smart_totem_count": 1
+  }
+}

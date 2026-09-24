@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "source_rev004_glb_sha256": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+  "source_rev004_glb_sha256_expected": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+  "output_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\POVU_KENYA_FMCG_CAMPUS_REV004_1_FINAL_ARCHITECTURAL_MASTER.blend",
+  "output_glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\POVU_REV004_1_FINAL_MASTER.glb",
+  "output_glb_sha256": "BD3DF0AE5FDCE88F112547D8CCE84CA1B36682767510204771977103F3D5AB6A",
+  "living_wall_extension": {
+    "object_name": "LIVING_WALL_EXTENDED_BACKING",
+    "type": "MESH",
+    "category": "living_wall",
+    "parent": null,
+    "world_position": [
+      -81.25,
+      -91.94,
+      5.8
+    ],
+    "world_bounds": {
+      "min": [
+        -97.4,
+        -92.02,
+        1.8
+      ],
+      "max": [
+        -65.1,
+        -91.86,
+        9.8
+      ]
+    },
+    "materials": [
+      "LIVING_WALL_BACKING_GREEN"
+    ],
+    "visible": true,
+    "intended_remotion_role": "LIVING_WALL_ARCHITECTURAL_EXTENSION",
+    "source_object": "LIVING_WALL_EXTENDED_BACKING"
+  },
+  "hands_of_growth_root_count": 1,
+  "hands_of_growth_components": [
+    "HANDS_OF_GROWTH",
+    "HOG_HAND_LEFT",
+    "HOG_HAND_RIGHT",
+    "HOG_TREE_TRUNK",
+    "HOG_TREE_CROWN",
+    "HOG_PLINTH"
+  ],
+  "objects_removed": [],
+  "duplicate_identification": "No duplicate exists in the approved REV004 GLB; all HOG geometry names match REV003 inventory. The extra R02 sculpture is a locked runtime overlay.",
+  "vip_flagship_smart_totem_count": 1,
+  "campus_smart_totem_count": 4,
+  "label_anchor": {
+    "object_name": "LABEL_ANCHOR_HANDS_OF_GROWTH",
+    "type": "EMPTY",
+    "category": "label_anchor",
+    "parent": null,
+    "world_position": [
+      -108.0,
+      -79.0,
+      11.4
+    ],
+    "world_bounds": null,
+    "materials": [],
+    "visible": true,
+    "intended_remotion_role": "HANDS_OF_GROWTH",
+    "source_object": "LABEL_ANCHOR_HANDS_OF_GROWTH"
+  }
+}

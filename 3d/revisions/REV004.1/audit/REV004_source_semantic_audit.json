@@ -1,0 +1,3186 @@
+{
+  "source_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\POVU_KENYA_FMCG_CAMPUS_REV004_FINAL_ARCHITECTURAL_MASTER.blend",
+  "source_revision": "REV004",
+  "source_rev003_inventory": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004\\audit\\REV003_full_inventory.json",
+  "object_count": 2221,
+  "mesh_object_count": 2082,
+  "semantic_matches": [
+    {
+      "name": "HOG_FINGER_-1_0",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -111.095,
+        -79.648,
+        6.35
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.8696
+      ],
+      "bounds": {
+        "min": [
+          -111.906,
+          -80.2017,
+          5.5563
+        ],
+        "max": [
+          -110.284,
+          -79.0943,
+          7.1437
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_-1_0",
+        "hf_id": "9346264c3036429487feddfdebcb3926"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_-1_1",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -111.045,
+        -79.324,
+        6.475
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.7951
+      ],
+      "bounds": {
+        "min": [
+          -111.701,
+          -79.7273,
+          5.5991
+        ],
+        "max": [
+          -110.389,
+          -78.9207,
+          7.3509
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_-1_1",
+        "hf_id": "7410cd4f2d1e453f8a44822aca4fce77"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_-1_2",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -110.995,
+        -79.0,
+        6.6
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.8709
+      ],
+      "bounds": {
+        "min": [
+          -111.4424,
+          -79.2,
+          5.6455
+        ],
+        "max": [
+          -110.5476,
+          -78.8,
+          7.5545
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_-1_2",
+        "hf_id": "b4fe5c4b4b5844178144bb77d6682545"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_-1_3",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -111.165,
+        -78.676,
+        6.475
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.6947
+      ],
+      "bounds": {
+        "min": [
+          -111.7239,
+          -79.0934,
+          5.6191
+        ],
+        "max": [
+          -110.6061,
+          -78.2586,
+          7.3309
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_-1_3",
+        "hf_id": "d72f537e0bbd4306bc9b6f8100cbff47"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_-1_4",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -111.335,
+        -78.352,
+        6.35
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.6073
+      ],
+      "bounds": {
+        "min": [
+          -111.9435,
+          -78.921,
+          5.5824
+        ],
+        "max": [
+          -110.7265,
+          -77.783,
+          7.1176
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_-1_4",
+        "hf_id": "0a6f7a8a25614bb28ebd545bb423ab30"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_1_0",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -104.905,
+        -79.648,
+        6.35
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.8696
+      ],
+      "bounds": {
+        "min": [
+          -105.716,
+          -80.2017,
+          5.5563
+        ],
+        "max": [
+          -104.094,
+          -79.0943,
+          7.1437
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_1_0",
+        "hf_id": "12ec393477564a42be1fb8987fbb8c1b"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_1_1",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -104.955,
+        -79.324,
+        6.475
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.7951
+      ],
+      "bounds": {
+        "min": [
+          -105.611,
+          -79.7273,
+          5.5991
+        ],
+        "max": [
+          -104.299,
+          -78.9207,
+          7.3509
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_1_1",
+        "hf_id": "cd0e14831e664865a24838738c04f292"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_1_2",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -105.005,
+        -79.0,
+        6.6
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.8709
+      ],
+      "bounds": {
+        "min": [
+          -105.4524,
+          -79.2,
+          5.6455
+        ],
+        "max": [
+          -104.5576,
+          -78.8,
+          7.5545
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_1_2",
+        "hf_id": "1d8d00204e38458296f04d7311f49025"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_1_3",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -104.835,
+        -78.676,
+        6.475
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.6947
+      ],
+      "bounds": {
+        "min": [
+          -105.3939,
+          -79.0934,
+          5.6191
+        ],
+        "max": [
+          -104.2761,
+          -78.2586,
+          7.3309
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_1_3",
+        "hf_id": "6652093ff26746089009dce524e118e1"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FINGER_1_4",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -104.665,
+        -78.352,
+        6.35
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        1.6073
+      ],
+      "bounds": {
+        "min": [
+          -105.2735,
+          -78.921,
+          5.5824
+        ],
+        "max": [
+          -104.0565,
+          -77.783,
+          7.1176
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FINGER_1_4",
+        "hf_id": "9ff7f91ac76049199cf89a3252b657f7"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FOREARM_L",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -110.9,
+        -79.0,
+        2.9
+      ],
+      "dimensions": [
+        1.5,
+        1.5,
+        4.0162
+      ],
+      "bounds": {
+        "min": [
+          -112.2596,
+          -79.75,
+          0.7572
+        ],
+        "max": [
+          -109.5404,
+          -78.25,
+          5.0428
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FOREARM_L",
+        "hf_id": "b169258f0e614a7085e7da85d2e82e95"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_FOREARM_R",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -105.1,
+        -79.0,
+        2.9
+      ],
+      "dimensions": [
+        1.5,
+        1.5,
+        4.0162
+      ],
+      "bounds": {
+        "min": [
+          -106.4596,
+          -79.75,
+          0.7572
+        ],
+        "max": [
+          -103.7404,
+          -78.25,
+          5.0428
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_FOREARM_R",
+        "hf_id": "746460f85caf4ef19cfd8a63e4b6530f"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_PALM_L",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -110.25,
+        -79.0,
+        5.25
+      ],
+      "dimensions": [
+        2.5,
+        1.44,
+        3.3
+      ],
+      "bounds": {
+        "min": [
+          -111.5,
+          -79.72,
+          3.6
+        ],
+        "max": [
+          -109.0,
+          -78.28,
+          6.9
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_PALM_L",
+        "hf_id": "b13e92a2d9774a229fba0bdf9f46cee1"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_PALM_R",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -105.75,
+        -79.0,
+        5.25
+      ],
+      "dimensions": [
+        2.5,
+        1.44,
+        3.3
+      ],
+      "bounds": {
+        "min": [
+          -107.0,
+          -79.72,
+          3.6
+        ],
+        "max": [
+          -104.5,
+          -78.28,
+          6.9
+        ]
+      },
+      "materials": [
+        "POVU_Bronze_Signature"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_PALM_R",
+        "hf_id": "ff840b9982be4b6da25a64ca88b657ef"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_PLINTH",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -108.0,
+        -79.0,
+        0.45
+      ],
+      "dimensions": [
+        9.2,
+        7.6,
+        0.9
+      ],
+      "bounds": {
+        "min": [
+          -112.6,
+          -82.8,
+          0.0
+        ],
+        "max": [
+          -103.4,
+          -75.2,
+          0.9
+        ]
+      },
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_PLINTH",
+        "hf_id": "5960c25fbfde4d86b039cc97c3c98e60",
+        "rev004_semantic_id": "HOG_PLINTH",
+        "rev004_category": "hands_of_growth",
+        "remotion_role": "HOG_PLINTH",
+        "rev004_source_object": "HOG_PLINTH"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_TREE_CROWN_0",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -108.0,
+        -79.0,
+        8.1
+      ],
+      "dimensions": [
+        5.0,
+        4.25,
+        3.6
+      ],
+      "bounds": {
+        "min": [
+          -110.5,
+          -81.125,
+          6.3
+        ],
+        "max": [
+          -105.5,
+          -76.875,
+          9.9
+        ]
+      },
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_TREE_CROWN_0",
+        "hf_id": "9ee2cd5838d64c86b958eaf5ecd70b5d",
+        "rev004_semantic_id": "HOG_TREE_CROWN",
+        "rev004_category": "hands_of_growth",
+        "remotion_role": "HOG_TREE_CROWN",
+        "rev004_source_object": "HOG_TREE_CROWN_0"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_TREE_CROWN_1",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -106.0,
+        -79.0,
+        7.8
+      ],
+      "dimensions": [
+        3.6,
+        3.06,
+        2.592
+      ],
+      "bounds": {
+        "min": [
+          -107.8,
+          -80.53,
+          6.504
+        ],
+        "max": [
+          -104.2,
+          -77.47,
+          9.096
+        ]
+      },
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_TREE_CROWN_1",
+        "hf_id": "a7e49545477145e1a79566cb7f746e64",
+        "rev004_semantic_id": "TREE_FOLIAGE_HOG_TREE_CROWN_1",
+        "rev004_category": "landscape",
+        "remotion_role": "TREE_FOLIAGE",
+        "rev004_source_object": "HOG_TREE_CROWN_1"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_TREE_CROWN_2",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -110.0,
+        -78.8,
+        7.8
+      ],
+      "dimensions": [
+        3.6,
+        3.06,
+        2.592
+      ],
+      "bounds": {
+        "min": [
+          -111.8,
+          -80.33,
+          6.504
+        ],
+        "max": [
+          -108.2,
+          -77.27,
+          9.096
+        ]
+      },
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_TREE_CROWN_2",
+        "hf_id": "9892ccd1bdb44dbda23a51d291548d3f",
+        "rev004_semantic_id": "TREE_FOLIAGE_HOG_TREE_CROWN_2",
+        "rev004_category": "landscape",
+        "remotion_role": "TREE_FOLIAGE",
+        "rev004_source_object": "HOG_TREE_CROWN_2"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_TREE_CROWN_3",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -106.8,
+        -77.8,
+        8.7
+      ],
+      "dimensions": [
+        3.2,
+        2.72,
+        2.304
+      ],
+      "bounds": {
+        "min": [
+          -108.4,
+          -79.16,
+          7.548
+        ],
+        "max": [
+          -105.2,
+          -76.44,
+          9.852
+        ]
+      },
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_TREE_CROWN_3",
+        "hf_id": "e8a703f9f8654f52a52e7b30466f9eeb",
+        "rev004_semantic_id": "TREE_FOLIAGE_HOG_TREE_CROWN_3",
+        "rev004_category": "landscape",
+        "remotion_role": "TREE_FOLIAGE",
+        "rev004_source_object": "HOG_TREE_CROWN_3"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_TREE_CROWN_4",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -109.2,
+        -80.0,
+        8.6
+      ],
+      "dimensions": [
+        3.2,
+        2.72,
+        2.304
+      ],
+      "bounds": {
+        "min": [
+          -110.8,
+          -81.36,
+          7.448
+        ],
+        "max": [
+          -107.6,
+          -78.64,
+          9.752
+        ]
+      },
+      "materials": [
+        "POVU_Landmark_Green"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_TREE_CROWN_4",
+        "hf_id": "ed2caba7219146b8a2889c620f358827",
+        "rev004_semantic_id": "TREE_FOLIAGE_HOG_TREE_CROWN_4",
+        "rev004_category": "landscape",
+        "remotion_role": "TREE_FOLIAGE",
+        "rev004_source_object": "HOG_TREE_CROWN_4"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "HOG_TREE_TRUNK",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -108.0,
+        -79.0,
+        3.95
+      ],
+      "dimensions": [
+        0.76,
+        0.76,
+        6.1
+      ],
+      "bounds": {
+        "min": [
+          -108.38,
+          -79.38,
+          0.9
+        ],
+        "max": [
+          -107.62,
+          -78.62,
+          7.0
+        ]
+      },
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "HOG_TREE_TRUNK",
+        "hf_id": "2a2e86b5e0bc42c88654e11776c4103e",
+        "rev004_semantic_id": "HOG_TREE_TRUNK",
+        "rev004_category": "hands_of_growth",
+        "remotion_role": "HOG_TREE_TRUNK",
+        "rev004_source_object": "HOG_TREE_TRUNK"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -95.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -96.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -94.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE001",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -95.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -96.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -94.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.001",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE001",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE001"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE002",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -95.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -96.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -94.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.002",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE002",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE002"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE003",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -92.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -93.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -91.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.003",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE003",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE003"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE004",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -92.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -93.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -91.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.004",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE004",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE004"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE005",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -92.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -93.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -91.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.005",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE005",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE005"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE006",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -89.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -90.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -88.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.006",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE006",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE006"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE007",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -89.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -90.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -88.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.007",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE007",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE007"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE008",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -89.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -90.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -88.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.008",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE008",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE008"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE009",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -86.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -87.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -85.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.009",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE009",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE009"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE010",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -86.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -87.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -85.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.010",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE010",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE010"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE011",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -86.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -87.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -85.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.011",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE011",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE011"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE012",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -81.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -82.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -80.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.012",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE012",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE012"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE013",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -81.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -82.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -80.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.013",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE013",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE013"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE014",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -81.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -82.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -80.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.014",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE014",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE014"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE015",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -78.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -79.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -77.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.015",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE015",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE015"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE016",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -78.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -79.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -77.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.016",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE016",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE016"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE017",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -78.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -79.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -77.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.017",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE017",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE017"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE018",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -75.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -76.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -74.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.018",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE018",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE018"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE019",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -75.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -76.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -74.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.019",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE019",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE019"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE020",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -75.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -76.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -74.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.020",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE020",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE020"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE021",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -72.5,
+        -92.2,
+        3.3
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -73.94,
+          -92.6891,
+          2.15
+        ],
+        "max": [
+          -71.06,
+          -91.7109,
+          4.45
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.021",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE021",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE021"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE022",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -72.5,
+        -92.2,
+        5.7
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -73.94,
+          -92.6891,
+          4.55
+        ],
+        "max": [
+          -71.06,
+          -91.7109,
+          6.85
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.022",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE022",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE022"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_FOLIAGE023",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -72.5,
+        -92.2,
+        8.1
+      ],
+      "dimensions": [
+        2.88,
+        0.9782,
+        2.3
+      ],
+      "bounds": {
+        "min": [
+          -73.94,
+          -92.6891,
+          6.95
+        ],
+        "max": [
+          -71.06,
+          -91.7109,
+          9.25
+        ]
+      },
+      "materials": [
+        "VIP_Leaf2"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_FOLIAGE.023",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_FOLIAGE023",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_FOLIAGE023"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_PANEL",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -91.0,
+        -91.7,
+        5.8
+      ],
+      "dimensions": [
+        13.0,
+        0.7,
+        8.0
+      ],
+      "bounds": {
+        "min": [
+          -97.5,
+          -92.05,
+          1.8
+        ],
+        "max": [
+          -84.5,
+          -91.35,
+          9.8
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_PANEL",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_PANEL",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_PANEL"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "LIVING_WALL_PANEL001",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -77.0,
+        -91.7,
+        5.8
+      ],
+      "dimensions": [
+        13.0,
+        0.7,
+        8.0
+      ],
+      "bounds": {
+        "min": [
+          -83.5,
+          -92.05,
+          1.8
+        ],
+        "max": [
+          -70.5,
+          -91.35,
+          9.8
+        ]
+      },
+      "materials": [
+        "VIP_Leaf"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "LIVING_WALL_PANEL.001",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_LIVING_WALL_PANEL001",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_VEGETATION",
+        "rev004_source_object": "LIVING_WALL_PANEL001"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "NAV_TARGET_HANDS_OF_GROWTH",
+      "type": "EMPTY",
+      "parent": null,
+      "collection_paths": [
+        "REV004_ARCHITECTURAL_FINALIZATION"
+      ],
+      "location": [
+        -108.0,
+        -79.0,
+        5.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null,
+      "materials": [],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "rev004_semantic_id": "NAV_TARGET_HANDS_OF_GROWTH",
+        "rev004_category": "navigation_target",
+        "remotion_role": "HANDS_OF_GROWTH",
+        "route": "HANDS_OF_GROWTH"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "NAV_TARGET_LIVING_WALL",
+      "type": "EMPTY",
+      "parent": null,
+      "collection_paths": [
+        "REV004_ARCHITECTURAL_FINALIZATION"
+      ],
+      "location": [
+        -58.0,
+        -91.2,
+        6.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null,
+      "materials": [],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "rev004_semantic_id": "NAV_TARGET_LIVING_WALL",
+        "rev004_category": "navigation_target",
+        "remotion_role": "LIVING_WALL",
+        "route": "LIVING_WALL"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "PRES_HANDS_OF_GROWTH",
+      "type": "CAMERA",
+      "parent": null,
+      "collection_paths": [
+        "REV004_ARCHITECTURAL_FINALIZATION"
+      ],
+      "location": [
+        -135.0,
+        -116.0,
+        27.0
+      ],
+      "dimensions": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bounds": null,
+      "materials": [],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "rev004_semantic_id": "PRES_HANDS_OF_GROWTH",
+        "rev004_category": "camera",
+        "remotion_role": "Hands of Growth hero approach and arc",
+        "route": "Hands of Growth hero approach and arc",
+        "target": "<bpy id property array [3]>"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -92.0,
+        -103.0,
+        3.2
+      ],
+      "dimensions": [
+        1.3,
+        0.8,
+        4.0
+      ],
+      "bounds": {
+        "min": [
+          -92.65,
+          -103.4,
+          1.2
+        ],
+        "max": [
+          -91.35,
+          -102.6,
+          5.2
+        ]
+      },
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM",
+        "hf_asset_child": true
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM001",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -35.0,
+        -96.0,
+        3.2
+      ],
+      "dimensions": [
+        1.3,
+        0.8,
+        4.0
+      ],
+      "bounds": {
+        "min": [
+          -35.65,
+          -96.4,
+          1.2
+        ],
+        "max": [
+          -34.35,
+          -95.6,
+          5.2
+        ]
+      },
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM.001",
+        "hf_asset_child": true
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM001_GLOW",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -35.0,
+        -96.5,
+        3.55
+      ],
+      "dimensions": [
+        0.96,
+        0.07,
+        0.11
+      ],
+      "bounds": {
+        "min": [
+          -35.48,
+          -96.535,
+          3.495
+        ],
+        "max": [
+          -34.52,
+          -96.465,
+          3.605
+        ]
+      },
+      "materials": [
+        "POVU_Warm_Glow"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM001_GLOW",
+        "hf_id": "57b57a5962914193882757acf3a82e6c"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM001_SCREEN",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -35.0,
+        -96.43,
+        2.25
+      ],
+      "dimensions": [
+        0.92,
+        0.1,
+        2.36
+      ],
+      "bounds": {
+        "min": [
+          -35.46,
+          -96.48,
+          1.07
+        ],
+        "max": [
+          -34.54,
+          -96.38,
+          3.43
+        ]
+      },
+      "materials": [
+        "POVU_Water_Aqua"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM001_SCREEN",
+        "hf_id": "f5fcce14501742288bc68463b9aae5d7"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM002",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -17.0,
+        -57.0,
+        3.2
+      ],
+      "dimensions": [
+        1.3,
+        0.8,
+        4.0
+      ],
+      "bounds": {
+        "min": [
+          -17.65,
+          -57.4,
+          1.2
+        ],
+        "max": [
+          -16.35,
+          -56.6,
+          5.2
+        ]
+      },
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM.002",
+        "hf_asset_child": true
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM002_GLOW",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -17.0,
+        -57.5,
+        3.55
+      ],
+      "dimensions": [
+        0.96,
+        0.07,
+        0.11
+      ],
+      "bounds": {
+        "min": [
+          -17.48,
+          -57.535,
+          3.495
+        ],
+        "max": [
+          -16.52,
+          -57.465,
+          3.605
+        ]
+      },
+      "materials": [
+        "POVU_Warm_Glow"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM002_GLOW",
+        "hf_id": "8774d957afa648a4b6e47cb9fecad851"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM002_SCREEN",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -17.0,
+        -57.43,
+        2.25
+      ],
+      "dimensions": [
+        0.92,
+        0.1,
+        2.36
+      ],
+      "bounds": {
+        "min": [
+          -17.46,
+          -57.48,
+          1.07
+        ],
+        "max": [
+          -16.54,
+          -57.38,
+          3.43
+        ]
+      },
+      "materials": [
+        "POVU_Water_Aqua"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM002_SCREEN",
+        "hf_id": "8fabb633e6664730abb3f866d776cd8a"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_01_BODY",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -78.0,
+        -88.0,
+        3.2
+      ],
+      "dimensions": [
+        1.4,
+        0.8,
+        4.0
+      ],
+      "bounds": {
+        "min": [
+          -78.7,
+          -88.4,
+          1.2
+        ],
+        "max": [
+          -77.3,
+          -87.6,
+          5.2
+        ]
+      },
+      "materials": [
+        "REF_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_TOTEM_00",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_01_BODY",
+        "rev004_category": "smart_totem",
+        "remotion_role": "body",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_01_SCREEN",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -78.0,
+        -88.42,
+        3.5
+      ],
+      "dimensions": [
+        1.0,
+        0.08,
+        2.2
+      ],
+      "bounds": {
+        "min": [
+          -78.5,
+          -88.46,
+          2.4
+        ],
+        "max": [
+          -77.5,
+          -88.38,
+          4.6
+        ]
+      },
+      "materials": [
+        "REF_WarmLight"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_SCREEN_00",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_01_SCREEN",
+        "rev004_category": "smart_totem",
+        "remotion_role": "screen",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_02_BODY",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -38.0,
+        -88.0,
+        3.2
+      ],
+      "dimensions": [
+        1.4,
+        0.8,
+        4.0
+      ],
+      "bounds": {
+        "min": [
+          -38.7,
+          -88.4,
+          1.2
+        ],
+        "max": [
+          -37.3,
+          -87.6,
+          5.2
+        ]
+      },
+      "materials": [
+        "REF_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_TOTEM_01",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_02_BODY",
+        "rev004_category": "smart_totem",
+        "remotion_role": "body",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_02_SCREEN",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -38.0,
+        -88.42,
+        3.5
+      ],
+      "dimensions": [
+        1.0,
+        0.08,
+        2.2
+      ],
+      "bounds": {
+        "min": [
+          -38.5,
+          -88.46,
+          2.4
+        ],
+        "max": [
+          -37.5,
+          -88.38,
+          4.6
+        ]
+      },
+      "materials": [
+        "REF_WarmLight"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_SCREEN_01",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_02_SCREEN",
+        "rev004_category": "smart_totem",
+        "remotion_role": "screen",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_03_BODY",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        5.0,
+        -88.0,
+        3.2
+      ],
+      "dimensions": [
+        1.4,
+        0.8,
+        4.0
+      ],
+      "bounds": {
+        "min": [
+          4.3,
+          -88.4,
+          1.2
+        ],
+        "max": [
+          5.7,
+          -87.6,
+          5.2
+        ]
+      },
+      "materials": [
+        "REF_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_TOTEM_02",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_03_BODY",
+        "rev004_category": "smart_totem",
+        "remotion_role": "body",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_03_SCREEN",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        5.0,
+        -88.42,
+        3.5
+      ],
+      "dimensions": [
+        1.0,
+        0.08,
+        2.2
+      ],
+      "bounds": {
+        "min": [
+          4.5,
+          -88.46,
+          2.4
+        ],
+        "max": [
+          5.5,
+          -88.38,
+          4.6
+        ]
+      },
+      "materials": [
+        "REF_WarmLight"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_SCREEN_02",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_03_SCREEN",
+        "rev004_category": "smart_totem",
+        "remotion_role": "screen",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_04_BODY",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        45.0,
+        -86.0,
+        3.2
+      ],
+      "dimensions": [
+        1.4,
+        0.8,
+        4.0
+      ],
+      "bounds": {
+        "min": [
+          44.3,
+          -86.4,
+          1.2
+        ],
+        "max": [
+          45.7,
+          -85.6,
+          5.2
+        ]
+      },
+      "materials": [
+        "REF_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_TOTEM_03",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_04_BODY",
+        "rev004_category": "smart_totem",
+        "remotion_role": "body",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_CAMPUS_04_SCREEN",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        45.0,
+        -86.42,
+        3.5
+      ],
+      "dimensions": [
+        1.0,
+        0.08,
+        2.2
+      ],
+      "bounds": {
+        "min": [
+          44.5,
+          -86.46,
+          2.4
+        ],
+        "max": [
+          45.5,
+          -86.38,
+          4.6
+        ]
+      },
+      "materials": [
+        "REF_WarmLight"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "WAYFIND_SCREEN_03",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "SMART_TOTEM_CAMPUS_04_SCREEN",
+        "rev004_category": "smart_totem",
+        "remotion_role": "screen",
+        "type": "campus"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_GLOW",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -92.0,
+        -103.5,
+        3.55
+      ],
+      "dimensions": [
+        0.96,
+        0.07,
+        0.11
+      ],
+      "bounds": {
+        "min": [
+          -92.48,
+          -103.535,
+          3.495
+        ],
+        "max": [
+          -91.52,
+          -103.465,
+          3.605
+        ]
+      },
+      "materials": [
+        "POVU_Warm_Glow"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM_GLOW",
+        "hf_id": "f034b79d68874a929ec61e7784db9bb9"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM_PREMIUM_1",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -58.0,
+        -109.0,
+        2.15
+      ],
+      "dimensions": [
+        1.4,
+        0.84,
+        4.3
+      ],
+      "bounds": {
+        "min": [
+          -58.7,
+          -109.42,
+          0.0
+        ],
+        "max": [
+          -57.3,
+          -108.58,
+          4.3
+        ]
+      },
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM_PREMIUM_1",
+        "hf_id": "d8dbfbcc59ec4ebfb42c364a10fc2841"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM_PREMIUM_GLOW_1",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -58.0,
+        -109.5,
+        3.72
+      ],
+      "dimensions": [
+        1.08,
+        0.07,
+        0.12
+      ],
+      "bounds": {
+        "min": [
+          -58.54,
+          -109.535,
+          3.66
+        ],
+        "max": [
+          -57.46,
+          -109.465,
+          3.78
+        ]
+      },
+      "materials": [
+        "POVU_Warm_Glow"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM_PREMIUM_GLOW_1",
+        "hf_id": "82e15039fdb349259a099e8c32e0b46b"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM_PREMIUM_SCREEN_1",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -58.0,
+        -109.44,
+        2.45
+      ],
+      "dimensions": [
+        1.04,
+        0.1,
+        2.7
+      ],
+      "bounds": {
+        "min": [
+          -58.52,
+          -109.49,
+          1.1
+        ],
+        "max": [
+          -57.48,
+          -109.39,
+          3.8
+        ]
+      },
+      "materials": [
+        "POVU_Water_Aqua"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM_PREMIUM_SCREEN_1",
+        "hf_id": "b0d829512e4c47d5b30e9628c8640f71"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM_SCREEN",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -92.0,
+        -103.43,
+        2.25
+      ],
+      "dimensions": [
+        0.92,
+        0.1,
+        2.36
+      ],
+      "bounds": {
+        "min": [
+          -92.46,
+          -103.48,
+          1.07
+        ],
+        "max": [
+          -91.54,
+          -103.38,
+          3.43
+        ]
+      },
+      "materials": [
+        "POVU_Water_Aqua"
+      ],
+      "hide_viewport": false,
+      "hide_render": true,
+      "custom_properties": {
+        "name": "SMART_TOTEM_SCREEN",
+        "hf_id": "613cacb5904e4e4692c39a5eef2cbe07"
+      },
+      "present_in_rev003_inventory": true
+    },
+    {
+      "name": "SMART_TOTEM_VIP_BODY",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -76.0,
+        -102.0,
+        2.15
+      ],
+      "dimensions": [
+        1.89,
+        1.134,
+        4.3
+      ],
+      "bounds": {
+        "min": [
+          -76.945,
+          -102.567,
+          0.0
+        ],
+        "max": [
+          -75.055,
+          -101.433,
+          4.3
+        ]
+      },
+      "materials": [
+        "POVU_Graphite"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "SMART_TOTEM_PREMIUM_0",
+        "hf_id": "f9b13d7c8083475e84b477c8e7661728",
+        "rev004_semantic_id": "SMART_TOTEM_VIP_BODY",
+        "rev004_category": "smart_totem",
+        "remotion_role": "SMART_TOTEM_VIP_BODY",
+        "type": "flagship",
+        "location": "VIP approach"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_VIP_LIGHT",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -76.0,
+        -102.5,
+        3.72
+      ],
+      "dimensions": [
+        1.458,
+        0.0945,
+        0.12
+      ],
+      "bounds": {
+        "min": [
+          -76.729,
+          -102.5472,
+          3.66
+        ],
+        "max": [
+          -75.271,
+          -102.4528,
+          3.78
+        ]
+      },
+      "materials": [
+        "POVU_Warm_Glow"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "SMART_TOTEM_PREMIUM_GLOW_0",
+        "hf_id": "5aa6c8fd0434435bb98a8e4124e7d149",
+        "rev004_semantic_id": "SMART_TOTEM_VIP_LIGHT",
+        "rev004_category": "smart_totem",
+        "remotion_role": "SMART_TOTEM_VIP_LIGHT",
+        "type": "flagship",
+        "location": "VIP approach"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "SMART_TOTEM_VIP_SCREEN",
+      "type": "MESH",
+      "parent": "Scene",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -76.0,
+        -102.44,
+        2.45
+      ],
+      "dimensions": [
+        1.404,
+        0.135,
+        2.7
+      ],
+      "bounds": {
+        "min": [
+          -76.702,
+          -102.5075,
+          1.1
+        ],
+        "max": [
+          -75.298,
+          -102.3725,
+          3.8
+        ]
+      },
+      "materials": [
+        "POVU_Water_Aqua"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "SMART_TOTEM_PREMIUM_SCREEN_0",
+        "hf_id": "e9f208d245f94bcc9098500dd5287385",
+        "rev004_semantic_id": "SMART_TOTEM_VIP_SCREEN",
+        "rev004_category": "smart_totem",
+        "remotion_role": "SMART_TOTEM_VIP_SCREEN",
+        "type": "flagship",
+        "location": "VIP approach"
+      },
+      "present_in_rev003_inventory": false
+    },
+    {
+      "name": "VIP_LivingWall",
+      "type": "MESH",
+      "parent": "Scene_1",
+      "collection_paths": [
+        "Scene Collection"
+      ],
+      "location": [
+        -68.0,
+        -92.4,
+        6.0
+      ],
+      "dimensions": [
+        6.0,
+        0.6,
+        7.0
+      ],
+      "bounds": {
+        "min": [
+          -71.0,
+          -92.7,
+          2.5
+        ],
+        "max": [
+          -65.0,
+          -92.1,
+          9.5
+        ]
+      },
+      "materials": [
+        "MAT_TREE_FOLIAGE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "name": "VIP_LivingWall",
+        "hf_asset_child": true,
+        "rev004_semantic_id": "LIVING_WALL_STRUCTURE",
+        "rev004_category": "living_wall",
+        "remotion_role": "LIVING_WALL_STRUCTURE",
+        "rev004_source_object": "VIP_LivingWall"
+      },
+      "present_in_rev003_inventory": true
+    }
+  ],
+  "root_candidates": [
+    "NAV_TARGET_HANDS_OF_GROWTH",
+    "NAV_TARGET_LIVING_WALL"
+  ],
+  "rev003_name_matches": [
+    "HOG_FINGER_-1_0",
+    "HOG_FINGER_-1_1",
+    "HOG_FINGER_-1_2",
+    "HOG_FINGER_-1_3",
+    "HOG_FINGER_-1_4",
+    "HOG_FINGER_1_0",
+    "HOG_FINGER_1_1",
+    "HOG_FINGER_1_2",
+    "HOG_FINGER_1_3",
+    "HOG_FINGER_1_4",
+    "HOG_FOREARM_L",
+    "HOG_FOREARM_R",
+    "HOG_PALM_L",
+    "HOG_PALM_R",
+    "HOG_PLINTH",
+    "HOG_TREE_CROWN_0",
+    "HOG_TREE_CROWN_1",
+    "HOG_TREE_CROWN_2",
+    "HOG_TREE_CROWN_3",
+    "HOG_TREE_CROWN_4",
+    "HOG_TREE_TRUNK",
+    "LIVING_WALL_FOLIAGE",
+    "LIVING_WALL_FOLIAGE001",
+    "LIVING_WALL_FOLIAGE002",
+    "LIVING_WALL_FOLIAGE003",
+    "LIVING_WALL_FOLIAGE004",
+    "LIVING_WALL_FOLIAGE005",
+    "LIVING_WALL_FOLIAGE006",
+    "LIVING_WALL_FOLIAGE007",
+    "LIVING_WALL_FOLIAGE008",
+    "LIVING_WALL_FOLIAGE009",
+    "LIVING_WALL_FOLIAGE010",
+    "LIVING_WALL_FOLIAGE011",
+    "LIVING_WALL_FOLIAGE012",
+    "LIVING_WALL_FOLIAGE013",
+    "LIVING_WALL_FOLIAGE014",
+    "LIVING_WALL_FOLIAGE015",
+    "LIVING_WALL_FOLIAGE016",
+    "LIVING_WALL_FOLIAGE017",
+    "LIVING_WALL_FOLIAGE018",
+    "LIVING_WALL_FOLIAGE019",
+    "LIVING_WALL_FOLIAGE020",
+    "LIVING_WALL_FOLIAGE021",
+    "LIVING_WALL_FOLIAGE022",
+    "LIVING_WALL_FOLIAGE023",
+    "LIVING_WALL_PANEL",
+    "LIVING_WALL_PANEL001",
+    "SMART_TOTEM",
+    "SMART_TOTEM001",
+    "SMART_TOTEM001_GLOW",
+    "SMART_TOTEM001_SCREEN",
+    "SMART_TOTEM002",
+    "SMART_TOTEM002_GLOW",
+    "SMART_TOTEM002_SCREEN",
+    "SMART_TOTEM_GLOW",
+    "SMART_TOTEM_PREMIUM_1",
+    "SMART_TOTEM_PREMIUM_GLOW_1",
+    "SMART_TOTEM_PREMIUM_SCREEN_1",
+    "SMART_TOTEM_SCREEN",
+    "VIP_LivingWall"
+  ]
+}
