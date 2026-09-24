@@ -50,7 +50,7 @@ No Higgsfield, GitHub Actions, cloud Blender worker, or other cloud rendering pa
 - Final SHA-256: `9E6CF50620F9573FE0308C2DCFC6F394720968CC0294FF3D3F479F686F96205E`
 - Final ffprobe: H.264, 1920x1080, `yuv420p`, 30/1 fps, 14,100 frames, 470.000 seconds, TV color range.
 - Route evidence directory: `output/complete-tour-r04/`
-- Artifact commit SHA: `PENDING_PUBLICATION`
+- Artifact commit SHA: `8d91b6e`
 
 ## Publication
 
