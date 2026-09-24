@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.2\\POVU_REV004_2_FINAL_MASTER.glb",
+  "objectCount": 2227,
+  "hogObjectCount": 27,
+  "hogBounds": {
+    "min": [
+      -106.5999984741211,
+      -82.80000305175781,
+      0.0
+    ],
+    "max": [
+      -97.4000015258789,
+      -75.19999694824219,
+      9.90000057220459
+    ],
+    "center": [
+      -102.0,
+      -79.0,
+      4.950000286102295
+    ]
+  },
+  "hogCenter": [
+    -102.0,
+    -79.0,
+    4.950000286102295
+  ],
+  "livingWallObjectCount": 28,
+  "livingWallBounds": {
+    "min": [
+      -97.5,
+      -92.68911743164062,
+      1.8000001907348633
+    ],
+    "max": [
+      -65.0999984741211,
+      -91.3499984741211,
+      9.800000190734863
+    ],
+    "center": [
+      -81.29999923706055,
+      -92.01955795288086,
+      5.800000190734863
+    ]
+  },
+  "notes": [
+    "Reloaded exported REV004.2 GLB with Blender glTF importer.",
+    "Hands of Growth expected center is approximately (-102, -79, 0) after the +6 X revision translation.",
+    "Living Wall remains a bounded wall assembly; no freestanding extension was introduced."
+  ]
+}

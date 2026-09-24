@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "fps": 30,
+  "durationFrames": 14100,
+  "durationSeconds": 470,
+  "fov": 52,
+  "persistentCamera": true,
+  "globalFrameClock": true,
+  "keyframeCount": 49,
+  "maxPositionDelta": 1.6525341399082862,
+  "maxPositionFrame": 13650,
+  "maxAngularDelta": 1.37657498498164,
+  "maxAngularFrame": 6156,
+  "maxFovDelta": 0,
+  "discontinuities": []
+}

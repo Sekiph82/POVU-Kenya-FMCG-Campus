@@ -1,0 +1,8468 @@
+[
+  {
+    "name": "WP_5001",
+    "type": "EMPTY",
+    "center": [
+      -96.513,
+      -124.589,
+      24.742
+    ],
+    "bounds": {
+      "min": [
+        -96.513,
+        -124.589,
+        24.742
+      ],
+      "max": [
+        -96.513,
+        -124.589,
+        24.742
+      ],
+      "center": [
+        -96.513,
+        -124.589,
+        24.742
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": "Path_CINEMATIC_01_CAMPUS_TO_PRODUCTION",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WP_4",
+    "type": "EMPTY",
+    "center": [
+      -110.472,
+      -115.353,
+      19.564
+    ],
+    "bounds": {
+      "min": [
+        -110.472,
+        -115.353,
+        19.564
+      ],
+      "max": [
+        -110.472,
+        -115.353,
+        19.564
+      ],
+      "center": [
+        -110.472,
+        -115.353,
+        19.564
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": "Path_PRES_MASTER_30SEC",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay",
+    "type": "MESH",
+    "center": [
+      -118.0,
+      -108.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -120.75,
+        -109.25,
+        1.22
+      ],
+      "max": [
+        -115.25,
+        -106.75,
+        1.34
+      ],
+      "center": [
+        -118.0,
+        -108.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay001",
+    "type": "MESH",
+    "center": [
+      -111.0,
+      -108.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -113.75,
+        -109.25,
+        1.22
+      ],
+      "max": [
+        -108.25,
+        -106.75,
+        1.34
+      ],
+      "center": [
+        -111.0,
+        -108.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay002",
+    "type": "MESH",
+    "center": [
+      -104.0,
+      -108.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -106.75,
+        -109.25,
+        1.22
+      ],
+      "max": [
+        -101.25,
+        -106.75,
+        1.34
+      ],
+      "center": [
+        -104.0,
+        -108.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay003",
+    "type": "MESH",
+    "center": [
+      -97.0,
+      -108.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -99.75,
+        -109.25,
+        1.22
+      ],
+      "max": [
+        -94.25,
+        -106.75,
+        1.34
+      ],
+      "center": [
+        -97.0,
+        -108.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay004",
+    "type": "MESH",
+    "center": [
+      -90.0,
+      -108.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -92.75,
+        -109.25,
+        1.22
+      ],
+      "max": [
+        -87.25,
+        -106.75,
+        1.34
+      ],
+      "center": [
+        -90.0,
+        -108.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay005",
+    "type": "MESH",
+    "center": [
+      -83.0,
+      -108.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -85.75,
+        -109.25,
+        1.22
+      ],
+      "max": [
+        -80.25,
+        -106.75,
+        1.34
+      ],
+      "center": [
+        -83.0,
+        -108.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay006",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -108.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -78.75,
+        -109.25,
+        1.22
+      ],
+      "max": [
+        -73.25,
+        -106.75,
+        1.34
+      ],
+      "center": [
+        -76.0,
+        -108.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY013",
+    "type": "MESH",
+    "center": [
+      -75.8,
+      -108.0,
+      6.7
+    ],
+    "bounds": {
+      "min": [
+        -77.678,
+        -109.786,
+        4.6
+      ],
+      "max": [
+        -73.922,
+        -106.214,
+        8.8
+      ],
+      "center": [
+        -75.8,
+        -108.0,
+        6.7
+      ],
+      "size": [
+        3.757,
+        3.573,
+        4.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_GLOW",
+    "type": "MESH",
+    "center": [
+      -116.0,
+      -106.0,
+      3.35
+    ],
+    "bounds": {
+      "min": [
+        -116.15,
+        -106.15,
+        3.275
+      ],
+      "max": [
+        -115.85,
+        -105.85,
+        3.425
+      ],
+      "center": [
+        -116.0,
+        -106.0,
+        3.35
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.15
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_LIGHT",
+    "type": "MESH",
+    "center": [
+      -116.0,
+      -106.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -116.11,
+        -106.11,
+        1.2
+      ],
+      "max": [
+        -115.89,
+        -105.89,
+        3.4
+      ],
+      "center": [
+        -116.0,
+        -106.0,
+        2.3
+      ],
+      "size": [
+        0.22,
+        0.22,
+        2.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_GLOW001",
+    "type": "MESH",
+    "center": [
+      -106.0,
+      -106.0,
+      3.35
+    ],
+    "bounds": {
+      "min": [
+        -106.15,
+        -106.15,
+        3.275
+      ],
+      "max": [
+        -105.85,
+        -105.85,
+        3.425
+      ],
+      "center": [
+        -106.0,
+        -106.0,
+        3.35
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.15
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_LIGHT001",
+    "type": "MESH",
+    "center": [
+      -106.0,
+      -106.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -106.11,
+        -106.11,
+        1.2
+      ],
+      "max": [
+        -105.89,
+        -105.89,
+        3.4
+      ],
+      "center": [
+        -106.0,
+        -106.0,
+        2.3
+      ],
+      "size": [
+        0.22,
+        0.22,
+        2.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_GLOW002",
+    "type": "MESH",
+    "center": [
+      -96.0,
+      -106.0,
+      3.35
+    ],
+    "bounds": {
+      "min": [
+        -96.15,
+        -106.15,
+        3.275
+      ],
+      "max": [
+        -95.85,
+        -105.85,
+        3.425
+      ],
+      "center": [
+        -96.0,
+        -106.0,
+        3.35
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.15
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_LIGHT002",
+    "type": "MESH",
+    "center": [
+      -96.0,
+      -106.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -96.11,
+        -106.11,
+        1.2
+      ],
+      "max": [
+        -95.89,
+        -105.89,
+        3.4
+      ],
+      "center": [
+        -96.0,
+        -106.0,
+        2.3
+      ],
+      "size": [
+        0.22,
+        0.22,
+        2.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_GLOW003",
+    "type": "MESH",
+    "center": [
+      -86.0,
+      -106.0,
+      3.35
+    ],
+    "bounds": {
+      "min": [
+        -86.15,
+        -106.15,
+        3.275
+      ],
+      "max": [
+        -85.85,
+        -105.85,
+        3.425
+      ],
+      "center": [
+        -86.0,
+        -106.0,
+        3.35
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.15
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_LIGHT003",
+    "type": "MESH",
+    "center": [
+      -86.0,
+      -106.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -86.11,
+        -106.11,
+        1.2
+      ],
+      "max": [
+        -85.89,
+        -105.89,
+        3.4
+      ],
+      "center": [
+        -86.0,
+        -106.0,
+        2.3
+      ],
+      "size": [
+        0.22,
+        0.22,
+        2.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_GLOW004",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -106.0,
+      3.35
+    ],
+    "bounds": {
+      "min": [
+        -76.15,
+        -106.15,
+        3.275
+      ],
+      "max": [
+        -75.85,
+        -105.85,
+        3.425
+      ],
+      "center": [
+        -76.0,
+        -106.0,
+        3.35
+      ],
+      "size": [
+        0.3,
+        0.3,
+        0.15
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PATH_LIGHT004",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -106.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -76.11,
+        -106.11,
+        1.2
+      ],
+      "max": [
+        -75.89,
+        -105.89,
+        3.4
+      ],
+      "center": [
+        -76.0,
+        -106.0,
+        2.3
+      ],
+      "size": [
+        0.22,
+        0.22,
+        2.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY007",
+    "type": "MESH",
+    "center": [
+      -99.8,
+      -104.0,
+      6.7
+    ],
+    "bounds": {
+      "min": [
+        -101.678,
+        -105.786,
+        4.6
+      ],
+      "max": [
+        -97.922,
+        -102.214,
+        8.8
+      ],
+      "center": [
+        -99.8,
+        -104.0,
+        6.7
+      ],
+      "size": [
+        3.757,
+        3.573,
+        4.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY006",
+    "type": "MESH",
+    "center": [
+      -98.0,
+      -104.0,
+      7.2
+    ],
+    "bounds": {
+      "min": [
+        -100.773,
+        -106.637,
+        4.1
+      ],
+      "max": [
+        -95.227,
+        -101.363,
+        10.3
+      ],
+      "center": [
+        -98.0,
+        -104.0,
+        7.2
+      ],
+      "size": [
+        5.545,
+        5.274,
+        6.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_TRUNK002",
+    "type": "MESH",
+    "center": [
+      -98.0,
+      -104.0,
+      3.4
+    ],
+    "bounds": {
+      "min": [
+        -98.4,
+        -104.4,
+        1.2
+      ],
+      "max": [
+        -97.6,
+        -103.6,
+        5.6
+      ],
+      "center": [
+        -98.0,
+        -104.0,
+        3.4
+      ],
+      "size": [
+        0.8,
+        0.8,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY008",
+    "type": "MESH",
+    "center": [
+      -96.3,
+      -103.6,
+      6.9
+    ],
+    "bounds": {
+      "min": [
+        -98.268,
+        -105.471,
+        4.7
+      ],
+      "max": [
+        -94.332,
+        -101.729,
+        9.1
+      ],
+      "center": [
+        -96.3,
+        -103.6,
+        6.9
+      ],
+      "size": [
+        3.935,
+        3.743,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM_GLOW",
+    "type": "MESH",
+    "center": [
+      -92.0,
+      -103.5,
+      3.55
+    ],
+    "bounds": {
+      "min": [
+        -92.48,
+        -103.535,
+        3.495
+      ],
+      "max": [
+        -91.52,
+        -103.465,
+        3.605
+      ],
+      "center": [
+        -92.0,
+        -103.5,
+        3.55
+      ],
+      "size": [
+        0.96,
+        0.07,
+        0.11
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_SCREEN",
+    "type": "MESH",
+    "center": [
+      -92.0,
+      -103.43,
+      3.5
+    ],
+    "bounds": {
+      "min": [
+        -92.5,
+        -103.47,
+        2.4
+      ],
+      "max": [
+        -91.5,
+        -103.39,
+        4.6
+      ],
+      "center": [
+        -92.0,
+        -103.43,
+        3.5
+      ],
+      "size": [
+        1.0,
+        0.08,
+        2.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM_SCREEN",
+    "type": "MESH",
+    "center": [
+      -92.0,
+      -103.43,
+      2.25
+    ],
+    "bounds": {
+      "min": [
+        -92.46,
+        -103.48,
+        1.07
+      ],
+      "max": [
+        -91.54,
+        -103.38,
+        3.43
+      ],
+      "center": [
+        -92.0,
+        -103.43,
+        2.25
+      ],
+      "size": [
+        0.92,
+        0.1,
+        2.36
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM",
+    "type": "MESH",
+    "center": [
+      -92.0,
+      -103.0,
+      3.2
+    ],
+    "bounds": {
+      "min": [
+        -92.65,
+        -103.4,
+        1.2
+      ],
+      "max": [
+        -91.35,
+        -102.6,
+        5.2
+      ],
+      "center": [
+        -92.0,
+        -103.0,
+        3.2
+      ],
+      "size": [
+        1.3,
+        0.8,
+        4.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY010",
+    "type": "MESH",
+    "center": [
+      -87.8,
+      -103.0,
+      6.7
+    ],
+    "bounds": {
+      "min": [
+        -89.678,
+        -104.786,
+        4.6
+      ],
+      "max": [
+        -85.922,
+        -101.214,
+        8.8
+      ],
+      "center": [
+        -87.8,
+        -103.0,
+        6.7
+      ],
+      "size": [
+        3.757,
+        3.573,
+        4.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY009",
+    "type": "MESH",
+    "center": [
+      -86.0,
+      -103.0,
+      7.2
+    ],
+    "bounds": {
+      "min": [
+        -88.773,
+        -105.637,
+        4.1
+      ],
+      "max": [
+        -83.227,
+        -100.363,
+        10.3
+      ],
+      "center": [
+        -86.0,
+        -103.0,
+        7.2
+      ],
+      "size": [
+        5.545,
+        5.274,
+        6.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_TRUNK003",
+    "type": "MESH",
+    "center": [
+      -86.0,
+      -103.0,
+      3.4
+    ],
+    "bounds": {
+      "min": [
+        -86.4,
+        -103.4,
+        1.2
+      ],
+      "max": [
+        -85.6,
+        -102.6,
+        5.6
+      ],
+      "center": [
+        -86.0,
+        -103.0,
+        3.4
+      ],
+      "size": [
+        0.8,
+        0.8,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY011",
+    "type": "MESH",
+    "center": [
+      -84.3,
+      -102.6,
+      6.9
+    ],
+    "bounds": {
+      "min": [
+        -86.268,
+        -104.471,
+        4.7
+      ],
+      "max": [
+        -82.332,
+        -100.729,
+        9.1
+      ],
+      "center": [
+        -84.3,
+        -102.6,
+        6.9
+      ],
+      "size": [
+        3.935,
+        3.743,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM_VIP_LIGHT",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -102.5,
+      3.72
+    ],
+    "bounds": {
+      "min": [
+        -76.729,
+        -102.547,
+        3.66
+      ],
+      "max": [
+        -75.271,
+        -102.453,
+        3.78
+      ],
+      "center": [
+        -76.0,
+        -102.5,
+        3.72
+      ],
+      "size": [
+        1.458,
+        0.094,
+        0.12
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM_VIP_SCREEN",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -102.44,
+      2.45
+    ],
+    "bounds": {
+      "min": [
+        -76.702,
+        -102.507,
+        1.1
+      ],
+      "max": [
+        -75.298,
+        -102.373,
+        3.8
+      ],
+      "center": [
+        -76.0,
+        -102.44,
+        2.45
+      ],
+      "size": [
+        1.404,
+        0.135,
+        2.7
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay014",
+    "type": "MESH",
+    "center": [
+      -118.0,
+      -102.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -120.75,
+        -103.25,
+        1.22
+      ],
+      "max": [
+        -115.25,
+        -100.75,
+        1.34
+      ],
+      "center": [
+        -118.0,
+        -102.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay015",
+    "type": "MESH",
+    "center": [
+      -111.0,
+      -102.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -113.75,
+        -103.25,
+        1.22
+      ],
+      "max": [
+        -108.25,
+        -100.75,
+        1.34
+      ],
+      "center": [
+        -111.0,
+        -102.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay016",
+    "type": "MESH",
+    "center": [
+      -104.0,
+      -102.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -106.75,
+        -103.25,
+        1.22
+      ],
+      "max": [
+        -101.25,
+        -100.75,
+        1.34
+      ],
+      "center": [
+        -104.0,
+        -102.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay017",
+    "type": "MESH",
+    "center": [
+      -97.0,
+      -102.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -99.75,
+        -103.25,
+        1.22
+      ],
+      "max": [
+        -94.25,
+        -100.75,
+        1.34
+      ],
+      "center": [
+        -97.0,
+        -102.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay018",
+    "type": "MESH",
+    "center": [
+      -90.0,
+      -102.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -92.75,
+        -103.25,
+        1.22
+      ],
+      "max": [
+        -87.25,
+        -100.75,
+        1.34
+      ],
+      "center": [
+        -90.0,
+        -102.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay019",
+    "type": "MESH",
+    "center": [
+      -83.0,
+      -102.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -85.75,
+        -103.25,
+        1.22
+      ],
+      "max": [
+        -80.25,
+        -100.75,
+        1.34
+      ],
+      "center": [
+        -83.0,
+        -102.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay020",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -102.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -78.75,
+        -103.25,
+        1.22
+      ],
+      "max": [
+        -73.25,
+        -100.75,
+        1.34
+      ],
+      "center": [
+        -76.0,
+        -102.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM_VIP_BODY",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -102.0,
+      2.15
+    ],
+    "bounds": {
+      "min": [
+        -76.945,
+        -102.567,
+        0.0
+      ],
+      "max": [
+        -75.055,
+        -101.433,
+        4.3
+      ],
+      "center": [
+        -76.0,
+        -102.0,
+        2.15
+      ],
+      "size": [
+        1.89,
+        1.134,
+        4.3
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WALK_LOOP_SOUTH",
+    "type": "MESH",
+    "center": [
+      -110.0,
+      -100.0,
+      1.26
+    ],
+    "bounds": {
+      "min": [
+        -113.0,
+        -100.25,
+        1.21
+      ],
+      "max": [
+        -107.0,
+        -99.75,
+        1.31
+      ],
+      "center": [
+        -110.0,
+        -100.0,
+        1.26
+      ],
+      "size": [
+        6.0,
+        0.5,
+        0.1
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WALK_LOOP_SOUTH001",
+    "type": "MESH",
+    "center": [
+      -100.0,
+      -100.0,
+      1.26
+    ],
+    "bounds": {
+      "min": [
+        -103.0,
+        -100.25,
+        1.21
+      ],
+      "max": [
+        -97.0,
+        -99.75,
+        1.31
+      ],
+      "center": [
+        -100.0,
+        -100.0,
+        1.26
+      ],
+      "size": [
+        6.0,
+        0.5,
+        0.1
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WALK_LOOP_SOUTH002",
+    "type": "MESH",
+    "center": [
+      -90.0,
+      -100.0,
+      1.26
+    ],
+    "bounds": {
+      "min": [
+        -93.0,
+        -100.25,
+        1.21
+      ],
+      "max": [
+        -87.0,
+        -99.75,
+        1.31
+      ],
+      "center": [
+        -90.0,
+        -100.0,
+        1.26
+      ],
+      "size": [
+        6.0,
+        0.5,
+        0.1
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WALK_LOOP_SOUTH003",
+    "type": "MESH",
+    "center": [
+      -80.0,
+      -100.0,
+      1.26
+    ],
+    "bounds": {
+      "min": [
+        -83.0,
+        -100.25,
+        1.21
+      ],
+      "max": [
+        -77.0,
+        -99.75,
+        1.31
+      ],
+      "center": [
+        -80.0,
+        -100.0,
+        1.26
+      ],
+      "size": [
+        6.0,
+        0.5,
+        0.1
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay028",
+    "type": "MESH",
+    "center": [
+      -118.0,
+      -96.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -120.75,
+        -97.25,
+        1.22
+      ],
+      "max": [
+        -115.25,
+        -94.75,
+        1.34
+      ],
+      "center": [
+        -118.0,
+        -96.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay029",
+    "type": "MESH",
+    "center": [
+      -111.0,
+      -96.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -113.75,
+        -97.25,
+        1.22
+      ],
+      "max": [
+        -108.25,
+        -94.75,
+        1.34
+      ],
+      "center": [
+        -111.0,
+        -96.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay030",
+    "type": "MESH",
+    "center": [
+      -104.0,
+      -96.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -106.75,
+        -97.25,
+        1.22
+      ],
+      "max": [
+        -101.25,
+        -94.75,
+        1.34
+      ],
+      "center": [
+        -104.0,
+        -96.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay031",
+    "type": "MESH",
+    "center": [
+      -97.0,
+      -96.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -99.75,
+        -97.25,
+        1.22
+      ],
+      "max": [
+        -94.25,
+        -94.75,
+        1.34
+      ],
+      "center": [
+        -97.0,
+        -96.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay032",
+    "type": "MESH",
+    "center": [
+      -90.0,
+      -96.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -92.75,
+        -97.25,
+        1.22
+      ],
+      "max": [
+        -87.25,
+        -94.75,
+        1.34
+      ],
+      "center": [
+        -90.0,
+        -96.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay033",
+    "type": "MESH",
+    "center": [
+      -83.0,
+      -96.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -85.75,
+        -97.25,
+        1.22
+      ],
+      "max": [
+        -80.25,
+        -94.75,
+        1.34
+      ],
+      "center": [
+        -83.0,
+        -96.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay034",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -96.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -78.75,
+        -97.25,
+        1.22
+      ],
+      "max": [
+        -73.25,
+        -94.75,
+        1.34
+      ],
+      "center": [
+        -76.0,
+        -96.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE",
+    "type": "MESH",
+    "center": [
+      -95.5,
+      -92.2,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -96.94,
+        -92.689,
+        2.15
+      ],
+      "max": [
+        -94.06,
+        -91.711,
+        4.45
+      ],
+      "center": [
+        -95.5,
+        -92.2,
+        3.3
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE001",
+    "type": "MESH",
+    "center": [
+      -95.5,
+      -92.2,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -96.94,
+        -92.689,
+        4.55
+      ],
+      "max": [
+        -94.06,
+        -91.711,
+        6.85
+      ],
+      "center": [
+        -95.5,
+        -92.2,
+        5.7
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE002",
+    "type": "MESH",
+    "center": [
+      -95.5,
+      -92.2,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -96.94,
+        -92.689,
+        6.95
+      ],
+      "max": [
+        -94.06,
+        -91.711,
+        9.25
+      ],
+      "center": [
+        -95.5,
+        -92.2,
+        8.1
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE003",
+    "type": "MESH",
+    "center": [
+      -92.5,
+      -92.2,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -93.94,
+        -92.689,
+        2.15
+      ],
+      "max": [
+        -91.06,
+        -91.711,
+        4.45
+      ],
+      "center": [
+        -92.5,
+        -92.2,
+        3.3
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE004",
+    "type": "MESH",
+    "center": [
+      -92.5,
+      -92.2,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -93.94,
+        -92.689,
+        4.55
+      ],
+      "max": [
+        -91.06,
+        -91.711,
+        6.85
+      ],
+      "center": [
+        -92.5,
+        -92.2,
+        5.7
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE005",
+    "type": "MESH",
+    "center": [
+      -92.5,
+      -92.2,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -93.94,
+        -92.689,
+        6.95
+      ],
+      "max": [
+        -91.06,
+        -91.711,
+        9.25
+      ],
+      "center": [
+        -92.5,
+        -92.2,
+        8.1
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE006",
+    "type": "MESH",
+    "center": [
+      -89.5,
+      -92.2,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -90.94,
+        -92.689,
+        2.15
+      ],
+      "max": [
+        -88.06,
+        -91.711,
+        4.45
+      ],
+      "center": [
+        -89.5,
+        -92.2,
+        3.3
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE007",
+    "type": "MESH",
+    "center": [
+      -89.5,
+      -92.2,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -90.94,
+        -92.689,
+        4.55
+      ],
+      "max": [
+        -88.06,
+        -91.711,
+        6.85
+      ],
+      "center": [
+        -89.5,
+        -92.2,
+        5.7
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE008",
+    "type": "MESH",
+    "center": [
+      -89.5,
+      -92.2,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -90.94,
+        -92.689,
+        6.95
+      ],
+      "max": [
+        -88.06,
+        -91.711,
+        9.25
+      ],
+      "center": [
+        -89.5,
+        -92.2,
+        8.1
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE009",
+    "type": "MESH",
+    "center": [
+      -86.5,
+      -92.2,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -87.94,
+        -92.689,
+        2.15
+      ],
+      "max": [
+        -85.06,
+        -91.711,
+        4.45
+      ],
+      "center": [
+        -86.5,
+        -92.2,
+        3.3
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE010",
+    "type": "MESH",
+    "center": [
+      -86.5,
+      -92.2,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -87.94,
+        -92.689,
+        4.55
+      ],
+      "max": [
+        -85.06,
+        -91.711,
+        6.85
+      ],
+      "center": [
+        -86.5,
+        -92.2,
+        5.7
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE011",
+    "type": "MESH",
+    "center": [
+      -86.5,
+      -92.2,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -87.94,
+        -92.689,
+        6.95
+      ],
+      "max": [
+        -85.06,
+        -91.711,
+        9.25
+      ],
+      "center": [
+        -86.5,
+        -92.2,
+        8.1
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE012",
+    "type": "MESH",
+    "center": [
+      -81.5,
+      -92.2,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -82.94,
+        -92.689,
+        2.15
+      ],
+      "max": [
+        -80.06,
+        -91.711,
+        4.45
+      ],
+      "center": [
+        -81.5,
+        -92.2,
+        3.3
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE013",
+    "type": "MESH",
+    "center": [
+      -81.5,
+      -92.2,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -82.94,
+        -92.689,
+        4.55
+      ],
+      "max": [
+        -80.06,
+        -91.711,
+        6.85
+      ],
+      "center": [
+        -81.5,
+        -92.2,
+        5.7
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE014",
+    "type": "MESH",
+    "center": [
+      -81.5,
+      -92.2,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -82.94,
+        -92.689,
+        6.95
+      ],
+      "max": [
+        -80.06,
+        -91.711,
+        9.25
+      ],
+      "center": [
+        -81.5,
+        -92.2,
+        8.1
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE015",
+    "type": "MESH",
+    "center": [
+      -78.5,
+      -92.2,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -79.94,
+        -92.689,
+        2.15
+      ],
+      "max": [
+        -77.06,
+        -91.711,
+        4.45
+      ],
+      "center": [
+        -78.5,
+        -92.2,
+        3.3
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE016",
+    "type": "MESH",
+    "center": [
+      -78.5,
+      -92.2,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -79.94,
+        -92.689,
+        4.55
+      ],
+      "max": [
+        -77.06,
+        -91.711,
+        6.85
+      ],
+      "center": [
+        -78.5,
+        -92.2,
+        5.7
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE017",
+    "type": "MESH",
+    "center": [
+      -78.5,
+      -92.2,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -79.94,
+        -92.689,
+        6.95
+      ],
+      "max": [
+        -77.06,
+        -91.711,
+        9.25
+      ],
+      "center": [
+        -78.5,
+        -92.2,
+        8.1
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE018",
+    "type": "MESH",
+    "center": [
+      -75.5,
+      -92.2,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -76.94,
+        -92.689,
+        2.15
+      ],
+      "max": [
+        -74.06,
+        -91.711,
+        4.45
+      ],
+      "center": [
+        -75.5,
+        -92.2,
+        3.3
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE019",
+    "type": "MESH",
+    "center": [
+      -75.5,
+      -92.2,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -76.94,
+        -92.689,
+        4.55
+      ],
+      "max": [
+        -74.06,
+        -91.711,
+        6.85
+      ],
+      "center": [
+        -75.5,
+        -92.2,
+        5.7
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_FOLIAGE020",
+    "type": "MESH",
+    "center": [
+      -75.5,
+      -92.2,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -76.94,
+        -92.689,
+        6.95
+      ],
+      "max": [
+        -74.06,
+        -91.711,
+        9.25
+      ],
+      "center": [
+        -75.5,
+        -92.2,
+        8.1
+      ],
+      "size": [
+        2.88,
+        0.978,
+        2.3
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY001",
+    "type": "MESH",
+    "center": [
+      -119.8,
+      -92.0,
+      6.7
+    ],
+    "bounds": {
+      "min": [
+        -121.678,
+        -93.786,
+        4.6
+      ],
+      "max": [
+        -117.922,
+        -90.214,
+        8.8
+      ],
+      "center": [
+        -119.8,
+        -92.0,
+        6.7
+      ],
+      "size": [
+        3.757,
+        3.573,
+        4.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY",
+    "type": "MESH",
+    "center": [
+      -118.0,
+      -92.0,
+      7.2
+    ],
+    "bounds": {
+      "min": [
+        -120.773,
+        -94.637,
+        4.1
+      ],
+      "max": [
+        -115.227,
+        -89.363,
+        10.3
+      ],
+      "center": [
+        -118.0,
+        -92.0,
+        7.2
+      ],
+      "size": [
+        5.545,
+        5.274,
+        6.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_TRUNK",
+    "type": "MESH",
+    "center": [
+      -118.0,
+      -92.0,
+      3.4
+    ],
+    "bounds": {
+      "min": [
+        -118.4,
+        -92.4,
+        1.2
+      ],
+      "max": [
+        -117.6,
+        -91.6,
+        5.6
+      ],
+      "center": [
+        -118.0,
+        -92.0,
+        3.4
+      ],
+      "size": [
+        0.8,
+        0.8,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BENCH001",
+    "type": "MESH",
+    "center": [
+      -92.0,
+      -92.0,
+      1.65
+    ],
+    "bounds": {
+      "min": [
+        -95.5,
+        -95.5,
+        1.375
+      ],
+      "max": [
+        -88.5,
+        -88.5,
+        1.925
+      ],
+      "center": [
+        -92.0,
+        -92.0,
+        1.65
+      ],
+      "size": [
+        7.0,
+        7.0,
+        0.55
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BENCH_PLANTER001",
+    "type": "MESH",
+    "center": [
+      -92.0,
+      -92.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -93.3,
+        -93.3,
+        1.6
+      ],
+      "max": [
+        -90.7,
+        -90.7,
+        3.0
+      ],
+      "center": [
+        -92.0,
+        -92.0,
+        2.3
+      ],
+      "size": [
+        2.6,
+        2.6,
+        1.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_EXTENDED_BACKING",
+    "type": "MESH",
+    "center": [
+      -81.25,
+      -91.94,
+      5.8
+    ],
+    "bounds": {
+      "min": [
+        -97.4,
+        -92.02,
+        1.8
+      ],
+      "max": [
+        -65.1,
+        -91.86,
+        9.8
+      ],
+      "center": [
+        -81.25,
+        -91.94,
+        5.8
+      ],
+      "size": [
+        32.3,
+        0.16,
+        8.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_PANEL",
+    "type": "MESH",
+    "center": [
+      -91.0,
+      -91.7,
+      5.8
+    ],
+    "bounds": {
+      "min": [
+        -97.5,
+        -92.05,
+        1.8
+      ],
+      "max": [
+        -84.5,
+        -91.35,
+        9.8
+      ],
+      "center": [
+        -91.0,
+        -91.7,
+        5.8
+      ],
+      "size": [
+        13.0,
+        0.7,
+        8.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LIVING_WALL_PANEL001",
+    "type": "MESH",
+    "center": [
+      -77.0,
+      -91.7,
+      5.8
+    ],
+    "bounds": {
+      "min": [
+        -83.5,
+        -92.05,
+        1.8
+      ],
+      "max": [
+        -70.5,
+        -91.35,
+        9.8
+      ],
+      "center": [
+        -77.0,
+        -91.7,
+        5.8
+      ],
+      "size": [
+        13.0,
+        0.7,
+        8.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY002",
+    "type": "MESH",
+    "center": [
+      -116.3,
+      -91.6,
+      6.9
+    ],
+    "bounds": {
+      "min": [
+        -118.268,
+        -93.471,
+        4.7
+      ],
+      "max": [
+        -114.332,
+        -89.729,
+        9.1
+      ],
+      "center": [
+        -116.3,
+        -91.6,
+        6.9
+      ],
+      "size": [
+        3.935,
+        3.743,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WP_6001",
+    "type": "EMPTY",
+    "center": [
+      -80.051,
+      -91.239,
+      19.2
+    ],
+    "bounds": {
+      "min": [
+        -80.051,
+        -91.239,
+        19.2
+      ],
+      "max": [
+        -80.051,
+        -91.239,
+        19.2
+      ],
+      "center": [
+        -80.051,
+        -91.239,
+        19.2
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": "Path_CINEMATIC_01_CAMPUS_TO_PRODUCTION",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BOULEVARD_LIGHT_RIBBON",
+    "type": "MESH",
+    "center": [
+      -100.0,
+      -91.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -102.5,
+        -91.11,
+        1.22
+      ],
+      "max": [
+        -97.5,
+        -90.89,
+        1.34
+      ],
+      "center": [
+        -100.0,
+        -91.0,
+        1.28
+      ],
+      "size": [
+        5.0,
+        0.22,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BOULEVARD_LIGHT_RIBBON001",
+    "type": "MESH",
+    "center": [
+      -92.0,
+      -91.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -94.5,
+        -91.11,
+        1.22
+      ],
+      "max": [
+        -89.5,
+        -90.89,
+        1.34
+      ],
+      "center": [
+        -92.0,
+        -91.0,
+        1.28
+      ],
+      "size": [
+        5.0,
+        0.22,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BOULEVARD_LIGHT_RIBBON002",
+    "type": "MESH",
+    "center": [
+      -84.0,
+      -91.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -86.5,
+        -91.11,
+        1.22
+      ],
+      "max": [
+        -81.5,
+        -90.89,
+        1.34
+      ],
+      "center": [
+        -84.0,
+        -91.0,
+        1.28
+      ],
+      "size": [
+        5.0,
+        0.22,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BOULEVARD_LIGHT_RIBBON003",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -91.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -78.5,
+        -91.11,
+        1.22
+      ],
+      "max": [
+        -73.5,
+        -90.89,
+        1.34
+      ],
+      "center": [
+        -76.0,
+        -91.0,
+        1.28
+      ],
+      "size": [
+        5.0,
+        0.22,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "VIP_FIN",
+    "type": "MESH",
+    "center": [
+      -79.0,
+      -90.5,
+      6.2
+    ],
+    "bounds": {
+      "min": [
+        -79.16,
+        -91.05,
+        1.7
+      ],
+      "max": [
+        -78.84,
+        -89.95,
+        10.7
+      ],
+      "center": [
+        -79.0,
+        -90.5,
+        6.2
+      ],
+      "size": [
+        0.32,
+        1.1,
+        9.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "VIP_FIN001",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -90.5,
+      6.2
+    ],
+    "bounds": {
+      "min": [
+        -76.16,
+        -91.05,
+        1.7
+      ],
+      "max": [
+        -75.84,
+        -89.95,
+        10.7
+      ],
+      "center": [
+        -76.0,
+        -90.5,
+        6.2
+      ],
+      "size": [
+        0.32,
+        1.1,
+        9.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "FIRE_HYDRANT_00",
+    "type": "MESH",
+    "center": [
+      -120.0,
+      -90.0,
+      2.0
+    ],
+    "bounds": {
+      "min": [
+        -120.35,
+        -90.35,
+        1.2
+      ],
+      "max": [
+        -119.65,
+        -89.65,
+        2.8
+      ],
+      "center": [
+        -120.0,
+        -90.0,
+        2.0
+      ],
+      "size": [
+        0.7,
+        0.7,
+        1.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HYDRANT_MARK_00",
+    "type": "MESH",
+    "center": [
+      -120.0,
+      -90.0,
+      3.1
+    ],
+    "bounds": {
+      "min": [
+        -120.4,
+        -90.075,
+        2.7
+      ],
+      "max": [
+        -119.6,
+        -89.925,
+        3.5
+      ],
+      "center": [
+        -120.0,
+        -90.0,
+        3.1
+      ],
+      "size": [
+        0.8,
+        0.15,
+        0.8
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay042",
+    "type": "MESH",
+    "center": [
+      -118.0,
+      -90.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -120.75,
+        -91.25,
+        1.22
+      ],
+      "max": [
+        -115.25,
+        -88.75,
+        1.34
+      ],
+      "center": [
+        -118.0,
+        -90.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay043",
+    "type": "MESH",
+    "center": [
+      -111.0,
+      -90.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -113.75,
+        -91.25,
+        1.22
+      ],
+      "max": [
+        -108.25,
+        -88.75,
+        1.34
+      ],
+      "center": [
+        -111.0,
+        -90.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay044",
+    "type": "MESH",
+    "center": [
+      -104.0,
+      -90.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -106.75,
+        -91.25,
+        1.22
+      ],
+      "max": [
+        -101.25,
+        -88.75,
+        1.34
+      ],
+      "center": [
+        -104.0,
+        -90.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay045",
+    "type": "MESH",
+    "center": [
+      -97.0,
+      -90.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -99.75,
+        -91.25,
+        1.22
+      ],
+      "max": [
+        -94.25,
+        -88.75,
+        1.34
+      ],
+      "center": [
+        -97.0,
+        -90.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay046",
+    "type": "MESH",
+    "center": [
+      -90.0,
+      -90.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -92.75,
+        -91.25,
+        1.22
+      ],
+      "max": [
+        -87.25,
+        -88.75,
+        1.34
+      ],
+      "center": [
+        -90.0,
+        -90.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay047",
+    "type": "MESH",
+    "center": [
+      -83.0,
+      -90.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -85.75,
+        -91.25,
+        1.22
+      ],
+      "max": [
+        -80.25,
+        -88.75,
+        1.34
+      ],
+      "center": [
+        -83.0,
+        -90.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "ParkingBay048",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -90.0,
+      1.28
+    ],
+    "bounds": {
+      "min": [
+        -78.75,
+        -91.25,
+        1.22
+      ],
+      "max": [
+        -73.25,
+        -88.75,
+        1.34
+      ],
+      "center": [
+        -76.0,
+        -90.0,
+        1.28
+      ],
+      "size": [
+        5.5,
+        2.5,
+        0.12
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM_CAMPUS_01_SCREEN",
+    "type": "MESH",
+    "center": [
+      -78.0,
+      -88.42,
+      3.5
+    ],
+    "bounds": {
+      "min": [
+        -78.5,
+        -88.46,
+        2.4
+      ],
+      "max": [
+        -77.5,
+        -88.38,
+        4.6
+      ],
+      "center": [
+        -78.0,
+        -88.42,
+        3.5
+      ],
+      "size": [
+        1.0,
+        0.08,
+        2.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY004",
+    "type": "MESH",
+    "center": [
+      -109.8,
+      -88.0,
+      6.7
+    ],
+    "bounds": {
+      "min": [
+        -111.678,
+        -89.786,
+        4.6
+      ],
+      "max": [
+        -107.922,
+        -86.214,
+        8.8
+      ],
+      "center": [
+        -109.8,
+        -88.0,
+        6.7
+      ],
+      "size": [
+        3.757,
+        3.573,
+        4.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY003",
+    "type": "MESH",
+    "center": [
+      -108.0,
+      -88.0,
+      7.2
+    ],
+    "bounds": {
+      "min": [
+        -110.773,
+        -90.637,
+        4.1
+      ],
+      "max": [
+        -105.227,
+        -85.363,
+        10.3
+      ],
+      "center": [
+        -108.0,
+        -88.0,
+        7.2
+      ],
+      "size": [
+        5.545,
+        5.274,
+        6.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_TRUNK001",
+    "type": "MESH",
+    "center": [
+      -108.0,
+      -88.0,
+      3.4
+    ],
+    "bounds": {
+      "min": [
+        -108.4,
+        -88.4,
+        1.2
+      ],
+      "max": [
+        -107.6,
+        -87.6,
+        5.6
+      ],
+      "center": [
+        -108.0,
+        -88.0,
+        3.4
+      ],
+      "size": [
+        0.8,
+        0.8,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "NAV_TARGET_MAIN_ARRIVAL",
+    "type": "EMPTY",
+    "center": [
+      -85.0,
+      -88.0,
+      2.0
+    ],
+    "bounds": {
+      "min": [
+        -85.0,
+        -88.0,
+        2.0
+      ],
+      "max": [
+        -85.0,
+        -88.0,
+        2.0
+      ],
+      "center": [
+        -85.0,
+        -88.0,
+        2.0
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SMART_TOTEM_CAMPUS_01_BODY",
+    "type": "MESH",
+    "center": [
+      -78.0,
+      -88.0,
+      3.2
+    ],
+    "bounds": {
+      "min": [
+        -78.7,
+        -88.4,
+        1.2
+      ],
+      "max": [
+        -77.3,
+        -87.6,
+        5.2
+      ],
+      "center": [
+        -78.0,
+        -88.0,
+        3.2
+      ],
+      "size": [
+        1.4,
+        0.8,
+        4.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY005",
+    "type": "MESH",
+    "center": [
+      -106.3,
+      -87.6,
+      6.9
+    ],
+    "bounds": {
+      "min": [
+        -108.268,
+        -89.471,
+        4.7
+      ],
+      "max": [
+        -104.332,
+        -85.729,
+        9.1
+      ],
+      "center": [
+        -106.3,
+        -87.6,
+        6.9
+      ],
+      "size": [
+        3.935,
+        3.743,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "Icosphere",
+    "type": "MESH",
+    "center": [
+      -96.0,
+      -87.0,
+      9.2
+    ],
+    "bounds": {
+      "min": [
+        -100.09,
+        -91.3,
+        4.9
+      ],
+      "max": [
+        -91.91,
+        -82.7,
+        13.5
+      ],
+      "center": [
+        -96.0,
+        -87.0,
+        9.2
+      ],
+      "size": [
+        8.179,
+        8.6,
+        8.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TreeTrunk",
+    "type": "MESH",
+    "center": [
+      -96.0,
+      -87.0,
+      4.2
+    ],
+    "bounds": {
+      "min": [
+        -96.55,
+        -87.55,
+        1.2
+      ],
+      "max": [
+        -95.45,
+        -86.45,
+        7.2
+      ],
+      "center": [
+        -96.0,
+        -87.0,
+        4.2
+      ],
+      "size": [
+        1.1,
+        1.1,
+        6.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_SHADE",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -84.0,
+      4.2
+    ],
+    "bounds": {
+      "min": [
+        -117.5,
+        -86.5,
+        4.025
+      ],
+      "max": [
+        -92.5,
+        -81.5,
+        4.375
+      ],
+      "center": [
+        -105.0,
+        -84.0,
+        4.2
+      ],
+      "size": [
+        25.0,
+        5.0,
+        0.35
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_CANOPY_ACCENT",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -82.15,
+      6.82
+    ],
+    "bounds": {
+      "min": [
+        -80.0,
+        -82.21,
+        6.74
+      ],
+      "max": [
+        -72.0,
+        -82.09,
+        6.9
+      ],
+      "center": [
+        -76.0,
+        -82.15,
+        6.82
+      ],
+      "size": [
+        8.0,
+        0.12,
+        0.16
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BENCH",
+    "type": "MESH",
+    "center": [
+      -103.0,
+      -82.0,
+      1.65
+    ],
+    "bounds": {
+      "min": [
+        -106.5,
+        -85.5,
+        1.375
+      ],
+      "max": [
+        -99.5,
+        -78.5,
+        1.925
+      ],
+      "center": [
+        -103.0,
+        -82.0,
+        1.65
+      ],
+      "size": [
+        7.0,
+        7.0,
+        0.55
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BENCH_PLANTER",
+    "type": "MESH",
+    "center": [
+      -103.0,
+      -82.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -104.3,
+        -83.3,
+        1.6
+      ],
+      "max": [
+        -101.7,
+        -80.7,
+        3.0
+      ],
+      "center": [
+        -103.0,
+        -82.0,
+        2.3
+      ],
+      "size": [
+        2.6,
+        2.6,
+        1.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_CANOPY",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -80.75,
+      7.0
+    ],
+    "bounds": {
+      "min": [
+        -80.5,
+        -82.45,
+        6.86
+      ],
+      "max": [
+        -71.5,
+        -79.05,
+        7.14
+      ],
+      "center": [
+        -76.0,
+        -80.75,
+        7.0
+      ],
+      "size": [
+        9.0,
+        3.4,
+        0.28
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_TREE_CROWN_4",
+    "type": "MESH",
+    "center": [
+      -109.2,
+      -80.0,
+      8.6
+    ],
+    "bounds": {
+      "min": [
+        -110.8,
+        -81.36,
+        7.448
+      ],
+      "max": [
+        -107.6,
+        -78.64,
+        9.752
+      ],
+      "center": [
+        -109.2,
+        -80.0,
+        8.6
+      ],
+      "size": [
+        3.2,
+        2.72,
+        2.304
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAY_TOWER001",
+    "type": "MESH",
+    "center": [
+      -106.0,
+      -80.0,
+      2.5
+    ],
+    "bounds": {
+      "min": [
+        -107.4,
+        -81.4,
+        1.2
+      ],
+      "max": [
+        -104.6,
+        -78.6,
+        3.8
+      ],
+      "center": [
+        -106.0,
+        -80.0,
+        2.5
+      ],
+      "size": [
+        2.8,
+        2.8,
+        2.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_-1_0",
+    "type": "MESH",
+    "center": [
+      -111.095,
+      -79.648,
+      6.35
+    ],
+    "bounds": {
+      "min": [
+        -111.906,
+        -80.202,
+        5.556
+      ],
+      "max": [
+        -110.284,
+        -79.094,
+        7.144
+      ],
+      "center": [
+        -111.095,
+        -79.648,
+        6.35
+      ],
+      "size": [
+        1.622,
+        1.107,
+        1.587
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_1_0",
+    "type": "MESH",
+    "center": [
+      -104.905,
+      -79.648,
+      6.35
+    ],
+    "bounds": {
+      "min": [
+        -105.716,
+        -80.202,
+        5.556
+      ],
+      "max": [
+        -104.094,
+        -79.094,
+        7.144
+      ],
+      "center": [
+        -104.905,
+        -79.648,
+        6.35
+      ],
+      "size": [
+        1.622,
+        1.107,
+        1.587
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_THRESHOLD",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -79.45,
+      1.3
+    ],
+    "bounds": {
+      "min": [
+        -78.75,
+        -79.9,
+        1.2
+      ],
+      "max": [
+        -73.25,
+        -79.0,
+        1.4
+      ],
+      "center": [
+        -76.0,
+        -79.45,
+        1.3
+      ],
+      "size": [
+        5.5,
+        0.9,
+        0.2
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HQ_BRONZE_FIN",
+    "type": "MESH",
+    "center": [
+      -82.0,
+      -79.4,
+      6.2
+    ],
+    "bounds": {
+      "min": [
+        -82.175,
+        -79.8,
+        1.45
+      ],
+      "max": [
+        -81.825,
+        -79.0,
+        10.95
+      ],
+      "center": [
+        -82.0,
+        -79.4,
+        6.2
+      ],
+      "size": [
+        0.35,
+        0.8,
+        9.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HQ_BRONZE_FIN001",
+    "type": "MESH",
+    "center": [
+      -78.0,
+      -79.4,
+      6.2
+    ],
+    "bounds": {
+      "min": [
+        -78.175,
+        -79.8,
+        1.45
+      ],
+      "max": [
+        -77.825,
+        -79.0,
+        10.95
+      ],
+      "center": [
+        -78.0,
+        -79.4,
+        6.2
+      ],
+      "size": [
+        0.35,
+        0.8,
+        9.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_-1_1",
+    "type": "MESH",
+    "center": [
+      -111.045,
+      -79.324,
+      6.475
+    ],
+    "bounds": {
+      "min": [
+        -111.701,
+        -79.727,
+        5.599
+      ],
+      "max": [
+        -110.389,
+        -78.921,
+        7.351
+      ],
+      "center": [
+        -111.045,
+        -79.324,
+        6.475
+      ],
+      "size": [
+        1.312,
+        0.807,
+        1.752
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_1_1",
+    "type": "MESH",
+    "center": [
+      -104.955,
+      -79.324,
+      6.475
+    ],
+    "bounds": {
+      "min": [
+        -105.611,
+        -79.727,
+        5.599
+      ],
+      "max": [
+        -104.299,
+        -78.921,
+        7.351
+      ],
+      "center": [
+        -104.955,
+        -79.324,
+        6.475
+      ],
+      "size": [
+        1.312,
+        0.807,
+        1.752
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_SIGNAGE",
+    "type": "MESH",
+    "center": [
+      -75.991,
+      -79.28,
+      6.467
+    ],
+    "bounds": {
+      "min": [
+        -77.236,
+        -79.295,
+        6.239
+      ],
+      "max": [
+        -74.746,
+        -79.265,
+        6.695
+      ],
+      "center": [
+        -75.991,
+        -79.28,
+        6.467
+      ],
+      "size": [
+        2.49,
+        0.03,
+        0.457
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH006",
+    "type": "MESH",
+    "center": [
+      -88.0,
+      -79.25,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -88.14,
+        -81.5,
+        8.56
+      ],
+      "max": [
+        -87.86,
+        -77.0,
+        8.84
+      ],
+      "center": [
+        -88.0,
+        -79.25,
+        8.7
+      ],
+      "size": [
+        0.28,
+        4.5,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_MULLION",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -79.12,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -76.06,
+        -79.21,
+        1.2
+      ],
+      "max": [
+        -75.94,
+        -79.03,
+        6.0
+      ],
+      "center": [
+        -76.0,
+        -79.12,
+        3.6
+      ],
+      "size": [
+        0.12,
+        0.18,
+        4.8
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_FRAME_L",
+    "type": "MESH",
+    "center": [
+      -78.5,
+      -79.1,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -78.61,
+        -79.25,
+        1.075
+      ],
+      "max": [
+        -78.39,
+        -78.95,
+        6.125
+      ],
+      "center": [
+        -78.5,
+        -79.1,
+        3.6
+      ],
+      "size": [
+        0.22,
+        0.3,
+        5.05
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_DOOR_L",
+    "type": "MESH",
+    "center": [
+      -77.2,
+      -79.1,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -78.4,
+        -79.17,
+        1.2
+      ],
+      "max": [
+        -76.0,
+        -79.03,
+        6.0
+      ],
+      "center": [
+        -77.2,
+        -79.1,
+        3.6
+      ],
+      "size": [
+        2.4,
+        0.14,
+        4.8
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "R_D_QC_ENTRANCE_FRAME_TOP",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -79.1,
+      6.12
+    ],
+    "bounds": {
+      "min": [
+        -78.72,
+        -79.25,
+        6.0
+      ],
+      "max": [
+        -73.28,
+        -78.95,
+        6.24
+      ],
+      "center": [
+        -76.0,
+        -79.1,
+        6.12
+      ],
+      "size": [
+        5.44,
+        0.3,
+        0.24
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_-1_2",
+    "type": "MESH",
+    "center": [
+      -110.995,
+      -79.0,
+      6.6
+    ],
+    "bounds": {
+      "min": [
+        -111.442,
+        -79.2,
+        5.645
+      ],
+      "max": [
+        -110.548,
+        -78.8,
+        7.555
+      ],
+      "center": [
+        -110.995,
+        -79.0,
+        6.6
+      ],
+      "size": [
+        0.895,
+        0.4,
+        1.909
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FOREARM_L",
+    "type": "MESH",
+    "center": [
+      -110.9,
+      -79.0,
+      2.9
+    ],
+    "bounds": {
+      "min": [
+        -112.26,
+        -79.75,
+        0.757
+      ],
+      "max": [
+        -109.54,
+        -78.25,
+        5.043
+      ],
+      "center": [
+        -110.9,
+        -79.0,
+        2.9
+      ],
+      "size": [
+        2.719,
+        1.5,
+        4.286
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_PALM_L",
+    "type": "MESH",
+    "center": [
+      -110.25,
+      -79.0,
+      5.25
+    ],
+    "bounds": {
+      "min": [
+        -111.5,
+        -79.72,
+        3.6
+      ],
+      "max": [
+        -109.0,
+        -78.28,
+        6.9
+      ],
+      "center": [
+        -110.25,
+        -79.0,
+        5.25
+      ],
+      "size": [
+        2.5,
+        1.44,
+        3.3
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_HAND_LEFT",
+    "type": "EMPTY",
+    "center": [
+      -110.0,
+      -79.0,
+      3.5
+    ],
+    "bounds": {
+      "min": [
+        -110.0,
+        -79.0,
+        3.5
+      ],
+      "max": [
+        -110.0,
+        -79.0,
+        3.5
+      ],
+      "center": [
+        -110.0,
+        -79.0,
+        3.5
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HANDS_OF_GROWTH",
+    "type": "EMPTY",
+    "center": [
+      -108.0,
+      -79.0,
+      0.0
+    ],
+    "bounds": {
+      "min": [
+        -108.0,
+        -79.0,
+        0.0
+      ],
+      "max": [
+        -108.0,
+        -79.0,
+        0.0
+      ],
+      "center": [
+        -108.0,
+        -79.0,
+        0.0
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_PLINTH",
+    "type": "MESH",
+    "center": [
+      -108.0,
+      -79.0,
+      0.45
+    ],
+    "bounds": {
+      "min": [
+        -112.6,
+        -82.8,
+        0.0
+      ],
+      "max": [
+        -103.4,
+        -75.2,
+        0.9
+      ],
+      "center": [
+        -108.0,
+        -79.0,
+        0.45
+      ],
+      "size": [
+        9.2,
+        7.6,
+        0.9
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_TREE_CROWN",
+    "type": "EMPTY",
+    "center": [
+      -108.0,
+      -79.0,
+      8.0
+    ],
+    "bounds": {
+      "min": [
+        -108.0,
+        -79.0,
+        8.0
+      ],
+      "max": [
+        -108.0,
+        -79.0,
+        8.0
+      ],
+      "center": [
+        -108.0,
+        -79.0,
+        8.0
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_TREE_CROWN_0",
+    "type": "MESH",
+    "center": [
+      -108.0,
+      -79.0,
+      8.1
+    ],
+    "bounds": {
+      "min": [
+        -110.5,
+        -81.125,
+        6.3
+      ],
+      "max": [
+        -105.5,
+        -76.875,
+        9.9
+      ],
+      "center": [
+        -108.0,
+        -79.0,
+        8.1
+      ],
+      "size": [
+        5.0,
+        4.25,
+        3.6
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_TREE_TRUNK",
+    "type": "MESH",
+    "center": [
+      -108.0,
+      -79.0,
+      3.95
+    ],
+    "bounds": {
+      "min": [
+        -108.38,
+        -79.38,
+        0.9
+      ],
+      "max": [
+        -107.62,
+        -78.62,
+        7.0
+      ],
+      "center": [
+        -108.0,
+        -79.0,
+        3.95
+      ],
+      "size": [
+        0.76,
+        0.76,
+        6.1
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "LABEL_ANCHOR_HANDS_OF_GROWTH",
+    "type": "EMPTY",
+    "center": [
+      -108.0,
+      -79.0,
+      11.4
+    ],
+    "bounds": {
+      "min": [
+        -108.0,
+        -79.0,
+        11.4
+      ],
+      "max": [
+        -108.0,
+        -79.0,
+        11.4
+      ],
+      "center": [
+        -108.0,
+        -79.0,
+        11.4
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "NAV_TARGET_HANDS_OF_GROWTH",
+    "type": "EMPTY",
+    "center": [
+      -108.0,
+      -79.0,
+      5.0
+    ],
+    "bounds": {
+      "min": [
+        -108.0,
+        -79.0,
+        5.0
+      ],
+      "max": [
+        -108.0,
+        -79.0,
+        5.0
+      ],
+      "center": [
+        -108.0,
+        -79.0,
+        5.0
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_HAND_RIGHT",
+    "type": "EMPTY",
+    "center": [
+      -106.0,
+      -79.0,
+      3.5
+    ],
+    "bounds": {
+      "min": [
+        -106.0,
+        -79.0,
+        3.5
+      ],
+      "max": [
+        -106.0,
+        -79.0,
+        3.5
+      ],
+      "center": [
+        -106.0,
+        -79.0,
+        3.5
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_TREE_CROWN_1",
+    "type": "MESH",
+    "center": [
+      -106.0,
+      -79.0,
+      7.8
+    ],
+    "bounds": {
+      "min": [
+        -107.8,
+        -80.53,
+        6.504
+      ],
+      "max": [
+        -104.2,
+        -77.47,
+        9.096
+      ],
+      "center": [
+        -106.0,
+        -79.0,
+        7.8
+      ],
+      "size": [
+        3.6,
+        3.06,
+        2.592
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_PALM_R",
+    "type": "MESH",
+    "center": [
+      -105.75,
+      -79.0,
+      5.25
+    ],
+    "bounds": {
+      "min": [
+        -107.0,
+        -79.72,
+        3.6
+      ],
+      "max": [
+        -104.5,
+        -78.28,
+        6.9
+      ],
+      "center": [
+        -105.75,
+        -79.0,
+        5.25
+      ],
+      "size": [
+        2.5,
+        1.44,
+        3.3
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FOREARM_R",
+    "type": "MESH",
+    "center": [
+      -105.1,
+      -79.0,
+      2.9
+    ],
+    "bounds": {
+      "min": [
+        -106.46,
+        -79.75,
+        0.757
+      ],
+      "max": [
+        -103.74,
+        -78.25,
+        5.043
+      ],
+      "center": [
+        -105.1,
+        -79.0,
+        2.9
+      ],
+      "size": [
+        2.719,
+        1.5,
+        4.286
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_1_2",
+    "type": "MESH",
+    "center": [
+      -105.005,
+      -79.0,
+      6.6
+    ],
+    "bounds": {
+      "min": [
+        -105.452,
+        -79.2,
+        5.645
+      ],
+      "max": [
+        -104.558,
+        -78.8,
+        7.555
+      ],
+      "center": [
+        -105.005,
+        -79.0,
+        6.6
+      ],
+      "size": [
+        0.895,
+        0.4,
+        1.909
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_TREE_CROWN_2",
+    "type": "MESH",
+    "center": [
+      -110.0,
+      -78.8,
+      7.8
+    ],
+    "bounds": {
+      "min": [
+        -111.8,
+        -80.33,
+        6.504
+      ],
+      "max": [
+        -108.2,
+        -77.27,
+        9.096
+      ],
+      "center": [
+        -110.0,
+        -78.8,
+        7.8
+      ],
+      "size": [
+        3.6,
+        3.06,
+        2.592
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_-1_3",
+    "type": "MESH",
+    "center": [
+      -111.165,
+      -78.676,
+      6.475
+    ],
+    "bounds": {
+      "min": [
+        -111.724,
+        -79.093,
+        5.619
+      ],
+      "max": [
+        -110.606,
+        -78.259,
+        7.331
+      ],
+      "center": [
+        -111.165,
+        -78.676,
+        6.475
+      ],
+      "size": [
+        1.118,
+        0.835,
+        1.712
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_1_3",
+    "type": "MESH",
+    "center": [
+      -104.835,
+      -78.676,
+      6.475
+    ],
+    "bounds": {
+      "min": [
+        -105.394,
+        -79.093,
+        5.619
+      ],
+      "max": [
+        -104.276,
+        -78.259,
+        7.331
+      ],
+      "center": [
+        -104.835,
+        -78.676,
+        6.475
+      ],
+      "size": [
+        1.118,
+        0.835,
+        1.712
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH005",
+    "type": "MESH",
+    "center": [
+      -89.591,
+      -78.591,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -91.281,
+        -80.281,
+        8.56
+      ],
+      "max": [
+        -87.901,
+        -76.901,
+        8.84
+      ],
+      "center": [
+        -89.591,
+        -78.591,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH007",
+    "type": "MESH",
+    "center": [
+      -86.409,
+      -78.591,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -88.099,
+        -80.281,
+        8.56
+      ],
+      "max": [
+        -84.719,
+        -76.901,
+        8.84
+      ],
+      "center": [
+        -86.409,
+        -78.591,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_-1_4",
+    "type": "MESH",
+    "center": [
+      -111.335,
+      -78.352,
+      6.35
+    ],
+    "bounds": {
+      "min": [
+        -111.944,
+        -78.921,
+        5.582
+      ],
+      "max": [
+        -110.726,
+        -77.783,
+        7.118
+      ],
+      "center": [
+        -111.335,
+        -78.352,
+        6.35
+      ],
+      "size": [
+        1.217,
+        1.138,
+        1.535
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_FINGER_1_4",
+    "type": "MESH",
+    "center": [
+      -104.665,
+      -78.352,
+      6.35
+    ],
+    "bounds": {
+      "min": [
+        -105.274,
+        -78.921,
+        5.582
+      ],
+      "max": [
+        -104.056,
+        -77.783,
+        7.118
+      ],
+      "center": [
+        -104.665,
+        -78.352,
+        6.35
+      ],
+      "size": [
+        1.217,
+        1.138,
+        1.535
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAY_TOWER",
+    "type": "MESH",
+    "center": [
+      -114.0,
+      -78.0,
+      2.5
+    ],
+    "bounds": {
+      "min": [
+        -115.4,
+        -79.4,
+        1.2
+      ],
+      "max": [
+        -112.6,
+        -76.6,
+        3.8
+      ],
+      "center": [
+        -114.0,
+        -78.0,
+        2.5
+      ],
+      "size": [
+        2.8,
+        2.8,
+        2.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_GARDEN",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -78.0,
+      1.32
+    ],
+    "bounds": {
+      "min": [
+        -120.0,
+        -84.0,
+        1.2
+      ],
+      "max": [
+        -90.0,
+        -72.0,
+        1.44
+      ],
+      "center": [
+        -105.0,
+        -78.0,
+        1.32
+      ],
+      "size": [
+        30.0,
+        12.0,
+        0.24
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "HOG_TREE_CROWN_3",
+    "type": "MESH",
+    "center": [
+      -106.8,
+      -77.8,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -108.4,
+        -79.16,
+        7.548
+      ],
+      "max": [
+        -105.2,
+        -76.44,
+        9.852
+      ],
+      "center": [
+        -106.8,
+        -77.8,
+        8.7
+      ],
+      "size": [
+        3.2,
+        2.72,
+        2.304
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH014",
+    "type": "MESH",
+    "center": [
+      -102.0,
+      -77.25,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -102.14,
+        -79.5,
+        8.56
+      ],
+      "max": [
+        -101.86,
+        -75.0,
+        8.84
+      ],
+      "center": [
+        -102.0,
+        -77.25,
+        8.7
+      ],
+      "size": [
+        0.28,
+        4.5,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAY_TOWER002",
+    "type": "MESH",
+    "center": [
+      -98.0,
+      -77.0,
+      2.5
+    ],
+    "bounds": {
+      "min": [
+        -99.4,
+        -78.4,
+        1.2
+      ],
+      "max": [
+        -96.6,
+        -75.6,
+        3.8
+      ],
+      "center": [
+        -98.0,
+        -77.0,
+        2.5
+      ],
+      "size": [
+        2.8,
+        2.8,
+        2.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH004",
+    "type": "MESH",
+    "center": [
+      -90.25,
+      -77.0,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -92.5,
+        -77.14,
+        8.56
+      ],
+      "max": [
+        -88.0,
+        -76.86,
+        8.84
+      ],
+      "center": [
+        -90.25,
+        -77.0,
+        8.7
+      ],
+      "size": [
+        4.5,
+        0.28,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_TREE_COLUMN",
+    "type": "MESH",
+    "center": [
+      -88.0,
+      -77.0,
+      5.2
+    ],
+    "bounds": {
+      "min": [
+        -88.7,
+        -77.7,
+        1.2
+      ],
+      "max": [
+        -87.3,
+        -76.3,
+        9.2
+      ],
+      "center": [
+        -88.0,
+        -77.0,
+        5.2
+      ],
+      "size": [
+        1.4,
+        1.4,
+        8.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_HUB",
+    "type": "MESH",
+    "center": [
+      -88.0,
+      -77.0,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -93.4,
+        -82.4,
+        7.6
+      ],
+      "max": [
+        -82.6,
+        -71.6,
+        8.8
+      ],
+      "center": [
+        -88.0,
+        -77.0,
+        8.2
+      ],
+      "size": [
+        10.8,
+        10.8,
+        1.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POVU_CANOPY_LIGHT_RING",
+    "type": "MESH",
+    "center": [
+      -88.0,
+      -77.0,
+      7.15
+    ],
+    "bounds": {
+      "min": [
+        -99.78,
+        -88.78,
+        6.979
+      ],
+      "max": [
+        -76.22,
+        -65.22,
+        7.321
+      ],
+      "center": [
+        -88.0,
+        -77.0,
+        7.15
+      ],
+      "size": [
+        23.56,
+        23.56,
+        0.342
+      ]
+    },
+    "parent": "Scene",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "VIP_AREA_LIGHT002",
+    "type": "EMPTY",
+    "center": [
+      -88.0,
+      -77.0,
+      11.2
+    ],
+    "bounds": {
+      "min": [
+        -88.0,
+        -77.0,
+        11.2
+      ],
+      "max": [
+        -88.0,
+        -77.0,
+        11.2
+      ],
+      "center": [
+        -88.0,
+        -77.0,
+        11.2
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH",
+    "type": "MESH",
+    "center": [
+      -85.75,
+      -77.0,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -88.0,
+        -77.14,
+        8.56
+      ],
+      "max": [
+        -83.5,
+        -76.86,
+        8.84
+      ],
+      "center": [
+        -85.75,
+        -77.0,
+        8.7
+      ],
+      "size": [
+        4.5,
+        0.28,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "NAV_TARGET_POVU_PLAZA",
+    "type": "EMPTY",
+    "center": [
+      -76.0,
+      -77.0,
+      1.5
+    ],
+    "bounds": {
+      "min": [
+        -76.0,
+        -77.0,
+        1.5
+      ],
+      "max": [
+        -76.0,
+        -77.0,
+        1.5
+      ],
+      "center": [
+        -76.0,
+        -77.0,
+        1.5
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POVU_PLAZA",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -77.0,
+      1.32
+    ],
+    "bounds": {
+      "min": [
+        -108.5,
+        -98.0,
+        1.21
+      ],
+      "max": [
+        -43.5,
+        -56.0,
+        1.43
+      ],
+      "center": [
+        -76.0,
+        -77.0,
+        1.32
+      ],
+      "size": [
+        65.0,
+        42.0,
+        0.22
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH013",
+    "type": "MESH",
+    "center": [
+      -103.591,
+      -76.591,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -105.281,
+        -78.281,
+        8.56
+      ],
+      "max": [
+        -101.901,
+        -74.901,
+        8.84
+      ],
+      "center": [
+        -103.591,
+        -76.591,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH015",
+    "type": "MESH",
+    "center": [
+      -100.409,
+      -76.591,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -102.099,
+        -78.281,
+        8.56
+      ],
+      "max": [
+        -98.719,
+        -74.901,
+        8.84
+      ],
+      "center": [
+        -100.409,
+        -76.591,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH003",
+    "type": "MESH",
+    "center": [
+      -89.591,
+      -75.409,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -91.281,
+        -77.099,
+        8.56
+      ],
+      "max": [
+        -87.901,
+        -73.719,
+        8.84
+      ],
+      "center": [
+        -89.591,
+        -75.409,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH001",
+    "type": "MESH",
+    "center": [
+      -86.409,
+      -75.409,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -88.099,
+        -77.099,
+        8.56
+      ],
+      "max": [
+        -84.719,
+        -73.719,
+        8.84
+      ],
+      "center": [
+        -86.409,
+        -75.409,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_CANOPY_ACCENT",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -75.35,
+      6.22
+    ],
+    "bounds": {
+      "min": [
+        -108.75,
+        -75.41,
+        6.14
+      ],
+      "max": [
+        -101.25,
+        -75.29,
+        6.3
+      ],
+      "center": [
+        -105.0,
+        -75.35,
+        6.22
+      ],
+      "size": [
+        7.5,
+        0.12,
+        0.16
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH022",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -75.25,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -76.14,
+        -77.5,
+        8.56
+      ],
+      "max": [
+        -75.86,
+        -73.0,
+        8.84
+      ],
+      "center": [
+        -76.0,
+        -75.25,
+        8.7
+      ],
+      "size": [
+        0.28,
+        4.5,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH012",
+    "type": "MESH",
+    "center": [
+      -104.25,
+      -75.0,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -106.5,
+        -75.14,
+        8.56
+      ],
+      "max": [
+        -102.0,
+        -74.86,
+        8.84
+      ],
+      "center": [
+        -104.25,
+        -75.0,
+        8.7
+      ],
+      "size": [
+        4.5,
+        0.28,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_TREE_COLUMN001",
+    "type": "MESH",
+    "center": [
+      -102.0,
+      -75.0,
+      5.2
+    ],
+    "bounds": {
+      "min": [
+        -102.7,
+        -75.7,
+        1.2
+      ],
+      "max": [
+        -101.3,
+        -74.3,
+        9.2
+      ],
+      "center": [
+        -102.0,
+        -75.0,
+        5.2
+      ],
+      "size": [
+        1.4,
+        1.4,
+        8.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH008",
+    "type": "MESH",
+    "center": [
+      -99.75,
+      -75.0,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -102.0,
+        -75.14,
+        8.56
+      ],
+      "max": [
+        -97.5,
+        -74.86,
+        8.84
+      ],
+      "center": [
+        -99.75,
+        -75.0,
+        8.7
+      ],
+      "size": [
+        4.5,
+        0.28,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH002",
+    "type": "MESH",
+    "center": [
+      -88.0,
+      -74.75,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -88.14,
+        -77.0,
+        8.56
+      ],
+      "max": [
+        -87.86,
+        -72.5,
+        8.84
+      ],
+      "center": [
+        -88.0,
+        -74.75,
+        8.7
+      ],
+      "size": [
+        0.28,
+        4.5,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH021",
+    "type": "MESH",
+    "center": [
+      -77.591,
+      -74.591,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -79.281,
+        -76.281,
+        8.56
+      ],
+      "max": [
+        -75.901,
+        -72.901,
+        8.84
+      ],
+      "center": [
+        -77.591,
+        -74.591,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "Icosphere002",
+    "type": "MESH",
+    "center": [
+      -110.0,
+      -74.0,
+      9.2
+    ],
+    "bounds": {
+      "min": [
+        -114.09,
+        -78.3,
+        4.9
+      ],
+      "max": [
+        -105.91,
+        -69.7,
+        13.5
+      ],
+      "center": [
+        -110.0,
+        -74.0,
+        9.2
+      ],
+      "size": [
+        8.179,
+        8.6,
+        8.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TreeTrunk002",
+    "type": "MESH",
+    "center": [
+      -110.0,
+      -74.0,
+      4.2
+    ],
+    "bounds": {
+      "min": [
+        -110.55,
+        -74.55,
+        1.2
+      ],
+      "max": [
+        -109.45,
+        -73.45,
+        7.2
+      ],
+      "center": [
+        -110.0,
+        -74.0,
+        4.2
+      ],
+      "size": [
+        1.1,
+        1.1,
+        6.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_CANOPY",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -73.95,
+      6.4
+    ],
+    "bounds": {
+      "min": [
+        -109.25,
+        -75.65,
+        6.26
+      ],
+      "max": [
+        -100.75,
+        -72.25,
+        6.54
+      ],
+      "center": [
+        -105.0,
+        -73.95,
+        6.4
+      ],
+      "size": [
+        8.5,
+        3.4,
+        0.28
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH011",
+    "type": "MESH",
+    "center": [
+      -103.591,
+      -73.409,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -105.281,
+        -75.099,
+        8.56
+      ],
+      "max": [
+        -101.901,
+        -71.719,
+        8.84
+      ],
+      "center": [
+        -103.591,
+        -73.409,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH009",
+    "type": "MESH",
+    "center": [
+      -100.409,
+      -73.409,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -102.099,
+        -75.099,
+        8.56
+      ],
+      "max": [
+        -98.719,
+        -71.719,
+        8.84
+      ],
+      "center": [
+        -100.409,
+        -73.409,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH020",
+    "type": "MESH",
+    "center": [
+      -78.25,
+      -73.0,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -80.5,
+        -73.14,
+        8.56
+      ],
+      "max": [
+        -76.0,
+        -72.86,
+        8.84
+      ],
+      "center": [
+        -78.25,
+        -73.0,
+        8.7
+      ],
+      "size": [
+        4.5,
+        0.28,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_TREE_COLUMN002",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -73.0,
+      5.2
+    ],
+    "bounds": {
+      "min": [
+        -76.7,
+        -73.7,
+        1.2
+      ],
+      "max": [
+        -75.3,
+        -72.3,
+        9.2
+      ],
+      "center": [
+        -76.0,
+        -73.0,
+        5.2
+      ],
+      "size": [
+        1.4,
+        1.4,
+        8.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB",
+    "type": "MESH",
+    "center": [
+      -104.914,
+      -72.896,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -116.218,
+        -77.344,
+        7.9
+      ],
+      "max": [
+        -93.611,
+        -68.447,
+        8.5
+      ],
+      "center": [
+        -104.914,
+        -72.896,
+        8.2
+      ],
+      "size": [
+        22.608,
+        8.897,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH010",
+    "type": "MESH",
+    "center": [
+      -102.0,
+      -72.75,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -102.14,
+        -75.0,
+        8.56
+      ],
+      "max": [
+        -101.86,
+        -70.5,
+        8.84
+      ],
+      "center": [
+        -102.0,
+        -72.75,
+        8.7
+      ],
+      "size": [
+        0.28,
+        4.5,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_THRESHOLD",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -72.65,
+      1.3
+    ],
+    "bounds": {
+      "min": [
+        -107.5,
+        -73.1,
+        1.2
+      ],
+      "max": [
+        -102.5,
+        -72.2,
+        1.4
+      ],
+      "center": [
+        -105.0,
+        -72.65,
+        1.3
+      ],
+      "size": [
+        5.0,
+        0.9,
+        0.2
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_SIGNAGE",
+    "type": "MESH",
+    "center": [
+      -104.987,
+      -72.48,
+      5.903
+    ],
+    "bounds": {
+      "min": [
+        -106.196,
+        -72.495,
+        5.71
+      ],
+      "max": [
+        -103.778,
+        -72.465,
+        6.095
+      ],
+      "center": [
+        -104.987,
+        -72.48,
+        5.903
+      ],
+      "size": [
+        2.417,
+        0.03,
+        0.385
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_MULLION",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -72.32,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -105.06,
+        -72.41,
+        1.2
+      ],
+      "max": [
+        -104.94,
+        -72.23,
+        5.4
+      ],
+      "center": [
+        -105.0,
+        -72.32,
+        3.3
+      ],
+      "size": [
+        0.12,
+        0.18,
+        4.2
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_FRAME_L",
+    "type": "MESH",
+    "center": [
+      -107.25,
+      -72.3,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -107.36,
+        -72.45,
+        1.075
+      ],
+      "max": [
+        -107.14,
+        -72.15,
+        5.525
+      ],
+      "center": [
+        -107.25,
+        -72.3,
+        3.3
+      ],
+      "size": [
+        0.22,
+        0.3,
+        4.45
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_DOOR_L",
+    "type": "MESH",
+    "center": [
+      -106.08,
+      -72.3,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -107.16,
+        -72.37,
+        1.2
+      ],
+      "max": [
+        -105.0,
+        -72.23,
+        5.4
+      ],
+      "center": [
+        -106.08,
+        -72.3,
+        3.3
+      ],
+      "size": [
+        2.16,
+        0.14,
+        4.2
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_FRAME_TOP",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -72.3,
+      5.52
+    ],
+    "bounds": {
+      "min": [
+        -107.47,
+        -72.45,
+        5.4
+      ],
+      "max": [
+        -102.53,
+        -72.15,
+        5.64
+      ],
+      "center": [
+        -105.0,
+        -72.3,
+        5.52
+      ],
+      "size": [
+        4.94,
+        0.3,
+        0.24
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_DOOR_R",
+    "type": "MESH",
+    "center": [
+      -103.92,
+      -72.3,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -105.0,
+        -72.37,
+        1.2
+      ],
+      "max": [
+        -102.84,
+        -72.23,
+        5.4
+      ],
+      "center": [
+        -103.92,
+        -72.3,
+        3.3
+      ],
+      "size": [
+        2.16,
+        0.14,
+        4.2
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "DAYCARE_ENTRANCE_FRAME_R",
+    "type": "MESH",
+    "center": [
+      -102.75,
+      -72.3,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -102.86,
+        -72.45,
+        1.075
+      ],
+      "max": [
+        -102.64,
+        -72.15,
+        5.525
+      ],
+      "center": [
+        -102.75,
+        -72.3,
+        3.3
+      ],
+      "size": [
+        0.22,
+        0.3,
+        4.45
+      ]
+    },
+    "parent": null,
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "Icosphere001",
+    "type": "MESH",
+    "center": [
+      -87.0,
+      -72.0,
+      9.2
+    ],
+    "bounds": {
+      "min": [
+        -91.09,
+        -76.3,
+        4.9
+      ],
+      "max": [
+        -82.91,
+        -67.7,
+        13.5
+      ],
+      "center": [
+        -87.0,
+        -72.0,
+        9.2
+      ],
+      "size": [
+        8.179,
+        8.6,
+        8.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TreeTrunk001",
+    "type": "MESH",
+    "center": [
+      -87.0,
+      -72.0,
+      4.2
+    ],
+    "bounds": {
+      "min": [
+        -87.55,
+        -72.55,
+        1.2
+      ],
+      "max": [
+        -86.45,
+        -71.45,
+        7.2
+      ],
+      "center": [
+        -87.0,
+        -72.0,
+        4.2
+      ],
+      "size": [
+        1.1,
+        1.1,
+        6.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH019",
+    "type": "MESH",
+    "center": [
+      -77.591,
+      -71.409,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -79.281,
+        -73.099,
+        8.56
+      ],
+      "max": [
+        -75.901,
+        -69.719,
+        8.84
+      ],
+      "center": [
+        -77.591,
+        -71.409,
+        8.7
+      ],
+      "size": [
+        3.38,
+        3.38,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "CANOPY_BRANCH018",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -70.75,
+      8.7
+    ],
+    "bounds": {
+      "min": [
+        -76.14,
+        -73.0,
+        8.56
+      ],
+      "max": [
+        -75.86,
+        -68.5,
+        8.84
+      ],
+      "center": [
+        -76.0,
+        -70.75,
+        8.7
+      ],
+      "size": [
+        0.28,
+        4.5,
+        0.28
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB001",
+    "type": "MESH",
+    "center": [
+      -102.923,
+      -70.29,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -113.001,
+        -77.273,
+        7.9
+      ],
+      "max": [
+        -92.844,
+        -63.307,
+        8.5
+      ],
+      "center": [
+        -102.923,
+        -70.29,
+        8.2
+      ],
+      "size": [
+        20.156,
+        13.966,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PERSON_06",
+    "type": "MESH",
+    "center": [
+      -100.0,
+      -70.0,
+      2.1
+    ],
+    "bounds": {
+      "min": [
+        -100.22,
+        -70.22,
+        1.2
+      ],
+      "max": [
+        -99.78,
+        -69.78,
+        3.0
+      ],
+      "center": [
+        -100.0,
+        -70.0,
+        2.1
+      ],
+      "size": [
+        0.44,
+        0.44,
+        1.8
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PERSON_HEAD_06",
+    "type": "MESH",
+    "center": [
+      -100.0,
+      -70.0,
+      3.2
+    ],
+    "bounds": {
+      "min": [
+        -100.32,
+        -70.32,
+        2.9
+      ],
+      "max": [
+        -99.68,
+        -69.68,
+        3.5
+      ],
+      "center": [
+        -100.0,
+        -70.0,
+        3.2
+      ],
+      "size": [
+        0.64,
+        0.64,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB002",
+    "type": "MESH",
+    "center": [
+      -100.044,
+      -68.082,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -108.298,
+        -77.185,
+        7.9
+      ],
+      "max": [
+        -91.79,
+        -58.979,
+        8.5
+      ],
+      "center": [
+        -100.044,
+        -68.082,
+        8.2
+      ],
+      "size": [
+        16.508,
+        18.206,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB008",
+    "type": "MESH",
+    "center": [
+      -75.956,
+      -68.082,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -84.21,
+        -77.185,
+        7.9
+      ],
+      "max": [
+        -67.702,
+        -58.979,
+        8.5
+      ],
+      "center": [
+        -75.956,
+        -68.082,
+        8.2
+      ],
+      "size": [
+        16.508,
+        18.206,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB003",
+    "type": "MESH",
+    "center": [
+      -96.45,
+      -66.405,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -102.39,
+        -77.087,
+        7.9
+      ],
+      "max": [
+        -90.511,
+        -55.723,
+        8.5
+      ],
+      "center": [
+        -96.45,
+        -66.405,
+        8.2
+      ],
+      "size": [
+        11.879,
+        21.364,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB007",
+    "type": "MESH",
+    "center": [
+      -79.55,
+      -66.405,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -85.489,
+        -77.087,
+        7.9
+      ],
+      "max": [
+        -73.61,
+        -55.723,
+        8.5
+      ],
+      "center": [
+        -79.55,
+        -66.405,
+        8.2
+      ],
+      "size": [
+        11.879,
+        21.364,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB004",
+    "type": "MESH",
+    "center": [
+      -92.355,
+      -65.356,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -95.626,
+        -76.983,
+        7.9
+      ],
+      "max": [
+        -89.083,
+        -53.73,
+        8.5
+      ],
+      "center": [
+        -92.355,
+        -65.356,
+        8.2
+      ],
+      "size": [
+        6.544,
+        23.253,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB006",
+    "type": "MESH",
+    "center": [
+      -83.645,
+      -65.356,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -86.917,
+        -76.983,
+        7.9
+      ],
+      "max": [
+        -80.374,
+        -53.73,
+        8.5
+      ],
+      "center": [
+        -83.645,
+        -65.356,
+        8.2
+      ],
+      "size": [
+        6.544,
+        23.253,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "PLAZA_CANOPY_RIB005",
+    "type": "MESH",
+    "center": [
+      -88.0,
+      -65.0,
+      8.2
+    ],
+    "bounds": {
+      "min": [
+        -88.41,
+        -76.88,
+        7.9
+      ],
+      "max": [
+        -87.59,
+        -53.12,
+        8.5
+      ],
+      "center": [
+        -88.0,
+        -65.0,
+        8.2
+      ],
+      "size": [
+        0.82,
+        23.76,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "Daycare",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -64.0,
+      4.2
+    ],
+    "bounds": {
+      "min": [
+        -117.0,
+        -72.0,
+        1.2
+      ],
+      "max": [
+        -93.0,
+        -56.0,
+        7.2
+      ],
+      "center": [
+        -105.0,
+        -64.0,
+        4.2
+      ],
+      "size": [
+        24.0,
+        16.0,
+        6.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GREEN_ROOF_Daycare",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -64.0,
+      7.45
+    ],
+    "bounds": {
+      "min": [
+        -115.8,
+        -71.04,
+        7.25
+      ],
+      "max": [
+        -94.2,
+        -56.96,
+        7.65
+      ],
+      "center": [
+        -105.0,
+        -64.0,
+        7.45
+      ],
+      "size": [
+        21.6,
+        14.08,
+        0.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDEN_BENCH016",
+    "type": "MESH",
+    "center": [
+      -80.0,
+      -63.464,
+      1.8
+    ],
+    "bounds": {
+      "min": [
+        -81.982,
+        -64.897,
+        1.45
+      ],
+      "max": [
+        -78.018,
+        -62.031,
+        2.15
+      ],
+      "center": [
+        -80.0,
+        -63.464,
+        1.8
+      ],
+      "size": [
+        3.964,
+        2.866,
+        0.7
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDEN_BENCH017",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -63.464,
+      1.8
+    ],
+    "bounds": {
+      "min": [
+        -77.982,
+        -64.897,
+        1.45
+      ],
+      "max": [
+        -74.018,
+        -62.031,
+        2.15
+      ],
+      "center": [
+        -76.0,
+        -63.464,
+        1.8
+      ],
+      "size": [
+        3.964,
+        2.866,
+        0.7
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BENCH002",
+    "type": "MESH",
+    "center": [
+      -78.0,
+      -62.0,
+      1.65
+    ],
+    "bounds": {
+      "min": [
+        -81.5,
+        -65.5,
+        1.375
+      ],
+      "max": [
+        -74.5,
+        -58.5,
+        1.925
+      ],
+      "center": [
+        -78.0,
+        -62.0,
+        1.65
+      ],
+      "size": [
+        7.0,
+        7.0,
+        0.55
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BENCH_PLANTER002",
+    "type": "MESH",
+    "center": [
+      -78.0,
+      -62.0,
+      2.3
+    ],
+    "bounds": {
+      "min": [
+        -79.3,
+        -63.3,
+        1.6
+      ],
+      "max": [
+        -76.7,
+        -60.7,
+        3.0
+      ],
+      "center": [
+        -78.0,
+        -62.0,
+        2.3
+      ],
+      "size": [
+        2.6,
+        2.6,
+        1.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDEN_BENCH015",
+    "type": "MESH",
+    "center": [
+      -82.0,
+      -60.0,
+      1.8
+    ],
+    "bounds": {
+      "min": [
+        -82.5,
+        -62.0,
+        1.45
+      ],
+      "max": [
+        -81.5,
+        -58.0,
+        2.15
+      ],
+      "center": [
+        -82.0,
+        -60.0,
+        1.8
+      ],
+      "size": [
+        1.0,
+        4.0,
+        0.7
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SHADE_TREE_CANOPY002",
+    "type": "MESH",
+    "center": [
+      -78.0,
+      -60.0,
+      6.2
+    ],
+    "bounds": {
+      "min": [
+        -81.2,
+        -63.2,
+        4.2
+      ],
+      "max": [
+        -74.8,
+        -56.8,
+        8.2
+      ],
+      "center": [
+        -78.0,
+        -60.0,
+        6.2
+      ],
+      "size": [
+        6.4,
+        6.4,
+        4.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "SHADE_TREE_TRUNK002",
+    "type": "MESH",
+    "center": [
+      -78.0,
+      -60.0,
+      3.2
+    ],
+    "bounds": {
+      "min": [
+        -78.45,
+        -60.45,
+        1.2
+      ],
+      "max": [
+        -77.55,
+        -59.55,
+        5.2
+      ],
+      "center": [
+        -78.0,
+        -60.0,
+        3.2
+      ],
+      "size": [
+        0.9,
+        0.9,
+        4.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDEN_BENCH014",
+    "type": "MESH",
+    "center": [
+      -80.0,
+      -56.536,
+      1.8
+    ],
+    "bounds": {
+      "min": [
+        -81.982,
+        -57.969,
+        1.45
+      ],
+      "max": [
+        -78.018,
+        -55.103,
+        2.15
+      ],
+      "center": [
+        -80.0,
+        -56.536,
+        1.8
+      ],
+      "size": [
+        3.964,
+        2.866,
+        0.7
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDEN_BENCH013",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -56.536,
+      1.8
+    ],
+    "bounds": {
+      "min": [
+        -77.982,
+        -57.969,
+        1.45
+      ],
+      "max": [
+        -74.018,
+        -55.103,
+        2.15
+      ],
+      "center": [
+        -76.0,
+        -56.536,
+        1.8
+      ],
+      "size": [
+        3.964,
+        2.866,
+        0.7
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BOULEVARD_BOLLARD",
+    "type": "MESH",
+    "center": [
+      -80.0,
+      -55.0,
+      2.2
+    ],
+    "bounds": {
+      "min": [
+        -80.15,
+        -55.15,
+        1.2
+      ],
+      "max": [
+        -79.85,
+        -54.85,
+        3.2
+      ],
+      "center": [
+        -80.0,
+        -55.0,
+        2.2
+      ],
+      "size": [
+        0.3,
+        0.3,
+        2.0
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "BOULEVARD_LIGHT",
+    "type": "MESH",
+    "center": [
+      -80.0,
+      -55.0,
+      3.3
+    ],
+    "bounds": {
+      "min": [
+        -80.3,
+        -55.3,
+        3.2
+      ],
+      "max": [
+        -79.7,
+        -54.7,
+        3.4
+      ],
+      "center": [
+        -80.0,
+        -55.0,
+        3.3
+      ],
+      "size": [
+        0.6,
+        0.6,
+        0.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST004",
+    "type": "MESH",
+    "center": [
+      -109.2,
+      -53.811,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -109.38,
+        -53.991,
+        1.35
+      ],
+      "max": [
+        -109.02,
+        -53.631,
+        5.85
+      ],
+      "center": [
+        -109.2,
+        -53.811,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST005",
+    "type": "MESH",
+    "center": [
+      -104.8,
+      -53.811,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -104.98,
+        -53.991,
+        1.35
+      ],
+      "max": [
+        -104.62,
+        -53.631,
+        5.85
+      ],
+      "center": [
+        -104.8,
+        -53.811,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WP_5",
+    "type": "EMPTY",
+    "center": [
+      -106.613,
+      -53.618,
+      23.307
+    ],
+    "bounds": {
+      "min": [
+        -106.613,
+        -53.618,
+        23.307
+      ],
+      "max": [
+        -106.613,
+        -53.618,
+        23.307
+      ],
+      "center": [
+        -106.613,
+        -53.618,
+        23.307
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": "Path_PRES_MASTER_30SEC",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST016",
+    "type": "MESH",
+    "center": [
+      -76.2,
+      -51.811,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -76.38,
+        -51.991,
+        1.35
+      ],
+      "max": [
+        -76.02,
+        -51.631,
+        5.85
+      ],
+      "center": [
+        -76.2,
+        -51.811,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST003",
+    "type": "MESH",
+    "center": [
+      -111.4,
+      -50.0,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -111.58,
+        -50.18,
+        1.35
+      ],
+      "max": [
+        -111.22,
+        -49.82,
+        5.85
+      ],
+      "center": [
+        -111.4,
+        -50.0,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_DECK",
+    "type": "MESH",
+    "center": [
+      -107.0,
+      -50.0,
+      1.5
+    ],
+    "bounds": {
+      "min": [
+        -112.0,
+        -55.0,
+        1.2
+      ],
+      "max": [
+        -102.0,
+        -45.0,
+        1.8
+      ],
+      "center": [
+        -107.0,
+        -50.0,
+        1.5
+      ],
+      "size": [
+        10.0,
+        10.0,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_ROOF",
+    "type": "MESH",
+    "center": [
+      -107.0,
+      -50.0,
+      5.8
+    ],
+    "bounds": {
+      "min": [
+        -112.3,
+        -55.3,
+        5.625
+      ],
+      "max": [
+        -101.7,
+        -44.7,
+        5.975
+      ],
+      "center": [
+        -107.0,
+        -50.0,
+        5.8
+      ],
+      "size": [
+        10.6,
+        10.6,
+        0.35
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_TABLE",
+    "type": "MESH",
+    "center": [
+      -107.0,
+      -50.0,
+      2.2
+    ],
+    "bounds": {
+      "min": [
+        -109.0,
+        -50.7,
+        2.11
+      ],
+      "max": [
+        -105.0,
+        -49.3,
+        2.29
+      ],
+      "center": [
+        -107.0,
+        -50.0,
+        2.2
+      ],
+      "size": [
+        4.0,
+        1.4,
+        0.18
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST",
+    "type": "MESH",
+    "center": [
+      -102.6,
+      -50.0,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -102.78,
+        -50.18,
+        1.35
+      ],
+      "max": [
+        -102.42,
+        -49.82,
+        5.85
+      ],
+      "center": [
+        -102.6,
+        -50.0,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST010",
+    "type": "MESH",
+    "center": [
+      -93.2,
+      -49.811,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -93.38,
+        -49.991,
+        1.35
+      ],
+      "max": [
+        -93.02,
+        -49.631,
+        5.85
+      ],
+      "center": [
+        -93.2,
+        -49.811,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST011",
+    "type": "MESH",
+    "center": [
+      -88.8,
+      -49.811,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -88.98,
+        -49.991,
+        1.35
+      ],
+      "max": [
+        -88.62,
+        -49.631,
+        5.85
+      ],
+      "center": [
+        -88.8,
+        -49.811,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST015",
+    "type": "MESH",
+    "center": [
+      -78.4,
+      -48.0,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -78.58,
+        -48.18,
+        1.35
+      ],
+      "max": [
+        -78.22,
+        -47.82,
+        5.85
+      ],
+      "center": [
+        -78.4,
+        -48.0,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "WP_7001",
+    "type": "EMPTY",
+    "center": [
+      -99.702,
+      -47.799,
+      25.111
+    ],
+    "bounds": {
+      "min": [
+        -99.702,
+        -47.799,
+        25.111
+      ],
+      "max": [
+        -99.702,
+        -47.799,
+        25.111
+      ],
+      "center": [
+        -99.702,
+        -47.799,
+        25.111
+      ],
+      "size": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "parent": "Path_CINEMATIC_01_CAMPUS_TO_PRODUCTION",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST002",
+    "type": "MESH",
+    "center": [
+      -109.2,
+      -46.189,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -109.38,
+        -46.369,
+        1.35
+      ],
+      "max": [
+        -109.02,
+        -46.009,
+        5.85
+      ],
+      "center": [
+        -109.2,
+        -46.189,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST001",
+    "type": "MESH",
+    "center": [
+      -104.8,
+      -46.189,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -104.98,
+        -46.369,
+        1.35
+      ],
+      "max": [
+        -104.62,
+        -46.009,
+        5.85
+      ],
+      "center": [
+        -104.8,
+        -46.189,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDENPOD_POST",
+    "type": "MESH",
+    "center": [
+      -100.0,
+      -46.0,
+      3.5
+    ],
+    "bounds": {
+      "min": [
+        -100.125,
+        -46.125,
+        1.25
+      ],
+      "max": [
+        -99.875,
+        -45.875,
+        5.75
+      ],
+      "center": [
+        -100.0,
+        -46.0,
+        3.5
+      ],
+      "size": [
+        0.25,
+        0.25,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST009",
+    "type": "MESH",
+    "center": [
+      -95.4,
+      -46.0,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -95.58,
+        -46.18,
+        1.35
+      ],
+      "max": [
+        -95.22,
+        -45.82,
+        5.85
+      ],
+      "center": [
+        -95.4,
+        -46.0,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_DECK001",
+    "type": "MESH",
+    "center": [
+      -91.0,
+      -46.0,
+      1.5
+    ],
+    "bounds": {
+      "min": [
+        -96.0,
+        -51.0,
+        1.2
+      ],
+      "max": [
+        -86.0,
+        -41.0,
+        1.8
+      ],
+      "center": [
+        -91.0,
+        -46.0,
+        1.5
+      ],
+      "size": [
+        10.0,
+        10.0,
+        0.6
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_ROOF001",
+    "type": "MESH",
+    "center": [
+      -91.0,
+      -46.0,
+      5.8
+    ],
+    "bounds": {
+      "min": [
+        -96.3,
+        -51.3,
+        5.625
+      ],
+      "max": [
+        -85.7,
+        -40.7,
+        5.975
+      ],
+      "center": [
+        -91.0,
+        -46.0,
+        5.8
+      ],
+      "size": [
+        10.6,
+        10.6,
+        0.35
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_TABLE001",
+    "type": "MESH",
+    "center": [
+      -91.0,
+      -46.0,
+      2.2
+    ],
+    "bounds": {
+      "min": [
+        -93.0,
+        -46.7,
+        2.11
+      ],
+      "max": [
+        -89.0,
+        -45.3,
+        2.29
+      ],
+      "center": [
+        -91.0,
+        -46.0,
+        2.2
+      ],
+      "size": [
+        4.0,
+        1.4,
+        0.18
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDENPOD_POST002",
+    "type": "MESH",
+    "center": [
+      -90.0,
+      -46.0,
+      3.5
+    ],
+    "bounds": {
+      "min": [
+        -90.125,
+        -46.125,
+        1.25
+      ],
+      "max": [
+        -89.875,
+        -45.875,
+        5.75
+      ],
+      "center": [
+        -90.0,
+        -46.0,
+        3.5
+      ],
+      "size": [
+        0.25,
+        0.25,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "POD_POST006",
+    "type": "MESH",
+    "center": [
+      -86.6,
+      -46.0,
+      3.6
+    ],
+    "bounds": {
+      "min": [
+        -86.78,
+        -46.18,
+        1.35
+      ],
+      "max": [
+        -86.42,
+        -45.82,
+        5.85
+      ],
+      "center": [
+        -86.6,
+        -46.0,
+        3.6
+      ],
+      "size": [
+        0.36,
+        0.36,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY031",
+    "type": "MESH",
+    "center": [
+      -117.8,
+      -45.0,
+      6.7
+    ],
+    "bounds": {
+      "min": [
+        -119.678,
+        -46.786,
+        4.6
+      ],
+      "max": [
+        -115.922,
+        -43.214,
+        8.8
+      ],
+      "center": [
+        -117.8,
+        -45.0,
+        6.7
+      ],
+      "size": [
+        3.757,
+        3.573,
+        4.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_CANOPY030",
+    "type": "MESH",
+    "center": [
+      -116.0,
+      -45.0,
+      7.2
+    ],
+    "bounds": {
+      "min": [
+        -118.773,
+        -47.637,
+        4.1
+      ],
+      "max": [
+        -113.227,
+        -42.363,
+        10.3
+      ],
+      "center": [
+        -116.0,
+        -45.0,
+        7.2
+      ],
+      "size": [
+        5.545,
+        5.274,
+        6.2
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "TREE_TRUNK010",
+    "type": "MESH",
+    "center": [
+      -116.0,
+      -45.0,
+      3.4
+    ],
+    "bounds": {
+      "min": [
+        -116.4,
+        -45.4,
+        1.2
+      ],
+      "max": [
+        -115.6,
+        -44.6,
+        5.6
+      ],
+      "center": [
+        -116.0,
+        -45.0,
+        3.4
+      ],
+      "size": [
+        0.8,
+        0.8,
+        4.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GardenPod_Base",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -45.0,
+      1.55
+    ],
+    "bounds": {
+      "min": [
+        -109.5,
+        -49.5,
+        1.2
+      ],
+      "max": [
+        -100.5,
+        -40.5,
+        1.9
+      ],
+      "center": [
+        -105.0,
+        -45.0,
+        1.55
+      ],
+      "size": [
+        9.0,
+        9.0,
+        0.7
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GardenPod_Canopy",
+    "type": "MESH",
+    "center": [
+      -105.0,
+      -45.0,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -109.8,
+        -49.8,
+        5.5
+      ],
+      "max": [
+        -100.2,
+        -40.2,
+        5.9
+      ],
+      "center": [
+        -105.0,
+        -45.0,
+        5.7
+      ],
+      "size": [
+        9.6,
+        9.6,
+        0.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GARDENPOD_POST004",
+    "type": "MESH",
+    "center": [
+      -83.0,
+      -45.0,
+      3.5
+    ],
+    "bounds": {
+      "min": [
+        -83.125,
+        -45.125,
+        1.25
+      ],
+      "max": [
+        -82.875,
+        -44.875,
+        5.75
+      ],
+      "center": [
+        -83.0,
+        -45.0,
+        3.5
+      ],
+      "size": [
+        0.25,
+        0.25,
+        4.5
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GardenPod_Base002",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -45.0,
+      1.55
+    ],
+    "bounds": {
+      "min": [
+        -80.5,
+        -49.5,
+        1.2
+      ],
+      "max": [
+        -71.5,
+        -40.5,
+        1.9
+      ],
+      "center": [
+        -76.0,
+        -45.0,
+        1.55
+      ],
+      "size": [
+        9.0,
+        9.0,
+        0.7
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  },
+  {
+    "name": "GardenPod_Canopy002",
+    "type": "MESH",
+    "center": [
+      -76.0,
+      -45.0,
+      5.7
+    ],
+    "bounds": {
+      "min": [
+        -80.8,
+        -49.8,
+        5.5
+      ],
+      "max": [
+        -71.2,
+        -40.2,
+        5.9
+      ],
+      "center": [
+        -76.0,
+        -45.0,
+        5.7
+      ],
+      "size": [
+        9.6,
+        9.6,
+        0.4
+      ]
+    },
+    "parent": "Scene_1",
+    "role": null,
+    "category": null
+  }
+]

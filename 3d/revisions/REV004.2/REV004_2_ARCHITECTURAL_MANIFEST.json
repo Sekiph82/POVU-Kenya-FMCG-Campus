@@ -1,0 +1,63 @@
+{
+  "revision": "REV004.2",
+  "source_revision": "REV004.1",
+  "source_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\POVU_Kenya_FMCG_CAMPUS_REV004_1_FINAL_ARCHITECTURAL_MASTER.blend",
+  "source_glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.1\\POVU_REV004_1_FINAL_MASTER.glb",
+  "output_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.2\\POVU_Kenya_FMCG_CAMPUS_REV004_2_FINAL_ARCHITECTURAL_MASTER.blend",
+  "output_glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.2\\POVU_REV004_2_FINAL_MASTER.glb",
+  "output_sha256": "400086AC979CCD6C4BBFB6365A92B6101CA9D1C08F79B956F735505B5F001822",
+  "geometry_changes": {
+    "hands_of_growth": {
+      "translation_world": [
+        6.0,
+        0.0,
+        0.0
+      ],
+      "objects_moved": [
+        "HANDS_OF_GROWTH",
+        "HOG_FINGER_-1_0",
+        "HOG_FINGER_-1_1",
+        "HOG_FINGER_-1_2",
+        "HOG_FINGER_-1_3",
+        "HOG_FINGER_-1_4",
+        "HOG_FINGER_1_0",
+        "HOG_FINGER_1_1",
+        "HOG_FINGER_1_2",
+        "HOG_FINGER_1_3",
+        "HOG_FINGER_1_4",
+        "HOG_FOREARM_L",
+        "HOG_FOREARM_R",
+        "HOG_HAND_LEFT",
+        "HOG_HAND_RIGHT",
+        "HOG_PALM_L",
+        "HOG_PALM_R",
+        "HOG_PLINTH",
+        "HOG_TREE_CROWN",
+        "HOG_TREE_CROWN_0",
+        "HOG_TREE_CROWN_1",
+        "HOG_TREE_CROWN_2",
+        "HOG_TREE_CROWN_3",
+        "HOG_TREE_CROWN_4",
+        "HOG_TREE_TRUNK",
+        "LABEL_ANCHOR_HANDS_OF_GROWTH",
+        "NAV_TARGET_HANDS_OF_GROWTH"
+      ]
+    },
+    "living_wall": {
+      "status": "VERIFIED_BOUNDED_NO_GEOMETRY_CHANGE",
+      "combined_extent_world": {
+        "x_min": -97.5,
+        "x_max": -65.0,
+        "y_min": -92.700005,
+        "y_max": -91.349998
+      }
+    }
+  },
+  "counts": {
+    "objects": 2227,
+    "mesh_objects": 2083,
+    "materials": 103,
+    "cameras": 55
+  },
+  "reload_test": "PENDING_RELOAD_VALIDATION"
+}

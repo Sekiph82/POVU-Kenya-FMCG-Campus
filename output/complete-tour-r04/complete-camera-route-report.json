@@ -1,0 +1,2434 @@
+{
+  "continuity": {
+    "status": "PASS",
+    "fps": 30,
+    "durationFrames": 14100,
+    "durationSeconds": 470,
+    "fov": 52,
+    "persistentCamera": true,
+    "globalFrameClock": true,
+    "keyframeCount": 49,
+    "maxPositionDelta": 1.6525341399082862,
+    "maxPositionFrame": 13650,
+    "maxAngularDelta": 1.37657498498164,
+    "maxAngularFrame": 6156,
+    "maxFovDelta": 0,
+    "discontinuities": []
+  },
+  "acceleration": {
+    "maxPositionAcceleration": 0.021887220863702792,
+    "maxPositionAccelerationFrame": 13800,
+    "maxAngularAcceleration": 0.02447415836764654,
+    "maxAngularAccelerationFrame": 5700
+  },
+  "staticHolds": {
+    "status": "PASS",
+    "openingExcludedThroughFrame": 450,
+    "holds": []
+  },
+  "duplicates": {
+    "status": "PASS",
+    "duplicates": []
+  },
+  "visibility": {
+    "status": "PASS",
+    "visualOcclusion": "REQUIRED_VISUAL_QA",
+    "callouts": [
+      {
+        "id": "arrival-living-wall",
+        "text": "LIVING WALL",
+        "targetQuery": [
+          "LIVING_WALL_PANEL",
+          "VIP_LivingWall"
+        ],
+        "resolvedTarget": "LIVING_WALL_PANEL",
+        "from": 780,
+        "to": 1050,
+        "checkpoints": [
+          {
+            "frame": 780,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.18822230753191443,
+              "y": 0.21365437552567812,
+              "z": 0.9987383691605244
+            }
+          },
+          {
+            "frame": 915,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.19056715244503752,
+              "y": 0.2369976889899335,
+              "z": 0.9985059177013351
+            }
+          },
+          {
+            "frame": 1050,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.6823200960025353,
+              "y": 0.30575404421416374,
+              "z": 0.9966813959597046
+            }
+          }
+        ]
+      },
+      {
+        "id": "arrival-water-wall",
+        "text": "WATER WALL",
+        "targetQuery": [
+          "WATERWALL_FRAME",
+          "WATER_WALL_STRUCTURE"
+        ],
+        "resolvedTarget": "WATERWALL_FRAME",
+        "from": 900,
+        "to": 1180,
+        "checkpoints": [
+          {
+            "frame": 900,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.00377700189917837,
+              "y": 0.020433183028003794,
+              "z": 0.9978135208403176
+            }
+          },
+          {
+            "frame": 1040,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.2185853244587734,
+              "y": -0.05427844654696141,
+              "z": 0.995035646557673
+            }
+          },
+          {
+            "frame": 1180,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.30145453557332097,
+              "y": 0.15129739023709804,
+              "z": 0.996057682163014
+            }
+          }
+        ]
+      },
+      {
+        "id": "arrival-identity",
+        "text": "POVU ENTRANCE",
+        "targetQuery": [
+          "VIP_ENTRANCE_DOOR_L",
+          "VIP_ENTRANCE_LOBBY_FLOOR"
+        ],
+        "resolvedTarget": "VIP_ENTRANCE_DOOR_L",
+        "from": 1040,
+        "to": 1260,
+        "checkpoints": [
+          {
+            "frame": 1040,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.16953489707362168,
+              "y": 0.05740093276884967,
+              "z": 0.9960330567220311
+            }
+          },
+          {
+            "frame": 1150,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.06808149327708705,
+              "y": -0.057048678768444466,
+              "z": 0.9948210372449722
+            }
+          },
+          {
+            "frame": 1260,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.0845786662254749,
+              "y": -0.023937188481125773,
+              "z": 0.9954220551413299
+            }
+          }
+        ]
+      },
+      {
+        "id": "flagship-totem",
+        "text": "SMART TOTEM",
+        "targetQuery": [
+          "SMART_TOTEM_VIP_BODY",
+          "SMART_TOTEM_VIP_SCREEN"
+        ],
+        "resolvedTarget": "SMART_TOTEM_VIP_BODY",
+        "from": 1120,
+        "to": 1380,
+        "checkpoints": [
+          {
+            "frame": 1120,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.8108228657709439,
+              "y": -0.7330147040016276,
+              "z": 0.991491541328292
+            }
+          },
+          {
+            "frame": 1250,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.24051565120274065,
+              "y": -0.6041124181067713,
+              "z": 0.9923236942924837
+            }
+          },
+          {
+            "frame": 1380,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.5942946556852626,
+              "y": -0.3411904722789407,
+              "z": 0.9946222232544222
+            }
+          }
+        ]
+      },
+      {
+        "id": "hands-of-growth",
+        "text": "HANDS OF GROWTH",
+        "targetQuery": [
+          "HOG_PALM_L",
+          "HOG_PALM_R",
+          "HANDS_OF_GROWTH"
+        ],
+        "resolvedTarget": "HOG_PALM_L",
+        "from": 1600,
+        "to": 2020,
+        "checkpoints": [
+          {
+            "frame": 1600,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.05420765738023147,
+              "y": -0.009762478339152383,
+              "z": 0.995253081576262
+            }
+          },
+          {
+            "frame": 1810,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.08034080611459427,
+              "y": -0.009523087508642043,
+              "z": 0.9932496390009837
+            }
+          },
+          {
+            "frame": 2020,
+            "insideFrustum": false,
+            "projected": {
+              "x": -1.0650384816439231,
+              "y": -0.2458156986000897,
+              "z": 0.9908335588863498
+            }
+          }
+        ]
+      },
+      {
+        "id": "plaza",
+        "text": "POVU PLAZA",
+        "targetQuery": [
+          "POVU_PLAZA",
+          "NAV_TARGET_POVU_PLAZA"
+        ],
+        "resolvedTarget": "NAV_TARGET_POVU_PLAZA",
+        "from": 1990,
+        "to": 2250,
+        "checkpoints": [
+          {
+            "frame": 1990,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.19841653068293327,
+              "y": -0.027080998347112015,
+              "z": 0.9949141430756491
+            }
+          },
+          {
+            "frame": 2120,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.007134295979318416,
+              "y": -0.08340006120719312,
+              "z": 0.9944788478896867
+            }
+          },
+          {
+            "frame": 2250,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.28715630997231806,
+              "y": -0.08460828398462025,
+              "z": 0.9946030657159884
+            }
+          }
+        ]
+      },
+      {
+        "id": "admin",
+        "text": "ADMIN / HQ",
+        "targetQuery": [
+          "ADMIN_HQ_ENTRANCE_SIGNAGE",
+          "ADMIN_HQ_ENTRANCE_CANOPY"
+        ],
+        "resolvedTarget": "ADMIN_HQ_ENTRANCE_SIGNAGE",
+        "from": 2280,
+        "to": 2520,
+        "checkpoints": [
+          {
+            "frame": 2280,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.2142798540564486,
+              "y": 0.17799572409839884,
+              "z": 0.9941772245147986
+            }
+          },
+          {
+            "frame": 2400,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.006751549441642323,
+              "y": 0.16107885832444108,
+              "z": 0.9950802902135728
+            }
+          },
+          {
+            "frame": 2520,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.1739263335232676,
+              "y": 0.11683250525153219,
+              "z": 0.9949115385268951
+            }
+          }
+        ]
+      },
+      {
+        "id": "rd-qc",
+        "text": "R&D / QC INNOVATION CENTRE",
+        "targetQuery": [
+          "R_D_QC_ENTRANCE_SIGNAGE",
+          "R_D_QC_ENTRANCE_CANOPY"
+        ],
+        "resolvedTarget": "R_D_QC_ENTRANCE_SIGNAGE",
+        "from": 2580,
+        "to": 2820,
+        "checkpoints": [
+          {
+            "frame": 2580,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.1080607441481909,
+              "y": 0.15339473431338113,
+              "z": 0.9959359700123512
+            }
+          },
+          {
+            "frame": 2700,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.012728320612473028,
+              "y": 0.10709143576695464,
+              "z": 0.995938797498948
+            }
+          },
+          {
+            "frame": 2820,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.7221827777039719,
+              "y": 0.20120581705038007,
+              "z": 0.9965788838293905
+            }
+          }
+        ]
+      },
+      {
+        "id": "academy",
+        "text": "TRAINING / ACADEMY",
+        "targetQuery": [
+          "MULTIPURPOSE_STUDIO",
+          "EXPERIENCE_LINK",
+          "EXPERIENCE_ROOF"
+        ],
+        "resolvedTarget": "MULTIPURPOSE_STUDIO",
+        "from": 2880,
+        "to": 3120,
+        "checkpoints": [
+          {
+            "frame": 2880,
+            "insideFrustum": true,
+            "projected": {
+              "x": 1.0143542309384774,
+              "y": -0.11917198641223938,
+              "z": 0.9954285389567686
+            }
+          },
+          {
+            "frame": 3000,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.0009733395094453541,
+              "y": -0.09109197403914918,
+              "z": 0.9960452630735392
+            }
+          },
+          {
+            "frame": 3120,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.14414537825935747,
+              "y": 0.024569917411861916,
+              "z": 0.9964519760827062
+            }
+          }
+        ]
+      },
+      {
+        "id": "cafe",
+        "text": "RESTAURANT / POVU CAFÉ",
+        "targetQuery": [
+          "RESTAURANT_ENTRANCE_SIGNAGE",
+          "CAFE_GLASS_FRONT",
+          "CAFE_TERRACE"
+        ],
+        "resolvedTarget": "RESTAURANT_ENTRANCE_SIGNAGE",
+        "from": 3180,
+        "to": 3420,
+        "checkpoints": [
+          {
+            "frame": 3180,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.15402795829817156,
+              "y": -0.03763656945490974,
+              "z": 0.9942934152513867
+            }
+          },
+          {
+            "frame": 3300,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.0017224007066670966,
+              "y": 0.11054492189147114,
+              "z": 0.9957061429605985
+            }
+          },
+          {
+            "frame": 3420,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.1175917105317033,
+              "y": 0.10540674041768379,
+              "z": 0.9948016776548799
+            }
+          }
+        ]
+      },
+      {
+        "id": "wellness",
+        "text": "WELLNESS / RECREATION",
+        "targetQuery": [
+          "WELLNESS_ENTRANCE_SIGNAGE",
+          "WELLNESS_PAVILION",
+          "RECREATION_COURT"
+        ],
+        "resolvedTarget": "WELLNESS_ENTRANCE_SIGNAGE",
+        "from": 3480,
+        "to": 3720,
+        "checkpoints": [
+          {
+            "frame": 3480,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.09790877005188094,
+              "y": 0.045272855636983536,
+              "z": 0.9953857007338432
+            }
+          },
+          {
+            "frame": 3600,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.0018002505705894509,
+              "y": 0.036920323845773304,
+              "z": 0.9967875014099841
+            }
+          },
+          {
+            "frame": 3720,
+            "insideFrustum": false,
+            "projected": {
+              "x": 1.5213558570536962,
+              "y": -0.3855183735795399,
+              "z": 0.9928027476003366
+            }
+          }
+        ]
+      },
+      {
+        "id": "daycare",
+        "text": "DAYCARE",
+        "targetQuery": [
+          "DAYCARE_ENTRANCE_SIGNAGE",
+          "DAYCARE_GARDEN"
+        ],
+        "resolvedTarget": "DAYCARE_ENTRANCE_SIGNAGE",
+        "from": 3780,
+        "to": 3980,
+        "checkpoints": [
+          {
+            "frame": 3780,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.8951167495253237,
+              "y": 0.16886449487321462,
+              "z": 0.99636924558055
+            }
+          },
+          {
+            "frame": 3880,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.04095782623107434,
+              "y": 0.08273852797890181,
+              "z": 0.9957708264084587
+            }
+          },
+          {
+            "frame": 3980,
+            "insideFrustum": false,
+            "projected": {
+              "x": -2.248546131544034,
+              "y": -0.14562877062175844,
+              "z": 0.9922030462058338
+            }
+          }
+        ]
+      },
+      {
+        "id": "clinic",
+        "text": "OCCUPATIONAL HEALTH",
+        "targetQuery": [
+          "CLINIC_ENTRY",
+          "CLINIC_CANOPY"
+        ],
+        "resolvedTarget": "CLINIC_ENTRY",
+        "from": 3900,
+        "to": 4140,
+        "checkpoints": [
+          {
+            "frame": 3900,
+            "insideFrustum": false,
+            "projected": {
+              "x": 2.382833704069907,
+              "y": -0.046488140700752426,
+              "z": 0.995592056647089
+            }
+          },
+          {
+            "frame": 4020,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.27399608554491633,
+              "y": 0.07291899361346936,
+              "z": 0.9944981613774373
+            }
+          },
+          {
+            "frame": 4140,
+            "insideFrustum": false,
+            "projected": {
+              "x": 1.1322695242192975,
+              "y": 0.4417830830957846,
+              "z": 0.9954236230016236
+            }
+          }
+        ]
+      },
+      {
+        "id": "gardens",
+        "text": "EMPLOYEE GARDENS",
+        "targetQuery": [
+          "EMPLOYEE_REFLECTION_POND",
+          "GARDEN_BENCH",
+          "PRES_42_EMPLOYEE_GARDENS"
+        ],
+        "resolvedTarget": "EMPLOYEE_REFLECTION_POND",
+        "from": 4080,
+        "to": 4350,
+        "checkpoints": [
+          {
+            "frame": 4080,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.47463804202583,
+              "y": 0.3177466743793525,
+              "z": 0.9967252715856122
+            }
+          },
+          {
+            "frame": 4215,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.9672701182006957,
+              "y": 0.8095864539313103,
+              "z": 0.9971247187898707
+            }
+          },
+          {
+            "frame": 4350,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.38489795672960414,
+              "y": 0.4252757930971044,
+              "z": 0.9969377000820517
+            }
+          }
+        ]
+      },
+      {
+        "id": "solar-canopy",
+        "text": "SOLAR CANOPY",
+        "targetQuery": [
+          "SOLAR_CARPORT_PANEL",
+          "SOLAR_CARPORT_POST"
+        ],
+        "resolvedTarget": "SOLAR_CARPORT_PANEL",
+        "from": 4380,
+        "to": 4680,
+        "checkpoints": [
+          {
+            "frame": 4380,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.7759596227854109,
+              "y": 0.21912180010405607,
+              "z": 0.9949977086088025
+            }
+          },
+          {
+            "frame": 4530,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.0024001713424820015,
+              "y": -0.1455295654231309,
+              "z": 0.9935847611607698
+            }
+          },
+          {
+            "frame": 4680,
+            "insideFrustum": false,
+            "projected": {
+              "x": -0.800775018881632,
+              "y": 1.4676245281772289,
+              "z": 1.0031903041358425
+            }
+          }
+        ]
+      },
+      {
+        "id": "solar-low",
+        "text": "LOW-MOUNTED SOLAR",
+        "targetQuery": [
+          "SolarPanel",
+          "SolarPanel001"
+        ],
+        "resolvedTarget": "SolarPanel",
+        "from": 4680,
+        "to": 4980,
+        "checkpoints": [
+          {
+            "frame": 4680,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.30273743406997927,
+              "y": 0.5407207004748953,
+              "z": 0.9979492622280652
+            }
+          },
+          {
+            "frame": 4830,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.01507380374381924,
+              "y": -0.023216006819871952,
+              "z": 0.9949203181491437
+            }
+          },
+          {
+            "frame": 4980,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.05614219337137134,
+              "y": -0.3391617605742628,
+              "z": 0.9942368863390245
+            }
+          }
+        ]
+      },
+      {
+        "id": "solar-field",
+        "text": "SOLAR FIELD",
+        "targetQuery": [
+          "SOLAR_ARRAY",
+          "SOLAR_INVERTER"
+        ],
+        "resolvedTarget": "SOLAR_ARRAY",
+        "from": 4980,
+        "to": 5280,
+        "checkpoints": [
+          {
+            "frame": 4980,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.020040959074099345,
+              "y": 0.0948233479037591,
+              "z": 0.9962470835809973
+            }
+          },
+          {
+            "frame": 5130,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.03904903290453788,
+              "y": -0.00579454579028145,
+              "z": 0.9974050625196427
+            }
+          },
+          {
+            "frame": 5280,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.002004955736658008,
+              "y": 0.72259774441028,
+              "z": 0.9981205804529015
+            }
+          }
+        ]
+      },
+      {
+        "id": "east-stair",
+        "text": "EAST GLASS DECK ACCESS",
+        "targetQuery": [
+          "GLASS_DECK_EAST_STAIR",
+          "GLASS_DECK_EAST_STAIR_STEP_06"
+        ],
+        "resolvedTarget": "GLASS_DECK_EAST_STAIR",
+        "from": 5550,
+        "to": 5820,
+        "checkpoints": [
+          {
+            "frame": 5550,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.18401753632537096,
+              "y": 0.5051529473863446,
+              "z": 0.9965284697468931
+            }
+          },
+          {
+            "frame": 5685,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.7907391095722812,
+              "y": 0.46786254545541045,
+              "z": 0.9861847761153746
+            }
+          },
+          {
+            "frame": 5820,
+            "insideFrustum": false,
+            "projected": {
+              "x": -6.07777510047708,
+              "y": 0.663664278982039,
+              "z": 0.9478852444115413
+            }
+          }
+        ]
+      },
+      {
+        "id": "central-stair",
+        "text": "CENTRAL STAIR / LIFT",
+        "targetQuery": [
+          "GLASS_DECK_CENTRAL_STAIR",
+          "GLASS_DECK_CENTRAL_LIFT"
+        ],
+        "resolvedTarget": "GLASS_DECK_CENTRAL_STAIR",
+        "from": 5850,
+        "to": 6120,
+        "checkpoints": [
+          {
+            "frame": 5850,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.5739594419585684,
+              "y": 0.4798925969546284,
+              "z": 0.9951490529513746
+            }
+          },
+          {
+            "frame": 5985,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.001167715173525099,
+              "y": 0.031624783767851876,
+              "z": 0.9910434388431988
+            }
+          },
+          {
+            "frame": 6120,
+            "insideFrustum": false,
+            "projected": {
+              "x": -0.6170026392786899,
+              "y": 2.3400384382811596,
+              "z": 1.0219310970976407
+            }
+          }
+        ]
+      },
+      {
+        "id": "west-stair",
+        "text": "WEST GLASS DECK ACCESS",
+        "targetQuery": [
+          "GLASS_DECK_WEST_STAIR",
+          "GLASS_DECK_WEST_STAIR_STEP_06"
+        ],
+        "resolvedTarget": "GLASS_DECK_WEST_STAIR",
+        "from": 6150,
+        "to": 6420,
+        "checkpoints": [
+          {
+            "frame": 6150,
+            "insideFrustum": false,
+            "projected": {
+              "x": -1.1836750021370985,
+              "y": 1.1022171059132162,
+              "z": 0.9918306092245138
+            }
+          },
+          {
+            "frame": 6285,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.021353791020890887,
+              "y": 0.01233169774547725,
+              "z": 0.9897231729040631
+            }
+          },
+          {
+            "frame": 6420,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.0544779316343014,
+              "y": -0.4292090347435522,
+              "z": 0.9802182826981206
+            }
+          }
+        ]
+      },
+      {
+        "id": "production-oversight",
+        "text": "PRODUCTION OVERSIGHT",
+        "targetQuery": [
+          "GLASS_DECK_LINK_FLOOR",
+          "MES_GLASS",
+          "MES_ROOM"
+        ],
+        "resolvedTarget": "GLASS_DECK_LINK_FLOOR",
+        "from": 6450,
+        "to": 6780,
+        "checkpoints": [
+          {
+            "frame": 6450,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.32205772306270936,
+              "y": 0.22126800120497683,
+              "z": 0.9985977046394923
+            }
+          },
+          {
+            "frame": 6615,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.13213359090098195,
+              "y": 0.10231500431952906,
+              "z": 0.9986698211788024
+            }
+          },
+          {
+            "frame": 6780,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.5042959186586927,
+              "y": 0.5195868141099258,
+              "z": 0.9988877867026686
+            }
+          }
+        ]
+      },
+      {
+        "id": "raw-materials",
+        "text": "RAW MATERIALS",
+        "targetQuery": [
+          "RM_DOCK",
+          "RM_Truck_Yard",
+          "RM_Warehouse"
+        ],
+        "resolvedTarget": "RM_DOCK",
+        "from": 6840,
+        "to": 7140,
+        "checkpoints": [
+          {
+            "frame": 6840,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.29665786180606313,
+              "y": -0.1460659111717899,
+              "z": 0.9952368608017396
+            }
+          },
+          {
+            "frame": 6990,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.01273026968919623,
+              "y": -0.009950322341832346,
+              "z": 0.99553325825514
+            }
+          },
+          {
+            "frame": 7140,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.010429010701724525,
+              "y": -0.0083075377643362,
+              "z": 0.9951622143053744
+            }
+          }
+        ]
+      },
+      {
+        "id": "receiving",
+        "text": "RECEIVING / STORAGE",
+        "targetQuery": [
+          "RM_DOCK",
+          "RM_LEVELER",
+          "RM_LOAD"
+        ],
+        "resolvedTarget": "RM_DOCK",
+        "from": 7080,
+        "to": 7380,
+        "checkpoints": [
+          {
+            "frame": 7080,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.011961444148116621,
+              "y": -0.008600806868069499,
+              "z": 0.9951824729441975
+            }
+          },
+          {
+            "frame": 7230,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.00961617246061083,
+              "y": -0.009687836206879862,
+              "z": 0.9951983100749673
+            }
+          },
+          {
+            "frame": 7380,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.009617864790610553,
+              "y": -0.03966905863599369,
+              "z": 0.9951974474359697
+            }
+          }
+        ]
+      },
+      {
+        "id": "feeding",
+        "text": "FEEDING",
+        "targetQuery": [
+          "RM_SUPERMARKET",
+          "RM_MANIFOLD",
+          "RM_FEED_HEADER"
+        ],
+        "resolvedTarget": "RM_SUPERMARKET",
+        "from": 7680,
+        "to": 7980,
+        "checkpoints": [
+          {
+            "frame": 7680,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.6637932007500827,
+              "y": -0.18789548315702967,
+              "z": 0.9948446823857111
+            }
+          },
+          {
+            "frame": 7830,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.017129170051498888,
+              "y": -0.12088389904540066,
+              "z": 0.9949332915029738
+            }
+          },
+          {
+            "frame": 7980,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.24457688456926166,
+              "y": 0.15045359190358212,
+              "z": 0.9968232921234077
+            }
+          }
+        ]
+      },
+      {
+        "id": "wet-processing",
+        "text": "WET PROCESSING / MIXING",
+        "targetQuery": [
+          "ProcessTank_01",
+          "MIXING_PLATFORM",
+          "PROCESS_EPOXY_FLOOR"
+        ],
+        "resolvedTarget": "ProcessTank_01",
+        "from": 7980,
+        "to": 8280,
+        "checkpoints": [
+          {
+            "frame": 7980,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.42549568145363525,
+              "y": -0.44034531002304755,
+              "z": 0.9896057774196685
+            }
+          },
+          {
+            "frame": 8130,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.09334860886471298,
+              "y": -0.055286341391459645,
+              "z": 0.9934389801721657
+            }
+          },
+          {
+            "frame": 8280,
+            "insideFrustum": false,
+            "projected": {
+              "x": 8.297312666465029,
+              "y": 2.8766153514424957,
+              "z": 1.02568313534459
+            }
+          }
+        ]
+      },
+      {
+        "id": "manufacturing",
+        "text": "MANUFACTURING",
+        "targetQuery": [
+          "Bottle_BlowMolding",
+          "EMPTY_BOTTLE_CONVEYOR",
+          "HOPPER_DRYER"
+        ],
+        "resolvedTarget": "Bottle_BlowMolding",
+        "from": 8280,
+        "to": 8580,
+        "checkpoints": [
+          {
+            "frame": 8280,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.6631213272632815,
+              "y": 0.13863170845758424,
+              "z": 0.9963360747579418
+            }
+          },
+          {
+            "frame": 8430,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.0002088308900920084,
+              "y": -0.15995813671240758,
+              "z": 0.9936327844584566
+            }
+          },
+          {
+            "frame": 8580,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.00989101993565873,
+              "y": -0.8995844446918353,
+              "z": 0.9868643013583464
+            }
+          }
+        ]
+      },
+      {
+        "id": "closures",
+        "text": "CLOSURES / TRIGGER SPRAY",
+        "targetQuery": [
+          "Caps_Triggers",
+          "CAP_ASSEMBLY",
+          "TRIGGER_ASSEMBLY"
+        ],
+        "resolvedTarget": "Caps_Triggers",
+        "from": 8580,
+        "to": 8880,
+        "checkpoints": [
+          {
+            "frame": 8580,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.46838078067944316,
+              "y": -0.15054685628826273,
+              "z": 0.9937189091565832
+            }
+          },
+          {
+            "frame": 8730,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.5648625746319497,
+              "y": -0.35494635720688256,
+              "z": 0.9918552295418817
+            }
+          },
+          {
+            "frame": 8880,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.14779990493661205,
+              "y": 0.23692486986378417,
+              "z": 0.9970681926213173
+            }
+          }
+        ]
+      },
+      {
+        "id": "filling",
+        "text": "FILLING",
+        "targetQuery": [
+          "FILLER_MONOBLOCK_01",
+          "FILLER_CAROUSEL_01",
+          "FILLED_CONVEYOR_01"
+        ],
+        "resolvedTarget": "FILLER_MONOBLOCK_01",
+        "from": 8880,
+        "to": 9180,
+        "checkpoints": [
+          {
+            "frame": 8880,
+            "insideFrustum": false,
+            "projected": {
+              "x": -1.6502556264931127,
+              "y": -2.066174200360319,
+              "z": 0.9753117660654879
+            }
+          },
+          {
+            "frame": 9030,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.006358225802974115,
+              "y": -0.09172332327328832,
+              "z": 0.9937481995869977
+            }
+          },
+          {
+            "frame": 9180,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.17636170698426648,
+              "y": -0.21918019303229766,
+              "z": 0.9924871324878398
+            }
+          }
+        ]
+      },
+      {
+        "id": "sachets",
+        "text": "SACHET PACKAGING",
+        "targetQuery": [
+          "Liquid_Packing",
+          "LIQUID_FFS_01",
+          "FILLED_CONVEYOR_02"
+        ],
+        "resolvedTarget": "Liquid_Packing",
+        "from": 9180,
+        "to": 9480,
+        "checkpoints": [
+          {
+            "frame": 9180,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.07273119579887855,
+              "y": -0.08429144039539131,
+              "z": 0.9943204109706174
+            }
+          },
+          {
+            "frame": 9330,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.07809466207115817,
+              "y": -0.13791707418520618,
+              "z": 0.9938344870718094
+            }
+          },
+          {
+            "frame": 9480,
+            "insideFrustum": false,
+            "projected": {
+              "x": 1.5121979533873775,
+              "y": -0.026112046737062182,
+              "z": 0.994857639480838
+            }
+          }
+        ]
+      },
+      {
+        "id": "powder",
+        "text": "POWDER",
+        "targetQuery": [
+          "POWDER_BAG_DUMP_00",
+          "POWDER_HOPPER_00",
+          "Powder_Packaging"
+        ],
+        "resolvedTarget": "POWDER_BAG_DUMP_00",
+        "from": 9480,
+        "to": 9780,
+        "checkpoints": [
+          {
+            "frame": 9480,
+            "insideFrustum": false,
+            "projected": {
+              "x": -1.1161802256571218,
+              "y": -0.22410122780423142,
+              "z": 0.9929766380143238
+            }
+          },
+          {
+            "frame": 9630,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.040130771919965356,
+              "y": -0.15737935537988867,
+              "z": 0.9935932106936366
+            }
+          },
+          {
+            "frame": 9780,
+            "insideFrustum": false,
+            "projected": {
+              "x": -2.5199442913622403,
+              "y": -1.363754228251338,
+              "z": 0.9824451754153163
+            }
+          }
+        ]
+      },
+      {
+        "id": "toothpaste",
+        "text": "TOOTHPASTE",
+        "targetQuery": [
+          "TOOTHPASTE_HOMOGENIZER",
+          "TUBE_FILLER",
+          "TOOTHPASTE_FFS"
+        ],
+        "resolvedTarget": "TOOTHPASTE_HOMOGENIZER",
+        "from": 9780,
+        "to": 10080,
+        "checkpoints": [
+          {
+            "frame": 9780,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.3646132268508466,
+              "y": 0.05781710762705857,
+              "z": 0.9953974124493598
+            }
+          },
+          {
+            "frame": 9930,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.021743912574154162,
+              "y": -0.12003018028280639,
+              "z": 0.9936868560644406
+            }
+          },
+          {
+            "frame": 10080,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.653954223798356,
+              "y": -0.31976286882951316,
+              "z": 0.9917658032910985
+            }
+          }
+        ]
+      },
+      {
+        "id": "wipes-standard",
+        "text": "WET WIPES",
+        "targetQuery": [
+          "WIPES_UNWIND_STANDARD",
+          "WIPES_PACK_STANDARD",
+          "WIPES_OUT_STANDARD"
+        ],
+        "resolvedTarget": "WIPES_UNWIND_STANDARD",
+        "from": 10080,
+        "to": 10380,
+        "checkpoints": [
+          {
+            "frame": 10080,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.23986176149242502,
+              "y": -0.02639799639440936,
+              "z": 0.9944725760660007
+            }
+          },
+          {
+            "frame": 10230,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.005577284085334928,
+              "y": -0.104786098232613,
+              "z": 0.9937029227614053
+            }
+          },
+          {
+            "frame": 10380,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.14973032105879874,
+              "y": -0.20905243253363293,
+              "z": 0.9926791841215995
+            }
+          }
+        ]
+      },
+      {
+        "id": "wipes-medbaby",
+        "text": "WET WIPES",
+        "targetQuery": [
+          "WIPES_UNWIND_MEDBABY",
+          "WIPES_PACK_MEDBABY",
+          "WIPES_OUT_MEDBABY"
+        ],
+        "resolvedTarget": "WIPES_UNWIND_MEDBABY",
+        "from": 10380,
+        "to": 10680,
+        "checkpoints": [
+          {
+            "frame": 10380,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.06464822658937543,
+              "y": -0.05399177071652239,
+              "z": 0.9942016466890259
+            }
+          },
+          {
+            "frame": 10530,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.005577284085334928,
+              "y": -0.10478609823261253,
+              "z": 0.9937029227614053
+            }
+          },
+          {
+            "frame": 10680,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.1497303210587988,
+              "y": -0.20905243253363293,
+              "z": 0.9926791841215994
+            }
+          }
+        ]
+      },
+      {
+        "id": "wipes-flushable",
+        "text": "WET WIPES",
+        "targetQuery": [
+          "WIPES_UNWIND_FLUSHABLE",
+          "WIPES_PACK_FLUSHABLE",
+          "WIPES_OUT_FLUSHABLE"
+        ],
+        "resolvedTarget": "WIPES_UNWIND_FLUSHABLE",
+        "from": 10680,
+        "to": 10980,
+        "checkpoints": [
+          {
+            "frame": 10680,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.06464822658937533,
+              "y": -0.053991770716522405,
+              "z": 0.9942016466890259
+            }
+          },
+          {
+            "frame": 10830,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.03829931678285567,
+              "y": -0.1071880909293453,
+              "z": 0.9937583296828383
+            }
+          },
+          {
+            "frame": 10980,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.8161918363578972,
+              "y": -0.22174118286879496,
+              "z": 0.9942746205949198
+            }
+          }
+        ]
+      },
+      {
+        "id": "packaging",
+        "text": "PACKAGING MATERIALS",
+        "targetQuery": [
+          "Packaging_Warehouse",
+          "PK_RACK_FRAME",
+          "PK_SUPERMARKET"
+        ],
+        "resolvedTarget": "Packaging_Warehouse",
+        "from": 10980,
+        "to": 11280,
+        "checkpoints": [
+          {
+            "frame": 10980,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.4414953075694799,
+              "y": 0.08210003478265952,
+              "z": 0.9942991664713204
+            }
+          },
+          {
+            "frame": 11130,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0,
+              "y": 0.013727429358487694,
+              "z": 0.9945509790807232
+            }
+          },
+          {
+            "frame": 11280,
+            "insideFrustum": true,
+            "projected": {
+              "x": -2.2751555267573904e-16,
+              "y": 0.07932834436265802,
+              "z": 0.9945469516647676
+            }
+          }
+        ]
+      },
+      {
+        "id": "eol",
+        "text": "END OF LINE",
+        "targetQuery": [
+          "ROBOT_PALLETIZER",
+          "ROBOT_ARM",
+          "POWDER_END_CONVEYOR"
+        ],
+        "resolvedTarget": "ROBOT_PALLETIZER",
+        "from": 11280,
+        "to": 11610,
+        "checkpoints": [
+          {
+            "frame": 11280,
+            "insideFrustum": false,
+            "projected": {
+              "x": 5.858445550893373,
+              "y": -0.9609298610191163,
+              "z": 0.9902805710892095
+            }
+          },
+          {
+            "frame": 11445,
+            "insideFrustum": false,
+            "projected": {
+              "x": 5.3554038107059565,
+              "y": -0.8585756657529228,
+              "z": 0.9905376719313247
+            }
+          },
+          {
+            "frame": 11610,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.8960369269318763,
+              "y": -0.22234734587215982,
+              "z": 0.99308361002258
+            }
+          }
+        ]
+      },
+      {
+        "id": "amr",
+        "text": "AMR / AGV LOGISTICS",
+        "targetQuery": [
+          "AMR_SPINE",
+          "AMR_CROSS",
+          "AMR_00"
+        ],
+        "resolvedTarget": "AMR_SPINE",
+        "from": 11820,
+        "to": 12120,
+        "checkpoints": [
+          {
+            "frame": 11820,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.5070123479162361,
+              "y": -0.8289676463323472,
+              "z": 0.9898123992423634
+            }
+          },
+          {
+            "frame": 11970,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.011386406670525259,
+              "y": -0.20989561142136062,
+              "z": 0.994622270810847
+            }
+          },
+          {
+            "frame": 12120,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.6247422161899984,
+              "y": -0.45111926336082625,
+              "z": 0.9934749424488392
+            }
+          }
+        ]
+      },
+      {
+        "id": "finished-goods",
+        "text": "FINISHED GOODS",
+        "targetQuery": [
+          "FG_Warehouse",
+          "FG_STAGE_PALLET_00",
+          "FG_RACK_FRAME"
+        ],
+        "resolvedTarget": "FG_Warehouse",
+        "from": 12120,
+        "to": 12480,
+        "checkpoints": [
+          {
+            "frame": 12120,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.7042461038871852,
+              "y": 0.2851977254081333,
+              "z": 0.9960432270237704
+            }
+          },
+          {
+            "frame": 12300,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0,
+              "y": 0.06380158297998499,
+              "z": 0.9945484174974523
+            }
+          },
+          {
+            "frame": 12480,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.717879939927598,
+              "y": 0.09804333724630973,
+              "z": 0.9946287009846655
+            }
+          }
+        ]
+      },
+      {
+        "id": "dispatch",
+        "text": "DISPATCH",
+        "targetQuery": [
+          "FG_DOCK",
+          "FG_LEVELER",
+          "FG_Truck_Yard"
+        ],
+        "resolvedTarget": "FG_DOCK",
+        "from": 12480,
+        "to": 12780,
+        "checkpoints": [
+          {
+            "frame": 12480,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.3550158910465765,
+              "y": -0.05281316258521071,
+              "z": 0.9951806824050001
+            }
+          },
+          {
+            "frame": 12630,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.07557604906758554,
+              "y": -0.07974543916185617,
+              "z": 0.9949500909796569
+            }
+          },
+          {
+            "frame": 12780,
+            "insideFrustum": false,
+            "projected": {
+              "x": -14.094494989018575,
+              "y": 7.864389519713071,
+              "z": 1.0421195782296635
+            }
+          }
+        ]
+      },
+      {
+        "id": "utilities",
+        "text": "UTILITIES",
+        "targetQuery": [
+          "Utility_House",
+          "UTILITY_PIPE_BRIDGE",
+          "AIR_RECEIVER"
+        ],
+        "resolvedTarget": "Utility_House",
+        "from": 12780,
+        "to": 13080,
+        "checkpoints": [
+          {
+            "frame": 12780,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.5079481682115647,
+              "y": 0.2377841074013125,
+              "z": 0.9973050806077893
+            }
+          },
+          {
+            "frame": 12930,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.026118315011855738,
+              "y": -0.04420991591201,
+              "z": 0.995871287623854
+            }
+          },
+          {
+            "frame": 13080,
+            "insideFrustum": true,
+            "projected": {
+              "x": -0.4855643673997242,
+              "y": 0.1211207547145384,
+              "z": 0.9967030222680535
+            }
+          }
+        ]
+      },
+      {
+        "id": "etp",
+        "text": "WATER TREATMENT",
+        "targetQuery": [
+          "ETP",
+          "ETP_CONTROL",
+          "ETP_MBBR"
+        ],
+        "resolvedTarget": "ETP",
+        "from": 13080,
+        "to": 13380,
+        "checkpoints": [
+          {
+            "frame": 13080,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.3880802861972336,
+              "y": -0.21884135861797066,
+              "z": 0.9951019566338163
+            }
+          },
+          {
+            "frame": 13230,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.03539327303295104,
+              "y": -0.07877141917410527,
+              "z": 0.9957838291906872
+            }
+          },
+          {
+            "frame": 13380,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.946067605479678,
+              "y": -0.17359114221859478,
+              "z": 0.9951030127223249
+            }
+          }
+        ]
+      },
+      {
+        "id": "fire-hse",
+        "text": "FIRE / HSE",
+        "targetQuery": [
+          "FIRE_PUMP_HOUSE",
+          "FIRE_WATER_TANK",
+          "FIRE_ROUTE_MARK"
+        ],
+        "resolvedTarget": "Fire_Pump_House",
+        "from": 13380,
+        "to": 13680,
+        "checkpoints": [
+          {
+            "frame": 13380,
+            "insideFrustum": false,
+            "projected": {
+              "x": 6.723199858330108,
+              "y": -2.4663248231911155,
+              "z": 0.9815811270771702
+            }
+          },
+          {
+            "frame": 13530,
+            "insideFrustum": false,
+            "projected": {
+              "x": 32.79909211733734,
+              "y": -14.739602406231906,
+              "z": 0.9212766135188397
+            }
+          },
+          {
+            "frame": 13680,
+            "insideFrustum": true,
+            "projected": {
+              "x": 0.25463340764528686,
+              "y": -0.2331233299432344,
+              "z": 0.9987885721031008
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "route": [
+    {
+      "frame": 0,
+      "positionBlender": [
+        205,
+        -230,
+        155
+      ],
+      "targetBlender": [
+        150,
+        -170,
+        105
+      ],
+      "section": "complete campus overview"
+    },
+    {
+      "frame": 225,
+      "positionBlender": [
+        188,
+        -214,
+        144
+      ],
+      "targetBlender": [
+        118,
+        -145,
+        84
+      ],
+      "section": "complete campus overview"
+    },
+    {
+      "frame": 449,
+      "positionBlender": [
+        150,
+        -178,
+        112
+      ],
+      "targetBlender": [
+        72,
+        -104,
+        46
+      ],
+      "section": "complete campus overview"
+    },
+    {
+      "frame": 850,
+      "positionBlender": [
+        40,
+        -128,
+        34
+      ],
+      "targetBlender": [
+        -42,
+        -92,
+        5
+      ],
+      "section": "arrival and water wall"
+    },
+    {
+      "frame": 1200,
+      "positionBlender": [
+        -82,
+        -124,
+        16
+      ],
+      "targetBlender": [
+        -58,
+        -92,
+        5
+      ],
+      "section": "arrival and entrance"
+    },
+    {
+      "frame": 1500,
+      "positionBlender": [
+        -124,
+        -116,
+        23
+      ],
+      "targetBlender": [
+        -102,
+        -79,
+        5
+      ],
+      "section": "Hands of Growth approach"
+    },
+    {
+      "frame": 1800,
+      "positionBlender": [
+        -116,
+        -104,
+        15
+      ],
+      "targetBlender": [
+        -102,
+        -79,
+        5
+      ],
+      "section": "Hands of Growth reveal"
+    },
+    {
+      "frame": 2100,
+      "positionBlender": [
+        -92,
+        -106,
+        15
+      ],
+      "targetBlender": [
+        -76,
+        -77,
+        3
+      ],
+      "section": "POVU Plaza"
+    },
+    {
+      "frame": 2400,
+      "positionBlender": [
+        -45,
+        -116,
+        16
+      ],
+      "targetBlender": [
+        -58,
+        -80,
+        4
+      ],
+      "section": "Admin and headquarters"
+    },
+    {
+      "frame": 2700,
+      "positionBlender": [
+        -42,
+        -112,
+        16
+      ],
+      "targetBlender": [
+        -76,
+        -80,
+        4
+      ],
+      "section": "R&D and QC Innovation Centre"
+    },
+    {
+      "frame": 3000,
+      "positionBlender": [
+        28,
+        -108,
+        18
+      ],
+      "targetBlender": [
+        30,
+        -60,
+        5
+      ],
+      "section": "Training and Academy"
+    },
+    {
+      "frame": 3300,
+      "positionBlender": [
+        -24,
+        -115,
+        15
+      ],
+      "targetBlender": [
+        5,
+        -81,
+        4
+      ],
+      "section": "Restaurant and POVU Cafe"
+    },
+    {
+      "frame": 3600,
+      "positionBlender": [
+        58,
+        -122,
+        20
+      ],
+      "targetBlender": [
+        16,
+        -81,
+        5
+      ],
+      "section": "Wellness and recreation"
+    },
+    {
+      "frame": 3900,
+      "positionBlender": [
+        -118,
+        -116,
+        17
+      ],
+      "targetBlender": [
+        -105,
+        -73,
+        4
+      ],
+      "section": "Daycare and occupational health"
+    },
+    {
+      "frame": 4050,
+      "positionBlender": [
+        -40,
+        -120,
+        15
+      ],
+      "targetBlender": [
+        -18,
+        -102,
+        4
+      ],
+      "section": "Occupational health"
+    },
+    {
+      "frame": 4200,
+      "positionBlender": [
+        -96,
+        -108,
+        18
+      ],
+      "targetBlender": [
+        -90,
+        -92,
+        6
+      ],
+      "section": "Employee gardens and social spaces"
+    },
+    {
+      "frame": 4500,
+      "positionBlender": [
+        -20,
+        -120,
+        20
+      ],
+      "targetBlender": [
+        -10,
+        -89,
+        6
+      ],
+      "section": "solar canopy"
+    },
+    {
+      "frame": 4800,
+      "positionBlender": [
+        20,
+        65,
+        20
+      ],
+      "targetBlender": [
+        48,
+        88,
+        3
+      ],
+      "section": "low mounted solar field"
+    },
+    {
+      "frame": 5100,
+      "positionBlender": [
+        100,
+        75,
+        22
+      ],
+      "targetBlender": [
+        30,
+        96,
+        3
+      ],
+      "section": "ground solar field"
+    },
+    {
+      "frame": 5400,
+      "positionBlender": [
+        0,
+        -50,
+        42
+      ],
+      "targetBlender": [
+        35,
+        0,
+        6
+      ],
+      "section": "Glass Deck approach"
+    },
+    {
+      "frame": 5700,
+      "positionBlender": [
+        45,
+        72,
+        5
+      ],
+      "targetBlender": [
+        55,
+        68,
+        5
+      ],
+      "section": "East Glass Deck access"
+    },
+    {
+      "frame": 6000,
+      "positionBlender": [
+        15,
+        32,
+        13
+      ],
+      "targetBlender": [
+        0,
+        17,
+        8
+      ],
+      "section": "Central Glass Deck access"
+    },
+    {
+      "frame": 6300,
+      "positionBlender": [
+        -58,
+        -36,
+        13
+      ],
+      "targetBlender": [
+        -55,
+        -17,
+        8
+      ],
+      "section": "West Glass Deck access"
+    },
+    {
+      "frame": 6600,
+      "positionBlender": [
+        -69,
+        -1,
+        10
+      ],
+      "targetBlender": [
+        -20,
+        12,
+        7
+      ],
+      "section": "Glass Deck production oversight"
+    },
+    {
+      "frame": 6900,
+      "positionBlender": [
+        -132,
+        95,
+        26
+      ],
+      "targetBlender": [
+        -91,
+        100,
+        5
+      ],
+      "section": "raw materials transition"
+    },
+    {
+      "frame": 7200,
+      "positionBlender": [
+        -117,
+        72,
+        18
+      ],
+      "targetBlender": [
+        -91,
+        100,
+        5
+      ],
+      "section": "receiving and storage"
+    },
+    {
+      "frame": 7500,
+      "positionBlender": [
+        -117,
+        72,
+        18
+      ],
+      "targetBlender": [
+        -91,
+        100,
+        6
+      ],
+      "section": "raw materials warehouse"
+    },
+    {
+      "frame": 7800,
+      "positionBlender": [
+        -67,
+        30,
+        14
+      ],
+      "targetBlender": [
+        -45,
+        58,
+        4
+      ],
+      "section": "feeding"
+    },
+    {
+      "frame": 8100,
+      "positionBlender": [
+        -73,
+        -12,
+        16
+      ],
+      "targetBlender": [
+        -55,
+        12,
+        6
+      ],
+      "section": "wet processing and mixing"
+    },
+    {
+      "frame": 8400,
+      "positionBlender": [
+        34,
+        -14,
+        13
+      ],
+      "targetBlender": [
+        52,
+        10,
+        5
+      ],
+      "section": "bottle manufacturing"
+    },
+    {
+      "frame": 8700,
+      "positionBlender": [
+        50,
+        7,
+        13
+      ],
+      "targetBlender": [
+        68,
+        31,
+        5
+      ],
+      "section": "closures and trigger spray"
+    },
+    {
+      "frame": 9000,
+      "positionBlender": [
+        -18,
+        -29,
+        14
+      ],
+      "targetBlender": [
+        0,
+        -5,
+        5
+      ],
+      "section": "liquid filling"
+    },
+    {
+      "frame": 9300,
+      "positionBlender": [
+        -8,
+        -26,
+        13
+      ],
+      "targetBlender": [
+        10,
+        -2,
+        5
+      ],
+      "section": "liquid sachets"
+    },
+    {
+      "frame": 9600,
+      "positionBlender": [
+        -76,
+        12,
+        13
+      ],
+      "targetBlender": [
+        -58,
+        36,
+        5
+      ],
+      "section": "powder handling and packaging"
+    },
+    {
+      "frame": 9900,
+      "positionBlender": [
+        -26,
+        15,
+        13
+      ],
+      "targetBlender": [
+        -8,
+        39,
+        5
+      ],
+      "section": "toothpaste"
+    },
+    {
+      "frame": 10200,
+      "positionBlender": [
+        -2,
+        12,
+        13
+      ],
+      "targetBlender": [
+        16,
+        36,
+        5
+      ],
+      "section": "standard wet wipes"
+    },
+    {
+      "frame": 10500,
+      "positionBlender": [
+        -2,
+        21,
+        13
+      ],
+      "targetBlender": [
+        16,
+        45,
+        5
+      ],
+      "section": "medical and baby wipes"
+    },
+    {
+      "frame": 10800,
+      "positionBlender": [
+        -2,
+        30,
+        13
+      ],
+      "targetBlender": [
+        16,
+        54,
+        5
+      ],
+      "section": "flushable wipes"
+    },
+    {
+      "frame": 11100,
+      "positionBlender": [
+        -34,
+        53,
+        20
+      ],
+      "targetBlender": [
+        -12,
+        79,
+        8
+      ],
+      "section": "packaging materials warehouse"
+    },
+    {
+      "frame": 11400,
+      "positionBlender": [
+        -34,
+        53,
+        20
+      ],
+      "targetBlender": [
+        -12,
+        79,
+        6
+      ],
+      "section": "packaging supermarket"
+    },
+    {
+      "frame": 11700,
+      "positionBlender": [
+        37,
+        -26,
+        15
+      ],
+      "targetBlender": [
+        55,
+        -2,
+        5
+      ],
+      "section": "end of line"
+    },
+    {
+      "frame": 12000,
+      "positionBlender": [
+        8,
+        -41,
+        13
+      ],
+      "targetBlender": [
+        30,
+        -13,
+        5
+      ],
+      "section": "AMR logistics"
+    },
+    {
+      "frame": 12300,
+      "positionBlender": [
+        58,
+        -51,
+        21
+      ],
+      "targetBlender": [
+        80,
+        -25,
+        8
+      ],
+      "section": "finished goods warehouse"
+    },
+    {
+      "frame": 12600,
+      "positionBlender": [
+        85,
+        -75,
+        19
+      ],
+      "targetBlender": [
+        109,
+        -45,
+        6
+      ],
+      "section": "dispatch"
+    },
+    {
+      "frame": 12900,
+      "positionBlender": [
+        66,
+        43,
+        22
+      ],
+      "targetBlender": [
+        96,
+        75,
+        7
+      ],
+      "section": "utilities"
+    },
+    {
+      "frame": 13200,
+      "positionBlender": [
+        80,
+        2,
+        20
+      ],
+      "targetBlender": [
+        110,
+        34,
+        6
+      ],
+      "section": "water treatment"
+    },
+    {
+      "frame": 13500,
+      "positionBlender": [
+        50,
+        42,
+        18
+      ],
+      "targetBlender": [
+        76,
+        72,
+        7
+      ],
+      "section": "fire and HSE"
+    },
+    {
+      "frame": 13800,
+      "positionBlender": [
+        205,
+        -225,
+        136
+      ],
+      "targetBlender": [
+        100,
+        -100,
+        45
+      ],
+      "section": "final campus hero"
+    },
+    {
+      "frame": 14099,
+      "positionBlender": [
+        198,
+        -218,
+        132
+      ],
+      "targetBlender": [
+        96,
+        -96,
+        43
+      ],
+      "section": "final campus hero"
+    }
+  ]
+}
