@@ -1,0 +1,112 @@
+{
+  "revision": "REV005",
+  "renderer": "BLENDER_WORKBENCH",
+  "results": [
+    {
+      "camera": "REV005_QA_ACADEMY",
+      "facility": "MULTIPURPOSE_STUDIO",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_ACADEMY.png",
+      "bytes": 256992,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_ADMIN_RD_QC",
+      "facility": "Admin_RD_QC",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_ADMIN_RD_QC.png",
+      "bytes": 206651,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_CHEMICAL_COMPOUND",
+      "facility": "Chemical_Compound",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_CHEMICAL_COMPOUND.png",
+      "bytes": 211102,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_CLINIC",
+      "facility": "Clinic",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_CLINIC.png",
+      "bytes": 198876,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_DAYCARE",
+      "facility": "Daycare",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_DAYCARE.png",
+      "bytes": 212015,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_FINISHED_GOODS",
+      "facility": "FG_Warehouse",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_FINISHED_GOODS.png",
+      "bytes": 198330,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_GLASS_DECK",
+      "facility": "GLASS_DECK_LINK",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_GLASS_DECK.png",
+      "bytes": 165481,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_HANDS_OF_GROWTH",
+      "facility": "Hands of Growth",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_HANDS_OF_GROWTH.png",
+      "bytes": 283181,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_LIVING_WALL",
+      "facility": "Living Wall",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_LIVING_WALL.png",
+      "bytes": 311807,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_PACKAGING_WAREHOUSE",
+      "facility": "Packaging_Warehouse",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_PACKAGING_WAREHOUSE.png",
+      "bytes": 286785,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_RAW_MATERIALS",
+      "facility": "RM_Warehouse",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_RAW_MATERIALS.png",
+      "bytes": 201450,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_RESTAURANT_CAFE",
+      "facility": "Restaurant_Wellness",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_RESTAURANT_CAFE.png",
+      "bytes": 288555,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_UTILITIES",
+      "facility": "Utility_House",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_UTILITIES.png",
+      "bytes": 203857,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_WELLNESS",
+      "facility": "WELLNESS_PAVILION",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_WELLNESS.png",
+      "bytes": 224854,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_WET_PROCESSING",
+      "facility": "Production_Hall",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_WET_PROCESSING.png",
+      "bytes": 239326,
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

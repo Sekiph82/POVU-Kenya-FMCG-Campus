@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "checks": {
+    "rev005_blend_exists": true,
+    "rev005_glb_exists": true,
+    "glb_has_nodes": true,
+    "interior_collection_extras_present": true,
+    "east_west_access_absent": true,
+    "two_owner_tree_assemblies_absent": true,
+    "living_wall_left_extension_absent": true,
+    "living_wall_retained_section_present": true,
+    "hands_of_growth_present": true,
+    "qa_15_of_15_pass": true,
+    "tour_video_not_created": true,
+    "rev004_tracked_files_unmodified": true,
+    "rev004_reference_exists": true,
+    "source_revision_exists": true
+  },
+  "failed_checks": [],
+  "revision": "REV005",
+  "source_revision": "REV004.2",
+  "blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "blend_sha256": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+  "glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+  "glb_sha256": "1CA1AB332137B925AEA5C224888ACF148481AF56BBB1847A9DC67350F12BD2EB",
+  "source_glb_sha256": "400086AC979CCD6C4BBFB6365A92B6101CA9D1C08F79B956F735505B5F001822",
+  "rev004_glb_sha256": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+  "glb_node_count": 2826,
+  "glb_mesh_count": 2671,
+  "glb_material_count": 115,
+  "rev005_interior_node_count": 669,
+  "retired_east_west_names_found": [],
+  "removed_tree_names_absent": [
+    "TREE_CANOPY",
+    "TREE_CANOPY001",
+    "TREE_CANOPY002",
+    "TREE_CANOPY003",
+    "TREE_CANOPY004",
+    "TREE_CANOPY005",
+    "TREE_TRUNK",
+    "TREE_TRUNK001"
+  ],
+  "living_wall_removed_names_absent": [
+    "LIVING_WALL_PANEL",
+    "LIVING_WALL_FOLIAGE",
+    "LIVING_WALL_FOLIAGE001",
+    "LIVING_WALL_FOLIAGE002",
+    "LIVING_WALL_EXTENDED_BACKING"
+  ],
+  "qa_report": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\audit\\REV005_VISUAL_QA_REPORT.json",
+  "manifest": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\REV005_ARCHITECTURAL_MANIFEST.json",
+  "rev004_git_status_lines": [
+    "?? 3d/revisions/REV004/POVU_KENYA_FMCG_CAMPUS_REV004_FINAL_ARCHITECTURAL_MASTER.blend1",
+    "?? 3d/revisions/REV004/qa/east_trial.png",
+    "?? 3d/revisions/REV004/qa/east_trial2.png",
+    "?? 3d/revisions/REV004/qa/east_trial3.png"
+  ]
+}

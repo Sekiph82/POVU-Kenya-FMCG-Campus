@@ -1,0 +1,432 @@
+{
+  "revision": "REV005",
+  "source_revision": "REV004.2",
+  "source_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.2\\POVU_Kenya_FMCG_CAMPUS_REV004_2_FINAL_ARCHITECTURAL_MASTER.blend",
+  "source_blend_sha256": "684DEA55AAAB6D61C8B2BEFB93EB3B1564F9EF129BA1E16DFA79BC4C5E4B15C8",
+  "output_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "output_glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+  "corrections": {
+    "hands_of_growth": {
+      "delta": [
+        0.0,
+        -10.0,
+        0.0
+      ],
+      "before": {
+        "HANDS_OF_GROWTH": [
+          -102.0,
+          -79.0,
+          0.0
+        ],
+        "HOG_FINGER_-1_0": [
+          -105.095,
+          -79.648,
+          6.35
+        ],
+        "HOG_FINGER_-1_1": [
+          -105.045,
+          -79.324,
+          6.475
+        ],
+        "HOG_FINGER_-1_2": [
+          -104.995,
+          -79.0,
+          6.6
+        ],
+        "HOG_FINGER_-1_3": [
+          -105.165,
+          -78.676,
+          6.475
+        ],
+        "HOG_FINGER_-1_4": [
+          -105.335,
+          -78.352,
+          6.35
+        ],
+        "HOG_FINGER_1_0": [
+          -98.905,
+          -79.648,
+          6.35
+        ],
+        "HOG_FINGER_1_1": [
+          -98.955,
+          -79.324,
+          6.475
+        ],
+        "HOG_FINGER_1_2": [
+          -99.005,
+          -79.0,
+          6.6
+        ],
+        "HOG_FINGER_1_3": [
+          -98.835,
+          -78.676,
+          6.475
+        ],
+        "HOG_FINGER_1_4": [
+          -98.665,
+          -78.352,
+          6.35
+        ],
+        "HOG_FOREARM_L": [
+          -104.9,
+          -79.0,
+          2.9
+        ],
+        "HOG_FOREARM_R": [
+          -99.1,
+          -79.0,
+          2.9
+        ],
+        "HOG_HAND_LEFT": [
+          -104.0,
+          -79.0,
+          3.5
+        ],
+        "HOG_HAND_RIGHT": [
+          -100.0,
+          -79.0,
+          3.5
+        ],
+        "HOG_PALM_L": [
+          -104.25,
+          -79.0,
+          5.25
+        ],
+        "HOG_PALM_R": [
+          -99.75,
+          -79.0,
+          5.25
+        ],
+        "HOG_PLINTH": [
+          -102.0,
+          -79.0,
+          0.45
+        ],
+        "HOG_TREE_CROWN": [
+          -102.0,
+          -79.0,
+          8.0
+        ],
+        "HOG_TREE_CROWN_0": [
+          -102.0,
+          -79.0,
+          8.1
+        ],
+        "HOG_TREE_CROWN_1": [
+          -100.0,
+          -79.0,
+          7.8
+        ],
+        "HOG_TREE_CROWN_2": [
+          -104.0,
+          -78.8,
+          7.8
+        ],
+        "HOG_TREE_CROWN_3": [
+          -100.8,
+          -77.8,
+          8.7
+        ],
+        "HOG_TREE_CROWN_4": [
+          -103.2,
+          -80.0,
+          8.6
+        ],
+        "HOG_TREE_TRUNK": [
+          -102.0,
+          -79.0,
+          3.95
+        ],
+        "LABEL_ANCHOR_HANDS_OF_GROWTH": [
+          -102.0,
+          -79.0,
+          11.4
+        ],
+        "NAV_TARGET_HANDS_OF_GROWTH": [
+          -102.0,
+          -79.0,
+          5.0
+        ]
+      },
+      "after": {
+        "HANDS_OF_GROWTH": [
+          -102.0,
+          -89.0,
+          0.0
+        ],
+        "HOG_FINGER_-1_0": [
+          -105.095,
+          -89.648,
+          6.35
+        ],
+        "HOG_FINGER_-1_1": [
+          -105.045,
+          -89.324,
+          6.475
+        ],
+        "HOG_FINGER_-1_2": [
+          -104.995,
+          -89.0,
+          6.6
+        ],
+        "HOG_FINGER_-1_3": [
+          -105.165,
+          -88.676,
+          6.475
+        ],
+        "HOG_FINGER_-1_4": [
+          -105.335,
+          -88.352,
+          6.35
+        ],
+        "HOG_FINGER_1_0": [
+          -98.905,
+          -89.648,
+          6.35
+        ],
+        "HOG_FINGER_1_1": [
+          -98.955,
+          -89.324,
+          6.475
+        ],
+        "HOG_FINGER_1_2": [
+          -99.005,
+          -89.0,
+          6.6
+        ],
+        "HOG_FINGER_1_3": [
+          -98.835,
+          -88.676,
+          6.475
+        ],
+        "HOG_FINGER_1_4": [
+          -98.665,
+          -88.352,
+          6.35
+        ],
+        "HOG_FOREARM_L": [
+          -104.9,
+          -89.0,
+          2.9
+        ],
+        "HOG_FOREARM_R": [
+          -99.1,
+          -89.0,
+          2.9
+        ],
+        "HOG_HAND_LEFT": [
+          -104.0,
+          -89.0,
+          3.5
+        ],
+        "HOG_HAND_RIGHT": [
+          -100.0,
+          -89.0,
+          3.5
+        ],
+        "HOG_PALM_L": [
+          -104.25,
+          -89.0,
+          5.25
+        ],
+        "HOG_PALM_R": [
+          -99.75,
+          -89.0,
+          5.25
+        ],
+        "HOG_PLINTH": [
+          -102.0,
+          -89.0,
+          0.45
+        ],
+        "HOG_TREE_CROWN": [
+          -102.0,
+          -89.0,
+          8.0
+        ],
+        "HOG_TREE_CROWN_0": [
+          -102.0,
+          -89.0,
+          8.1
+        ],
+        "HOG_TREE_CROWN_1": [
+          -100.0,
+          -89.0,
+          7.8
+        ],
+        "HOG_TREE_CROWN_2": [
+          -104.0,
+          -88.8,
+          7.8
+        ],
+        "HOG_TREE_CROWN_3": [
+          -100.8,
+          -87.8,
+          8.7
+        ],
+        "HOG_TREE_CROWN_4": [
+          -103.2,
+          -90.0,
+          8.6
+        ],
+        "HOG_TREE_TRUNK": [
+          -102.0,
+          -89.0,
+          3.95
+        ],
+        "LABEL_ANCHOR_HANDS_OF_GROWTH": [
+          -102.0,
+          -89.0,
+          11.4
+        ],
+        "NAV_TARGET_HANDS_OF_GROWTH": [
+          -102.0,
+          -89.0,
+          5.0
+        ]
+      },
+      "status": "MOVED_FORWARD_TO_OPEN_PLAZA"
+    },
+    "trees": {
+      "selected": [
+        "TREE_CANOPY",
+        "TREE_CANOPY001",
+        "TREE_CANOPY002",
+        "TREE_CANOPY003",
+        "TREE_CANOPY004",
+        "TREE_CANOPY005",
+        "TREE_TRUNK",
+        "TREE_TRUNK001"
+      ],
+      "before": {
+        "TREE_CANOPY": [
+          -118.0,
+          -92.0,
+          7.2
+        ],
+        "TREE_CANOPY001": [
+          -119.8,
+          -92.0,
+          6.7
+        ],
+        "TREE_CANOPY002": [
+          -116.3,
+          -91.6,
+          6.9
+        ],
+        "TREE_CANOPY003": [
+          -108.0,
+          -88.0,
+          7.2
+        ],
+        "TREE_CANOPY004": [
+          -109.8,
+          -88.0,
+          6.7
+        ],
+        "TREE_CANOPY005": [
+          -106.3,
+          -87.6,
+          6.9
+        ],
+        "TREE_TRUNK": [
+          -118.0,
+          -92.0,
+          3.4
+        ],
+        "TREE_TRUNK001": [
+          -108.0,
+          -88.0,
+          3.4
+        ]
+      },
+      "removed": [
+        "TREE_CANOPY",
+        "TREE_CANOPY001",
+        "TREE_CANOPY002",
+        "TREE_CANOPY003",
+        "TREE_CANOPY004",
+        "TREE_CANOPY005",
+        "TREE_TRUNK",
+        "TREE_TRUNK001"
+      ],
+      "status": "TWO_OWNER_INDICATED_OBSTRUCTING_TREES_REMOVED"
+    },
+    "living_wall": {
+      "removed": [
+        "LIVING_WALL_EXTENDED_BACKING",
+        "LIVING_WALL_FOLIAGE",
+        "LIVING_WALL_FOLIAGE001",
+        "LIVING_WALL_FOLIAGE002",
+        "LIVING_WALL_PANEL"
+      ],
+      "retained": [
+        "LIVING_WALL_FOLIAGE003",
+        "LIVING_WALL_FOLIAGE004",
+        "LIVING_WALL_FOLIAGE005",
+        "LIVING_WALL_FOLIAGE006",
+        "LIVING_WALL_FOLIAGE007",
+        "LIVING_WALL_FOLIAGE008",
+        "LIVING_WALL_FOLIAGE009",
+        "LIVING_WALL_FOLIAGE010",
+        "LIVING_WALL_FOLIAGE011",
+        "LIVING_WALL_FOLIAGE012",
+        "LIVING_WALL_FOLIAGE013",
+        "LIVING_WALL_FOLIAGE014",
+        "LIVING_WALL_FOLIAGE015",
+        "LIVING_WALL_FOLIAGE016",
+        "LIVING_WALL_FOLIAGE017",
+        "LIVING_WALL_FOLIAGE018",
+        "LIVING_WALL_FOLIAGE019",
+        "LIVING_WALL_FOLIAGE020",
+        "LIVING_WALL_FOLIAGE021",
+        "LIVING_WALL_FOLIAGE022",
+        "LIVING_WALL_FOLIAGE023",
+        "LIVING_WALL_PANEL001",
+        "VIP_LivingWall"
+      ],
+      "status": "LEFT_EXTENSION_REMOVED_AND_RETAINED_SECTION_SUPPORTED"
+    },
+    "east_west_glass_deck_access": {
+      "removed": [
+        "GLASS_DECK_EAST_STAIR",
+        "GLASS_DECK_EAST_STAIR_STEP_01",
+        "GLASS_DECK_EAST_STAIR_STEP_02",
+        "GLASS_DECK_EAST_STAIR_STEP_03",
+        "GLASS_DECK_EAST_STAIR_STEP_04",
+        "GLASS_DECK_EAST_STAIR_STEP_05",
+        "GLASS_DECK_EAST_STAIR_STEP_06",
+        "GLASS_DECK_EAST_STAIR_STEP_07",
+        "GLASS_DECK_EAST_STAIR_STEP_08",
+        "GLASS_DECK_EAST_STAIR_STEP_09",
+        "GLASS_DECK_EAST_STAIR_STEP_10",
+        "GLASS_DECK_EAST_STAIR_STEP_11",
+        "GLASS_DECK_EAST_STAIR_STEP_12",
+        "GLASS_DECK_WEST_STAIR",
+        "GLASS_DECK_WEST_STAIR_STEP_01",
+        "GLASS_DECK_WEST_STAIR_STEP_02",
+        "GLASS_DECK_WEST_STAIR_STEP_03",
+        "GLASS_DECK_WEST_STAIR_STEP_04",
+        "GLASS_DECK_WEST_STAIR_STEP_05",
+        "GLASS_DECK_WEST_STAIR_STEP_06",
+        "GLASS_DECK_WEST_STAIR_STEP_07",
+        "GLASS_DECK_WEST_STAIR_STEP_08",
+        "GLASS_DECK_WEST_STAIR_STEP_09",
+        "GLASS_DECK_WEST_STAIR_STEP_10",
+        "GLASS_DECK_WEST_STAIR_STEP_11",
+        "GLASS_DECK_WEST_STAIR_STEP_12",
+        "GlassDeck_East",
+        "GlassDeck_West",
+        "PRES_GLASS_DECK_EAST_ACCESS",
+        "PRES_GLASS_DECK_WEST_ACCESS"
+      ],
+      "status": "REMOVED_FROM_REV005_DERIVATIVE"
+    }
+  },
+  "new_collection": "REV005_INTERIOR_COMPLETION",
+  "object_count": 2816,
+  "mesh_object_count": 2633,
+  "interior_object_count": 616,
+  "qa_results": []
+}

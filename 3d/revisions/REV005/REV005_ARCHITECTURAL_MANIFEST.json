@@ -1,0 +1,150 @@
+{
+  "revision": "REV005_INTERIOR_COMPLETION",
+  "source_revision": "REV004.2",
+  "source_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV004.2\\POVU_Kenya_FMCG_CAMPUS_REV004_2_FINAL_ARCHITECTURAL_MASTER.blend",
+  "source_blend_sha256": "684DEA55AAAB6D61C8B2BEFB93EB3B1564F9EF129BA1E16DFA79BC4C5E4B15C8",
+  "output_blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "output_glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+  "output_glb_sha256": "1CA1AB332137B925AEA5C224888ACF148481AF56BBB1847A9DC67350F12BD2EB",
+  "status": "OWNER_REVIEW_READY",
+  "tour_video_created": false,
+  "interior_collection": "REV005_INTERIOR_COMPLETION",
+  "site_corrections_collection": "REV005_SITE_CORRECTIONS",
+  "counts": {
+    "objects": 2816,
+    "mesh_objects": 2633,
+    "materials": 117,
+    "cameras": 68,
+    "interior_objects": 616,
+    "glb_nodes": 2826,
+    "glb_meshes": 2671,
+    "glb_materials": 115,
+    "rev005_interior_nodes": 669
+  },
+  "qa_results": [
+    {
+      "camera": "REV005_QA_ACADEMY",
+      "facility": "MULTIPURPOSE_STUDIO",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_ACADEMY.png",
+      "bytes": 256992,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_ADMIN_RD_QC",
+      "facility": "Admin_RD_QC",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_ADMIN_RD_QC.png",
+      "bytes": 206651,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_CHEMICAL_COMPOUND",
+      "facility": "Chemical_Compound",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_CHEMICAL_COMPOUND.png",
+      "bytes": 211102,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_CLINIC",
+      "facility": "Clinic",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_CLINIC.png",
+      "bytes": 198876,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_DAYCARE",
+      "facility": "Daycare",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_DAYCARE.png",
+      "bytes": 212015,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_FINISHED_GOODS",
+      "facility": "FG_Warehouse",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_FINISHED_GOODS.png",
+      "bytes": 198330,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_GLASS_DECK",
+      "facility": "GLASS_DECK_LINK",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_GLASS_DECK.png",
+      "bytes": 165481,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_HANDS_OF_GROWTH",
+      "facility": "Hands of Growth",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_HANDS_OF_GROWTH.png",
+      "bytes": 283181,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_LIVING_WALL",
+      "facility": "Living Wall",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_LIVING_WALL.png",
+      "bytes": 311807,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_PACKAGING_WAREHOUSE",
+      "facility": "Packaging_Warehouse",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_PACKAGING_WAREHOUSE.png",
+      "bytes": 286785,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_RAW_MATERIALS",
+      "facility": "RM_Warehouse",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_RAW_MATERIALS.png",
+      "bytes": 201450,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_RESTAURANT_CAFE",
+      "facility": "Restaurant_Wellness",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_RESTAURANT_CAFE.png",
+      "bytes": 288555,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_UTILITIES",
+      "facility": "Utility_House",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_UTILITIES.png",
+      "bytes": 203857,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_WELLNESS",
+      "facility": "WELLNESS_PAVILION",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_WELLNESS.png",
+      "bytes": 224854,
+      "status": "PASS"
+    },
+    {
+      "camera": "REV005_QA_WET_PROCESSING",
+      "facility": "Production_Hall",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\qa\\REV005_QA_WET_PROCESSING.png",
+      "bytes": 239326,
+      "status": "PASS"
+    }
+  ],
+  "completeness_gate": {
+    "all_major_facilities_have_documented_interior": true,
+    "wet_processing_preserved": true,
+    "hog_forward_plaza": "MOVED_FORWARD_TO_OPEN_PLAZA",
+    "two_trees_removed": "TWO_OWNER_INDICATED_OBSTRUCTING_TREES_REMOVED",
+    "living_wall": "LEFT_EXTENSION_REMOVED_AND_RETAINED_SECTION_SUPPORTED",
+    "east_west_access": "REMOVED_FROM_REV005_DERIVATIVE",
+    "rev004_source_unchanged": true,
+    "rev005_independent": true
+  },
+  "visual_qa_report": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\audit\\REV005_VISUAL_QA_REPORT.json",
+  "visual_qa_status": "PASS",
+  "qa_camera_correction": {
+    "restaurant_cafe": "Dining and caf\u00e9 seating view",
+    "living_wall": "Front elevation showing retained wall section",
+    "hands_of_growth": "Wider plaza view showing independent landmark and cleared sightline"
+  },
+  "blend_sha256": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+  "final_validation": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\audit\\REV005_FINAL_VALIDATION.json"
+}
