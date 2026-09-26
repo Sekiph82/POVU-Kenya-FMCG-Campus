@@ -1,0 +1,148 @@
+{
+  "status": "AWAITING_GPT_REMEDIATION_AUDIT",
+  "revision": "REV005",
+  "locked_criteria_untouched": true,
+  "targets": {
+    "count": 14,
+    "closed": 14,
+    "functional_object_counts": {
+      "Bottle Blow Molding": 21,
+      "Caps and Trigger Assembly": 21,
+      "Electrical / LV-MV Room": 23,
+      "Employee Changing / Shower / Locker Support": 49,
+      "Fire Pump House": 15,
+      "Central Glass Deck Command / Training / Caf\u00e9 Gallery": 24,
+      "Liquid Filling / Packaging": 28,
+      "Micro-ingredient Weigh / Dispense": 12,
+      "Powder Handling / Packing": 21,
+      "Production Hall / Wet Processing": 58,
+      "Security / Reception / Visitor Arrival": 17,
+      "Security Gatehouse": 8,
+      "Toothpaste Production": 27,
+      "Wet Wipes Production": 21
+    },
+    "visual_proofs": {
+      "two_per_target": true,
+      "render_passes": 28
+    }
+  },
+  "regression": {
+    "previously_passing_group_count": 12,
+    "no_regression_count": 12,
+    "groups": {
+      "Administration / HQ / R&D / QC": {
+        "baseline_object_count": 74,
+        "current_object_count": 74,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Chemical compound / controlled receiving": {
+        "baseline_object_count": 17,
+        "current_object_count": 17,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Daycare / cr\u00e8che": {
+        "baseline_object_count": 42,
+        "current_object_count": 42,
+        "missing": [],
+        "status": "PASS"
+      },
+      "ETP / water treatment": {
+        "baseline_object_count": 11,
+        "current_object_count": 11,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Finished goods warehouse / dispatch": {
+        "baseline_object_count": 5,
+        "current_object_count": 5,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Occupational health / first aid": {
+        "baseline_object_count": 20,
+        "current_object_count": 20,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Packaging warehouse": {
+        "baseline_object_count": 171,
+        "current_object_count": 171,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Raw material warehouse / receiving": {
+        "baseline_object_count": 9,
+        "current_object_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Restaurant / POVU Caf\u00e9 / kitchen": {
+        "baseline_object_count": 66,
+        "current_object_count": 66,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Training / Academy": {
+        "baseline_object_count": 27,
+        "current_object_count": 27,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Utilities / engineering": {
+        "baseline_object_count": 14,
+        "current_object_count": 14,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Wellness / recreation": {
+        "baseline_object_count": 18,
+        "current_object_count": 18,
+        "missing": [],
+        "status": "PASS"
+      }
+    }
+  },
+  "inventory": {
+    "baseline_group_count": 26,
+    "current_group_count": 26,
+    "all_26_accounted": true
+  },
+  "wet_processing": {
+    "process_core_objects": true
+  },
+  "gatehouse": {
+    "functional_objects": true,
+    "restricted_live_references": 0
+  },
+  "owner_corrections": {
+    "hands_of_growth_objects": 27,
+    "trees_present": {
+      "TREE_CANOPY": false,
+      "TREE_CANOPY001": false,
+      "TREE_CANOPY002": false,
+      "TREE_TRUNK": false,
+      "TREE_CANOPY003": false,
+      "TREE_CANOPY004": false,
+      "TREE_CANOPY005": false,
+      "TREE_TRUNK001": false
+    },
+    "two_owner_trees_absent": true,
+    "living_wall_backing": true,
+    "vip_reception_objects": 13
+  },
+  "hashes": {
+    "baseline_rev005_blend": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+    "final_rev005_blend": "484E495E9F2689A73BE4DDF7297FEAF96D3227B0E2696A5174A6942E3625D26F",
+    "baseline_rev005_glb": "1CA1AB332137B925AEA5C224888ACF148481AF56BBB1847A9DC67350F12BD2EB",
+    "final_rev005_glb": "868850397FFC4004229BDB3AD74E09FDB68145572F5DD45132D886E927FBDA5C",
+    "rev004_frozen_glb": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA"
+  },
+  "stop_discipline": {
+    "no_final_tour_created": true,
+    "no_REV006_created": true,
+    "next_gate": "AWAITING_GPT_REMEDIATION_AUDIT"
+  },
+  "prevalidation_pass": true
+}
