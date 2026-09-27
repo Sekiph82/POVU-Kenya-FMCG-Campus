@@ -1,0 +1,202 @@
+[
+  {
+    "kind": "focused",
+    "target": "Bottle Blow Molding",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\01_blow_molding_A_WIDE.png",
+    "bytes": 362189,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Bottle Blow Molding",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\01_blow_molding_B_FUNCTIONAL.png",
+    "bytes": 392411,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Bottle Blow Molding",
+    "view": "C_PROCESS",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\01_blow_molding_C_PROCESS.png",
+    "bytes": 396980,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Caps and Trigger Assembly",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\02_caps_triggers_A_WIDE.png",
+    "bytes": 375982,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Caps and Trigger Assembly",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\02_caps_triggers_B_FUNCTIONAL.png",
+    "bytes": 392835,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Caps and Trigger Assembly",
+    "view": "C_PROCESS",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\02_caps_triggers_C_PROCESS.png",
+    "bytes": 413580,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Liquid Filling / Packaging",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\03_liquid_filling_A_WIDE.png",
+    "bytes": 345737,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Liquid Filling / Packaging",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\03_liquid_filling_B_FUNCTIONAL.png",
+    "bytes": 396375,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Liquid Filling / Packaging",
+    "view": "C_PROCESS",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\03_liquid_filling_C_PROCESS.png",
+    "bytes": 386891,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Micro-ingredient Weigh / Dispense",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\04_micro_weigh_A_WIDE.png",
+    "bytes": 395313,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Micro-ingredient Weigh / Dispense",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\04_micro_weigh_B_FUNCTIONAL.png",
+    "bytes": 490747,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Micro-ingredient Weigh / Dispense",
+    "view": "C_PROCESS",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\04_micro_weigh_C_PROCESS.png",
+    "bytes": 391573,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Toothpaste Production",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\05_toothpaste_A_WIDE.png",
+    "bytes": 361057,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Toothpaste Production",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\05_toothpaste_B_FUNCTIONAL.png",
+    "bytes": 439214,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Toothpaste Production",
+    "view": "C_PROCESS",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\05_toothpaste_C_PROCESS.png",
+    "bytes": 440349,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Wet Wipes Production",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\06_wet_wipes_A_WIDE.png",
+    "bytes": 366534,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Wet Wipes Production",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\06_wet_wipes_B_FUNCTIONAL.png",
+    "bytes": 449518,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Wet Wipes Production",
+    "view": "C_PROCESS",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\06_wet_wipes_C_PROCESS.png",
+    "bytes": 393087,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Central Glass Deck Command / Training / Caf\u00e9 Gallery",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\07_glass_deck_A_WIDE.png",
+    "bytes": 241130,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Central Glass Deck Command / Training / Caf\u00e9 Gallery",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\07_glass_deck_B_FUNCTIONAL.png",
+    "bytes": 320401,
+    "status": "PASS"
+  },
+  {
+    "kind": "focused",
+    "target": "Central Glass Deck Command / Training / Caf\u00e9 Gallery",
+    "view": "C_PROCESS",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\07_glass_deck_C_PROCESS.png",
+    "bytes": 283561,
+    "status": "PASS"
+  },
+  {
+    "kind": "regression",
+    "target": "Restaurant / POVU Caf\u00e9 / kitchen",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\regression_01_restaurant_cafe_A_WIDE.png",
+    "bytes": 258966,
+    "status": "PASS"
+  },
+  {
+    "kind": "regression",
+    "target": "Restaurant / POVU Caf\u00e9 / kitchen",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\regression_01_restaurant_cafe_B_FUNCTIONAL.png",
+    "bytes": 318511,
+    "status": "PASS"
+  },
+  {
+    "kind": "regression",
+    "target": "Daycare / cr\u00e8che",
+    "view": "A_WIDE",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\regression_02_daycare_A_WIDE.png",
+    "bytes": 328095,
+    "status": "PASS"
+  },
+  {
+    "kind": "regression",
+    "target": "Daycare / cr\u00e8che",
+    "view": "B_FUNCTIONAL",
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v02\\qa\\regression_02_daycare_B_FUNCTIONAL.png",
+    "bytes": 345532,
+    "status": "PASS"
+  }
+]

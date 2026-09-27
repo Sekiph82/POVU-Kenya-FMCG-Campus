@@ -1,0 +1,19 @@
+{
+  "status": "BUILT",
+  "collection": "REV005_INTERIOR_REMEDIATION_V02",
+  "focused_targets": [
+    "Bottle Blow Molding",
+    "Caps and Trigger Assembly",
+    "Central Glass Deck Command / Training / Caf\u00e9 Gallery",
+    "Liquid Filling / Packaging",
+    "Micro-ingredient Weigh / Dispense",
+    "Toothpaste Production",
+    "Wet Wipes Production"
+  ],
+  "pre_sha256": "484E495E9F2689A73BE4DDF7297FEAF96D3227B0E2696A5174A6942E3625D26F",
+  "post_blend_sha256": "9BEE6F87D7762BC415F15047DC287D7B591C44C83FF8E39C226E6A07FD480B0C",
+  "post_glb_sha256": "B0F571A26AC12F26D817AAF7FF4E9C2FEFC7729CB28EBD25A9004B3548395DC1",
+  "object_count": 264,
+  "blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb"
+}

@@ -1,0 +1,217 @@
+{
+  "status": "AWAITING_GPT_REMEDIATION_AUDIT_V02",
+  "revision": "REV005",
+  "scope": "focused_visual_remediation_only",
+  "locked_v01_criteria_untouched": true,
+  "focused_remediation": {
+    "target_count": 7,
+    "closed_count": 7,
+    "functional_object_counts": {
+      "Bottle Blow Molding": 37,
+      "Caps and Trigger Assembly": 47,
+      "Liquid Filling / Packaging": 62,
+      "Micro-ingredient Weigh / Dispense": 23,
+      "Toothpaste Production": 34,
+      "Wet Wipes Production": 36,
+      "Central Glass Deck Command / Training / Caf\u00e9 Gallery": 25
+    },
+    "three_proofs_each": true,
+    "render_pass_count": 21
+  },
+  "regression": {
+    "canonical_group_count": 26,
+    "all_26_present": true,
+    "accepted_v01_areas_intact": true,
+    "previously_passing_groups_intact": true,
+    "restaurant_cafe_proofs": 2,
+    "daycare_proofs": 2,
+    "groups": {
+      "Administration / HQ / R&D / QC": {
+        "baseline_count": 74,
+        "present_count": 74,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Bottle blow molding": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Caps and trigger assembly": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Chemical compound / controlled receiving": {
+        "baseline_count": 17,
+        "present_count": 17,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Daycare / cr\u00e8che": {
+        "baseline_count": 42,
+        "present_count": 42,
+        "missing": [],
+        "status": "PASS"
+      },
+      "ETP / water treatment": {
+        "baseline_count": 11,
+        "present_count": 11,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Electrical / LV-MV room": {
+        "baseline_count": 8,
+        "present_count": 8,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Employee changing / shower / locker support": {
+        "baseline_count": 10,
+        "present_count": 10,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Finished goods warehouse / dispatch": {
+        "baseline_count": 5,
+        "present_count": 5,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Fire pump house": {
+        "baseline_count": 12,
+        "present_count": 12,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Glass Deck central command / training / caf\u00e9 gallery": {
+        "baseline_count": 28,
+        "present_count": 28,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Liquid filling / packaging": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Micro-ingredient weigh / dispense": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Occupational health / first aid": {
+        "baseline_count": 20,
+        "present_count": 20,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Packaging warehouse": {
+        "baseline_count": 171,
+        "present_count": 171,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Powder handling / packing": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Production Hall / Wet Processing / process core": {
+        "baseline_count": 7,
+        "present_count": 7,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Raw material warehouse / receiving": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Restaurant / POVU Caf\u00e9 / kitchen": {
+        "baseline_count": 66,
+        "present_count": 66,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Security / reception / visitor arrival": {
+        "baseline_count": 15,
+        "present_count": 15,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Security gatehouse": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Toothpaste production": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Training / Academy": {
+        "baseline_count": 27,
+        "present_count": 27,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Utilities / engineering": {
+        "baseline_count": 14,
+        "present_count": 14,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Wellness / recreation": {
+        "baseline_count": 18,
+        "present_count": 18,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Wet wipes production": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      }
+    }
+  },
+  "owner_corrections": {
+    "hands_of_growth_objects": 27,
+    "trees_present": {
+      "TREE_CANOPY": false,
+      "TREE_CANOPY001": false,
+      "TREE_CANOPY002": false,
+      "TREE_TRUNK": false,
+      "TREE_CANOPY003": false,
+      "TREE_CANOPY004": false,
+      "TREE_CANOPY005": false,
+      "TREE_TRUNK001": false
+    },
+    "specified_trees_absent": true,
+    "living_wall_backing": true,
+    "vip_reception_objects": 13
+  },
+  "scope_protection": {
+    "restricted_live_references": 0,
+    "no_REV006_created": true,
+    "no_final_tour_created": true
+  },
+  "hashes": {
+    "v01_blend_before": "484E495E9F2689A73BE4DDF7297FEAF96D3227B0E2696A5174A6942E3625D26F",
+    "v02_blend_final": "9BEE6F87D7762BC415F15047DC287D7B591C44C83FF8E39C226E6A07FD480B0C",
+    "v01_glb_before": "868850397FFC4004229BDB3AD74E09FDB68145572F5DD45132D886E927FBDA5C",
+    "v02_glb_final": "B0F571A26AC12F26D817AAF7FF4E9C2FEFC7729CB28EBD25A9004B3548395DC1",
+    "rev004_frozen_glb": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA"
+  },
+  "stop_gate": "AWAITING_GPT_REMEDIATION_AUDIT_V02",
+  "prevalidation_pass": true
+}
