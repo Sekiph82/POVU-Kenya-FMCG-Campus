@@ -1,0 +1,23 @@
+{
+  "status": "BUILT",
+  "revision": "REV005",
+  "collection": "REV005_INTERIOR_REMEDIATION_V03",
+  "focused_targets": [
+    "Bottle Blow Molding",
+    "Central Glass Deck Command / Training / Caf\u00e9 Gallery",
+    "Daycare / cr\u00e8che",
+    "Liquid Filling / Packaging",
+    "Restaurant / POVU Caf\u00e9 / kitchen",
+    "Toothpaste Production",
+    "Wet Wipes Production"
+  ],
+  "pre_blend_sha256": "165337EAE93818C44A81BE1FC73DD1725A5A3C532D343A7987D4C64153F59F6D",
+  "pre_glb_sha256": "1BD08BCE073279F3EE66932C7F566EB6341AD2A5FC52C415CA8AA57DF32BDBBD",
+  "post_blend_sha256": "9E9A63A2D7AAFA5667CD0A41DFDE746CB2F2A7751F29DAB259CA30E8A99A238F",
+  "post_glb_sha256": "9AC05E7E9D286EB16FB88C2CD6DC30715B8892CF91FCE8AEF9AB52ED94FCF12C",
+  "object_count": 462,
+  "blend": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "glb": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+  "no_rev006": true,
+  "no_final_tour": true
+}

@@ -1,0 +1,60 @@
+00:01.656  blend            | Read blend: "C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\revisions\REV005\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend"
+00:04.109  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\01_blow_molding_A_WIDE.png'
+00:05.078  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\01_blow_molding_B_FUNCTIONAL.png'
+00:06.063  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\01_blow_molding_C_PROCESS_OR_DETAIL.png'
+00:07.625  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\02_liquid_filling_A_WIDE.png'
+00:08.609  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\02_liquid_filling_B_FUNCTIONAL.png'
+00:09.609  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\02_liquid_filling_C_PROCESS_OR_DETAIL.png'
+00:11.203  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\03_toothpaste_A_WIDE.png'
+00:12.188  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\03_toothpaste_B_FUNCTIONAL.png'
+00:13.172  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\03_toothpaste_C_PROCESS_OR_DETAIL.png'
+00:14.781  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\04_wet_wipes_A_WIDE.png'
+00:15.766  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\04_wet_wipes_B_FUNCTIONAL.png'
+00:16.734  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\04_wet_wipes_C_PROCESS_OR_DETAIL.png'
+00:18.266  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\05_glass_deck_A_WIDE.png'
+00:19.172  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\05_glass_deck_B_FUNCTIONAL.png'
+00:20.078  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\05_glass_deck_C_PROCESS_OR_DETAIL.png'
+00:21.625  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\06_restaurant_cafe_A_WIDE.png'
+00:22.594  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\06_restaurant_cafe_B_FUNCTIONAL.png'
+00:23.563  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\06_restaurant_cafe_C_PROCESS_OR_DETAIL.png'
+00:25.141  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\07_daycare_A_WIDE.png'
+00:26.094  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\07_daycare_B_FUNCTIONAL.png'
+00:27.031  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\07_daycare_C_PROCESS_OR_DETAIL.png'
+00:28.578  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_administration_hq_r_d_qc.png'
+00:30.047  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_bottle_blow_molding.png'
+00:31.484  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_caps_and_trigger_assembly.png'
+00:32.953  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_chemical_compound_controlled_receiving.png'
+00:34.438  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_daycare_cr_che.png'
+00:35.875  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_etp_water_treatment.png'
+00:37.406  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_electrical_lv_mv_room.png'
+00:38.953  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_employee_changing_shower_locker_support.png'
+00:40.359  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_finished_goods_warehouse_dispatch.png'
+00:41.859  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_fire_pump_house.png'
+00:43.422  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_glass_deck_central_command_training_caf_gallery.png'
+00:44.938  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_liquid_filling_packaging.png'
+00:46.422  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_micro_ingredient_weigh_dispense.png'
+00:47.953  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_occupational_health_first_aid.png'
+00:49.609  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_packaging_warehouse.png'
+00:51.047  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_powder_handling_packing.png'
+00:52.594  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_production_hall_wet_processing_process_core.png'
+00:54.125  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_raw_material_warehouse_receiving.png'
+00:55.719  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_restaurant_povu_caf_kitchen.png'
+00:57.188  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_security_reception_visitor_arrival.png'
+00:58.625  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_security_gatehouse.png'
+01:00.141  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_toothpaste_production.png'
+01:01.594  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_training_academy.png'
+01:03.094  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_utilities_engineering.png'
+01:04.531  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_wellness_recreation.png'
+01:06.047  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\output\rev005-interior-remediation-v03\qa\26GROUP_wet_wipes_production.png'
+BlenderMCP addon registered
+{
+  "renders": 47,
+  "focused": 21,
+  "campus_groups": 26,
+  "passes": 47,
+  "group_passes": 26
+}
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit
