@@ -1,0 +1,527 @@
+{
+  "status": "READY_FOR_GPT_REVIEW",
+  "render_count": 65,
+  "group_count": 26,
+  "results": [
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\administration_hq_r_d_qc_A_WIDE.png",
+      "bytes": 682835,
+      "status": "PASS",
+      "facility": "Administration / HQ / R&D / QC",
+      "view": "A_WIDE",
+      "object_count": 142
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\administration_hq_r_d_qc_B_FUNCTIONAL.png",
+      "bytes": 660880,
+      "status": "PASS",
+      "facility": "Administration / HQ / R&D / QC",
+      "view": "B_FUNCTIONAL",
+      "object_count": 142
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\administration_hq_r_d_qc_C_PROCESS_OR_DETAIL.png",
+      "bytes": 712766,
+      "status": "PASS",
+      "facility": "Administration / HQ / R&D / QC",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 142
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\bottle_blow_molding_A_WIDE.png",
+      "bytes": 691771,
+      "status": "PASS",
+      "facility": "Bottle blow molding",
+      "view": "A_WIDE",
+      "object_count": 179
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\bottle_blow_molding_B_FUNCTIONAL.png",
+      "bytes": 686689,
+      "status": "PASS",
+      "facility": "Bottle blow molding",
+      "view": "B_FUNCTIONAL",
+      "object_count": 179
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\bottle_blow_molding_C_PROCESS_OR_DETAIL.png",
+      "bytes": 661884,
+      "status": "PASS",
+      "facility": "Bottle blow molding",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 179
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\caps_and_trigger_assembly_A_WIDE.png",
+      "bytes": 431204,
+      "status": "PASS",
+      "facility": "Caps and trigger assembly",
+      "view": "A_WIDE",
+      "object_count": 75
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\caps_and_trigger_assembly_B_FUNCTIONAL.png",
+      "bytes": 435406,
+      "status": "PASS",
+      "facility": "Caps and trigger assembly",
+      "view": "B_FUNCTIONAL",
+      "object_count": 75
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\chemical_compound_controlled_receiving_A_WIDE.png",
+      "bytes": 527495,
+      "status": "PASS",
+      "facility": "Chemical compound / controlled receiving",
+      "view": "A_WIDE",
+      "object_count": 15
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\chemical_compound_controlled_receiving_B_FUNCTIONAL.png",
+      "bytes": 589995,
+      "status": "PASS",
+      "facility": "Chemical compound / controlled receiving",
+      "view": "B_FUNCTIONAL",
+      "object_count": 15
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\daycare_cr_che_A_WIDE.png",
+      "bytes": 573524,
+      "status": "PASS",
+      "facility": "Daycare / cr\u00e8che",
+      "view": "A_WIDE",
+      "object_count": 79
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\daycare_cr_che_B_FUNCTIONAL.png",
+      "bytes": 709593,
+      "status": "PASS",
+      "facility": "Daycare / cr\u00e8che",
+      "view": "B_FUNCTIONAL",
+      "object_count": 79
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\etp_water_treatment_A_WIDE.png",
+      "bytes": 701264,
+      "status": "PASS",
+      "facility": "ETP / water treatment",
+      "view": "A_WIDE",
+      "object_count": 42
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\etp_water_treatment_B_FUNCTIONAL.png",
+      "bytes": 627336,
+      "status": "PASS",
+      "facility": "ETP / water treatment",
+      "view": "B_FUNCTIONAL",
+      "object_count": 42
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\etp_water_treatment_C_PROCESS_OR_DETAIL.png",
+      "bytes": 575166,
+      "status": "PASS",
+      "facility": "ETP / water treatment",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 42
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\electrical_lv_mv_room_A_WIDE.png",
+      "bytes": 528968,
+      "status": "PASS",
+      "facility": "Electrical / LV-MV room",
+      "view": "A_WIDE",
+      "object_count": 30
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\electrical_lv_mv_room_B_FUNCTIONAL.png",
+      "bytes": 558774,
+      "status": "PASS",
+      "facility": "Electrical / LV-MV room",
+      "view": "B_FUNCTIONAL",
+      "object_count": 30
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\employee_changing_shower_locker_support_A_WIDE.png",
+      "bytes": 530029,
+      "status": "PASS",
+      "facility": "Employee changing / shower / locker support",
+      "view": "A_WIDE",
+      "object_count": 59
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\employee_changing_shower_locker_support_B_FUNCTIONAL.png",
+      "bytes": 602151,
+      "status": "PASS",
+      "facility": "Employee changing / shower / locker support",
+      "view": "B_FUNCTIONAL",
+      "object_count": 59
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\finished_goods_warehouse_dispatch_A_WIDE.png",
+      "bytes": 760937,
+      "status": "PASS",
+      "facility": "Finished goods warehouse / dispatch",
+      "view": "A_WIDE",
+      "object_count": 292
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\finished_goods_warehouse_dispatch_B_FUNCTIONAL.png",
+      "bytes": 704259,
+      "status": "PASS",
+      "facility": "Finished goods warehouse / dispatch",
+      "view": "B_FUNCTIONAL",
+      "object_count": 292
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\finished_goods_warehouse_dispatch_C_PROCESS_OR_DETAIL.png",
+      "bytes": 728423,
+      "status": "PASS",
+      "facility": "Finished goods warehouse / dispatch",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 292
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\fire_pump_house_A_WIDE.png",
+      "bytes": 625972,
+      "status": "PASS",
+      "facility": "Fire pump house",
+      "view": "A_WIDE",
+      "object_count": 69
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\fire_pump_house_B_FUNCTIONAL.png",
+      "bytes": 655032,
+      "status": "PASS",
+      "facility": "Fire pump house",
+      "view": "B_FUNCTIONAL",
+      "object_count": 69
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\fire_pump_house_C_PROCESS_OR_DETAIL.png",
+      "bytes": 628015,
+      "status": "PASS",
+      "facility": "Fire pump house",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 69
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\glass_deck_central_command_training_caf_gallery_A_WIDE.png",
+      "bytes": 589701,
+      "status": "PASS",
+      "facility": "Glass Deck central command / training / caf\u00e9 gallery",
+      "view": "A_WIDE",
+      "object_count": 187
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\glass_deck_central_command_training_caf_gallery_B_FUNCTIONAL.png",
+      "bytes": 576597,
+      "status": "PASS",
+      "facility": "Glass Deck central command / training / caf\u00e9 gallery",
+      "view": "B_FUNCTIONAL",
+      "object_count": 187
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\glass_deck_central_command_training_caf_gallery_C_PROCESS_OR_DETAIL.png",
+      "bytes": 504897,
+      "status": "PASS",
+      "facility": "Glass Deck central command / training / caf\u00e9 gallery",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 187
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\liquid_filling_packaging_A_WIDE.png",
+      "bytes": 683447,
+      "status": "PASS",
+      "facility": "Liquid filling / packaging",
+      "view": "A_WIDE",
+      "object_count": 199
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\liquid_filling_packaging_B_FUNCTIONAL.png",
+      "bytes": 679827,
+      "status": "PASS",
+      "facility": "Liquid filling / packaging",
+      "view": "B_FUNCTIONAL",
+      "object_count": 199
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\liquid_filling_packaging_C_PROCESS_OR_DETAIL.png",
+      "bytes": 649865,
+      "status": "PASS",
+      "facility": "Liquid filling / packaging",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 199
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\micro_ingredient_weigh_dispense_A_WIDE.png",
+      "bytes": 424812,
+      "status": "PASS",
+      "facility": "Micro-ingredient weigh / dispense",
+      "view": "A_WIDE",
+      "object_count": 42
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\micro_ingredient_weigh_dispense_B_FUNCTIONAL.png",
+      "bytes": 438666,
+      "status": "PASS",
+      "facility": "Micro-ingredient weigh / dispense",
+      "view": "B_FUNCTIONAL",
+      "object_count": 42
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\occupational_health_first_aid_A_WIDE.png",
+      "bytes": 685532,
+      "status": "PASS",
+      "facility": "Occupational health / first aid",
+      "view": "A_WIDE",
+      "object_count": 43
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\occupational_health_first_aid_B_FUNCTIONAL.png",
+      "bytes": 578431,
+      "status": "PASS",
+      "facility": "Occupational health / first aid",
+      "view": "B_FUNCTIONAL",
+      "object_count": 43
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\occupational_health_first_aid_C_PROCESS_OR_DETAIL.png",
+      "bytes": 614830,
+      "status": "PASS",
+      "facility": "Occupational health / first aid",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 43
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\packaging_warehouse_A_WIDE.png",
+      "bytes": 517957,
+      "status": "PASS",
+      "facility": "Packaging warehouse",
+      "view": "A_WIDE",
+      "object_count": 170
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\packaging_warehouse_B_FUNCTIONAL.png",
+      "bytes": 640679,
+      "status": "PASS",
+      "facility": "Packaging warehouse",
+      "view": "B_FUNCTIONAL",
+      "object_count": 170
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\powder_handling_packing_A_WIDE.png",
+      "bytes": 469531,
+      "status": "PASS",
+      "facility": "Powder handling / packing",
+      "view": "A_WIDE",
+      "object_count": 28
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\powder_handling_packing_B_FUNCTIONAL.png",
+      "bytes": 544021,
+      "status": "PASS",
+      "facility": "Powder handling / packing",
+      "view": "B_FUNCTIONAL",
+      "object_count": 28
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\production_hall_wet_processing_process_core_A_WIDE.png",
+      "bytes": 424077,
+      "status": "PASS",
+      "facility": "Production Hall / Wet Processing / process core",
+      "view": "A_WIDE",
+      "object_count": 64
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\production_hall_wet_processing_process_core_B_FUNCTIONAL.png",
+      "bytes": 453554,
+      "status": "PASS",
+      "facility": "Production Hall / Wet Processing / process core",
+      "view": "B_FUNCTIONAL",
+      "object_count": 64
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\raw_material_warehouse_receiving_A_WIDE.png",
+      "bytes": 767253,
+      "status": "PASS",
+      "facility": "Raw material warehouse / receiving",
+      "view": "A_WIDE",
+      "object_count": 372
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\raw_material_warehouse_receiving_B_FUNCTIONAL.png",
+      "bytes": 721652,
+      "status": "PASS",
+      "facility": "Raw material warehouse / receiving",
+      "view": "B_FUNCTIONAL",
+      "object_count": 372
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\raw_material_warehouse_receiving_C_PROCESS_OR_DETAIL.png",
+      "bytes": 605396,
+      "status": "PASS",
+      "facility": "Raw material warehouse / receiving",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 372
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\restaurant_povu_caf_kitchen_A_WIDE.png",
+      "bytes": 739242,
+      "status": "PASS",
+      "facility": "Restaurant / POVU Caf\u00e9 / kitchen",
+      "view": "A_WIDE",
+      "object_count": 143
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\restaurant_povu_caf_kitchen_B_FUNCTIONAL.png",
+      "bytes": 674688,
+      "status": "PASS",
+      "facility": "Restaurant / POVU Caf\u00e9 / kitchen",
+      "view": "B_FUNCTIONAL",
+      "object_count": 143
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\restaurant_povu_caf_kitchen_C_PROCESS_OR_DETAIL.png",
+      "bytes": 653553,
+      "status": "PASS",
+      "facility": "Restaurant / POVU Caf\u00e9 / kitchen",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 143
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\security_reception_visitor_arrival_A_WIDE.png",
+      "bytes": 446095,
+      "status": "PASS",
+      "facility": "Security / reception / visitor arrival",
+      "view": "A_WIDE",
+      "object_count": 31
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\security_reception_visitor_arrival_B_FUNCTIONAL.png",
+      "bytes": 499455,
+      "status": "PASS",
+      "facility": "Security / reception / visitor arrival",
+      "view": "B_FUNCTIONAL",
+      "object_count": 31
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\security_gatehouse_A_WIDE.png",
+      "bytes": 457595,
+      "status": "PASS",
+      "facility": "Security gatehouse",
+      "view": "A_WIDE",
+      "object_count": 16
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\security_gatehouse_B_FUNCTIONAL.png",
+      "bytes": 529497,
+      "status": "PASS",
+      "facility": "Security gatehouse",
+      "view": "B_FUNCTIONAL",
+      "object_count": 16
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\toothpaste_production_A_WIDE.png",
+      "bytes": 701463,
+      "status": "PASS",
+      "facility": "Toothpaste production",
+      "view": "A_WIDE",
+      "object_count": 171
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\toothpaste_production_B_FUNCTIONAL.png",
+      "bytes": 644951,
+      "status": "PASS",
+      "facility": "Toothpaste production",
+      "view": "B_FUNCTIONAL",
+      "object_count": 171
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\toothpaste_production_C_PROCESS_OR_DETAIL.png",
+      "bytes": 661237,
+      "status": "PASS",
+      "facility": "Toothpaste production",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 171
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\training_academy_A_WIDE.png",
+      "bytes": 468029,
+      "status": "PASS",
+      "facility": "Training / Academy",
+      "view": "A_WIDE",
+      "object_count": 26
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\training_academy_B_FUNCTIONAL.png",
+      "bytes": 541928,
+      "status": "PASS",
+      "facility": "Training / Academy",
+      "view": "B_FUNCTIONAL",
+      "object_count": 26
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\utilities_engineering_A_WIDE.png",
+      "bytes": 677932,
+      "status": "PASS",
+      "facility": "Utilities / engineering",
+      "view": "A_WIDE",
+      "object_count": 45
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\utilities_engineering_B_FUNCTIONAL.png",
+      "bytes": 583485,
+      "status": "PASS",
+      "facility": "Utilities / engineering",
+      "view": "B_FUNCTIONAL",
+      "object_count": 45
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\utilities_engineering_C_PROCESS_OR_DETAIL.png",
+      "bytes": 622555,
+      "status": "PASS",
+      "facility": "Utilities / engineering",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 45
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\wellness_recreation_A_WIDE.png",
+      "bytes": 499718,
+      "status": "PASS",
+      "facility": "Wellness / recreation",
+      "view": "A_WIDE",
+      "object_count": 17
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\wellness_recreation_B_FUNCTIONAL.png",
+      "bytes": 579534,
+      "status": "PASS",
+      "facility": "Wellness / recreation",
+      "view": "B_FUNCTIONAL",
+      "object_count": 17
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\wet_wipes_production_A_WIDE.png",
+      "bytes": 718423,
+      "status": "PASS",
+      "facility": "Wet wipes production",
+      "view": "A_WIDE",
+      "object_count": 161
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\wet_wipes_production_B_FUNCTIONAL.png",
+      "bytes": 671687,
+      "status": "PASS",
+      "facility": "Wet wipes production",
+      "view": "B_FUNCTIONAL",
+      "object_count": 161
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\qa\\wet_wipes_production_C_PROCESS_OR_DETAIL.png",
+      "bytes": 699555,
+      "status": "PASS",
+      "facility": "Wet wipes production",
+      "view": "C_PROCESS_OR_DETAIL",
+      "object_count": 161
+    }
+  ]
+}

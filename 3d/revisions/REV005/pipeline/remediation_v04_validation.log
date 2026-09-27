@@ -1,0 +1,277 @@
+00:01.578  blend            | Read blend: "C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\revisions\REV005\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend"
+BlenderMCP addon registered
+{
+  "status": "AWAITING_GPT_REMEDIATION_AUDIT_V04",
+  "revision": "REV005",
+  "scope": "visual_completion_remediation_and_26_group_campus_wide_sweep",
+  "locked_gpt_criteria_untouched": true,
+  "focused_remediation": {
+    "target_count": 13,
+    "closed_count": 13,
+    "three_proofs_each": true,
+    "targets": {
+      "Administration / HQ / R&D / QC": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Bottle blow molding": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Liquid filling / packaging": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Toothpaste production": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Wet wipes production": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Glass Deck central command / training / caf\u00e9 gallery": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Restaurant / POVU Caf\u00e9 / kitchen": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Finished goods warehouse / dispatch": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Raw material warehouse / receiving": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "ETP / water treatment": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Fire pump house": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Occupational health / first aid": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      },
+      "Utilities / engineering": {
+        "proofs": 3,
+        "status": "READY_FOR_GPT_REVIEW"
+      }
+    }
+  },
+  "campus_wide_visual_completion_sweep": {
+    "canonical_group_count": 26,
+    "required_render_count": 65,
+    "actual_render_count": 65,
+    "all_26_A_B_proofs": true,
+    "all_13_C_proofs": true,
+    "readiness_count": "26/26",
+    "index": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\CAMPUS_26_GROUP_VISUAL_COMPLETION_INDEX.md",
+    "matrix": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v04\\REV005_V04_26_GROUP_VISUAL_ACCEPTANCE_MATRIX.md"
+  },
+  "regression": {
+    "all_26_present": true,
+    "previous_geometry_collection_present": true,
+    "v04_collection_present": true,
+    "v04_added_object_count": 1064,
+    "groups": {
+      "Administration / HQ / R&D / QC": {
+        "baseline_count": 74,
+        "present_count": 74,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Bottle blow molding": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Caps and trigger assembly": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Chemical compound / controlled receiving": {
+        "baseline_count": 17,
+        "present_count": 17,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Daycare / cr\u00e8che": {
+        "baseline_count": 42,
+        "present_count": 42,
+        "missing": [],
+        "status": "PASS"
+      },
+      "ETP / water treatment": {
+        "baseline_count": 11,
+        "present_count": 11,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Electrical / LV-MV room": {
+        "baseline_count": 8,
+        "present_count": 8,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Employee changing / shower / locker support": {
+        "baseline_count": 10,
+        "present_count": 10,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Finished goods warehouse / dispatch": {
+        "baseline_count": 5,
+        "present_count": 5,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Fire pump house": {
+        "baseline_count": 12,
+        "present_count": 12,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Glass Deck central command / training / caf\u00e9 gallery": {
+        "baseline_count": 28,
+        "present_count": 28,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Liquid filling / packaging": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Micro-ingredient weigh / dispense": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Occupational health / first aid": {
+        "baseline_count": 20,
+        "present_count": 20,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Packaging warehouse": {
+        "baseline_count": 171,
+        "present_count": 171,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Powder handling / packing": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Production Hall / Wet Processing / process core": {
+        "baseline_count": 7,
+        "present_count": 7,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Raw material warehouse / receiving": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Restaurant / POVU Caf\u00e9 / kitchen": {
+        "baseline_count": 66,
+        "present_count": 66,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Security / reception / visitor arrival": {
+        "baseline_count": 15,
+        "present_count": 15,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Security gatehouse": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Toothpaste production": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Training / Academy": {
+        "baseline_count": 27,
+        "present_count": 27,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Utilities / engineering": {
+        "baseline_count": 14,
+        "present_count": 14,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Wellness / recreation": {
+        "baseline_count": 18,
+        "present_count": 18,
+        "missing": [],
+        "status": "PASS"
+      },
+      "Wet wipes production": {
+        "baseline_count": 9,
+        "present_count": 9,
+        "missing": [],
+        "status": "PASS"
+      }
+    }
+  },
+  "owner_corrections": {
+    "hands_of_growth_objects": 27,
+    "trees_present": {
+      "TREE_CANOPY": false,
+      "TREE_CANOPY001": false,
+      "TREE_CANOPY002": false,
+      "TREE_TRUNK": false,
+      "TREE_CANOPY003": false,
+      "TREE_CANOPY004": false,
+      "TREE_CANOPY005": false,
+      "TREE_TRUNK001": false
+    },
+    "specified_trees_absent": true,
+    "living_wall_backing": true,
+    "vip_reception_objects": 13
+  },
+  "scope_protection": {
+    "restricted_live_references": 0,
+    "no_hiveai": true,
+    "no_REV006_created": true,
+    "no_v04_tour_video": true,
+    "rev004_unchanged": true
+  },
+  "hashes": {
+    "v03_blend_before": "9E9A63A2D7AAFA5667CD0A41DFDE746CB2F2A7751F29DAB259CA30E8A99A238F",
+    "v04_blend_final": "EC1B7ABDB86A8FCF1443E780497B49FDDD4268B57EC48106D6D2FDB2D00008BB",
+    "v03_glb_before": "9AC05E7E9D286EB16FB88C2CD6DC30715B8892CF91FCE8AEF9AB52ED94FCF12C",
+    "v04_glb_final": "5BFD2590AC73EF7D02479FBEE29880EB492FF207247F4E8BAB90C79D60131D07",
+    "rev004_frozen_glb": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA"
+  },
+  "stop_gate": "AWAITING_GPT_REMEDIATION_AUDIT_V04",
+  "prevalidation_pass": true
+}
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

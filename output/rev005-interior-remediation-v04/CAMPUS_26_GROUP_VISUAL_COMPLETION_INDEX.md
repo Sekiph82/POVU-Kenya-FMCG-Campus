@@ -1,0 +1,32 @@
+# REV005 V04 Campus 26-Group Visual Completion Index
+
+Codex QA index only. All evidence is unlabeled, image-first, and marked `READY_FOR_GPT_REVIEW`; independent GPT acceptance remains pending.
+
+| Facility group | A wide | B functional | C process/detail | Status |
+|---|---|---|---|---|
+| Administration / HQ / R&D / QC | [evidence](qa/administration_hq_r_d_qc_A_WIDE.png) | [evidence](qa/administration_hq_r_d_qc_B_FUNCTIONAL.png) | [evidence](qa/administration_hq_r_d_qc_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Bottle blow molding | [evidence](qa/bottle_blow_molding_A_WIDE.png) | [evidence](qa/bottle_blow_molding_B_FUNCTIONAL.png) | [evidence](qa/bottle_blow_molding_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Caps and trigger assembly | [evidence](qa/caps_and_trigger_assembly_A_WIDE.png) | [evidence](qa/caps_and_trigger_assembly_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Chemical compound / controlled receiving | [evidence](qa/chemical_compound_controlled_receiving_A_WIDE.png) | [evidence](qa/chemical_compound_controlled_receiving_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Daycare / crèche | [evidence](qa/daycare_cr_che_A_WIDE.png) | [evidence](qa/daycare_cr_che_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| ETP / water treatment | [evidence](qa/etp_water_treatment_A_WIDE.png) | [evidence](qa/etp_water_treatment_B_FUNCTIONAL.png) | [evidence](qa/etp_water_treatment_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Electrical / LV-MV room | [evidence](qa/electrical_lv_mv_room_A_WIDE.png) | [evidence](qa/electrical_lv_mv_room_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Employee changing / shower / locker support | [evidence](qa/employee_changing_shower_locker_support_A_WIDE.png) | [evidence](qa/employee_changing_shower_locker_support_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Finished goods warehouse / dispatch | [evidence](qa/finished_goods_warehouse_dispatch_A_WIDE.png) | [evidence](qa/finished_goods_warehouse_dispatch_B_FUNCTIONAL.png) | [evidence](qa/finished_goods_warehouse_dispatch_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Fire pump house | [evidence](qa/fire_pump_house_A_WIDE.png) | [evidence](qa/fire_pump_house_B_FUNCTIONAL.png) | [evidence](qa/fire_pump_house_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Glass Deck central command / training / café gallery | [evidence](qa/glass_deck_central_command_training_caf_gallery_A_WIDE.png) | [evidence](qa/glass_deck_central_command_training_caf_gallery_B_FUNCTIONAL.png) | [evidence](qa/glass_deck_central_command_training_caf_gallery_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Liquid filling / packaging | [evidence](qa/liquid_filling_packaging_A_WIDE.png) | [evidence](qa/liquid_filling_packaging_B_FUNCTIONAL.png) | [evidence](qa/liquid_filling_packaging_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Micro-ingredient weigh / dispense | [evidence](qa/micro_ingredient_weigh_dispense_A_WIDE.png) | [evidence](qa/micro_ingredient_weigh_dispense_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Occupational health / first aid | [evidence](qa/occupational_health_first_aid_A_WIDE.png) | [evidence](qa/occupational_health_first_aid_B_FUNCTIONAL.png) | [evidence](qa/occupational_health_first_aid_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Packaging warehouse | [evidence](qa/packaging_warehouse_A_WIDE.png) | [evidence](qa/packaging_warehouse_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Powder handling / packing | [evidence](qa/powder_handling_packing_A_WIDE.png) | [evidence](qa/powder_handling_packing_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Production Hall / Wet Processing / process core | [evidence](qa/production_hall_wet_processing_process_core_A_WIDE.png) | [evidence](qa/production_hall_wet_processing_process_core_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Raw material warehouse / receiving | [evidence](qa/raw_material_warehouse_receiving_A_WIDE.png) | [evidence](qa/raw_material_warehouse_receiving_B_FUNCTIONAL.png) | [evidence](qa/raw_material_warehouse_receiving_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Restaurant / POVU Café / kitchen | [evidence](qa/restaurant_povu_caf_kitchen_A_WIDE.png) | [evidence](qa/restaurant_povu_caf_kitchen_B_FUNCTIONAL.png) | [evidence](qa/restaurant_povu_caf_kitchen_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Security / reception / visitor arrival | [evidence](qa/security_reception_visitor_arrival_A_WIDE.png) | [evidence](qa/security_reception_visitor_arrival_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Security gatehouse | [evidence](qa/security_gatehouse_A_WIDE.png) | [evidence](qa/security_gatehouse_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Toothpaste production | [evidence](qa/toothpaste_production_A_WIDE.png) | [evidence](qa/toothpaste_production_B_FUNCTIONAL.png) | [evidence](qa/toothpaste_production_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Training / Academy | [evidence](qa/training_academy_A_WIDE.png) | [evidence](qa/training_academy_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Utilities / engineering | [evidence](qa/utilities_engineering_A_WIDE.png) | [evidence](qa/utilities_engineering_B_FUNCTIONAL.png) | [evidence](qa/utilities_engineering_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
+| Wellness / recreation | [evidence](qa/wellness_recreation_A_WIDE.png) | [evidence](qa/wellness_recreation_B_FUNCTIONAL.png) | — | READY_FOR_GPT_REVIEW |
+| Wet wipes production | [evidence](qa/wet_wipes_production_A_WIDE.png) | [evidence](qa/wet_wipes_production_B_FUNCTIONAL.png) | [evidence](qa/wet_wipes_production_C_PROCESS_OR_DETAIL.png) | READY_FOR_GPT_REVIEW |
