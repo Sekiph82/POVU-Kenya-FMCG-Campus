@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.07
-- Current Task: M08.07 — REV005 Interior Remediation V04 campus-wide visual completion
+- Current Sprint: M08.10
+- Current Task: M08.10 — REV005 Interior Remediation V05 architectural + process completion
 - Current Task Status: ACTIVE
-- Next Task/Action: Execute the V04 Codex prompt, complete the 26-group visual-completion remediation and QA package, then stop at AWAITING_GPT_REMEDIATION_AUDIT_V04 for independent GPT image audit.
+- Next Task/Action: Execute the V05 Codex prompt, remediate the V04 independent-audit failures with real architectural enclosure/process specificity and human-scale QA, then stop at AWAITING_GPT_REMEDIATION_AUDIT_V05.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -20,9 +20,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 
 ## Blockers/Waits
 
-- M08.07 is required because the independent V03 visual audit found that 26/26 facility presence still did not prove 26/26 fully modeled interiors.
-- M08.08 cannot start until Codex completes V04 and publishes the new QA package/log.
-- M08.09 REV005 freeze cannot occur until GPT gives full visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient for the "complete interiors" claim.
+- M08.10 is required because the independent V04 visual audit found only 3/26 groups at full visual PASS; 20 groups still looked incomplete/generic and 3 additional groups failed mainly because V04 evidence was too distant to verify stronger existing geometry.
+- M08.11 cannot start until Codex completes V05 and publishes the new QA package/log.
+- M08.09 REV005 freeze cannot occur until M08.11 gives full GPT visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient for the "complete interiors" claim.
 - M09 final REV005 tour work is intentionally blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables and must not be modified while REV005 is being completed.
 - The approved R03/R04 persistent-camera/global-clock system is the mandatory camera baseline for any future REV005 tour.
@@ -66,7 +66,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
   - Blend: `9E9A63A2D7AAFA5667CD0A41DFDE746CB2F2A7751F29DAB259CA30E8A99A238F`
   - GLB: `9AC05E7E9D286EB16FB88C2CD6DC30715B8892CF91FCE8AEF9AB52ED94FCF12C`
 - V03 technically reported 7/7 focused and 26/26 sweep, but independent image audit returned REMEDIATION_REQUIRED because multiple spaces still read as schematic/blockout/generic rather than complete interiors.
-- The decisive acceptance standard for REV005 is now label-blind visual completeness, not object count, group presence, filename, report text, or validation JSON.
+- V04 Codex commit `77fea58539ff74f37a177d991e6c32f0ee80a140` produced 65 QA renders and 26/26 readiness. Reported final hashes: Blend `EC1B7ABDB86A8FCF1443E780497B49FDDD4268B57EC48106D6D2FDB2D00008BB`; GLB `5BFD2590AC73EF7D02479FBEE29880EB492FF207247F4E8BAB90C79D60131D07`.
+- Independent GPT V04 image audit result: REMEDIATION_REQUIRED. Only Daycare / Crèche, Electrical / LV-MV, and Employee Changing / Shower / Locker Support achieved full visual PASS. Caps/Trigger, Micro-Weigh and Wet Processing primarily failed the V04 evidence/framing gate; most other groups still failed actual completion/identity.
+- The decisive acceptance standard for REV005 remains label-blind visual completeness, not object count, group presence, filename, report text, or validation JSON.
 
 ## Tasks
 
@@ -235,20 +237,34 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Remaining weak/failing examples included Bottle Blow Molding, Liquid Filling, Toothpaste, Wet Wipes, Glass Deck Command/Training/Café, Restaurant/Café/Kitchen, Finished Goods, Raw Material, ETP, Fire Pump House, Occupational Health, Utilities, and weak Admin/HQ/R&D/QC proof.
   - Core finding: Codex continued to conflate group presence with finished-interior visual completeness.
 
-- [~] M08.07 — REV005 Interior Remediation V04 campus-wide visual completion
-  - Current execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V04_GPT_PROMPT.md`.
-  - Locked audit criteria: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V04_GPT_AUDIT_CRITERIA.md`.
-  - Goal: close all remaining visual-completion gaps across all 26 groups, with heightened focus on the V03 weak areas.
-  - Acceptance principle: if labels/filenames/metadata disappear, the facility/process must still be understandable from the image.
-  - Codex must stop at `AWAITING_GPT_REMEDIATION_AUDIT_V04` and must not mark this task complete.
+- [x] M08.07 — REV005 Interior Remediation V04 campus-wide visual completion
+  - Execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V04_GPT_PROMPT.md`.
+  - Codex commit: `77fea58539ff74f37a177d991e6c32f0ee80a140`.
+  - Codex package: 26/26 readiness, 65 QA renders, 13 complex groups with C-process/detail proof, no tour/REV006/.hiveai creation, REV004 reported unchanged.
+  - Result: execution package completed and handed off for independent audit.
 
-- [ ] M08.08 — Independent GPT V04 26-group visual audit
-  - Required evidence: V04 QA folder, 26-group acceptance matrix/contact sheet, report, validation, canonical hashes and Codex log.
-  - Closure rule: full PASS requires 26/26 visual completeness plus regression/source-protection gates.
+- [x] M08.08 — Independent GPT V04 26-group visual audit
+  - Audit artifact: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V04_GPT_AUDIT.md`.
+  - Result: REMEDIATION_REQUIRED.
+  - Full PASS: 3/26 (Daycare / Crèche; Electrical / LV-MV; Employee Changing / Shower / Locker Support).
+  - Evidence-primary failures: Caps/Trigger Assembly, Micro-ingredient Weigh/Dispense, Wet Processing.
+  - Remaining groups failed the complete-interior / facility-identity / architectural-enclosure / process-specificity gate to varying degrees.
+  - REV005 therefore remains unfrozen and M09 stays blocked.
+
+- [~] M08.10 — REV005 Interior Remediation V05 architectural + process completion
+  - Current execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V05_GPT_PROMPT.md`.
+  - Locked audit criteria: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V05_GPT_AUDIT_CRITERIA.md`.
+  - Strategy change: triage geometry-vs-evidence first; build actual interior envelopes/zoning for occupied spaces; build facility-specific process relationships for industrial spaces; use human-scale QA framing.
+  - Preserve the three V04 full-PASS groups and reframe evidence-only groups before rebuilding them.
+  - Codex must stop at `AWAITING_GPT_REMEDIATION_AUDIT_V05` and must not self-promote this task.
+
+- [ ] M08.11 — Independent GPT V05 26-group visual audit
+  - Required evidence: V05 QA, triage matrix, 26-group visual acceptance matrix/contact sheets, report, validation, hashes and Codex log.
+  - Closure rule: full PASS requires 26/26 visual completeness, 0 unresolved evidence failures and all source/regression gates passing.
   - PASS_WITH_FINDINGS does not freeze REV005.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
-  - Dependency: M08.08 full PASS.
+  - Dependency: M08.11 full PASS.
   - Required owner check: key production lines, warehouses, people/support spaces, utilities, Hands of Growth/Living Wall/trees and overall digital-twin coherence.
   - On acceptance: record final Blend/GLB paths and SHA-256 hashes and freeze REV005 against casual edits.
 
@@ -311,6 +327,6 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
 
 - M00-M06 are complete historical foundation/planning packages.
 - M07 is complete and contains the owner-approved R03 camera system plus the owner-usable R04 470-second tour.
-- M08 is the active milestone. V01-V03 execution/review cycles are complete history, but REV005 is not yet frozen because the V03 independent visual audit found remaining incomplete/generic interiors.
-- M08.07 V04 is the current task and is designed to replace presence/object-count validation with true 26-group visual-completion acceptance.
-- M09-M11 are planned future work and remain blocked/planned until REV005 itself is independently and owner-accepted.
+- M08 is the active milestone. V01-V04 execution/review cycles are complete history; each successive pass improved the model, but V04 still failed the independent complete-interior visual gate.
+- M08.10 V05 is the current task. It changes method from object-population to architectural enclosure + process-specific completion + human-scale evidence.
+- M09-M11 are planned future work and remain blocked/planned until REV005 itself receives full GPT visual PASS and owner acceptance.
