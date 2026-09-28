@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.12
-- Current Task: M08.12 — REV005 Interior Remediation V06 true interior completion + provenance fix
+- Current Sprint: M08.14
+- Current Task: M08.14 — REV005 Interior Remediation V07 visibility-integration root-cause closure
 - Current Task Status: ACTIVE
-- Next Task/Action: Execute the V06 Codex prompt, preserve the 6 V05 visual-PASS groups, remediate the remaining 20 groups to the locked enclosure/process standards, fix immutable before/after hash provenance, then stop at AWAITING_GPT_REMEDIATION_AUDIT_V06.
+- Next Task/Action: Execute the V07 visibility/integration diagnostic first, then correct only the proven root causes for the 20 V06-failing groups, preserve the 6 PASS groups, and stop at AWAITING_GPT_REMEDIATION_AUDIT_V07.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -20,9 +20,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 
 ## Blockers/Waits
 
-- M08.12 is required because the independent V05 audit reached only 6/26 visual PASS; 20 groups still fail enclosure, facility identity, warehouse differentiation, process specificity, or utilities/support specificity.
-- V05 also exposed an artifact-provenance defect: its validation JSON overwrote the V04-before hash fields with the V05-final hashes even though the Codex log/report retained the correct values.
-- M08.13 cannot start until Codex completes V06 and publishes the 72-render QA package, immutable baseline hash record, validation and log.
+- M08.14 is required because the independent V06 audit still reached only 6/26 visual PASS. V06 fixed provenance but the newly added detail is not materially visible/useful in many QA views, so V07 first diagnoses collection/render/transform/occlusion/camera/export integration before adding more geometry.
+- The V05 provenance defect was successfully fixed in V06 with an immutable baseline file; V07 must preserve that corrected provenance discipline.
+- M08.15 cannot start until Codex completes V07 and publishes the visibility diagnostic, before/after matrix, corrected QA package, validation and log.
 - M08.09 REV005 freeze cannot occur until M08.13 gives full GPT visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient for the "complete interiors" claim.
 - M09 final REV005 tour work is intentionally blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables and must not be modified while REV005 is being completed.
@@ -268,19 +268,22 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Fail: 20/26 due to incomplete architectural enclosure, generic process geometry, weak warehouse differentiation, insufficient utilities/support identity, or matrix-overclaim.
   - Additional integrity finding: V05 validation JSON before-hash fields were overwritten with V05-final values and conflict with the V05 log/report and verified V04 hashes.
 
-- [~] M08.12 — REV005 Interior Remediation V06 true interior completion + provenance fix
+- [x] M08.12 — REV005 Interior Remediation V06 true interior completion + provenance fix
   - Current execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V06_GPT_PROMPT.md`.
   - Locked audit criteria: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V06_GPT_AUDIT_CRITERIA.md`.
   - Preserve the six V05 PASS groups.
   - Remediate the 20 remaining groups with real facility-specific architecture/process geometry rather than generic colored primitives.
   - Mandatory provenance fix: capture V05-final Blend/GLB hashes into immutable `V06_BASELINE_HASHES.json` before mutation and never overwrite the before fields.
   - Expected minimum QA: 72 unlabeled human/process-scale renders.
-  - Codex must stop at `AWAITING_GPT_REMEDIATION_AUDIT_V06` and must not self-promote this task.
+  - Codex stopped correctly at `AWAITING_GPT_REMEDIATION_AUDIT_V06`.
+  - V06 fixed immutable before/after provenance successfully and produced 72/72 QA renders, but visual acceptance remained 6/26.
 
-- [ ] M08.13 — Independent GPT V06 26-group visual + provenance audit
-  - Required evidence: 72+ V06 QA renders, contact sheets, acceptance matrix, immutable baseline hash file, report, validation and Codex log.
-  - Closure rule: 26/26 visual PASS, 0 enclosure/process/identity/evidence failures, and truthful before/after provenance.
-  - Only full PASS permits owner freeze.
+- [x] M08.13 — Independent GPT V06 26-group visual + provenance audit
+  - Audit artifact: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V06_GPT_AUDIT.md`.
+  - Result: `REMEDIATION_REQUIRED`.
+  - Provenance/source-protection gates passed, and the six V05 PASS groups remained accepted.
+  - Visual result remained 6/26 PASS; all 20 V06 remediation groups still failed the final visual-completeness gate to varying degrees.
+  - Root cause direction: diagnose why V06-added geometry is hidden, occluded, off-camera, disconnected, render-disabled, export-missing, or visually swallowed by old proxy geometry before adding further objects.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: M08.13 full PASS.
@@ -347,5 +350,5 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
 - M00-M06 are complete historical foundation/planning packages.
 - M07 is complete and contains the owner-approved R03 camera system plus the owner-usable R04 470-second tour.
 - M08 is the active milestone. V01-V04 execution/review cycles are complete history; each successive pass improved the model, but V04 still failed the independent complete-interior visual gate.
-- M08.10 V05 is the current task. It changes method from object-population to architectural enclosure + process-specific completion + human-scale evidence.
+- M08.14 V07 is the current task. It changes method again: first diagnose why the V06 detail is not materially visible, then fix visibility/integration/camera/proxy/export root causes before selective remodeling.
 - M09-M11 are planned future work and remain blocked/planned until REV005 itself receives full GPT visual PASS and owner acceptance.
