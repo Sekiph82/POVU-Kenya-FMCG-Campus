@@ -1,0 +1,20 @@
+{
+  "status": "BUILT",
+  "revision": "REV005",
+  "task": "M08.12",
+  "collection": "REV005_INTERIOR_REMEDIATION_V06",
+  "preserved_v05_pass_group_count": 6,
+  "remediated_group_count": 20,
+  "object_count": 1950,
+  "baseline_file": "output/rev005-interior-remediation-v06/V06_BASELINE_HASHES.json",
+  "before_blend_sha256": "B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6",
+  "before_glb_sha256": "1BF506A0EF8ADAF73D20CADAAD151258E293929440FFE681AC6A2ABD21CE4D20",
+  "after_blend_sha256": "393B2CEE1523D5CEDFB28E53D081C57C78223021355B12EC6617C223CD2B96DD",
+  "after_glb_sha256": "8C669893EEF13D0EC01103E5532C361FDEE5FB85AC2D11FE21D8A8F4D2B16089",
+  "blend": "3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "glb": "3d/revisions/REV005/POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+  "no_hiveai": true,
+  "no_rev006": true,
+  "no_tour": true,
+  "stop_gate": "AWAITING_GPT_REMEDIATION_AUDIT_V06"
+}

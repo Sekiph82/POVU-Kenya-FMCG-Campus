@@ -1,0 +1,97 @@
+{
+  "status": "AWAITING_GPT_REMEDIATION_AUDIT_V06",
+  "revision": "REV005",
+  "task": "M08.12",
+  "scope": "true_interior_completion_with_geometry_vs_evidence_triage_and_immutable_provenance",
+  "locked_gpt_criteria_untouched": true,
+  "preserved_v05_pass_groups": [
+    "Caps and trigger assembly",
+    "Daycare / cr\u00e8che",
+    "Electrical / LV-MV room",
+    "Employee changing / shower / locker support",
+    "Fire pump house",
+    "Micro-ingredient weigh / dispense"
+  ],
+  "remediated_groups": [
+    "Administration / HQ / R&D / QC",
+    "Bottle blow molding",
+    "Chemical compound / controlled receiving",
+    "ETP / water treatment",
+    "Finished goods warehouse / dispatch",
+    "Glass Deck central command / training / caf\u00e9 gallery",
+    "Liquid filling / packaging",
+    "Occupational health / first aid",
+    "Packaging warehouse",
+    "Powder handling / packing",
+    "Production Hall / Wet Processing / process core",
+    "Raw material warehouse / receiving",
+    "Restaurant / POVU Caf\u00e9 / kitchen",
+    "Security / reception / visitor arrival",
+    "Security gatehouse",
+    "Toothpaste production",
+    "Training / Academy",
+    "Utilities / engineering",
+    "Wellness / recreation",
+    "Wet wipes production"
+  ],
+  "qa": {
+    "canonical_group_count": 26,
+    "preserved_group_count": 6,
+    "remediated_group_count": 20,
+    "render_count": 72,
+    "expected_render_count": 72,
+    "all_26_groups_present": true,
+    "expected_view_shape": true,
+    "all_views_nonempty": true,
+    "unlabeled": true,
+    "human_scale": true,
+    "readiness_count": "26/26",
+    "contact_sheets": [
+      "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v06\\CONTACT_SHEET_01.png",
+      "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v06\\CONTACT_SHEET_02.png",
+      "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v06\\CONTACT_SHEET_03.png"
+    ],
+    "index": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v06\\CAMPUS_26_GROUP_VISUAL_COMPLETION_INDEX.md",
+    "matrix": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v06\\REV005_V06_26_GROUP_VISUAL_ACCEPTANCE_MATRIX.md",
+    "triage": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v06\\REV005_V06_TRIAGE_MATRIX.md"
+  },
+  "artifact_provenance": {
+    "baseline_file": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo\\output\\rev005-interior-remediation-v06\\V06_BASELINE_HASHES.json",
+    "baseline_file_sha256": "6EA2B02E9884E26BB715909FF22B44B7871D5F50DB86F90E0B05E52AA357AF4F",
+    "before_blend_sha256": "B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6",
+    "before_glb_sha256": "1BF506A0EF8ADAF73D20CADAAD151258E293929440FFE681AC6A2ABD21CE4D20",
+    "final_blend_sha256": "393B2CEE1523D5CEDFB28E53D081C57C78223021355B12EC6617C223CD2B96DD",
+    "final_glb_sha256": "8C669893EEF13D0EC01103E5532C361FDEE5FB85AC2D11FE21D8A8F4D2B16089",
+    "before_values_match_expected_v05": true,
+    "before_values_not_overwritten": true
+  },
+  "regression": {
+    "v06_collection_present": true,
+    "v06_object_count": 1950,
+    "v04_collection_preserved": true,
+    "owner_hands_of_growth_objects": 27,
+    "trees_present": {
+      "TREE_CANOPY": false,
+      "TREE_CANOPY001": false,
+      "TREE_CANOPY002": false,
+      "TREE_TRUNK": false,
+      "TREE_CANOPY003": false,
+      "TREE_CANOPY004": false,
+      "TREE_CANOPY005": false,
+      "TREE_TRUNK001": false
+    },
+    "specified_trees_absent": true,
+    "living_wall_backing": true,
+    "vip_reception_objects": 13
+  },
+  "scope_protection": {
+    "restricted_live_references": 0,
+    "no_hiveai": true,
+    "no_REV006_created": true,
+    "no_owner_review_or_final_tour_video_in_v06": true,
+    "rev004_glb_sha256": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+    "rev004_unchanged_expected": true
+  },
+  "stop_gate": "AWAITING_GPT_REMEDIATION_AUDIT_V06",
+  "prevalidation_pass": true
+}
