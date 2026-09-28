@@ -1,0 +1,5535 @@
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "group_count": 20,
+  "glb": {
+    "status": "PASS",
+    "error": null,
+    "named_node_count": 8364,
+    "v06_object_count": 1950,
+    "v06_present_count": 1910,
+    "v06_missing_count": 40,
+    "missing_names": [
+      "V06_ADMIN_SOFFIT_-43.44",
+      "V06_ADMIN_SOFFIT_-72.56",
+      "V06_BOTTLE_SOFFIT_41.36",
+      "V06_BOTTLE_SOFFIT_62.64",
+      "V06_CHEMICAL_SOFFIT_45.92",
+      "V06_CHEMICAL_SOFFIT_66.08",
+      "V06_CLINIC_SOFFIT_-11.28",
+      "V06_CLINIC_SOFFIT_-24.72",
+      "V06_ETP_SOFFIT_118.64",
+      "V06_ETP_SOFFIT_97.36",
+      "V06_FG_SOFFIT_65.44",
+      "V06_FG_SOFFIT_94.56",
+      "V06_GATEHOUSE_SOFFIT_101.6",
+      "V06_GATEHOUSE_SOFFIT_90.4",
+      "V06_GLASS_DECK_SOFFIT_67.2",
+      "V06_GLASS_DECK_SOFFIT_72.8",
+      "V06_LIQUID_SOFFIT_-2.880000000000001",
+      "V06_LIQUID_SOFFIT_22.880000000000003",
+      "V06_PACK_SOFFIT_-26.240000000000002",
+      "V06_PACK_SOFFIT_6.240000000000002",
+      "V06_POWDER_SOFFIT_-37.92",
+      "V06_POWDER_SOFFIT_-58.08",
+      "V06_RAW_SOFFIT_-62.879999999999995",
+      "V06_RAW_SOFFIT_-93.12",
+      "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+      "V06_RESTAURANT_SOFFIT_17.6",
+      "V06_SECURITY_SOFFIT_-44.56",
+      "V06_SECURITY_SOFFIT_-71.44",
+      "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+      "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+      "V06_TRAINING_SOFFIT_22.72",
+      "V06_TRAINING_SOFFIT_37.28",
+      "V06_UTILITIES_SOFFIT_105.52",
+      "V06_UTILITIES_SOFFIT_86.48",
+      "V06_WELLNESS_SOFFIT_22.16",
+      "V06_WELLNESS_SOFFIT_37.84",
+      "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+      "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+      "V06_WIPES_SOFFIT_36.0",
+      "V06_WIPES_SOFFIT_7.999999999999998"
+    ]
+  },
+  "groups": [
+    {
+      "group": "Administration / HQ / R&D / QC",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 81,
+      "affected_v06_object_names": [
+        "V06_ADMIN_BACK",
+        "V06_ADMIN_COLLAB_CHAIR_0",
+        "V06_ADMIN_COLLAB_CHAIR_1",
+        "V06_ADMIN_COLLAB_CHAIR_2",
+        "V06_ADMIN_COLLAB_CHAIR_3",
+        "V06_ADMIN_COLLAB_CHAIR_4",
+        "V06_ADMIN_COLLAB_CHAIR_5",
+        "V06_ADMIN_COLLAB_CHAIR_6",
+        "V06_ADMIN_COLLAB_CHAIR_7",
+        "V06_ADMIN_COLLAB_TABLE",
+        "V06_ADMIN_DOOR_HEADER",
+        "V06_ADMIN_DOOR_L",
+        "V06_ADMIN_DOOR_R",
+        "V06_ADMIN_FLOOR",
+        "V06_ADMIN_LAB_BENCH",
+        "V06_ADMIN_LAB_GLASSWARE_0",
+        "V06_ADMIN_LAB_GLASSWARE_1",
+        "V06_ADMIN_LAB_GLASSWARE_2",
+        "V06_ADMIN_LAB_GLASSWARE_3",
+        "V06_ADMIN_LAB_INSTRUMENT_0",
+        "V06_ADMIN_LAB_INSTRUMENT_1",
+        "V06_ADMIN_LAB_INSTRUMENT_2",
+        "V06_ADMIN_LAB_INSTRUMENT_3",
+        "V06_ADMIN_LAB_PARTITION_PANEL",
+        "V06_ADMIN_LAB_PARTITION_POST",
+        "V06_ADMIN_LAB_STORAGE_BEAM_0",
+        "V06_ADMIN_LAB_STORAGE_BEAM_1",
+        "V06_ADMIN_LAB_STORAGE_LOAD_0_0",
+        "V06_ADMIN_LAB_STORAGE_LOAD_0_1",
+        "V06_ADMIN_LAB_STORAGE_LOAD_1_0",
+        "V06_ADMIN_LAB_STORAGE_LOAD_1_1",
+        "V06_ADMIN_LAB_STORAGE_LOAD_2_0",
+        "V06_ADMIN_LAB_STORAGE_LOAD_2_1",
+        "V06_ADMIN_LAB_STORAGE_LOAD_3_0",
+        "V06_ADMIN_LAB_STORAGE_LOAD_3_1",
+        "V06_ADMIN_LAB_STORAGE_PALLET_0_0",
+        "V06_ADMIN_LAB_STORAGE_PALLET_0_1",
+        "V06_ADMIN_LAB_STORAGE_PALLET_1_0",
+        "V06_ADMIN_LAB_STORAGE_PALLET_1_1",
+        "V06_ADMIN_LAB_STORAGE_PALLET_2_0"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 296,
+      "legacy_group_objects": 215,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_ADMIN_LAB_PARTITION_POST",
+          "proxy": "V04_ADMIN_LAB_PARTITION"
+        },
+        {
+          "v06": "V06_ADMIN_LAB_PARTITION_POST",
+          "proxy": "V05_ADMIN_LAB_PARTITION_PANEL"
+        },
+        {
+          "v06": "V06_ADMIN_RECEPTION_SCREEN_POST",
+          "proxy": "V04_ADMIN_RECEPTION"
+        }
+      ],
+      "old_anchor_distance_m": 8.639,
+      "v06_anchor_distance_m": 9.709,
+      "spatial_gap_m": 1.498,
+      "camera_to_v06_avg_m": 17.467,
+      "camera_scale_ratio": 3.4087,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_ADMIN_SOFFIT_-43.44",
+        "V06_ADMIN_SOFFIT_-72.56"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Bottle blow molding",
+      "root_cause_category": "inside/behind legacy proxy geometry; material/lighting visibility",
+      "affected_v06_objects": 65,
+      "affected_v06_object_names": [
+        "V06_BOTTLE_BACK",
+        "V06_BOTTLE_BLOW_FRAME",
+        "V06_BOTTLE_DOOR_HEADER",
+        "V06_BOTTLE_DOOR_L",
+        "V06_BOTTLE_DOOR_R",
+        "V06_BOTTLE_FLOOR",
+        "V06_BOTTLE_GUARD_A",
+        "V06_BOTTLE_GUARD_B",
+        "V06_BOTTLE_HEATER_0",
+        "V06_BOTTLE_HEATER_1",
+        "V06_BOTTLE_HEATER_2",
+        "V06_BOTTLE_HEATER_3",
+        "V06_BOTTLE_HEATER_4",
+        "V06_BOTTLE_HEATER_5",
+        "V06_BOTTLE_INSPECTION_HEAD",
+        "V06_BOTTLE_LEFT",
+        "V06_BOTTLE_LIGHT_0_FIXTURE",
+        "V06_BOTTLE_LIGHT_0_GLOW",
+        "V06_BOTTLE_LIGHT_1_FIXTURE",
+        "V06_BOTTLE_LIGHT_1_GLOW",
+        "V06_BOTTLE_LIGHT_2_FIXTURE",
+        "V06_BOTTLE_LIGHT_2_GLOW",
+        "V06_BOTTLE_MOULD_LEFT",
+        "V06_BOTTLE_MOULD_RIGHT",
+        "V06_BOTTLE_OUT_BOTTLES_0",
+        "V06_BOTTLE_OUT_BOTTLES_1",
+        "V06_BOTTLE_OUT_BOTTLES_2",
+        "V06_BOTTLE_OUT_BOTTLES_3",
+        "V06_BOTTLE_OUT_BOTTLES_4",
+        "V06_BOTTLE_OUT_BOTTLES_5",
+        "V06_BOTTLE_OUT_BOTTLES_6",
+        "V06_BOTTLE_OUT_BOTTLES_7",
+        "V06_BOTTLE_OUTFEED_A",
+        "V06_BOTTLE_OUTFEED_B",
+        "V06_BOTTLE_OUTFEED_BED",
+        "V06_BOTTLE_OUTFEED_ROLLER0",
+        "V06_BOTTLE_OUTFEED_ROLLER1",
+        "V06_BOTTLE_OUTFEED_ROLLER2",
+        "V06_BOTTLE_OUTFEED_ROLLER3",
+        "V06_BOTTLE_OUTFEED_ROLLER4"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 297,
+      "legacy_group_objects": 232,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_BOTTLE_MOULD_LEFT",
+          "proxy": "V03_BLOW_CLAMP_GUARD"
+        },
+        {
+          "v06": "V06_BOTTLE_MOULD_RIGHT",
+          "proxy": "V03_BLOW_CLAMP_GUARD"
+        },
+        {
+          "v06": "V06_BOTTLE_OUT_BOTTLES_1",
+          "proxy": "V05_BLOW_OUTFEED_ROLLER1"
+        },
+        {
+          "v06": "V06_BOTTLE_OUT_BOTTLES_2",
+          "proxy": "V04_BLOW_BOTTLE_INSPECTION"
+        },
+        {
+          "v06": "V06_BOTTLE_OUT_BOTTLES_3",
+          "proxy": "V04_BLOW_BOTTLE_INSPECTION"
+        },
+        {
+          "v06": "V06_BOTTLE_OUTFEED_ROLLER2",
+          "proxy": "V04_BLOW_BOTTLE_INSPECTION"
+        }
+      ],
+      "old_anchor_distance_m": 14.256,
+      "v06_anchor_distance_m": 1.125,
+      "spatial_gap_m": 13.33,
+      "camera_to_v06_avg_m": 8.453,
+      "camera_scale_ratio": 5.317,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_SOFT",
+            "diffuse": [
+              0.05999999865889549,
+              0.47999998927116394,
+              0.699999988079071
+            ],
+            "luminance": 0.4066
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_DARK",
+            "diffuse": [
+              0.014999999664723873,
+              0.019999999552965164,
+              0.02500000037252903
+            ],
+            "luminance": 0.0193
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_PINK",
+            "diffuse": [
+              0.75,
+              0.20000000298023224,
+              0.44999998807907104
+            ],
+            "luminance": 0.335
+          }
+        ],
+        "dark_material_count": 1
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_BOTTLE_SOFFIT_41.36",
+        "V06_BOTTLE_SOFFIT_62.64"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Chemical compound / controlled receiving",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 44,
+      "affected_v06_object_names": [
+        "V06_CHEM_BUND_WALL_0",
+        "V06_CHEM_BUND_WALL_1",
+        "V06_CHEM_BUND_WALL_2",
+        "V06_CHEM_CONTROL_DOOR_PANEL",
+        "V06_CHEM_CONTROL_DOOR_POST",
+        "V06_CHEM_DRUM_PALLET_0_BASE",
+        "V06_CHEM_DRUM_PALLET_0_LOAD",
+        "V06_CHEM_DRUM_PALLET_1_BASE",
+        "V06_CHEM_DRUM_PALLET_1_LOAD",
+        "V06_CHEM_DRUM_PALLET_2_BASE",
+        "V06_CHEM_DRUM_PALLET_2_LOAD",
+        "V06_CHEM_DRUM_PALLET_3_BASE",
+        "V06_CHEM_DRUM_PALLET_3_LOAD",
+        "V06_CHEM_HOSE",
+        "V06_CHEM_IBC_0",
+        "V06_CHEM_IBC_1",
+        "V06_CHEM_IBC_2",
+        "V06_CHEM_IBC_CAGE_0",
+        "V06_CHEM_IBC_CAGE_1",
+        "V06_CHEM_IBC_CAGE_2",
+        "V06_CHEM_RECEIVING_STAGING",
+        "V06_CHEM_TANK_VALVE_0",
+        "V06_CHEM_TANK_VALVE_1",
+        "V06_CHEM_TANK_VALVE_2",
+        "V06_CHEM_TRANSFER_PUMP",
+        "V06_CHEM_TRANSFER_TANK_0",
+        "V06_CHEM_TRANSFER_TANK_1",
+        "V06_CHEM_TRANSFER_TANK_2",
+        "V06_CHEMICAL_BACK",
+        "V06_CHEMICAL_DOOR_HEADER",
+        "V06_CHEMICAL_DOOR_L",
+        "V06_CHEMICAL_DOOR_R",
+        "V06_CHEMICAL_FLOOR",
+        "V06_CHEMICAL_LEFT",
+        "V06_CHEMICAL_LIGHT_0_FIXTURE",
+        "V06_CHEMICAL_LIGHT_0_GLOW",
+        "V06_CHEMICAL_LIGHT_1_FIXTURE",
+        "V06_CHEMICAL_LIGHT_1_GLOW",
+        "V06_CHEMICAL_LIGHT_2_FIXTURE",
+        "V06_CHEMICAL_LIGHT_2_GLOW"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 102,
+      "legacy_group_objects": 58,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_CHEM_BUND_WALL_0",
+          "proxy": "REV005_Chemical_compound_/_controlled_receiving_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_BUND_WALL_1",
+          "proxy": "REV005_Chemical_compound_/_controlled_receiving_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_BUND_WALL_2",
+          "proxy": "REV005_Chemical_compound_/_controlled_receiving_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_DRUM_PALLET_0_BASE",
+          "proxy": "REV005_Chemical_compound_/_controlled_receiving_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_DRUM_PALLET_1_BASE",
+          "proxy": "REV005_Chemical_compound_/_controlled_receiving_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_DRUM_PALLET_2_BASE",
+          "proxy": "REV005_Chemical_compound_/_controlled_receiving_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_DRUM_PALLET_3_BASE",
+          "proxy": "REV005_Chemical_compound_/_controlled_receiving_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_RECEIVING_STAGING",
+          "proxy": "V05_CHEM_FLOOR"
+        },
+        {
+          "v06": "V06_CHEM_TANK_VALVE_0",
+          "proxy": "REV005_CHEM_TANK_0"
+        },
+        {
+          "v06": "V06_CHEM_TANK_VALVE_1",
+          "proxy": "REV005_CHEM_TANK_1"
+        },
+        {
+          "v06": "V06_CHEM_TANK_VALVE_2",
+          "proxy": "REV005_CHEM_TANK_2"
+        }
+      ],
+      "old_anchor_distance_m": 5.002,
+      "v06_anchor_distance_m": 9.669,
+      "spatial_gap_m": 6.31,
+      "camera_to_v06_avg_m": 14.687,
+      "camera_scale_ratio": 3.1907,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_RED",
+            "diffuse": [
+              0.7799999713897705,
+              0.029999999329447746,
+              0.019999999552965164
+            ],
+            "luminance": 0.1887
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_CHEMICAL_SOFFIT_45.92",
+        "V06_CHEMICAL_SOFFIT_66.08"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "ETP / water treatment",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 54,
+      "affected_v06_object_names": [
+        "V06_ETP_AERATION_0_0",
+        "V06_ETP_AERATION_0_1",
+        "V06_ETP_AERATION_0_2",
+        "V06_ETP_AERATION_1_0",
+        "V06_ETP_AERATION_1_1",
+        "V06_ETP_AERATION_1_2",
+        "V06_ETP_AERATION_2_0",
+        "V06_ETP_AERATION_2_1",
+        "V06_ETP_AERATION_2_2",
+        "V06_ETP_BACK",
+        "V06_ETP_BASIN_BUND_0",
+        "V06_ETP_BASIN_BUND_1",
+        "V06_ETP_BASIN_BUND_2",
+        "V06_ETP_DOOR_HEADER",
+        "V06_ETP_DOOR_L",
+        "V06_ETP_DOOR_R",
+        "V06_ETP_FILTER_SKID_0",
+        "V06_ETP_FILTER_SKID_1",
+        "V06_ETP_FILTER_SKID_2",
+        "V06_ETP_FILTER_VESSEL_0",
+        "V06_ETP_FILTER_VESSEL_1",
+        "V06_ETP_FILTER_VESSEL_2",
+        "V06_ETP_FLOOR",
+        "V06_ETP_INTERSTAGE_0",
+        "V06_ETP_INTERSTAGE_1",
+        "V06_ETP_INTERSTAGE_2",
+        "V06_ETP_LEFT",
+        "V06_ETP_LIGHT_0_FIXTURE",
+        "V06_ETP_LIGHT_0_GLOW",
+        "V06_ETP_LIGHT_1_FIXTURE",
+        "V06_ETP_LIGHT_1_GLOW",
+        "V06_ETP_LIGHT_2_FIXTURE",
+        "V06_ETP_LIGHT_2_GLOW",
+        "V06_ETP_PUMP_0_BASE",
+        "V06_ETP_PUMP_0_HOUSING",
+        "V06_ETP_PUMP_0_PANEL",
+        "V06_ETP_PUMP_1_BASE",
+        "V06_ETP_PUMP_1_HOUSING",
+        "V06_ETP_PUMP_1_PANEL",
+        "V06_ETP_PUMP_2_BASE"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 138,
+      "legacy_group_objects": 84,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_ETP_AERATION_0_0",
+          "proxy": "V05_ETP_TANK0_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_0_1",
+          "proxy": "V05_ETP_TANK0_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_0_2",
+          "proxy": "V05_ETP_TANK0_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_1_0",
+          "proxy": "V05_ETP_TANK1_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_1_1",
+          "proxy": "V05_ETP_TANK1_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_1_2",
+          "proxy": "V05_ETP_TANK1_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_2_0",
+          "proxy": "V05_ETP_TANK2_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_2_1",
+          "proxy": "V05_ETP_TANK2_LID"
+        },
+        {
+          "v06": "V06_ETP_AERATION_2_2",
+          "proxy": "V05_ETP_TANK2_LID"
+        },
+        {
+          "v06": "V06_ETP_BASIN_BUND_0",
+          "proxy": "V04_ETP_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_BASIN_BUND_0",
+          "proxy": "V05_ETP_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_BASIN_BUND_1",
+          "proxy": "V04_ETP_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_BASIN_BUND_1",
+          "proxy": "V05_ETP_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_BASIN_BUND_2",
+          "proxy": "V04_ETP_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_BASIN_BUND_2",
+          "proxy": "V05_ETP_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_FILTER_SKID_0",
+          "proxy": "REV005_ETP_/_water_treatment_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_FILTER_SKID_0",
+          "proxy": "V05_ETP_FILTER0_VESSEL"
+        },
+        {
+          "v06": "V06_ETP_FILTER_SKID_1",
+          "proxy": "REV005_ETP_/_water_treatment_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_FILTER_SKID_1",
+          "proxy": "V05_ETP_FILTER1_VESSEL"
+        },
+        {
+          "v06": "V06_ETP_FILTER_SKID_2",
+          "proxy": "REV005_ETP_/_water_treatment_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_FILTER_SKID_2",
+          "proxy": "V05_ETP_FILTER2_VESSEL"
+        },
+        {
+          "v06": "V06_ETP_PUMP_0_BASE",
+          "proxy": "REV005_ETP_/_water_treatment_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_PUMP_0_BASE",
+          "proxy": "V04_ETP_OPERATOR_PLATFORM"
+        },
+        {
+          "v06": "V06_ETP_PUMP_0_BASE",
+          "proxy": "V05_ETP_WALKWAY"
+        },
+        {
+          "v06": "V06_ETP_PUMP_1_BASE",
+          "proxy": "REV005_ETP_/_water_treatment_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_PUMP_1_BASE",
+          "proxy": "V04_ETP_OPERATOR_PLATFORM"
+        },
+        {
+          "v06": "V06_ETP_PUMP_1_BASE",
+          "proxy": "V05_ETP_WALKWAY"
+        },
+        {
+          "v06": "V06_ETP_PUMP_2_BASE",
+          "proxy": "REV005_ETP_/_water_treatment_FLOOR"
+        },
+        {
+          "v06": "V06_ETP_PUMP_2_BASE",
+          "proxy": "V04_ETP_OPERATOR_PLATFORM"
+        },
+        {
+          "v06": "V06_ETP_PUMP_2_BASE",
+          "proxy": "V05_ETP_WALKWAY"
+        },
+        {
+          "v06": "V06_ETP_WALKWAY_RAIL_POST_L",
+          "proxy": "REV005_ETP_/_water_treatment_FLOOR"
+        }
+      ],
+      "old_anchor_distance_m": 6.786,
+      "v06_anchor_distance_m": 3.003,
+      "spatial_gap_m": 6.183,
+      "camera_to_v06_avg_m": 10.201,
+      "camera_scale_ratio": 4.87,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_ETP_SOFFIT_118.64",
+        "V06_ETP_SOFFIT_97.36"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Finished goods warehouse / dispatch",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 376,
+      "affected_v06_object_names": [
+        "V06_FG_AMR_0",
+        "V06_FG_AMR_1",
+        "V06_FG_AMR_LASER_0",
+        "V06_FG_AMR_LASER_1",
+        "V06_FG_BACK",
+        "V06_FG_DISPATCH_CONTROL",
+        "V06_FG_DISPATCH_PALLET_0_BASE",
+        "V06_FG_DISPATCH_PALLET_0_LOAD",
+        "V06_FG_DISPATCH_PALLET_1_BASE",
+        "V06_FG_DISPATCH_PALLET_1_LOAD",
+        "V06_FG_DISPATCH_PALLET_2_BASE",
+        "V06_FG_DISPATCH_PALLET_2_LOAD",
+        "V06_FG_DISPATCH_PALLET_3_BASE",
+        "V06_FG_DISPATCH_PALLET_3_LOAD",
+        "V06_FG_DISPATCH_PALLET_4_BASE",
+        "V06_FG_DISPATCH_PALLET_4_LOAD",
+        "V06_FG_DISPATCH_PALLET_5_BASE",
+        "V06_FG_DISPATCH_PALLET_5_LOAD",
+        "V06_FG_DISPATCH_PALLET_6_BASE",
+        "V06_FG_DISPATCH_PALLET_6_LOAD",
+        "V06_FG_DOOR_HEADER",
+        "V06_FG_DOOR_L",
+        "V06_FG_DOOR_R",
+        "V06_FG_FLOOR",
+        "V06_FG_LEFT",
+        "V06_FG_LIGHT_0_FIXTURE",
+        "V06_FG_LIGHT_0_GLOW",
+        "V06_FG_LIGHT_1_FIXTURE",
+        "V06_FG_LIGHT_1_GLOW",
+        "V06_FG_LIGHT_2_FIXTURE",
+        "V06_FG_LIGHT_2_GLOW",
+        "V06_FG_LIGHT_3_FIXTURE",
+        "V06_FG_LIGHT_3_GLOW",
+        "V06_FG_LIGHT_4_FIXTURE",
+        "V06_FG_LIGHT_4_GLOW",
+        "V06_FG_LOADING_EDGE",
+        "V06_FG_RACK-44_BEAM_0",
+        "V06_FG_RACK-44_BEAM_1",
+        "V06_FG_RACK-44_BEAM_2",
+        "V06_FG_RACK-44_BEAM_3"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 1042,
+      "legacy_group_objects": 666,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_FG_AMR_0",
+          "proxy": "V04_FG_FLOOR"
+        },
+        {
+          "v06": "V06_FG_AMR_0",
+          "proxy": "V05_FG_FLOOR"
+        },
+        {
+          "v06": "V06_FG_AMR_1",
+          "proxy": "V04_FG_FLOOR"
+        },
+        {
+          "v06": "V06_FG_AMR_1",
+          "proxy": "V05_FG_FLOOR"
+        },
+        {
+          "v06": "V06_FG_LOADING_EDGE",
+          "proxy": "V05_FG_BACK"
+        },
+        {
+          "v06": "V06_FG_RACK-44_LOAD_0_0",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_00"
+        },
+        {
+          "v06": "V06_FG_RACK-44_LOAD_0_0",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-44_LOAD_0_1",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-44_LOAD_0_1",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-44_LOAD_0_2",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-44_PALLET_0_0",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_00"
+        },
+        {
+          "v06": "V06_FG_RACK-44_PALLET_0_0",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-44_PALLET_0_1",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-44_PALLET_0_1",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-44_PALLET_0_2",
+          "proxy": "V04_FG_RACK_-44_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-51_LOAD_0_0",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_00"
+        },
+        {
+          "v06": "V06_FG_RACK-51_LOAD_0_0",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-51_LOAD_0_1",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-51_LOAD_0_1",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-51_LOAD_0_2",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-51_PALLET_0_0",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_00"
+        },
+        {
+          "v06": "V06_FG_RACK-51_PALLET_0_0",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-51_PALLET_0_1",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-51_PALLET_0_1",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-51_PALLET_0_2",
+          "proxy": "V04_FG_RACK_-51_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-58_LOAD_0_0",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_00"
+        },
+        {
+          "v06": "V06_FG_RACK-58_LOAD_0_0",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-58_LOAD_0_1",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-58_LOAD_0_1",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-58_LOAD_0_2",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-58_PALLET_0_0",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_00"
+        },
+        {
+          "v06": "V06_FG_RACK-58_PALLET_0_0",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-58_PALLET_0_1",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_01"
+        },
+        {
+          "v06": "V06_FG_RACK-58_PALLET_0_1",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_02"
+        },
+        {
+          "v06": "V06_FG_RACK-58_PALLET_0_2",
+          "proxy": "V04_FG_RACK_-58_UPRIGHT_00_02"
+        }
+      ],
+      "old_anchor_distance_m": 9.436,
+      "v06_anchor_distance_m": 9.613,
+      "spatial_gap_m": 0.482,
+      "camera_to_v06_avg_m": 12.775,
+      "camera_scale_ratio": 4.4831,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_RED",
+            "diffuse": [
+              0.7799999713897705,
+              0.029999999329447746,
+              0.019999999552965164
+            ],
+            "luminance": 0.1887
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_FG_SOFFIT_65.44",
+        "V06_FG_SOFFIT_94.56"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Glass Deck central command / training / café gallery",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 55,
+      "affected_v06_object_names": [
+        "V06_GLASS_CAFE_BACKBAR",
+        "V06_GLASS_CAFE_COUNTER",
+        "V06_GLASS_CAFE_EQUIPMENT_0_BASE",
+        "V06_GLASS_CAFE_EQUIPMENT_0_HOUSING",
+        "V06_GLASS_CAFE_EQUIPMENT_0_PANEL",
+        "V06_GLASS_CAFE_EQUIPMENT_1_BASE",
+        "V06_GLASS_CAFE_EQUIPMENT_1_HOUSING",
+        "V06_GLASS_CAFE_EQUIPMENT_1_PANEL",
+        "V06_GLASS_CAFE_EQUIPMENT_2_BASE",
+        "V06_GLASS_CAFE_EQUIPMENT_2_HOUSING",
+        "V06_GLASS_CAFE_EQUIPMENT_2_PANEL",
+        "V06_GLASS_CAFE_SEATING_0_CHAIR_0",
+        "V06_GLASS_CAFE_SEATING_0_CHAIR_1",
+        "V06_GLASS_CAFE_SEATING_0_TABLE",
+        "V06_GLASS_CAFE_SEATING_1_CHAIR_0",
+        "V06_GLASS_CAFE_SEATING_1_CHAIR_1",
+        "V06_GLASS_CAFE_SEATING_1_TABLE",
+        "V06_GLASS_CAFE_SEATING_2_CHAIR_0",
+        "V06_GLASS_CAFE_SEATING_2_CHAIR_1",
+        "V06_GLASS_CAFE_SEATING_2_TABLE",
+        "V06_GLASS_CAFE_SEATING_3_CHAIR_0",
+        "V06_GLASS_CAFE_SEATING_3_CHAIR_1",
+        "V06_GLASS_CAFE_SEATING_3_TABLE",
+        "V06_GLASS_COMMAND_CONSOLE_0",
+        "V06_GLASS_COMMAND_CONSOLE_1",
+        "V06_GLASS_COMMAND_CONSOLE_2",
+        "V06_GLASS_COMMAND_CONSOLE_3",
+        "V06_GLASS_COMMAND_MONITOR_WALL",
+        "V06_GLASS_COMMAND_SCREEN_0",
+        "V06_GLASS_COMMAND_SCREEN_1",
+        "V06_GLASS_COMMAND_SCREEN_2",
+        "V06_GLASS_COMMAND_SCREEN_3",
+        "V06_GLASS_DECK_BACK",
+        "V06_GLASS_DECK_FLOOR",
+        "V06_GLASS_DECK_LEFT",
+        "V06_GLASS_DECK_LIGHT_0_FIXTURE",
+        "V06_GLASS_DECK_LIGHT_0_GLOW",
+        "V06_GLASS_DECK_LIGHT_1_FIXTURE",
+        "V06_GLASS_DECK_LIGHT_1_GLOW",
+        "V06_GLASS_DECK_RIGHT"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 290,
+      "legacy_group_objects": 235,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_GLASS_CAFE_EQUIPMENT_0_BASE",
+          "proxy": "REV005_Glass_Deck_central_command_/_training_/_café_gallery_FLOOR"
+        },
+        {
+          "v06": "V06_GLASS_CAFE_EQUIPMENT_1_BASE",
+          "proxy": "REV005_Glass_Deck_central_command_/_training_/_café_gallery_FLOOR"
+        },
+        {
+          "v06": "V06_GLASS_CAFE_EQUIPMENT_2_BASE",
+          "proxy": "REV005_Glass_Deck_central_command_/_training_/_café_gallery_FLOOR"
+        },
+        {
+          "v06": "V06_GLASS_CAFE_SEATING_0_CHAIR_1",
+          "proxy": "V05_GLASS_LEFT"
+        }
+      ],
+      "old_anchor_distance_m": 16.621,
+      "v06_anchor_distance_m": 5.498,
+      "spatial_gap_m": 15.208,
+      "camera_to_v06_avg_m": 12.603,
+      "camera_scale_ratio": 3.8169,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_GLASS_DECK_SOFFIT_67.2",
+        "V06_GLASS_DECK_SOFFIT_72.8"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Liquid filling / packaging",
+      "root_cause_category": "inside/behind legacy proxy geometry; material/lighting visibility",
+      "affected_v06_objects": 70,
+      "affected_v06_object_names": [
+        "V06_LIQUID_BACK",
+        "V06_LIQUID_BOTTLES_0",
+        "V06_LIQUID_BOTTLES_1",
+        "V06_LIQUID_BOTTLES_2",
+        "V06_LIQUID_BOTTLES_3",
+        "V06_LIQUID_BOTTLES_4",
+        "V06_LIQUID_BOTTLES_5",
+        "V06_LIQUID_BOTTLES_6",
+        "V06_LIQUID_BOTTLES_7",
+        "V06_LIQUID_CAPPER_TURRET",
+        "V06_LIQUID_CASE_PACK_A",
+        "V06_LIQUID_CASE_PACK_B",
+        "V06_LIQUID_CASE_PACK_BED",
+        "V06_LIQUID_CASE_PACK_ROLLER0",
+        "V06_LIQUID_CASE_PACK_ROLLER1",
+        "V06_LIQUID_CASE_PACK_ROLLER2",
+        "V06_LIQUID_CASE_PACK_ROLLER3",
+        "V06_LIQUID_CASE_PACK_ROLLER4",
+        "V06_LIQUID_CASE_PACK_ROLLER5",
+        "V06_LIQUID_CASE_PACK_ROLLER6",
+        "V06_LIQUID_CASES_0",
+        "V06_LIQUID_CASES_1",
+        "V06_LIQUID_CASES_2",
+        "V06_LIQUID_CASES_3",
+        "V06_LIQUID_CASES_4",
+        "V06_LIQUID_DOOR_HEADER",
+        "V06_LIQUID_DOOR_L",
+        "V06_LIQUID_DOOR_R",
+        "V06_LIQUID_FILL_FRAME",
+        "V06_LIQUID_FILL_NOZZLE_0",
+        "V06_LIQUID_FILL_NOZZLE_1",
+        "V06_LIQUID_FILL_NOZZLE_2",
+        "V06_LIQUID_FILL_NOZZLE_3",
+        "V06_LIQUID_FILL_NOZZLE_4",
+        "V06_LIQUID_FILL_NOZZLE_5",
+        "V06_LIQUID_FLOOR",
+        "V06_LIQUID_INFEED_A",
+        "V06_LIQUID_INFEED_B",
+        "V06_LIQUID_INFEED_BED",
+        "V06_LIQUID_INFEED_ROLLER0"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 335,
+      "legacy_group_objects": 265,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_LIQUID_BOTTLES_0",
+          "proxy": "V05_LIQUID_INFEED_ROLLER1"
+        },
+        {
+          "v06": "V06_LIQUID_BOTTLES_1",
+          "proxy": "V05_LIQUID_INFEED_ROLLER2"
+        },
+        {
+          "v06": "V06_LIQUID_BOTTLES_2",
+          "proxy": "V05_LIQUID_INFEED_ROLLER3"
+        },
+        {
+          "v06": "V06_LIQUID_BOTTLES_3",
+          "proxy": "V05_LIQUID_INFEED_ROLLER4"
+        },
+        {
+          "v06": "V06_LIQUID_BOTTLES_4",
+          "proxy": "V03_LIQUID_BOTTLE_INFEED_ROLLER_03"
+        },
+        {
+          "v06": "V06_LIQUID_BOTTLES_4",
+          "proxy": "V05_LIQUID_INFEED_ROLLER5"
+        },
+        {
+          "v06": "V06_LIQUID_BOTTLES_5",
+          "proxy": "V05_LIQUID_INFEED_ROLLER6"
+        },
+        {
+          "v06": "V06_LIQUID_CASE_PACK_ROLLER0",
+          "proxy": "V03_LIQUID_CASE_PACKER"
+        },
+        {
+          "v06": "V06_LIQUID_CASE_PACK_ROLLER1",
+          "proxy": "V03_LIQUID_CASE_PACKER"
+        },
+        {
+          "v06": "V06_LIQUID_CASE_PACK_ROLLER2",
+          "proxy": "V03_LIQUID_CASE_PACKER"
+        },
+        {
+          "v06": "V06_LIQUID_CASES_0",
+          "proxy": "V03_LIQUID_CASE_PACKER"
+        },
+        {
+          "v06": "V06_LIQUID_CASES_0",
+          "proxy": "V05_LIQUID_CASE_ROLLER1"
+        },
+        {
+          "v06": "V06_LIQUID_CASES_3",
+          "proxy": "V05_LIQUID_CASE_ROLLER5"
+        },
+        {
+          "v06": "V06_LIQUID_INFEED_ROLLER4",
+          "proxy": "V03_LIQUID_BOTTLE_INFEED_ROLLER_02"
+        },
+        {
+          "v06": "V06_LIQUID_INFEED_ROLLER5",
+          "proxy": "V03_LIQUID_BOTTLE_INFEED_ROLLER_03"
+        },
+        {
+          "v06": "V06_LIQUID_TO_CAPPER_ROLLER0",
+          "proxy": "V03_LIQUID_FILLER_HOUSING"
+        },
+        {
+          "v06": "V06_LIQUID_TO_CAPPER_ROLLER1",
+          "proxy": "V03_LIQUID_FILLER_HOUSING"
+        },
+        {
+          "v06": "V06_LIQUID_TO_CAPPER_ROLLER6",
+          "proxy": "V03_LIQUID_CAPPER_GUARD"
+        }
+      ],
+      "old_anchor_distance_m": 3.726,
+      "v06_anchor_distance_m": 3.057,
+      "spatial_gap_m": 1.072,
+      "camera_to_v06_avg_m": 13.406,
+      "camera_scale_ratio": 3.7416,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_SOFT",
+            "diffuse": [
+              0.05999999865889549,
+              0.47999998927116394,
+              0.699999988079071
+            ],
+            "luminance": 0.4066
+          },
+          {
+            "name": "REV005_V05_PURPLE",
+            "diffuse": [
+              0.550000011920929,
+              0.07999999821186066,
+              0.3499999940395355
+            ],
+            "luminance": 0.1994
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_DARK",
+            "diffuse": [
+              0.014999999664723873,
+              0.019999999552965164,
+              0.02500000037252903
+            ],
+            "luminance": 0.0193
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          }
+        ],
+        "dark_material_count": 1
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_LIQUID_SOFFIT_-2.880000000000001",
+        "V06_LIQUID_SOFFIT_22.880000000000003"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Occupational health / first aid",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 42,
+      "affected_v06_object_names": [
+        "V06_CLINIC_BACK",
+        "V06_CLINIC_BED_HEAD",
+        "V06_CLINIC_DOOR_HEADER",
+        "V06_CLINIC_DOOR_L",
+        "V06_CLINIC_DOOR_R",
+        "V06_CLINIC_EXAM_BED",
+        "V06_CLINIC_FLOOR",
+        "V06_CLINIC_LEFT",
+        "V06_CLINIC_LIGHT_0_FIXTURE",
+        "V06_CLINIC_LIGHT_0_GLOW",
+        "V06_CLINIC_LIGHT_1_FIXTURE",
+        "V06_CLINIC_LIGHT_1_GLOW",
+        "V06_CLINIC_MED_STORAGE_BEAM_0",
+        "V06_CLINIC_MED_STORAGE_BEAM_1",
+        "V06_CLINIC_MED_STORAGE_LOAD_0_0",
+        "V06_CLINIC_MED_STORAGE_LOAD_0_1",
+        "V06_CLINIC_MED_STORAGE_LOAD_1_0",
+        "V06_CLINIC_MED_STORAGE_LOAD_1_1",
+        "V06_CLINIC_MED_STORAGE_LOAD_2_0",
+        "V06_CLINIC_MED_STORAGE_LOAD_2_1",
+        "V06_CLINIC_MED_STORAGE_PALLET_0_0",
+        "V06_CLINIC_MED_STORAGE_PALLET_0_1",
+        "V06_CLINIC_MED_STORAGE_PALLET_1_0",
+        "V06_CLINIC_MED_STORAGE_PALLET_1_1",
+        "V06_CLINIC_MED_STORAGE_PALLET_2_0",
+        "V06_CLINIC_MED_STORAGE_PALLET_2_1",
+        "V06_CLINIC_MED_STORAGE_UPRIGHT_0_0",
+        "V06_CLINIC_MED_STORAGE_UPRIGHT_0_1",
+        "V06_CLINIC_MED_STORAGE_UPRIGHT_1_0",
+        "V06_CLINIC_MED_STORAGE_UPRIGHT_1_1",
+        "V06_CLINIC_MED_STORAGE_UPRIGHT_2_0",
+        "V06_CLINIC_MED_STORAGE_UPRIGHT_2_1",
+        "V06_CLINIC_PRIVACY_PANEL",
+        "V06_CLINIC_PRIVACY_POST",
+        "V06_CLINIC_RECEPTION",
+        "V06_CLINIC_RIGHT",
+        "V06_CLINIC_SOFFIT_-11.28",
+        "V06_CLINIC_SOFFIT_-18",
+        "V06_CLINIC_SOFFIT_-24.72",
+        "V06_CLINIC_TREATMENT_TROLLEY"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 129,
+      "legacy_group_objects": 87,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_CLINIC_PRIVACY_POST",
+          "proxy": "V04_CLINIC_PRIVACY"
+        }
+      ],
+      "old_anchor_distance_m": 1.99,
+      "v06_anchor_distance_m": 2.366,
+      "spatial_gap_m": 0.606,
+      "camera_to_v06_avg_m": 7.719,
+      "camera_scale_ratio": 3.8866,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_CLINIC_SOFFIT_-11.28",
+        "V06_CLINIC_SOFFIT_-24.72"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Packaging warehouse",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 296,
+      "affected_v06_object_names": [
+        "V06_PACK_BACK",
+        "V06_PACK_CARTON_BIN_0",
+        "V06_PACK_CARTON_BIN_1",
+        "V06_PACK_CARTON_BIN_2",
+        "V06_PACK_CARTON_BIN_3",
+        "V06_PACK_CARTON_BIN_4",
+        "V06_PACK_DOOR_HEADER",
+        "V06_PACK_DOOR_L",
+        "V06_PACK_DOOR_R",
+        "V06_PACK_FILM_ROLL_0",
+        "V06_PACK_FILM_ROLL_1",
+        "V06_PACK_FILM_ROLL_2",
+        "V06_PACK_FILM_ROLL_3",
+        "V06_PACK_FILM_ROLL_4",
+        "V06_PACK_FLOOR",
+        "V06_PACK_ISSUE_WINDOW",
+        "V06_PACK_LEFT",
+        "V06_PACK_LIGHT_0_FIXTURE",
+        "V06_PACK_LIGHT_0_GLOW",
+        "V06_PACK_LIGHT_1_FIXTURE",
+        "V06_PACK_LIGHT_1_GLOW",
+        "V06_PACK_LIGHT_2_FIXTURE",
+        "V06_PACK_LIGHT_2_GLOW",
+        "V06_PACK_LIGHT_3_FIXTURE",
+        "V06_PACK_LIGHT_3_GLOW",
+        "V06_PACK_LIGHT_4_FIXTURE",
+        "V06_PACK_LIGHT_4_GLOW",
+        "V06_PACK_RACK67_BEAM_0",
+        "V06_PACK_RACK67_BEAM_1",
+        "V06_PACK_RACK67_BEAM_2",
+        "V06_PACK_RACK67_LOAD_0_0",
+        "V06_PACK_RACK67_LOAD_0_1",
+        "V06_PACK_RACK67_LOAD_0_2",
+        "V06_PACK_RACK67_LOAD_1_0",
+        "V06_PACK_RACK67_LOAD_1_1",
+        "V06_PACK_RACK67_LOAD_1_2",
+        "V06_PACK_RACK67_LOAD_2_0",
+        "V06_PACK_RACK67_LOAD_2_1",
+        "V06_PACK_RACK67_LOAD_2_2",
+        "V06_PACK_RACK67_LOAD_3_0"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 766,
+      "legacy_group_objects": 470,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_PACK_RECEIVING_STAGING",
+          "proxy": "REV005_Packaging_warehouse_FLOOR"
+        }
+      ],
+      "old_anchor_distance_m": 10.151,
+      "v06_anchor_distance_m": 14.281,
+      "spatial_gap_m": 4.26,
+      "camera_to_v06_avg_m": 18.111,
+      "camera_scale_ratio": 4.0533,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_PACK_SOFFIT_-26.240000000000002",
+        "V06_PACK_SOFFIT_6.240000000000002"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Powder handling / packing",
+      "root_cause_category": "inside/behind legacy proxy geometry; material/lighting visibility",
+      "affected_v06_objects": 36,
+      "affected_v06_object_names": [
+        "V06_POWDER_AUGER",
+        "V06_POWDER_BACK",
+        "V06_POWDER_DOOR_HEADER",
+        "V06_POWDER_DOOR_L",
+        "V06_POWDER_DOOR_R",
+        "V06_POWDER_DOSING_FRAME",
+        "V06_POWDER_DOSING_SCREW",
+        "V06_POWDER_FEED_HOPPER",
+        "V06_POWDER_FFS_FORMER",
+        "V06_POWDER_FFS_INFEED_A",
+        "V06_POWDER_FFS_INFEED_B",
+        "V06_POWDER_FFS_INFEED_BED",
+        "V06_POWDER_FFS_INFEED_ROLLER0",
+        "V06_POWDER_FFS_INFEED_ROLLER1",
+        "V06_POWDER_FFS_INFEED_ROLLER2",
+        "V06_POWDER_FFS_INFEED_ROLLER3",
+        "V06_POWDER_FFS_INFEED_ROLLER4",
+        "V06_POWDER_FFS_INFEED_ROLLER5",
+        "V06_POWDER_FFS_INFEED_ROLLER6",
+        "V06_POWDER_FINISHED_SACHET_0",
+        "V06_POWDER_FINISHED_SACHET_1",
+        "V06_POWDER_FINISHED_SACHET_2",
+        "V06_POWDER_FINISHED_SACHET_3",
+        "V06_POWDER_FLOOR",
+        "V06_POWDER_LEFT",
+        "V06_POWDER_LIGHT_0_FIXTURE",
+        "V06_POWDER_LIGHT_0_GLOW",
+        "V06_POWDER_LIGHT_1_FIXTURE",
+        "V06_POWDER_LIGHT_1_GLOW",
+        "V06_POWDER_LIGHT_2_FIXTURE",
+        "V06_POWDER_LIGHT_2_GLOW",
+        "V06_POWDER_RIGHT",
+        "V06_POWDER_SEAL_JAWS",
+        "V06_POWDER_SOFFIT_-37.92",
+        "V06_POWDER_SOFFIT_-48",
+        "V06_POWDER_SOFFIT_-58.08"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 101,
+      "legacy_group_objects": 65,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_POWDER_FFS_INFEED_ROLLER1",
+          "proxy": "RM_POWDER_HOPPER_VESSEL"
+        },
+        {
+          "v06": "V06_POWDER_FFS_INFEED_ROLLER2",
+          "proxy": "RM_POWDER_HOPPER_VESSEL"
+        },
+        {
+          "v06": "V06_POWDER_FFS_INFEED_ROLLER3",
+          "proxy": "RM_POWDER_HOPPER_VESSEL"
+        },
+        {
+          "v06": "V06_POWDER_FINISHED_SACHET_1",
+          "proxy": "V05_POWDER_TRANSFER"
+        },
+        {
+          "v06": "V06_POWDER_FINISHED_SACHET_2",
+          "proxy": "V05_POWDER_TRANSFER"
+        },
+        {
+          "v06": "V06_POWDER_FINISHED_SACHET_3",
+          "proxy": "V05_POWDER_TRANSFER"
+        }
+      ],
+      "old_anchor_distance_m": 2.61,
+      "v06_anchor_distance_m": 0.89,
+      "spatial_gap_m": 2.057,
+      "camera_to_v06_avg_m": 7.44,
+      "camera_scale_ratio": 5.4713,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_GREEN",
+            "diffuse": [
+              0.019999999552965164,
+              0.41999998688697815,
+              0.18000000715255737
+            ],
+            "luminance": 0.3176
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_DARK",
+            "diffuse": [
+              0.014999999664723873,
+              0.019999999552965164,
+              0.02500000037252903
+            ],
+            "luminance": 0.0193
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_PURPLE",
+            "diffuse": [
+              0.550000011920929,
+              0.07999999821186066,
+              0.3499999940395355
+            ],
+            "luminance": 0.1994
+          }
+        ],
+        "dark_material_count": 1
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_POWDER_SOFFIT_-37.92",
+        "V06_POWDER_SOFFIT_-58.08"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Production Hall / Wet Processing / process core",
+      "root_cause_category": "material/lighting visibility",
+      "affected_v06_objects": 73,
+      "affected_v06_object_names": [
+        "V06_WET_AGITATOR_MOTOR_0",
+        "V06_WET_AGITATOR_MOTOR_1",
+        "V06_WET_AGITATOR_MOTOR_2",
+        "V06_WET_AGITATOR_MOTOR_3",
+        "V06_WET_CIP_RETURN",
+        "V06_WET_CIP_SKID",
+        "V06_WET_CIP_TANK",
+        "V06_WET_MANIFOLD_0",
+        "V06_WET_MANIFOLD_1",
+        "V06_WET_MANIFOLD_2",
+        "V06_WET_MANIFOLD_3",
+        "V06_WET_MIX_TANK_0_LID",
+        "V06_WET_MIX_TANK_0_OUT",
+        "V06_WET_MIX_TANK_0_VESSEL",
+        "V06_WET_MIX_TANK_1_LID",
+        "V06_WET_MIX_TANK_1_OUT",
+        "V06_WET_MIX_TANK_1_VESSEL",
+        "V06_WET_MIX_TANK_2_LID",
+        "V06_WET_MIX_TANK_2_OUT",
+        "V06_WET_MIX_TANK_2_VESSEL",
+        "V06_WET_MIX_TANK_3_LID",
+        "V06_WET_MIX_TANK_3_OUT",
+        "V06_WET_MIX_TANK_3_VESSEL",
+        "V06_WET_PLATFORM",
+        "V06_WET_PLATFORM_RAIL_POST_L",
+        "V06_WET_PLATFORM_RAIL_POST_R",
+        "V06_WET_PLATFORM_RAIL_TOP",
+        "V06_WET_PROCESS_BACK",
+        "V06_WET_PROCESS_DOOR_HEADER",
+        "V06_WET_PROCESS_DOOR_L",
+        "V06_WET_PROCESS_DOOR_R",
+        "V06_WET_PROCESS_FLOOR",
+        "V06_WET_PROCESS_LEFT",
+        "V06_WET_PROCESS_LIGHT_0_FIXTURE",
+        "V06_WET_PROCESS_LIGHT_0_GLOW",
+        "V06_WET_PROCESS_LIGHT_1_FIXTURE",
+        "V06_WET_PROCESS_LIGHT_1_GLOW",
+        "V06_WET_PROCESS_LIGHT_2_FIXTURE",
+        "V06_WET_PROCESS_LIGHT_2_GLOW",
+        "V06_WET_PROCESS_LIGHT_3_FIXTURE"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 138,
+      "legacy_group_objects": 65,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [],
+      "old_anchor_distance_m": 6.193,
+      "v06_anchor_distance_m": 1.388,
+      "spatial_gap_m": 6.284,
+      "camera_to_v06_avg_m": 12.417,
+      "camera_scale_ratio": 4.7808,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_GREEN",
+            "diffuse": [
+              0.019999999552965164,
+              0.41999998688697815,
+              0.18000000715255737
+            ],
+            "luminance": 0.3176
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_DARK",
+            "diffuse": [
+              0.014999999664723873,
+              0.019999999552965164,
+              0.02500000037252903
+            ],
+            "luminance": 0.0193
+          }
+        ],
+        "dark_material_count": 1
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+        "V06_WET_PROCESS_SOFFIT_14.000000000000002"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "correct visibility/integration only; no geometry rebuild until V07 QA proves insufficiency",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Raw material warehouse / receiving",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 339,
+      "affected_v06_object_names": [
+        "V06_RAW_BACK",
+        "V06_RAW_DOOR_HEADER",
+        "V06_RAW_DOOR_L",
+        "V06_RAW_DOOR_R",
+        "V06_RAW_DRUM_0",
+        "V06_RAW_DRUM_1",
+        "V06_RAW_DRUM_2",
+        "V06_RAW_DRUM_3",
+        "V06_RAW_FLOOR",
+        "V06_RAW_IBC_STAGING",
+        "V06_RAW_INSPECTION_DESK",
+        "V06_RAW_LEFT",
+        "V06_RAW_LIGHT_0_FIXTURE",
+        "V06_RAW_LIGHT_0_GLOW",
+        "V06_RAW_LIGHT_1_FIXTURE",
+        "V06_RAW_LIGHT_1_GLOW",
+        "V06_RAW_LIGHT_2_FIXTURE",
+        "V06_RAW_LIGHT_2_GLOW",
+        "V06_RAW_LIGHT_3_FIXTURE",
+        "V06_RAW_LIGHT_3_GLOW",
+        "V06_RAW_LIGHT_4_FIXTURE",
+        "V06_RAW_LIGHT_4_GLOW",
+        "V06_RAW_RACK67_BEAM_0",
+        "V06_RAW_RACK67_BEAM_1",
+        "V06_RAW_RACK67_BEAM_2",
+        "V06_RAW_RACK67_LOAD_0_0",
+        "V06_RAW_RACK67_LOAD_0_1",
+        "V06_RAW_RACK67_LOAD_0_2",
+        "V06_RAW_RACK67_LOAD_1_0",
+        "V06_RAW_RACK67_LOAD_1_1",
+        "V06_RAW_RACK67_LOAD_1_2",
+        "V06_RAW_RACK67_LOAD_2_0",
+        "V06_RAW_RACK67_LOAD_2_1",
+        "V06_RAW_RACK67_LOAD_2_2",
+        "V06_RAW_RACK67_LOAD_3_0",
+        "V06_RAW_RACK67_LOAD_3_1",
+        "V06_RAW_RACK67_LOAD_3_2",
+        "V06_RAW_RACK67_LOAD_4_0",
+        "V06_RAW_RACK67_LOAD_4_1",
+        "V06_RAW_RACK67_LOAD_4_2"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 1049,
+      "legacy_group_objects": 710,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_RAW_RACK67_LOAD_5_0",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK67_LOAD_5_0",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK67_LOAD_5_1",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK67_LOAD_5_1",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK67_LOAD_5_2",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK67_PALLET_5_0",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK67_PALLET_5_0",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK67_PALLET_5_1",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK67_PALLET_5_1",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK67_PALLET_5_2",
+          "proxy": "V04_RM_RACK_67_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK75_LOAD_5_0",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK75_LOAD_5_0",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK75_LOAD_5_1",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK75_LOAD_5_1",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK75_LOAD_5_2",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK75_PALLET_5_0",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK75_PALLET_5_0",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK75_PALLET_5_1",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK75_PALLET_5_1",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK75_PALLET_5_2",
+          "proxy": "V04_RM_RACK_75_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK83_LOAD_5_0",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK83_LOAD_5_0",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK83_LOAD_5_1",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK83_LOAD_5_1",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK83_LOAD_5_2",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK83_PALLET_5_0",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK83_PALLET_5_0",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK83_PALLET_5_1",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK83_PALLET_5_1",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK83_PALLET_5_2",
+          "proxy": "V04_RM_RACK_83_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK91_LOAD_5_0",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK91_LOAD_5_0",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK91_LOAD_5_1",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK91_LOAD_5_1",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK91_LOAD_5_2",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK91_PALLET_5_0",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_00"
+        },
+        {
+          "v06": "V06_RAW_RACK91_PALLET_5_0",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK91_PALLET_5_1",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_01"
+        },
+        {
+          "v06": "V06_RAW_RACK91_PALLET_5_1",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_02"
+        },
+        {
+          "v06": "V06_RAW_RACK91_PALLET_5_2",
+          "proxy": "V04_RM_RACK_91_UPRIGHT_05_02"
+        }
+      ],
+      "old_anchor_distance_m": 11.861,
+      "v06_anchor_distance_m": 12.789,
+      "spatial_gap_m": 0.934,
+      "camera_to_v06_avg_m": 16.881,
+      "camera_scale_ratio": 3.9115,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_RAW_SOFFIT_-62.879999999999995",
+        "V06_RAW_SOFFIT_-93.12"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Restaurant / POVU Café / kitchen",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 92,
+      "affected_v06_object_names": [
+        "V06_DINING_0_CHAIR_0",
+        "V06_DINING_0_CHAIR_1",
+        "V06_DINING_0_CHAIR_2",
+        "V06_DINING_0_CHAIR_3",
+        "V06_DINING_0_TABLE",
+        "V06_DINING_1_CHAIR_0",
+        "V06_DINING_1_CHAIR_1",
+        "V06_DINING_1_CHAIR_2",
+        "V06_DINING_1_CHAIR_3",
+        "V06_DINING_1_TABLE",
+        "V06_DINING_2_CHAIR_0",
+        "V06_DINING_2_CHAIR_1",
+        "V06_DINING_2_CHAIR_2",
+        "V06_DINING_2_CHAIR_3",
+        "V06_DINING_2_TABLE",
+        "V06_DINING_3_CHAIR_0",
+        "V06_DINING_3_CHAIR_1",
+        "V06_DINING_3_CHAIR_2",
+        "V06_DINING_3_CHAIR_3",
+        "V06_DINING_3_TABLE",
+        "V06_DINING_4_CHAIR_0",
+        "V06_DINING_4_CHAIR_1",
+        "V06_DINING_4_CHAIR_2",
+        "V06_DINING_4_CHAIR_3",
+        "V06_DINING_4_TABLE",
+        "V06_DINING_5_CHAIR_0",
+        "V06_DINING_5_CHAIR_1",
+        "V06_DINING_5_CHAIR_2",
+        "V06_DINING_5_CHAIR_3",
+        "V06_DINING_5_TABLE",
+        "V06_KITCHEN_APPLIANCE_0_BASE",
+        "V06_KITCHEN_APPLIANCE_0_HOUSING",
+        "V06_KITCHEN_APPLIANCE_0_PANEL",
+        "V06_KITCHEN_APPLIANCE_1_BASE",
+        "V06_KITCHEN_APPLIANCE_1_HOUSING",
+        "V06_KITCHEN_APPLIANCE_1_PANEL",
+        "V06_KITCHEN_APPLIANCE_2_BASE",
+        "V06_KITCHEN_APPLIANCE_2_HOUSING",
+        "V06_KITCHEN_APPLIANCE_2_PANEL",
+        "V06_KITCHEN_APPLIANCE_3_BASE"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 324,
+      "legacy_group_objects": 232,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_KITCHEN_APPLIANCE_0_BASE",
+          "proxy": "REV005_Restaurant_/_POVU_Café_/_kitchen_FLOOR"
+        },
+        {
+          "v06": "V06_KITCHEN_APPLIANCE_1_BASE",
+          "proxy": "REV005_Restaurant_/_POVU_Café_/_kitchen_FLOOR"
+        },
+        {
+          "v06": "V06_KITCHEN_APPLIANCE_2_BASE",
+          "proxy": "REV005_Restaurant_/_POVU_Café_/_kitchen_FLOOR"
+        },
+        {
+          "v06": "V06_KITCHEN_APPLIANCE_3_BASE",
+          "proxy": "REV005_Restaurant_/_POVU_Café_/_kitchen_FLOOR"
+        },
+        {
+          "v06": "V06_KITCHEN_APPLIANCE_4_BASE",
+          "proxy": "REV005_Restaurant_/_POVU_Café_/_kitchen_FLOOR"
+        },
+        {
+          "v06": "V06_RESTAURANT_COFFEE_EQUIPMENT_BASE",
+          "proxy": "REV005_Restaurant_/_POVU_Café_/_kitchen_FLOOR"
+        }
+      ],
+      "old_anchor_distance_m": 0.355,
+      "v06_anchor_distance_m": 5.498,
+      "spatial_gap_m": 5.308,
+      "camera_to_v06_avg_m": 13.509,
+      "camera_scale_ratio": 3.8107,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+        "V06_RESTAURANT_SOFFIT_17.6"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Security / reception / visitor arrival",
+      "root_cause_category": "integration appears enabled; selective camera/proxy proof required",
+      "affected_v06_objects": 32,
+      "affected_v06_object_names": [
+        "V06_SECURITY_BACK",
+        "V06_SECURITY_DOOR_HEADER",
+        "V06_SECURITY_DOOR_L",
+        "V06_SECURITY_DOOR_R",
+        "V06_SECURITY_FLOOR",
+        "V06_SECURITY_LEFT",
+        "V06_SECURITY_LIGHT_0_FIXTURE",
+        "V06_SECURITY_LIGHT_0_GLOW",
+        "V06_SECURITY_LIGHT_1_FIXTURE",
+        "V06_SECURITY_LIGHT_1_GLOW",
+        "V06_SECURITY_LIGHT_2_FIXTURE",
+        "V06_SECURITY_LIGHT_2_GLOW",
+        "V06_SECURITY_LIGHT_3_FIXTURE",
+        "V06_SECURITY_LIGHT_3_GLOW",
+        "V06_SECURITY_MONITOR_WALL",
+        "V06_SECURITY_RECEPTION_DESK",
+        "V06_SECURITY_RIGHT",
+        "V06_SECURITY_SCREENING",
+        "V06_SECURITY_SOFFIT_-44.56",
+        "V06_SECURITY_SOFFIT_-58",
+        "V06_SECURITY_SOFFIT_-71.44",
+        "V06_SECURITY_TURNSTILE_0",
+        "V06_SECURITY_TURNSTILE_1",
+        "V06_SECURITY_TURNSTILE_2",
+        "V06_SECURITY_TURNSTILE_3",
+        "V06_SECURITY_WAITING_PANEL",
+        "V06_SECURITY_WAITING_POST",
+        "V06_VISITOR_WAITING_CHAIR_0",
+        "V06_VISITOR_WAITING_CHAIR_1",
+        "V06_VISITOR_WAITING_CHAIR_2",
+        "V06_VISITOR_WAITING_CHAIR_3",
+        "V06_VISITOR_WAITING_TABLE"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 95,
+      "legacy_group_objects": 63,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [],
+      "old_anchor_distance_m": 1.72,
+      "v06_anchor_distance_m": 2.403,
+      "spatial_gap_m": 3.044,
+      "camera_to_v06_avg_m": 12.311,
+      "camera_scale_ratio": 4.1099,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_SECURITY_SOFFIT_-44.56",
+        "V06_SECURITY_SOFFIT_-71.44"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "correct visibility/integration only; no geometry rebuild until V07 QA proves insufficiency",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Security gatehouse",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 22,
+      "affected_v06_object_names": [
+        "V06_GATEHOUSE_BACK",
+        "V06_GATEHOUSE_BARRIER_ARM",
+        "V06_GATEHOUSE_BARRIER_POST",
+        "V06_GATEHOUSE_CCTV_WALL",
+        "V06_GATEHOUSE_DOOR_HEADER",
+        "V06_GATEHOUSE_DOOR_L",
+        "V06_GATEHOUSE_DOOR_R",
+        "V06_GATEHOUSE_FLOOR",
+        "V06_GATEHOUSE_LEFT",
+        "V06_GATEHOUSE_LIGHT_0_FIXTURE",
+        "V06_GATEHOUSE_LIGHT_0_GLOW",
+        "V06_GATEHOUSE_LIGHT_1_FIXTURE",
+        "V06_GATEHOUSE_LIGHT_1_GLOW",
+        "V06_GATEHOUSE_OPERATOR_DESK",
+        "V06_GATEHOUSE_RIGHT",
+        "V06_GATEHOUSE_SOFFIT_101.6",
+        "V06_GATEHOUSE_SOFFIT_90.4",
+        "V06_GATEHOUSE_SOFFIT_96",
+        "V06_GATEHOUSE_VEHICLE_LANE",
+        "V06_GATEHOUSE_WINDOW_0",
+        "V06_GATEHOUSE_WINDOW_1",
+        "V06_GATEHOUSE_WINDOW_2"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 59,
+      "legacy_group_objects": 37,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_GATEHOUSE_WINDOW_0",
+          "proxy": "V05_GATEHOUSE_BACK"
+        },
+        {
+          "v06": "V06_GATEHOUSE_WINDOW_1",
+          "proxy": "V05_GATEHOUSE_BACK"
+        },
+        {
+          "v06": "V06_GATEHOUSE_WINDOW_2",
+          "proxy": "V05_GATEHOUSE_BACK"
+        }
+      ],
+      "old_anchor_distance_m": 1.32,
+      "v06_anchor_distance_m": 1.593,
+      "spatial_gap_m": 0.568,
+      "camera_to_v06_avg_m": 7.173,
+      "camera_scale_ratio": 3.4036,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_GATEHOUSE_SOFFIT_101.6",
+        "V06_GATEHOUSE_SOFFIT_90.4"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Toothpaste production",
+      "root_cause_category": "inside/behind legacy proxy geometry; material/lighting visibility",
+      "affected_v06_objects": 47,
+      "affected_v06_object_names": [
+        "V06_PASTE_CARTONER",
+        "V06_PASTE_CODE_LINE_A",
+        "V06_PASTE_CODE_LINE_B",
+        "V06_PASTE_CODE_LINE_BED",
+        "V06_PASTE_CODE_LINE_ROLLER0",
+        "V06_PASTE_CODE_LINE_ROLLER1",
+        "V06_PASTE_CODE_LINE_ROLLER2",
+        "V06_PASTE_CODE_LINE_ROLLER3",
+        "V06_PASTE_CODE_LINE_ROLLER4",
+        "V06_PASTE_CODE_LINE_ROLLER5",
+        "V06_PASTE_CODE_LINE_ROLLER6",
+        "V06_PASTE_CRIMP_JAWS",
+        "V06_PASTE_FILL_FRAME",
+        "V06_PASTE_FILL_NOZZLE_0",
+        "V06_PASTE_FILL_NOZZLE_1",
+        "V06_PASTE_FILL_NOZZLE_2",
+        "V06_PASTE_FILL_NOZZLE_3",
+        "V06_PASTE_HOLD_LID",
+        "V06_PASTE_HOLD_OUT",
+        "V06_PASTE_HOLD_VESSEL",
+        "V06_PASTE_TRANSFER",
+        "V06_PASTE_TUBE_MAGAZINE_0",
+        "V06_PASTE_TUBE_MAGAZINE_1",
+        "V06_PASTE_TUBE_MAGAZINE_2",
+        "V06_PASTE_TUBE_MAGAZINE_3",
+        "V06_PASTE_TUBE_MAGAZINE_4",
+        "V06_PASTE_VACUUM_MIX_LID",
+        "V06_PASTE_VACUUM_MIX_OUT",
+        "V06_PASTE_VACUUM_MIX_VESSEL",
+        "V06_TOOTHPASTE_BACK",
+        "V06_TOOTHPASTE_DOOR_HEADER",
+        "V06_TOOTHPASTE_DOOR_L",
+        "V06_TOOTHPASTE_DOOR_R",
+        "V06_TOOTHPASTE_FLOOR",
+        "V06_TOOTHPASTE_LEFT",
+        "V06_TOOTHPASTE_LIGHT_0_FIXTURE",
+        "V06_TOOTHPASTE_LIGHT_0_GLOW",
+        "V06_TOOTHPASTE_LIGHT_1_FIXTURE",
+        "V06_TOOTHPASTE_LIGHT_1_GLOW",
+        "V06_TOOTHPASTE_LIGHT_2_FIXTURE"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 263,
+      "legacy_group_objects": 216,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_PASTE_TUBE_MAGAZINE_0",
+          "proxy": "V05_PASTE_TUBE_MAG"
+        },
+        {
+          "v06": "V06_PASTE_TUBE_MAGAZINE_1",
+          "proxy": "V05_PASTE_TUBE_MAG"
+        },
+        {
+          "v06": "V06_PASTE_TUBE_MAGAZINE_2",
+          "proxy": "V05_PASTE_TUBE_MAG"
+        },
+        {
+          "v06": "V06_PASTE_TUBE_MAGAZINE_3",
+          "proxy": "V05_PASTE_TUBE_MAG"
+        }
+      ],
+      "old_anchor_distance_m": 15.595,
+      "v06_anchor_distance_m": 4.346,
+      "spatial_gap_m": 14.1,
+      "camera_to_v06_avg_m": 11.216,
+      "camera_scale_ratio": 3.9482,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_DARK",
+            "diffuse": [
+              0.014999999664723873,
+              0.019999999552965164,
+              0.02500000037252903
+            ],
+            "luminance": 0.0193
+          },
+          {
+            "name": "REV005_V05_PURPLE",
+            "diffuse": [
+              0.550000011920929,
+              0.07999999821186066,
+              0.3499999940395355
+            ],
+            "luminance": 0.1994
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_GREEN",
+            "diffuse": [
+              0.019999999552965164,
+              0.41999998688697815,
+              0.18000000715255737
+            ],
+            "luminance": 0.3176
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          }
+        ],
+        "dark_material_count": 1
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+        "V06_TOOTHPASTE_SOFFIT_-23.200000000000003"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Training / Academy",
+      "root_cause_category": "integration appears enabled; selective camera/proxy proof required",
+      "affected_v06_objects": 51,
+      "affected_v06_object_names": [
+        "V06_CLASSROOM_0_CHAIR_0",
+        "V06_CLASSROOM_0_CHAIR_1",
+        "V06_CLASSROOM_0_CHAIR_2",
+        "V06_CLASSROOM_0_CHAIR_3",
+        "V06_CLASSROOM_0_TABLE",
+        "V06_CLASSROOM_1_CHAIR_0",
+        "V06_CLASSROOM_1_CHAIR_1",
+        "V06_CLASSROOM_1_CHAIR_2",
+        "V06_CLASSROOM_1_CHAIR_3",
+        "V06_CLASSROOM_1_TABLE",
+        "V06_CLASSROOM_2_CHAIR_0",
+        "V06_CLASSROOM_2_CHAIR_1",
+        "V06_CLASSROOM_2_CHAIR_2",
+        "V06_CLASSROOM_2_CHAIR_3",
+        "V06_CLASSROOM_2_TABLE",
+        "V06_CLASSROOM_3_CHAIR_0",
+        "V06_CLASSROOM_3_CHAIR_1",
+        "V06_CLASSROOM_3_CHAIR_2",
+        "V06_CLASSROOM_3_CHAIR_3",
+        "V06_CLASSROOM_3_TABLE",
+        "V06_TRAINING_BACK",
+        "V06_TRAINING_DOOR",
+        "V06_TRAINING_DOOR_HEADER",
+        "V06_TRAINING_DOOR_L",
+        "V06_TRAINING_DOOR_R",
+        "V06_TRAINING_FLOOR",
+        "V06_TRAINING_INSTRUCTOR_DESK",
+        "V06_TRAINING_LEFT",
+        "V06_TRAINING_LIGHT_0_FIXTURE",
+        "V06_TRAINING_LIGHT_0_GLOW",
+        "V06_TRAINING_LIGHT_1_FIXTURE",
+        "V06_TRAINING_LIGHT_1_GLOW",
+        "V06_TRAINING_PRESENTATION_SCREEN",
+        "V06_TRAINING_RIGHT",
+        "V06_TRAINING_SOFFIT_22.72",
+        "V06_TRAINING_SOFFIT_30",
+        "V06_TRAINING_SOFFIT_37.28",
+        "V06_TRAINING_STORAGE_BEAM_0",
+        "V06_TRAINING_STORAGE_BEAM_1",
+        "V06_TRAINING_STORAGE_LOAD_0_0"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 127,
+      "legacy_group_objects": 76,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [],
+      "old_anchor_distance_m": 1.887,
+      "v06_anchor_distance_m": 2.54,
+      "spatial_gap_m": 0.951,
+      "camera_to_v06_avg_m": 8.269,
+      "camera_scale_ratio": 3.8243,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_TRAINING_SOFFIT_22.72",
+        "V06_TRAINING_SOFFIT_37.28"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "correct visibility/integration only; no geometry rebuild until V07 QA proves insufficiency",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Utilities / engineering",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 43,
+      "affected_v06_object_names": [
+        "V06_UTIL_AIR_RECEIVER",
+        "V06_UTIL_BOILER_LID",
+        "V06_UTIL_BOILER_OUT",
+        "V06_UTIL_BOILER_VESSEL",
+        "V06_UTIL_COMPRESSOR_BASE",
+        "V06_UTIL_COMPRESSOR_HOUSING",
+        "V06_UTIL_COMPRESSOR_PANEL",
+        "V06_UTIL_DISTRIBUTION_0",
+        "V06_UTIL_DISTRIBUTION_1",
+        "V06_UTIL_DISTRIBUTION_2",
+        "V06_UTIL_DISTRIBUTION_3",
+        "V06_UTIL_DRYER",
+        "V06_UTIL_MAINTENANCE_BENCH",
+        "V06_UTIL_RO_COLUMN_0_LID",
+        "V06_UTIL_RO_COLUMN_0_OUT",
+        "V06_UTIL_RO_COLUMN_0_VESSEL",
+        "V06_UTIL_RO_COLUMN_1_LID",
+        "V06_UTIL_RO_COLUMN_1_OUT",
+        "V06_UTIL_RO_COLUMN_1_VESSEL",
+        "V06_UTIL_RO_COLUMN_2_LID",
+        "V06_UTIL_RO_COLUMN_2_OUT",
+        "V06_UTIL_RO_COLUMN_2_VESSEL",
+        "V06_UTIL_RO_SKID",
+        "V06_UTIL_SERVICE_RAIL_POST_L",
+        "V06_UTIL_SERVICE_RAIL_POST_R",
+        "V06_UTIL_SERVICE_RAIL_TOP",
+        "V06_UTIL_STEAM_MANIFOLD",
+        "V06_UTILITIES_BACK",
+        "V06_UTILITIES_DOOR_HEADER",
+        "V06_UTILITIES_DOOR_L",
+        "V06_UTILITIES_DOOR_R",
+        "V06_UTILITIES_FLOOR",
+        "V06_UTILITIES_LEFT",
+        "V06_UTILITIES_LIGHT_0_FIXTURE",
+        "V06_UTILITIES_LIGHT_0_GLOW",
+        "V06_UTILITIES_LIGHT_1_FIXTURE",
+        "V06_UTILITIES_LIGHT_1_GLOW",
+        "V06_UTILITIES_LIGHT_2_FIXTURE",
+        "V06_UTILITIES_LIGHT_2_GLOW",
+        "V06_UTILITIES_RIGHT"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 126,
+      "legacy_group_objects": 83,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_UTIL_COMPRESSOR_BASE",
+          "proxy": "REV005_Utilities_/_engineering_FLOOR"
+        },
+        {
+          "v06": "V06_UTIL_RO_SKID",
+          "proxy": "REV005_Utilities_/_engineering_FLOOR"
+        },
+        {
+          "v06": "V06_UTIL_SERVICE_RAIL_POST_L",
+          "proxy": "V04_UTIL_FLOOR"
+        },
+        {
+          "v06": "V06_UTIL_SERVICE_RAIL_POST_L",
+          "proxy": "V05_UTIL_FLOOR"
+        },
+        {
+          "v06": "V06_UTIL_SERVICE_RAIL_POST_R",
+          "proxy": "V04_UTIL_FLOOR"
+        },
+        {
+          "v06": "V06_UTIL_SERVICE_RAIL_POST_R",
+          "proxy": "V05_UTIL_FLOOR"
+        }
+      ],
+      "old_anchor_distance_m": 2.777,
+      "v06_anchor_distance_m": 3.804,
+      "spatial_gap_m": 3.395,
+      "camera_to_v06_avg_m": 11.684,
+      "camera_scale_ratio": 3.8808,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_ORANGE",
+            "diffuse": [
+              0.8999999761581421,
+              0.23000000417232513,
+              0.029999999329447746
+            ],
+            "luminance": 0.358
+          },
+          {
+            "name": "REV005_V05_BLUE",
+            "diffuse": [
+              0.019999999552965164,
+              0.1599999964237213,
+              0.5199999809265137
+            ],
+            "luminance": 0.1562
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_UTILITIES_SOFFIT_105.52",
+        "V06_UTILITIES_SOFFIT_86.48"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Wellness / recreation",
+      "root_cause_category": "inside/behind legacy proxy geometry",
+      "affected_v06_objects": 49,
+      "affected_v06_object_names": [
+        "V06_WELLNESS_BACK",
+        "V06_WELLNESS_DOOR_HEADER",
+        "V06_WELLNESS_DOOR_L",
+        "V06_WELLNESS_DOOR_R",
+        "V06_WELLNESS_FLOOR",
+        "V06_WELLNESS_LEFT",
+        "V06_WELLNESS_LIGHT_0_FIXTURE",
+        "V06_WELLNESS_LIGHT_0_GLOW",
+        "V06_WELLNESS_LIGHT_1_FIXTURE",
+        "V06_WELLNESS_LIGHT_1_GLOW",
+        "V06_WELLNESS_LOCKER_BEAM_0",
+        "V06_WELLNESS_LOCKER_BEAM_1",
+        "V06_WELLNESS_LOCKER_LOAD_0_0",
+        "V06_WELLNESS_LOCKER_LOAD_0_1",
+        "V06_WELLNESS_LOCKER_LOAD_1_0",
+        "V06_WELLNESS_LOCKER_LOAD_1_1",
+        "V06_WELLNESS_LOCKER_LOAD_2_0",
+        "V06_WELLNESS_LOCKER_LOAD_2_1",
+        "V06_WELLNESS_LOCKER_PALLET_0_0",
+        "V06_WELLNESS_LOCKER_PALLET_0_1",
+        "V06_WELLNESS_LOCKER_PALLET_1_0",
+        "V06_WELLNESS_LOCKER_PALLET_1_1",
+        "V06_WELLNESS_LOCKER_PALLET_2_0",
+        "V06_WELLNESS_LOCKER_PALLET_2_1",
+        "V06_WELLNESS_LOCKER_UPRIGHT_0_0",
+        "V06_WELLNESS_LOCKER_UPRIGHT_0_1",
+        "V06_WELLNESS_LOCKER_UPRIGHT_1_0",
+        "V06_WELLNESS_LOCKER_UPRIGHT_1_1",
+        "V06_WELLNESS_LOCKER_UPRIGHT_2_0",
+        "V06_WELLNESS_LOCKER_UPRIGHT_2_1",
+        "V06_WELLNESS_MIRROR_PANEL",
+        "V06_WELLNESS_MIRROR_POST",
+        "V06_WELLNESS_RIGHT",
+        "V06_WELLNESS_SOFFIT_22.16",
+        "V06_WELLNESS_SOFFIT_30",
+        "V06_WELLNESS_SOFFIT_37.84",
+        "V06_WELLNESS_TREADMILL_0",
+        "V06_WELLNESS_TREADMILL_1",
+        "V06_WELLNESS_TREADMILL_2",
+        "V06_WELLNESS_TREADMILL_HANDLE_0"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 113,
+      "legacy_group_objects": 64,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_WELLNESS_TREADMILL_0",
+          "proxy": "REV005_Wellness_/_recreation_FLOOR"
+        },
+        {
+          "v06": "V06_WELLNESS_TREADMILL_1",
+          "proxy": "REV005_Wellness_/_recreation_FLOOR"
+        },
+        {
+          "v06": "V06_WELLNESS_TREADMILL_2",
+          "proxy": "REV005_Wellness_/_recreation_FLOOR"
+        },
+        {
+          "v06": "V06_WELLNESS_YOGA_MAT_0",
+          "proxy": "REV005_Wellness_/_recreation_FLOOR"
+        },
+        {
+          "v06": "V06_WELLNESS_YOGA_MAT_1",
+          "proxy": "REV005_Wellness_/_recreation_FLOOR"
+        },
+        {
+          "v06": "V06_WELLNESS_YOGA_MAT_2",
+          "proxy": "REV005_Wellness_/_recreation_FLOOR"
+        },
+        {
+          "v06": "V06_WELLNESS_YOGA_MAT_3",
+          "proxy": "REV005_Wellness_/_recreation_FLOOR"
+        }
+      ],
+      "old_anchor_distance_m": 4.35,
+      "v06_anchor_distance_m": 4.606,
+      "spatial_gap_m": 1.254,
+      "camera_to_v06_avg_m": 11.123,
+      "camera_scale_ratio": 3.2014,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_WOOD",
+            "diffuse": [
+              0.41999998688697815,
+              0.1899999976158142,
+              0.05000000074505806
+            ],
+            "luminance": 0.2288
+          },
+          {
+            "name": "REV005_V05_TEAL",
+            "diffuse": [
+              0.009999999776482582,
+              0.47999998927116394,
+              0.5799999833106995
+            ],
+            "luminance": 0.3873
+          },
+          {
+            "name": "REV005_V05_PURPLE",
+            "diffuse": [
+              0.550000011920929,
+              0.07999999821186066,
+              0.3499999940395355
+            ],
+            "luminance": 0.1994
+          }
+        ],
+        "dark_material_count": 0
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_WELLNESS_SOFFIT_22.16",
+        "V06_WELLNESS_SOFFIT_37.84"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    },
+    {
+      "group": "Wet wipes production",
+      "root_cause_category": "inside/behind legacy proxy geometry; material/lighting visibility",
+      "affected_v06_objects": 72,
+      "affected_v06_object_names": [
+        "V06_WIPES_BACK",
+        "V06_WIPES_CUT_STACK",
+        "V06_WIPES_DISCHARGE_A",
+        "V06_WIPES_DISCHARGE_B",
+        "V06_WIPES_DISCHARGE_BED",
+        "V06_WIPES_DISCHARGE_ROLLER0",
+        "V06_WIPES_DISCHARGE_ROLLER1",
+        "V06_WIPES_DISCHARGE_ROLLER2",
+        "V06_WIPES_DISCHARGE_ROLLER3",
+        "V06_WIPES_DISCHARGE_ROLLER4",
+        "V06_WIPES_DISCHARGE_ROLLER5",
+        "V06_WIPES_DISCHARGE_ROLLER6",
+        "V06_WIPES_DOOR_HEADER",
+        "V06_WIPES_DOOR_L",
+        "V06_WIPES_DOOR_R",
+        "V06_WIPES_FILM_ROLL",
+        "V06_WIPES_FLOOR",
+        "V06_WIPES_FOLD_FRAME",
+        "V06_WIPES_LEFT",
+        "V06_WIPES_LIGHT_0_FIXTURE",
+        "V06_WIPES_LIGHT_0_GLOW",
+        "V06_WIPES_LIGHT_1_FIXTURE",
+        "V06_WIPES_LIGHT_1_GLOW",
+        "V06_WIPES_LIGHT_2_FIXTURE",
+        "V06_WIPES_LIGHT_2_GLOW",
+        "V06_WIPES_LIGHT_3_FIXTURE",
+        "V06_WIPES_LIGHT_3_GLOW",
+        "V06_WIPES_LIGHT_4_FIXTURE",
+        "V06_WIPES_LIGHT_4_GLOW",
+        "V06_WIPES_PARENT_ROLL_0",
+        "V06_WIPES_PARENT_ROLL_1",
+        "V06_WIPES_POUCH_FORM_A",
+        "V06_WIPES_POUCH_FORM_B",
+        "V06_WIPES_POUCH_FORM_BED",
+        "V06_WIPES_POUCH_FORM_ROLLER0",
+        "V06_WIPES_POUCH_FORM_ROLLER1",
+        "V06_WIPES_POUCH_FORM_ROLLER2",
+        "V06_WIPES_POUCH_FORM_ROLLER3",
+        "V06_WIPES_POUCH_FORM_ROLLER4",
+        "V06_WIPES_POUCH_FORM_ROLLER5"
+      ],
+      "collections": [
+        {
+          "name": "REV005_INTERIOR_REMEDIATION_V06",
+          "objects": 1950,
+          "paths": [
+            "Scene Collection/REV005_INTERIOR_REMEDIATION_V06"
+          ],
+          "visibility": [
+            {
+              "view_layer": "ViewLayer",
+              "found": true,
+              "enabled": true,
+              "excluded": false,
+              "hidden": false
+            }
+          ]
+        }
+      ],
+      "all_group_objects": 292,
+      "legacy_group_objects": 220,
+      "hidden_render_count": 0,
+      "hidden_viewport_count": 0,
+      "invalid_transform_count": 0,
+      "zero_scale_count": 0,
+      "tiny_detail_count": 0,
+      "proxy_containment_pairs": [
+        {
+          "v06": "V06_WIPES_POUCH_FORM_ROLLER0",
+          "proxy": "V03_WIPES_PACK_OUT_ROLLER_00"
+        },
+        {
+          "v06": "V06_WIPES_POUCH_FORM_ROLLER1",
+          "proxy": "V03_WIPES_PACK_OUT_ROLLER_01"
+        },
+        {
+          "v06": "V06_WIPES_POUCH_FORM_ROLLER2",
+          "proxy": "V03_WIPES_PACK_OUT_ROLLER_02"
+        },
+        {
+          "v06": "V06_WIPES_POUCH_FORM_ROLLER3",
+          "proxy": "V03_WIPES_PACK_OUT_ROLLER_03"
+        },
+        {
+          "v06": "V06_WIPES_POUCH_FORM_ROLLER4",
+          "proxy": "V03_WIPES_PACK_OUT_ROLLER_04"
+        },
+        {
+          "v06": "V06_WIPES_POUCH_FORM_ROLLER5",
+          "proxy": "V03_WIPES_PACK_OUT_ROLLER_05"
+        },
+        {
+          "v06": "V06_WIPES_POUCH_FORM_ROLLER6",
+          "proxy": "V03_WIPES_PACK_OUT_ROLLER_06"
+        },
+        {
+          "v06": "V06_WIPES_WEB_PATH_ROLLER1",
+          "proxy": "V03_WIPES_CUTTER"
+        },
+        {
+          "v06": "V06_WIPES_WEB_PATH_ROLLER2",
+          "proxy": "V03_WIPES_CUTTER"
+        },
+        {
+          "v06": "V06_WIPES_WEB_PATH_ROLLER4",
+          "proxy": "V03_WIPES_CONVERTING_LINE_ROLLER_02"
+        },
+        {
+          "v06": "V06_WIPES_WEB_PATH_ROLLER5",
+          "proxy": "V03_WIPES_STACKER"
+        },
+        {
+          "v06": "V06_WIPES_WEB_PATH_ROLLER6",
+          "proxy": "V03_WIPES_STACKER"
+        },
+        {
+          "v06": "V06_WIPES_WEB_ROLLER_1",
+          "proxy": "V03_WIPES_CUTTER"
+        },
+        {
+          "v06": "V06_WIPES_WEB_ROLLER_2",
+          "proxy": "V03_WIPES_STACKER"
+        }
+      ],
+      "old_anchor_distance_m": 13.729,
+      "v06_anchor_distance_m": 5.937,
+      "spatial_gap_m": 16.352,
+      "camera_to_v06_avg_m": 13.752,
+      "camera_scale_ratio": 3.8895,
+      "material_visibility": {
+        "materials": [
+          {
+            "name": "REV005_V05_WALL",
+            "diffuse": [
+              0.699999988079071,
+              0.75,
+              0.7699999809265137
+            ],
+            "luminance": 0.7408
+          },
+          {
+            "name": "REV005_V05_YELLOW",
+            "diffuse": [
+              0.9800000190734863,
+              0.5799999833106995,
+              0.019999999552965164
+            ],
+            "luminance": 0.6246
+          },
+          {
+            "name": "REV005_V05_STAINLESS",
+            "diffuse": [
+              0.6499999761581421,
+              0.699999988079071,
+              0.7200000286102295
+            ],
+            "luminance": 0.6908
+          },
+          {
+            "name": "REV005_V05_DARK",
+            "diffuse": [
+              0.014999999664723873,
+              0.019999999552965164,
+              0.02500000037252903
+            ],
+            "luminance": 0.0193
+          },
+          {
+            "name": "REV005_V05_STEEL",
+            "diffuse": [
+              0.18000000715255737,
+              0.25,
+              0.30000001192092896
+            ],
+            "luminance": 0.2387
+          },
+          {
+            "name": "REV005_V05_GLASS",
+            "diffuse": [
+              0.05000000074505806,
+              0.4000000059604645,
+              0.550000011920929
+            ],
+            "luminance": 0.3364
+          },
+          {
+            "name": "REV005_V05_WHITE",
+            "diffuse": [
+              0.8799999952316284,
+              0.8999999761581421,
+              0.9100000262260437
+            ],
+            "luminance": 0.8965
+          },
+          {
+            "name": "REV005_V05_FLOOR",
+            "diffuse": [
+              0.20000000298023224,
+              0.25,
+              0.2800000011920929
+            ],
+            "luminance": 0.2415
+          },
+          {
+            "name": "REV005_V05_WARM",
+            "diffuse": [
+              0.9300000071525574,
+              0.4000000059604645,
+              0.05000000074505806
+            ],
+            "luminance": 0.4874
+          },
+          {
+            "name": "REV005_V05_RED",
+            "diffuse": [
+              0.7799999713897705,
+              0.029999999329447746,
+              0.019999999552965164
+            ],
+            "luminance": 0.1887
+          },
+          {
+            "name": "REV005_V05_GREEN",
+            "diffuse": [
+              0.019999999552965164,
+              0.41999998688697815,
+              0.18000000715255737
+            ],
+            "luminance": 0.3176
+          }
+        ],
+        "dark_material_count": 1
+      },
+      "glb_visibility": {
+        "status": "PASS",
+        "error": null,
+        "named_node_count": 8364,
+        "v06_object_count": 1950,
+        "v06_present_count": 1910,
+        "v06_missing_count": 40,
+        "missing_names": [
+          "V06_ADMIN_SOFFIT_-43.44",
+          "V06_ADMIN_SOFFIT_-72.56",
+          "V06_BOTTLE_SOFFIT_41.36",
+          "V06_BOTTLE_SOFFIT_62.64",
+          "V06_CHEMICAL_SOFFIT_45.92",
+          "V06_CHEMICAL_SOFFIT_66.08",
+          "V06_CLINIC_SOFFIT_-11.28",
+          "V06_CLINIC_SOFFIT_-24.72",
+          "V06_ETP_SOFFIT_118.64",
+          "V06_ETP_SOFFIT_97.36",
+          "V06_FG_SOFFIT_65.44",
+          "V06_FG_SOFFIT_94.56",
+          "V06_GATEHOUSE_SOFFIT_101.6",
+          "V06_GATEHOUSE_SOFFIT_90.4",
+          "V06_GLASS_DECK_SOFFIT_67.2",
+          "V06_GLASS_DECK_SOFFIT_72.8",
+          "V06_LIQUID_SOFFIT_-2.880000000000001",
+          "V06_LIQUID_SOFFIT_22.880000000000003",
+          "V06_PACK_SOFFIT_-26.240000000000002",
+          "V06_PACK_SOFFIT_6.240000000000002",
+          "V06_POWDER_SOFFIT_-37.92",
+          "V06_POWDER_SOFFIT_-58.08",
+          "V06_RAW_SOFFIT_-62.879999999999995",
+          "V06_RAW_SOFFIT_-93.12",
+          "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+          "V06_RESTAURANT_SOFFIT_17.6",
+          "V06_SECURITY_SOFFIT_-44.56",
+          "V06_SECURITY_SOFFIT_-71.44",
+          "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+          "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+          "V06_TRAINING_SOFFIT_22.72",
+          "V06_TRAINING_SOFFIT_37.28",
+          "V06_UTILITIES_SOFFIT_105.52",
+          "V06_UTILITIES_SOFFIT_86.48",
+          "V06_WELLNESS_SOFFIT_22.16",
+          "V06_WELLNESS_SOFFIT_37.84",
+          "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+          "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+          "V06_WIPES_SOFFIT_36.0",
+          "V06_WIPES_SOFFIT_7.999999999999998"
+        ]
+      },
+      "group_glb_missing_names": [
+        "V06_WIPES_SOFFIT_36.0",
+        "V06_WIPES_SOFFIT_7.999999999999998"
+      ],
+      "group_glb_functional_missing_names": [],
+      "corrective_action": "open/remove only blocking legacy proxy cover and reframe camera; preserve functional geometry",
+      "geometry_rebuild_required": false
+    }
+  ]
+}

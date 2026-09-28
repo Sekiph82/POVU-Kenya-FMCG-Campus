@@ -1,0 +1,61 @@
+00:01.562  blend            | Read blend: "C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo\3d\revisions\REV005\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend"
+BlenderMCP addon registered
+{
+  "status": "DIAGNOSTIC_COMPLETE",
+  "group_count": 20,
+  "v06_object_count": 1950,
+  "glb": {
+    "status": "PASS",
+    "error": null,
+    "named_node_count": 8364,
+    "v06_object_count": 1950,
+    "v06_present_count": 1910,
+    "v06_missing_count": 40,
+    "missing_names": [
+      "V06_ADMIN_SOFFIT_-43.44",
+      "V06_ADMIN_SOFFIT_-72.56",
+      "V06_BOTTLE_SOFFIT_41.36",
+      "V06_BOTTLE_SOFFIT_62.64",
+      "V06_CHEMICAL_SOFFIT_45.92",
+      "V06_CHEMICAL_SOFFIT_66.08",
+      "V06_CLINIC_SOFFIT_-11.28",
+      "V06_CLINIC_SOFFIT_-24.72",
+      "V06_ETP_SOFFIT_118.64",
+      "V06_ETP_SOFFIT_97.36",
+      "V06_FG_SOFFIT_65.44",
+      "V06_FG_SOFFIT_94.56",
+      "V06_GATEHOUSE_SOFFIT_101.6",
+      "V06_GATEHOUSE_SOFFIT_90.4",
+      "V06_GLASS_DECK_SOFFIT_67.2",
+      "V06_GLASS_DECK_SOFFIT_72.8",
+      "V06_LIQUID_SOFFIT_-2.880000000000001",
+      "V06_LIQUID_SOFFIT_22.880000000000003",
+      "V06_PACK_SOFFIT_-26.240000000000002",
+      "V06_PACK_SOFFIT_6.240000000000002",
+      "V06_POWDER_SOFFIT_-37.92",
+      "V06_POWDER_SOFFIT_-58.08",
+      "V06_RAW_SOFFIT_-62.879999999999995",
+      "V06_RAW_SOFFIT_-93.12",
+      "V06_RESTAURANT_SOFFIT_-7.600000000000001",
+      "V06_RESTAURANT_SOFFIT_17.6",
+      "V06_SECURITY_SOFFIT_-44.56",
+      "V06_SECURITY_SOFFIT_-71.44",
+      "V06_TOOTHPASTE_SOFFIT_-0.7999999999999989",
+      "V06_TOOTHPASTE_SOFFIT_-23.200000000000003",
+      "V06_TRAINING_SOFFIT_22.72",
+      "V06_TRAINING_SOFFIT_37.28",
+      "V06_UTILITIES_SOFFIT_105.52",
+      "V06_UTILITIES_SOFFIT_86.48",
+      "V06_WELLNESS_SOFFIT_22.16",
+      "V06_WELLNESS_SOFFIT_37.84",
+      "V06_WET_PROCESS_SOFFIT_-14.000000000000002",
+      "V06_WET_PROCESS_SOFFIT_14.000000000000002",
+      "V06_WIPES_SOFFIT_36.0",
+      "V06_WIPES_SOFFIT_7.999999999999998"
+    ]
+  }
+}
+BlenderMCP addon unregistered
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

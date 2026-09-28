@@ -1,0 +1,2322 @@
+[
+  {
+    "name": "V04_ADMIN_LAB_PARTITION",
+    "facility": "Administration / HQ / R&D / QC",
+    "type": "MESH",
+    "dimensions": [
+      0.18,
+      12.0,
+      4.2
+    ],
+    "location": [
+      -42.0,
+      -64.0,
+      3.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_ADMIN_QC_LAB_BENCH",
+    "facility": "Administration / HQ / R&D / QC",
+    "type": "MESH",
+    "dimensions": [
+      13.0,
+      1.1,
+      1.5
+    ],
+    "location": [
+      -42.0,
+      -70.0,
+      2.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_ADMIN_RECEPTION",
+    "facility": "Administration / HQ / R&D / QC",
+    "type": "MESH",
+    "dimensions": [
+      8.0,
+      1.2,
+      1.7
+    ],
+    "location": [
+      -78.0,
+      -51.5,
+      2.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V05_ADMIN_LAB_PARTITION_PANEL",
+    "facility": "Administration / HQ / R&D / QC",
+    "type": "MESH",
+    "dimensions": [
+      12.0,
+      0.14,
+      4.3
+    ],
+    "location": [
+      -42.0,
+      -64.0,
+      2.15
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ADMIN_QC_BENCH",
+    "facility": "Administration / HQ / R&D / QC",
+    "type": "MESH",
+    "dimensions": [
+      13.0,
+      1.1,
+      1.5
+    ],
+    "location": [
+      -42.0,
+      -70.0,
+      2.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V03_BLOW_CLAMP_GUARD",
+    "facility": "Bottle Blow Molding",
+    "type": "MESH",
+    "dimensions": [
+      5.8,
+      5.5,
+      6.0
+    ],
+    "location": [
+      53.0,
+      10.0,
+      4.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_BLOW_OVEN_HOUSING",
+    "facility": "Bottle Blow Molding",
+    "type": "MESH",
+    "dimensions": [
+      6.2,
+      5.2,
+      5.6
+    ],
+    "location": [
+      45.7,
+      10.0,
+      3.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V04_BLOW_BOTTLE_INSPECTION",
+    "facility": "Bottle Blow Molding",
+    "type": "MESH",
+    "dimensions": [
+      1.4,
+      2.4,
+      4.8
+    ],
+    "location": [
+      59.0,
+      10.8,
+      3.6
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V05_BLOW_MOULD_CLAMP_HOUSING",
+    "facility": "Bottle blow molding",
+    "type": "MESH",
+    "dimensions": [
+      5.0,
+      4.0,
+      5.0
+    ],
+    "location": [
+      53.0,
+      11.0,
+      3.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_BLOW_OUTFEED_ROLLER1",
+    "facility": "Bottle blow molding",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      0.988,
+      0.988
+    ],
+    "location": [
+      57.733,
+      11.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_BLOW_OVEN_HOUSING",
+    "facility": "Bottle blow molding",
+    "type": "MESH",
+    "dimensions": [
+      5.0,
+      4.0,
+      4.6
+    ],
+    "location": [
+      47.0,
+      11.0,
+      3.3
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_CHEM_FLOOR",
+    "facility": "Chemical compound / controlled receiving",
+    "type": "MESH",
+    "dimensions": [
+      36.0,
+      30.0,
+      0.18
+    ],
+    "location": [
+      56.0,
+      80.0,
+      1.05
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_CHEM_TANK0_VESSEL",
+    "facility": "Chemical compound / controlled receiving",
+    "type": "MESH",
+    "dimensions": [
+      4.2,
+      4.2,
+      5.0
+    ],
+    "location": [
+      47.0,
+      72.0,
+      3.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_CHEM_TANK1_VESSEL",
+    "facility": "Chemical compound / controlled receiving",
+    "type": "MESH",
+    "dimensions": [
+      4.2,
+      4.2,
+      5.0
+    ],
+    "location": [
+      56.0,
+      72.0,
+      3.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_CHEM_TANK2_VESSEL",
+    "facility": "Chemical compound / controlled receiving",
+    "type": "MESH",
+    "dimensions": [
+      4.2,
+      4.2,
+      5.0
+    ],
+    "location": [
+      65.0,
+      72.0,
+      3.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V04_ETP_FLOOR",
+    "facility": "ETP / Water Treatment",
+    "type": "MESH",
+    "dimensions": [
+      36.0,
+      30.0,
+      0.18
+    ],
+    "location": [
+      108.0,
+      35.0,
+      1.05
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_ETP_OPERATOR_PLATFORM",
+    "facility": "ETP / Water Treatment",
+    "type": "MESH",
+    "dimensions": [
+      2.0,
+      18.0,
+      0.14
+    ],
+    "location": [
+      117.0,
+      36.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_ETP_TANK_02",
+    "facility": "ETP / Water Treatment",
+    "type": "MESH",
+    "dimensions": [
+      5.0,
+      5.0,
+      4.0
+    ],
+    "location": [
+      114.0,
+      26.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V05_ETP_FILTER0_VESSEL",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      1.6,
+      1.6,
+      4.0
+    ],
+    "location": [
+      99.0,
+      37.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_FILTER1_VESSEL",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      1.6,
+      1.6,
+      4.0
+    ],
+    "location": [
+      102.0,
+      37.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_FILTER2_VESSEL",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      1.6,
+      1.6,
+      4.0
+    ],
+    "location": [
+      105.0,
+      37.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_FLOOR",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      38.0,
+      32.0,
+      0.18
+    ],
+    "location": [
+      108.0,
+      35.0,
+      1.05
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_HEADER0",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      0.28,
+      10.0,
+      0.28
+    ],
+    "location": [
+      96.0,
+      32.0,
+      5.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_HEADER1",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      0.28,
+      10.0,
+      0.28
+    ],
+    "location": [
+      103.0,
+      32.0,
+      5.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_TANK0_LID",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      3.36,
+      3.36,
+      0.18
+    ],
+    "location": [
+      96.0,
+      27.0,
+      5.6
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_TANK1_LID",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      3.08,
+      3.08,
+      0.18
+    ],
+    "location": [
+      104.0,
+      27.0,
+      5.6
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_TANK2_LID",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      3.36,
+      3.36,
+      0.18
+    ],
+    "location": [
+      112.0,
+      27.0,
+      5.6
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_ETP_WALKWAY",
+    "facility": "ETP / water treatment",
+    "type": "MESH",
+    "dimensions": [
+      2.0,
+      18.0,
+      0.16
+    ],
+    "location": [
+      116.0,
+      36.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V04_FG_FLOOR",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      48.0,
+      22.0,
+      0.18
+    ],
+    "location": [
+      80.0,
+      -51.0,
+      1.05
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-44_UPRIGHT_00_00",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -44.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-44_UPRIGHT_00_01",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -44.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-44_UPRIGHT_00_02",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -44.0,
+      4.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-51_UPRIGHT_00_00",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -51.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-51_UPRIGHT_00_01",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -51.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-51_UPRIGHT_00_02",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -51.0,
+      4.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-58_UPRIGHT_00_00",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -58.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-58_UPRIGHT_00_01",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -58.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_FG_RACK_-58_UPRIGHT_00_02",
+    "facility": "Finished Goods Warehouse / Dispatch",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      60.0,
+      -58.0,
+      4.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V05_FG_BACK",
+    "facility": "Finished goods warehouse / dispatch",
+    "type": "MESH",
+    "dimensions": [
+      52.0,
+      0.18,
+      9.0
+    ],
+    "location": [
+      80.0,
+      -39.0,
+      4.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_FG_FLOOR",
+    "facility": "Finished goods warehouse / dispatch",
+    "type": "MESH",
+    "dimensions": [
+      52.0,
+      24.0,
+      0.18
+    ],
+    "location": [
+      80.0,
+      -51.0,
+      1.05
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_GLASS_LEFT",
+    "facility": "Glass Deck central command / training / caf\u00e9 gallery",
+    "type": "MESH",
+    "dimensions": [
+      0.18,
+      45.0,
+      17.0
+    ],
+    "location": [
+      65.0,
+      24.0,
+      8.5
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V03_LIQUID_BOTTLE_INFEED_ROLLER_02",
+    "facility": "Liquid Filling / Packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      -8.133,
+      -2.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_LIQUID_BOTTLE_INFEED_ROLLER_03",
+    "facility": "Liquid Filling / Packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      -7.0,
+      -2.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_LIQUID_CAPPER_GUARD",
+    "facility": "Liquid Filling / Packaging",
+    "type": "MESH",
+    "dimensions": [
+      2.4,
+      2.8,
+      3.8
+    ],
+    "location": [
+      9.0,
+      -2.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_LIQUID_CASE_PACKER",
+    "facility": "Liquid Filling / Packaging",
+    "type": "MESH",
+    "dimensions": [
+      3.4,
+      3.2,
+      4.0
+    ],
+    "location": [
+      24.5,
+      -2.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_LIQUID_FILLER_HOUSING",
+    "facility": "Liquid Filling / Packaging",
+    "type": "MESH",
+    "dimensions": [
+      6.8,
+      5.7,
+      5.7
+    ],
+    "location": [
+      1.0,
+      -2.0,
+      4.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_LIQUID_MAIN_LINE_FRAME",
+    "facility": "Liquid Filling / Packaging",
+    "type": "MESH",
+    "dimensions": [
+      23.0,
+      1.8,
+      0.25
+    ],
+    "location": [
+      14.5,
+      -2.0,
+      1.35
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_CASE_PACK_HOUSING",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      3.0,
+      3.0,
+      3.2
+    ],
+    "location": [
+      31.0,
+      -2.0,
+      2.6
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_CASE_ROLLER1",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      1.368,
+      1.368
+    ],
+    "location": [
+      25.067,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_CASE_ROLLER5",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      1.368,
+      1.368
+    ],
+    "location": [
+      28.933,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_FILLER_HOUSING",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      5.0,
+      3.0,
+      4.5
+    ],
+    "location": [
+      -2.0,
+      -2.0,
+      3.25
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_INFEED_ROLLER1",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      0.912,
+      0.912
+    ],
+    "location": [
+      -10.933,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_INFEED_ROLLER2",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      0.912,
+      0.912
+    ],
+    "location": [
+      -9.967,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_INFEED_ROLLER3",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      0.912,
+      0.912
+    ],
+    "location": [
+      -9.0,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_INFEED_ROLLER4",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      0.912,
+      0.912
+    ],
+    "location": [
+      -8.033,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_INFEED_ROLLER5",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      0.912,
+      0.912
+    ],
+    "location": [
+      -7.067,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_LIQUID_INFEED_ROLLER6",
+    "facility": "Liquid filling / packaging",
+    "type": "MESH",
+    "dimensions": [
+      0.1,
+      0.912,
+      0.912
+    ],
+    "location": [
+      -6.1,
+      -2.0,
+      1.65
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "REV005_CHEM_TANK_0",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      4.6,
+      4.6,
+      5.0
+    ],
+    "location": [
+      47.0,
+      72.0,
+      4.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_CHEM_TANK_1",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      4.6,
+      4.6,
+      5.0
+    ],
+    "location": [
+      56.0,
+      72.0,
+      4.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_CHEM_TANK_2",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      4.6,
+      4.6,
+      5.0
+    ],
+    "location": [
+      65.0,
+      72.0,
+      4.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_Chemical_compound_/_controlled_receiving_FLOOR",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      29.0,
+      27.0,
+      0.12
+    ],
+    "location": [
+      56.0,
+      80.0,
+      1.28
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_ETP_/_water_treatment_FLOOR",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      27.0,
+      25.0,
+      0.12
+    ],
+    "location": [
+      110.0,
+      34.0,
+      1.28
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_Glass_Deck_central_command_/_training_/_caf\u00e9_gallery_FLOOR",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      7.0,
+      51.0,
+      0.12
+    ],
+    "location": [
+      70.0,
+      20.0,
+      1.28
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_Packaging_warehouse_FLOOR",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      49.0,
+      41.0,
+      0.12
+    ],
+    "location": [
+      -12.0,
+      79.0,
+      1.28
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_Restaurant_/_POVU_Caf\u00e9_/_kitchen_FLOOR",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      41.0,
+      24.0,
+      0.12
+    ],
+    "location": [
+      5.0,
+      -68.0,
+      1.28
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_Utilities_/_engineering_FLOOR",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      29.0,
+      27.0,
+      0.12
+    ],
+    "location": [
+      96.0,
+      75.0,
+      1.28
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "REV005_Wellness_/_recreation_FLOOR",
+    "facility": null,
+    "type": "MESH",
+    "dimensions": [
+      21.0,
+      17.0,
+      0.12
+    ],
+    "location": [
+      30.0,
+      -70.0,
+      1.28
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_COMPLETION"
+    ]
+  },
+  {
+    "name": "V04_CLINIC_PRIVACY",
+    "facility": "Occupational Health / First Aid",
+    "type": "MESH",
+    "dimensions": [
+      0.18,
+      8.0,
+      3.0
+    ],
+    "location": [
+      -13.0,
+      -94.0,
+      2.7
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V05_CLINIC_PRIVACY_PANEL",
+    "facility": "Occupational health / first aid",
+    "type": "MESH",
+    "dimensions": [
+      7.0,
+      0.14,
+      3.6
+    ],
+    "location": [
+      -13.0,
+      -94.0,
+      1.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "RM_POWDER_HOPPER_VESSEL",
+    "facility": "Powder Handling / Packing",
+    "type": "MESH",
+    "dimensions": [
+      3.4,
+      3.4,
+      3.4
+    ],
+    "location": [
+      -48.0,
+      43.0,
+      2.95
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V01"
+    ]
+  },
+  {
+    "name": "V05_POWDER_DOSER_HOUSING",
+    "facility": "Powder handling / packing",
+    "type": "MESH",
+    "dimensions": [
+      4.0,
+      3.0,
+      3.8
+    ],
+    "location": [
+      -53.0,
+      43.0,
+      2.9
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_POWDER_TRANSFER",
+    "facility": "Powder handling / packing",
+    "type": "MESH",
+    "dimensions": [
+      3.0,
+      2.0,
+      1.6
+    ],
+    "location": [
+      -36.0,
+      43.0,
+      2.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_67_UPRIGHT_05_00",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      67.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_67_UPRIGHT_05_01",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      67.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_67_UPRIGHT_05_02",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      67.0,
+      4.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_75_UPRIGHT_05_00",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      75.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_75_UPRIGHT_05_01",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      75.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_75_UPRIGHT_05_02",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      75.0,
+      4.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_83_UPRIGHT_05_00",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      83.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_83_UPRIGHT_05_01",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      83.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_83_UPRIGHT_05_02",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      83.0,
+      4.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_91_UPRIGHT_05_00",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      91.0,
+      1.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_91_UPRIGHT_05_01",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      91.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_RM_RACK_91_UPRIGHT_05_02",
+    "facility": "Raw Material Warehouse / Receiving",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      0.18,
+      3.1
+    ],
+    "location": [
+      -88.0,
+      91.0,
+      4.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V03_RESTAURANT_CAFE_BAR",
+    "facility": "Restaurant / POVU Caf\u00e9 / kitchen",
+    "type": "MESH",
+    "dimensions": [
+      11.0,
+      1.0,
+      1.75
+    ],
+    "location": [
+      18.0,
+      -69.0,
+      2.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V05_CAFE_SERVICE_COUNTER",
+    "facility": "Restaurant / POVU Caf\u00e9 / kitchen",
+    "type": "MESH",
+    "dimensions": [
+      10.0,
+      1.0,
+      1.7
+    ],
+    "location": [
+      -10.0,
+      -60.5,
+      2.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_KITCHEN_PARTITION_PANEL",
+    "facility": "Restaurant / POVU Caf\u00e9 / kitchen",
+    "type": "MESH",
+    "dimensions": [
+      20.0,
+      0.14,
+      4.2
+    ],
+    "location": [
+      5.0,
+      -78.0,
+      2.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_SECURITY_WAIT_PANEL",
+    "facility": "Security / reception / visitor arrival",
+    "type": "MESH",
+    "dimensions": [
+      12.0,
+      0.14,
+      3.4
+    ],
+    "location": [
+      -65.0,
+      -79.0,
+      1.7
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_GATEHOUSE_BACK",
+    "facility": "Security gatehouse",
+    "type": "MESH",
+    "dimensions": [
+      20.0,
+      0.18,
+      5.8
+    ],
+    "location": [
+      96.0,
+      -99.0,
+      2.9
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V03_PASTE_CARTONER",
+    "facility": "Toothpaste Production",
+    "type": "MESH",
+    "dimensions": [
+      3.0,
+      3.0,
+      4.2
+    ],
+    "location": [
+      4.0,
+      43.0,
+      3.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_PASTE_CASE_OUTFEED",
+    "facility": "Toothpaste Production",
+    "type": "MESH",
+    "dimensions": [
+      6.0,
+      2.3,
+      0.25
+    ],
+    "location": [
+      9.0,
+      43.0,
+      1.8
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_PASTE_FILLER_GUARD",
+    "facility": "Toothpaste Production",
+    "type": "MESH",
+    "dimensions": [
+      2.5,
+      2.8,
+      4.2
+    ],
+    "location": [
+      -6.7,
+      43.0,
+      3.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_PASTE_TUBE_LINE_FRAME",
+    "facility": "Toothpaste Production",
+    "type": "MESH",
+    "dimensions": [
+      19.0,
+      1.8,
+      0.25
+    ],
+    "location": [
+      -3.0,
+      43.0,
+      1.35
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V04_PASTE_BLEND_JACKET",
+    "facility": "Toothpaste Production",
+    "type": "MESH",
+    "dimensions": [
+      4.8,
+      4.8,
+      4.4
+    ],
+    "location": [
+      -25.0,
+      45.4,
+      3.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_PASTE_RIGHT",
+    "facility": "Toothpaste Production",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      15.0,
+      6.2
+    ],
+    "location": [
+      7.0,
+      43.0,
+      3.1
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V05_PASTE_TUBE_MAG",
+    "facility": "Toothpaste production",
+    "type": "MESH",
+    "dimensions": [
+      3.0,
+      2.0,
+      4.0
+    ],
+    "location": [
+      -9.0,
+      43.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_PASTE_VACUUM_MIX_VESSEL",
+    "facility": "Toothpaste production",
+    "type": "MESH",
+    "dimensions": [
+      5.0,
+      5.0,
+      4.8
+    ],
+    "location": [
+      -26.0,
+      43.0,
+      3.4
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V04_UTIL_FLOOR",
+    "facility": "Utilities / engineering",
+    "type": "MESH",
+    "dimensions": [
+      32.0,
+      28.0,
+      0.18
+    ],
+    "location": [
+      96.0,
+      75.0,
+      1.05
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V04_UTIL_RIGHT",
+    "facility": "Utilities / engineering",
+    "type": "MESH",
+    "dimensions": [
+      0.16,
+      28.0,
+      7.5
+    ],
+    "location": [
+      112.0,
+      75.0,
+      3.75
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V04"
+    ]
+  },
+  {
+    "name": "V05_UTIL_BOILER_VESSEL",
+    "facility": "Utilities / engineering",
+    "type": "MESH",
+    "dimensions": [
+      4.0,
+      4.0,
+      4.5
+    ],
+    "location": [
+      96.0,
+      68.0,
+      3.25
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_UTIL_FLOOR",
+    "facility": "Utilities / engineering",
+    "type": "MESH",
+    "dimensions": [
+      34.0,
+      30.0,
+      0.18
+    ],
+    "location": [
+      96.0,
+      75.0,
+      1.05
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V03_WIPES_CONVERTING_LINE_FRAME",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      19.0,
+      1.8,
+      0.25
+    ],
+    "location": [
+      28.0,
+      43.0,
+      1.35
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_CONVERTING_LINE_ROLLER_02",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      25.033,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_CUTTER",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      1.8,
+      2.8,
+      4.0
+    ],
+    "location": [
+      22.5,
+      43.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_PACK_OUT_ROLLER_00",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      38.1,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_PACK_OUT_ROLLER_01",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      39.067,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_PACK_OUT_ROLLER_02",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      40.033,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_PACK_OUT_ROLLER_03",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      41.0,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_PACK_OUT_ROLLER_04",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      41.967,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_PACK_OUT_ROLLER_05",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      42.933,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_PACK_OUT_ROLLER_06",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      0.12,
+      1.44,
+      1.44
+    ],
+    "location": [
+      43.9,
+      43.0,
+      1.53
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_STACKER",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      2.0,
+      2.8,
+      4.0
+    ],
+    "location": [
+      27.0,
+      43.0,
+      3.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_UNWIND_FRAME",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      3.0,
+      4.3,
+      6.0
+    ],
+    "location": [
+      4.0,
+      43.0,
+      4.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V03_WIPES_WETTING_BATH",
+    "facility": "Wet Wipes Production",
+    "type": "MESH",
+    "dimensions": [
+      4.3,
+      3.5,
+      0.75
+    ],
+    "location": [
+      11.0,
+      43.0,
+      1.75
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V03"
+    ]
+  },
+  {
+    "name": "V05_WIPES_DISCHARGE",
+    "facility": "Wet wipes production",
+    "type": "MESH",
+    "dimensions": [
+      3.0,
+      2.0,
+      1.6
+    ],
+    "location": [
+      50.0,
+      43.0,
+      2.0
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  },
+  {
+    "name": "V05_WIPES_FOLD_FRAME",
+    "facility": "Wet wipes production",
+    "type": "MESH",
+    "dimensions": [
+      3.0,
+      2.4,
+      3.8
+    ],
+    "location": [
+      30.0,
+      43.0,
+      3.2
+    ],
+    "hide_render": false,
+    "hide_viewport": false,
+    "collections": [
+      "REV005_INTERIOR_REMEDIATION_V05"
+    ]
+  }
+]
