@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.10
-- Current Task: M08.10 — REV005 Interior Remediation V05 architectural + process completion
+- Current Sprint: M08.12
+- Current Task: M08.12 — REV005 Interior Remediation V06 true interior completion + provenance fix
 - Current Task Status: ACTIVE
-- Next Task/Action: Execute the V05 Codex prompt, remediate the V04 independent-audit failures with real architectural enclosure/process specificity and human-scale QA, then stop at AWAITING_GPT_REMEDIATION_AUDIT_V05.
+- Next Task/Action: Execute the V06 Codex prompt, preserve the 6 V05 visual-PASS groups, remediate the remaining 20 groups to the locked enclosure/process standards, fix immutable before/after hash provenance, then stop at AWAITING_GPT_REMEDIATION_AUDIT_V06.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -20,9 +20,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 
 ## Blockers/Waits
 
-- M08.10 is required because the independent V04 visual audit found only 3/26 groups at full visual PASS; 20 groups still looked incomplete/generic and 3 additional groups failed mainly because V04 evidence was too distant to verify stronger existing geometry.
-- M08.11 cannot start until Codex completes V05 and publishes the new QA package/log.
-- M08.09 REV005 freeze cannot occur until M08.11 gives full GPT visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient for the "complete interiors" claim.
+- M08.12 is required because the independent V05 audit reached only 6/26 visual PASS; 20 groups still fail enclosure, facility identity, warehouse differentiation, process specificity, or utilities/support specificity.
+- V05 also exposed an artifact-provenance defect: its validation JSON overwrote the V04-before hash fields with the V05-final hashes even though the Codex log/report retained the correct values.
+- M08.13 cannot start until Codex completes V06 and publishes the 72-render QA package, immutable baseline hash record, validation and log.
+- M08.09 REV005 freeze cannot occur until M08.13 gives full GPT visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient for the "complete interiors" claim.
 - M09 final REV005 tour work is intentionally blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables and must not be modified while REV005 is being completed.
 - The approved R03/R04 persistent-camera/global-clock system is the mandatory camera baseline for any future REV005 tour.
@@ -68,6 +69,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - V03 technically reported 7/7 focused and 26/26 sweep, but independent image audit returned REMEDIATION_REQUIRED because multiple spaces still read as schematic/blockout/generic rather than complete interiors.
 - V04 Codex commit `77fea58539ff74f37a177d991e6c32f0ee80a140` produced 65 QA renders and 26/26 readiness. Reported final hashes: Blend `EC1B7ABDB86A8FCF1443E780497B49FDDD4268B57EC48106D6D2FDB2D00008BB`; GLB `5BFD2590AC73EF7D02479FBEE29880EB492FF207247F4E8BAB90C79D60131D07`.
 - Independent GPT V04 image audit result: REMEDIATION_REQUIRED. Only Daycare / Crèche, Electrical / LV-MV, and Employee Changing / Shower / Locker Support achieved full visual PASS. Caps/Trigger, Micro-Weigh and Wet Processing primarily failed the V04 evidence/framing gate; most other groups still failed actual completion/identity.
+- V05 Codex commit `420038365847de763d64c8583a9e31ac5a6bd677` produced 75 human-scale unlabeled QA renders and claimed 26/26 readiness.
+- Independent GPT V05 image audit result: REMEDIATION_REQUIRED with 6/26 full visual PASS: Caps/Trigger Assembly, Daycare/Crèche, Electrical/LV-MV, Employee Changing/Shower/Locker, Fire Pump House, and Micro-ingredient Weigh/Dispense.
+- V05 artifact-integrity finding: `REV005_INTERIOR_REMEDIATION_V05_VALIDATION.json` incorrectly records the V04-before Blend/GLB hashes as the V05-final hashes. The V05 Codex log/report preserve the correct V04 baseline (`EC1B7A...` / `5BFD25...`) and V05 final (`B4F24C...` / `1BF506...`) values.
 - The decisive acceptance standard for REV005 remains label-blind visual completeness, not object count, group presence, filename, report text, or validation JSON.
 
 ## Tasks
@@ -251,20 +255,35 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Remaining groups failed the complete-interior / facility-identity / architectural-enclosure / process-specificity gate to varying degrees.
   - REV005 therefore remains unfrozen and M09 stays blocked.
 
-- [~] M08.10 — REV005 Interior Remediation V05 architectural + process completion
-  - Current execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V05_GPT_PROMPT.md`.
-  - Locked audit criteria: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V05_GPT_AUDIT_CRITERIA.md`.
-  - Strategy change: triage geometry-vs-evidence first; build actual interior envelopes/zoning for occupied spaces; build facility-specific process relationships for industrial spaces; use human-scale QA framing.
-  - Preserve the three V04 full-PASS groups and reframe evidence-only groups before rebuilding them.
-  - Codex must stop at `AWAITING_GPT_REMEDIATION_AUDIT_V05` and must not self-promote this task.
+- [x] M08.10 — REV005 Interior Remediation V05 architectural + process completion
+  - Execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V05_GPT_PROMPT.md`.
+  - Codex commit: `420038365847de763d64c8583a9e31ac5a6bd677`.
+  - Result: geometry-vs-evidence triage executed; 20 groups reported remediated, 3 evidence-only groups reframed, 3 V04 PASS groups preserved; 75 QA renders and 3 contact sheets produced.
+  - Final state correctly stopped at `AWAITING_GPT_REMEDIATION_AUDIT_V05`.
 
-- [ ] M08.11 — Independent GPT V05 26-group visual audit
-  - Required evidence: V05 QA, triage matrix, 26-group visual acceptance matrix/contact sheets, report, validation, hashes and Codex log.
-  - Closure rule: full PASS requires 26/26 visual completeness, 0 unresolved evidence failures and all source/regression gates passing.
-  - PASS_WITH_FINDINGS does not freeze REV005.
+- [x] M08.11 — Independent GPT V05 26-group visual audit
+  - Audit artifact: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V05_GPT_AUDIT.md`.
+  - Result: `REMEDIATION_REQUIRED`.
+  - Full visual PASS: 6/26 — Caps/Trigger Assembly; Daycare/Crèche; Electrical/LV-MV; Employee Changing/Shower/Locker; Fire Pump House; Micro-ingredient Weigh/Dispense.
+  - Fail: 20/26 due to incomplete architectural enclosure, generic process geometry, weak warehouse differentiation, insufficient utilities/support identity, or matrix-overclaim.
+  - Additional integrity finding: V05 validation JSON before-hash fields were overwritten with V05-final values and conflict with the V05 log/report and verified V04 hashes.
+
+- [~] M08.12 — REV005 Interior Remediation V06 true interior completion + provenance fix
+  - Current execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V06_GPT_PROMPT.md`.
+  - Locked audit criteria: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V06_GPT_AUDIT_CRITERIA.md`.
+  - Preserve the six V05 PASS groups.
+  - Remediate the 20 remaining groups with real facility-specific architecture/process geometry rather than generic colored primitives.
+  - Mandatory provenance fix: capture V05-final Blend/GLB hashes into immutable `V06_BASELINE_HASHES.json` before mutation and never overwrite the before fields.
+  - Expected minimum QA: 72 unlabeled human/process-scale renders.
+  - Codex must stop at `AWAITING_GPT_REMEDIATION_AUDIT_V06` and must not self-promote this task.
+
+- [ ] M08.13 — Independent GPT V06 26-group visual + provenance audit
+  - Required evidence: 72+ V06 QA renders, contact sheets, acceptance matrix, immutable baseline hash file, report, validation and Codex log.
+  - Closure rule: 26/26 visual PASS, 0 enclosure/process/identity/evidence failures, and truthful before/after provenance.
+  - Only full PASS permits owner freeze.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
-  - Dependency: M08.11 full PASS.
+  - Dependency: M08.13 full PASS.
   - Required owner check: key production lines, warehouses, people/support spaces, utilities, Hands of Growth/Living Wall/trees and overall digital-twin coherence.
   - On acceptance: record final Blend/GLB paths and SHA-256 hashes and freeze REV005 against casual edits.
 
