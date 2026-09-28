@@ -1,0 +1,17 @@
+{
+  "status": "IMMUTABLE_V05_BASELINE_CAPTURED",
+  "task": "M08.12",
+  "revision": "REV005",
+  "source_revision": "V05",
+  "captured_before_v06_mutation": true,
+  "captured_at": "2026-09-28",
+  "blend": {
+    "path": "3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6"
+  },
+  "glb": {
+    "path": "3d/revisions/REV005/POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "1BF506A0EF8ADAF73D20CADAAD151258E293929440FFE681AC6A2ABD21CE4D20"
+  },
+  "immutability_note": "These are the actual V05-final canonical artifact hashes captured before any V06 REV005 mutation. Do not overwrite the before values after mutation."
+}
