@@ -1,0 +1,27 @@
+{
+  "task": "M08.18",
+  "revision": "REV005",
+  "status": "AWAITING_GPT_REMEDIATION_AUDIT_V09",
+  "blend": {
+    "path": "3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "46D427377C315FF8838CBF6917DD469E3F88D14F49E52BE0C18F8C0CFE3D68E8"
+  },
+  "glb": {
+    "path": "3d/revisions/REV005/POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "F09D1E5F4A3581509C33453C88B576A67BB6D2CAFDC08532B05F342BC18F6DCF"
+  },
+  "baseline_file": "output/rev005-interior-remediation-v09/V09_BASELINE_HASHES.json",
+  "baseline_immutable": true,
+  "render_counts": {
+    "specs": 72,
+    "integrated": 60,
+    "preservation": 12,
+    "isolated": 20,
+    "total": 92
+  },
+  "minimum_resolution": [1280, 800],
+  "zero_render_failures": true,
+  "rev004_untouched": true,
+  "rev006_absent": true,
+  "hiveai_absent": true
+}

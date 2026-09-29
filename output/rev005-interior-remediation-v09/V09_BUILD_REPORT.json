@@ -1,0 +1,126 @@
+{
+  "status": "AWAITING_GPT_REMEDIATION_AUDIT_V09",
+  "task": "M08.18",
+  "baseline_blend": "9860D83DD2799B195EF79617B7F37774DA21FF09C61B7AA6C91F8375263D801A",
+  "baseline_glb": "57CEE672E093D766A67D141754092739A0E6F4EE8E76261C0366BFCD936808A0",
+  "blend_after": "46D427377C315FF8838CBF6917DD469E3F88D14F49E52BE0C18F8C0CFE3D68E8",
+  "glb_after": "F09D1E5F4A3581509C33453C88B576A67BB6D2CAFDC08532B05F342BC18F6DCF",
+  "builders": {
+    "Administration / HQ / R&D / QC": {
+      "collection": "REV005_V08_CLEAN_ADMINISTRATION_HQ_R_D_QC",
+      "object_count": 145
+    },
+    "Bottle blow molding": {
+      "collection": "REV005_V08_CLEAN_BOTTLE_BLOW_MOLDING",
+      "object_count": 92
+    },
+    "Chemical compound / controlled receiving": {
+      "collection": "REV005_V08_CLEAN_CHEMICAL_COMPOUND_CONTROLLED_RECEIVING",
+      "object_count": 72
+    },
+    "ETP / water treatment": {
+      "collection": "REV005_V08_CLEAN_ETP_WATER_TREATMENT",
+      "object_count": 91
+    },
+    "Finished goods warehouse / dispatch": {
+      "collection": "REV005_V08_CLEAN_FINISHED_GOODS_WAREHOUSE_DISPATCH",
+      "object_count": 129
+    },
+    "Glass Deck central command / training / caf\u00e9 gallery": {
+      "collection": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+      "object_count": 117
+    },
+    "Liquid filling / packaging": {
+      "collection": "REV005_V08_CLEAN_LIQUID_FILLING_PACKAGING",
+      "object_count": 106
+    },
+    "Occupational health / first aid": {
+      "collection": "REV005_V08_CLEAN_OCCUPATIONAL_HEALTH_FIRST_AID",
+      "object_count": 36
+    },
+    "Packaging warehouse": {
+      "collection": "REV005_V08_CLEAN_PACKAGING_WAREHOUSE",
+      "object_count": 157
+    },
+    "Powder handling / packing": {
+      "collection": "REV005_V08_CLEAN_POWDER_HANDLING_PACKING",
+      "object_count": 59
+    },
+    "Production Hall / Wet Processing / process core": {
+      "collection": "REV005_V08_CLEAN_PRODUCTION_HALL_WET_PROCESSING_PROCESS_CORE",
+      "object_count": 118
+    },
+    "Raw material warehouse / receiving": {
+      "collection": "REV005_V08_CLEAN_RAW_MATERIAL_WAREHOUSE_RECEIVING",
+      "object_count": 128
+    },
+    "Restaurant / POVU Caf\u00e9 / kitchen": {
+      "collection": "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN",
+      "object_count": 135
+    },
+    "Security / reception / visitor arrival": {
+      "collection": "REV005_V08_CLEAN_SECURITY_RECEPTION_VISITOR_ARRIVAL",
+      "object_count": 40
+    },
+    "Security gatehouse": {
+      "collection": "REV005_V08_CLEAN_SECURITY_GATEHOUSE",
+      "object_count": 27
+    },
+    "Toothpaste production": {
+      "collection": "REV005_V08_CLEAN_TOOTHPASTE_PRODUCTION",
+      "object_count": 87
+    },
+    "Training / Academy": {
+      "collection": "REV005_V08_CLEAN_TRAINING_ACADEMY",
+      "object_count": 81
+    },
+    "Utilities / engineering": {
+      "collection": "REV005_V08_CLEAN_UTILITIES_ENGINEERING",
+      "object_count": 64
+    },
+    "Wellness / recreation": {
+      "collection": "REV005_V08_CLEAN_WELLNESS_RECREATION",
+      "object_count": 73
+    },
+    "Wet wipes production": {
+      "collection": "REV005_V08_CLEAN_WET_WIPES_PRODUCTION",
+      "object_count": 85
+    }
+  },
+  "preserved": {
+    "Caps and trigger assembly": {
+      "inventory_count": 9,
+      "restored_count": 9,
+      "missing": []
+    },
+    "Daycare / cr\u00e8che": {
+      "inventory_count": 42,
+      "restored_count": 42,
+      "missing": []
+    },
+    "Electrical / LV-MV room": {
+      "inventory_count": 8,
+      "restored_count": 8,
+      "missing": []
+    },
+    "Employee changing / shower / locker support": {
+      "inventory_count": 10,
+      "restored_count": 10,
+      "missing": []
+    },
+    "Fire pump house": {
+      "inventory_count": 12,
+      "restored_count": 12,
+      "missing": []
+    },
+    "Micro-ingredient weigh / dispense": {
+      "inventory_count": 9,
+      "restored_count": 9,
+      "missing": []
+    }
+  },
+  "export_visibility": "use_visible=True",
+  "no_rev004_mutation": true,
+  "no_rev006": true,
+  "no_hiveai": true
+}
