@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "comparison_method": "decoded RGBA pixel equality; raw PNG metadata may differ",
+  "views": {
+    "A_WIDE": {
+      "path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_A_WIDE.png",
+      "archived_reference_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_A_WIDE.png",
+      "resolution": [
+        900,
+        600
+      ],
+      "camera_location": [
+        -122,
+        -80,
+        13
+      ],
+      "camera_target": [
+        -105,
+        -64,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "replay_raw_sha256": "2F49CAFF60E9552BA6D37299B5582F1DBCEF44DDDAE686F2FB1DD0EC0867785E",
+      "archived_sha256": "72370EF41D5C1EA3AE81500EE77F5764725D8C0C3E0622D1CD21B55344F757EE",
+      "pixel_equal": true,
+      "different_pixels": 0,
+      "replay_bytes": 653156,
+      "archived_bytes": 653120
+    },
+    "B_FUNCTIONAL": {
+      "path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_B_FUNCTIONAL.png",
+      "archived_reference_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_B_FUNCTIONAL.png",
+      "resolution": [
+        900,
+        600
+      ],
+      "camera_location": [
+        -113,
+        -72,
+        8
+      ],
+      "camera_target": [
+        -105,
+        -64,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "replay_raw_sha256": "3D084E219B8CCC448B91E2F9481873257D6ABACC8186D9DA70C89CCFE633066A",
+      "archived_sha256": "7E06E34994D36AE6D84D3F4A58B1C7E05BC3FEEECD79EC06514ECDB2DC5A3F7B",
+      "pixel_equal": true,
+      "different_pixels": 0,
+      "replay_bytes": 628469,
+      "archived_bytes": 628433
+    }
+  }
+}

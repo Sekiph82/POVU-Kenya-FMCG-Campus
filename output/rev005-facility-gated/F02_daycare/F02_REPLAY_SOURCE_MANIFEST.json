@@ -1,0 +1,6430 @@
+{
+  "status": "PASS",
+  "replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "replay_blend": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "replay_blend_sha256": "63F6B58C5163CFFCFE09D7122CCEB84E58A76A1E8333CBB5154E0399D83A54FE",
+  "facility": "Daycare / crèche",
+  "selection_logic": "original V05 objects_for(\"Daycare / crèche\", record)",
+  "object_count": 79,
+  "composition": {
+    "BASE": 41,
+    "V01": 0,
+    "V02": 0,
+    "V03": 38,
+    "V04": 0,
+    "V05": 0
+  },
+  "excluded_label": "REV005_LABEL_DAYCARE",
+  "objects": [
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_0_CHAIR_0_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -110.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.279998779296875,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -110.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -110.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.223",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_0_CHAIR_0_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -110.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -110.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -110.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.222",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_0_CHAIR_1_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -112.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.37067413330078,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -112.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -112.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.225",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_0_CHAIR_1_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -112.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.59067153930664,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -112.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -112.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.224",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_0_CHAIR_2_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -112.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.189327239990234,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -112.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -112.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.227",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_0_CHAIR_2_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -112.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.40932846069336,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -112.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -112.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.226",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_0_TABLE",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -112.0,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -112.0,
+        -59.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -112.0,
+        -59.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.440000057220459,
+        1.440000057220459,
+        0.14000000059604645
+      ],
+      "data_block": "Cylinder.002",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "table",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_1_CHAIR_0_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.279998779296875,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -105.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.229",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_1_CHAIR_0_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -105.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.228",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_1_CHAIR_1_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -107.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.37067413330078,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -107.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -107.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.231",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_1_CHAIR_1_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -107.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.59067153930664,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -107.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -107.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.230",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_1_CHAIR_2_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -107.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.189327239990234,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -107.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -107.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.233",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_1_CHAIR_2_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -107.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.40932846069336,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -107.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -107.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.232",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_1_TABLE",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -107.0,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -107.0,
+        -59.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -107.0,
+        -59.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.440000057220459,
+        1.440000057220459,
+        0.14000000059604645
+      ],
+      "data_block": "Cylinder.003",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "table",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_2_CHAIR_0_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -100.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.279998779296875,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -100.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -100.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.235",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_2_CHAIR_0_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -100.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -100.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -100.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.234",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_2_CHAIR_1_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.37067413330078,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -102.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.237",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_2_CHAIR_1_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.59067153930664,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -102.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.236",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_2_CHAIR_2_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.189327239990234,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -102.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.239",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_2_CHAIR_2_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.40932846069336,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -102.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.238",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_2_TABLE",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.0,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.0,
+        -59.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -102.0,
+        -59.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.440000057220459,
+        1.440000057220459,
+        0.14000000059604645
+      ],
+      "data_block": "Cylinder.004",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "table",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_3_CHAIR_0_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -95.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.279998779296875,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -95.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -95.94999694824219,
+        -59.279998779296875,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.241",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_3_CHAIR_0_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -95.94999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -95.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -95.94999694824219,
+        -59.5,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.240",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_3_CHAIR_1_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.37067413330078,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -97.5250015258789,
+        -58.37067413330078,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.243",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_3_CHAIR_1_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -58.59067153930664,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -97.5250015258789,
+        -58.59067153930664,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.242",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_3_CHAIR_2_BACK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.189327239990234,
+        0.0,
+        0.0,
+        1.0,
+        2.0799999237060547,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "location_xyz_local": [
+        -97.5250015258789,
+        -60.189327239990234,
+        2.0799999237060547
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.11999999731779099,
+        0.699999988079071
+      ],
+      "data_block": "Cube.245",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_3_CHAIR_2_SEAT",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.5250015258789,
+        0.0,
+        1.0,
+        0.0,
+        -60.40932846069336,
+        0.0,
+        0.0,
+        1.0,
+        1.7300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "location_xyz_local": [
+        -97.5250015258789,
+        -60.40932846069336,
+        1.7300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.550000011920929,
+        0.550000011920929,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.244",
+      "material_slots": [
+        "REV005_Accent_Blue"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "seating",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_ACTIVITY_3_TABLE",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.0,
+        0.0,
+        1.0,
+        0.0,
+        -59.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.0,
+        -59.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -97.0,
+        -59.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.440000057220459,
+        1.440000057220459,
+        0.14000000059604645
+      ],
+      "data_block": "Cylinder.005",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "table",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_COT_0",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -113.0,
+        0.0,
+        1.0,
+        0.0,
+        -68.5,
+        0.0,
+        0.0,
+        1.0,
+        1.5499999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -113.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "location_xyz_local": [
+        -113.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.399999976158142,
+        0.550000011920929,
+        0.2800000011920929
+      ],
+      "data_block": "Cube.246",
+      "material_slots": [
+        "REV005_Equipment_White"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "nap cot",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_COT_1",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -109.0,
+        0.0,
+        1.0,
+        0.0,
+        -68.5,
+        0.0,
+        0.0,
+        1.0,
+        1.5499999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -109.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "location_xyz_local": [
+        -109.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.399999976158142,
+        0.550000011920929,
+        0.2800000011920929
+      ],
+      "data_block": "Cube.247",
+      "material_slots": [
+        "REV005_Equipment_White"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "nap cot",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_COT_2",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.0,
+        0.0,
+        1.0,
+        0.0,
+        -68.5,
+        0.0,
+        0.0,
+        1.0,
+        1.5499999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "location_xyz_local": [
+        -105.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.399999976158142,
+        0.550000011920929,
+        0.2800000011920929
+      ],
+      "data_block": "Cube.248",
+      "material_slots": [
+        "REV005_Equipment_White"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "nap cot",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_COT_3",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -101.0,
+        0.0,
+        1.0,
+        0.0,
+        -68.5,
+        0.0,
+        0.0,
+        1.0,
+        1.5499999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -101.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "location_xyz_local": [
+        -101.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.399999976158142,
+        0.550000011920929,
+        0.2800000011920929
+      ],
+      "data_block": "Cube.249",
+      "material_slots": [
+        "REV005_Equipment_White"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "nap cot",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_COT_4",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.0,
+        0.0,
+        1.0,
+        0.0,
+        -68.5,
+        0.0,
+        0.0,
+        1.0,
+        1.5499999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "location_xyz_local": [
+        -97.0,
+        -68.5,
+        1.5499999523162842
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.399999976158142,
+        0.550000011920929,
+        0.2800000011920929
+      ],
+      "data_block": "Cube.250",
+      "material_slots": [
+        "REV005_Equipment_White"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "nap cot",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_CUBBY_0",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -114.0,
+        0.0,
+        1.0,
+        0.0,
+        -70.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -114.0,
+        -70.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -114.0,
+        -70.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.4000000059604645,
+        1.399999976158142
+      ],
+      "data_block": "Cube.251",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "child storage cubby",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_CUBBY_1",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -110.0,
+        0.0,
+        1.0,
+        0.0,
+        -70.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -110.0,
+        -70.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -110.0,
+        -70.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.4000000059604645,
+        1.399999976158142
+      ],
+      "data_block": "Cube.252",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "child storage cubby",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_CUBBY_2",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -106.0,
+        0.0,
+        1.0,
+        0.0,
+        -70.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -106.0,
+        -70.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -106.0,
+        -70.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.4000000059604645,
+        1.399999976158142
+      ],
+      "data_block": "Cube.253",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "child storage cubby",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_CUBBY_3",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.0,
+        0.0,
+        1.0,
+        0.0,
+        -70.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.0,
+        -70.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -102.0,
+        -70.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.4000000059604645,
+        1.399999976158142
+      ],
+      "data_block": "Cube.254",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "child storage cubby",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_CUBBY_4",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -98.0,
+        0.0,
+        1.0,
+        0.0,
+        -70.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -98.0,
+        -70.5,
+        2.0
+      ],
+      "location_xyz_local": [
+        -98.0,
+        -70.5,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.4000000059604645,
+        1.399999976158142
+      ],
+      "data_block": "Cube.255",
+      "material_slots": [
+        "REV005_Daycare_Accent"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "child storage cubby",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_NAP_PARTITION",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.0,
+        -64.0,
+        2.0
+      ],
+      "location_xyz_local": [
+        -105.0,
+        -64.0,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        22.0,
+        0.15000000596046448,
+        1.5
+      ],
+      "data_block": "Cube.221",
+      "material_slots": [
+        "REV005_Interior_Partition"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "quiet nap zone",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_DAYCARE_SINK",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -96.0,
+        0.0,
+        1.0,
+        0.0,
+        -60.0,
+        0.0,
+        0.0,
+        1.0,
+        1.7999999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -96.0,
+        -60.0,
+        1.7999999523162842
+      ],
+      "location_xyz_local": [
+        -96.0,
+        -60.0,
+        1.7999999523162842
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.7999999523162842,
+        0.550000011920929,
+        0.8999999761581421
+      ],
+      "data_block": "Cube.256",
+      "material_slots": [
+        "REV005_Lab_White"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "handwashing",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_Daycare_/_crèche_FLOOR",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        1.2799999713897705,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.0,
+        -64.0,
+        1.2799999713897705
+      ],
+      "location_xyz_local": [
+        -105.0,
+        -64.0,
+        1.2799999713897705
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        23.0,
+        15.0,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.220",
+      "material_slots": [
+        "REV005_Floor_Clean"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Daycare / crèche",
+        "rev005_function": "finished interior floor",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_CAREGIVER_DESK",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -106.0,
+        0.0,
+        1.0,
+        0.0,
+        -66.5,
+        0.0,
+        0.0,
+        1.0,
+        2.0999999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -106.0,
+        -66.5,
+        2.0999999046325684
+      ],
+      "location_xyz_local": [
+        -106.0,
+        -66.5,
+        2.0999999046325684
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        3.4000000953674316,
+        1.100000023841858,
+        1.5
+      ],
+      "data_block": "V03_DAYCARE_CAREGIVER_DESK_MESH",
+      "material_slots": [
+        "REV005_V03_WOOD"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_CAREGIVER_SCREEN",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -106.0,
+        0.0,
+        1.0,
+        0.0,
+        -65.80000305175781,
+        0.0,
+        0.0,
+        1.0,
+        3.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -106.0,
+        -65.80000305175781,
+        3.5
+      ],
+      "location_xyz_local": [
+        -106.0,
+        -65.80000305175781,
+        3.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.4000000953674316,
+        0.11999999731779099,
+        1.2000000476837158
+      ],
+      "data_block": "V03_DAYCARE_CAREGIVER_SCREEN_MESH",
+      "material_slots": [
+        "REV005_V03_GLASS"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_CUBBY_FACE_00",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -113.0,
+        0.0,
+        1.0,
+        0.0,
+        -72.0,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -113.0,
+        -72.0,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -113.0,
+        -72.0,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.0,
+        0.18000000715255737,
+        1.7000000476837158
+      ],
+      "data_block": "V03_DAYCARE_CUBBY_FACE_00_MESH",
+      "material_slots": [
+        "REV005_V03_WOOD"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_CUBBY_FACE_01",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -109.4000015258789,
+        0.0,
+        1.0,
+        0.0,
+        -72.0,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -109.4000015258789,
+        -72.0,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -109.4000015258789,
+        -72.0,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.0,
+        0.18000000715255737,
+        1.7000000476837158
+      ],
+      "data_block": "V03_DAYCARE_CUBBY_FACE_01_MESH",
+      "material_slots": [
+        "REV005_V03_WOOD"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_CUBBY_FACE_02",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.80000305175781,
+        0.0,
+        1.0,
+        0.0,
+        -72.0,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.80000305175781,
+        -72.0,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -105.80000305175781,
+        -72.0,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.0,
+        0.18000000715255737,
+        1.7000000476837158
+      ],
+      "data_block": "V03_DAYCARE_CUBBY_FACE_02_MESH",
+      "material_slots": [
+        "REV005_V03_WOOD"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_CUBBY_FACE_03",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.19999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -72.0,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.19999694824219,
+        -72.0,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -102.19999694824219,
+        -72.0,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.0,
+        0.18000000715255737,
+        1.7000000476837158
+      ],
+      "data_block": "V03_DAYCARE_CUBBY_FACE_03_MESH",
+      "material_slots": [
+        "REV005_V03_WOOD"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_CUBBY_FACE_04",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -98.5999984741211,
+        0.0,
+        1.0,
+        0.0,
+        -72.0,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -98.5999984741211,
+        -72.0,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -98.5999984741211,
+        -72.0,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.0,
+        0.18000000715255737,
+        1.7000000476837158
+      ],
+      "data_block": "V03_DAYCARE_CUBBY_FACE_04_MESH",
+      "material_slots": [
+        "REV005_V03_WOOD"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_ENCLOSURE_BACK",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.0,
+        0.0,
+        1.0,
+        0.0,
+        -54.5,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.0,
+        -54.5,
+        2.75
+      ],
+      "location_xyz_local": [
+        -105.0,
+        -54.5,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        26.0,
+        0.1599999964237213,
+        5.5
+      ],
+      "data_block": "V03_DAYCARE_ENCLOSURE_BACK_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_ENCLOSURE_LEFT",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -118.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -118.0,
+        -64.0,
+        2.75
+      ],
+      "location_xyz_local": [
+        -118.0,
+        -64.0,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.1599999964237213,
+        19.0,
+        5.5
+      ],
+      "data_block": "V03_DAYCARE_ENCLOSURE_LEFT_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_ENCLOSURE_RIGHT",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -92.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -92.0,
+        -64.0,
+        2.75
+      ],
+      "location_xyz_local": [
+        -92.0,
+        -64.0,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.1599999964237213,
+        19.0,
+        5.5
+      ],
+      "data_block": "V03_DAYCARE_ENCLOSURE_RIGHT_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_FLOOR",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.0,
+        -64.0,
+        1.0199999809265137
+      ],
+      "location_xyz_local": [
+        -105.0,
+        -64.0,
+        1.0199999809265137
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        27.0,
+        20.0,
+        0.18000000715255737
+      ],
+      "data_block": "V03_DAYCARE_FLOOR_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_HANDWASH",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.0,
+        0.0,
+        1.0,
+        0.0,
+        -70.5,
+        0.0,
+        0.0,
+        1.0,
+        1.899999976158142,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.0,
+        -70.5,
+        1.899999976158142
+      ],
+      "location_xyz_local": [
+        -97.0,
+        -70.5,
+        1.899999976158142
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        3.5,
+        0.75,
+        1.5
+      ],
+      "data_block": "V03_DAYCARE_HANDWASH_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_00_BODY",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -114.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -114.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "location_xyz_local": [
+        -114.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.200000047683716,
+        0.3199999928474426,
+        0.10000000149011612
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_00_BODY_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_00_GLOW",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -114.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.230000019073486,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -114.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "location_xyz_local": [
+        -114.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.7000000476837158,
+        0.1599999964237213,
+        0.03999999910593033
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_00_GLOW_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_01_BODY",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -108.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -108.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "location_xyz_local": [
+        -108.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.200000047683716,
+        0.3199999928474426,
+        0.10000000149011612
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_01_BODY_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_01_GLOW",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -108.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.230000019073486,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -108.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "location_xyz_local": [
+        -108.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.7000000476837158,
+        0.1599999964237213,
+        0.03999999910593033
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_01_GLOW_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_02_BODY",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "location_xyz_local": [
+        -102.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.200000047683716,
+        0.3199999928474426,
+        0.10000000149011612
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_02_BODY_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_02_GLOW",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -102.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.230000019073486,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -102.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "location_xyz_local": [
+        -102.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.7000000476837158,
+        0.1599999964237213,
+        0.03999999910593033
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_02_GLOW_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_03_BODY",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -96.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.300000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -96.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "location_xyz_local": [
+        -96.0,
+        -64.0,
+        6.300000190734863
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        2.200000047683716,
+        0.3199999928474426,
+        0.10000000149011612
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_03_BODY_MESH",
+      "material_slots": [
+        "REV005_V03_WHITE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LIGHT_03_GLOW",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -96.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        6.230000019073486,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -96.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "location_xyz_local": [
+        -96.0,
+        -64.0,
+        6.230000019073486
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.7000000476837158,
+        0.1599999964237213,
+        0.03999999910593033
+      ],
+      "data_block": "V03_DAYCARE_LIGHT_03_GLOW_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_LOW_PARTITION",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -105.0,
+        0.0,
+        1.0,
+        0.0,
+        -64.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0999999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -105.0,
+        -64.0,
+        2.0999999046325684
+      ],
+      "location_xyz_local": [
+        -105.0,
+        -64.0,
+        2.0999999046325684
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        22.0,
+        0.18000000715255737,
+        1.7000000476837158
+      ],
+      "data_block": "V03_DAYCARE_LOW_PARTITION_MESH",
+      "material_slots": [
+        "REV005_V03_WARM"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_PLAY_BLOCK_00",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -112.0,
+        0.0,
+        1.0,
+        0.0,
+        -58.0,
+        0.0,
+        0.0,
+        1.0,
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -112.0,
+        -58.0,
+        1.5
+      ],
+      "location_xyz_local": [
+        -112.0,
+        -58.0,
+        1.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        1.0,
+        0.699999988079071
+      ],
+      "data_block": "V03_DAYCARE_PLAY_BLOCK_00_MESH",
+      "material_slots": [
+        "REV005_V03_YELLOW"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_PLAY_BLOCK_01",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -110.5,
+        0.0,
+        1.0,
+        0.0,
+        -58.0,
+        0.0,
+        0.0,
+        1.0,
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -110.5,
+        -58.0,
+        1.5
+      ],
+      "location_xyz_local": [
+        -110.5,
+        -58.0,
+        1.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        1.0,
+        0.699999988079071
+      ],
+      "data_block": "V03_DAYCARE_PLAY_BLOCK_01_MESH",
+      "material_slots": [
+        "REV005_V03_TEAL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_PLAY_BLOCK_02",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -109.0,
+        0.0,
+        1.0,
+        0.0,
+        -58.0,
+        0.0,
+        0.0,
+        1.0,
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -109.0,
+        -58.0,
+        1.5
+      ],
+      "location_xyz_local": [
+        -109.0,
+        -58.0,
+        1.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        1.0,
+        0.699999988079071
+      ],
+      "data_block": "V03_DAYCARE_PLAY_BLOCK_02_MESH",
+      "material_slots": [
+        "REV005_V03_YELLOW"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_PLAY_BLOCK_03",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -112.0,
+        0.0,
+        1.0,
+        0.0,
+        -56.599998474121094,
+        0.0,
+        0.0,
+        1.0,
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -112.0,
+        -56.599998474121094,
+        1.5
+      ],
+      "location_xyz_local": [
+        -112.0,
+        -56.599998474121094,
+        1.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        1.0,
+        0.699999988079071
+      ],
+      "data_block": "V03_DAYCARE_PLAY_BLOCK_03_MESH",
+      "material_slots": [
+        "REV005_V03_TEAL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_PLAY_BLOCK_04",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -110.5,
+        0.0,
+        1.0,
+        0.0,
+        -56.599998474121094,
+        0.0,
+        0.0,
+        1.0,
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -110.5,
+        -56.599998474121094,
+        1.5
+      ],
+      "location_xyz_local": [
+        -110.5,
+        -56.599998474121094,
+        1.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        1.0,
+        0.699999988079071
+      ],
+      "data_block": "V03_DAYCARE_PLAY_BLOCK_04_MESH",
+      "material_slots": [
+        "REV005_V03_YELLOW"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_PLAY_BLOCK_05",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -109.0,
+        0.0,
+        1.0,
+        0.0,
+        -56.599998474121094,
+        0.0,
+        0.0,
+        1.0,
+        1.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -109.0,
+        -56.599998474121094,
+        1.5
+      ],
+      "location_xyz_local": [
+        -109.0,
+        -56.599998474121094,
+        1.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        1.0,
+        0.699999988079071
+      ],
+      "data_block": "V03_DAYCARE_PLAY_BLOCK_05_MESH",
+      "material_slots": [
+        "REV005_V03_TEAL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_PLAY_RUG",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -110.0,
+        0.0,
+        1.0,
+        0.0,
+        -58.0,
+        0.0,
+        0.0,
+        1.0,
+        1.1799999475479126,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -110.0,
+        -58.0,
+        1.1799999475479126
+      ],
+      "location_xyz_local": [
+        -110.0,
+        -58.0,
+        1.1799999475479126
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        8.5,
+        5.5,
+        0.07999999821186066
+      ],
+      "data_block": "V03_DAYCARE_PLAY_RUG_MESH",
+      "material_slots": [
+        "REV005_V03_WARM"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_READING_BIN_00",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.69999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -59.29999923706055,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.69999694824219,
+        -59.29999923706055,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -97.69999694824219,
+        -59.29999923706055,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.550000011920929,
+        0.41999998688697815
+      ],
+      "data_block": "V03_DAYCARE_READING_BIN_00_MESH",
+      "material_slots": [
+        "REV005_V03_PURPLE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_READING_BIN_01",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.69999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -58.400001525878906,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.69999694824219,
+        -58.400001525878906,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -97.69999694824219,
+        -58.400001525878906,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.550000011920929,
+        0.41999998688697815
+      ],
+      "data_block": "V03_DAYCARE_READING_BIN_01_MESH",
+      "material_slots": [
+        "REV005_V03_PURPLE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_READING_BIN_02",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.69999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -57.5,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.69999694824219,
+        -57.5,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -97.69999694824219,
+        -57.5,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.550000011920929,
+        0.41999998688697815
+      ],
+      "data_block": "V03_DAYCARE_READING_BIN_02_MESH",
+      "material_slots": [
+        "REV005_V03_PURPLE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_READING_BIN_03",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.69999694824219,
+        0.0,
+        1.0,
+        0.0,
+        -56.599998474121094,
+        0.0,
+        0.0,
+        1.0,
+        2.200000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.69999694824219,
+        -56.599998474121094,
+        2.200000047683716
+      ],
+      "location_xyz_local": [
+        -97.69999694824219,
+        -56.599998474121094,
+        2.200000047683716
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.550000011920929,
+        0.41999998688697815
+      ],
+      "data_block": "V03_DAYCARE_READING_BIN_03_MESH",
+      "material_slots": [
+        "REV005_V03_PURPLE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_READING_SHELF",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.0,
+        0.0,
+        1.0,
+        0.0,
+        -58.0,
+        0.0,
+        0.0,
+        1.0,
+        2.299999952316284,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.0,
+        -58.0,
+        2.299999952316284
+      ],
+      "location_xyz_local": [
+        -97.0,
+        -58.0,
+        2.299999952316284
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.2000000476837158,
+        4.5,
+        2.200000047683716
+      ],
+      "data_block": "V03_DAYCARE_READING_SHELF_MESH",
+      "material_slots": [
+        "REV005_V03_WOOD"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_SOFT_BACK_00",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -99.0999984741211,
+        0.0,
+        1.0,
+        0.0,
+        -66.4000015258789,
+        0.0,
+        0.0,
+        1.0,
+        2.3499999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -99.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "location_xyz_local": [
+        -99.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.8500000238418579,
+        0.25,
+        1.0
+      ],
+      "data_block": "V03_DAYCARE_SOFT_BACK_00_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_SOFT_BACK_01",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -98.0999984741211,
+        0.0,
+        1.0,
+        0.0,
+        -66.4000015258789,
+        0.0,
+        0.0,
+        1.0,
+        2.3499999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -98.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "location_xyz_local": [
+        -98.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.8500000238418579,
+        0.25,
+        1.0
+      ],
+      "data_block": "V03_DAYCARE_SOFT_BACK_01_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_SOFT_BACK_02",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.0999984741211,
+        0.0,
+        1.0,
+        0.0,
+        -66.4000015258789,
+        0.0,
+        0.0,
+        1.0,
+        2.3499999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "location_xyz_local": [
+        -97.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.8500000238418579,
+        0.25,
+        1.0
+      ],
+      "data_block": "V03_DAYCARE_SOFT_BACK_02_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_SOFT_BACK_03",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -96.0999984741211,
+        0.0,
+        1.0,
+        0.0,
+        -66.4000015258789,
+        0.0,
+        0.0,
+        1.0,
+        2.3499999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -96.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "location_xyz_local": [
+        -96.0999984741211,
+        -66.4000015258789,
+        2.3499999046325684
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.8500000238418579,
+        0.25,
+        1.0
+      ],
+      "data_block": "V03_DAYCARE_SOFT_BACK_03_MESH",
+      "material_slots": [
+        "REV005_V03_SOFT"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    },
+    {
+      "name": "V03_DAYCARE_SOFT_NOOK",
+      "type": "MESH",
+      "source_category": "V03",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V03"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -97.5999984741211,
+        0.0,
+        1.0,
+        0.0,
+        -65.0,
+        0.0,
+        0.0,
+        1.0,
+        1.649999976158142,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        -97.5999984741211,
+        -65.0,
+        1.649999976158142
+      ],
+      "location_xyz_local": [
+        -97.5999984741211,
+        -65.0,
+        1.649999976158142
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        3.5,
+        3.200000047683716,
+        0.3499999940395355
+      ],
+      "data_block": "V03_DAYCARE_SOFT_NOOK_MESH",
+      "material_slots": [
+        "REV005_V03_PURPLE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V03": true,
+        "facility": "Daycare / crèche"
+      }
+    }
+  ],
+  "v03_dimensional_contract": {
+    "status": "PASS",
+    "tolerance_m": 0.001,
+    "objects": {
+      "V03_DAYCARE_FLOOR": {
+        "status": "PASS",
+        "actual_center": [
+          -105.0,
+          -64.0,
+          1.0199999809265137
+        ],
+        "expected_center": [
+          -105,
+          -64,
+          1.02
+        ],
+        "actual_dimensions": [
+          27.0,
+          20.0,
+          0.18000000715255737
+        ],
+        "expected_dimensions": [
+          27,
+          20,
+          0.18
+        ],
+        "max_center_error_m": 1.907348634588857e-08,
+        "max_dimension_error_m": 7.152557379708213e-09
+      },
+      "V03_DAYCARE_ENCLOSURE_LEFT": {
+        "status": "PASS",
+        "actual_center": [
+          -118.0,
+          -64.0,
+          2.75
+        ],
+        "expected_center": [
+          -118,
+          -64,
+          2.75
+        ],
+        "actual_dimensions": [
+          0.1599999964237213,
+          19.0,
+          5.5
+        ],
+        "expected_dimensions": [
+          0.16,
+          19,
+          5.5
+        ],
+        "max_center_error_m": 0.0,
+        "max_dimension_error_m": 3.5762786898541066e-09
+      },
+      "V03_DAYCARE_ENCLOSURE_RIGHT": {
+        "status": "PASS",
+        "actual_center": [
+          -92.0,
+          -64.0,
+          2.75
+        ],
+        "expected_center": [
+          -92,
+          -64,
+          2.75
+        ],
+        "actual_dimensions": [
+          0.1599999964237213,
+          19.0,
+          5.5
+        ],
+        "expected_dimensions": [
+          0.16,
+          19,
+          5.5
+        ],
+        "max_center_error_m": 0.0,
+        "max_dimension_error_m": 3.5762786898541066e-09
+      },
+      "V03_DAYCARE_ENCLOSURE_BACK": {
+        "status": "PASS",
+        "actual_center": [
+          -105.0,
+          -54.5,
+          2.75
+        ],
+        "expected_center": [
+          -105,
+          -54.5,
+          2.75
+        ],
+        "actual_dimensions": [
+          26.0,
+          0.1599999964237213,
+          5.5
+        ],
+        "expected_dimensions": [
+          26,
+          0.16,
+          5.5
+        ],
+        "max_center_error_m": 0.0,
+        "max_dimension_error_m": 3.5762786898541066e-09
+      },
+      "V03_DAYCARE_LOW_PARTITION": {
+        "status": "PASS",
+        "actual_center": [
+          -105.0,
+          -64.0,
+          2.0999999046325684
+        ],
+        "expected_center": [
+          -105,
+          -64,
+          2.1
+        ],
+        "actual_dimensions": [
+          22.0,
+          0.18000000715255737,
+          1.7000000476837158
+        ],
+        "expected_dimensions": [
+          22,
+          0.18,
+          1.7
+        ],
+        "max_center_error_m": 9.536743172944284e-08,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_PLAY_RUG": {
+        "status": "PASS",
+        "actual_center": [
+          -110.0,
+          -58.0,
+          1.1799999475479126
+        ],
+        "expected_center": [
+          -110,
+          -58,
+          1.18
+        ],
+        "actual_dimensions": [
+          8.5,
+          5.5,
+          0.07999999821186066
+        ],
+        "expected_dimensions": [
+          8.5,
+          5.5,
+          0.08
+        ],
+        "max_center_error_m": 5.245208734017126e-08,
+        "max_dimension_error_m": 1.7881393449270533e-09
+      },
+      "V03_DAYCARE_READING_SHELF": {
+        "status": "PASS",
+        "actual_center": [
+          -97.0,
+          -58.0,
+          2.299999952316284
+        ],
+        "expected_center": [
+          -97,
+          -58,
+          2.3
+        ],
+        "actual_dimensions": [
+          1.2000000476837158,
+          4.5,
+          2.200000047683716
+        ],
+        "expected_dimensions": [
+          1.2,
+          4.5,
+          2.2
+        ],
+        "max_center_error_m": 4.7683715642676816e-08,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_SOFT_NOOK": {
+        "status": "PASS",
+        "actual_center": [
+          -97.5999984741211,
+          -65.0,
+          1.649999976158142
+        ],
+        "expected_center": [
+          -97.6,
+          -65,
+          1.65
+        ],
+        "actual_dimensions": [
+          3.5,
+          3.200000047683716,
+          0.3499999940395355
+        ],
+        "expected_dimensions": [
+          3.5,
+          3.2,
+          0.35
+        ],
+        "max_center_error_m": 1.5258789005656581e-06,
+        "max_dimension_error_m": 4.7683715642676816e-08
+      },
+      "V03_DAYCARE_CAREGIVER_DESK": {
+        "status": "PASS",
+        "actual_center": [
+          -106.0,
+          -66.5,
+          2.0999999046325684
+        ],
+        "expected_center": [
+          -106,
+          -66.5,
+          2.1
+        ],
+        "actual_dimensions": [
+          3.4000000953674316,
+          1.100000023841858,
+          1.5
+        ],
+        "expected_dimensions": [
+          3.4,
+          1.1,
+          1.5
+        ],
+        "max_center_error_m": 9.536743172944284e-08,
+        "max_dimension_error_m": 9.536743172944284e-08
+      },
+      "V03_DAYCARE_CAREGIVER_SCREEN": {
+        "status": "PASS",
+        "actual_center": [
+          -106.0,
+          -65.80000305175781,
+          3.5
+        ],
+        "expected_center": [
+          -106,
+          -65.8,
+          3.5
+        ],
+        "actual_dimensions": [
+          2.4000000953674316,
+          0.11999999731779099,
+          1.2000000476837158
+        ],
+        "expected_dimensions": [
+          2.4,
+          0.12,
+          1.2
+        ],
+        "max_center_error_m": 3.051757815342171e-06,
+        "max_dimension_error_m": 9.536743172944284e-08
+      },
+      "V03_DAYCARE_HANDWASH": {
+        "status": "PASS",
+        "actual_center": [
+          -97.0,
+          -70.5,
+          1.899999976158142
+        ],
+        "expected_center": [
+          -97,
+          -70.5,
+          1.9
+        ],
+        "actual_dimensions": [
+          3.5,
+          0.75,
+          1.5
+        ],
+        "expected_dimensions": [
+          3.5,
+          0.75,
+          1.5
+        ],
+        "max_center_error_m": 2.3841857821338408e-08,
+        "max_dimension_error_m": 0.0
+      },
+      "V03_DAYCARE_PLAY_BLOCK_00": {
+        "status": "PASS",
+        "actual_center": [
+          -112.0,
+          -58.0,
+          1.5
+        ],
+        "expected_center": [
+          -112,
+          -58,
+          1.5
+        ],
+        "actual_dimensions": [
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        "expected_dimensions": [
+          1,
+          1,
+          0.7
+        ],
+        "max_center_error_m": 0.0,
+        "max_dimension_error_m": 1.1920928910669204e-08
+      },
+      "V03_DAYCARE_PLAY_BLOCK_01": {
+        "status": "PASS",
+        "actual_center": [
+          -110.5,
+          -58.0,
+          1.5
+        ],
+        "expected_center": [
+          -110.5,
+          -58,
+          1.5
+        ],
+        "actual_dimensions": [
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        "expected_dimensions": [
+          1,
+          1,
+          0.7
+        ],
+        "max_center_error_m": 0.0,
+        "max_dimension_error_m": 1.1920928910669204e-08
+      },
+      "V03_DAYCARE_PLAY_BLOCK_02": {
+        "status": "PASS",
+        "actual_center": [
+          -109.0,
+          -58.0,
+          1.5
+        ],
+        "expected_center": [
+          -109,
+          -58,
+          1.5
+        ],
+        "actual_dimensions": [
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        "expected_dimensions": [
+          1,
+          1,
+          0.7
+        ],
+        "max_center_error_m": 0.0,
+        "max_dimension_error_m": 1.1920928910669204e-08
+      },
+      "V03_DAYCARE_PLAY_BLOCK_03": {
+        "status": "PASS",
+        "actual_center": [
+          -112.0,
+          -56.599998474121094,
+          1.5
+        ],
+        "expected_center": [
+          -112,
+          -56.6,
+          1.5
+        ],
+        "actual_dimensions": [
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        "expected_dimensions": [
+          1,
+          1,
+          0.7
+        ],
+        "max_center_error_m": 1.5258789076710855e-06,
+        "max_dimension_error_m": 1.1920928910669204e-08
+      },
+      "V03_DAYCARE_PLAY_BLOCK_04": {
+        "status": "PASS",
+        "actual_center": [
+          -110.5,
+          -56.599998474121094,
+          1.5
+        ],
+        "expected_center": [
+          -110.5,
+          -56.6,
+          1.5
+        ],
+        "actual_dimensions": [
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        "expected_dimensions": [
+          1,
+          1,
+          0.7
+        ],
+        "max_center_error_m": 1.5258789076710855e-06,
+        "max_dimension_error_m": 1.1920928910669204e-08
+      },
+      "V03_DAYCARE_PLAY_BLOCK_05": {
+        "status": "PASS",
+        "actual_center": [
+          -109.0,
+          -56.599998474121094,
+          1.5
+        ],
+        "expected_center": [
+          -109,
+          -56.6,
+          1.5
+        ],
+        "actual_dimensions": [
+          1.0,
+          1.0,
+          0.699999988079071
+        ],
+        "expected_dimensions": [
+          1,
+          1,
+          0.7
+        ],
+        "max_center_error_m": 1.5258789076710855e-06,
+        "max_dimension_error_m": 1.1920928910669204e-08
+      },
+      "V03_DAYCARE_READING_BIN_00": {
+        "status": "PASS",
+        "actual_center": [
+          -97.69999694824219,
+          -59.29999923706055,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -97.7,
+          -59.3,
+          2.2
+        ],
+        "actual_dimensions": [
+          0.18000000715255737,
+          0.550000011920929,
+          0.41999998688697815
+        ],
+        "expected_dimensions": [
+          0.18,
+          0.55,
+          0.42
+        ],
+        "max_center_error_m": 3.051757815342171e-06,
+        "max_dimension_error_m": 1.3113021835042815e-08
+      },
+      "V03_DAYCARE_READING_BIN_01": {
+        "status": "PASS",
+        "actual_center": [
+          -97.69999694824219,
+          -58.400001525878906,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -97.7,
+          -58.4,
+          2.2
+        ],
+        "actual_dimensions": [
+          0.18000000715255737,
+          0.550000011920929,
+          0.41999998688697815
+        ],
+        "expected_dimensions": [
+          0.18,
+          0.55,
+          0.42
+        ],
+        "max_center_error_m": 3.051757815342171e-06,
+        "max_dimension_error_m": 1.3113021835042815e-08
+      },
+      "V03_DAYCARE_READING_BIN_02": {
+        "status": "PASS",
+        "actual_center": [
+          -97.69999694824219,
+          -57.5,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -97.7,
+          -57.5,
+          2.2
+        ],
+        "actual_dimensions": [
+          0.18000000715255737,
+          0.550000011920929,
+          0.41999998688697815
+        ],
+        "expected_dimensions": [
+          0.18,
+          0.55,
+          0.42
+        ],
+        "max_center_error_m": 3.051757815342171e-06,
+        "max_dimension_error_m": 1.3113021835042815e-08
+      },
+      "V03_DAYCARE_READING_BIN_03": {
+        "status": "PASS",
+        "actual_center": [
+          -97.69999694824219,
+          -56.599998474121094,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -97.7,
+          -56.6,
+          2.2
+        ],
+        "actual_dimensions": [
+          0.18000000715255737,
+          0.550000011920929,
+          0.41999998688697815
+        ],
+        "expected_dimensions": [
+          0.18,
+          0.55,
+          0.42
+        ],
+        "max_center_error_m": 3.051757815342171e-06,
+        "max_dimension_error_m": 1.3113021835042815e-08
+      },
+      "V03_DAYCARE_SOFT_BACK_00": {
+        "status": "PASS",
+        "actual_center": [
+          -99.0999984741211,
+          -66.4000015258789,
+          2.3499999046325684
+        ],
+        "expected_center": [
+          -99.1,
+          -66.4,
+          2.35
+        ],
+        "actual_dimensions": [
+          0.8500000238418579,
+          0.25,
+          1.0
+        ],
+        "expected_dimensions": [
+          0.85,
+          0.25,
+          1
+        ],
+        "max_center_error_m": 1.5258789005656581e-06,
+        "max_dimension_error_m": 2.384185793236071e-08
+      },
+      "V03_DAYCARE_SOFT_BACK_01": {
+        "status": "PASS",
+        "actual_center": [
+          -98.0999984741211,
+          -66.4000015258789,
+          2.3499999046325684
+        ],
+        "expected_center": [
+          -98.1,
+          -66.4,
+          2.35
+        ],
+        "actual_dimensions": [
+          0.8500000238418579,
+          0.25,
+          1.0
+        ],
+        "expected_dimensions": [
+          0.85,
+          0.25,
+          1
+        ],
+        "max_center_error_m": 1.5258789005656581e-06,
+        "max_dimension_error_m": 2.384185793236071e-08
+      },
+      "V03_DAYCARE_SOFT_BACK_02": {
+        "status": "PASS",
+        "actual_center": [
+          -97.0999984741211,
+          -66.4000015258789,
+          2.3499999046325684
+        ],
+        "expected_center": [
+          -97.1,
+          -66.4,
+          2.35
+        ],
+        "actual_dimensions": [
+          0.8500000238418579,
+          0.25,
+          1.0
+        ],
+        "expected_dimensions": [
+          0.85,
+          0.25,
+          1
+        ],
+        "max_center_error_m": 1.5258789005656581e-06,
+        "max_dimension_error_m": 2.384185793236071e-08
+      },
+      "V03_DAYCARE_SOFT_BACK_03": {
+        "status": "PASS",
+        "actual_center": [
+          -96.0999984741211,
+          -66.4000015258789,
+          2.3499999046325684
+        ],
+        "expected_center": [
+          -96.1,
+          -66.4,
+          2.35
+        ],
+        "actual_dimensions": [
+          0.8500000238418579,
+          0.25,
+          1.0
+        ],
+        "expected_dimensions": [
+          0.85,
+          0.25,
+          1
+        ],
+        "max_center_error_m": 1.5258789005656581e-06,
+        "max_dimension_error_m": 2.384185793236071e-08
+      },
+      "V03_DAYCARE_LIGHT_00_BODY": {
+        "status": "PASS",
+        "actual_center": [
+          -114.0,
+          -64.0,
+          6.300000190734863
+        ],
+        "expected_center": [
+          -114,
+          -64,
+          6.3
+        ],
+        "actual_dimensions": [
+          2.200000047683716,
+          0.3199999928474426,
+          0.10000000149011612
+        ],
+        "expected_dimensions": [
+          2.2,
+          0.32,
+          0.1
+        ],
+        "max_center_error_m": 1.9073486345888568e-07,
+        "max_dimension_error_m": 4.7683715642676816e-08
+      },
+      "V03_DAYCARE_LIGHT_00_GLOW": {
+        "status": "PASS",
+        "actual_center": [
+          -114.0,
+          -64.0,
+          6.230000019073486
+        ],
+        "expected_center": [
+          -114,
+          -64,
+          6.23
+        ],
+        "actual_dimensions": [
+          1.7000000476837158,
+          0.1599999964237213,
+          0.03999999910593033
+        ],
+        "expected_dimensions": [
+          1.7,
+          0.16,
+          0.04
+        ],
+        "max_center_error_m": 1.907348590179936e-08,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_LIGHT_01_BODY": {
+        "status": "PASS",
+        "actual_center": [
+          -108.0,
+          -64.0,
+          6.300000190734863
+        ],
+        "expected_center": [
+          -108,
+          -64,
+          6.3
+        ],
+        "actual_dimensions": [
+          2.200000047683716,
+          0.3199999928474426,
+          0.10000000149011612
+        ],
+        "expected_dimensions": [
+          2.2,
+          0.32,
+          0.1
+        ],
+        "max_center_error_m": 1.9073486345888568e-07,
+        "max_dimension_error_m": 4.7683715642676816e-08
+      },
+      "V03_DAYCARE_LIGHT_01_GLOW": {
+        "status": "PASS",
+        "actual_center": [
+          -108.0,
+          -64.0,
+          6.230000019073486
+        ],
+        "expected_center": [
+          -108,
+          -64,
+          6.23
+        ],
+        "actual_dimensions": [
+          1.7000000476837158,
+          0.1599999964237213,
+          0.03999999910593033
+        ],
+        "expected_dimensions": [
+          1.7,
+          0.16,
+          0.04
+        ],
+        "max_center_error_m": 1.907348590179936e-08,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_LIGHT_02_BODY": {
+        "status": "PASS",
+        "actual_center": [
+          -102.0,
+          -64.0,
+          6.300000190734863
+        ],
+        "expected_center": [
+          -102,
+          -64,
+          6.3
+        ],
+        "actual_dimensions": [
+          2.200000047683716,
+          0.3199999928474426,
+          0.10000000149011612
+        ],
+        "expected_dimensions": [
+          2.2,
+          0.32,
+          0.1
+        ],
+        "max_center_error_m": 1.9073486345888568e-07,
+        "max_dimension_error_m": 4.7683715642676816e-08
+      },
+      "V03_DAYCARE_LIGHT_02_GLOW": {
+        "status": "PASS",
+        "actual_center": [
+          -102.0,
+          -64.0,
+          6.230000019073486
+        ],
+        "expected_center": [
+          -102,
+          -64,
+          6.23
+        ],
+        "actual_dimensions": [
+          1.7000000476837158,
+          0.1599999964237213,
+          0.03999999910593033
+        ],
+        "expected_dimensions": [
+          1.7,
+          0.16,
+          0.04
+        ],
+        "max_center_error_m": 1.907348590179936e-08,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_LIGHT_03_BODY": {
+        "status": "PASS",
+        "actual_center": [
+          -96.0,
+          -64.0,
+          6.300000190734863
+        ],
+        "expected_center": [
+          -96,
+          -64,
+          6.3
+        ],
+        "actual_dimensions": [
+          2.200000047683716,
+          0.3199999928474426,
+          0.10000000149011612
+        ],
+        "expected_dimensions": [
+          2.2,
+          0.32,
+          0.1
+        ],
+        "max_center_error_m": 1.9073486345888568e-07,
+        "max_dimension_error_m": 4.7683715642676816e-08
+      },
+      "V03_DAYCARE_LIGHT_03_GLOW": {
+        "status": "PASS",
+        "actual_center": [
+          -96.0,
+          -64.0,
+          6.230000019073486
+        ],
+        "expected_center": [
+          -96,
+          -64,
+          6.23
+        ],
+        "actual_dimensions": [
+          1.7000000476837158,
+          0.1599999964237213,
+          0.03999999910593033
+        ],
+        "expected_dimensions": [
+          1.7,
+          0.16,
+          0.04
+        ],
+        "max_center_error_m": 1.907348590179936e-08,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_CUBBY_FACE_00": {
+        "status": "PASS",
+        "actual_center": [
+          -113.0,
+          -72.0,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -113,
+          -72,
+          2.2
+        ],
+        "actual_dimensions": [
+          2.0,
+          0.18000000715255737,
+          1.7000000476837158
+        ],
+        "expected_dimensions": [
+          2,
+          0.18,
+          1.7
+        ],
+        "max_center_error_m": 4.7683715642676816e-08,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_CUBBY_FACE_01": {
+        "status": "PASS",
+        "actual_center": [
+          -109.4000015258789,
+          -72.0,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -109.4,
+          -72,
+          2.2
+        ],
+        "actual_dimensions": [
+          2.0,
+          0.18000000715255737,
+          1.7000000476837158
+        ],
+        "expected_dimensions": [
+          2,
+          0.18,
+          1.7
+        ],
+        "max_center_error_m": 1.5258789005656581e-06,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_CUBBY_FACE_02": {
+        "status": "PASS",
+        "actual_center": [
+          -105.80000305175781,
+          -72.0,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -105.8,
+          -72,
+          2.2
+        ],
+        "actual_dimensions": [
+          2.0,
+          0.18000000715255737,
+          1.7000000476837158
+        ],
+        "expected_dimensions": [
+          2,
+          0.18,
+          1.7
+        ],
+        "max_center_error_m": 3.051757815342171e-06,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_CUBBY_FACE_03": {
+        "status": "PASS",
+        "actual_center": [
+          -102.19999694824219,
+          -72.0,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -102.2,
+          -72,
+          2.2
+        ],
+        "actual_dimensions": [
+          2.0,
+          0.18000000715255737,
+          1.7000000476837158
+        ],
+        "expected_dimensions": [
+          2,
+          0.18,
+          1.7
+        ],
+        "max_center_error_m": 3.051757815342171e-06,
+        "max_dimension_error_m": 4.768371586472142e-08
+      },
+      "V03_DAYCARE_CUBBY_FACE_04": {
+        "status": "PASS",
+        "actual_center": [
+          -98.5999984741211,
+          -72.0,
+          2.200000047683716
+        ],
+        "expected_center": [
+          -98.6,
+          -72,
+          2.2
+        ],
+        "actual_dimensions": [
+          2.0,
+          0.18000000715255737,
+          1.7000000476837158
+        ],
+        "expected_dimensions": [
+          2,
+          0.18,
+          1.7
+        ],
+        "max_center_error_m": 1.5258789005656581e-06,
+        "max_dimension_error_m": 4.768371586472142e-08
+      }
+    }
+  }
+}

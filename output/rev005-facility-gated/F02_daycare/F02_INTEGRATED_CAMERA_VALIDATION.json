@@ -1,0 +1,260 @@
+{
+  "status": "PASS",
+  "bounds": {
+    "min_xyz": [
+      -118.5,
+      -74.0,
+      0.0
+    ],
+    "max_xyz": [
+      -91.5,
+      -54.0,
+      6.350000381469727
+    ],
+    "center_xyz": [
+      -105.0,
+      -64.0,
+      3.1750001907348633
+    ],
+    "extents_xyz": [
+      27.0,
+      20.0,
+      6.350000381469727
+    ],
+    "horizontal_radius_m": 16.80029761641144
+  },
+  "candidates": [
+    {
+      "azimuth_deg": 0,
+      "camera_xyz": [
+        -46.198958342559955,
+        -64.0,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 5,
+      "blockers": [
+        {
+          "sample": [
+            -105.0,
+            -64.0,
+            3.1750001907348633
+          ],
+          "object": "V09_ADMIN_SOFFIT",
+          "distance_m": 35.09132606511964
+        },
+        {
+          "sample": [
+            -96.9,
+            -64.0,
+            3.1750001907348633
+          ],
+          "object": "V09_ADMIN_SOFFIT",
+          "distance_m": 30.38121399287774
+        },
+        {
+          "sample": [
+            -105.0,
+            -58.0,
+            3.1750001907348633
+          ],
+          "object": "V09_ADMIN_SOFFIT",
+          "distance_m": 35.26921791362504
+        },
+        {
+          "sample": [
+            -105.0,
+            -70.0,
+            3.1750001907348633
+          ],
+          "object": "V09_ADMIN_SOFFIT",
+          "distance_m": 35.269217535067156
+        }
+      ],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 25.2108953842908,
+      "pass": false
+    },
+    {
+      "azimuth_deg": 45,
+      "camera_xyz": [
+        -63.42138470319147,
+        -22.42138470319147,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 9,
+      "blockers": [],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 36.423199774203454,
+      "pass": true
+    },
+    {
+      "azimuth_deg": 90,
+      "camera_xyz": [
+        -105.0,
+        -5.198958342559955,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 9,
+      "blockers": [],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 27.729365061029476,
+      "pass": false
+    },
+    {
+      "azimuth_deg": 135,
+      "camera_xyz": [
+        -146.57861529680852,
+        -22.42138470319147,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 9,
+      "blockers": [],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 36.423208815031984,
+      "pass": true
+    },
+    {
+      "azimuth_deg": 180,
+      "camera_xyz": [
+        -163.80104165744004,
+        -63.99999999999999,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 9,
+      "blockers": [],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 25.210881311301513,
+      "pass": false
+    },
+    {
+      "azimuth_deg": 225,
+      "camera_xyz": [
+        -146.57861529680855,
+        -105.57861529680852,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 9,
+      "blockers": [],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 36.423216719136285,
+      "pass": true
+    },
+    {
+      "azimuth_deg": 270,
+      "camera_xyz": [
+        -105.00000000000001,
+        -122.80104165744004,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 9,
+      "blockers": [],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 27.729365842242704,
+      "pass": false
+    },
+    {
+      "azimuth_deg": 315,
+      "camera_xyz": [
+        -63.421384703191485,
+        -105.57861529680854,
+        12.350000381469727
+      ],
+      "target_xyz": [
+        -105.0,
+        -64.0,
+        3.8100002288818358
+      ],
+      "lens_mm": 52,
+      "distance_m": 58.801041657440045,
+      "clear_ray_count": 9,
+      "blockers": [],
+      "immediate_architectural_intersection_within_1m": false,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 36.42320517477925,
+      "pass": true
+    }
+  ],
+  "selected": {
+    "azimuth_deg": 45,
+    "camera_xyz": [
+      -63.42138470319147,
+      -22.42138470319147,
+      12.350000381469727
+    ],
+    "target_xyz": [
+      -105.0,
+      -64.0,
+      3.8100002288818358
+    ],
+    "lens_mm": 52,
+    "distance_m": 58.801041657440045,
+    "clear_ray_count": 9,
+    "blockers": [],
+    "immediate_architectural_intersection_within_1m": false,
+    "fully_in_frame": true,
+    "screen_coverage_percent": 36.423199774203454,
+    "pass": true
+  },
+  "minimum_clear_rays": 7,
+  "screen_coverage_range_percent": [
+    30,
+    65
+  ],
+  "automatic_cross_facility_exclusion": false
+}

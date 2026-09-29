@@ -1,0 +1,2633 @@
+{
+  "status": "AWAITING_GPT_FACILITY_AUDIT_F02",
+  "facility": "F02 Daycare / crèche",
+  "historical_replay_source_hash": "63F6B58C5163CFFCFE09D7122CCEB84E58A76A1E8333CBB5154E0399D83A54FE",
+  "source_composition": {
+    "BASE": 41,
+    "V01": 0,
+    "V02": 0,
+    "V03": 38,
+    "V04": 0,
+    "V05": 0
+  },
+  "v03_dimensional_contract": "PASS",
+  "source_ab_parity": {
+    "status": "PASS",
+    "comparison_method": "decoded RGBA pixel equality; raw PNG metadata may differ",
+    "views": {
+      "A_WIDE": {
+        "path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_A_WIDE.png",
+        "archived_reference_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_A_WIDE.png",
+        "resolution": [
+          900,
+          600
+        ],
+        "camera_location": [
+          -122,
+          -80,
+          13
+        ],
+        "camera_target": [
+          -105,
+          -64,
+          3
+        ],
+        "lens_mm": 52,
+        "sensor_width_mm": 36,
+        "replay_raw_sha256": "2F49CAFF60E9552BA6D37299B5582F1DBCEF44DDDAE686F2FB1DD0EC0867785E",
+        "archived_sha256": "72370EF41D5C1EA3AE81500EE77F5764725D8C0C3E0622D1CD21B55344F757EE",
+        "pixel_equal": true,
+        "different_pixels": 0,
+        "replay_bytes": 653156,
+        "archived_bytes": 653120
+      },
+      "B_FUNCTIONAL": {
+        "path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_B_FUNCTIONAL.png",
+        "archived_reference_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\daycare_cr_che_B_FUNCTIONAL.png",
+        "resolution": [
+          900,
+          600
+        ],
+        "camera_location": [
+          -113,
+          -72,
+          8
+        ],
+        "camera_target": [
+          -105,
+          -64,
+          3
+        ],
+        "lens_mm": 52,
+        "sensor_width_mm": 36,
+        "replay_raw_sha256": "3D084E219B8CCC448B91E2F9481873257D6ABACC8186D9DA70C89CCFE633066A",
+        "archived_sha256": "7E06E34994D36AE6D84D3F4A58B1C7E05BC3FEEECD79EC06514ECDB2DC5A3F7B",
+        "pixel_equal": true,
+        "different_pixels": 0,
+        "replay_bytes": 628469,
+        "archived_bytes": 628433
+      }
+    }
+  },
+  "destination_count": 79,
+  "destination_parity": {
+    "status": "PASS",
+    "A_WIDE": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_DEST_PARITY_A_900x600.png",
+      "sha256": "798C702449605B5C27E395CED7961E7F914F0BF7131681337AB78041E6C10D57",
+      "bytes": 653104,
+      "resolution": [
+        900,
+        600
+      ],
+      "pixel_equal": false,
+      "different_channels": 13,
+      "visual_match": true
+    },
+    "B_FUNCTIONAL": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_DEST_PARITY_B_900x600.png",
+      "sha256": "E8F3FA43D80A52FA67A4D015B77206975A8353A5B8F4BAA63B918ECC1C13EA6D",
+      "bytes": 628406,
+      "resolution": [
+        900,
+        600
+      ],
+      "pixel_equal": true,
+      "different_channels": 0,
+      "visual_match": true
+    }
+  },
+  "f01_protection_parity": {
+    "status": "PASS",
+    "facility": "F01 Caps & Trigger",
+    "object_count": 76,
+    "objects": {
+      "REV005_Caps_Triggers_OPERATOR_STATION_BODY": {
+        "name": "REV005_Caps_Triggers_OPERATOR_STATION_BODY",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.0,
+          0.0,
+          1.0,
+          0.0,
+          28.600000381469727,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          2.200000047683716,
+          1.0,
+          1.399999976158142
+        ],
+        "materials": [
+          "REV005_Equipment_White"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "REV005_Caps_Triggers_OPERATOR_STATION_PANEL": {
+        "name": "REV005_Caps_Triggers_OPERATOR_STATION_PANEL",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.0,
+          0.0,
+          1.0,
+          0.0,
+          28.020000457763672,
+          0.0,
+          0.0,
+          1.0,
+          2.868000030517578,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.9900000095367432,
+          0.07999999821186066,
+          0.335999995470047
+        ],
+        "materials": [
+          "REV005_Black"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "REV005_Caps_Triggers_SAFETY_EYEWASH": {
+        "name": "REV005_Caps_Triggers_SAFETY_EYEWASH",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          64.3499984741211,
+          0.0,
+          1.0,
+          0.0,
+          25.0,
+          0.0,
+          0.0,
+          1.0,
+          1.7999999523162842,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.36000001430511475,
+          0.36000001430511475,
+          0.550000011920929
+        ],
+        "materials": [
+          "REV005_Safety_Red"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "REV005_Caps_Triggers_SAFETY_PPE": {
+        "name": "REV005_Caps_Triggers_SAFETY_PPE",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          63.70000076293945,
+          0.0,
+          1.0,
+          0.0,
+          25.0,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.800000011920929,
+          0.3499999940395355,
+          1.2999999523162842
+        ],
+        "materials": [
+          "REV005_Safety_Yellow"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "REV005_Caps_Triggers_STAGING_0": {
+        "name": "REV005_Caps_Triggers_STAGING_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          41.0,
+          0.0,
+          1.0,
+          0.0,
+          36.5,
+          0.0,
+          0.0,
+          1.0,
+          1.4500000476837158,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          1.2999999523162842,
+          0.41999998688697815
+        ],
+        "materials": [
+          "REV005_Wood"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "REV005_Caps_Triggers_STAGING_1": {
+        "name": "REV005_Caps_Triggers_STAGING_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          41.0,
+          0.0,
+          1.0,
+          0.0,
+          36.5,
+          0.0,
+          0.0,
+          1.0,
+          1.9700000286102295,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          1.2999999523162842,
+          0.41999998688697815
+        ],
+        "materials": [
+          "REV005_Wood"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "REV005_Caps_and_trigger_assembly_FLOOR": {
+        "name": "REV005_Caps_and_trigger_assembly_FLOOR",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.0,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          1.2799999713897705,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          27.0,
+          15.0,
+          0.11999999731779099
+        ],
+        "materials": [
+          "REV005_Floor_Clean"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "RM_CAPS_BOWL_CENTER": {
+        "name": "RM_CAPS_BOWL_CENTER",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6399999856948853,
+          0.6399999856948853,
+          0.8999999761581421
+        ],
+        "materials": [
+          "REV005_RM_PROCESS_BLUE"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAPS_FEED_TRACK": {
+        "name": "RM_CAPS_FEED_TRACK",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.36000001430511475,
+          0.36000001430511475,
+          3.6235342025756836
+        ],
+        "materials": [
+          "REV005_RM_SAFETY_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAPS_REJECT_STATION": {
+        "name": "RM_CAPS_REJECT_STATION",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.0,
+          2.0,
+          1.5
+        ],
+        "materials": [
+          "REV005_RM_FIRE_RED"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAPS_ROTARY_BOWL": {
+        "name": "RM_CAPS_ROTARY_BOWL",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          4.400000095367432,
+          4.400000095367432,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_RM_STAINLESS"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_FEEDER_0": {
+        "name": "RM_CAP_FEEDER_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ],
+        "materials": [
+          "REV005_RM_SAFETY_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_FEEDER_1": {
+        "name": "RM_CAP_FEEDER_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ],
+        "materials": [
+          "REV005_RM_SAFETY_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_FEEDER_2": {
+        "name": "RM_CAP_FEEDER_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ],
+        "materials": [
+          "REV005_RM_SAFETY_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_FEEDER_3": {
+        "name": "RM_CAP_FEEDER_3",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ],
+        "materials": [
+          "REV005_RM_SAFETY_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_BED": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_BED",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          13.0,
+          1.7999999523162842,
+          0.2199999988079071
+        ],
+        "materials": [
+          "REV005_RM_STAINLESS"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_A": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_A",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          13.0,
+          0.07999999821186066,
+          0.6499999761581421
+        ],
+        "materials": [
+          "REV005_RM_SAFETY_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_B": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_B",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          13.0,
+          0.07999999821186066,
+          0.6499999761581421
+        ],
+        "materials": [
+          "REV005_RM_SAFETY_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_0": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ],
+        "materials": [
+          "REV005_RM_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_1": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ],
+        "materials": [
+          "REV005_RM_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_2": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ],
+        "materials": [
+          "REV005_RM_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_3": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_3",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ],
+        "materials": [
+          "REV005_RM_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_4": {
+        "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_4",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ],
+        "materials": [
+          "REV005_RM_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_TRIGGER_FEEDER": {
+        "name": "RM_TRIGGER_FEEDER",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          3.200000047683716,
+          1.7999999523162842,
+          2.799999952316284
+        ],
+        "materials": [
+          "REV005_RM_MAGENTA"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_TRIGGER_PICK_PLACE_0": {
+        "name": "RM_TRIGGER_PICK_PLACE_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ],
+        "materials": [
+          "REV005_RM_PROCESS_BLUE"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_TRIGGER_PICK_PLACE_1": {
+        "name": "RM_TRIGGER_PICK_PLACE_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ],
+        "materials": [
+          "REV005_RM_PROCESS_BLUE"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_TRIGGER_PICK_PLACE_2": {
+        "name": "RM_TRIGGER_PICK_PLACE_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ],
+        "materials": [
+          "REV005_RM_PROCESS_BLUE"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "RM_TRIGGER_PICK_PLACE_3": {
+        "name": "RM_TRIGGER_PICK_PLACE_3",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ],
+        "materials": [
+          "REV005_RM_PROCESS_BLUE"
+        ],
+        "parent": null,
+        "hide_viewport": true,
+        "hide_render": true
+      },
+      "V02_ASSEMBLY_NEST_0": {
+        "name": "V02_ASSEMBLY_NEST_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          54.79999923706055,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          2.450000047683716,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6800000071525574,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_ASSEMBLY_NEST_1": {
+        "name": "V02_ASSEMBLY_NEST_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          53.900001525878906,
+          0.0,
+          1.0,
+          0.0,
+          31.952627182006836,
+          0.0,
+          0.0,
+          1.0,
+          2.450000047683716,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6800000071525574,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_ASSEMBLY_NEST_2": {
+        "name": "V02_ASSEMBLY_NEST_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.099998474121094,
+          0.0,
+          1.0,
+          0.0,
+          31.952627182006836,
+          0.0,
+          0.0,
+          1.0,
+          2.450000047683716,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6800000071525574,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_ASSEMBLY_NEST_3": {
+        "name": "V02_ASSEMBLY_NEST_3",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          51.20000076293945,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          2.450000047683716,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6800000071525574,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_ASSEMBLY_NEST_4": {
+        "name": "V02_ASSEMBLY_NEST_4",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.099998474121094,
+          0.0,
+          1.0,
+          0.0,
+          30.047372817993164,
+          0.0,
+          0.0,
+          1.0,
+          2.450000047683716,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6800000071525574,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_ASSEMBLY_NEST_5": {
+        "name": "V02_ASSEMBLY_NEST_5",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          53.900001525878906,
+          0.0,
+          1.0,
+          0.0,
+          30.047372817993164,
+          0.0,
+          0.0,
+          1.0,
+          2.450000047683716,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.6800000071525574,
+          0.6800000071525574,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAPS_BOWL_FEEDER": {
+        "name": "V02_CAPS_BOWL_FEEDER",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          43.0,
+          0.0,
+          1.0,
+          0.0,
+          33.20000076293945,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          5.0,
+          5.0,
+          0.44999998807907104
+        ],
+        "materials": [
+          "REV005_V02_STAINLESS"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAPS_BOWL_RIM": {
+        "name": "V02_CAPS_BOWL_RIM",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          43.0,
+          0.0,
+          1.0,
+          0.0,
+          33.20000076293945,
+          0.0,
+          0.0,
+          1.0,
+          2.3499999046325684,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          4.400000095367432,
+          4.400000095367432,
+          0.1599999964237213
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAPS_BOWL_TRACK": {
+        "name": "V02_CAPS_BOWL_TRACK",
+        "matrix_world": [
+          0.4228857457637787,
+          1.9273625184723642e-07,
+          0.9061830043792725,
+          46.5,
+          0.9061830043792725,
+          2.7746594355448906e-08,
+          -0.4228857457637787,
+          32.5,
+          -1.0664890481848488e-07,
+          1.0,
+          -1.6292068494294654e-07,
+          2.4000000953674316,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.4000000059604645,
+          0.4000000059604645,
+          3.3105897903442383
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_COMPONENT_0": {
+        "name": "V02_CAP_COMPONENT_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          54.79999923706055,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          2.799999952316284,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.3799999952316284
+        ],
+        "materials": [
+          "REV005_V02_WHITE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_COMPONENT_1": {
+        "name": "V02_CAP_COMPONENT_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          53.900001525878906,
+          0.0,
+          1.0,
+          0.0,
+          31.952627182006836,
+          0.0,
+          0.0,
+          1.0,
+          2.799999952316284,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.3799999952316284
+        ],
+        "materials": [
+          "REV005_V02_WHITE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_COMPONENT_2": {
+        "name": "V02_CAP_COMPONENT_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.099998474121094,
+          0.0,
+          1.0,
+          0.0,
+          31.952627182006836,
+          0.0,
+          0.0,
+          1.0,
+          2.799999952316284,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.3799999952316284
+        ],
+        "materials": [
+          "REV005_V02_WHITE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_COMPONENT_3": {
+        "name": "V02_CAP_COMPONENT_3",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          51.20000076293945,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          2.799999952316284,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.3799999952316284
+        ],
+        "materials": [
+          "REV005_V02_WHITE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_COMPONENT_4": {
+        "name": "V02_CAP_COMPONENT_4",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.099998474121094,
+          0.0,
+          1.0,
+          0.0,
+          30.047372817993164,
+          0.0,
+          0.0,
+          1.0,
+          2.799999952316284,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.3799999952316284
+        ],
+        "materials": [
+          "REV005_V02_WHITE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_COMPONENT_5": {
+        "name": "V02_CAP_COMPONENT_5",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          53.900001525878906,
+          0.0,
+          1.0,
+          0.0,
+          30.047372817993164,
+          0.0,
+          0.0,
+          1.0,
+          2.799999952316284,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.4399999976158142,
+          0.4399999976158142,
+          0.3799999952316284
+        ],
+        "materials": [
+          "REV005_V02_WHITE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_CAROUSEL": {
+        "name": "V02_CAP_TRIGGER_CAROUSEL",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          53.0,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          2.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          5.0,
+          3.4000000953674316,
+          0.3499999940395355
+        ],
+        "materials": [
+          "REV005_V02_BLUE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_FRAME": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_FRAME",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          62.0,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          1.350000023841858,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          8.0,
+          1.600000023841858,
+          0.25999999046325684
+        ],
+        "materials": [
+          "REV005_V02_STAINLESS"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_ROLLER_0": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_0",
+        "matrix_world": [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          58.599998474121094,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          1.5199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.343999981880188,
+          1.343999981880188,
+          0.10999999940395355
+        ],
+        "materials": [
+          "REV005_V02_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_ROLLER_1": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_1",
+        "matrix_world": [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          59.733333587646484,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          1.5199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.343999981880188,
+          1.343999981880188,
+          0.10999999940395355
+        ],
+        "materials": [
+          "REV005_V02_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_ROLLER_2": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_2",
+        "matrix_world": [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          60.86666488647461,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          1.5199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.343999981880188,
+          1.343999981880188,
+          0.10999999940395355
+        ],
+        "materials": [
+          "REV005_V02_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_ROLLER_3": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_3",
+        "matrix_world": [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          62.0,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          1.5199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.343999981880188,
+          1.343999981880188,
+          0.10999999940395355
+        ],
+        "materials": [
+          "REV005_V02_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_ROLLER_4": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_4",
+        "matrix_world": [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          63.13333511352539,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          1.5199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.343999981880188,
+          1.343999981880188,
+          0.10999999940395355
+        ],
+        "materials": [
+          "REV005_V02_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_ROLLER_5": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_5",
+        "matrix_world": [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          64.26667022705078,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          1.5199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.343999981880188,
+          1.343999981880188,
+          0.10999999940395355
+        ],
+        "materials": [
+          "REV005_V02_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_ROLLER_6": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_6",
+        "matrix_world": [
+          -4.371138828673793e-08,
+          0.0,
+          1.0,
+          65.4000015258789,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          -1.0,
+          0.0,
+          -4.371138828673793e-08,
+          1.5199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.343999981880188,
+          1.343999981880188,
+          0.10999999940395355
+        ],
+        "materials": [
+          "REV005_V02_DARK"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_SIDE_A": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_SIDE_A",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          62.0,
+          0.0,
+          1.0,
+          0.0,
+          30.200000762939453,
+          0.0,
+          0.0,
+          1.0,
+          1.75,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          8.0,
+          0.09000000357627869,
+          0.6499999761581421
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_CAP_TRIGGER_OUTFEED_SIDE_B": {
+        "name": "V02_CAP_TRIGGER_OUTFEED_SIDE_B",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          62.0,
+          0.0,
+          1.0,
+          0.0,
+          31.799999237060547,
+          0.0,
+          0.0,
+          1.0,
+          1.75,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          8.0,
+          0.09000000357627869,
+          0.6499999761581421
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_0": {
+        "name": "V02_PICK_HEAD_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          55.0,
+          0.0,
+          1.0,
+          0.0,
+          32.79999923706055,
+          0.0,
+          0.0,
+          1.0,
+          5.199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.0,
+          0.5,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_1": {
+        "name": "V02_PICK_HEAD_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          57.0,
+          0.0,
+          1.0,
+          0.0,
+          32.79999923706055,
+          0.0,
+          0.0,
+          1.0,
+          5.199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.0,
+          0.5,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_2": {
+        "name": "V02_PICK_HEAD_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          59.0,
+          0.0,
+          1.0,
+          0.0,
+          32.79999923706055,
+          0.0,
+          0.0,
+          1.0,
+          5.199999809265137,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.0,
+          0.5,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_YELLOW"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_COLUMN_0": {
+        "name": "V02_PICK_HEAD_COLUMN_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          55.0,
+          0.0,
+          1.0,
+          0.0,
+          33.400001525878906,
+          0.0,
+          0.0,
+          1.0,
+          3.5999999046325684,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.2199999988079071,
+          0.2199999988079071,
+          3.799999952316284
+        ],
+        "materials": [
+          "REV005_V02_STEEL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_COLUMN_1": {
+        "name": "V02_PICK_HEAD_COLUMN_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          57.0,
+          0.0,
+          1.0,
+          0.0,
+          33.400001525878906,
+          0.0,
+          0.0,
+          1.0,
+          3.5999999046325684,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.2199999988079071,
+          0.2199999988079071,
+          3.799999952316284
+        ],
+        "materials": [
+          "REV005_V02_STEEL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_COLUMN_2": {
+        "name": "V02_PICK_HEAD_COLUMN_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          59.0,
+          0.0,
+          1.0,
+          0.0,
+          33.400001525878906,
+          0.0,
+          0.0,
+          1.0,
+          3.5999999046325684,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.2199999988079071,
+          0.2199999988079071,
+          3.799999952316284
+        ],
+        "materials": [
+          "REV005_V02_STEEL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_DROP_0": {
+        "name": "V02_PICK_HEAD_DROP_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          55.0,
+          0.0,
+          -0.7592566609382629,
+          -0.6507912874221802,
+          31.899999618530273,
+          0.0,
+          0.6507912874221802,
+          -0.7592566609382629,
+          4.050000190734863,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.1599999964237213,
+          0.1599999964237213,
+          2.7658627033233643
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_DROP_1": {
+        "name": "V02_PICK_HEAD_DROP_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          57.0,
+          0.0,
+          -0.7592566609382629,
+          -0.6507912874221802,
+          31.899999618530273,
+          0.0,
+          0.6507912874221802,
+          -0.7592566609382629,
+          4.050000190734863,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.1599999964237213,
+          0.1599999964237213,
+          2.7658627033233643
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_PICK_HEAD_DROP_2": {
+        "name": "V02_PICK_HEAD_DROP_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          59.0,
+          0.0,
+          -0.7592566609382629,
+          -0.6507912874221802,
+          31.899999618530273,
+          0.0,
+          0.6507912874221802,
+          -0.7592566609382629,
+          4.050000190734863,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.1599999964237213,
+          0.1599999964237213,
+          2.7658627033233643
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_COMPONENT_0": {
+        "name": "V02_TRIGGER_COMPONENT_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          55.150001525878906,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          2.9000000953674316,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.550000011920929,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_PURPLE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_COMPONENT_1": {
+        "name": "V02_TRIGGER_COMPONENT_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          54.25,
+          0.0,
+          1.0,
+          0.0,
+          31.952627182006836,
+          0.0,
+          0.0,
+          1.0,
+          2.9000000953674316,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.550000011920929,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_PURPLE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_COMPONENT_2": {
+        "name": "V02_TRIGGER_COMPONENT_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.45000076293945,
+          0.0,
+          1.0,
+          0.0,
+          31.952627182006836,
+          0.0,
+          0.0,
+          1.0,
+          2.9000000953674316,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.550000011920929,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_PURPLE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_COMPONENT_3": {
+        "name": "V02_TRIGGER_COMPONENT_3",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          51.54999923706055,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          2.9000000953674316,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.550000011920929,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_PURPLE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_COMPONENT_4": {
+        "name": "V02_TRIGGER_COMPONENT_4",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.45000076293945,
+          0.0,
+          1.0,
+          0.0,
+          30.047372817993164,
+          0.0,
+          0.0,
+          1.0,
+          2.9000000953674316,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.550000011920929,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_PURPLE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_COMPONENT_5": {
+        "name": "V02_TRIGGER_COMPONENT_5",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          54.25,
+          0.0,
+          1.0,
+          0.0,
+          30.047372817993164,
+          0.0,
+          0.0,
+          1.0,
+          2.9000000953674316,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.550000011920929,
+          0.1599999964237213,
+          0.18000000715255737
+        ],
+        "materials": [
+          "REV005_V02_PURPLE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_MAGAZINE": {
+        "name": "V02_TRIGGER_MAGAZINE",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          44.0,
+          0.0,
+          1.0,
+          0.0,
+          28.799999237060547,
+          0.0,
+          0.0,
+          1.0,
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          2.799999952316284,
+          2.0,
+          3.799999952316284
+        ],
+        "materials": [
+          "REV005_V02_PURPLE"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_SLOT_0": {
+        "name": "V02_TRIGGER_SLOT_0",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          44.0,
+          0.0,
+          1.0,
+          0.0,
+          27.75,
+          0.0,
+          0.0,
+          1.0,
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          0.11999999731779099,
+          2.700000047683716
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_SLOT_1": {
+        "name": "V02_TRIGGER_SLOT_1",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          44.0,
+          0.0,
+          1.0,
+          0.0,
+          28.25,
+          0.0,
+          0.0,
+          1.0,
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          0.11999999731779099,
+          2.700000047683716
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_SLOT_2": {
+        "name": "V02_TRIGGER_SLOT_2",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          44.0,
+          0.0,
+          1.0,
+          0.0,
+          28.75,
+          0.0,
+          0.0,
+          1.0,
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          0.11999999731779099,
+          2.700000047683716
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_SLOT_3": {
+        "name": "V02_TRIGGER_SLOT_3",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          44.0,
+          0.0,
+          1.0,
+          0.0,
+          29.25,
+          0.0,
+          0.0,
+          1.0,
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          0.11999999731779099,
+          2.700000047683716
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V02_TRIGGER_SLOT_4": {
+        "name": "V02_TRIGGER_SLOT_4",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          44.0,
+          0.0,
+          1.0,
+          0.0,
+          29.75,
+          0.0,
+          0.0,
+          1.0,
+          3.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          1.7999999523162842,
+          0.11999999731779099,
+          2.700000047683716
+        ],
+        "materials": [
+          "REV005_V02_TEAL"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      },
+      "V05_EVIDENCE_ANCHOR_CAPS": {
+        "name": "V05_EVIDENCE_ANCHOR_CAPS",
+        "matrix_world": [
+          1.0,
+          0.0,
+          0.0,
+          52.0,
+          0.0,
+          1.0,
+          0.0,
+          31.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0800000429153442,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "dimensions": [
+          0.20000000298023224,
+          0.20000000298023224,
+          0.11999999731779099
+        ],
+        "materials": [
+          "REV005_V05_FLOOR"
+        ],
+        "parent": null,
+        "hide_viewport": false,
+        "hide_render": false
+      }
+    },
+    "quarantined_glass_deck_collection": {
+      "name": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+      "hide_viewport": true,
+      "hide_render": true,
+      "object_count": 117
+    },
+    "comparison_to_before": true
+  },
+  "out_of_scope_unchanged": true,
+  "quarantined_glass_deck_unchanged": true,
+  "integrated_camera": {
+    "azimuth_deg": 45,
+    "camera_xyz": [
+      -63.42138470319147,
+      -22.42138470319147,
+      12.350000381469727
+    ],
+    "target_xyz": [
+      -105.0,
+      -64.0,
+      3.8100002288818358
+    ],
+    "lens_mm": 52,
+    "distance_m": 58.801041657440045,
+    "clear_ray_count": 9,
+    "blockers": [],
+    "immediate_architectural_intersection_within_1m": false,
+    "fully_in_frame": true,
+    "screen_coverage_percent": 36.423199774203454,
+    "pass": true
+  },
+  "renders": {
+    "A_CONTEXT": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_A_CONTEXT.png",
+      "sha256": "85193A4D1119A070BD060C9FEAF1CD577A086CC86BD34885711D7FA74C4376F2",
+      "bytes": 1516494,
+      "resolution": [
+        1440,
+        960
+      ],
+      "non_black": true
+    },
+    "B_FUNCTIONAL": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_B_FUNCTIONAL.png",
+      "sha256": "6EF37454FB7BA8D89F670C0233F6AFEEAAF3B92C972432ACE555A60194314B2C",
+      "bytes": 1465440,
+      "resolution": [
+        1440,
+        960
+      ],
+      "non_black": true
+    },
+    "D_INTEGRATED_CONTEXT": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_D_INTEGRATED_CONTEXT.png",
+      "sha256": "451A65930C842D4D72B381B5608A1A478F4030D1B054DD136A351315ACCDD00C",
+      "bytes": 1134770,
+      "resolution": [
+        1440,
+        960
+      ],
+      "non_black": true
+    },
+    "D_PREVIEW": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_D_INTEGRATED_CONTEXT_PREVIEW_900x600.png",
+      "sha256": "6C80E5706DCDAFBC5F38972AD1E775C1EAB91E248773AF287B52CF241CF03555",
+      "bytes": 471076,
+      "resolution": [
+        900,
+        600
+      ],
+      "non_black": true
+    }
+  },
+  "final_hashes": {
+    "blend": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+      "sha256": "E935539393BBF83173004E7BBA97A5432818C355752ABAA55A88F685C707A0E8",
+      "bytes": 5735402
+    },
+    "glb": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+      "sha256": "2F593CC82ED68499B5F23C64495229CFEB482C0C44C64F341938802B4A68C277",
+      "bytes": 4152516
+    },
+    "export_visibility": "use_visible=True"
+  },
+  "constraints": {
+    "tasks_edited": false,
+    "criteria_edited": false,
+    "rev004_modified": false,
+    "rev006_created": false,
+    "hiveai_created": false,
+    "tour_or_video_created": false,
+    "f03_started": false
+  }
+}

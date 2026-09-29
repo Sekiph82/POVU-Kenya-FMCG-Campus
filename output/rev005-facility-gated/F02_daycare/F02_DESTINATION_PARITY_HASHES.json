@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "A_WIDE": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_DEST_PARITY_A_900x600.png",
+    "sha256": "798C702449605B5C27E395CED7961E7F914F0BF7131681337AB78041E6C10D57",
+    "bytes": 653104,
+    "resolution": [
+      900,
+      600
+    ],
+    "pixel_equal": false,
+    "different_channels": 13,
+    "visual_match": true
+  },
+  "B_FUNCTIONAL": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F02_daycare\\F02_DEST_PARITY_B_900x600.png",
+    "sha256": "E8F3FA43D80A52FA67A4D015B77206975A8353A5B8F4BAA63B918ECC1C13EA6D",
+    "bytes": 628406,
+    "resolution": [
+      900,
+      600
+    ],
+    "pixel_equal": true,
+    "different_channels": 0,
+    "visual_match": true
+  }
+}

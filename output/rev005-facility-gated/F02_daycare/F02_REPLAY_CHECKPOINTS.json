@@ -1,0 +1,101 @@
+{
+  "V01": {
+    "status": "BUILT",
+    "collection": "REV005_INTERIOR_REMEDIATION_V01",
+    "pre_sha256": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+    "post_blend_sha256": "5ABEBA93FAA7E8C80C9882495B6C5F527AFC297F5C89B08F314ED0B0E5AC609C",
+    "post_glb_sha256": "D19ECC3CE4586C4671791781C5F0339C17F26C3D48CBC87DBACEB13310AD086A",
+    "object_count": 345,
+    "blend": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "glb": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb"
+  },
+  "V02": {
+    "status": "BUILT",
+    "collection": "REV005_INTERIOR_REMEDIATION_V02",
+    "focused_targets": [
+      "Bottle Blow Molding",
+      "Caps and Trigger Assembly",
+      "Central Glass Deck Command / Training / Café Gallery",
+      "Liquid Filling / Packaging",
+      "Micro-ingredient Weigh / Dispense",
+      "Toothpaste Production",
+      "Wet Wipes Production"
+    ],
+    "pre_sha256": "5ABEBA93FAA7E8C80C9882495B6C5F527AFC297F5C89B08F314ED0B0E5AC609C",
+    "post_blend_sha256": "0A13596B73D926200780C9804693BF33808D81708D0AB07093659627DB469DA1",
+    "post_glb_sha256": "7198374AC37337D71A027F8157FA93E158CCE26634BA9FA511FC7FECA629592F",
+    "object_count": 264,
+    "blend": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "glb": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb"
+  },
+  "V03": {
+    "status": "BUILT",
+    "revision": "REV005",
+    "collection": "REV005_INTERIOR_REMEDIATION_V03",
+    "focused_targets": [
+      "Bottle Blow Molding",
+      "Central Glass Deck Command / Training / Café Gallery",
+      "Daycare / crèche",
+      "Liquid Filling / Packaging",
+      "Restaurant / POVU Café / kitchen",
+      "Toothpaste Production",
+      "Wet Wipes Production"
+    ],
+    "pre_blend_sha256": "0A13596B73D926200780C9804693BF33808D81708D0AB07093659627DB469DA1",
+    "pre_glb_sha256": "7198374AC37337D71A027F8157FA93E158CCE26634BA9FA511FC7FECA629592F",
+    "post_blend_sha256": "4E7984680FDA6A0A342928B4B40957985DEBDAB9F0EE34BE6E31A3913F28E498",
+    "post_glb_sha256": "06F540F3455DB6E23D6BC64B3679EFACA427DA8EDAEEBF9242B2F50A89AA71FC",
+    "object_count": 462,
+    "blend": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "glb": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "no_rev006": true,
+    "no_final_tour": true
+  },
+  "V04": {
+    "status": "BUILT",
+    "revision": "REV005",
+    "collection": "REV005_INTERIOR_REMEDIATION_V04",
+    "before_blend_sha256": "4E7984680FDA6A0A342928B4B40957985DEBDAB9F0EE34BE6E31A3913F28E498",
+    "before_glb_sha256": "06F540F3455DB6E23D6BC64B3679EFACA427DA8EDAEEBF9242B2F50A89AA71FC",
+    "after_blend_sha256": "5465EF0C8430F6B6EA63F510935D37B6E989CED317D436FAC32436704DC2ED3E",
+    "after_glb_sha256": "44EA56A39B24651783FAF477E9C587144669F6EA3DA0DCC86AEE4F50B3B2CE46",
+    "object_count": 1064,
+    "blend": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "glb": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "no_hiveai": true,
+    "no_rev006": true,
+    "no_tour": true
+  },
+  "V05": {
+    "status": "BUILT",
+    "revision": "REV005",
+    "collection": "REV005_INTERIOR_REMEDIATION_V05",
+    "before_blend_sha256": "5465EF0C8430F6B6EA63F510935D37B6E989CED317D436FAC32436704DC2ED3E",
+    "before_glb_sha256": "44EA56A39B24651783FAF477E9C587144669F6EA3DA0DCC86AEE4F50B3B2CE46",
+    "after_blend_sha256": "63F6B58C5163CFFCFE09D7122CCEB84E58A76A1E8333CBB5154E0399D83A54FE",
+    "after_glb_sha256": "B08AB2A38CFA5540F62DF166D292CDB9643806AFEF67195EC5D5EBCCB429062C",
+    "object_count": 1853,
+    "blend": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "glb": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F02_V05_REPLAY_150bd8cc53ce41748235062d01d2095f\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "no_hiveai": true,
+    "no_rev006": true,
+    "no_tour": true
+  },
+  "status": "PASS",
+  "replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "initial_blend_sha256": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+  "final_replay_blend_sha256": "63F6B58C5163CFFCFE09D7122CCEB84E58A76A1E8333CBB5154E0399D83A54FE",
+  "script_order": [
+    "build_rev005_interior_remediation_v01.py",
+    "build_rev005_interior_remediation_v02.py",
+    "build_rev005_interior_remediation_v03.py",
+    "build_rev005_interior_remediation_v04.py",
+    "build_rev005_interior_remediation_v05.py"
+  ],
+  "renderer": "render_rev005_interior_remediation_v05.py",
+  "forbidden_outputs": {
+    "hiveai": true,
+    "rev006": true,
+    "tour_video": false
+  }
+}

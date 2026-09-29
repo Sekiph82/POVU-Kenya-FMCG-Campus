@@ -1,0 +1,4530 @@
+{
+  "status": "PASS",
+  "facility": "F01 Caps & Trigger",
+  "object_count": 76,
+  "missing_names": [],
+  "objects": {
+    "REV005_Caps_Triggers_OPERATOR_STATION_BODY": {
+      "name": "REV005_Caps_Triggers_OPERATOR_STATION_BODY",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.0,
+        0.0,
+        1.0,
+        0.0,
+        28.600000381469727,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.200000047683716,
+        1.0,
+        1.399999976158142
+      ],
+      "materials": [
+        "REV005_Equipment_White"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          50.900001525878906,
+          28.100000381469727,
+          1.2999999523162842
+        ],
+        "max": [
+          53.099998474121094,
+          29.100000381469727,
+          2.700000047683716
+        ],
+        "size": [
+          2.1999969482421875,
+          1.0,
+          1.4000000953674316
+        ]
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Caps and trigger assembly",
+        "rev005_function": "operator control and line-side QC",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Caps and trigger assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "REV005_Caps_Triggers_OPERATOR_STATION_PANEL": {
+      "name": "REV005_Caps_Triggers_OPERATOR_STATION_PANEL",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.0,
+        0.0,
+        1.0,
+        0.0,
+        28.020000457763672,
+        0.0,
+        0.0,
+        1.0,
+        2.868000030517578,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.9900000095367432,
+        0.07999999821186066,
+        0.335999995470047
+      ],
+      "materials": [
+        "REV005_Black"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          51.505001068115234,
+          27.979999542236328,
+          2.700000047683716
+        ],
+        "max": [
+          52.494998931884766,
+          28.060001373291016,
+          3.0360000133514404
+        ],
+        "size": [
+          0.9899978637695312,
+          0.0800018310546875,
+          0.3359999656677246
+        ]
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Caps and trigger assembly",
+        "rev005_function": "operator control panel",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Caps and trigger assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "REV005_Caps_Triggers_SAFETY_EYEWASH": {
+      "name": "REV005_Caps_Triggers_SAFETY_EYEWASH",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        64.3499984741211,
+        0.0,
+        1.0,
+        0.0,
+        25.0,
+        0.0,
+        0.0,
+        1.0,
+        1.7999999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.550000011920929
+      ],
+      "materials": [
+        "REV005_Safety_Red"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          64.16999816894531,
+          24.81999969482422,
+          1.524999976158142
+        ],
+        "max": [
+          64.52999877929688,
+          25.18000030517578,
+          2.075000047683716
+        ],
+        "size": [
+          0.3600006103515625,
+          0.3600006103515625,
+          0.5500000715255737
+        ]
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Caps and trigger assembly",
+        "rev005_function": "eyewash",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Caps and trigger assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "REV005_Caps_Triggers_SAFETY_PPE": {
+      "name": "REV005_Caps_Triggers_SAFETY_PPE",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        63.70000076293945,
+        0.0,
+        1.0,
+        0.0,
+        25.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.800000011920929,
+        0.3499999940395355,
+        1.2999999523162842
+      ],
+      "materials": [
+        "REV005_Safety_Yellow"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          63.29999923706055,
+          24.825000762939453,
+          1.350000023841858
+        ],
+        "max": [
+          64.0999984741211,
+          25.174999237060547,
+          2.6500000953674316
+        ],
+        "size": [
+          0.7999992370605469,
+          0.34999847412109375,
+          1.3000000715255737
+        ]
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Caps and trigger assembly",
+        "rev005_function": "PPE station",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Caps and trigger assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "REV005_Caps_Triggers_STAGING_0": {
+      "name": "REV005_Caps_Triggers_STAGING_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        41.0,
+        0.0,
+        1.0,
+        0.0,
+        36.5,
+        0.0,
+        0.0,
+        1.0,
+        1.4500000476837158,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        1.2999999523162842,
+        0.41999998688697815
+      ],
+      "materials": [
+        "REV005_Wood"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          40.099998474121094,
+          35.849998474121094,
+          1.2400000095367432
+        ],
+        "max": [
+          41.900001525878906,
+          37.150001525878906,
+          1.6600000858306885
+        ],
+        "size": [
+          1.8000030517578125,
+          1.3000030517578125,
+          0.4200000762939453
+        ]
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Caps and trigger assembly",
+        "rev005_function": "staged pallet",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Caps and trigger assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "REV005_Caps_Triggers_STAGING_1": {
+      "name": "REV005_Caps_Triggers_STAGING_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        41.0,
+        0.0,
+        1.0,
+        0.0,
+        36.5,
+        0.0,
+        0.0,
+        1.0,
+        1.9700000286102295,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        1.2999999523162842,
+        0.41999998688697815
+      ],
+      "materials": [
+        "REV005_Wood"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          40.099998474121094,
+          35.849998474121094,
+          1.7599999904632568
+        ],
+        "max": [
+          41.900001525878906,
+          37.150001525878906,
+          2.180000066757202
+        ],
+        "size": [
+          1.8000030517578125,
+          1.3000030517578125,
+          0.4200000762939453
+        ]
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Caps and trigger assembly",
+        "rev005_function": "staged pallet",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Caps and trigger assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "REV005_Caps_and_trigger_assembly_FLOOR": {
+      "name": "REV005_Caps_and_trigger_assembly_FLOOR",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.0,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        1.2799999713897705,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        27.0,
+        15.0,
+        0.11999999731779099
+      ],
+      "materials": [
+        "REV005_Floor_Clean"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          38.5,
+          23.5,
+          1.2200000286102295
+        ],
+        "max": [
+          65.5,
+          38.5,
+          1.3399999141693115
+        ],
+        "size": [
+          27.0,
+          15.0,
+          0.11999988555908203
+        ]
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Caps and trigger assembly",
+        "rev005_function": "finished interior floor",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Caps and trigger assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAPS_BOWL_CENTER": {
+      "name": "RM_CAPS_BOWL_CENTER",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6399999856948853,
+        0.6399999856948853,
+        0.8999999761581421
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.3199999928474426,
+          -0.3199999928474426,
+          -0.44999998807907104
+        ],
+        "max": [
+          0.3199999928474426,
+          0.3199999928474426,
+          0.44999998807907104
+        ],
+        "size": [
+          0.6399999856948853,
+          0.6399999856948853,
+          0.8999999761581421
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAPS_BOWL_CENTER",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAPS_FEED_TRACK": {
+      "name": "RM_CAPS_FEED_TRACK",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.36000001430511475,
+        0.36000001430511475,
+        3.6235342025756836
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.18000000715255737,
+          -0.18000000715255737,
+          -1.8117671012878418
+        ],
+        "max": [
+          0.18000000715255737,
+          0.18000000715255737,
+          1.8117671012878418
+        ],
+        "size": [
+          0.36000001430511475,
+          0.36000001430511475,
+          3.6235342025756836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAPS_FEED_TRACK",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAPS_REJECT_STATION": {
+      "name": "RM_CAPS_REJECT_STATION",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.0,
+        2.0,
+        1.5
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.5,
+          -1.0,
+          -0.75
+        ],
+        "max": [
+          0.5,
+          1.0,
+          0.75
+        ],
+        "size": [
+          1.0,
+          2.0,
+          1.5
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAPS_REJECT_STATION",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAPS_ROTARY_BOWL": {
+      "name": "RM_CAPS_ROTARY_BOWL",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        4.400000095367432,
+        4.400000095367432,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_RM_STAINLESS"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -2.200000047683716,
+          -2.200000047683716,
+          -0.17499999701976776
+        ],
+        "max": [
+          2.200000047683716,
+          2.200000047683716,
+          0.17499999701976776
+        ],
+        "size": [
+          4.400000095367432,
+          4.400000095367432,
+          0.3499999940395355
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAPS_ROTARY_BOWL",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_FEEDER_0": {
+      "name": "RM_CAP_FEEDER_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.5
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.30000001192092896,
+          -0.25
+        ],
+        "max": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.25
+        ],
+        "size": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_FEEDER_0",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_FEEDER_1": {
+      "name": "RM_CAP_FEEDER_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.5
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.30000001192092896,
+          -0.25
+        ],
+        "max": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.25
+        ],
+        "size": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_FEEDER_1",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_FEEDER_2": {
+      "name": "RM_CAP_FEEDER_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.5
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.30000001192092896,
+          -0.25
+        ],
+        "max": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.25
+        ],
+        "size": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_FEEDER_2",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_FEEDER_3": {
+      "name": "RM_CAP_FEEDER_3",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        0.6000000238418579,
+        0.5
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.30000001192092896,
+          -0.25
+        ],
+        "max": [
+          0.30000001192092896,
+          0.30000001192092896,
+          0.25
+        ],
+        "size": [
+          0.6000000238418579,
+          0.6000000238418579,
+          0.5
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_FEEDER_3",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_BED": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_BED",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        13.0,
+        1.7999999523162842,
+        0.2199999988079071
+      ],
+      "materials": [
+        "REV005_RM_STAINLESS"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -6.5,
+          -0.8999999761581421,
+          -0.10999999940395355
+        ],
+        "max": [
+          6.5,
+          0.8999999761581421,
+          0.10999999940395355
+        ],
+        "size": [
+          13.0,
+          1.7999999523162842,
+          0.2199999988079071
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_BED",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_A": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_A",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        13.0,
+        0.07999999821186066,
+        0.6499999761581421
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -6.5,
+          -0.03999999910593033,
+          -0.32499998807907104
+        ],
+        "max": [
+          6.5,
+          0.03999999910593033,
+          0.32499998807907104
+        ],
+        "size": [
+          13.0,
+          0.07999999821186066,
+          0.6499999761581421
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_A",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_B": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_B",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        13.0,
+        0.07999999821186066,
+        0.6499999761581421
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -6.5,
+          -0.03999999910593033,
+          -0.32499998807907104
+        ],
+        "max": [
+          6.5,
+          0.03999999910593033,
+          0.32499998807907104
+        ],
+        "size": [
+          13.0,
+          0.07999999821186066,
+          0.6499999761581421
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_GUARD_B",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_0": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.5119999647140503,
+        1.5119999647140503,
+        0.11999999731779099
+      ],
+      "materials": [
+        "REV005_RM_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.7559999823570251,
+          -0.7559999823570251,
+          -0.05999999865889549
+        ],
+        "max": [
+          0.7559999823570251,
+          0.7559999823570251,
+          0.05999999865889549
+        ],
+        "size": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_0",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_1": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.5119999647140503,
+        1.5119999647140503,
+        0.11999999731779099
+      ],
+      "materials": [
+        "REV005_RM_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.7559999823570251,
+          -0.7559999823570251,
+          -0.05999999865889549
+        ],
+        "max": [
+          0.7559999823570251,
+          0.7559999823570251,
+          0.05999999865889549
+        ],
+        "size": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_1",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_2": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.5119999647140503,
+        1.5119999647140503,
+        0.11999999731779099
+      ],
+      "materials": [
+        "REV005_RM_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.7559999823570251,
+          -0.7559999823570251,
+          -0.05999999865889549
+        ],
+        "max": [
+          0.7559999823570251,
+          0.7559999823570251,
+          0.05999999865889549
+        ],
+        "size": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_2",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_3": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_3",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.5119999647140503,
+        1.5119999647140503,
+        0.11999999731779099
+      ],
+      "materials": [
+        "REV005_RM_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.7559999823570251,
+          -0.7559999823570251,
+          -0.05999999865889549
+        ],
+        "max": [
+          0.7559999823570251,
+          0.7559999823570251,
+          0.05999999865889549
+        ],
+        "size": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_3",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_4": {
+      "name": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_4",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.5119999647140503,
+        1.5119999647140503,
+        0.11999999731779099
+      ],
+      "materials": [
+        "REV005_RM_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.7559999823570251,
+          -0.7559999823570251,
+          -0.05999999865889549
+        ],
+        "max": [
+          0.7559999823570251,
+          0.7559999823570251,
+          0.05999999865889549
+        ],
+        "size": [
+          1.5119999647140503,
+          1.5119999647140503,
+          0.11999999731779099
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_CAP_TRIGGER_ASSEMBLY_LINE_ROLLER_4",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_TRIGGER_FEEDER": {
+      "name": "RM_TRIGGER_FEEDER",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        3.200000047683716,
+        1.7999999523162842,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_MAGENTA"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -1.600000023841858,
+          -0.8999999761581421,
+          -1.399999976158142
+        ],
+        "max": [
+          1.600000023841858,
+          0.8999999761581421,
+          1.399999976158142
+        ],
+        "size": [
+          3.200000047683716,
+          1.7999999523162842,
+          2.799999952316284
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_TRIGGER_FEEDER",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_TRIGGER_PICK_PLACE_0": {
+      "name": "RM_TRIGGER_PICK_PLACE_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        1.2000000476837158,
+        2.0
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.6000000238418579,
+          -1.0
+        ],
+        "max": [
+          0.30000001192092896,
+          0.6000000238418579,
+          1.0
+        ],
+        "size": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_TRIGGER_PICK_PLACE_0",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_TRIGGER_PICK_PLACE_1": {
+      "name": "RM_TRIGGER_PICK_PLACE_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        1.2000000476837158,
+        2.0
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.6000000238418579,
+          -1.0
+        ],
+        "max": [
+          0.30000001192092896,
+          0.6000000238418579,
+          1.0
+        ],
+        "size": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_TRIGGER_PICK_PLACE_1",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_TRIGGER_PICK_PLACE_2": {
+      "name": "RM_TRIGGER_PICK_PLACE_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        1.2000000476837158,
+        2.0
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.6000000238418579,
+          -1.0
+        ],
+        "max": [
+          0.30000001192092896,
+          0.6000000238418579,
+          1.0
+        ],
+        "size": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_TRIGGER_PICK_PLACE_2",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "RM_TRIGGER_PICK_PLACE_3": {
+      "name": "RM_TRIGGER_PICK_PLACE_3",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6000000238418579,
+        1.2000000476837158,
+        2.0
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          -0.30000001192092896,
+          -0.6000000238418579,
+          -1.0
+        ],
+        "max": [
+          0.30000001192092896,
+          0.6000000238418579,
+          1.0
+        ],
+        "size": [
+          0.6000000238418579,
+          1.2000000476837158,
+          2.0
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Caps and Trigger Assembly",
+        "functional_role": "RM_TRIGGER_PICK_PLACE_3",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_ASSEMBLY_NEST_0": {
+      "name": "V02_ASSEMBLY_NEST_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        54.79999923706055,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        2.450000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6800000071525574,
+        0.6800000071525574,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          54.459999084472656,
+          30.65999984741211,
+          2.2750000953674316
+        ],
+        "max": [
+          55.13999938964844,
+          31.34000015258789,
+          2.625
+        ],
+        "size": [
+          0.6800003051757812,
+          0.6800003051757812,
+          0.34999990463256836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_ASSEMBLY_NEST_1": {
+      "name": "V02_ASSEMBLY_NEST_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        53.900001525878906,
+        0.0,
+        1.0,
+        0.0,
+        31.952627182006836,
+        0.0,
+        0.0,
+        1.0,
+        2.450000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6800000071525574,
+        0.6800000071525574,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          53.560001373291016,
+          31.612627029418945,
+          2.2750000953674316
+        ],
+        "max": [
+          54.2400016784668,
+          32.292625427246094,
+          2.625
+        ],
+        "size": [
+          0.6800003051757812,
+          0.6799983978271484,
+          0.34999990463256836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_ASSEMBLY_NEST_2": {
+      "name": "V02_ASSEMBLY_NEST_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.099998474121094,
+        0.0,
+        1.0,
+        0.0,
+        31.952627182006836,
+        0.0,
+        0.0,
+        1.0,
+        2.450000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6800000071525574,
+        0.6800000071525574,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          51.7599983215332,
+          31.612627029418945,
+          2.2750000953674316
+        ],
+        "max": [
+          52.439998626708984,
+          32.292625427246094,
+          2.625
+        ],
+        "size": [
+          0.6800003051757812,
+          0.6799983978271484,
+          0.34999990463256836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_ASSEMBLY_NEST_3": {
+      "name": "V02_ASSEMBLY_NEST_3",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        51.20000076293945,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        2.450000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6800000071525574,
+        0.6800000071525574,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          50.86000061035156,
+          30.65999984741211,
+          2.2750000953674316
+        ],
+        "max": [
+          51.540000915527344,
+          31.34000015258789,
+          2.625
+        ],
+        "size": [
+          0.6800003051757812,
+          0.6800003051757812,
+          0.34999990463256836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_ASSEMBLY_NEST_4": {
+      "name": "V02_ASSEMBLY_NEST_4",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.099998474121094,
+        0.0,
+        1.0,
+        0.0,
+        30.047372817993164,
+        0.0,
+        0.0,
+        1.0,
+        2.450000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6800000071525574,
+        0.6800000071525574,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          51.7599983215332,
+          29.707372665405273,
+          2.2750000953674316
+        ],
+        "max": [
+          52.439998626708984,
+          30.387372970581055,
+          2.625
+        ],
+        "size": [
+          0.6800003051757812,
+          0.6800003051757812,
+          0.34999990463256836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_ASSEMBLY_NEST_5": {
+      "name": "V02_ASSEMBLY_NEST_5",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        53.900001525878906,
+        0.0,
+        1.0,
+        0.0,
+        30.047372817993164,
+        0.0,
+        0.0,
+        1.0,
+        2.450000047683716,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.6800000071525574,
+        0.6800000071525574,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          53.560001373291016,
+          29.707372665405273,
+          2.2750000953674316
+        ],
+        "max": [
+          54.2400016784668,
+          30.387372970581055,
+          2.625
+        ],
+        "size": [
+          0.6800003051757812,
+          0.6800003051757812,
+          0.34999990463256836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAPS_BOWL_FEEDER": {
+      "name": "V02_CAPS_BOWL_FEEDER",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        43.0,
+        0.0,
+        1.0,
+        0.0,
+        33.20000076293945,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        5.0,
+        5.0,
+        0.44999998807907104
+      ],
+      "materials": [
+        "REV005_V02_STAINLESS"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          40.5,
+          30.700000762939453,
+          1.774999976158142
+        ],
+        "max": [
+          45.5,
+          35.70000076293945,
+          2.2249999046325684
+        ],
+        "size": [
+          5.0,
+          5.0,
+          0.44999992847442627
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAPS_BOWL_RIM": {
+      "name": "V02_CAPS_BOWL_RIM",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        43.0,
+        0.0,
+        1.0,
+        0.0,
+        33.20000076293945,
+        0.0,
+        0.0,
+        1.0,
+        2.3499999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        4.400000095367432,
+        4.400000095367432,
+        0.1599999964237213
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          40.79999923706055,
+          31.0,
+          2.2699999809265137
+        ],
+        "max": [
+          45.20000076293945,
+          35.400001525878906,
+          2.429999828338623
+        ],
+        "size": [
+          4.400001525878906,
+          4.400001525878906,
+          0.15999984741210938
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAPS_BOWL_TRACK": {
+      "name": "V02_CAPS_BOWL_TRACK",
+      "type": "MESH",
+      "matrix_world": [
+        0.4228857457637787,
+        1.9273625184723642e-07,
+        0.9061830043792725,
+        46.5,
+        0.9061830043792725,
+        2.7746594355448906e-08,
+        -0.4228857457637787,
+        32.5,
+        -1.0664890481848488e-07,
+        1.0,
+        -1.6292068494294654e-07,
+        2.4000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4000000059604645,
+        0.4000000059604645,
+        3.3105897903442383
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          44.91542434692383,
+          31.618762969970703,
+          2.1999998092651367
+        ],
+        "max": [
+          48.08457565307617,
+          33.3812370300293,
+          2.6000003814697266
+        ],
+        "size": [
+          3.1691513061523438,
+          1.7624740600585938,
+          0.40000057220458984
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_COMPONENT_0": {
+      "name": "V02_CAP_COMPONENT_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        54.79999923706055,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        2.799999952316284,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4399999976158142,
+        0.4399999976158142,
+        0.3799999952316284
+      ],
+      "materials": [
+        "REV005_V02_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          54.57999801635742,
+          30.780000686645508,
+          2.609999895095825
+        ],
+        "max": [
+          55.02000045776367,
+          31.219999313354492,
+          2.990000009536743
+        ],
+        "size": [
+          0.44000244140625,
+          0.4399986267089844,
+          0.38000011444091797
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_COMPONENT_1": {
+      "name": "V02_CAP_COMPONENT_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        53.900001525878906,
+        0.0,
+        1.0,
+        0.0,
+        31.952627182006836,
+        0.0,
+        0.0,
+        1.0,
+        2.799999952316284,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4399999976158142,
+        0.4399999976158142,
+        0.3799999952316284
+      ],
+      "materials": [
+        "REV005_V02_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          53.68000030517578,
+          31.732627868652344,
+          2.609999895095825
+        ],
+        "max": [
+          54.12000274658203,
+          32.17262649536133,
+          2.990000009536743
+        ],
+        "size": [
+          0.44000244140625,
+          0.4399986267089844,
+          0.38000011444091797
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_COMPONENT_2": {
+      "name": "V02_CAP_COMPONENT_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.099998474121094,
+        0.0,
+        1.0,
+        0.0,
+        31.952627182006836,
+        0.0,
+        0.0,
+        1.0,
+        2.799999952316284,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4399999976158142,
+        0.4399999976158142,
+        0.3799999952316284
+      ],
+      "materials": [
+        "REV005_V02_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          51.87999725341797,
+          31.732627868652344,
+          2.609999895095825
+        ],
+        "max": [
+          52.31999969482422,
+          32.17262649536133,
+          2.990000009536743
+        ],
+        "size": [
+          0.44000244140625,
+          0.4399986267089844,
+          0.38000011444091797
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_COMPONENT_3": {
+      "name": "V02_CAP_COMPONENT_3",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        51.20000076293945,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        2.799999952316284,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4399999976158142,
+        0.4399999976158142,
+        0.3799999952316284
+      ],
+      "materials": [
+        "REV005_V02_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          50.97999954223633,
+          30.780000686645508,
+          2.609999895095825
+        ],
+        "max": [
+          51.42000198364258,
+          31.219999313354492,
+          2.990000009536743
+        ],
+        "size": [
+          0.44000244140625,
+          0.4399986267089844,
+          0.38000011444091797
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_COMPONENT_4": {
+      "name": "V02_CAP_COMPONENT_4",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.099998474121094,
+        0.0,
+        1.0,
+        0.0,
+        30.047372817993164,
+        0.0,
+        0.0,
+        1.0,
+        2.799999952316284,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4399999976158142,
+        0.4399999976158142,
+        0.3799999952316284
+      ],
+      "materials": [
+        "REV005_V02_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          51.87999725341797,
+          29.827373504638672,
+          2.609999895095825
+        ],
+        "max": [
+          52.31999969482422,
+          30.267372131347656,
+          2.990000009536743
+        ],
+        "size": [
+          0.44000244140625,
+          0.4399986267089844,
+          0.38000011444091797
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_COMPONENT_5": {
+      "name": "V02_CAP_COMPONENT_5",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        53.900001525878906,
+        0.0,
+        1.0,
+        0.0,
+        30.047372817993164,
+        0.0,
+        0.0,
+        1.0,
+        2.799999952316284,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.4399999976158142,
+        0.4399999976158142,
+        0.3799999952316284
+      ],
+      "materials": [
+        "REV005_V02_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          53.68000030517578,
+          29.827373504638672,
+          2.609999895095825
+        ],
+        "max": [
+          54.12000274658203,
+          30.267372131347656,
+          2.990000009536743
+        ],
+        "size": [
+          0.44000244140625,
+          0.4399986267089844,
+          0.38000011444091797
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_CAROUSEL": {
+      "name": "V02_CAP_TRIGGER_CAROUSEL",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        53.0,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        5.0,
+        3.4000000953674316,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_V02_BLUE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          50.5,
+          29.299999237060547,
+          1.8250000476837158
+        ],
+        "max": [
+          55.5,
+          32.70000076293945,
+          2.174999952316284
+        ],
+        "size": [
+          5.0,
+          3.4000015258789062,
+          0.34999990463256836
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_FRAME": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_FRAME",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        62.0,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        1.350000023841858,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        8.0,
+        1.600000023841858,
+        0.25999999046325684
+      ],
+      "materials": [
+        "REV005_V02_STAINLESS"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          58.0,
+          30.200000762939453,
+          1.2200000286102295
+        ],
+        "max": [
+          66.0,
+          31.799999237060547,
+          1.4800000190734863
+        ],
+        "size": [
+          8.0,
+          1.5999984741210938,
+          0.25999999046325684
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_ROLLER_0": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_0",
+      "type": "MESH",
+      "matrix_world": [
+        -4.371138828673793e-08,
+        0.0,
+        1.0,
+        58.599998474121094,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        -1.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.5199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.343999981880188,
+        1.343999981880188,
+        0.10999999940395355
+      ],
+      "materials": [
+        "REV005_V02_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          58.54499816894531,
+          30.327999114990234,
+          0.8479999899864197
+        ],
+        "max": [
+          58.654998779296875,
+          31.672000885009766,
+          2.191999912261963
+        ],
+        "size": [
+          0.1100006103515625,
+          1.3440017700195312,
+          1.3439999222755432
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_ROLLER_1": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_1",
+      "type": "MESH",
+      "matrix_world": [
+        -4.371138828673793e-08,
+        0.0,
+        1.0,
+        59.733333587646484,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        -1.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.5199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.343999981880188,
+        1.343999981880188,
+        0.10999999940395355
+      ],
+      "materials": [
+        "REV005_V02_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          59.6783332824707,
+          30.327999114990234,
+          0.8479999899864197
+        ],
+        "max": [
+          59.788333892822266,
+          31.672000885009766,
+          2.191999912261963
+        ],
+        "size": [
+          0.1100006103515625,
+          1.3440017700195312,
+          1.3439999222755432
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_ROLLER_2": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_2",
+      "type": "MESH",
+      "matrix_world": [
+        -4.371138828673793e-08,
+        0.0,
+        1.0,
+        60.86666488647461,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        -1.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.5199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.343999981880188,
+        1.343999981880188,
+        0.10999999940395355
+      ],
+      "materials": [
+        "REV005_V02_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          60.81166458129883,
+          30.327999114990234,
+          0.8479999899864197
+        ],
+        "max": [
+          60.92166519165039,
+          31.672000885009766,
+          2.191999912261963
+        ],
+        "size": [
+          0.1100006103515625,
+          1.3440017700195312,
+          1.3439999222755432
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_ROLLER_3": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_3",
+      "type": "MESH",
+      "matrix_world": [
+        -4.371138828673793e-08,
+        0.0,
+        1.0,
+        62.0,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        -1.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.5199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.343999981880188,
+        1.343999981880188,
+        0.10999999940395355
+      ],
+      "materials": [
+        "REV005_V02_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          61.94499969482422,
+          30.327999114990234,
+          0.8479999899864197
+        ],
+        "max": [
+          62.05500030517578,
+          31.672000885009766,
+          2.191999912261963
+        ],
+        "size": [
+          0.1100006103515625,
+          1.3440017700195312,
+          1.3439999222755432
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_ROLLER_4": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_4",
+      "type": "MESH",
+      "matrix_world": [
+        -4.371138828673793e-08,
+        0.0,
+        1.0,
+        63.13333511352539,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        -1.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.5199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.343999981880188,
+        1.343999981880188,
+        0.10999999940395355
+      ],
+      "materials": [
+        "REV005_V02_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          63.07833480834961,
+          30.327999114990234,
+          0.8479999899864197
+        ],
+        "max": [
+          63.18833541870117,
+          31.672000885009766,
+          2.191999912261963
+        ],
+        "size": [
+          0.1100006103515625,
+          1.3440017700195312,
+          1.3439999222755432
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_ROLLER_5": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_5",
+      "type": "MESH",
+      "matrix_world": [
+        -4.371138828673793e-08,
+        0.0,
+        1.0,
+        64.26667022705078,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        -1.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.5199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.343999981880188,
+        1.343999981880188,
+        0.10999999940395355
+      ],
+      "materials": [
+        "REV005_V02_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          64.211669921875,
+          30.327999114990234,
+          0.8479999899864197
+        ],
+        "max": [
+          64.32167053222656,
+          31.672000885009766,
+          2.191999912261963
+        ],
+        "size": [
+          0.1100006103515625,
+          1.3440017700195312,
+          1.3439999222755432
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_ROLLER_6": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_ROLLER_6",
+      "type": "MESH",
+      "matrix_world": [
+        -4.371138828673793e-08,
+        0.0,
+        1.0,
+        65.4000015258789,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        -1.0,
+        0.0,
+        -4.371138828673793e-08,
+        1.5199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.343999981880188,
+        1.343999981880188,
+        0.10999999940395355
+      ],
+      "materials": [
+        "REV005_V02_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          65.34500122070312,
+          30.327999114990234,
+          0.8479999899864197
+        ],
+        "max": [
+          65.45500183105469,
+          31.672000885009766,
+          2.191999912261963
+        ],
+        "size": [
+          0.1100006103515625,
+          1.3440017700195312,
+          1.3439999222755432
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_SIDE_A": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_SIDE_A",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        62.0,
+        0.0,
+        1.0,
+        0.0,
+        30.200000762939453,
+        0.0,
+        0.0,
+        1.0,
+        1.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        8.0,
+        0.09000000357627869,
+        0.6499999761581421
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          58.0,
+          30.155000686645508,
+          1.4249999523162842
+        ],
+        "max": [
+          66.0,
+          30.2450008392334,
+          2.075000047683716
+        ],
+        "size": [
+          8.0,
+          0.09000015258789062,
+          0.6500000953674316
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_CAP_TRIGGER_OUTFEED_SIDE_B": {
+      "name": "V02_CAP_TRIGGER_OUTFEED_SIDE_B",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        62.0,
+        0.0,
+        1.0,
+        0.0,
+        31.799999237060547,
+        0.0,
+        0.0,
+        1.0,
+        1.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        8.0,
+        0.09000000357627869,
+        0.6499999761581421
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          58.0,
+          31.7549991607666,
+          1.4249999523162842
+        ],
+        "max": [
+          66.0,
+          31.844999313354492,
+          2.075000047683716
+        ],
+        "size": [
+          8.0,
+          0.09000015258789062,
+          0.6500000953674316
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_0": {
+      "name": "V02_PICK_HEAD_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        55.0,
+        0.0,
+        1.0,
+        0.0,
+        32.79999923706055,
+        0.0,
+        0.0,
+        1.0,
+        5.199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.0,
+        0.5,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          54.5,
+          32.54999923706055,
+          5.109999656677246
+        ],
+        "max": [
+          55.5,
+          33.04999923706055,
+          5.289999961853027
+        ],
+        "size": [
+          1.0,
+          0.5,
+          0.18000030517578125
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_1": {
+      "name": "V02_PICK_HEAD_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        57.0,
+        0.0,
+        1.0,
+        0.0,
+        32.79999923706055,
+        0.0,
+        0.0,
+        1.0,
+        5.199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.0,
+        0.5,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          56.5,
+          32.54999923706055,
+          5.109999656677246
+        ],
+        "max": [
+          57.5,
+          33.04999923706055,
+          5.289999961853027
+        ],
+        "size": [
+          1.0,
+          0.5,
+          0.18000030517578125
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_2": {
+      "name": "V02_PICK_HEAD_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        59.0,
+        0.0,
+        1.0,
+        0.0,
+        32.79999923706055,
+        0.0,
+        0.0,
+        1.0,
+        5.199999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.0,
+        0.5,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_YELLOW"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          58.5,
+          32.54999923706055,
+          5.109999656677246
+        ],
+        "max": [
+          59.5,
+          33.04999923706055,
+          5.289999961853027
+        ],
+        "size": [
+          1.0,
+          0.5,
+          0.18000030517578125
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_COLUMN_0": {
+      "name": "V02_PICK_HEAD_COLUMN_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        55.0,
+        0.0,
+        1.0,
+        0.0,
+        33.400001525878906,
+        0.0,
+        0.0,
+        1.0,
+        3.5999999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.2199999988079071,
+        0.2199999988079071,
+        3.799999952316284
+      ],
+      "materials": [
+        "REV005_V02_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          54.88999938964844,
+          33.290000915527344,
+          1.6999999284744263
+        ],
+        "max": [
+          55.11000061035156,
+          33.51000213623047,
+          5.5
+        ],
+        "size": [
+          0.220001220703125,
+          0.220001220703125,
+          3.8000000715255737
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_COLUMN_1": {
+      "name": "V02_PICK_HEAD_COLUMN_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        57.0,
+        0.0,
+        1.0,
+        0.0,
+        33.400001525878906,
+        0.0,
+        0.0,
+        1.0,
+        3.5999999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.2199999988079071,
+        0.2199999988079071,
+        3.799999952316284
+      ],
+      "materials": [
+        "REV005_V02_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          56.88999938964844,
+          33.290000915527344,
+          1.6999999284744263
+        ],
+        "max": [
+          57.11000061035156,
+          33.51000213623047,
+          5.5
+        ],
+        "size": [
+          0.220001220703125,
+          0.220001220703125,
+          3.8000000715255737
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_COLUMN_2": {
+      "name": "V02_PICK_HEAD_COLUMN_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        59.0,
+        0.0,
+        1.0,
+        0.0,
+        33.400001525878906,
+        0.0,
+        0.0,
+        1.0,
+        3.5999999046325684,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.2199999988079071,
+        0.2199999988079071,
+        3.799999952316284
+      ],
+      "materials": [
+        "REV005_V02_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          58.88999938964844,
+          33.290000915527344,
+          1.6999999284744263
+        ],
+        "max": [
+          59.11000061035156,
+          33.51000213623047,
+          5.5
+        ],
+        "size": [
+          0.220001220703125,
+          0.220001220703125,
+          3.8000000715255737
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_DROP_0": {
+      "name": "V02_PICK_HEAD_DROP_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        55.0,
+        0.0,
+        -0.7592566609382629,
+        -0.6507912874221802,
+        31.899999618530273,
+        0.0,
+        0.6507912874221802,
+        -0.7592566609382629,
+        4.050000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.1599999964237213,
+        0.1599999964237213,
+        2.7658627033233643
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          54.91999816894531,
+          30.939258575439453,
+          2.94793701171875
+        ],
+        "max": [
+          55.08000183105469,
+          32.860740661621094,
+          5.152063369750977
+        ],
+        "size": [
+          0.160003662109375,
+          1.9214820861816406,
+          2.2041263580322266
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_DROP_1": {
+      "name": "V02_PICK_HEAD_DROP_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        57.0,
+        0.0,
+        -0.7592566609382629,
+        -0.6507912874221802,
+        31.899999618530273,
+        0.0,
+        0.6507912874221802,
+        -0.7592566609382629,
+        4.050000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.1599999964237213,
+        0.1599999964237213,
+        2.7658627033233643
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          56.91999816894531,
+          30.939258575439453,
+          2.94793701171875
+        ],
+        "max": [
+          57.08000183105469,
+          32.860740661621094,
+          5.152063369750977
+        ],
+        "size": [
+          0.160003662109375,
+          1.9214820861816406,
+          2.2041263580322266
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_PICK_HEAD_DROP_2": {
+      "name": "V02_PICK_HEAD_DROP_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        59.0,
+        0.0,
+        -0.7592566609382629,
+        -0.6507912874221802,
+        31.899999618530273,
+        0.0,
+        0.6507912874221802,
+        -0.7592566609382629,
+        4.050000190734863,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.1599999964237213,
+        0.1599999964237213,
+        2.7658627033233643
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          58.91999816894531,
+          30.939258575439453,
+          2.94793701171875
+        ],
+        "max": [
+          59.08000183105469,
+          32.860740661621094,
+          5.152063369750977
+        ],
+        "size": [
+          0.160003662109375,
+          1.9214820861816406,
+          2.2041263580322266
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_COMPONENT_0": {
+      "name": "V02_TRIGGER_COMPONENT_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        55.150001525878906,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        2.9000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.550000011920929,
+        0.1599999964237213,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          54.875,
+          30.920000076293945,
+          2.81000018119812
+        ],
+        "max": [
+          55.42500305175781,
+          31.079999923706055,
+          2.990000009536743
+        ],
+        "size": [
+          0.5500030517578125,
+          0.15999984741210938,
+          0.17999982833862305
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_COMPONENT_1": {
+      "name": "V02_TRIGGER_COMPONENT_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        54.25,
+        0.0,
+        1.0,
+        0.0,
+        31.952627182006836,
+        0.0,
+        0.0,
+        1.0,
+        2.9000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.550000011920929,
+        0.1599999964237213,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          53.974998474121094,
+          31.87262725830078,
+          2.81000018119812
+        ],
+        "max": [
+          54.525001525878906,
+          32.03262710571289,
+          2.990000009536743
+        ],
+        "size": [
+          0.5500030517578125,
+          0.15999984741210938,
+          0.17999982833862305
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_COMPONENT_2": {
+      "name": "V02_TRIGGER_COMPONENT_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.45000076293945,
+        0.0,
+        1.0,
+        0.0,
+        31.952627182006836,
+        0.0,
+        0.0,
+        1.0,
+        2.9000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.550000011920929,
+        0.1599999964237213,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          52.17499923706055,
+          31.87262725830078,
+          2.81000018119812
+        ],
+        "max": [
+          52.72500228881836,
+          32.03262710571289,
+          2.990000009536743
+        ],
+        "size": [
+          0.5500030517578125,
+          0.15999984741210938,
+          0.17999982833862305
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_COMPONENT_3": {
+      "name": "V02_TRIGGER_COMPONENT_3",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        51.54999923706055,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        2.9000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.550000011920929,
+        0.1599999964237213,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          51.27499771118164,
+          30.920000076293945,
+          2.81000018119812
+        ],
+        "max": [
+          51.82500076293945,
+          31.079999923706055,
+          2.990000009536743
+        ],
+        "size": [
+          0.5500030517578125,
+          0.15999984741210938,
+          0.17999982833862305
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_COMPONENT_4": {
+      "name": "V02_TRIGGER_COMPONENT_4",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.45000076293945,
+        0.0,
+        1.0,
+        0.0,
+        30.047372817993164,
+        0.0,
+        0.0,
+        1.0,
+        2.9000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.550000011920929,
+        0.1599999964237213,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          52.17499923706055,
+          29.96737289428711,
+          2.81000018119812
+        ],
+        "max": [
+          52.72500228881836,
+          30.12737274169922,
+          2.990000009536743
+        ],
+        "size": [
+          0.5500030517578125,
+          0.15999984741210938,
+          0.17999982833862305
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_COMPONENT_5": {
+      "name": "V02_TRIGGER_COMPONENT_5",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        54.25,
+        0.0,
+        1.0,
+        0.0,
+        30.047372817993164,
+        0.0,
+        0.0,
+        1.0,
+        2.9000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.550000011920929,
+        0.1599999964237213,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V02_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          53.974998474121094,
+          29.96737289428711,
+          2.81000018119812
+        ],
+        "max": [
+          54.525001525878906,
+          30.12737274169922,
+          2.990000009536743
+        ],
+        "size": [
+          0.5500030517578125,
+          0.15999984741210938,
+          0.17999982833862305
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_MAGAZINE": {
+      "name": "V02_TRIGGER_MAGAZINE",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        44.0,
+        0.0,
+        1.0,
+        0.0,
+        28.799999237060547,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.799999952316284,
+        2.0,
+        3.799999952316284
+      ],
+      "materials": [
+        "REV005_V02_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          42.599998474121094,
+          27.799999237060547,
+          1.100000023841858
+        ],
+        "max": [
+          45.400001525878906,
+          29.799999237060547,
+          4.900000095367432
+        ],
+        "size": [
+          2.8000030517578125,
+          2.0,
+          3.8000000715255737
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_SLOT_0": {
+      "name": "V02_TRIGGER_SLOT_0",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        44.0,
+        0.0,
+        1.0,
+        0.0,
+        27.75,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        0.11999999731779099,
+        2.700000047683716
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          43.099998474121094,
+          27.690000534057617,
+          1.649999976158142
+        ],
+        "max": [
+          44.900001525878906,
+          27.809999465942383,
+          4.349999904632568
+        ],
+        "size": [
+          1.8000030517578125,
+          0.11999893188476562,
+          2.6999999284744263
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_SLOT_1": {
+      "name": "V02_TRIGGER_SLOT_1",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        44.0,
+        0.0,
+        1.0,
+        0.0,
+        28.25,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        0.11999999731779099,
+        2.700000047683716
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          43.099998474121094,
+          28.190000534057617,
+          1.649999976158142
+        ],
+        "max": [
+          44.900001525878906,
+          28.309999465942383,
+          4.349999904632568
+        ],
+        "size": [
+          1.8000030517578125,
+          0.11999893188476562,
+          2.6999999284744263
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_SLOT_2": {
+      "name": "V02_TRIGGER_SLOT_2",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        44.0,
+        0.0,
+        1.0,
+        0.0,
+        28.75,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        0.11999999731779099,
+        2.700000047683716
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          43.099998474121094,
+          28.690000534057617,
+          1.649999976158142
+        ],
+        "max": [
+          44.900001525878906,
+          28.809999465942383,
+          4.349999904632568
+        ],
+        "size": [
+          1.8000030517578125,
+          0.11999893188476562,
+          2.6999999284744263
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_SLOT_3": {
+      "name": "V02_TRIGGER_SLOT_3",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        44.0,
+        0.0,
+        1.0,
+        0.0,
+        29.25,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        0.11999999731779099,
+        2.700000047683716
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          43.099998474121094,
+          29.190000534057617,
+          1.649999976158142
+        ],
+        "max": [
+          44.900001525878906,
+          29.309999465942383,
+          4.349999904632568
+        ],
+        "size": [
+          1.8000030517578125,
+          0.11999893188476562,
+          2.6999999284744263
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V02_TRIGGER_SLOT_4": {
+      "name": "V02_TRIGGER_SLOT_4",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        44.0,
+        0.0,
+        1.0,
+        0.0,
+        29.75,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        0.11999999731779099,
+        2.700000047683716
+      ],
+      "materials": [
+        "REV005_V02_TEAL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          43.099998474121094,
+          29.690000534057617,
+          1.649999976158142
+        ],
+        "max": [
+          44.900001525878906,
+          29.809999465942383,
+          4.349999904632568
+        ],
+        "size": [
+          1.8000030517578125,
+          0.11999893188476562,
+          2.6999999284744263
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    },
+    "V05_EVIDENCE_ANCHOR_CAPS": {
+      "name": "V05_EVIDENCE_ANCHOR_CAPS",
+      "type": "MESH",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        52.0,
+        0.0,
+        1.0,
+        0.0,
+        31.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0800000429153442,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.20000000298023224,
+        0.20000000298023224,
+        0.11999999731779099
+      ],
+      "materials": [
+        "REV005_V05_FLOOR"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_get": false,
+      "hide_select": false,
+      "bounds": {
+        "min": [
+          51.900001525878906,
+          30.899999618530273,
+          1.0200001001358032
+        ],
+        "max": [
+          52.099998474121094,
+          31.100000381469727,
+          1.1399999856948853
+        ],
+        "size": [
+          0.1999969482421875,
+          0.20000076293945312,
+          0.11999988555908203
+        ]
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": true,
+        "facility": "Caps and Trigger Assembly",
+        "F01_V05_REPLAY_RESTORED": true
+      }
+    }
+  },
+  "quarantined_glass_deck_collection": {
+    "name": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+    "exists": true,
+    "hide_viewport": true,
+    "hide_render": true,
+    "object_count": 117,
+    "direct_object_names": [
+      "V09_CAFE_BACKBAR",
+      "V09_CAFE_CHAIR_0A_BACK",
+      "V09_CAFE_CHAIR_0A_LEG_-0.25",
+      "V09_CAFE_CHAIR_0A_LEG_0.25",
+      "V09_CAFE_CHAIR_0A_SEAT",
+      "V09_CAFE_CHAIR_0B_BACK",
+      "V09_CAFE_CHAIR_0B_LEG_-0.25",
+      "V09_CAFE_CHAIR_0B_LEG_0.25",
+      "V09_CAFE_CHAIR_0B_SEAT",
+      "V09_CAFE_CHAIR_1A_BACK",
+      "V09_CAFE_CHAIR_1A_LEG_-0.25",
+      "V09_CAFE_CHAIR_1A_LEG_0.25",
+      "V09_CAFE_CHAIR_1A_SEAT",
+      "V09_CAFE_CHAIR_1B_BACK",
+      "V09_CAFE_CHAIR_1B_LEG_-0.25",
+      "V09_CAFE_CHAIR_1B_LEG_0.25",
+      "V09_CAFE_CHAIR_1B_SEAT",
+      "V09_CAFE_CHAIR_2A_BACK",
+      "V09_CAFE_CHAIR_2A_LEG_-0.25",
+      "V09_CAFE_CHAIR_2A_LEG_0.25",
+      "V09_CAFE_CHAIR_2A_SEAT",
+      "V09_CAFE_CHAIR_2B_BACK",
+      "V09_CAFE_CHAIR_2B_LEG_-0.25",
+      "V09_CAFE_CHAIR_2B_LEG_0.25",
+      "V09_CAFE_CHAIR_2B_SEAT",
+      "V09_CAFE_CHAIR_3A_BACK",
+      "V09_CAFE_CHAIR_3A_LEG_-0.25",
+      "V09_CAFE_CHAIR_3A_LEG_0.25",
+      "V09_CAFE_CHAIR_3A_SEAT",
+      "V09_CAFE_CHAIR_3B_BACK",
+      "V09_CAFE_CHAIR_3B_LEG_-0.25",
+      "V09_CAFE_CHAIR_3B_LEG_0.25",
+      "V09_CAFE_CHAIR_3B_SEAT",
+      "V09_CAFE_COUNTER",
+      "V09_CAFE_DISPLAY",
+      "V09_CAFE_TABLE_0",
+      "V09_CAFE_TABLE_1",
+      "V09_CAFE_TABLE_2",
+      "V09_CAFE_TABLE_3",
+      "V09_COMMAND_CHAIR_0_BACK",
+      "V09_COMMAND_CHAIR_0_LEG_-0.25",
+      "V09_COMMAND_CHAIR_0_LEG_0.25",
+      "V09_COMMAND_CHAIR_0_SEAT",
+      "V09_COMMAND_CHAIR_1_BACK",
+      "V09_COMMAND_CHAIR_1_LEG_-0.25",
+      "V09_COMMAND_CHAIR_1_LEG_0.25",
+      "V09_COMMAND_CHAIR_1_SEAT",
+      "V09_COMMAND_CHAIR_2_BACK",
+      "V09_COMMAND_CHAIR_2_LEG_-0.25",
+      "V09_COMMAND_CHAIR_2_LEG_0.25",
+      "V09_COMMAND_CHAIR_2_SEAT",
+      "V09_COMMAND_CHAIR_3_BACK",
+      "V09_COMMAND_CHAIR_3_LEG_-0.25",
+      "V09_COMMAND_CHAIR_3_LEG_0.25",
+      "V09_COMMAND_CHAIR_3_SEAT",
+      "V09_COMMAND_CHAIR_4_BACK",
+      "V09_COMMAND_CHAIR_4_LEG_-0.25",
+      "V09_COMMAND_CHAIR_4_LEG_0.25",
+      "V09_COMMAND_CHAIR_4_SEAT",
+      "V09_COMMAND_CHAIR_5_BACK",
+      "V09_COMMAND_CHAIR_5_LEG_-0.25",
+      "V09_COMMAND_CHAIR_5_LEG_0.25",
+      "V09_COMMAND_CHAIR_5_SEAT",
+      "V09_COMMAND_CONSOLE",
+      "V09_COMMAND_SCREEN_0_PANEL",
+      "V09_COMMAND_SCREEN_0_STAND",
+      "V09_COMMAND_SCREEN_1_PANEL",
+      "V09_COMMAND_SCREEN_1_STAND",
+      "V09_COMMAND_SCREEN_2_PANEL",
+      "V09_COMMAND_SCREEN_2_STAND",
+      "V09_COMMAND_SCREEN_3_PANEL",
+      "V09_COMMAND_SCREEN_3_STAND",
+      "V09_GLASS_DECK_BACK_WALL",
+      "V09_GLASS_DECK_ENTRY_HEADER",
+      "V09_GLASS_DECK_ENTRY_L",
+      "V09_GLASS_DECK_ENTRY_R",
+      "V09_GLASS_DECK_FLOOR",
+      "V09_GLASS_DECK_FRONT_GLAZING",
+      "V09_GLASS_DECK_LEFT_WALL",
+      "V09_GLASS_DECK_LIGHT_0",
+      "V09_GLASS_DECK_LIGHT_1",
+      "V09_GLASS_DECK_RIGHT_WALL",
+      "V09_GLASS_DECK_SOFFIT",
+      "V09_TRAINING_CHAIR_0_BACK",
+      "V09_TRAINING_CHAIR_0_LEG_-0.25",
+      "V09_TRAINING_CHAIR_0_LEG_0.25",
+      "V09_TRAINING_CHAIR_0_SEAT",
+      "V09_TRAINING_CHAIR_1_BACK",
+      "V09_TRAINING_CHAIR_1_LEG_-0.25",
+      "V09_TRAINING_CHAIR_1_LEG_0.25",
+      "V09_TRAINING_CHAIR_1_SEAT",
+      "V09_TRAINING_CHAIR_2_BACK",
+      "V09_TRAINING_CHAIR_2_LEG_-0.25",
+      "V09_TRAINING_CHAIR_2_LEG_0.25",
+      "V09_TRAINING_CHAIR_2_SEAT",
+      "V09_TRAINING_CHAIR_3_BACK",
+      "V09_TRAINING_CHAIR_3_LEG_-0.25",
+      "V09_TRAINING_CHAIR_3_LEG_0.25",
+      "V09_TRAINING_CHAIR_3_SEAT",
+      "V09_TRAINING_CHAIR_4_BACK",
+      "V09_TRAINING_CHAIR_4_LEG_-0.25",
+      "V09_TRAINING_CHAIR_4_LEG_0.25",
+      "V09_TRAINING_CHAIR_4_SEAT",
+      "V09_TRAINING_CHAIR_5_BACK",
+      "V09_TRAINING_CHAIR_5_LEG_-0.25",
+      "V09_TRAINING_CHAIR_5_LEG_0.25",
+      "V09_TRAINING_CHAIR_5_SEAT",
+      "V09_TRAINING_CHAIR_6_BACK",
+      "V09_TRAINING_CHAIR_6_LEG_-0.25",
+      "V09_TRAINING_CHAIR_6_LEG_0.25",
+      "V09_TRAINING_CHAIR_6_SEAT",
+      "V09_TRAINING_CHAIR_7_BACK",
+      "V09_TRAINING_CHAIR_7_LEG_-0.25",
+      "V09_TRAINING_CHAIR_7_LEG_0.25",
+      "V09_TRAINING_CHAIR_7_SEAT",
+      "V09_TRAINING_SCREEN",
+      "V09_TRAINING_TABLE"
+    ]
+  },
+  "canonical_blend_sha256": "80C4FC83DBD260CB9D0A6B02F0582C5829273450437B90D7CD2B9281C17B744E"
+}

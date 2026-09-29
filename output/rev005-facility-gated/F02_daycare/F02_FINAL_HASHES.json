@@ -1,0 +1,13 @@
+{
+  "blend": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "E935539393BBF83173004E7BBA97A5432818C355752ABAA55A88F685C707A0E8",
+    "bytes": 5735402
+  },
+  "glb": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "2F593CC82ED68499B5F23C64495229CFEB482C0C44C64F341938802B4A68C277",
+    "bytes": 4152516
+  },
+  "export_visibility": "use_visible=True"
+}
