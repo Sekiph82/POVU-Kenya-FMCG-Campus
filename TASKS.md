@@ -9,12 +9,12 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.20
-- Current Task: M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
-- Current Task Status: READY_RETRY
-- Next Task/Action: Re-run only F01 using the V03 deterministic replay prompt. Reconstruct the accepted V05 facility in an OS-temp detached worktree by replaying the historical V01→V02→V03→V04→V05 pipeline, prove the exact 7+21+47+1=76-object composition and archived A/B/C render hashes, then transfer only F01 into current REV005 and stop at AWAITING_GPT_FACILITY_AUDIT_F01. Do not begin Facility 02.
-- Required Actor: CODEX
-- Workflow State: READY_FOR_CODEX_EXECUTION
+- Current Sprint: M08.21
+- Current Task: M08.21 — Independent GPT F01 Caps & Trigger facility audit
+- Current Task Status: BLOCKED_EVIDENCE_ONLY
+- Next Task/Action: F01 historical restoration and facility-only A/B/C parity have passed. Directly inspect F01_D_INTEGRATED_CONTEXT.png before issuing final F01 PASS. Do not begin Facility 02 until the integrated-context image is visually accepted.
+- Required Actor: GPT
+- Workflow State: AWAITING_F01_INTEGRATED_VISUAL_EVIDENCE
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
 - Tracking Branch: main
 
@@ -350,7 +350,7 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Audit artifact: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V09_GPT_AUDIT.md`.
   - Workflow decision: abandon multi-facility remediation batches and move to one-facility-at-a-time execution/audit gates.
 
-- [~] M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
+- [x] M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
   - Workflow: `coordination/Workflow/REV005_FACILITY_GATED_WORKFLOW.md`.
   - Execution prompt: `coordination/Prompts/REV005_FACILITY_F01_CAPS_TRIGGER_RESTORE_GPT_PROMPT.md`.
   - Locked audit criteria: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT_CRITERIA.md`.
@@ -363,12 +363,17 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Hard source gate: replayed A/B/C Caps renders must match the archived V05 PNG SHA-256 byte-for-byte.
   - Hard destination gate: after transfer, destination facility-only A/B/C 900×600 parity renders must match those same archived hashes byte-for-byte.
   - Human review: A/B/C plus integrated D at 1440×960.
-  - Stop at `AWAITING_GPT_FACILITY_AUDIT_F01`. Do not begin Facility 02.
+  - Execution commit: `6384c03c943f06eef43550e4eb57b6ffede0435d`.
+  - Result: historical 76-object reconstruction/restoration completed; destination facility-only A/B/C parity visually matches the accepted V05 evidence.
+  - Stop state reached: `AWAITING_GPT_FACILITY_AUDIT_F01`.
 
-- [ ] M08.21 — Independent GPT F01 Caps & Trigger facility audit
-  - Audit only F01 against the locked F01 criteria and the accepted V05 visual source.
-  - PASS unlocks Facility 02. FAIL loops only on F01.
-  - No other facility may be modified until F01 receives independent PASS.
+- [~] M08.21 — Independent GPT F01 Caps & Trigger facility audit
+  - Preliminary result: `BLOCKED_EVIDENCE_ONLY`, not a modeling failure.
+  - Historical reconstruction, 76-object composition, exact destination transform parity, facility-only A/B/C visual parity and scope protection PASS.
+  - Audit finding: raw PNG container hashes differ from archived PNGs because of ancillary metadata, while visual/IDAT pixel parity is reported exact; no model remediation is requested for this metadata-only difference.
+  - Remaining gate: direct visual inspection of `F01_D_INTEGRATED_CONTEXT.png` to verify current-scene integration/no overlap/no legacy-proxy regression.
+  - Audit artifact: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT.md`.
+  - Final PASS unlocks Facility 02. Until then no other facility may be modified.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
