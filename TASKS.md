@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.24
-- Current Task: M08.24 — F01-X01 quarantine V09 Glass Deck overlap regression
+- Current Sprint: M08.26
+- Current Task: M08.26 — Facility-Gated F02 Daycare / Crèche historical restoration
 - Current Task Status: READY
-- Next Task/Action: Execute only the F01-X01 overlap-quarantine prompt. Quarantine the proven-invalid 117-object V09 ground-level Glass Deck replacement collection, preserve the accepted 76-object F01 and historical elevated Glass Deck source geometry exactly, rerun the integrated-camera gate, and stop at AWAITING_GPT_F01_X01_INTEGRATED_AUDIT. Do not begin Facility 02.
+- Next Task/Action: Execute only the F02 Daycare historical restoration prompt. Reconstruct the accepted V05 79-object Daycare source, prove archived A/B parity, transfer only F02, protect F01, pass integrated collision preflight, and stop at AWAITING_GPT_FACILITY_AUDIT_F02. Do not begin Facility 03.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -27,6 +27,8 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - The batch V10 image-spec strategy is superseded and must not be executed as a batch. Active workflow is now `coordination/Workflow/REV005_FACILITY_GATED_WORKFLOW.md`.
 - F01 attempt 1 correctly stopped at `BLOCKED_F01_SOURCE_MANIFEST_MISMATCH`; attempt 2 correctly stopped at `BLOCKED_F01_SOURCE_OBJECT_COUNT`. Neither mutated the canonical Blend/GLB.
 - Provenance root cause is now fully resolved: the committed base contains 7 visible Caps objects; V01 adds 21, V02 adds 47, V03/V04 add 0, and V05 adds 1 evidence anchor, producing the historical 76-object V05 accepted selection. F01 V03 reconstructs this exact pipeline in a detached OS-temp worktree before any canonical mutation.
+- F01 Caps & Trigger is now independently PASS and locked. The invalid 117-object V09 ground-level Glass Deck replacement remains quarantined for later Glass Deck-specific repair; historical elevated Glass Deck source geometry remains protected.
+- F02 Daycare / Crèche is now the only active facility. No later facility may begin until F02 receives independent GPT PASS.
 - M08.09 REV005 freeze cannot occur until every facility in the facility-gated program receives independent GPT PASS and the owner accepts the completed REV005 model.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
@@ -367,13 +369,43 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Result: historical 76-object reconstruction/restoration completed; destination facility-only A/B/C parity visually matches the accepted V05 evidence.
   - Stop state reached: `AWAITING_GPT_FACILITY_AUDIT_F01`.
 
-- [~] M08.21 — Independent GPT F01 Caps & Trigger facility audit
-  - Result: `REMEDIATION_REQUIRED_D_INTEGRATED_ONLY`.
-  - Historical reconstruction, 76-object composition, exact destination transform parity, facility-only A/B/C visual parity and scope protection PASS.
-  - Uploaded `F01_D_INTEGRATED_CONTEXT.png` FAIL: F01 is completely invisible because a large architectural/envelope surface blocks nearly the entire 1440×960 frame.
-  - This is a camera/evidence failure only; the accepted F01 model must remain unchanged.
-  - Audit artifact: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT.md`.
-  - F02 remains locked.
+- [x] M08.21 — Independent GPT F01 Caps & Trigger facility audit
+  - Intermediate result was `REMEDIATION_REQUIRED_D_INTEGRATED_ONLY` because the first integrated view was fully blocked by cross-facility V09 geometry.
+  - Historical reconstruction, 76-object composition, exact destination transform parity and facility-only A/B/C visual parity passed.
+  - Root cause was proven as the invalid V09 ground-level Glass Deck replacement overlapping F01; this was repaired under M08.24 without changing F01 geometry.
+  - Final independent audit result: `PASS`.
+  - Accepted audit artifact: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT.md`.
+  - F01 is now locked against casual edits.
+
+- [x] M08.22 — F01-D integrated-context camera remediation
+  - Result: `BLOCKED_F01_D_NO_VALID_INTEGRATED_CAMERA`.
+  - Eight azimuths plus one QA-only exclusion were tested; best result remained 3/9 clear rays.
+  - This correctly proved the problem was cross-facility geometry, not a camera-only issue.
+  - Blend/GLB remained unchanged.
+
+- [x] M08.23 — Independent GPT F01-D integrated-context diagnosis
+  - Root cause confirmed: true historical Glass Deck is an elevated 8×52×4 m link at Z 8.2–12.2 m, while V09 incorrectly created a 40×24 m ground-level envelope centered at (70,24).
+  - Measured overlap with F01 was approximately 202.5731 m² plan / 979.6435 m³ AABB volume.
+  - Repair direction: quarantine only the invalid V09 replacement layer; do not remodel F01.
+
+- [x] M08.24 — F01-X01 quarantine V09 Glass Deck overlap regression
+  - Execution commit: `8cdd5e6032a5f235b3186fa0cff23554f35d2e90`.
+  - Invalid collection: `REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY`.
+  - Quarantined object count: 117.
+  - F01 76-object protection parity: PASS.
+  - Historical Glass Deck source protection parity: PASS.
+  - Corrected integrated camera: (13.470107,-7.779893,44.214287) targeting (52.25,31.0,3.565600), 52 mm.
+  - Clear rays: 9/9; F01 screen coverage: 46.0022%.
+  - Accepted canonical hashes after quarantine:
+    - Blend: `80C4FC83DBD260CB9D0A6B02F0582C5829273450437B90D7CD2B9281C17B744E`
+    - GLB: `9EA90C327C2502AA019AD9ADA656BE0BC0B652A19724BEF3162910058B63FD40`
+
+- [x] M08.25 — Independent GPT F01-X01 integrated re-audit
+  - Directly inspected `F01_D_INTEGRATED_CONTEXT_V03_PREVIEW_900x600.png`.
+  - Result: PASS.
+  - F01 is clearly visible in current context; no destructive overlap/camera-inside failure remains.
+  - Final F01 state: PASS and locked.
+  - Final F01 audit commit: `87ae68637ae7d7f9954d61ba6491476dbc551626`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
