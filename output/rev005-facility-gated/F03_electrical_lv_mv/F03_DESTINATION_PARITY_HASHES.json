@@ -1,0 +1,70 @@
+{
+  "status": "PENDING_EXTERNAL_DECODED_PIXEL_GATE",
+  "source": {
+    "A": {
+      "path": "output\\rev005-interior-remediation-v05\\qa\\electrical_lv_mv_room_A_WIDE.png",
+      "sha256": "2F3BDEEAEDDC850B3CF23E4125171EA5CF9858C4883FC146C3B69E6F4EE892A4"
+    },
+    "B": {
+      "path": "output\\rev005-interior-remediation-v05\\qa\\electrical_lv_mv_room_B_FUNCTIONAL.png",
+      "sha256": "850EAB71C210E923B9042382E373DD42421B3E2A4A6CED281C294E43A05FFA7A"
+    }
+  },
+  "destination": {
+    "A": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_DEST_PARITY_A_900x600.png",
+      "sha256": "08C1F22DD9BBF5C4A78D340E537B79BB57EC7D73203379294F98AD5A0D89DADD"
+    },
+    "B": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_DEST_PARITY_B_900x600.png",
+      "sha256": "6CAE2D9751B45EF66F9D7D78E9C7A2C286CCC0C7B9ECB142426D47E59F6BED04"
+    }
+  },
+  "decoded_pixel_gate": {
+    "status": "PASS_VISUAL_MATCH",
+    "pixel_exact": false,
+    "visual_match": true,
+    "locked_gate_note": "A differs at two antialias edge pixels; B is decoded-pixel exact",
+    "A": {
+      "pixel_exact": false,
+      "different_pixels": 2,
+      "first_differences": [
+        [
+          310408,
+          [
+            14,
+            93,
+            107,
+            255
+          ],
+          [
+            10,
+            97,
+            111,
+            255
+          ]
+        ],
+        [
+          316732,
+          [
+            49,
+            60,
+            65,
+            255
+          ],
+          [
+            46,
+            58,
+            63,
+            255
+          ]
+        ]
+      ]
+    },
+    "B": {
+      "pixel_exact": true,
+      "different_pixels": 0,
+      "first_differences": []
+    }
+  }
+}

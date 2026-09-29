@@ -1,0 +1,1000 @@
+{
+  "status": "AWAITING_GPT_FACILITY_AUDIT_F03",
+  "facility": "F03 Electrical / LV-MV room",
+  "composition": {
+    "BASE": 7,
+    "V01": 23,
+    "total": 30
+  },
+  "dimensional_contract": {
+    "status": "PASS",
+    "tolerance_m": 0.001,
+    "checks": [
+      {
+        "label": "switchgear_107_center",
+        "actual": [
+          107.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          107,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_107_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_107_center",
+        "actual": [
+          107.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          107,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_107_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_107_center",
+        "actual": [
+          107.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          107,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_107_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_107_center",
+        "actual": [
+          107.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          107,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_107_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_109_center",
+        "actual": [
+          109.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          109,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_109_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_109_center",
+        "actual": [
+          109.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          109,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_109_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_109_center",
+        "actual": [
+          109.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          109,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_109_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_109_center",
+        "actual": [
+          109.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          109,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_109_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_111_center",
+        "actual": [
+          111.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          111,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_111_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_111_center",
+        "actual": [
+          111.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          111,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_111_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_111_center",
+        "actual": [
+          111.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          111,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_111_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_111_center",
+        "actual": [
+          111.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          111,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_111_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_113_center",
+        "actual": [
+          113.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          113,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_113_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_113_center",
+        "actual": [
+          113.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          113,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_113_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_113_center",
+        "actual": [
+          113.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          113,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_113_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_113_center",
+        "actual": [
+          113.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          113,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_113_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_115_center",
+        "actual": [
+          115.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          115,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_115_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_115_center",
+        "actual": [
+          115.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          115,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_115_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_115_center",
+        "actual": [
+          115.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          115,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_115_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_115_center",
+        "actual": [
+          115.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          115,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_115_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "busbar_center",
+        "actual": [
+          111.0,
+          62.900001525878906,
+          5.5
+        ],
+        "expected": [
+          111,
+          62.9,
+          5.5
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "busbar_dimensions",
+        "actual": [
+          9.0,
+          0.18000000715255737,
+          0.18000000715255737
+        ],
+        "expected": [
+          9.0,
+          0.18,
+          0.18
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "service_clearance_center",
+        "actual": [
+          111.0,
+          59.5,
+          1.3600000143051147
+        ],
+        "expected": [
+          111,
+          59.5,
+          1.36
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "service_clearance_dimensions",
+        "actual": [
+          8.5,
+          1.0,
+          0.05000000074505806
+        ],
+        "expected": [
+          8.5,
+          1.0,
+          0.05
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "remote_panel_center",
+        "actual": [
+          114.0,
+          60.0,
+          2.4000000953674316
+        ],
+        "expected": [
+          114,
+          60,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "remote_panel_dimensions",
+        "actual": [
+          1.399999976158142,
+          0.5,
+          2.200000047683716
+        ],
+        "expected": [
+          1.4,
+          0.5,
+          2.2
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      }
+    ]
+  },
+  "source_parity": {
+    "status": "PENDING_EXTERNAL_DECODED_PIXEL_GATE",
+    "source": {
+      "A": {
+        "path": "output\\rev005-interior-remediation-v05\\qa\\electrical_lv_mv_room_A_WIDE.png",
+        "sha256": "2F3BDEEAEDDC850B3CF23E4125171EA5CF9858C4883FC146C3B69E6F4EE892A4"
+      },
+      "B": {
+        "path": "output\\rev005-interior-remediation-v05\\qa\\electrical_lv_mv_room_B_FUNCTIONAL.png",
+        "sha256": "850EAB71C210E923B9042382E373DD42421B3E2A4A6CED281C294E43A05FFA7A"
+      }
+    },
+    "destination": {
+      "A": {
+        "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_DEST_PARITY_A_900x600.png",
+        "sha256": "08C1F22DD9BBF5C4A78D340E537B79BB57EC7D73203379294F98AD5A0D89DADD"
+      },
+      "B": {
+        "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_DEST_PARITY_B_900x600.png",
+        "sha256": "6CAE2D9751B45EF66F9D7D78E9C7A2C286CCC0C7B9ECB142426D47E59F6BED04"
+      }
+    },
+    "decoded_pixel_gate": {
+      "status": "PASS_VISUAL_MATCH",
+      "pixel_exact": false,
+      "visual_match": true,
+      "locked_gate_note": "A differs at two antialias edge pixels; B is decoded-pixel exact",
+      "A": {
+        "pixel_exact": false,
+        "different_pixels": 2,
+        "first_differences": [
+          [
+            310408,
+            [
+              14,
+              93,
+              107,
+              255
+            ],
+            [
+              10,
+              97,
+              111,
+              255
+            ]
+          ],
+          [
+            316732,
+            [
+              49,
+              60,
+              65,
+              255
+            ],
+            [
+              46,
+              58,
+              63,
+              255
+            ]
+          ]
+        ]
+      },
+      "B": {
+        "pixel_exact": true,
+        "different_pixels": 0,
+        "first_differences": []
+      }
+    }
+  },
+  "destination_count": 30,
+  "destination_parity": {
+    "status": "PASS_VISUAL_MATCH",
+    "pixel_exact": false,
+    "visual_match": true,
+    "locked_gate_note": "A differs at two antialias edge pixels; B is decoded-pixel exact",
+    "A": {
+      "pixel_exact": false,
+      "different_pixels": 2,
+      "first_differences": [
+        [
+          310408,
+          [
+            14,
+            93,
+            107,
+            255
+          ],
+          [
+            10,
+            97,
+            111,
+            255
+          ]
+        ],
+        [
+          316732,
+          [
+            49,
+            60,
+            65,
+            255
+          ],
+          [
+            46,
+            58,
+            63,
+            255
+          ]
+        ]
+      ]
+    },
+    "B": {
+      "pixel_exact": true,
+      "different_pixels": 0,
+      "first_differences": []
+    }
+  },
+  "F01_protection_parity": true,
+  "F02_protection_parity": true,
+  "integrated_camera": {
+    "azimuth_deg": 225,
+    "camera_xyz": [
+      92.61522674560547,
+      42.6152229309082,
+      16.81999969482422
+    ],
+    "target_xyz": [
+      111.0,
+      61.0,
+      3.7740001678466797
+    ],
+    "lens_mm": 52,
+    "clear_rays": 9,
+    "ray_count": 9,
+    "fully_in_frame": true,
+    "screen_coverage_percent": 32.64595313823815,
+    "projection_extents": {
+      "x_min": 0.23795676231384277,
+      "x_max": 0.7460824251174927,
+      "y_min": 0.10387276113033295,
+      "y_max": 0.7463507056236267,
+      "z_min": 25.249069213867188,
+      "z_max": 34.974952697753906
+    },
+    "rays": [
+      {
+        "target": [
+          111.0,
+          61.0,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_2",
+        "hit_distance": 28.97720940948477,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          113.83499908447266,
+          61.0,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_3",
+        "hit_distance": 30.50716553611383,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          108.16500091552734,
+          61.0,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_0",
+        "hit_distance": 27.032614612863796,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          111.0,
+          62.79999923706055,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "RM_LV_SWITCHGEAR_2",
+        "hit_distance": 29.25665624801394,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          111.0,
+          59.20000076293945,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_2",
+        "hit_distance": 27.89436058010385,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          108.16500091552734,
+          59.20000076293945,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          108.16500091552734,
+          62.79999923706055,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          113.83499908447266,
+          59.20000076293945,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          113.83499908447266,
+          62.79999923706055,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      }
+    ],
+    "pass": true,
+    "status": "PASS",
+    "bounds_min": [
+      106.2750015258789,
+      58.0,
+      1.0499999523162842
+    ],
+    "bounds_max": [
+      115.7249984741211,
+      64.0,
+      5.590000152587891
+    ],
+    "horizontal_radius": 4.724998474121094,
+    "initial_distance_D": 18.0,
+    "distance_m": 26.0,
+    "target": [
+      111.0,
+      61.0,
+      3.7740001678466797
+    ],
+    "candidate_count": 8,
+    "method": "8 azimuths, 9-ray LOS, no automatic cross-facility exclusion/quarantine"
+  },
+  "renders": {
+    "A": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_A_CONTEXT.png",
+      "sha256": "1CBBE08BCE26559EE02AB66B174E83A23CBC9CDE12BEE45F0B112F2C80393CBB",
+      "bytes": 1400344,
+      "status": "PASS"
+    },
+    "B": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_B_FUNCTIONAL.png",
+      "sha256": "55678F592B8260A285D3AB26DA6AB0BF87F3EBF9665C1E442A221AB6B92BC560",
+      "bytes": 1375226,
+      "status": "PASS"
+    },
+    "D": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_D_INTEGRATED_CONTEXT.png",
+      "sha256": "07FD80B2630D1347281C7E046585DA435ACBC74D337F3612449257DC6CC5BEED",
+      "bytes": 1479845,
+      "status": "PASS"
+    },
+    "D_preview": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F03_electrical_lv_mv\\F03_D_INTEGRATED_CONTEXT_PREVIEW_900x600.png",
+      "sha256": "528E4F46022BBF9A90BEF209E136DA5A81A65E8AA512E9BBCF89FC3592D03877",
+      "bytes": 625647,
+      "status": "PASS"
+    }
+  }
+}

@@ -1,0 +1,2793 @@
+{
+  "status": "PASS",
+  "replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "replay_blend_before_transfer_sha256": "DED33CA3708144C08D25E6F9FED92F8F6E26A30BB0299CA0F0D3B68BE2C190C8",
+  "facility": "Electrical / LV-MV room",
+  "selection_logic": "original V05 objects_for(\"Electrical / LV-MV room\", record)",
+  "object_count": 30,
+  "composition": {
+    "BASE": 7,
+    "V01": 23,
+    "V02": 0,
+    "V03": 0,
+    "V04": 0,
+    "V05": 0
+  },
+  "excluded_label": "REV005_LV_SAFETY_SIGN",
+  "v01_dimensional_contract": {
+    "status": "PASS",
+    "tolerance_m": 0.001,
+    "checks": [
+      {
+        "label": "switchgear_107_center",
+        "actual": [
+          107.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          107,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_107_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_107_center",
+        "actual": [
+          107.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          107,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_107_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_107_center",
+        "actual": [
+          107.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          107,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_107_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_107_center",
+        "actual": [
+          107.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          107,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_107_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_109_center",
+        "actual": [
+          109.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          109,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_109_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_109_center",
+        "actual": [
+          109.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          109,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_109_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_109_center",
+        "actual": [
+          109.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          109,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_109_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_109_center",
+        "actual": [
+          109.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          109,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_109_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_111_center",
+        "actual": [
+          111.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          111,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_111_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_111_center",
+        "actual": [
+          111.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          111,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_111_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_111_center",
+        "actual": [
+          111.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          111,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_111_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_111_center",
+        "actual": [
+          111.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          111,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_111_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_113_center",
+        "actual": [
+          113.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          113,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_113_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_113_center",
+        "actual": [
+          113.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          113,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_113_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_113_center",
+        "actual": [
+          113.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          113,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_113_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_113_center",
+        "actual": [
+          113.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          113,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_113_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_115_center",
+        "actual": [
+          115.0,
+          62.20000076293945,
+          2.75
+        ],
+        "expected": [
+          115,
+          62.2,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "switchgear_115_dimensions",
+        "actual": [
+          1.4500000476837158,
+          1.2000000476837158,
+          3.4000000953674316
+        ],
+        "expected": [
+          1.45,
+          1.2,
+          3.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_115_center",
+        "actual": [
+          115.0,
+          61.54999923706055,
+          2.75
+        ],
+        "expected": [
+          115,
+          61.55,
+          2.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "panel_door_115_dimensions",
+        "actual": [
+          1.0,
+          0.07999999821186066,
+          2.4000000953674316
+        ],
+        "expected": [
+          1.0,
+          0.08,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_115_center",
+        "actual": [
+          115.0,
+          61.4900016784668,
+          3.0
+        ],
+        "expected": [
+          115,
+          61.49,
+          3.0
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "breaker_window_115_dimensions",
+        "actual": [
+          0.3799999952316284,
+          0.05000000074505806,
+          0.75
+        ],
+        "expected": [
+          0.38,
+          0.05,
+          0.75
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_115_center",
+        "actual": [
+          115.0,
+          62.900001525878906,
+          4.949999809265137
+        ],
+        "expected": [
+          115,
+          62.9,
+          4.95
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "cable_riser_115_dimensions",
+        "actual": [
+          0.18000000715255737,
+          0.18000000715255737,
+          0.9000000953674316
+        ],
+        "expected": [
+          0.18,
+          0.18,
+          0.9
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "busbar_center",
+        "actual": [
+          111.0,
+          62.900001525878906,
+          5.5
+        ],
+        "expected": [
+          111,
+          62.9,
+          5.5
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "busbar_dimensions",
+        "actual": [
+          9.0,
+          0.18000000715255737,
+          0.18000000715255737
+        ],
+        "expected": [
+          9.0,
+          0.18,
+          0.18
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "service_clearance_center",
+        "actual": [
+          111.0,
+          59.5,
+          1.3600000143051147
+        ],
+        "expected": [
+          111,
+          59.5,
+          1.36
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "service_clearance_dimensions",
+        "actual": [
+          8.5,
+          1.0,
+          0.05000000074505806
+        ],
+        "expected": [
+          8.5,
+          1.0,
+          0.05
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "remote_panel_center",
+        "actual": [
+          114.0,
+          60.0,
+          2.4000000953674316
+        ],
+        "expected": [
+          114,
+          60,
+          2.4
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      },
+      {
+        "label": "remote_panel_dimensions",
+        "actual": [
+          1.399999976158142,
+          0.5,
+          2.200000047683716
+        ],
+        "expected": [
+          1.4,
+          0.5,
+          2.2
+        ],
+        "tolerance_m": 0.001,
+        "pass": true
+      }
+    ]
+  },
+  "objects": [
+    {
+      "name": "REV005_Electrical_/_LV-MV_room_FLOOR",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        111.0,
+        0.0,
+        1.0,
+        0.0,
+        61.0,
+        0.0,
+        0.0,
+        1.0,
+        1.2799999713897705,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.0,
+        61.0,
+        1.2799999713897705
+      ],
+      "location_xyz_local": [
+        111.0,
+        61.0,
+        1.2799999713897705
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        9.0,
+        6.0,
+        0.11999999731779099
+      ],
+      "data_block": "Cube.624",
+      "material_slots": [
+        "REV005_Floor_Clean"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Electrical / LV-MV room",
+        "rev005_function": "finished interior floor",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_LV_PANEL_0",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        107.4000015258789,
+        0.0,
+        1.0,
+        0.0,
+        61.0,
+        0.0,
+        0.0,
+        1.0,
+        2.4000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        107.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "location_xyz_local": [
+        107.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.2000000476837158,
+        4.0,
+        2.4000000953674316
+      ],
+      "data_block": "Cube.653",
+      "material_slots": [
+        "REV005_Black"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Electrical / LV-MV room",
+        "rev005_function": "electrical panel",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_LV_PANEL_1",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        109.4000015258789,
+        0.0,
+        1.0,
+        0.0,
+        61.0,
+        0.0,
+        0.0,
+        1.0,
+        2.4000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        109.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "location_xyz_local": [
+        109.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.2000000476837158,
+        4.0,
+        2.4000000953674316
+      ],
+      "data_block": "Cube.654",
+      "material_slots": [
+        "REV005_Black"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Electrical / LV-MV room",
+        "rev005_function": "electrical panel",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_LV_PANEL_2",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        111.4000015258789,
+        0.0,
+        1.0,
+        0.0,
+        61.0,
+        0.0,
+        0.0,
+        1.0,
+        2.4000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "location_xyz_local": [
+        111.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.2000000476837158,
+        4.0,
+        2.4000000953674316
+      ],
+      "data_block": "Cube.655",
+      "material_slots": [
+        "REV005_Black"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Electrical / LV-MV room",
+        "rev005_function": "electrical panel",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_LV_PANEL_3",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        113.4000015258789,
+        0.0,
+        1.0,
+        0.0,
+        61.0,
+        0.0,
+        0.0,
+        1.0,
+        2.4000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        113.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "location_xyz_local": [
+        113.4000015258789,
+        61.0,
+        2.4000000953674316
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.2000000476837158,
+        4.0,
+        2.4000000953674316
+      ],
+      "data_block": "Cube.656",
+      "material_slots": [
+        "REV005_Black"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Electrical / LV-MV room",
+        "rev005_function": "electrical panel",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_LV_SAFETY_EYEWASH",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        115.25,
+        0.0,
+        1.0,
+        0.0,
+        58.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        1.7999999523162842,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        115.25,
+        58.900001525878906,
+        1.7999999523162842
+      ],
+      "location_xyz_local": [
+        115.25,
+        58.900001525878906,
+        1.7999999523162842
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.36000001430511475,
+        0.36000001430511475,
+        0.550000011920929
+      ],
+      "data_block": "Cylinder.031",
+      "material_slots": [
+        "REV005_Safety_Red"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Electrical / LV-MV room",
+        "rev005_function": "eyewash",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "REV005_LV_SAFETY_PPE",
+      "type": "MESH",
+      "source_category": "BASE",
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        114.5999984741211,
+        0.0,
+        1.0,
+        0.0,
+        58.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        114.5999984741211,
+        58.900001525878906,
+        2.0
+      ],
+      "location_xyz_local": [
+        114.5999984741211,
+        58.900001525878906,
+        2.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.800000011920929,
+        0.3499999940395355,
+        1.2999999523162842
+      ],
+      "data_block": "Cube.657",
+      "material_slots": [
+        "REV005_Safety_Yellow"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Electrical / LV-MV room",
+        "rev005_function": "PPE station",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      }
+    },
+    {
+      "name": "RM_LV_BREAKER_WINDOW_0",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        107.0,
+        0.0,
+        1.0,
+        0.0,
+        61.4900016784668,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        107.0,
+        61.4900016784668,
+        3.0
+      ],
+      "location_xyz_local": [
+        107.0,
+        61.4900016784668,
+        3.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.3799999952316284,
+        0.05000000074505806,
+        0.75
+      ],
+      "data_block": "RM_LV_BREAKER_WINDOW_0_MESH",
+      "material_slots": [
+        "REV005_RM_CYAN"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_BREAKER_WINDOW_0"
+      }
+    },
+    {
+      "name": "RM_LV_BREAKER_WINDOW_1",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        109.0,
+        0.0,
+        1.0,
+        0.0,
+        61.4900016784668,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        109.0,
+        61.4900016784668,
+        3.0
+      ],
+      "location_xyz_local": [
+        109.0,
+        61.4900016784668,
+        3.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.3799999952316284,
+        0.05000000074505806,
+        0.75
+      ],
+      "data_block": "RM_LV_BREAKER_WINDOW_1_MESH",
+      "material_slots": [
+        "REV005_RM_CYAN"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_BREAKER_WINDOW_1"
+      }
+    },
+    {
+      "name": "RM_LV_BREAKER_WINDOW_2",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        111.0,
+        0.0,
+        1.0,
+        0.0,
+        61.4900016784668,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.0,
+        61.4900016784668,
+        3.0
+      ],
+      "location_xyz_local": [
+        111.0,
+        61.4900016784668,
+        3.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.3799999952316284,
+        0.05000000074505806,
+        0.75
+      ],
+      "data_block": "RM_LV_BREAKER_WINDOW_2_MESH",
+      "material_slots": [
+        "REV005_RM_CYAN"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_BREAKER_WINDOW_2"
+      }
+    },
+    {
+      "name": "RM_LV_BREAKER_WINDOW_3",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        113.0,
+        0.0,
+        1.0,
+        0.0,
+        61.4900016784668,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        113.0,
+        61.4900016784668,
+        3.0
+      ],
+      "location_xyz_local": [
+        113.0,
+        61.4900016784668,
+        3.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.3799999952316284,
+        0.05000000074505806,
+        0.75
+      ],
+      "data_block": "RM_LV_BREAKER_WINDOW_3_MESH",
+      "material_slots": [
+        "REV005_RM_CYAN"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_BREAKER_WINDOW_3"
+      }
+    },
+    {
+      "name": "RM_LV_BREAKER_WINDOW_4",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        115.0,
+        0.0,
+        1.0,
+        0.0,
+        61.4900016784668,
+        0.0,
+        0.0,
+        1.0,
+        3.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        115.0,
+        61.4900016784668,
+        3.0
+      ],
+      "location_xyz_local": [
+        115.0,
+        61.4900016784668,
+        3.0
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.3799999952316284,
+        0.05000000074505806,
+        0.75
+      ],
+      "data_block": "RM_LV_BREAKER_WINDOW_4_MESH",
+      "material_slots": [
+        "REV005_RM_CYAN"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_BREAKER_WINDOW_4"
+      }
+    },
+    {
+      "name": "RM_LV_BUSBAR_TRUNK",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        111.0,
+        0.0,
+        1.0,
+        0.0,
+        62.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        5.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.0,
+        62.900001525878906,
+        5.5
+      ],
+      "location_xyz_local": [
+        111.0,
+        62.900001525878906,
+        5.5
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        9.0,
+        0.18000000715255737,
+        0.18000000715255737
+      ],
+      "data_block": "RM_LV_BUSBAR_TRUNK_MESH",
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_BUSBAR_TRUNK"
+      }
+    },
+    {
+      "name": "RM_LV_CABLE_0",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0,
+        107.0,
+        -1.5099580252808664e-07,
+        -1.0,
+        0.0,
+        62.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        4.949999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        107.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "location_xyz_local": [
+        107.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        -0.0,
+        -3.141592502593994
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.18000000715255737,
+        0.9000000953674316
+      ],
+      "data_block": "RM_LV_CABLE_0_MESH",
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_CABLE_0"
+      }
+    },
+    {
+      "name": "RM_LV_CABLE_1",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0,
+        109.0,
+        -1.5099580252808664e-07,
+        -1.0,
+        0.0,
+        62.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        4.949999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        109.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "location_xyz_local": [
+        109.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        -0.0,
+        -3.141592502593994
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.18000000715255737,
+        0.9000000953674316
+      ],
+      "data_block": "RM_LV_CABLE_1_MESH",
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_CABLE_1"
+      }
+    },
+    {
+      "name": "RM_LV_CABLE_2",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0,
+        111.0,
+        -1.5099580252808664e-07,
+        -1.0,
+        0.0,
+        62.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        4.949999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "location_xyz_local": [
+        111.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        -0.0,
+        -3.141592502593994
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.18000000715255737,
+        0.9000000953674316
+      ],
+      "data_block": "RM_LV_CABLE_2_MESH",
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_CABLE_2"
+      }
+    },
+    {
+      "name": "RM_LV_CABLE_3",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0,
+        113.0,
+        -1.5099580252808664e-07,
+        -1.0,
+        0.0,
+        62.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        4.949999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        113.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "location_xyz_local": [
+        113.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        -0.0,
+        -3.141592502593994
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.18000000715255737,
+        0.9000000953674316
+      ],
+      "data_block": "RM_LV_CABLE_3_MESH",
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_CABLE_3"
+      }
+    },
+    {
+      "name": "RM_LV_CABLE_4",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        -1.0,
+        1.5099580252808664e-07,
+        0.0,
+        115.0,
+        -1.5099580252808664e-07,
+        -1.0,
+        0.0,
+        62.900001525878906,
+        0.0,
+        0.0,
+        1.0,
+        4.949999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        115.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "location_xyz_local": [
+        115.0,
+        62.900001525878906,
+        4.949999809265137
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        -0.0,
+        -3.141592502593994
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        0.18000000715255737,
+        0.18000000715255737,
+        0.9000000953674316
+      ],
+      "data_block": "RM_LV_CABLE_4_MESH",
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_CABLE_4"
+      }
+    },
+    {
+      "name": "RM_LV_PANEL_DOOR_0",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        107.0,
+        0.0,
+        1.0,
+        0.0,
+        61.54999923706055,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        107.0,
+        61.54999923706055,
+        2.75
+      ],
+      "location_xyz_local": [
+        107.0,
+        61.54999923706055,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.07999999821186066,
+        2.4000000953674316
+      ],
+      "data_block": "RM_LV_PANEL_DOOR_0_MESH",
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_PANEL_DOOR_0"
+      }
+    },
+    {
+      "name": "RM_LV_PANEL_DOOR_1",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        109.0,
+        0.0,
+        1.0,
+        0.0,
+        61.54999923706055,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        109.0,
+        61.54999923706055,
+        2.75
+      ],
+      "location_xyz_local": [
+        109.0,
+        61.54999923706055,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.07999999821186066,
+        2.4000000953674316
+      ],
+      "data_block": "RM_LV_PANEL_DOOR_1_MESH",
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_PANEL_DOOR_1"
+      }
+    },
+    {
+      "name": "RM_LV_PANEL_DOOR_2",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        111.0,
+        0.0,
+        1.0,
+        0.0,
+        61.54999923706055,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.0,
+        61.54999923706055,
+        2.75
+      ],
+      "location_xyz_local": [
+        111.0,
+        61.54999923706055,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.07999999821186066,
+        2.4000000953674316
+      ],
+      "data_block": "RM_LV_PANEL_DOOR_2_MESH",
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_PANEL_DOOR_2"
+      }
+    },
+    {
+      "name": "RM_LV_PANEL_DOOR_3",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        113.0,
+        0.0,
+        1.0,
+        0.0,
+        61.54999923706055,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        113.0,
+        61.54999923706055,
+        2.75
+      ],
+      "location_xyz_local": [
+        113.0,
+        61.54999923706055,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.07999999821186066,
+        2.4000000953674316
+      ],
+      "data_block": "RM_LV_PANEL_DOOR_3_MESH",
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_PANEL_DOOR_3"
+      }
+    },
+    {
+      "name": "RM_LV_PANEL_DOOR_4",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        115.0,
+        0.0,
+        1.0,
+        0.0,
+        61.54999923706055,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        115.0,
+        61.54999923706055,
+        2.75
+      ],
+      "location_xyz_local": [
+        115.0,
+        61.54999923706055,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.0,
+        0.07999999821186066,
+        2.4000000953674316
+      ],
+      "data_block": "RM_LV_PANEL_DOOR_4_MESH",
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_PANEL_DOOR_4"
+      }
+    },
+    {
+      "name": "RM_LV_REMOTE_SERVICE_PANEL",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        114.0,
+        0.0,
+        1.0,
+        0.0,
+        60.0,
+        0.0,
+        0.0,
+        1.0,
+        2.4000000953674316,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        114.0,
+        60.0,
+        2.4000000953674316
+      ],
+      "location_xyz_local": [
+        114.0,
+        60.0,
+        2.4000000953674316
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.399999976158142,
+        0.5,
+        2.200000047683716
+      ],
+      "data_block": "RM_LV_REMOTE_SERVICE_PANEL_MESH",
+      "material_slots": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_REMOTE_SERVICE_PANEL"
+      }
+    },
+    {
+      "name": "RM_LV_SERVICE_CLEARANCE",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        111.0,
+        0.0,
+        1.0,
+        0.0,
+        59.5,
+        0.0,
+        0.0,
+        1.0,
+        1.3600000143051147,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.0,
+        59.5,
+        1.3600000143051147
+      ],
+      "location_xyz_local": [
+        111.0,
+        59.5,
+        1.3600000143051147
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        8.5,
+        1.0,
+        0.05000000074505806
+      ],
+      "data_block": "RM_LV_SERVICE_CLEARANCE_MESH",
+      "material_slots": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_SERVICE_CLEARANCE"
+      }
+    },
+    {
+      "name": "RM_LV_SWITCHGEAR_0",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        107.0,
+        0.0,
+        1.0,
+        0.0,
+        62.20000076293945,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        107.0,
+        62.20000076293945,
+        2.75
+      ],
+      "location_xyz_local": [
+        107.0,
+        62.20000076293945,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.4500000476837158,
+        1.2000000476837158,
+        3.4000000953674316
+      ],
+      "data_block": "RM_LV_SWITCHGEAR_0_MESH",
+      "material_slots": [
+        "REV005_RM_DARK"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_SWITCHGEAR_0"
+      }
+    },
+    {
+      "name": "RM_LV_SWITCHGEAR_1",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        109.0,
+        0.0,
+        1.0,
+        0.0,
+        62.20000076293945,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        109.0,
+        62.20000076293945,
+        2.75
+      ],
+      "location_xyz_local": [
+        109.0,
+        62.20000076293945,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.4500000476837158,
+        1.2000000476837158,
+        3.4000000953674316
+      ],
+      "data_block": "RM_LV_SWITCHGEAR_1_MESH",
+      "material_slots": [
+        "REV005_RM_DARK"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_SWITCHGEAR_1"
+      }
+    },
+    {
+      "name": "RM_LV_SWITCHGEAR_2",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        111.0,
+        0.0,
+        1.0,
+        0.0,
+        62.20000076293945,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        111.0,
+        62.20000076293945,
+        2.75
+      ],
+      "location_xyz_local": [
+        111.0,
+        62.20000076293945,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.4500000476837158,
+        1.2000000476837158,
+        3.4000000953674316
+      ],
+      "data_block": "RM_LV_SWITCHGEAR_2_MESH",
+      "material_slots": [
+        "REV005_RM_DARK"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_SWITCHGEAR_2"
+      }
+    },
+    {
+      "name": "RM_LV_SWITCHGEAR_3",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        113.0,
+        0.0,
+        1.0,
+        0.0,
+        62.20000076293945,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        113.0,
+        62.20000076293945,
+        2.75
+      ],
+      "location_xyz_local": [
+        113.0,
+        62.20000076293945,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.4500000476837158,
+        1.2000000476837158,
+        3.4000000953674316
+      ],
+      "data_block": "RM_LV_SWITCHGEAR_3_MESH",
+      "material_slots": [
+        "REV005_RM_DARK"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_SWITCHGEAR_3"
+      }
+    },
+    {
+      "name": "RM_LV_SWITCHGEAR_4",
+      "type": "MESH",
+      "source_category": "V01",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent_chain": [],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        115.0,
+        0.0,
+        1.0,
+        0.0,
+        62.20000076293945,
+        0.0,
+        0.0,
+        1.0,
+        2.75,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "location_xyz_world": [
+        115.0,
+        62.20000076293945,
+        2.75
+      ],
+      "location_xyz_local": [
+        115.0,
+        62.20000076293945,
+        2.75
+      ],
+      "rotation_xyz_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale_xyz": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions_xyz_m": [
+        1.4500000476837158,
+        1.2000000476837158,
+        3.4000000953674316
+      ],
+      "data_block": "RM_LV_SWITCHGEAR_4_MESH",
+      "material_slots": [
+        "REV005_RM_DARK"
+      ],
+      "modifiers": [],
+      "constraints": [],
+      "hide_flags": {
+        "hide_viewport": false,
+        "hide_render": false,
+        "hide_get": false,
+        "hide_select": false
+      },
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Electrical / LV-MV Room",
+        "functional_role": "RM_LV_SWITCHGEAR_4"
+      }
+    }
+  ],
+  "transfer_collection": "F03_ELECTRICAL_LV_MV_ACCEPTED_V05_REPLAY_TRANSFER"
+}

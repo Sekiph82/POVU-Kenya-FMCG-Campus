@@ -1,0 +1,7260 @@
+{
+  "collection": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+  "object_count": 117,
+  "objects": [
+    {
+      "name": "V09_CAFE_BACKBAR",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        7.0,
+        0.30000001192092896,
+        3.200000047683716
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_BACKBAR_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0A_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0A_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0A_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0A_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0A_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0A_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0A_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0A_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0B_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0B_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0B_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0B_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0B_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0B_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_0B_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_0B_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1A_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1A_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1A_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1A_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1A_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1A_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1A_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1A_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1B_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1B_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1B_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1B_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1B_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1B_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_1B_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_1B_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2A_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2A_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2A_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2A_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2A_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2A_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2A_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2A_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2B_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2B_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2B_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2B_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2B_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2B_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_2B_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_2B_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3A_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3A_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3A_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3A_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3A_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3A_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3A_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3A_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3B_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3B_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3B_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3B_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3B_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3B_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_CHAIR_3B_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_CHAIR_3B_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_COUNTER",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        7.0,
+        1.100000023841858,
+        1.5
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_COUNTER_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_DISPLAY",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0,
+        0.30000001192092896,
+        1.2000000476837158
+      ],
+      "materials": [
+        "REV005_V08_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_DISPLAY_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_TABLE_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0999999046325684,
+        1.2000000476837158,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_TABLE_0_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_TABLE_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0999999046325684,
+        1.2000000476837158,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_TABLE_1_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_TABLE_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0999999046325684,
+        1.2000000476837158,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_TABLE_2_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_CAFE_TABLE_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0999999046325684,
+        1.2000000476837158,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_CAFE_TABLE_3_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_0_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_0_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_0_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_0_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_0_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_0_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_0_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_0_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_1_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_1_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_1_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_1_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_1_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_1_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_1_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_1_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_2_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_2_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_2_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_2_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_2_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_2_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_2_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_2_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_3_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_3_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_3_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_3_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_3_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_3_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_3_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_3_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_4_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_4_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_4_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_4_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_4_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_4_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_4_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_4_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_5_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_5_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_5_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_5_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_5_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_5_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CHAIR_5_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CHAIR_5_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_CONSOLE",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        8.0,
+        1.7999999523162842,
+        1.100000023841858
+      ],
+      "materials": [
+        "REV005_V08_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_CONSOLE_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_0_PANEL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0,
+        0.10000000149011612,
+        1.149999976158142
+      ],
+      "materials": [
+        "REV005_V08_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_0_PANEL_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_0_STAND",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_0_STAND_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_1_PANEL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0,
+        0.10000000149011612,
+        1.149999976158142
+      ],
+      "materials": [
+        "REV005_V08_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_1_PANEL_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_1_STAND",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_1_STAND_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_2_PANEL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0,
+        0.10000000149011612,
+        1.149999976158142
+      ],
+      "materials": [
+        "REV005_V08_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_2_PANEL_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_2_STAND",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_2_STAND_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_3_PANEL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        2.0,
+        0.10000000149011612,
+        1.149999976158142
+      ],
+      "materials": [
+        "REV005_V08_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_3_PANEL_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_COMMAND_SCREEN_3_STAND",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_COMMAND_SCREEN_3_STAND_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_BACK_WALL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        40.0,
+        0.18000000715255737,
+        8.0
+      ],
+      "materials": [
+        "REV005_V08_WALL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_BACK_WALL_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_ENTRY_HEADER",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        3.0,
+        0.18000000715255737,
+        0.44999998807907104
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_ENTRY_HEADER_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_ENTRY_L",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.18000000715255737,
+        0.18000000715255737,
+        5.5
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_ENTRY_L_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_ENTRY_R",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.18000000715255737,
+        0.18000000715255737,
+        5.5
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_ENTRY_R_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_FLOOR",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        40.0,
+        24.0,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V08_FLOOR"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_FLOOR_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_FRONT_GLAZING",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        40.0,
+        0.11999999731779099,
+        7.599999904632568
+      ],
+      "materials": [
+        "REV005_V08_GLASS"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_FRONT_GLAZING_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_LEFT_WALL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.18000000715255737,
+        24.0,
+        8.0
+      ],
+      "materials": [
+        "REV005_V08_WALL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_LEFT_WALL_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_LIGHT_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        12.800000190734863,
+        0.1599999964237213,
+        0.07999999821186066
+      ],
+      "materials": [
+        "REV005_V08_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_LIGHT_0_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_LIGHT_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        12.800000190734863,
+        0.1599999964237213,
+        0.07999999821186066
+      ],
+      "materials": [
+        "REV005_V08_WHITE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_LIGHT_1_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_RIGHT_WALL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.18000000715255737,
+        24.0,
+        8.0
+      ],
+      "materials": [
+        "REV005_V08_WALL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_RIGHT_WALL_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_GLASS_DECK_SOFFIT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        40.0,
+        24.0,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_GLASS_DECK_SOFFIT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_0_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_0_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_0_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_0_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_0_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_0_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_0_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_0_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_1_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_1_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_1_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_1_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_1_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_1_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_1_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_1_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_2_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_2_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_2_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_2_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_2_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_2_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_2_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_2_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_3_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_3_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_3_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_3_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_3_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_3_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_3_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_3_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_4_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_4_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_4_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_4_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_4_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_4_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_4_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_4_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_5_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_5_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_5_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_5_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_5_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_5_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_5_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_5_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_6_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_6_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_6_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_6_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_6_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_6_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_6_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_6_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_7_BACK",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.11999999731779099,
+        1.0
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_7_BACK_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_7_LEG_-0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_7_LEG_-0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_7_LEG_0.25",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.07999999821186066,
+        0.07999999821186066,
+        0.6000000238418579
+      ],
+      "materials": [
+        "REV005_V08_STEEL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_7_LEG_0.25_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_CHAIR_7_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.699999988079071,
+        0.14000000059604645
+      ],
+      "materials": [
+        "REV005_V08_PURPLE"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_CHAIR_7_SEAT_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_SCREEN",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        6.0,
+        0.15000000596046448,
+        3.200000047683716
+      ],
+      "materials": [
+        "REV005_V08_DARK"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_SCREEN_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    },
+    {
+      "name": "V09_TRAINING_TABLE",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY"
+      ],
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "dimensions": [
+        10.0,
+        3.0,
+        0.1599999964237213
+      ],
+      "materials": [
+        "REV005_V08_WOOD"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "data_block": "V09_TRAINING_TABLE_MESH",
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "facility": "Glass Deck central command / training / café gallery",
+        "REV005_V09_REMEDIATED": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Glass Deck ground-level envelope overlaps accepted F01 Caps/Trigger footprint; true source Glass Deck is elevated at Z>=8.2m",
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F01_X01"
+      }
+    }
+  ]
+}

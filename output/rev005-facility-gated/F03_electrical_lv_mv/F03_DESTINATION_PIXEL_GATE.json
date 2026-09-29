@@ -1,0 +1,47 @@
+{
+  "status": "PASS_VISUAL_MATCH",
+  "pixel_exact": false,
+  "visual_match": true,
+  "locked_gate_note": "A differs at two antialias edge pixels; B is decoded-pixel exact",
+  "A": {
+    "pixel_exact": false,
+    "different_pixels": 2,
+    "first_differences": [
+      [
+        310408,
+        [
+          14,
+          93,
+          107,
+          255
+        ],
+        [
+          10,
+          97,
+          111,
+          255
+        ]
+      ],
+      [
+        316732,
+        [
+          49,
+          60,
+          65,
+          255
+        ],
+        [
+          46,
+          58,
+          63,
+          255
+        ]
+      ]
+    ]
+  },
+  "B": {
+    "pixel_exact": true,
+    "different_pixels": 0,
+    "first_differences": []
+  }
+}

@@ -1,0 +1,1198 @@
+{
+  "selected": {
+    "azimuth_deg": 225,
+    "camera_xyz": [
+      92.61522674560547,
+      42.6152229309082,
+      16.81999969482422
+    ],
+    "target_xyz": [
+      111.0,
+      61.0,
+      3.7740001678466797
+    ],
+    "lens_mm": 52,
+    "clear_rays": 9,
+    "ray_count": 9,
+    "fully_in_frame": true,
+    "screen_coverage_percent": 32.64595313823815,
+    "projection_extents": {
+      "x_min": 0.23795676231384277,
+      "x_max": 0.7460824251174927,
+      "y_min": 0.10387276113033295,
+      "y_max": 0.7463507056236267,
+      "z_min": 25.249069213867188,
+      "z_max": 34.974952697753906
+    },
+    "rays": [
+      {
+        "target": [
+          111.0,
+          61.0,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_2",
+        "hit_distance": 28.97720940948477,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          113.83499908447266,
+          61.0,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_3",
+        "hit_distance": 30.50716553611383,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          108.16500091552734,
+          61.0,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_0",
+        "hit_distance": 27.032614612863796,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          111.0,
+          62.79999923706055,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "RM_LV_SWITCHGEAR_2",
+        "hit_distance": 29.25665624801394,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          111.0,
+          59.20000076293945,
+          3.320000171661377
+        ],
+        "clear": true,
+        "hit_object": "REV005_LV_PANEL_2",
+        "hit_distance": 27.89436058010385,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          108.16500091552734,
+          59.20000076293945,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          108.16500091552734,
+          62.79999923706055,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          113.83499908447266,
+          59.20000076293945,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      },
+      {
+        "target": [
+          113.83499908447266,
+          62.79999923706055,
+          4.909000396728516
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null,
+        "immediate_architecture_intersection": false
+      }
+    ],
+    "pass": true,
+    "status": "PASS",
+    "bounds_min": [
+      106.2750015258789,
+      58.0,
+      1.0499999523162842
+    ],
+    "bounds_max": [
+      115.7249984741211,
+      64.0,
+      5.590000152587891
+    ],
+    "horizontal_radius": 4.724998474121094,
+    "initial_distance_D": 18.0,
+    "distance_m": 26.0,
+    "target": [
+      111.0,
+      61.0,
+      3.7740001678466797
+    ],
+    "candidate_count": 8,
+    "method": "8 azimuths, 9-ray LOS, no automatic cross-facility exclusion/quarantine"
+  },
+  "candidates": [
+    {
+      "azimuth_deg": 0,
+      "camera_xyz": [
+        137.0,
+        61.0,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 3,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 20.623094753870586,
+      "projection_extents": {
+        "x_min": 0.3343467116355896,
+        "x_max": 0.6656537652015686,
+        "y_min": 0.12180010229349136,
+        "y_max": 0.7442768812179565,
+        "z_min": 24.25298309326172,
+        "z_max": 34.53432083129883
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 25.814202130149422,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 26.516559824877152,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 25.296560133540762,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 25.862882877537615,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_2",
+          "hit_distance": 28.74238485987624,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 24.828855370545362,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 25.822528978284062,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": false
+    },
+    {
+      "azimuth_deg": 45,
+      "camera_xyz": [
+        129.38478088378906,
+        79.38477325439453,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 2,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 29.22280362024687,
+      "projection_extents": {
+        "x_min": 0.23795688152313232,
+        "x_max": 0.7460820078849792,
+        "y_min": 0.10387366265058517,
+        "y_max": 0.6789840459823608,
+        "z_min": 24.173324584960938,
+        "z_max": 34.97496032714844
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 24.372034919567252,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "RM_LV_SWITCHGEAR_4",
+          "hit_distance": 25.29451883522335,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 22.454664205462485,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 23.461279928507505,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 25.3386062689203,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 23.57070933644227,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 21.954607170272407,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 25.244692707333463,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": false
+    },
+    {
+      "azimuth_deg": 90,
+      "camera_xyz": [
+        111.0,
+        87.0,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 0,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 17.6416669266644,
+      "projection_extents": {
+        "x_min": 0.24887308478355408,
+        "x_max": 0.7511270642280579,
+        "y_min": 0.21469874680042267,
+        "y_max": 0.5659486651420593,
+        "z_min": 26.49638557434082,
+        "z_max": 32.9162712097168
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.27019085887072,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.360210040466352,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.360210040466352,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 18.227564150171926,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 20.328315282425145,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 22.646785574518415,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 20.219506298229756,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 22.646785574518415,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 20.219506298229756,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": false
+    },
+    {
+      "azimuth_deg": 135,
+      "camera_xyz": [
+        92.61522674560547,
+        79.38477325439453,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 0,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 29.222872508834776,
+      "projection_extents": {
+        "x_min": 0.25391778349876404,
+        "x_max": 0.7620434165000916,
+        "y_min": 0.10387276113033295,
+        "y_max": 0.6789839267730713,
+        "z_min": 24.173311233520508,
+        "z_max": 34.97494888305664
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.27019085887072,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 20.491951828014813,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 18.158065416245325,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 18.55008557240781,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 20.03443309708274,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 20.969029431819205,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.134442958932272,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 23.570704804905603,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 21.954607170272407,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": false
+    },
+    {
+      "azimuth_deg": 180,
+      "camera_xyz": [
+        85.0,
+        61.0,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 3,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 20.623116745720218,
+      "projection_extents": {
+        "x_min": 0.33434605598449707,
+        "x_max": 0.6656532883644104,
+        "y_min": 0.12179989367723465,
+        "y_max": 0.7442770004272461,
+        "z_min": 24.252967834472656,
+        "z_max": 34.534305572509766
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.27019085887072,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 20.94283069675094,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 17.63613691246789,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.30653096207929,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_2",
+          "hit_distance": 29.125374337275176,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 19.4657286753445,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_SOFFIT",
+          "hit_distance": 23.297869473677626,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": false
+    },
+    {
+      "azimuth_deg": 225,
+      "camera_xyz": [
+        92.61522674560547,
+        42.6152229309082,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 32.64595313823815,
+      "projection_extents": {
+        "x_min": 0.23795676231384277,
+        "x_max": 0.7460824251174927,
+        "y_min": 0.10387276113033295,
+        "y_max": 0.7463507056236267,
+        "z_min": 25.249069213867188,
+        "z_max": 34.974952697753906
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_2",
+          "hit_distance": 28.97720940948477,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_3",
+          "hit_distance": 30.50716553611383,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_0",
+          "hit_distance": 27.032614612863796,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "RM_LV_SWITCHGEAR_2",
+          "hit_distance": 29.25665624801394,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_2",
+          "hit_distance": 27.89436058010385,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": true,
+      "status": "PASS",
+      "bounds_min": [
+        106.2750015258789,
+        58.0,
+        1.0499999523162842
+      ],
+      "bounds_max": [
+        115.7249984741211,
+        64.0,
+        5.590000152587891
+      ],
+      "horizontal_radius": 4.724998474121094,
+      "initial_distance_D": 18.0,
+      "distance_m": 26.0,
+      "target": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "candidate_count": 8,
+      "method": "8 azimuths, 9-ray LOS, no automatic cross-facility exclusion/quarantine"
+    },
+    {
+      "azimuth_deg": 270,
+      "camera_xyz": [
+        111.0,
+        35.0,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 8,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 22.060498595058675,
+      "projection_extents": {
+        "x_min": 0.2636337876319885,
+        "x_max": 0.7363662123680115,
+        "y_min": 0.2146984338760376,
+        "y_max": 0.681357741355896,
+        "z_min": 27.379934310913086,
+        "z_max": 32.91627883911133
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_2",
+          "hit_distance": 28.68828746238461,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_3",
+          "hit_distance": 28.822298241586694,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "RM_LV_PANEL_DOOR_2",
+          "hit_distance": 29.47046540689217,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_ETP_BACK_WALL",
+          "hit_distance": 18.21815220161236,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": false
+    },
+    {
+      "azimuth_deg": 315,
+      "camera_xyz": [
+        129.38478088378906,
+        42.6152229309082,
+        16.81999969482422
+      ],
+      "target_xyz": [
+        111.0,
+        61.0,
+        3.7740001678466797
+      ],
+      "lens_mm": 52,
+      "clear_rays": 7,
+      "ray_count": 9,
+      "fully_in_frame": true,
+      "screen_coverage_percent": 32.64588346484243,
+      "projection_extents": {
+        "x_min": 0.2539181709289551,
+        "x_max": 0.762043297290802,
+        "y_min": 0.10387303680181503,
+        "y_max": 0.7463502883911133,
+        "z_min": 25.441028594970703,
+        "z_max": 34.97495651245117
+      },
+      "rays": [
+        {
+          "target": [
+            111.0,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_2",
+          "hit_distance": 28.688286398620217,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 27.152482275128584,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            61.0,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            62.79999923706055,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "RM_LV_SWITCHGEAR_2",
+          "hit_distance": 29.256669025969398,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            111.0,
+            59.20000076293945,
+            3.320000171661377
+          ],
+          "clear": true,
+          "hit_object": "REV005_LV_PANEL_2",
+          "hit_distance": 27.86106407877421,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            108.16500091552734,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            59.20000076293945,
+            4.909000396728516
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null,
+          "immediate_architecture_intersection": false
+        },
+        {
+          "target": [
+            113.83499908447266,
+            62.79999923706055,
+            4.909000396728516
+          ],
+          "clear": false,
+          "hit_object": "V09_UTILITIES_RIGHT_WALL",
+          "hit_distance": 27.665123984594896,
+          "immediate_architecture_intersection": false
+        }
+      ],
+      "pass": true
+    }
+  ]
+}

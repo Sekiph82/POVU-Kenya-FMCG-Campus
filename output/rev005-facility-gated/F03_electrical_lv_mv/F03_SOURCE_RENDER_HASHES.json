@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "facility": "Electrical / LV-MV room",
+  "A_WIDE": {
+    "archived_sha256": "2F3BDEEAEDDC850B3CF23E4125171EA5CF9858C4883FC146C3B69E6F4EE892A4",
+    "replay_sha256": "CE70158AC1CE6E9C65AB5C257B0779FE693D6F9B9FED6F99178735785E9660A6",
+    "decoded_pixel_exact": true,
+    "camera": {"location": [117, 50, 11], "target": [111, 61, 3], "lens_mm": 52, "sensor_width_mm": 36, "resolution": [900, 600]}
+  },
+  "B_FUNCTIONAL": {
+    "archived_sha256": "850EAB71C210E923B9042382E373DD42421B3E2A4A6CED281C294E43A05FFA7A",
+    "replay_sha256": "B2B1762C9A66320E220B24D306F0EABED0EB486F537813EB9A693E26F0937C2C",
+    "decoded_pixel_exact": true,
+    "camera": {"location": [113, 56, 7], "target": [111, 61, 3], "lens_mm": 52, "sensor_width_mm": 36, "resolution": [900, 600]}
+  },
+  "replay_blend": "C:/Users/sekip/AppData/Local/Temp/POVU_F03_V05_REPLAY_7e8823c2fe5c4775a8ff13a233ead113/3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend"
+}

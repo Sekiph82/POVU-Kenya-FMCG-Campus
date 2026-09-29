@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "initial_blend_sha256": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+  "script_order": [
+    "build_rev005_interior_remediation_v01.py",
+    "build_rev005_interior_remediation_v02.py",
+    "build_rev005_interior_remediation_v03.py",
+    "build_rev005_interior_remediation_v04.py",
+    "build_rev005_interior_remediation_v05.py"
+  ],
+  "renderer": "render_rev005_interior_remediation_v05.py",
+  "checkpoints": {
+    "V01": {
+      "status": "BUILT",
+      "post_blend_sha256": "0B9D0AD74DB07B26B34FF7A59D16CA9E9D9BAD86F031088C9903FC176D9CB680",
+      "post_glb_sha256": "D19ECC3CE4586C4671791781C5F0339C17F26C3D48CBC87DBACEB13310AD086A",
+      "object_count": 345
+    },
+    "V02": {
+      "status": "BUILT",
+      "post_blend_sha256": "0C4565A1648A7C03B492334BC1CD5A3EF39488D0D0A76E40CFE3242036D8811C",
+      "post_glb_sha256": "7198374AC37337D71A027F8157FA93E158CCE26634BA9FA511FC7FECA629592F",
+      "object_count": 264
+    },
+    "V03": {
+      "status": "BUILT",
+      "post_blend_sha256": "E651960762EB432E1507443E6A84D18E7EAC2374E3AD1DB23EF77E918E5448B2",
+      "post_glb_sha256": "06F540F3455DB6E23D6BC64B3679EFACA427DA8EDAEEBF9242B2F50A89AA71FC",
+      "object_count": 462
+    },
+    "V04": {
+      "status": "BUILT",
+      "post_blend_sha256": "CC1F0ABA61E028908FD3FB4788F34A0981B5E181655C23456B54AD94787F5496",
+      "post_glb_sha256": "44EA56A39B24651783FAF477E9C587144669F6EA3DA0DCC86AEE4F50B3B2CE46",
+      "object_count": 1064
+    },
+    "V05": {
+      "status": "BUILT",
+      "post_blend_sha256": "DED33CA3708144C08D25E6F9FED92F8F6E26A30BB0299CA0F0D3B68BE2C190C8",
+      "post_glb_sha256": "B08AB2A38CFA5540F62DF166D292CDB9643806AFEF67195EC5D5EBCCB429062C",
+      "object_count": 1853
+    }
+  },
+  "transfer_collection": "F03_ELECTRICAL_LV_MV_ACCEPTED_V05_REPLAY_TRANSFER",
+  "no_hiveai": true,
+  "no_rev006": true,
+  "no_tour": true
+}
