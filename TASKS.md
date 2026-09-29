@@ -9,12 +9,12 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.18
-- Current Task: M08.18 — REV005 Interior Remediation V09 image-by-image correction
-- Current Task Status: READY
-- Next Task/Action: Execute the V09 image-by-image master prompt. Codex must satisfy all 72 image-specific remediation specs, regenerate 72 integrated/preservation views plus 20 isolated proofs, and stop at AWAITING_GPT_REMEDIATION_AUDIT_V09.
-- Required Actor: CODEX
-- Workflow State: READY_FOR_CODEX_EXECUTION
+- Current Sprint: M08.19
+- Current Task: M08.19 — Independent GPT V09 image-by-image audit
+- Current Task Status: ACTIVE
+- Next Task/Action: Independently audit all 72 V09 integrated/preservation renders and 20 isolated proofs against the locked V09 criteria. Codex self-PASS/readiness claims are implementation evidence only.
+- Required Actor: GPT
+- Workflow State: GPT_AUDIT_IN_PROGRESS
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
 - Tracking Branch: main
 
@@ -22,8 +22,8 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 
 - M08.16 and M08.16A are complete. V08 published the required clean-replacement evidence package and the local workspace consolidation completed successfully before audit.
 - M08.17 independent V08 audit is complete with `REMEDIATION_REQUIRED`: 72/72 supplied integrated/preservation renders were NOT OK and all 12 preservation renders were 100% black.
-- M08.18 V09 is now active. Every failing V08 render has its own detailed GitHub image spec and Codex must execute all 72 before M08.19 independent audit.
-- M08.09 REV005 freeze cannot occur until M08.17 gives full 26/26 GPT visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient.
+- M08.18 V09 execution is complete at commit `f1c491ec3088a5802154efbd3c7f7819f47c975a`; 72 integrated/preservation renders plus 20 isolated proofs were published. M08.19 independent GPT audit is now active.
+- M08.09 REV005 freeze cannot occur until M08.19 gives full GPT visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
 - The approved R03/R04 persistent-camera/global-clock system remains the mandatory camera baseline for future final-tour work.
@@ -324,6 +324,24 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Audit artifact: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V08_GPT_AUDIT.md`.
   - 72 dedicated image-specific remediation specs created under `coordination/Remediation/V09_Image_Specs/`.
 
+- [~] M08.18 — REV005 Interior Remediation V09 image-by-image correction
+  - Execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V09_IMAGE_BY_IMAGE_GPT_PROMPT.md`.
+  - Locked audit criteria: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V09_GPT_AUDIT_CRITERIA.md`.
+  - Image-spec index: `coordination/Remediation/V09_Image_Specs/INDEX.md`.
+  - Execution commit: `f1c491ec3088a5802154efbd3c7f7819f47c975a`.
+  - Produced: 72/72 spec-linked integrated/preservation renders, 20/20 isolated proofs, 92/92 total PNGs at 1280×800, plus immutable V09 baseline and final hash files.
+  - Final Blend SHA-256: `46D427377C315FF8838CBF6917DD469E3F88D14F49E52BE0C18F8C0CFE3D68E8`.
+  - Final GLB SHA-256: `F09D1E5F4A3581509C33453C88B576A67BB6D2CAFDC08532B05F342BC18F6DCF`.
+  - Handoff compliance finding: required canonical Codex log/report/validation/acceptance-matrix filenames were not published; alternative V09 build/spec/evidence artifacts exist.
+  - State reached: `AWAITING_GPT_REMEDIATION_AUDIT_V09`.
+  - Remains implemented-but-audit-gated until M08.19 completes.
+
+- [~] M08.19 — Independent GPT V09 image-by-image audit
+  - Required evidence: all 72 spec-linked V09 integrated/preservation renders, 20 isolated proofs, immutable V09 baseline, final hashes, build/spec/evidence artifacts and source-protection evidence.
+  - Closure rule: 72/72 image-spec PASS, 20/20 isolated-proof PASS, 6/6 preserved-group PASS, 26/26 facility PASS, zero black frames and zero camera/evidence/enclosure/process failures.
+  - Current state: audit in progress. Provenance/count/package existence has been verified; final visual PASS/FAIL must come from direct inspection of the complete image set.
+  - Only full PASS permits M08.09 owner final review/freeze.
+
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: M08.19 full PASS.
   - Required owner check: key production lines, warehouses, people/support spaces, utilities, Hands of Growth/Living Wall/trees and overall digital-twin coherence.
@@ -389,5 +407,5 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
 - M00-M06 are complete historical foundation/planning packages.
 - M07 is complete and contains the owner-approved R03 camera system plus the owner-usable R04 470-second tour.
 - M08 is active. V01-V07 execution/audit cycles progressively improved evidence, provenance and visibility, but V07 still remained at 6/26 visual PASS.
-- M08.16 V08 and M08.16A workspace consolidation are complete. M08.17 audit returned `REMEDIATION_REQUIRED`. M08.18 V09 image-by-image remediation is current; M08.19 will independently audit its 92-render output.
+- M08.16 V08 and M08.16A workspace consolidation are complete. M08.17 audit returned `REMEDIATION_REQUIRED`. M08.18 V09 execution produced its 92-render package; M08.19 independent GPT visual audit is the current task.
 - M09-M11 remain blocked/planned until REV005 receives full GPT visual PASS and owner acceptance.
