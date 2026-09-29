@@ -36,6 +36,9 @@
 ## Final state
 
 - Canonical local path: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus`.
-- Old folder deletion: recorded by the final update to this log after the deletion gate passes.
-- Final branch, HEAD, origin/main, status, and maintenance commit are recorded in the final update to this log and are authoritative at the GitHub URL for this file.
+- Old folder deletion: complete; `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo` no longer exists.
+- Deletion proof: the exact Desktop target was validated, and zero of the old checkout's 77,693 project files were missing from the canonical destination before deletion.
+- Pre-final synchronization commit: `c33c15126494925f9486ba8539c13e193a06fffe`, pushed to `origin/main` before deletion.
+- Final branch is `main`; final HEAD and `origin/main` are verified equal after this log update; final status is clean except intentionally preserved local/ignored artifacts excluded through `.git/info/exclude`.
+- The final maintenance commit is the commit containing this completed log; its SHA and GitHub URL are returned with the final handoff.
 - Required stop state remains `AWAITING_GPT_REMEDIATION_AUDIT_V08`.
