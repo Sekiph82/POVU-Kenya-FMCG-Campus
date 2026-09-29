@@ -2,35 +2,30 @@
 
 ## Purpose
 
-The previous broad V01–V09 remediation cycles are closed as a failed working method. From this point onward REV005 interior completion is executed **one facility at a time**.
+REV005 interior completion is executed **one facility at a time**.
 
 No executor may work on Facility N+1 before Facility N has:
-1. been implemented;
-2. produced its locked QA evidence;
+1. been implemented/restored;
+2. produced locked QA evidence;
 3. been independently reviewed by GPT;
-4. received explicit PASS for that facility.
+4. received explicit PASS.
 
-A facility FAIL loops only on that facility.
+A FAIL loops only on that facility.
 
-## Hard workflow rules
+## Hard rules
 
-- Exactly one facility is active at a time.
-- No batch/master execution across multiple facilities.
-- No "continue with the next facility" behavior after rendering.
-- Codex stops after the active facility and waits for GPT audit.
+- Exactly one facility active at a time.
+- No multi-facility batch.
+- Codex stops after the active facility.
 - Codex never edits root `TASKS.md`.
 - Codex never awards independent PASS.
-- REV004 remains frozen.
-- REV006 is prohibited.
-- No final tour/video until all 26 facilities pass.
+- REV004 frozen; no REV006; no tour/video; no `.hiveai`.
 - Canonical local root: `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus`.
-- No second Desktop project copy and no `.hiveai`.
+- No second Desktop project copy.
 
-## Two facility classes
+## Class R — historical accepted-facility restoration
 
-### Class R — exact historical restoration
-
-These six facilities were independently accepted in V05 and must **not** be approximated or redesigned:
+These six were independently accepted in V05:
 1. Caps and Trigger Assembly
 2. Daycare / Crèche
 3. Electrical / LV-MV Room
@@ -38,49 +33,56 @@ These six facilities were independently accepted in V05 and must **not** be appr
 5. Fire Pump House
 6. Micro-ingredient Weigh / Dispense
 
-Authoritative source:
-- V05 commit: `420038365847de763d64c8583a9e31ac5a6bd677`
-- V05 Blend SHA-256: `B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6`
+Important provenance rule:
 
-For Class R, **source geometry/world transforms/materials are the dimensional specification**. Do not invent replacement dimensions. Restore exactly.
+A V05 report may contain a local post-build whole-Blend hash that was never committed as a binary. Therefore a Class R source is not validated solely by whole-Blend hash.
 
-### Class N — new/detailed completion
+A historical Git source becomes authoritative when the facility subset is proven equivalent by:
+- expected Git source hash;
+- exact historical object-selection/count logic;
+- exact historical QA render reproduction using locked cameras/render settings.
+
+When exact archived render hashes are available, **byte-identical historical render reproduction is the strongest source-equivalence gate**.
+
+Do not invent replacement dimensions for Class R. Once subset equivalence is proven, source transforms/dimensions/materials are the dimensional specification.
+
+## Class N — new detailed completion
 
 The remaining 20 facilities are rebuilt/refined one-by-one.
 
-Every Class N prompt MUST define:
-- facility local coordinate frame and origin;
-- facility room/process envelope in metres;
-- each major assembly center X/Y/Z;
+Every Class N prompt must define:
+- local coordinate frame/origin;
+- room/process envelope dimensions in metres;
+- major assembly XYZ centers;
 - width/depth/height or diameter/height;
 - quantity;
 - center-to-center spacing;
 - aisle/clearance dimensions;
-- connections between stations;
-- pipe/conveyor dimensions where visible;
-- wall/door/ceiling dimensions for people spaces;
+- connections;
+- visible pipe/conveyor dimensions;
+- wall/door/ceiling dimensions;
 - materials;
 - lighting;
-- camera position, target, lens and render size;
-- explicit visual acceptance criteria.
+- camera XYZ/target/lens/render size;
+- explicit visual acceptance.
 
-Phrases such as "add some equipment", "make it detailed", "place nearby", "improve the line" or "make it realistic" are not sufficient.
+Vague instructions are prohibited.
 
-## QA contract per facility
+## QA per facility
 
-Minimum evidence before GPT review:
+Minimum evidence:
 - A_CONTEXT
 - B_FUNCTIONAL
-- C_DETAIL_OR_SEQUENCE when functionally relevant
-- one integrated-context regression render when requested
-- exact implementation manifest / source manifest
+- C_DETAIL_OR_SEQUENCE when relevant
+- integrated context regression render
+- exact implementation/source manifest
 - before/after hashes
 
-Default review render size: **1440×960 PNG** unless the facility prompt specifies otherwise.
+Default review render: 1440×960 PNG unless prompt says otherwise.
 
 ## Stop state
 
-Every facility prompt defines its own stop state:
+Each facility ends at:
 `AWAITING_GPT_FACILITY_AUDIT_FXX`
 
-No next-facility work begins from that state.
+No next-facility work begins automatically.
