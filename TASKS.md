@@ -11,10 +11,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - Current Milestone: M08
 - Current Sprint: M08.16
 - Current Task: M08.16 — REV005 Interior Remediation V08 clean-replacement final visual closure
-- Current Task Status: ACTIVE
-- Next Task/Action: Execute the V08 clean-replacement prompt. Preserve the 6 visual-PASS groups, rebuild the 20 failing groups as dedicated clean facility-specific replacements with isolated label-blind proof before campus integration, then stop at AWAITING_GPT_REMEDIATION_AUDIT_V08.
+- Current Task Status: ACTIVE_IN_PROGRESS
+- Next Task/Action: Codex is currently executing the V08 clean-replacement prompt. Preserve the 6 visual-PASS groups, rebuild the 20 failing groups as dedicated clean facility-specific replacements with isolated label-blind proof before campus integration, then stop at AWAITING_GPT_REMEDIATION_AUDIT_V08.
 - Required Actor: CODEX
-- Workflow State: READY_FOR_CODEX_EXECUTION
+- Workflow State: CODEX_EXECUTING
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
 - Tracking Branch: main
 
@@ -304,6 +304,7 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Strategy: no more layered patching. Build dedicated clean V08 subcollections for the 20 failing groups, retire conflicting legacy facility proxies, and require isolated label-blind proof before integrated QA.
   - Preserve the 6 V07 PASS groups without unnecessary remodeling.
   - Expected minimum QA: 20 isolated proofs + 60 integrated remediation views + 12 preservation views = 92 renders.
+  - Execution state: Codex is currently performing M08.16 / V08.
   - Codex must stop at `AWAITING_GPT_REMEDIATION_AUDIT_V08` and must not self-promote the tracker.
 
 - [ ] M08.17 — Independent GPT V08 clean-replacement audit
@@ -376,5 +377,5 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
 - M00-M06 are complete historical foundation/planning packages.
 - M07 is complete and contains the owner-approved R03 camera system plus the owner-usable R04 470-second tour.
 - M08 is active. V01-V07 execution/audit cycles progressively improved evidence, provenance and visibility, but V07 still remained at 6/26 visual PASS.
-- M08.16 V08 is the current task. It replaces incremental layering with clean facility-by-facility replacement plus isolated label-blind proof before integration.
+- M08.16 V08 is the current task and is currently being executed by Codex. It replaces incremental layering with clean facility-by-facility replacement plus isolated label-blind proof before integration.
 - M09-M11 remain blocked/planned until REV005 receives full GPT visual PASS and owner acceptance.
