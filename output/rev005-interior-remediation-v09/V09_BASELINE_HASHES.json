@@ -1,0 +1,17 @@
+{
+  "task": "M08.18",
+  "revision": "REV005",
+  "source": "V08 final baseline before V09 mutation",
+  "blend": {
+    "path": "3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "9860D83DD2799B195EF79617B7F37774DA21FF09C61B7AA6C91F8375263D801A",
+    "bytes": 5530204
+  },
+  "glb": {
+    "path": "3d/revisions/REV005/POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "57CEE672E093D766A67D141754092739A0E6F4EE8E76261C0366BFCD936808A0",
+    "bytes": 3116372
+  },
+  "before_mutation": true,
+  "v08_baseline_values_immutable": true
+}
