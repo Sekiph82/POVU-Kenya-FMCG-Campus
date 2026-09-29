@@ -10,9 +10,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 
 - Current Milestone: M08
 - Current Sprint: M08.20
-- Current Task: M08.20 — Facility-Gated F01 Caps & Trigger historical-source restoration V02
+- Current Task: M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
 - Current Task Status: READY_RETRY
-- Next Task/Action: Re-run only F01 using the corrected source-equivalence prompt. Validate the Git-restorable source hash, exact 76-object historical selection and byte-identical V05 A/B/C render reproduction before mutating the current REV005 Blend. Then restore F01 and stop at AWAITING_GPT_FACILITY_AUDIT_F01. Do not begin Facility 02.
+- Next Task/Action: Re-run only F01 using the V03 deterministic replay prompt. Reconstruct the accepted V05 facility in an OS-temp detached worktree by replaying the historical V01→V02→V03→V04→V05 pipeline, prove the exact 7+21+47+1=76-object composition and archived A/B/C render hashes, then transfer only F01 into current REV005 and stop at AWAITING_GPT_FACILITY_AUDIT_F01. Do not begin Facility 02.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -25,7 +25,8 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - M08.18 V09 execution completed at commit `f1c491ec3088a5802154efbd3c7f7819f47c975a`; 72 integrated/preservation renders plus 20 isolated proofs were published.
 - M08.19 independent GPT V09 audit is complete with `REMEDIATION_REQUIRED`: all 92 images were mechanically valid/non-black, but 0/26 facilities met the locked final visual-completion gate and the six previously accepted V05 facilities were not correctly restored.
 - The batch V10 image-spec strategy is superseded and must not be executed as a batch. Active workflow is now `coordination/Workflow/REV005_FACILITY_GATED_WORKFLOW.md`.
-- F01 first attempt correctly stopped at `BLOCKED_F01_SOURCE_MANIFEST_MISMATCH` before mutation. Root cause was a GPT-authored source-provenance assumption: the local V05-final whole-Blend hash was never committed at the V05 evidence commit. Corrected F01 V02 now validates the Git source by exact 76-object historical selection plus byte-identical V05 A/B/C render reproduction.
+- F01 attempt 1 correctly stopped at `BLOCKED_F01_SOURCE_MANIFEST_MISMATCH`; attempt 2 correctly stopped at `BLOCKED_F01_SOURCE_OBJECT_COUNT`. Neither mutated the canonical Blend/GLB.
+- Provenance root cause is now fully resolved: the committed base contains 7 visible Caps objects; V01 adds 21, V02 adds 47, V03/V04 add 0, and V05 adds 1 evidence anchor, producing the historical 76-object V05 accepted selection. F01 V03 reconstructs this exact pipeline in a detached OS-temp worktree before any canonical mutation.
 - M08.09 REV005 freeze cannot occur until every facility in the facility-gated program receives independent GPT PASS and the owner accepts the completed REV005 model.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
@@ -349,19 +350,19 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Audit artifact: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V09_GPT_AUDIT.md`.
   - Workflow decision: abandon multi-facility remediation batches and move to one-facility-at-a-time execution/audit gates.
 
-- [~] M08.20 — Facility-Gated F01 Caps & Trigger historical-source restoration V02
+- [~] M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
   - Workflow: `coordination/Workflow/REV005_FACILITY_GATED_WORKFLOW.md`.
   - Execution prompt: `coordination/Prompts/REV005_FACILITY_F01_CAPS_TRIGGER_RESTORE_GPT_PROMPT.md`.
   - Locked audit criteria: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT_CRITERIA.md`.
-  - Source correction: `coordination/Audits/REV005_F01_SOURCE_PROVENANCE_CORRECTION.md`.
-  - First attempt state: `BLOCKED_F01_SOURCE_MANIFEST_MISMATCH`; no canonical Blend/GLB mutation occurred.
-  - Correct Git-materialized source hash: `1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D`.
-  - Historical source-selection requirement: exact V05 `objects_for()` logic must select exactly 76 objects for Caps & Trigger.
-  - Historical V05 render hashes that must reproduce byte-for-byte before mutation:
-    - A: `0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363`
-    - B: `B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374`
-    - C: `229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A`
-  - Only after all source-equivalence gates pass may Codex restore F01 into current REV005.
+  - Replay provenance: `coordination/Audits/REV005_F01_HISTORICAL_PIPELINE_REPLAY_PROVENANCE_V03.md`.
+  - Attempt 1 stopped pre-mutation at `BLOCKED_F01_SOURCE_MANIFEST_MISMATCH`.
+  - Attempt 2 stopped pre-mutation at `BLOCKED_F01_SOURCE_OBJECT_COUNT`.
+  - Canonical V09 baseline remains unchanged: Blend `46D427377C315FF8838CBF6917DD469E3F88D14F49E52BE0C18F8C0CFE3D68E8`; GLB `F09D1E5F4A3581509C33453C88B576A67BB6D2CAFDC08532B05F342BC18F6DCF`.
+  - Exact historical composition: base 7 + V01 21 + V02 47 + V03 0 + V04 0 + V05 anchor 1 = **76** selected Caps/Trigger objects.
+  - Replay method: detached OS-temp worktree at V05 evidence commit, then run the original V01→V02→V03→V04→V05 build scripts in sequence, followed by the original V05 renderer.
+  - Hard source gate: replayed A/B/C Caps renders must match the archived V05 PNG SHA-256 byte-for-byte.
+  - Hard destination gate: after transfer, destination facility-only A/B/C 900×600 parity renders must match those same archived hashes byte-for-byte.
+  - Human review: A/B/C plus integrated D at 1440×960.
   - Stop at `AWAITING_GPT_FACILITY_AUDIT_F01`. Do not begin Facility 02.
 
 - [ ] M08.21 — Independent GPT F01 Caps & Trigger facility audit
