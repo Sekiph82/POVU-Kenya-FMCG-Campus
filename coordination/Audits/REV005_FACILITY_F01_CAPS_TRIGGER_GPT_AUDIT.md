@@ -1,85 +1,95 @@
 # REV005 FACILITY F01 — CAPS & TRIGGER — INDEPENDENT GPT AUDIT
 
-## Outcome
+## Final outcome
 
-`REMEDIATION_REQUIRED_D_INTEGRATED_ONLY`
+`PASS`
 
-The F01 historical-model restoration itself passes. Only the integrated-context evidence camera fails.
+F01 Caps & Trigger Assembly is independently accepted.
 
-## Evidence audited
+## Accepted execution lineage
 
-Execution commit:
-`6384c03c943f06eef43550e4eb57b6ffede0435d`
+- historical replay/restoration commit: `6384c03c943f06eef43550e4eb57b6ffede0435d`
+- cross-facility overlap quarantine/integrated-proof commit: `8cdd5e6032a5f235b3186fa0cff23554f35d2e90`
 
-Owner-uploaded integrated image:
-`F01_D_INTEGRATED_CONTEXT.png`
-- resolution: 1440×960
-- recorded SHA-256: `52F71B8D493E5017E190707522B8645EEE1A71FAA5306F3B3BAF01C433DE092B`
+## Historical restoration
 
-## PASS — historical reconstruction
+PASS.
 
-- initial source hash correct
-- composition correct: 7 base + 21 V01 + 47 V02 + 0 V03 + 0 V04 + 1 V05 anchor = 76
-- selected/restored object count = 76
-- transform/dimension/parent parity exact
-- source/destination facility-only A/B/C visual parity matches the accepted V05 facility
-- bowl/feed equipment, feed track, assembly fixtures/cell and outfeed/reject relationship are visible in the accepted restored model
+- exact historical composition reconstructed: 7 base + 21 V01 + 47 V02 + 0 V03 + 0 V04 + 1 V05 anchor = 76
+- selected/restored object count: 76
+- transform/dimension/parent parity: exact
+- facility-only A/B/C destination parity reproduces the accepted V05 visual source
+- bowl/feed equipment, feed track, assembly fixtures/cell, multiple work positions and reject/outfeed relationship are readable
 
-## PASS — scope protection
+## Cross-facility regression finding and repair
 
-The F01 execution commit changes only:
-- canonical REV005 Blend/GLB
-- F01-specific evidence/log artifacts
+The failed original D integrated view was not an F01 model defect.
 
-No evidence of unrelated facility modeling mutation, REV004 change, REV006, .hiveai or tour/video work.
+Root cause was confirmed as a V09 Glass Deck placement regression:
+- true historical Glass Deck is an elevated link at Z 8.2–12.2 m
+- V09 incorrectly created a 40×24 m ground-level Glass Deck envelope centered at (70,24)
+- measured overlap with F01: 202.5731 m² plan / 979.6435 m³ AABB volume
 
-## Finding — PNG metadata
+The invalid V09 replacement collection:
+`REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY`
 
-Raw PNG container hashes differ from the archived V05 PNGs because of ancillary metadata, while the reported visual/IDAT pixel streams match. This is a metadata-only finding and requires no model remediation.
+was quarantined without moving/deleting its 117 objects. Historical source Glass Deck geometry remained protected.
 
-## FAIL — D_INTEGRATED_CONTEXT
+## Integrated context proof
 
-Direct visual inspection of the uploaded 1440×960 D image fails the integrated-context gate.
+Direct visual inspection of:
+`F01_D_INTEGRATED_CONTEXT_V03_PREVIEW_900x600.png`
 
-Observed failure:
-- the Caps & Trigger facility is completely absent from view;
-- nearly the entire frame is occupied by a large dark architectural/envelope surface;
-- diagonal structural/frame elements cross the image;
-- there is no usable evidence of F01 in its current campus context;
-- the camera is therefore effectively behind/inside/against an occluding building envelope or is aimed through a blocking surface.
+PASS.
 
-This is **not** a facility-model failure.
+Observed:
+- F01 is clearly visible in the current scene
+- bowl/feed, carousel/assembly fixtures, pick/place equipment and outfeed/conveyor are visible
+- surrounding current architecture/context is visible
+- no destructive overlap hides the facility
+- no camera-inside-wall failure
+- no global legacy-unhide regression is visible
 
-## Required remediation
+Camera evidence:
+- location: `(13.470107,-7.779893,44.214287)`
+- target: `(52.25,31.0,3.565600)`
+- lens: 52 mm
+- clear rays: 9/9
+- F01 projected screen coverage: 46.0022%
+- temporary exclusions: none
 
-Do not change the 76 restored F01 objects.
+## Protection
 
-Do not change their:
-- geometry
-- world transforms
-- dimensions
-- materials
-- visibility state
-- parent relationships
+PASS.
 
-Do not alter any other facility.
+- F01 76-object protection parity: PASS
+- historical source Glass Deck protection parity: PASS
+- no Bottle Blow mutation
+- no Wet Processing mutation
+- no unrelated facility mutation reported
+- REV004 unchanged
+- no REV006
+- no .hiveai
+- no tour/video
 
-Only regenerate D_INTEGRATED_CONTEXT using a validated, unobstructed integrated camera.
+## Canonical hashes after accepted repair
 
-Execution prompt:
-`coordination/Prompts/REV005_FACILITY_F01_D_INTEGRATED_CONTEXT_REMEDIATION_GPT_PROMPT.md`
+Blend:
+`80C4FC83DBD260CB9D0A6B02F0582C5829273450437B90D7CD2B9281C17B744E`
 
-## Final unlock rule
+GLB:
+`9EA90C327C2502AA019AD9ADA656BE0BC0B652A19724BEF3162910058B63FD40`
 
-F01 receives final PASS only when the corrected integrated-context image:
-- clearly shows the restored F01 facility;
-- shows enough current surrounding scene/architecture to prove integration;
-- has no destructive overlap with unrelated geometry;
-- is not blocked by wall/roof/envelope surfaces;
-- does not use global legacy-object unhide;
-- is independently inspected by GPT.
+## Residual finding
 
-Current state:
-`REMEDIATION_REQUIRED_D_INTEGRATED_ONLY`
+The V09 Glass Deck replacement collection remains quarantined and must be handled when Glass Deck becomes its own active facility. This does not invalidate F01.
 
-Do not begin F02.
+## Final decision
+
+`PASS`
+
+F01 is closed and locked.
+
+Facility 02 is now allowed to begin.
+
+No future facility may modify F01 without an explicit independent regression finding.
