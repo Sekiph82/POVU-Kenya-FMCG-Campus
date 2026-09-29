@@ -9,12 +9,12 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.21
-- Current Task: M08.21 — Independent GPT F01 Caps & Trigger facility audit
-- Current Task Status: BLOCKED_EVIDENCE_ONLY
-- Next Task/Action: F01 historical restoration and facility-only A/B/C parity have passed. Directly inspect F01_D_INTEGRATED_CONTEXT.png before issuing final F01 PASS. Do not begin Facility 02 until the integrated-context image is visually accepted.
-- Required Actor: GPT
-- Workflow State: AWAITING_F01_INTEGRATED_VISUAL_EVIDENCE
+- Current Sprint: M08.22
+- Current Task: M08.22 — F01-D integrated-context camera remediation
+- Current Task Status: READY
+- Next Task/Action: Execute only the focused F01-D camera remediation prompt. Do not modify the accepted 76-object F01 model or any other facility. Produce a corrected 1440×960 integrated render plus a 900×600 audit preview, preserve Blend/GLB hashes exactly, and stop at AWAITING_GPT_F01_D_INTEGRATED_AUDIT.
+- Required Actor: CODEX
+- Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
 - Tracking Branch: main
 
@@ -368,12 +368,12 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Stop state reached: `AWAITING_GPT_FACILITY_AUDIT_F01`.
 
 - [~] M08.21 — Independent GPT F01 Caps & Trigger facility audit
-  - Preliminary result: `BLOCKED_EVIDENCE_ONLY`, not a modeling failure.
+  - Result: `REMEDIATION_REQUIRED_D_INTEGRATED_ONLY`.
   - Historical reconstruction, 76-object composition, exact destination transform parity, facility-only A/B/C visual parity and scope protection PASS.
-  - Audit finding: raw PNG container hashes differ from archived PNGs because of ancillary metadata, while visual/IDAT pixel parity is reported exact; no model remediation is requested for this metadata-only difference.
-  - Remaining gate: direct visual inspection of `F01_D_INTEGRATED_CONTEXT.png` to verify current-scene integration/no overlap/no legacy-proxy regression.
+  - Uploaded `F01_D_INTEGRATED_CONTEXT.png` FAIL: F01 is completely invisible because a large architectural/envelope surface blocks nearly the entire 1440×960 frame.
+  - This is a camera/evidence failure only; the accepted F01 model must remain unchanged.
   - Audit artifact: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT.md`.
-  - Final PASS unlocks Facility 02. Until then no other facility may be modified.
+  - F02 remains locked.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
