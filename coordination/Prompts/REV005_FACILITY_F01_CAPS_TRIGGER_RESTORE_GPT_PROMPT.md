@@ -1,358 +1,321 @@
-# F01 — CAPS & TRIGGER ASSEMBLY — EXACT V05 RESTORATION
+# F01 — CAPS & TRIGGER ASSEMBLY — EXACT HISTORICAL RESTORATION V02
 
-## Execution scope
+## Scope
 
-This prompt owns **one facility only**:
+One facility only:
 
 **Caps and Trigger Assembly**
 
-Do not touch any other facility except where a temporary QA visibility toggle is required for rendering.
+Do not touch Facility 02 or any other facility except temporary QA visibility toggles.
 
-Read first:
+Read:
 1. root `TASKS.md`
 2. `coordination/Workflow/REV005_FACILITY_GATED_WORKFLOW.md`
-3. `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT_CRITERIA.md`
-4. `coordination/Audits/REV005_INTERIOR_REMEDIATION_V05_GPT_AUDIT.md`
+3. `coordination/Audits/REV005_F01_SOURCE_PROVENANCE_CORRECTION.md`
+4. `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT_CRITERIA.md`
+5. `coordination/Audits/REV005_INTERIOR_REMEDIATION_V05_GPT_AUDIT.md`
+6. historical V05 renderer: `3d/revisions/REV005/pipeline/render_rev005_interior_remediation_v05.py`
 
-Do not read the superseded V10 batch image specs as executable instructions.
+Do not execute superseded V10 batch image specs.
 
-## Canonical workspace
+## Canonical paths
 
+Root:
 `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus`
 
-Canonical current Blend:
-`C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\3d\revisions\REV005\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend`
+Blend:
+`3d\revisions\REV005\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend`
 
-Canonical current GLB:
-`C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\3d\revisions\REV005\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb`
+GLB:
+`3d\revisions\REV005\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb`
 
-## Why this is restoration, not remodeling
+Output:
+`output\rev005-facility-gated\F01_caps_trigger\`
 
-This facility was independently accepted in V05.
+## Important provenance correction
 
-V05 accepted finding:
-**recognisable assembly cell with bowl/feed logic, fixtures and multiple work positions.**
+The previous F01 attempt stopped correctly because the prompt incorrectly demanded that the Git-materialized Blend equal the local V05-final whole-file hash.
 
-V09 is not acceptable because it reduced the facility to a few sparse blocks.
+Do NOT require `B4F24C...` from `git show`.
 
-Therefore:
-- do not design a new Caps/Trigger line;
-- do not approximate V05 with boxes;
-- do not reuse V09's sparse nine-object restoration as the model;
-- restore the complete V05 geometry exactly.
+The authoritative Git-materialized source for this equivalence test is:
 
-## Locked historical source
-
-Source commit:
+Commit:
 `420038365847de763d64c8583a9e31ac5a6bd677`
 
-Source repository path:
-`3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend`
+Expected Git source SHA-256:
+`1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D`
 
-Expected V05 source SHA-256:
-`B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6`
+Why this is valid to test:
+V05 classified Caps & Trigger as `EVIDENCE_ONLY_REMEDIATION`; V05 did not rebuild it. The facility existed in the earlier committed REV005 Blend and V05 only reframed it.
 
-Historical facility metadata:
-- facility property: `facility == "Caps and Trigger Assembly"`
-- V05 QA object count: **76**
-- visible cues: bowl feeders; cap/trigger feed tracks; guarded assembly conveyor; reject station.
+We will prove exact equivalence using object selection + byte-identical V05 renders before mutation.
 
-Historical QA references:
-- `output/rev005-interior-remediation-v05/qa/caps_and_trigger_assembly_A_WIDE.png`
-- `output/rev005-interior-remediation-v05/qa/caps_and_trigger_assembly_B_FUNCTIONAL.png`
-- `output/rev005-interior-remediation-v05/qa/caps_and_trigger_assembly_C_PROCESS_OR_DETAIL.png`
+## Phase 0 — baseline
 
-## Phase 0 — current baseline before any mutation
+Do not alter the existing `F01_BASELINE_HASHES.json` if it already truthfully records the unchanged canonical files from the blocked attempt.
 
-Create directory:
-`output/rev005-facility-gated/F01_caps_trigger/`
+If it does not exist, create it before mutation.
 
-Before modifying the Blend, write:
-`F01_BASELINE_HASHES.json`
+Record:
+- current Blend SHA-256/size;
+- current GLB SHA-256/size;
+- branch/HEAD/origin-main;
+- git status.
 
-Record SHA-256 and byte size for current Blend and GLB.
+## Phase 1 — materialize Git source
 
-Also record:
-- current branch;
-- current HEAD;
-- origin/main;
-- current staged/unstaged status.
+Without checkout/reset:
 
-Do not reset or discard local work.
-
-## Phase 1 — materialize V05 source without changing working tree
-
-Do NOT checkout the V05 commit.
-
-Use an equivalent of:
-
-`git show 420038365847de763d64c8583a9e31ac5a6bd677:3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend > <SYSTEM_TEMP>\POVU_REV005_V05_SOURCE.blend`
-
-The temporary file must be outside the Desktop project tree.
+`git show 420038365847de763d64c8583a9e31ac5a6bd677:3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend > <SYSTEM_TEMP>\F01_GIT_SOURCE.blend`
 
 Compute SHA-256.
 
-Expected:
-`B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6`
+Required:
+`1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D`
 
-If it does not match, STOP. Do not mutate the current Blend.
+If mismatch, stop:
+`BLOCKED_F01_GIT_SOURCE_HASH`
 
-## Phase 2 — extract an exact source manifest
+## Phase 2 — reproduce the exact historical V05 object set
 
-Open the temp V05 Blend in a separate background Blender process.
+Do NOT select only by `facility` property.
 
-Identify facility objects using the exact custom property:
-`obj.get("facility") == "Caps and Trigger Assembly"`
+Run the exact historical selection semantics from V05 renderer:
+`render_rev005_interior_remediation_v05.py`
 
-Also include:
-- every parent/ancestor required by those objects;
-- object data blocks;
-- materials;
-- material node groups/images if referenced;
-- constraints/modifiers that depend on facility objects.
+Use:
+- its inventory file;
+- `objects_for(group, record)`;
+- group exactly `Caps and trigger assembly`;
+- its label-exclusion logic;
+- its de-duplication logic.
 
 Write:
-`output/rev005-facility-gated/F01_caps_trigger/F01_V05_SOURCE_MANIFEST.json`
+`F01_GIT_SOURCE_MANIFEST.json`
 
-For every facility object record:
-- object name;
-- object type;
-- source collection membership;
-- parent name;
-- matrix_world as 16 numeric values;
-- location XYZ;
-- rotation_euler XYZ in radians;
-- scale XYZ;
-- dimensions XYZ in metres;
-- mesh/data block name;
-- material slot names in order;
-- modifier names/types;
-- hide_viewport;
-- hide_render;
-- custom properties.
+For every selected object:
+- name
+- type
+- collection membership
+- parent
+- 16-value matrix_world
+- location XYZ
+- rotation XYZ radians
+- scale XYZ
+- dimensions XYZ metres
+- data-block name
+- material slots
+- modifiers
+- constraints
+- hide flags
+- custom properties
 
-Sanity check:
-V05 historical QA reported **76 visible facility objects**.
+Required selected object count:
+**76**
 
-A difference is permitted only if the manifest explains parent/helper/non-renderable objects. If you cannot reconcile the count with the historical evidence, STOP at `BLOCKED_F01_SOURCE_MANIFEST_MISMATCH`.
+If count != 76, stop:
+`BLOCKED_F01_SOURCE_OBJECT_COUNT`
 
-## Phase 3 — create a facility-only transfer Blend
+## Phase 3 — prove byte-identical historical visual source
 
-In the V05 background process:
+Before touching the current Blend, render the Git source with EXACT V05 renderer settings.
 
-1. Create temporary collection:
-   `F01_CAPS_TRIGGER_V05_TRANSFER`
-2. Link all exact facility objects into that collection without changing their world matrices.
-3. Include required parent chains and dependencies.
-4. Write only that collection and dependencies to:
-   `<SYSTEM_TEMP>\F01_CAPS_TRIGGER_V05_TRANSFER.blend`
+### Workbench settings
 
-Do not save changes back to the V05 source file.
+- engine = BLENDER_WORKBENCH
+- resolution = 900×600
+- percentage = 100
+- PNG
+- film_transparent = false
+- shading.light = STUDIO
+- shading.color_type = MATERIAL
+- show_shadows = true
+- show_cavity = true
+- cavity_type = WORLD
+- curvature_ridge_factor = 1.8
+- curvature_valley_factor = 1.2
+- background_type = VIEWPORT
+- background_color = (0.08,0.10,0.12)
 
-## Phase 4 — remove the broken current facility only
+Use V05 `show_only(objs)` behavior, including its shell-occluder handling.
 
-Open the canonical current REV005 Blend.
+Camera lens 52 mm, sensor width 36 mm.
 
-Before deletion, create:
+A:
+- loc (60,18,13)
+- target (52,31,3)
+- file `F01_SOURCE_A_WIDE_900x600.png`
+- expected SHA-256:
+  `0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363`
+
+B:
+- loc (54,24,8)
+- target (52,31,3)
+- file `F01_SOURCE_B_FUNCTIONAL_900x600.png`
+- expected SHA-256:
+  `B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374`
+
+C:
+- loc (46,26,8)
+- target (52,31,3)
+- file `F01_SOURCE_C_DETAIL_900x600.png`
+- expected SHA-256:
+  `229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A`
+
+Camera rotation formula:
+`(Vector(target)-Vector(location)).to_track_quat("-Z","Y").to_euler()`
+
+All three image hashes MUST match exactly.
+
+If any differs, STOP:
+`BLOCKED_F01_SOURCE_RENDER_MISMATCH`
+
+Do not mutate canonical REV005.
+
+## Phase 4 — create exact transfer package
+
+Only after Phase 1–3 PASS.
+
+In the source Blender process:
+- create temporary collection `F01_CAPS_TRIGGER_HISTORICAL_TRANSFER`;
+- link exactly the selected 76 objects;
+- preserve world matrices;
+- include necessary parents, mesh/curve data, materials, node groups/images, modifiers/constraint dependencies;
+- do not include unrelated facility geometry.
+
+Write transfer Blend to SYSTEM TEMP, not Desktop/project root.
+
+## Phase 5 — inventory current broken F01
+
+Open current canonical REV005.
+
+Write:
 `F01_CURRENT_PRE_RESTORE_MANIFEST.json`
 
-Find current objects matching Caps/Trigger using:
-- exact `facility` custom property;
-- and any V08/V09 clean/restoration collection dedicated to Caps/Trigger.
+Identify all objects currently representing Caps/Trigger through:
+- exact facility metadata;
+- dedicated V08/V09 Caps/Trigger collections;
+- known current F01/broken-restoration collection if present.
 
-Record their names and transforms.
+Record them before mutation.
 
-Then remove/unlink only the current broken Caps/Trigger objects.
+Remove/unlink only the broken current Caps/Trigger representation.
 
-Do not:
-- delete neighboring facility objects;
-- globally unhide legacy objects;
-- change facility world location;
-- move campus architecture;
-- change REV004.
+## Phase 6 — append historical accepted source
 
-## Phase 5 — append the exact V05 facility
+Append transfer collection as local data into destination collection:
 
-Append `F01_CAPS_TRIGGER_V05_TRANSFER` into the current REV005 Blend as local data, not linked external data.
+`REV005_FG_F01_CAPS_TRIGGER_ACCEPTED_SOURCE`
 
-Destination collection:
-`REV005_FG_F01_CAPS_TRIGGER_ACCEPTED_V05`
+Do not link externally.
 
-Rules:
-- preserve each source object's matrix_world exactly;
-- preserve parent relationships;
-- preserve material assignments;
-- preserve mesh/curve data;
-- preserve modifiers/constraints where dependencies exist;
-- preserve object dimensions;
-- do not uniformly scale or translate the restored collection.
+For the 76 source-selected objects, destination parity must satisfy:
+- location <= 0.001 m/axis
+- rotation <= 0.0001 rad/axis
+- scale <= 0.0001/axis
+- dimensions <= 0.001 m/axis
 
-After append, programmatically compare destination versus source manifest.
+Write:
+`F01_DESTINATION_MANIFEST.json`
 
-Numerical tolerances:
-- location: <= **0.001 m** per axis;
-- rotation: <= **0.0001 rad** per axis;
-- scale: <= **0.0001** per axis;
-- dimensions: <= **0.001 m** per axis.
+If parity fails, correct it before rendering.
 
-If outside tolerance, correct the transfer before rendering.
+## Phase 7 — cue check
 
-## Phase 6 — visual cue verification before rendering
+Visually/structurally confirm source geometry includes:
+- bowl/feed equipment;
+- cap/trigger feed tracks;
+- guarded assembly conveyor/cell;
+- multiple assembly/work positions;
+- reject station.
 
-Before creating QA images, verify the restored scene visibly contains all four accepted cue families:
+Do not add invented geometry merely to satisfy this list. Historical source is authoritative.
 
-1. **Bowl/feed equipment**
-   - at least one recognisable bowl/feed device from V05;
-   - not a single featureless cuboid.
+## Phase 8 — final F01 QA renders
 
-2. **Cap/trigger feed tracks**
-   - visible track/chute/feeding relationship;
-   - physically associated with the assembly cell.
+Render 1440×960 PNG, perspective, 52 mm, sensor 36 mm.
 
-3. **Guarded assembly conveyor/cell**
-   - guarding/frame plus assembly/work zone;
-   - conveyor/transfer relationship visible.
-
-4. **Reject station**
-   - the V05 reject/outfeed/reject-area geometry present in its historical location.
-
-Do not add replacement geometry merely to satisfy this checklist. The source is the accepted V05 model.
-
-## Phase 7 — locked QA cameras
-
-Use perspective camera with:
-- lens: **52 mm**
-- sensor width: **36 mm**
-- render format: PNG
-- resolution: **1440 × 960**
-- transparent film: false
-
-Camera A:
-- location: **(60.000, 18.000, 13.000) m**
-- target: **(52.000, 31.000, 3.000) m**
-- output: `F01_A_CONTEXT.png`
-
-Camera B:
-- location: **(54.000, 24.000, 8.000) m**
-- target: **(52.000, 31.000, 3.000) m**
-- output: `F01_B_FUNCTIONAL.png`
-
-Camera C:
-- location: **(46.000, 26.000, 8.000) m**
-- target: **(52.000, 31.000, 3.000) m**
-- output: `F01_C_DETAIL.png`
-
-For all cameras:
-`rotation = (target - location).to_track_quat("-Z","Y").to_euler()`
-
-Start with the exact coordinates above.
-
-If a current unrelated facility object that did not exist in V05 obstructs one camera:
-- do not move the restored Caps/Trigger facility;
-- first create a QA-only view-layer exclusion for the obstructing unrelated object;
-- only if exclusion is inappropriate may the camera move;
-- maximum camera position adjustment without stopping: **1.0 m total Euclidean distance**;
-- maximum target adjustment: **0.5 m**;
-- log exact before/after XYZ.
-
-Do not use a wide-angle lens below 45 mm.
-
-## Phase 8 — integrated regression render
-
-Restore normal scene visibility.
-
-Use the same A camera:
-- location (60,18,13)
+A_CONTEXT:
+- loc (60,18,13)
 - target (52,31,3)
-- lens 52 mm
-- 1440×960
+- `F01_A_CONTEXT.png`
 
-Render:
-`F01_D_INTEGRATED_CONTEXT.png`
+B_FUNCTIONAL:
+- loc (54,24,8)
+- target (52,31,3)
+- `F01_B_FUNCTIONAL.png`
 
-This render must prove:
-- Caps/Trigger remains in the correct campus location;
-- no obvious overlap with unrelated equipment/architecture;
-- restoration did not globally unhide legacy proxies.
+C_DETAIL:
+- loc (46,26,8)
+- target (52,31,3)
+- `F01_C_DETAIL.png`
 
-## Phase 9 — save/export/validate
+For A/B/C use facility-focused QA visibility equivalent to historical source proof, but do not delete or mutate unrelated objects.
 
-Save the canonical Blend in place.
+If an unrelated current object obstructs:
+1. first use QA-only view-layer exclusion;
+2. do not move F01;
+3. only if necessary adjust camera <=1.0 m total and target <=0.5 m;
+4. log exact adjustment.
 
-Export canonical GLB in place using the existing project export policy.
+Then restore normal current scene visibility and render:
+
+D_INTEGRATED:
+- same A camera
+- `F01_D_INTEGRATED_CONTEXT.png`
+
+D must prove correct campus integration and no global legacy-unhide regression.
+
+## Phase 9 — save/export
+
+Save current canonical Blend in place.
+
+Export canonical GLB in place using existing project policy.
 
 Create:
-- `F01_DESTINATION_MANIFEST.json`
 - `F01_FINAL_HASHES.json`
 - `F01_VALIDATION.json`
 
-Validation JSON must include:
-- V05 source hash;
-- source facility-object count;
-- restored destination object count;
-- source/destination transform-tolerance result;
-- 4 render paths, dimensions and byte sizes;
-- unrelated-facility object-count/hash checks where practical;
+Validation must record:
+- Git source hash;
+- source selected count = 76;
+- three historical source-render hashes;
+- destination object count/parity;
+- four final render dimensions/bytes;
 - REV004 unchanged;
 - no REV006;
 - no `.hiveai`;
-- canonical local path unchanged.
+- no tour;
+- canonical path unchanged.
 
-## Phase 10 — Git discipline
-
-Commit:
-- canonical Blend/GLB changes;
-- F01 manifests/validation;
-- four QA PNGs;
-- Codex log.
-
-Do not edit:
-- root `TASKS.md`;
-- locked F01 audit criteria;
-- workflow protocol.
-
-Push to `main`.
-
-Verify:
-- local HEAD == origin/main;
-- git status clean except intentionally ignored project binaries allowed by policy.
-
-## Required Codex log
+## Phase 10 — exact log and Git
 
 Create exactly:
 `coordination/Logs/REV005_F01_CAPS_TRIGGER_RESTORE_CODEX_LOG.md`
 
-Include:
-- source commit/hash verification;
-- source manifest count;
-- current broken-object count removed;
-- destination restored-object count;
-- transform comparison result;
-- any camera adjustment;
-- four QA paths;
-- Blend/GLB before and after hashes;
-- final commit SHA;
-- Git status.
+Commit/push only F01 outputs and canonical Blend/GLB changes.
+
+Do not edit TASKS.md or locked criteria.
+
+Verify local HEAD == origin/main and clean status.
 
 ## STOP
 
-After the four renders and artifacts are pushed, STOP.
-
-Do not begin Daycare.
-Do not make any other facility change.
-
-Final state:
+Stop at exactly:
 `AWAITING_GPT_FACILITY_AUDIT_F01`
+
+Do NOT begin Daycare or any other facility.
 
 Return only:
 - final state
-- V05 source hash verification
-- source facility-object count
+- Git source hash verification
+- source selected-object count
+- A/B/C historical source-render hash verification
 - restored destination-object count
-- transform parity result
-- four QA image paths
-- Blend path
-- GLB path
-- final Blend/GLB hashes
+- transform parity
+- four final QA paths
+- Blend/GLB paths
+- final hashes
 - commit SHA
 - full GitHub Codex log URL
