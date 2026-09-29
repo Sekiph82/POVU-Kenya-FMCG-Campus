@@ -1,129 +1,163 @@
-# REV005 FACILITY F01 — CAPS & TRIGGER ASSEMBLY — LOCKED GPT AUDIT CRITERIA
+# REV005 FACILITY F01 — CAPS & TRIGGER ASSEMBLY — LOCKED GPT AUDIT CRITERIA V03
 
 **Executor:** Codex  
 **Independent auditor:** GPT  
-**Source class:** R — exact historical accepted-source restoration
+**Method:** deterministic historical pipeline replay + exact facility transfer
 
 Codex MUST NOT edit this file.
 
-## Gate A — Git source provenance
+## Gate A — no canonical mutation before reconstruction proof
 
-Materialize without checkout/reset:
+Current canonical V09 baseline must remain unchanged until all source-reconstruction gates pass:
+- Blend: `46D427377C315FF8838CBF6917DD469E3F88D14F49E52BE0C18F8C0CFE3D68E8`
+- GLB: `F09D1E5F4A3581509C33453C88B576A67BB6D2CAFDC08532B05F342BC18F6DCF`
+
+## Gate B — temp worktree source
+
+Create detached worktree under OS/system temp, never Desktop:
 
 Commit:
 `420038365847de763d64c8583a9e31ac5a6bd677`
 
-Path:
-`3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend`
-
-Expected Git-materialized SHA-256:
+Initial canonical temp Blend SHA-256:
 `1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D`
 
-The historical local V05-final whole-Blend hash `B4F24C...` is provenance evidence only and is NOT the Git-source equality gate.
+## Gate C — exact historical replay
 
-## Gate B — exact historical facility selection
+Inside temp worktree run, in order, the historical scripts from that worktree:
 
-Use the exact V05 selection semantics from:
-`3d/revisions/REV005/pipeline/render_rev005_interior_remediation_v05.py`
+1. `build_rev005_interior_remediation_v01.py`
+2. `build_rev005_interior_remediation_v02.py`
+3. `build_rev005_interior_remediation_v03.py`
+4. `build_rev005_interior_remediation_v04.py`
+5. `build_rev005_interior_remediation_v05.py`
 
-Specifically:
-- load the V05 owner-interior inventory referenced by that script;
-- use its `objects_for(group, record)` logic;
-- group string exactly: `Caps and trigger assembly`;
-- exclude label/sign/text/callout/caption objects exactly as the historical renderer did.
+No modeling-code edits.
 
-Expected selected visible-object count:
+Expected whole-Blend checkpoint hashes are diagnostic and must be logged:
+- V01 `484E495E9F2689A73BE4DDF7297FEAF96D3227B0E2696A5174A6942E3625D26F`
+- V02 `9BEE6F87D7762BC415F15047DC287D7B591C44C83FF8E39C226E6A07FD480B0C`
+- V03 `9E9A63A2D7AAFA5667CD0A41DFDE746CB2F2A7751F29DAB259CA30E8A99A238F`
+- V04 `EC1B7ABDB86A8FCF1443E780497B49FDDD4268B57EC48106D6D2FDB2D00008BB`
+- V05 `B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6`
+
+A whole-Blend checkpoint difference is a diagnostic finding, not an automatic fail, provided the hard facility-equivalence gates below pass.
+
+## Gate D — exact 76-object provenance
+
+After V05 replay, use the original V05 renderer selection logic.
+
+Required selected Caps/Trigger count:
 **76**
 
-Any other count => STOP before mutation.
+Composition must reconcile exactly:
+- 7 base visible objects
+- 21 V01 Caps objects
+- 47 V02 Caps objects
+- 1 V05 evidence anchor
+- 0 V03
+- 0 V04
 
-## Gate C — byte-identical historical render reproduction
+Any count/composition mismatch => STOP before canonical mutation.
 
-Before mutating the current canonical Blend, render the Git source in a separate Blender process using the exact historical V05 Workbench settings:
+## Gate E — exact source render equivalence
 
-- engine: `BLENDER_WORKBENCH`
-- resolution: 900×600, 100%
-- PNG
-- film transparent: false
-- display light: STUDIO
-- color type: MATERIAL
-- shadows: true
-- cavity: true
-- cavity type: WORLD
-- ridge factor: 1.8
-- valley factor: 1.2
-- background type: VIEWPORT
-- background color: (0.08, 0.10, 0.12)
-- camera lens: 52 mm
-- sensor width: 36 mm
+Run original historical:
+`render_rev005_interior_remediation_v05.py`
 
-Historical cameras:
-- A: location (60,18,13), target (52,31,3)
-- B: location (54,24,8), target (52,31,3)
-- C: location (46,26,8), target (52,31,3)
+Required source images must match archived V05 PNG SHA-256 byte-for-byte:
 
-Expected PNG SHA-256:
-- A: `0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363`
-- B: `B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374`
-- C: `229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A`
+- A:
+  `0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363`
+- B:
+  `B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374`
+- C:
+  `229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A`
 
-All three must match byte-for-byte before current-model mutation.
+All three required.
 
-## Gate D — exact restoration
+## Gate F — exact 76-object transfer
 
-After A/B/C source equivalence passes:
-- append the exact selected 76-object facility set and required dependencies;
-- preserve matrix_world, parents, data, materials, modifiers/constraints;
-- remove/disable only the broken current Caps/Trigger representation;
-- import no unrelated facility objects;
-- do not globally unhide legacy proxies.
+Transfer exactly the 76 selected source objects and dependencies into the current canonical REV005.
 
-Transform tolerances:
-- location <= 0.001 m/axis
-- rotation <= 0.0001 rad/axis
-- scale <= 0.0001/axis
-- dimensions <= 0.001 m/axis
+Before append:
+- inventory and remove/unlink only current Caps/Trigger representations;
+- no other facility may change.
 
-## Gate E — accepted visual identity
+Destination:
+`REV005_FG_F01_CAPS_TRIGGER_ACCEPTED_V05_REPLAY`
 
-Restored result must show without labels:
+Geometry parity tolerances:
+- location <= 0.001 m per axis
+- rotation <= 0.0001 rad per axis
+- scale <= 0.0001 per axis
+- dimensions <= 0.001 m per axis
+
+All 76 destination objects must be visible in the accepted evidence/operational state:
+- `hide_render=False`
+- `hide_viewport=False`
+
+Labels/signs are not part of the 76 and remain excluded.
+
+## Gate G — destination 900×600 parity proof
+
+With only the restored 76 facility objects visible and exact historical V05 Workbench/camera settings, render destination parity A/B/C at 900×600.
+
+Required destination parity PNG hashes must again equal the same archived values:
+
+- A `0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363`
+- B `B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374`
+- C `229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A`
+
+If any destination parity hash differs, F01 is not accepted as an exact restoration.
+
+## Gate H — human review QA
+
+Then render 1440×960:
+- A_CONTEXT: loc (60,18,13), target (52,31,3), lens 52
+- B_FUNCTIONAL: loc (54,24,8), target (52,31,3), lens 52
+- C_DETAIL: loc (46,26,8), target (52,31,3), lens 52
+- D_INTEGRATED_CONTEXT: A camera with normal current scene visibility
+
+F01 must visibly show:
 - bowl/feed equipment;
 - cap/trigger feed tracks;
 - guarded assembly conveyor/cell;
 - multiple work positions/fixtures;
 - reject station.
 
-## Gate F — V10/F01 review renders
+## Gate I — integration/source protection
 
-Produce 1440×960 PNGs:
+- REV004 unchanged
+- no REV006
+- no second Desktop root
+- no `.hiveai`
+- no tour/video
+- no other facility mutation
+- no global unhide
+- canonical root unchanged
+- TASKS and criteria unchanged by Codex
 
-A:
-- location (60,18,13)
-- target (52,31,3)
-- lens 52 mm
+## Gate J — exact artifacts
 
-B:
-- location (54,24,8)
-- target (52,31,3)
-- lens 52 mm
+Required:
+- `F01_BASELINE_HASHES.json`
+- `F01_REPLAY_CHECKPOINTS.json`
+- `F01_REPLAY_SOURCE_MANIFEST.json`
+- `F01_CURRENT_PRE_RESTORE_MANIFEST.json`
+- `F01_DESTINATION_MANIFEST.json`
+- `F01_SOURCE_RENDER_HASHES.json`
+- `F01_DESTINATION_PARITY_HASHES.json`
+- `F01_FINAL_HASHES.json`
+- `F01_VALIDATION.json`
+- source A/B/C replay PNGs
+- destination parity A/B/C PNGs
+- final A/B/C/D 1440×960 PNGs
+- exact Codex log
 
-C:
-- location (46,26,8)
-- target (52,31,3)
-- lens 52 mm
+## Gate K — stop
 
-D integrated:
-- same A camera with normal current-scene integration.
-
-Any camera adjustment must be numerically logged and remain within prompt limits.
-
-## Gate G — source/workflow protection
-
-REV004 unchanged; no REV006; no second Desktop root; no `.hiveai`; no tour; no edits to TASKS or this criteria file.
-
-## Gate H — stop
-
-Stop at:
+Stop exactly at:
 `AWAITING_GPT_FACILITY_AUDIT_F01`
 
-Do not begin Facility 02.
+No Facility 02 work.
