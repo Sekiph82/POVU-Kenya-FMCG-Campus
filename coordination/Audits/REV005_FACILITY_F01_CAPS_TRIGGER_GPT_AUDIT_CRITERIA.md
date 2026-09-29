@@ -2,98 +2,128 @@
 
 **Executor:** Codex  
 **Independent auditor:** GPT  
-**Source class:** R — exact V05 restoration
+**Source class:** R — exact historical accepted-source restoration
 
 Codex MUST NOT edit this file.
 
-## Source truth
+## Gate A — Git source provenance
 
-Authoritative accepted source:
-- commit: `420038365847de763d64c8583a9e31ac5a6bd677`
-- Blend path: `3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend`
-- expected V05 Blend SHA-256: `B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6`
-- source custom property matcher: `facility == "Caps and Trigger Assembly"`
-- historical V05 visible object count: **76**
-- accepted visible cues: **bowl feeders, cap/trigger feed tracks, guarded assembly conveyor, reject station**
+Materialize without checkout/reset:
 
-Source V05 evidence:
-- `output/rev005-interior-remediation-v05/qa/caps_and_trigger_assembly_A_WIDE.png`
-- `output/rev005-interior-remediation-v05/qa/caps_and_trigger_assembly_B_FUNCTIONAL.png`
-- `output/rev005-interior-remediation-v05/qa/caps_and_trigger_assembly_C_PROCESS_OR_DETAIL.png`
+Commit:
+`420038365847de763d64c8583a9e31ac5a6bd677`
 
-## Gate A — historical source integrity
+Path:
+`3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend`
 
-PASS requires:
-- V05 temp Blend extracted from the exact commit without checkout/reset;
-- SHA-256 matches the expected V05 hash;
-- source object manifest created before current-model mutation;
-- all source objects matching the facility property identified;
-- parent/material/data dependencies captured.
+Expected Git-materialized SHA-256:
+`1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D`
 
-If source manifest is materially different from the historical ~76-object evidence, Codex must STOP and report the discrepancy rather than guessing.
+The historical local V05-final whole-Blend hash `B4F24C...` is provenance evidence only and is NOT the Git-source equality gate.
 
-## Gate B — exact restoration
+## Gate B — exact historical facility selection
 
-PASS requires:
-- broken/current Caps & Trigger facility geometry removed or render-disabled only for this facility;
-- complete V05 facility geometry appended into current REV005;
-- each restored object's source world transform retained;
-- source object parent relationships retained;
-- source mesh/curve data and material dependencies retained;
-- no unrelated V05 facility objects imported;
-- no global unhide of retired legacy objects.
+Use the exact V05 selection semantics from:
+`3d/revisions/REV005/pipeline/render_rev005_interior_remediation_v05.py`
 
-Object count alone is never acceptance.
+Specifically:
+- load the V05 owner-interior inventory referenced by that script;
+- use its `objects_for(group, record)` logic;
+- group string exactly: `Caps and trigger assembly`;
+- exclude label/sign/text/callout/caption objects exactly as the historical renderer did.
 
-## Gate C — visual identity
+Expected selected visible-object count:
+**76**
 
-All required cues must be visually readable without labels:
+Any other count => STOP before mutation.
+
+## Gate C — byte-identical historical render reproduction
+
+Before mutating the current canonical Blend, render the Git source in a separate Blender process using the exact historical V05 Workbench settings:
+
+- engine: `BLENDER_WORKBENCH`
+- resolution: 900×600, 100%
+- PNG
+- film transparent: false
+- display light: STUDIO
+- color type: MATERIAL
+- shadows: true
+- cavity: true
+- cavity type: WORLD
+- ridge factor: 1.8
+- valley factor: 1.2
+- background type: VIEWPORT
+- background color: (0.08, 0.10, 0.12)
+- camera lens: 52 mm
+- sensor width: 36 mm
+
+Historical cameras:
+- A: location (60,18,13), target (52,31,3)
+- B: location (54,24,8), target (52,31,3)
+- C: location (46,26,8), target (52,31,3)
+
+Expected PNG SHA-256:
+- A: `0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363`
+- B: `B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374`
+- C: `229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A`
+
+All three must match byte-for-byte before current-model mutation.
+
+## Gate D — exact restoration
+
+After A/B/C source equivalence passes:
+- append the exact selected 76-object facility set and required dependencies;
+- preserve matrix_world, parents, data, materials, modifiers/constraints;
+- remove/disable only the broken current Caps/Trigger representation;
+- import no unrelated facility objects;
+- do not globally unhide legacy proxies.
+
+Transform tolerances:
+- location <= 0.001 m/axis
+- rotation <= 0.0001 rad/axis
+- scale <= 0.0001/axis
+- dimensions <= 0.001 m/axis
+
+## Gate E — accepted visual identity
+
+Restored result must show without labels:
 - bowl/feed equipment;
 - cap/trigger feed tracks;
 - guarded assembly conveyor/cell;
-- multiple assembly/work positions;
+- multiple work positions/fixtures;
 - reject station.
 
-The restored result must visually match or exceed the accepted V05 evidence.
+## Gate F — V10/F01 review renders
 
-## Gate D — locked camera proof
+Produce 1440×960 PNGs:
 
-First three QA cameras use the historical V05 coordinates:
+A:
+- location (60,18,13)
+- target (52,31,3)
+- lens 52 mm
 
-- A: location `(60, 18, 13)`, target `(52, 31, 3)`
-- B: location `(54, 24, 8)`, target `(52, 31, 3)`
-- C: location `(46, 26, 8)`, target `(52, 31, 3)`
-- lens: **52 mm**
-- sensor width: **36 mm**
-- render: **1440×960 PNG**
+B:
+- location (54,24,8)
+- target (52,31,3)
+- lens 52 mm
 
-Only a small camera adjustment is allowed if a current non-facility collision obstructs the historical view. Any adjustment must be documented numerically.
+C:
+- location (46,26,8)
+- target (52,31,3)
+- lens 52 mm
 
-## Gate E — scene integration
+D integrated:
+- same A camera with normal current-scene integration.
 
-The restored facility must occupy its historical world location. No translation/rotation/scale of the complete facility is allowed to "make the camera work".
+Any camera adjustment must be numerically logged and remain within prompt limits.
 
-No collision with unrelated current facilities may be created.
+## Gate G — source/workflow protection
 
-## Gate F — evidence
+REV004 unchanged; no REV006; no second Desktop root; no `.hiveai`; no tour; no edits to TASKS or this criteria file.
 
-Required files:
-- source manifest JSON;
-- destination restoration manifest JSON;
-- baseline hash JSON;
-- final hash JSON;
-- A/B/C QA PNGs;
-- integrated-context PNG;
-- Codex log.
+## Gate H — stop
 
-## Gate G — stop discipline
-
-Codex must stop at exactly:
+Stop at:
 `AWAITING_GPT_FACILITY_AUDIT_F01`
 
-No Daycare or any other facility work may begin.
-
-Independent outcomes:
-- PASS
-- REMEDIATION_REQUIRED
-- BLOCKED
+Do not begin Facility 02.
