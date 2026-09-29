@@ -9,20 +9,20 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.16
-- Current Task: M08.16 — REV005 Interior Remediation V08 clean-replacement final visual closure
-- Current Task Status: ACTIVE_IN_PROGRESS
-- Next Task/Action: Codex is currently executing the V08 clean-replacement prompt. Do not interrupt it. After V08 is fully completed, committed/pushed, and reaches AWAITING_GPT_REMEDIATION_AUDIT_V08, immediately execute queued task M08.16A local-workspace consolidation before M08.17 begins.
-- Required Actor: CODEX
-- Workflow State: CODEX_EXECUTING
+- Current Sprint: M08.17
+- Current Task: M08.17 — Independent GPT V08 clean-replacement audit
+- Current Task Status: ACTIVE
+- Next Task/Action: Independently audit the complete V08 evidence package: 20 isolated label-blind proofs, 60 integrated remediation renders, and 12 preserved-group regression renders. If any render is NOT OK, create a separate image-specific GitHub remediation specification for that render before preparing the next Codex master remediation prompt.
+- Required Actor: GPT
+- Workflow State: AWAITING_GPT_VISUAL_AUDIT
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
 - Tracking Branch: main
 
 ## Blockers/Waits
 
-- M08.16 is required because the independent V07 audit remained at 6/26 visual PASS. V07 proved that proxy occlusion was real, but after hiding 35 obsolete proxies the same 20 groups still failed because the visible underlying geometry remained generic, under-modeled, open-slab, or process-incomplete.
-- V08 must stop incremental layering. Each of the 20 failing groups must be rebuilt in a dedicated clean V08 subcollection and must pass an isolated label-blind proof before integrated campus QA is accepted.
-- M08.17 cannot start until Codex publishes the V08 baseline hashes, clean-replacement map, isolated proofs, integrated QA, validation, acceptance matrix and log, and queued task M08.16A local-workspace consolidation is completed.
+- M08.16 and M08.16A are complete. V08 published the required clean-replacement evidence package and the local workspace consolidation completed successfully before audit.
+- M08.17 is now the active independent visual gate. No downstream freeze or tour task may start until the V08 renders are independently reviewed.
+- If V08 is not a full visual PASS, the next remediation cycle must switch to image-by-image correction: every NOT OK render gets its own detailed GitHub remediation specification describing the exact Blender/model/camera/material changes required for that image, and the next Codex master prompt must execute those specs one by one.
 - M08.09 REV005 freeze cannot occur until M08.17 gives full 26/26 GPT visual PASS and the owner accepts the model. PASS_WITH_FINDINGS is not sufficient.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
@@ -53,7 +53,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - East Glass Deck Access and West Glass Deck Access are removed from the desired presentation narrative and must not be reintroduced as callout destinations.
 - Approved owner exterior corrections for REV005 include the current Hands of Growth state, removal of the two specified obstructing trees, corrected Living Wall extent, and preserved VIP entrance relationships.
 - Large local binary artifacts may remain local according to repository policy, but exact paths/hashes and lightweight evidence/logs must be recorded in GitHub.
-- The canonical local workspace is `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus-repo`; do not create unnecessary parallel desktop project folders.
+- The canonical local workspace is `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus`; do not create unnecessary parallel desktop project folders.
 
 ## Current Truth Snapshot
 
@@ -298,26 +298,28 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - V07 proxy-occlusion diagnosis was real but insufficient. Once occluders were removed, the remaining 20 groups still failed due intrinsic under-modeling, generic primitive geometry, incomplete enclosure, or missing process-specific subassemblies.
   - Provenance and source/workflow protection passed.
 
-- [~] M08.16 — REV005 Interior Remediation V08 clean-replacement final visual closure
+- [x] M08.16 — REV005 Interior Remediation V08 clean-replacement final visual closure
   - Current execution prompt: `coordination/Prompts/REV005_INTERIOR_REMEDIATION_V08_GPT_PROMPT.md`.
   - Locked audit criteria: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V08_GPT_AUDIT_CRITERIA.md`.
   - Strategy: no more layered patching. Build dedicated clean V08 subcollections for the 20 failing groups, retire conflicting legacy facility proxies, and require isolated label-blind proof before integrated QA.
   - Preserve the 6 V07 PASS groups without unnecessary remodeling.
   - Expected minimum QA: 20 isolated proofs + 60 integrated remediation views + 12 preservation views = 92 renders.
-  - Execution state: Codex is currently performing M08.16 / V08.
-  - Codex must stop at `AWAITING_GPT_REMEDIATION_AUDIT_V08` and must not self-promote the tracker.
+  - Execution result: completed. Codex produced 20/20 isolated proofs, 26/26 group coverage and 92/92 total QA renders, then stopped at `AWAITING_GPT_REMEDIATION_AUDIT_V08`.
+  - Final V08 Blend SHA-256: `9860D83DD2799B195EF79617B7F37774DA21FF09C61B7AA6C91F8375263D801A`.
+  - Final V08 GLB SHA-256: `57CEE672E093D766A67D141754092739A0E6F4EE8E76261C0366BFCD936808A0`.
 
-- [ ] M08.16A — Post-V08 local workspace consolidation and canonical path normalization
+- [x] M08.16A — Post-V08 local workspace consolidation and canonical path normalization
   - Execution prompt: `coordination/Prompts/POST_V08_LOCAL_WORKSPACE_CONSOLIDATION_GPT_PROMPT.md`.
   - Timing rule: do not interrupt, pause, cancel, or restart M08.16/V08. Execute this task only after V08 is fully completed and has reached `AWAITING_GPT_REMEDIATION_AUDIT_V08`.
   - Merge/reconcile both current desktop folders into the owner-selected canonical path `C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus`.
   - Preserve all unique/unsynced Git and local binary evidence, normalize current operational path references, synchronize the canonical workspace with GitHub `main`, and only then delete `C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus-repo`.
-  - M08.17 must not begin until this queued maintenance task is complete.
+  - Result: completed. `C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus` is now the sole canonical desktop project root; the old `-repo` folder was removed after zero-missing-file verification; local HEAD and `origin/main` were synchronized at `cd446c58473ce39dbb318d5f681b67d2c9ebe1d5` with clean status.
 
-- [ ] M08.17 — Independent GPT V08 clean-replacement audit
+- [~] M08.17 — Independent GPT V08 clean-replacement audit
   - Required evidence: immutable V08 baseline hashes, clean-replacement map, 20 isolated label-blind proofs, integrated A/B/C QA for all 20 remediation groups, 6-group regression QA, validation, matrix and Codex log.
   - Closure rule: 26/26 visual PASS, 20/20 isolated-proof PASS, 6/6 preservation PASS, truthful provenance and zero source/workflow regressions.
   - Only full PASS permits owner final REV005 review/freeze.
+  - Owner workflow rule if any render is NOT OK: create one dedicated GitHub remediation-spec document per failing render, with precise Blender-oriented geometry/assembly/material/camera instructions; after all failing-image specs exist, prepare one master Codex prompt that executes those documents sequentially.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: M08.17 full PASS.
@@ -384,5 +386,5 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
 - M00-M06 are complete historical foundation/planning packages.
 - M07 is complete and contains the owner-approved R03 camera system plus the owner-usable R04 470-second tour.
 - M08 is active. V01-V07 execution/audit cycles progressively improved evidence, provenance and visibility, but V07 still remained at 6/26 visual PASS.
-- M08.16 V08 is the current task and is currently being executed by Codex. It replaces incremental layering with clean facility-by-facility replacement plus isolated label-blind proof before integration. M08.16A is queued to run immediately afterward, before the M08.17 independent audit.
+- M08.16 V08 and M08.16A workspace consolidation are complete. M08.17 independent GPT V08 visual audit is the current task.
 - M09-M11 remain blocked/planned until REV005 receives full GPT visual PASS and owner acceptance.
