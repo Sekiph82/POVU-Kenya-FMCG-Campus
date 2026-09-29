@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.22
-- Current Task: M08.22 — F01-D integrated-context camera remediation
+- Current Sprint: M08.24
+- Current Task: M08.24 — F01-X01 quarantine V09 Glass Deck overlap regression
 - Current Task Status: READY
-- Next Task/Action: Execute only the focused F01-D camera remediation prompt. Do not modify the accepted 76-object F01 model or any other facility. Produce a corrected 1440×960 integrated render plus a 900×600 audit preview, preserve Blend/GLB hashes exactly, and stop at AWAITING_GPT_F01_D_INTEGRATED_AUDIT.
+- Next Task/Action: Execute only the F01-X01 overlap-quarantine prompt. Quarantine the proven-invalid 117-object V09 ground-level Glass Deck replacement collection, preserve the accepted 76-object F01 and historical elevated Glass Deck source geometry exactly, rerun the integrated-camera gate, and stop at AWAITING_GPT_F01_X01_INTEGRATED_AUDIT. Do not begin Facility 02.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
