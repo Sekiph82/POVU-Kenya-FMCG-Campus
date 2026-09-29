@@ -1,0 +1,184 @@
+{
+  "status": "READY_FOR_GPT_F01_X01_INTEGRATED_AUDIT",
+  "selected_camera": {
+    "location": [
+      13.470107078552246,
+      -7.779893398284912,
+      44.21428680419922
+    ],
+    "target": [
+      52.25,
+      31.0,
+      3.5655999183654785
+    ],
+    "lens_mm": 52.0,
+    "azimuth_deg": 225,
+    "distance": 54.84305092766719
+  },
+  "selected_ray_table": [
+    {
+      "first_hit_object": "V02_CAP_TRIGGER_CAROUSEL",
+      "first_hit_distance": 70.06548450657161,
+      "is_f01": true,
+      "target_distance": 68.55381098086379,
+      "clear": true,
+      "ray": 1,
+      "target_sample": [
+        52.25,
+        31.0,
+        3.0820000171661377
+      ]
+    },
+    {
+      "first_hit_object": "V02_TRIGGER_MAGAZINE",
+      "first_hit_distance": 61.40840784217531,
+      "is_f01": true,
+      "target_distance": 64.24810716980186,
+      "clear": true,
+      "ray": 2,
+      "target_sample": [
+        44.0,
+        31.0,
+        3.0820000171661377
+      ]
+    },
+    {
+      "first_hit_object": "REV005_Caps_and_trigger_assembly_FLOOR",
+      "first_hit_distance": 76.6504349927012,
+      "is_f01": true,
+      "target_distance": 73.53608492524478,
+      "clear": true,
+      "ray": 3,
+      "target_sample": [
+        60.5,
+        31.0,
+        3.0820000171661377
+      ]
+    },
+    {
+      "first_hit_object": "REV005_Caps_and_trigger_assembly_FLOOR",
+      "first_hit_distance": 68.91239077654367,
+      "is_f01": true,
+      "target_distance": 66.11244933468468,
+      "clear": true,
+      "ray": 4,
+      "target_sample": [
+        52.25,
+        26.5,
+        3.0820000171661377
+      ]
+    },
+    {
+      "first_hit_object": "REV005_Caps_and_trigger_assembly_FLOOR",
+      "first_hit_distance": 74.21139930704295,
+      "is_f01": true,
+      "target_distance": 71.19616592885286,
+      "clear": true,
+      "ray": 5,
+      "target_sample": [
+        52.25,
+        35.5,
+        3.0820000171661377
+      ]
+    },
+    {
+      "first_hit_object": "REV005_Caps_and_trigger_assembly_FLOOR",
+      "first_hit_distance": 67.5198981449751,
+      "is_f01": true,
+      "target_distance": 63.25334743643266,
+      "clear": true,
+      "ray": 6,
+      "target_sample": [
+        46.75,
+        28.0,
+        4.049200057983398
+      ]
+    },
+    {
+      "first_hit_object": "V02_CAP_TRIGGER_OUTFEED_SIDE_A",
+      "first_hit_distance": 73.86797535605754,
+      "is_f01": true,
+      "target_distance": 69.67168402362253,
+      "clear": true,
+      "ray": 7,
+      "target_sample": [
+        57.75,
+        28.0,
+        4.049200057983398
+      ]
+    },
+    {
+      "first_hit_object": "V09_WET_WIPES_RIGHT_WALL",
+      "first_hit_distance": 69.16016761243199,
+      "is_f01": false,
+      "target_distance": 66.83071602558353,
+      "clear": true,
+      "ray": 8,
+      "target_sample": [
+        46.75,
+        34.0,
+        4.049200057983398
+      ]
+    },
+    {
+      "first_hit_object": "V02_PICK_HEAD_1",
+      "first_hit_distance": 70.87600755732242,
+      "is_f01": true,
+      "target_distance": 72.93491754479211,
+      "clear": true,
+      "ray": 9,
+      "target_sample": [
+        57.75,
+        34.0,
+        4.049200057983398
+      ]
+    }
+  ],
+  "clear_ray_count": 9,
+  "projected_f01_bbox": {
+    "xmin": 0.15853627026081085,
+    "xmax": 0.8071497678756714,
+    "ymin": 0.07810257375240326,
+    "ymax": 0.7873419523239136,
+    "area_percent": 46.002223398145745
+  },
+  "f01_screen_coverage_percent": 46.002223398145745,
+  "qa_only_exclusion": null,
+  "remaining_visible_surrounding_architecture": "normal corrected canonical visibility with only the named V09 Glass Deck replacement collection quarantined",
+  "outputs": {
+    "integrated_1440x960": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_D_INTEGRATED_CONTEXT_V03.png",
+      "sha256": "066AA81C418B5CF248991152134FE9FF213984FAE7973F6C4DA83E8CDD3907F6",
+      "bytes": 1697389,
+      "resolution": "1440x960",
+      "non_black": true
+    },
+    "audit_preview_900x600": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_D_INTEGRATED_CONTEXT_V03_PREVIEW_900x600.png",
+      "sha256": "C7F62DC596CB56BA37BEB233C563DFCCD32D0CD259E889F501B2540C152F33A1",
+      "bytes": 681959,
+      "resolution": "900x600",
+      "non_black": true
+    }
+  },
+  "blend_before": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "1F2031610251CDCBD064867DB4E925CFD573C621010BDD5A72E17F45BE08D703",
+    "bytes": 5723756
+  },
+  "glb_before": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "B2972FB7F6F4B25CD4CC30615B550EAEC5A11037E56EDA3F18D9DC96F27B632D",
+    "bytes": 26139168
+  },
+  "blend_after": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "80C4FC83DBD260CB9D0A6B02F0582C5829273450437B90D7CD2B9281C17B744E",
+    "bytes": 5736332
+  },
+  "glb_after": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "9EA90C327C2502AA019AD9ADA656BE0BC0B652A19724BEF3162910058B63FD40",
+    "bytes": 4222264
+  }
+}

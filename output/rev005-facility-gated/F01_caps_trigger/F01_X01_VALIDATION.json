@@ -1,0 +1,63 @@
+{
+  "status": "READY_FOR_GPT_F01_X01_INTEGRATED_AUDIT",
+  "f01_76_object_protection_parity": true,
+  "historical_glass_deck_protection_parity": true,
+  "quarantined_collection_only": true,
+  "quarantined_collection": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+  "quarantined_object_count": 117,
+  "outside_collection_mutations": [],
+  "bottle_blow_mutation": false,
+  "wet_processing_mutation": false,
+  "rev004_mutation": false,
+  "rev006_created": false,
+  "hiveai_created": false,
+  "tour_or_video_created": false,
+  "tasks_edited": false,
+  "locked_audit_criteria_edited": false,
+  "selected_camera": {
+    "location": [
+      13.470107078552246,
+      -7.779893398284912,
+      44.21428680419922
+    ],
+    "target": [
+      52.25,
+      31.0,
+      3.5655999183654785
+    ],
+    "lens_mm": 52.0,
+    "azimuth_deg": 225,
+    "distance": 54.84305092766719
+  },
+  "clear_ray_count": 9,
+  "screen_coverage_percent": 46.002223398145745,
+  "final_hashes": {
+    "blend": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+      "sha256": "80C4FC83DBD260CB9D0A6B02F0582C5829273450437B90D7CD2B9281C17B744E",
+      "bytes": 5736332
+    },
+    "glb": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+      "sha256": "9EA90C327C2502AA019AD9ADA656BE0BC0B652A19724BEF3162910058B63FD40",
+      "bytes": 4222264
+    },
+    "export_visibility": "use_visible=True"
+  },
+  "outputs": {
+    "integrated_1440x960": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_D_INTEGRATED_CONTEXT_V03.png",
+      "sha256": "066AA81C418B5CF248991152134FE9FF213984FAE7973F6C4DA83E8CDD3907F6",
+      "bytes": 1697389,
+      "resolution": "1440x960",
+      "non_black": true
+    },
+    "audit_preview_900x600": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_D_INTEGRATED_CONTEXT_V03_PREVIEW_900x600.png",
+      "sha256": "C7F62DC596CB56BA37BEB233C563DFCCD32D0CD259E889F501B2540C152F33A1",
+      "bytes": 681959,
+      "resolution": "900x600",
+      "non_black": true
+    }
+  }
+}
