@@ -1,0 +1,24 @@
+{
+  "task": "M08.20",
+  "facility": "Caps and Trigger Assembly",
+  "revision": "REV005",
+  "baseline_before_mutation": true,
+  "branch": "main",
+  "head": "72f9c2d132787f4c3a915cd54587231cd8edf873",
+  "origin_main": "72f9c2d132787f4c3a915cd54587231cd8edf873",
+  "working_tree_status": "clean",
+  "blend": {
+    "path": "3d/revisions/REV005/POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "46D427377C315FF8838CBF6917DD469E3F88D14F49E52BE0C18F8C0CFE3D68E8",
+    "bytes": 5731445
+  },
+  "glb": {
+    "path": "3d/revisions/REV005/POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "F09D1E5F4A3581509C33453C88B576A67BB6D2CAFDC08532B05F342BC18F6DCF",
+    "bytes": 4384804
+  },
+  "protected_paths_untouched_before_mutation": true,
+  "rev004_frozen": true,
+  "rev006_prohibited": true,
+  "hiveai_prohibited": true
+}

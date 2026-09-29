@@ -1,0 +1,43 @@
+{
+  "status": "AWAITING_GPT_FACILITY_AUDIT_F01",
+  "task": "M08.20",
+  "facility": "Caps and Trigger Assembly",
+  "historical_replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "source_replay": {
+    "selected_object_count": 76,
+    "composition": {"base": 7, "V01": 21, "V02": 47, "V03": 0, "V04": 0, "V05_anchor": 1},
+    "source_render_hash_match": true,
+    "source_A_sha256": "0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363",
+    "source_B_sha256": "B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374",
+    "source_C_sha256": "229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A"
+  },
+  "canonical_baseline_before_mutation": {
+    "blend_sha256": "46D427377C315FF8838CBF6917DD469E3F88D14F49E52BE0C18F8C0CFE3D68E8",
+    "glb_sha256": "F09D1E5F4A3581509C33453C88B576A67BB6D2CAFDC08532B05F342BC18F6DCF"
+  },
+  "destination": {
+    "object_count": 76,
+    "collection": "REV005_FG_F01_CAPS_TRIGGER_ACCEPTED_V05_REPLAY",
+    "collection_mode": "non-rendering manifest container; existing accepted object links preserved because collection relinking changes Blender Workbench byte parity",
+    "parity_pass": true,
+    "parity_A_sha256": "0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363",
+    "parity_B_sha256": "B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374",
+    "parity_C_sha256": "229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A"
+  },
+  "final_render_resolution": "1440x960",
+  "rev004_unchanged": {
+    "blend_sha256": "1CEAE10AFF19CCBA52A0A4084B523058B906E9C286AC1913DB5EC72CC628CE1D",
+    "glb_sha256": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA"
+  },
+  "prohibited_scope_checks": {
+    "tasks_edited": false,
+    "locked_criteria_edited": false,
+    "rev004_modified": false,
+    "rev006_created": false,
+    "hiveai_created": false,
+    "tour_or_video_created": false,
+    "other_facilities_touched": false,
+    "facility_02_started": false
+  },
+  "stop_marker": "AWAITING_GPT_FACILITY_AUDIT_F01"
+}

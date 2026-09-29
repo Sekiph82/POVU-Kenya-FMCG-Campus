@@ -1,0 +1,33 @@
+{
+  "status": "DESTINATION_PARITY_PASS",
+  "resolution": "900x600",
+  "renders": [
+    {
+      "view": "A_WIDE",
+      "raw_render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_DEST_PARITY_RAW_A_WIDE_900x600.png",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_DEST_PARITY_A_WIDE_900x600.png",
+      "raw_pixel_stream_match": true,
+      "sha256": "0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363",
+      "expected_sha256": "0BA58F03F7E4674DB5BE21DEE95D426AAD7693E1AE23AA69EF98B37FB7750363",
+      "status": "PASS"
+    },
+    {
+      "view": "B_FUNCTIONAL",
+      "raw_render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_DEST_PARITY_RAW_B_FUNCTIONAL_900x600.png",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_DEST_PARITY_B_FUNCTIONAL_900x600.png",
+      "raw_pixel_stream_match": true,
+      "sha256": "B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374",
+      "expected_sha256": "B963D85D658969501A6220DFB002DB592ECC56917AB96581E9B49F7F52065374",
+      "status": "PASS"
+    },
+    {
+      "view": "C_PROCESS_OR_DETAIL",
+      "raw_render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_DEST_PARITY_RAW_C_PROCESS_OR_DETAIL_900x600.png",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_DEST_PARITY_C_PROCESS_OR_DETAIL_900x600.png",
+      "raw_pixel_stream_match": true,
+      "sha256": "229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A",
+      "expected_sha256": "229F5EC480314012EAB019739BBDE277E55954C698ADC4EA45C420B00680E27A",
+      "status": "PASS"
+    }
+  ]
+}

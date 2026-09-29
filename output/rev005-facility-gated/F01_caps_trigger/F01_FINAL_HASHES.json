@@ -1,0 +1,47 @@
+{
+  "status": "READY_FOR_GPT_FACILITY_AUDIT_F01",
+  "final_renders": [
+    {
+      "view": "A_CONTEXT",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_A_CONTEXT.png",
+      "sha256": "2C19B25906622A1FB722EDB214B922A28873A3151D5F0B2C009191F7D49D08C3",
+      "bytes": 1507169,
+      "resolution": "1440x960",
+      "isolated": true
+    },
+    {
+      "view": "B_FUNCTIONAL",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_B_FUNCTIONAL.png",
+      "sha256": "E3021E3159B34A90F171085BEDFA8E028C51CD87AF64E6CBC2C3B52FB78424F9",
+      "bytes": 1480572,
+      "resolution": "1440x960",
+      "isolated": true
+    },
+    {
+      "view": "C_DETAIL",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_C_DETAIL.png",
+      "sha256": "F42329B54828D630CC854E06A4204432B0A9F2963645C6C3267A8303A7C93BC7",
+      "bytes": 1558530,
+      "resolution": "1440x960",
+      "isolated": true
+    },
+    {
+      "view": "D_INTEGRATED_CONTEXT",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F01_caps_trigger\\F01_D_INTEGRATED_CONTEXT.png",
+      "sha256": "52F71B8D493E5017E190707522B8645EEE1A71FAA5306F3B3BAF01C433DE092B",
+      "bytes": 1324474,
+      "resolution": "1440x960",
+      "isolated": false
+    }
+  ],
+  "blend": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "sha256": "1F2031610251CDCBD064867DB4E925CFD573C621010BDD5A72E17F45BE08D703",
+    "bytes": 5723756
+  },
+  "glb": {
+    "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+    "sha256": "B2972FB7F6F4B25CD4CC30615B550EAEC5A11037E56EDA3F18D9DC96F27B632D",
+    "bytes": 26139168
+  }
+}

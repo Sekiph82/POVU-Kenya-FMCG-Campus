@@ -1,0 +1,27 @@
+{
+  "status": "REPLAY_COMPLETED",
+  "historical_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "worktree": "C:\\Users\\sekip\\AppData\\Local\\Temp\\POVU_F01_V05_REPLAY_dccffea4d5814fd483790aca347c5bce",
+  "script_order": [
+    "build_rev005_interior_remediation_v01.py",
+    "build_rev005_interior_remediation_v02.py",
+    "build_rev005_interior_remediation_v03.py",
+    "build_rev005_interior_remediation_v04.py",
+    "build_rev005_interior_remediation_v05.py"
+  ],
+  "checkpoints": [
+    {"stage": "initial", "blend_sha256": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D", "prompt_diagnostic_sha256": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D"},
+    {"stage": "V01", "blend_sha256": "D70060D20B34DA01B31169ABB13118CE72F7D02B0E0EB5AE79BEDF2FD772F427", "prompt_diagnostic_sha256": "484E495E9F2689A73BE4DDF7297FEAF96D3227B0E2696A5174A6942E3625D26F"},
+    {"stage": "V02", "blend_sha256": "D70DD85067D862761CA67958DB279F1B00AC59472C908D4212C64FA6CEA05D43", "prompt_diagnostic_sha256": "9BEE6F87D7762BC415F15047DC287D7B591C44C83FF8E39C226E6A07FD480B0C"},
+    {"stage": "V03", "blend_sha256": "8F2BDFEAAECA7238112D53FD4C87451E467A50A1F349AF13E2031BE7F2B1CAAE", "prompt_diagnostic_sha256": "9E9A63A2D7AAFA5667CD0A41DFDE746CB2F2A7751F29DAB259CA30E8A99A238F"},
+    {"stage": "V04", "blend_sha256": "8456CEDC1D133601394063CC68E1D3668371AF9EB9C32B7B0D0C6AE540D1759E", "prompt_diagnostic_sha256": "EC1B7ABDB86A8FCF1443E780497B49FDDD4268B57EC48106D6D2FDB2D00008BB"},
+    {"stage": "V05", "blend_sha256": "25E4C7EF2C3848DEA2961DF8EF0885BF1F1A8AAFC06E1CBE7350087107694734", "prompt_diagnostic_sha256": "B4F24C77EDDCCC273B6D283AAE08C49AABE0063241C17039E1C39CF4BA5D89E6"}
+  ],
+  "hard_gates": {
+    "selected_object_count": 76,
+    "composition": {"base": 7, "V01": 21, "V02": 47, "V03": 0, "V04": 0, "V05_anchor": 1},
+    "source_render_hashes_match_archived": true,
+    "replay_render_pixels_match_archived": true,
+    "canonical_mutation_started_after_gates": false
+  }
+}
