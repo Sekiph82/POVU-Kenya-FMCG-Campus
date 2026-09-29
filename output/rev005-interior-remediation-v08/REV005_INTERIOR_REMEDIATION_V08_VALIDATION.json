@@ -1,0 +1,62 @@
+{
+  "status": "AWAITING_GPT_REMEDIATION_AUDIT_V08",
+  "task": "M08.16",
+  "revision": "REV005",
+  "isolated_proof_gate": {
+    "group_count": 20,
+    "expected_count": 20,
+    "actual_count": 20,
+    "all_nonempty": true,
+    "all_unlabeled": true,
+    "readiness": "20/20 ISOLATED_LABEL_BLIND proofs mechanically ready for GPT review"
+  },
+  "integrated_qa": {
+    "remediation_group_count": 20,
+    "preserved_group_count": 6,
+    "expected_remediation_views": 60,
+    "actual_remediation_views": 60,
+    "expected_preservation_views": 12,
+    "actual_preservation_views": 12,
+    "expected_total": 92,
+    "actual_total": 92,
+    "all_nonempty": true,
+    "all_unlabeled": true,
+    "readiness": "26-group integrated QA mechanically ready"
+  },
+  "artifact_provenance": {
+    "baseline_file": "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\V08_BASELINE_HASHES.json",
+    "baseline_file_sha256": "62ADF4EEEC02094C83110471B86934CD6E858006B936017B9C91828EDB34018A",
+    "before_blend_sha256": "BF61CAFCD0EA20E5FE371D491913A51D866AE058F58242FDC30B94AB454ACBD8",
+    "before_glb_sha256": "105C83237E5903B1957E206A17E278B7B60214BE38E78F65AB65937294338BE7",
+    "expected_before_blend_sha256": "BF61CAFCD0EA20E5FE371D491913A51D866AE058F58242FDC30B94AB454ACBD8",
+    "expected_before_glb_sha256": "105C83237E5903B1957E206A17E278B7B60214BE38E78F65AB65937294338BE7",
+    "final_blend_sha256": "9860D83DD2799B195EF79617B7F37774DA21FF09C61B7AA6C91F8375263D801A",
+    "final_glb_sha256": "57CEE672E093D766A67D141754092739A0E6F4EE8E76261C0366BFCD936808A0",
+    "before_values_immutable_and_match_locked_v07": true,
+    "final_values_differ": true,
+    "final_values_match_build": true
+  },
+  "scope_protection": {
+    "rev004_glb_sha256": "1DB31C66FCAB4F0FF9378C8049FD03890FEBE7157716DAFEA3794F2D1621E2DA",
+    "rev004_unchanged_expected": true,
+    "no_hiveai": true,
+    "no_REV006_created": true,
+    "no_tour_or_owner_review_video_in_v08": true,
+    "tasks_untouched": true,
+    "locked_criteria_untouched": true,
+    "no_east_west_glass_deck_callouts_in_v08_artifacts": true
+  },
+  "evidence": {
+    "clean_replacement_map": "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\V08_CLEAN_REPLACEMENT_MAP.md",
+    "acceptance_matrix": "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\REV005_V08_26_GROUP_VISUAL_ACCEPTANCE_MATRIX.md",
+    "completion_index": "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\CAMPUS_26_GROUP_VISUAL_COMPLETION_INDEX.md",
+    "isolated_folder": "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\qa_isolated",
+    "qa_folder": "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\qa",
+    "contact_sheets": [
+      "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\CONTACT_SHEET_ISOLATED.png",
+      "C:\\Users\\sekip\\.codex\\worktrees\\povu-m0816-v08\\output\\rev005-interior-remediation-v08\\CONTACT_SHEET_INTEGRATED_AND_PRESERVATION.png"
+    ]
+  },
+  "stop_gate": "AWAITING_GPT_REMEDIATION_AUDIT_V08",
+  "prevalidation_pass": true
+}
