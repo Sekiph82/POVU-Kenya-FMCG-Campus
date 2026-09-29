@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.20
-- Current Task: M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
-- Current Task Status: READY_RETRY
-- Next Task/Action: Re-run only F01 using the V03 deterministic replay prompt. Reconstruct the accepted V05 facility in an OS-temp detached worktree by replaying the historical V01→V02→V03→V04→V05 pipeline, prove the exact 7+21+47+1=76-object composition and archived A/B/C render hashes, then transfer only F01 into current REV005 and stop at AWAITING_GPT_FACILITY_AUDIT_F01. Do not begin Facility 02.
+- Current Sprint: M08.24
+- Current Task: M08.24 — F01-X01 quarantine V09 Glass Deck overlap regression
+- Current Task Status: READY
+- Next Task/Action: Execute only the F01-X01 overlap-quarantine prompt. Quarantine the proven-invalid 117-object V09 ground-level Glass Deck replacement collection, preserve the accepted 76-object F01 and historical elevated Glass Deck source geometry exactly, rerun the integrated-camera gate, and stop at AWAITING_GPT_F01_X01_INTEGRATED_AUDIT. Do not begin Facility 02.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -350,7 +350,7 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Audit artifact: `coordination/Audits/REV005_INTERIOR_REMEDIATION_V09_GPT_AUDIT.md`.
   - Workflow decision: abandon multi-facility remediation batches and move to one-facility-at-a-time execution/audit gates.
 
-- [~] M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
+- [x] M08.20 — Facility-Gated F01 Caps & Trigger deterministic historical replay V03
   - Workflow: `coordination/Workflow/REV005_FACILITY_GATED_WORKFLOW.md`.
   - Execution prompt: `coordination/Prompts/REV005_FACILITY_F01_CAPS_TRIGGER_RESTORE_GPT_PROMPT.md`.
   - Locked audit criteria: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT_CRITERIA.md`.
@@ -363,12 +363,17 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Hard source gate: replayed A/B/C Caps renders must match the archived V05 PNG SHA-256 byte-for-byte.
   - Hard destination gate: after transfer, destination facility-only A/B/C 900×600 parity renders must match those same archived hashes byte-for-byte.
   - Human review: A/B/C plus integrated D at 1440×960.
-  - Stop at `AWAITING_GPT_FACILITY_AUDIT_F01`. Do not begin Facility 02.
+  - Execution commit: `6384c03c943f06eef43550e4eb57b6ffede0435d`.
+  - Result: historical 76-object reconstruction/restoration completed; destination facility-only A/B/C parity visually matches the accepted V05 evidence.
+  - Stop state reached: `AWAITING_GPT_FACILITY_AUDIT_F01`.
 
-- [ ] M08.21 — Independent GPT F01 Caps & Trigger facility audit
-  - Audit only F01 against the locked F01 criteria and the accepted V05 visual source.
-  - PASS unlocks Facility 02. FAIL loops only on F01.
-  - No other facility may be modified until F01 receives independent PASS.
+- [~] M08.21 — Independent GPT F01 Caps & Trigger facility audit
+  - Result: `REMEDIATION_REQUIRED_D_INTEGRATED_ONLY`.
+  - Historical reconstruction, 76-object composition, exact destination transform parity, facility-only A/B/C visual parity and scope protection PASS.
+  - Uploaded `F01_D_INTEGRATED_CONTEXT.png` FAIL: F01 is completely invisible because a large architectural/envelope surface blocks nearly the entire 1440×960 frame.
+  - This is a camera/evidence failure only; the accepted F01 model must remain unchanged.
+  - Audit artifact: `coordination/Audits/REV005_FACILITY_F01_CAPS_TRIGGER_GPT_AUDIT.md`.
+  - F02 remains locked.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
