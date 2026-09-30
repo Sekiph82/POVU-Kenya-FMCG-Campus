@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.28
-- Current Task: M08.28 — Facility-Gated F03 Electrical / LV-MV historical restoration
+- Current Sprint: M08.30
+- Current Task: M08.30 — Facility-Gated F04 Employee Changing / Shower / Locker Support historical restoration
 - Current Task Status: READY
-- Next Task/Action: Execute only the F03 Electrical / LV-MV historical restoration prompt. Reconstruct the accepted V05 30-object source, prove archived A/B parity, transfer only F03, protect F01 and F02, pass integrated collision preflight, and stop at AWAITING_GPT_FACILITY_AUDIT_F03. Do not begin Facility 04.
+- Next Task/Action: Execute only the F04 welfare historical restoration prompt. Reconstruct the accepted V05 59-object source, prove archived A/B parity, transfer only F04, protect F01/F02/F03, pass integrated collision preflight, and stop at AWAITING_GPT_FACILITY_AUDIT_F04. Do not begin Facility 05.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -29,7 +29,8 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - Provenance root cause is now fully resolved: the committed base contains 7 visible Caps objects; V01 adds 21, V02 adds 47, V03/V04 add 0, and V05 adds 1 evidence anchor, producing the historical 76-object V05 accepted selection. F01 V03 reconstructs this exact pipeline in a detached OS-temp worktree before any canonical mutation.
 - F01 Caps & Trigger is now independently PASS and locked. The invalid 117-object V09 ground-level Glass Deck replacement remains quarantined for later Glass Deck-specific repair; historical elevated Glass Deck source geometry remains protected.
 - F02 Daycare / Crèche is now independently PASS and locked. Its 79 accepted objects are protected against casual edits.
-- F03 Electrical / LV-MV Room is now the only active facility. No later facility may begin until F03 receives independent GPT PASS.
+- F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
+- F04 Employee Changing / Shower / Locker Support is now the only active facility. No later facility may begin until F04 receives independent GPT PASS.
 - M08.09 REV005 freeze cannot occur until every facility in the facility-gated program receives independent GPT PASS and the owner accepts the completed REV005 model.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
