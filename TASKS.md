@@ -10,9 +10,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 
 - Current Milestone: M08
 - Current Sprint: M08.30
-- Current Task: M08.30 — Facility-Gated F04 Employee Changing / Shower / Locker Support historical restoration
-- Current Task Status: READY
-- Next Task/Action: Execute only the F04 welfare historical restoration prompt. Reconstruct the accepted V05 59-object source, prove archived A/B parity, transfer only F04, protect F01/F02/F03, pass integrated collision preflight, and stop at AWAITING_GPT_FACILITY_AUDIT_F04. Do not begin Facility 05.
+- Current Task: M08.30 — Facility-Gated F04 welfare historical restoration V02 interior-camera retry
+- Current Task Status: READY_RETRY
+- Next Task/Action: Re-run only F04 using the corrected interior-contained camera workflow. Historical source remains 10 BASE + 49 V01 = 59 and archived A/B parity must pass. Restore only F04, protect F01/F02/F03, search for a valid camera from inside the historical Wellness Pavilion, and stop at AWAITING_GPT_FACILITY_AUDIT_F04. Do not begin Facility 05.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -31,6 +31,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F02 Daycare / Crèche is now independently PASS and locked. Its 79 accepted objects are protected against casual edits.
 - F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
 - F04 Employee Changing / Shower / Locker Support is now the only active facility. No later facility may begin until F04 receives independent GPT PASS.
+- F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - M08.09 REV005 freeze cannot occur until every facility in the facility-gated program receives independent GPT PASS and the owner accepts the completed REV005 model.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
