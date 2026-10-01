@@ -1,0 +1,21 @@
+{
+  "task": "M08.39 / F06-X02 only",
+  "status": "BLOCKED_F06_X02_NO_COMPLETE_INTEGRATED_VIEW",
+  "baseline": {
+    "blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825"
+  },
+  "after": {
+    "blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "glb_sha256": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133"
+  },
+  "blend_bytes": 5758885,
+  "glb_bytes": 26580828,
+  "blend_unchanged": true,
+  "glb_changed_after_exact_parity": true,
+  "glb_node_count": 10598,
+  "glb_mesh_count": 10442,
+  "camera_candidates": 78,
+  "camera_selected": null,
+  "stop_marker": "BLOCKED_F06_X02_NO_COMPLETE_INTEGRATED_VIEW"
+}

@@ -1,0 +1,2099 @@
+{
+  "task": "M08.39 / F06-X02 only",
+  "overall_status": "BLOCKED_F06_X02_NO_COMPLETE_INTEGRATED_VIEW",
+  "authorization": "PASS: live TASKS.md authorizes M08.39 / F06-X02 only; F07 not started",
+  "locked_baselines": {
+    "blend_expected": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "blend_actual": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "blend_unchanged": true,
+    "glb_before": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+    "glb_after": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133",
+    "glb_changed_only_after_exact_membership_parity": true
+  },
+  "contribution_split": {
+    "status": "PASS",
+    "BASE": 7,
+    "V01": 12,
+    "V02": 23,
+    "V03": 0,
+    "V04": 0,
+    "V05": 1,
+    "total": 43,
+    "source": "output/rev005-facility-gated/F06_micro_weigh/F06_DESTINATION_43_MANIFEST.json"
+  },
+  "F06_signature_regression": {
+    "status": "PASS",
+    "count": 43,
+    "all_43_unchanged": true,
+    "object_signatures": [
+      {
+        "name": "REV005_Micro-ingredient_weigh_/_dispense_FLOOR",
+        "source_contribution": "BASE",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_COMPLETION"
+          ],
+          "parent": null,
+          "data": "Cube.607",
+          "dimensions": [
+            21.0,
+            10.0,
+            0.12
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              50.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.27999997
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+        "source_contribution": "BASE",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_COMPLETION"
+          ],
+          "parent": null,
+          "data": "Cube.608",
+          "dimensions": [
+            2.2,
+            1.0,
+            1.4
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              47.59999847
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL",
+        "source_contribution": "BASE",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_COMPLETION"
+          ],
+          "parent": null,
+          "data": "Cube.609",
+          "dimensions": [
+            0.99,
+            0.08,
+            0.336
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              47.02000046
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.86800003
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH",
+        "source_contribution": "BASE",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_COMPLETION"
+          ],
+          "parent": null,
+          "data": "Cylinder.029",
+          "dimensions": [
+            0.36,
+            0.36,
+            0.55
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              4.3499999
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              46.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.79999995
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE",
+        "source_contribution": "BASE",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_COMPLETION"
+          ],
+          "parent": null,
+          "data": "Cube.612",
+          "dimensions": [
+            0.8,
+            0.35,
+            1.3
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              3.70000005
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              46.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0",
+        "source_contribution": "BASE",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_COMPLETION"
+          ],
+          "parent": null,
+          "data": "Cube.610",
+          "dimensions": [
+            1.8,
+            1.3,
+            0.42
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -13.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              53.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.45000005
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1",
+        "source_contribution": "BASE",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_COMPLETION"
+          ],
+          "parent": null,
+          "data": "Cube.611",
+          "dimensions": [
+            1.8,
+            1.3,
+            0.42
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -13.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              53.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.97000003
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_BALANCE",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_BALANCE_MESH.001",
+          "dimensions": [
+            1.2,
+            0.7,
+            0.7
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_BIN_0",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_BIN_0_MESH.001",
+          "dimensions": [
+            0.9,
+            1.0,
+            1.2
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_BIN_1",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_BIN_1_MESH.001",
+          "dimensions": [
+            0.9,
+            1.0,
+            1.2
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_BIN_2",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_BIN_2_MESH.001",
+          "dimensions": [
+            0.9,
+            1.0,
+            1.2
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_BIN_3",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_BIN_3_MESH.001",
+          "dimensions": [
+            0.9,
+            1.0,
+            1.2
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_BOOTH",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_BOOTH_MESH.001",
+          "dimensions": [
+            8.0,
+            4.2,
+            3.2
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_HOPPER_0",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_HOPPER_0_MESH.001",
+          "dimensions": [
+            0.68,
+            0.68,
+            0.7
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_HOPPER_1",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_HOPPER_1_MESH.001",
+          "dimensions": [
+            0.68,
+            0.68,
+            0.7
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_HOPPER_2",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_HOPPER_2_MESH.001",
+          "dimensions": [
+            0.68,
+            0.68,
+            0.7
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_HOPPER_3",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_HOPPER_3_MESH.001",
+          "dimensions": [
+            0.68,
+            0.68,
+            0.7
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_SCALE_TABLE",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_SCALE_TABLE_MESH.001",
+          "dimensions": [
+            6.0,
+            1.0,
+            1.2
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "RM_WEIGH_TRANSFER_CART",
+        "source_contribution": "V01",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V01"
+          ],
+          "parent": null,
+          "data": "RM_WEIGH_TRANSFER_CART_MESH.001",
+          "dimensions": [
+            1.8,
+            1.2,
+            1.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_BALANCE_BOWL_0",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_BALANCE_BOWL_0_MESH",
+          "dimensions": [
+            0.86,
+            0.86,
+            0.18
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -7.19999981
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.75
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_BALANCE_BOWL_1",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_BALANCE_BOWL_1_MESH",
+          "dimensions": [
+            0.86,
+            0.86,
+            0.18
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.75
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_BALANCE_BOWL_2",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_BALANCE_BOWL_2_MESH",
+          "dimensions": [
+            0.86,
+            0.86,
+            0.18
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.79999995
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.75
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_PRECISION_BALANCE_0",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_PRECISION_BALANCE_0_MESH",
+          "dimensions": [
+            1.25,
+            0.65,
+            0.32
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -7.19999981
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.45000005
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_PRECISION_BALANCE_1",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_PRECISION_BALANCE_1_MESH",
+          "dimensions": [
+            1.25,
+            0.65,
+            0.32
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.45000005
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_PRECISION_BALANCE_2",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_PRECISION_BALANCE_2_MESH",
+          "dimensions": [
+            1.25,
+            0.65,
+            0.32
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.79999995
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.5
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              2.45000005
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_BALANCE_TABLE",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_BALANCE_TABLE_MESH",
+          "dimensions": [
+            7.0,
+            1.0,
+            1.1
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.90000153
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.79999995
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_BOOTH_BACK",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_BOOTH_BACK_MESH",
+          "dimensions": [
+            10.0,
+            0.12,
+            4.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              53.09999847
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0999999
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_BOOTH_SIDE",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_BOOTH_SIDE_MESH",
+          "dimensions": [
+            0.12,
+            4.0,
+            4.0
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -10.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              51.09999847
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0999999
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_DOSING_CHUTE_0",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_DOSING_CHUTE_0_MESH",
+          "dimensions": [
+            0.18,
+            0.18,
+            2.280351
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -8.0
+            ],
+            [
+              0.0,
+              -0.26311731,
+              -0.96476382,
+              50.90000153
+            ],
+            [
+              0.0,
+              0.96476382,
+              -0.26311731,
+              2.6500001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_DOSING_CHUTE_1",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_DOSING_CHUTE_1_MESH",
+          "dimensions": [
+            0.18,
+            0.18,
+            2.280351
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -6.0
+            ],
+            [
+              0.0,
+              -0.26311731,
+              -0.96476382,
+              50.90000153
+            ],
+            [
+              0.0,
+              0.96476382,
+              -0.26311731,
+              2.6500001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_DOSING_CHUTE_2",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_DOSING_CHUTE_2_MESH",
+          "dimensions": [
+            0.18,
+            0.18,
+            2.280351
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -4.0
+            ],
+            [
+              0.0,
+              -0.26311731,
+              -0.96476382,
+              50.90000153
+            ],
+            [
+              0.0,
+              0.96476382,
+              -0.26311731,
+              2.6500001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_DOSING_CHUTE_3",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_DOSING_CHUTE_3_MESH",
+          "dimensions": [
+            0.18,
+            0.18,
+            2.280351
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.0
+            ],
+            [
+              0.0,
+              -0.26311731,
+              -0.96476382,
+              50.90000153
+            ],
+            [
+              0.0,
+              0.96476382,
+              -0.26311731,
+              2.6500001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_0",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_0_MESH",
+          "dimensions": [
+            1.44,
+            1.44,
+            1.8
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -8.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              4.19999981
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_1",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_1_MESH",
+          "dimensions": [
+            1.44,
+            1.44,
+            1.8
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -6.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              4.19999981
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_2",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_2_MESH",
+          "dimensions": [
+            1.44,
+            1.44,
+            1.8
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -4.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              4.19999981
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_3",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_3_MESH",
+          "dimensions": [
+            1.44,
+            1.44,
+            1.8
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              4.19999981
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_VALVE_0",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_VALVE_0_MESH",
+          "dimensions": [
+            0.45,
+            0.45,
+            0.35
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -8.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0999999
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_VALVE_1",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_VALVE_1_MESH",
+          "dimensions": [
+            0.45,
+            0.45,
+            0.35
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -6.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0999999
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_VALVE_2",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_VALVE_2_MESH",
+          "dimensions": [
+            0.45,
+            0.45,
+            0.35
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -4.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0999999
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_HOPPER_VALVE_3",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_HOPPER_VALVE_3_MESH",
+          "dimensions": [
+            0.45,
+            0.45,
+            0.35
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -2.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              52.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              3.0999999
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_OPERATOR_TABLE",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_OPERATOR_TABLE_MESH",
+          "dimensions": [
+            2.2,
+            1.0,
+            0.9
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -10.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              48.20000076
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.70000005
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V02_WEIGH_TRANSFER_TOTE",
+        "source_contribution": "V02",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V02"
+          ],
+          "parent": null,
+          "data": "V02_WEIGH_TRANSFER_TOTE_MESH",
+          "dimensions": [
+            1.8,
+            1.4,
+            1.2
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              49.20000076
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.79999995
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      },
+      {
+        "name": "V05_EVIDENCE_ANCHOR_MICR",
+        "source_contribution": "V05",
+        "unchanged": true,
+        "signature": {
+          "type": "MESH",
+          "collections": [
+            "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+            "REV005_INTERIOR_REMEDIATION_V05"
+          ],
+          "parent": null,
+          "data": "V05_EVIDENCE_ANCHOR_MICR_MESH",
+          "dimensions": [
+            0.2,
+            0.2,
+            0.12
+          ],
+          "matrix_world": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -5.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              50.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              1.08000004
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "X01_quarantine": {
+    "status": "PASS",
+    "count": 7,
+    "objects": [
+      {
+        "name": "V09_TOOTHPASTE_FLOOR",
+        "hide_viewport": true,
+        "hide_render": true,
+        "quarantined": true,
+        "owner": "F06_X01"
+      },
+      {
+        "name": "V09_TOOTHPASTE_BACK_WALL",
+        "hide_viewport": true,
+        "hide_render": true,
+        "quarantined": true,
+        "owner": "F06_X01"
+      },
+      {
+        "name": "V09_TOOTHPASTE_SOFFIT",
+        "hide_viewport": true,
+        "hide_render": true,
+        "quarantined": true,
+        "owner": "F06_X01"
+      },
+      {
+        "name": "V09_WET_WIPES_FLOOR",
+        "hide_viewport": true,
+        "hide_render": true,
+        "quarantined": true,
+        "owner": "F06_X01"
+      },
+      {
+        "name": "V09_WET_WIPES_BACK_WALL",
+        "hide_viewport": true,
+        "hide_render": true,
+        "quarantined": true,
+        "owner": "F06_X01"
+      },
+      {
+        "name": "V09_WET_WIPES_LEFT_WALL",
+        "hide_viewport": true,
+        "hide_render": true,
+        "quarantined": true,
+        "owner": "F06_X01"
+      },
+      {
+        "name": "V09_WET_WIPES_SOFFIT",
+        "hide_viewport": true,
+        "hide_render": true,
+        "quarantined": true,
+        "owner": "F06_X01"
+      }
+    ]
+  },
+  "F01_F05_protection": {
+    "status": "PASS",
+    "method": "canonical Blend byte identity to X01 accepted locked state",
+    "accepted_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "current_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "unchanged": true,
+    "reference": "output/rev005-facility-gated/F06_micro_weigh/F06_PROTECTION_AFTER.json",
+    "reference_sha256": "AE4A9CCC104D5C48305981C093A8425C7432DEF4B4277F51FAF9C58C0C9F994A"
+  },
+  "camera_search": {
+    "status": "BLOCKED_F06_X02_NO_COMPLETE_INTEGRATED_VIEW",
+    "candidate_count": 78,
+    "minimum_required": 30,
+    "lens_set_mm": [
+      20,
+      24,
+      28,
+      30,
+      32,
+      35
+    ],
+    "sensor_width_mm": 36,
+    "farther_back_positions_tested": [
+      [
+        6,
+        38,
+        8
+      ],
+      [
+        8,
+        38,
+        8
+      ],
+      [
+        12,
+        38,
+        8
+      ],
+      [
+        14,
+        39,
+        8
+      ]
+    ],
+    "candidates_meeting_los_minimum": 19,
+    "candidates_meeting_visual_gate": 0,
+    "best_partial_candidate": "F06_X02_CANDIDATE_01",
+    "best_partial_los": "9/9",
+    "selected_candidate": null,
+    "candidate_image_validation": {
+      "count": 78,
+      "all_900x600": true,
+      "all_sha256_match": true
+    },
+    "integrated_1440x960_created": false,
+    "integrated_preview_900x600_created": false,
+    "blocker": "The foreground neighboring structure masks the operator/service zone and access organization in the best wide-FOV view."
+  },
+  "glb_export_parity": {
+    "status": "PASS",
+    "baseline_node_count": 10605,
+    "expected_node_count": 10598,
+    "actual_node_count": 10598,
+    "baseline_mesh_count": 10449,
+    "expected_mesh_count": 10442,
+    "actual_mesh_count": 10442,
+    "missing_names_count": 0,
+    "unexpected_names_count": 0,
+    "F06_names_present": "43/43",
+    "X01_quarantine_names_absent": "7/7",
+    "final_glb_sha256": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133"
+  },
+  "no_geometry_change": true,
+  "no_saved_visibility_change": true,
+  "no_wider_quarantine": true,
+  "no_F07_started": true,
+  "TASKS_md_edited": false,
+  "stop_marker": "BLOCKED_F06_X02_NO_COMPLETE_INTEGRATED_VIEW"
+}

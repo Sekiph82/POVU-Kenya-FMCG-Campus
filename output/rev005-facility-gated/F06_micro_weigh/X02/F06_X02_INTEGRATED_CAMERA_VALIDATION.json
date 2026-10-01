@@ -1,0 +1,69 @@
+{
+  "task": "M08.39 / F06-X02 only",
+  "status": "BLOCKED_F06_X02_NO_COMPLETE_INTEGRATED_VIEW",
+  "candidate_count": 78,
+  "minimum_required": 30,
+  "candidates_meeting_los_minimum": 19,
+  "candidates_meeting_visual_gate": 0,
+  "selected_candidate": null,
+  "best_partial_candidate": {
+    "candidate_id": "F06_X02_CANDIDATE_01",
+    "camera_xyz_m": [
+      8.0,
+      43.0,
+      6.0
+    ],
+    "target_xyz_m": [
+      -4.0,
+      50.0,
+      2.8
+    ],
+    "lens_mm": 20,
+    "los_count": 9,
+    "los_total": 9,
+    "blockers": [],
+    "camera_outside_geometry": true,
+    "visual_cue_matrix": {
+      "weigh_booth_enclosure": true,
+      "four_hopper_row": true,
+      "hopper_valves": true,
+      "dosing_chutes_and_path": true,
+      "precision_balance_stations": true,
+      "balance_table": true,
+      "transfer_tote_or_cart": true,
+      "operator_service_zone": false,
+      "access_organization": false,
+      "coherent_hopper_to_dosing_to_balance_to_transfer_relationship": true,
+      "legitimate_current_context": true,
+      "camera_outside_geometry": true,
+      "no_unrelated_structure_dominates": false,
+      "no_material_clipping": false,
+      "no_qa_only_hiding": true,
+      "no_neighbor_mutation_beyond_locked_seven": true
+    },
+    "review_note": "Core booth and weigh-to-transfer cues are visible, but the foreground neighbor structure masks the operator/service and access organization; this frame does not meet the complete-view gate.",
+    "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X02/F06_X02_CANDIDATE_01_900x600.png",
+    "preview_sha256": "44D59D2027A62D746DE7BCAE2389FD63194D4D170745AF117626F7BDEF5704C8"
+  },
+  "requirements": {
+    "weigh_booth_enclosure": true,
+    "four_hopper_row": true,
+    "hopper_valves": true,
+    "dosing_chutes_and_path": true,
+    "precision_balance_stations": true,
+    "balance_table": true,
+    "transfer_tote_identifiable": true,
+    "operator_service_zone": false,
+    "access_organization": false,
+    "coherent_process_relationship": true,
+    "legitimate_current_context": true,
+    "camera_outside_geometry": true,
+    "no_unrelated_structure_dominates": false,
+    "no_material_clipping": false,
+    "no_qa_only_hiding": true,
+    "no_neighbor_mutation_beyond_locked_seven": true
+  },
+  "final_integrated_renders_created": false,
+  "stop_marker": "BLOCKED_F06_X02_NO_COMPLETE_INTEGRATED_VIEW",
+  "F07_started": false
+}
