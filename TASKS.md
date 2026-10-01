@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.33
-- Current Task: M08.33 — F04-X03 exact V05 show_only parity replay
-- Current Task Status: READY_RETRY
-- Next Task/Action: Execute only F04-X03. Keep the canonical F04-X01 model and quarantine state unchanged, reproduce the historical V05 show_only visibility semantics exactly, regenerate A/B parity evidence, prove canonical Blend/GLB hashes unchanged, and stop at AWAITING_GPT_F04_X03_FINAL_AUDIT or the locked parity blocker. Do not begin Facility 05.
+- Current Sprint: M08.34
+- Current Task: M08.34 — Facility-Gated F05 Fire Pump House primary historical restoration
+- Current Task Status: READY
+- Next Task/Action: Execute only F05 Fire Pump House. Reconstruct the 123-object V05 historical selection, prove the required 54-primary / 69-secondary spatial split, restore only the 54-object primary accepted cluster around (94,-5), protect F01-F04 and existing quarantine states, produce historical A/B/C parity plus integrated primary-cluster evidence, and stop at AWAITING_GPT_FACILITY_AUDIT_F05. Do not begin Facility 06.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -30,13 +30,15 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F01 Caps & Trigger is now independently PASS and locked. The invalid 117-object V09 ground-level Glass Deck replacement remains quarantined for later Glass Deck-specific repair; historical elevated Glass Deck source geometry remains protected.
 - F02 Daycare / Crèche is now independently PASS and locked. Its 79 accepted objects are protected against casual edits.
 - F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
-- F04 Employee Changing / Shower / Locker Support is now the only active facility. No later facility may begin until F04 receives independent GPT PASS.
+- F04 Employee Changing / Shower / Locker Support is now independently PASS and locked. Its 59 accepted objects and accepted X01 quarantine state are protected against casual edits.
+- F05 Fire Pump House is now the only active facility. No later facility may begin until F05 receives independent GPT PASS.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
 - F04 V04 visual review rejected all six previews. The images exposed cross-facility blockers: the V09 Training Academy envelope overlaps the historical Wellness Pavilion by about 198 m² plan, and `V09_RESTAURANT_RIGHT_WALL` extends beyond the historical Restaurant_Wellness shell into the F04 side. F04-X01 now authorizes only a targeted quarantine of the 81-object V09 Training collection plus the single V09 Restaurant right-wall blocker.
 - F04-X01 execution completed at `674a6bf`: the authorized 81-object Training collection and single Restaurant right wall were quarantined, exact 59-object F04 restored, integrated LOS reached 9/9, and prior-PASS protections held. Independent GPT review found the integrated preview materially improved, but the X01 facility-only parity evidence was invalid: A was occluded by an unrelated surface and B was nearly flat gray. F04-X02 is therefore evidence-only and must not mutate the canonical model.
 - F04-X02 then stopped at `BLOCKED_F04_X02_DESTINATION_PARITY`: exact 59-object isolation and protection gates passed, but A/B still differed structurally from archived V05. Independent root-cause review found X02 did not replicate historical V05 `show_only()` semantics. Historical V05 additionally hides selected objects whose names contain `_LEFT`, `_RIGHT`, `_BACK`, `_SOFFIT`, or `_CEILING_BEAM`; F04 therefore intentionally hides `RM_WELFARE_SHOWER_BACK_0..3` during parity QA. X03 is evidence-only and replays that exact historical visibility logic.
+- F04-X03 final audit passed: exact historical V05 show_only semantics reproduced archived A/B with only 99 and 35 sparse antialias-edge pixel differences respectively; no structural difference and canonical hashes unchanged.
 - M08.09 REV005 freeze cannot occur until every facility in the facility-gated program receives independent GPT PASS and the owner accepts the completed REV005 model.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
@@ -414,6 +416,16 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - F01 is clearly visible in current context; no destructive overlap/camera-inside failure remains.
   - Final F01 state: PASS and locked.
   - Final F01 audit commit: `87ae68637ae7d7f9954d61ba6491476dbc551626`.
+
+- [x] M08.33 — F04-X03 exact V05 show_only parity replay
+  - Execution commit: `0fb3ff0`.
+  - Exact historical 59-object selection and V05 `show_only()` semantics reproduced.
+  - A parity: 99 differing pixels, sparse antialias-edge deltas only, no structural difference.
+  - B parity: 35 differing pixels, sparse antialias-edge deltas only, no structural difference.
+  - Canonical Blend/GLB unchanged.
+  - Independent GPT final decision: PASS.
+  - Final audit: `coordination/Audits/REV005_FACILITY_F04_FINAL_GPT_AUDIT.md`.
+  - F04 is locked.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
