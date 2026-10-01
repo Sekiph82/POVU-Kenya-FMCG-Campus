@@ -1,0 +1,186 @@
+{
+  "task": "M08.38 / F06-X01 only",
+  "status": "PASS",
+  "canonical_objects_before": 10605,
+  "canonical_objects_after": 10605,
+  "added_objects": [],
+  "removed_objects": [],
+  "changed_object_count": 7,
+  "authorized_changed_objects": [
+    "V09_TOOTHPASTE_BACK_WALL",
+    "V09_TOOTHPASTE_FLOOR",
+    "V09_TOOTHPASTE_SOFFIT",
+    "V09_WET_WIPES_BACK_WALL",
+    "V09_WET_WIPES_FLOOR",
+    "V09_WET_WIPES_LEFT_WALL",
+    "V09_WET_WIPES_SOFFIT"
+  ],
+  "authorized_fields_by_object": {
+    "V09_TOOTHPASTE_BACK_WALL": [
+      "hide_viewport",
+      "hide_render",
+      "custom_properties"
+    ],
+    "V09_TOOTHPASTE_FLOOR": [
+      "hide_viewport",
+      "hide_render",
+      "custom_properties"
+    ],
+    "V09_TOOTHPASTE_SOFFIT": [
+      "hide_viewport",
+      "hide_render",
+      "custom_properties"
+    ],
+    "V09_WET_WIPES_BACK_WALL": [
+      "hide_viewport",
+      "hide_render",
+      "custom_properties"
+    ],
+    "V09_WET_WIPES_FLOOR": [
+      "hide_viewport",
+      "hide_render",
+      "custom_properties"
+    ],
+    "V09_WET_WIPES_LEFT_WALL": [
+      "hide_viewport",
+      "hide_render",
+      "custom_properties"
+    ],
+    "V09_WET_WIPES_SOFFIT": [
+      "hide_viewport",
+      "hide_render",
+      "custom_properties"
+    ]
+  },
+  "authorized_property_additions_by_object": {
+    "V09_TOOTHPASTE_BACK_WALL": {
+      "REV005_CROSS_FACILITY_QUARANTINED": true,
+      "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F06_X01",
+      "REV005_CROSS_FACILITY_QUARANTINE_REASON": "Unaccepted V09 Toothpaste/Wet Wipes envelope structurally overlaps accepted F06 Micro-ingredient Weigh / Dispense footprint"
+    },
+    "V09_TOOTHPASTE_FLOOR": {
+      "REV005_CROSS_FACILITY_QUARANTINED": true,
+      "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F06_X01",
+      "REV005_CROSS_FACILITY_QUARANTINE_REASON": "Unaccepted V09 Toothpaste/Wet Wipes envelope structurally overlaps accepted F06 Micro-ingredient Weigh / Dispense footprint"
+    },
+    "V09_TOOTHPASTE_SOFFIT": {
+      "REV005_CROSS_FACILITY_QUARANTINED": true,
+      "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F06_X01",
+      "REV005_CROSS_FACILITY_QUARANTINE_REASON": "Unaccepted V09 Toothpaste/Wet Wipes envelope structurally overlaps accepted F06 Micro-ingredient Weigh / Dispense footprint"
+    },
+    "V09_WET_WIPES_BACK_WALL": {
+      "REV005_CROSS_FACILITY_QUARANTINED": true,
+      "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F06_X01",
+      "REV005_CROSS_FACILITY_QUARANTINE_REASON": "Unaccepted V09 Toothpaste/Wet Wipes envelope structurally overlaps accepted F06 Micro-ingredient Weigh / Dispense footprint"
+    },
+    "V09_WET_WIPES_FLOOR": {
+      "REV005_CROSS_FACILITY_QUARANTINED": true,
+      "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F06_X01",
+      "REV005_CROSS_FACILITY_QUARANTINE_REASON": "Unaccepted V09 Toothpaste/Wet Wipes envelope structurally overlaps accepted F06 Micro-ingredient Weigh / Dispense footprint"
+    },
+    "V09_WET_WIPES_LEFT_WALL": {
+      "REV005_CROSS_FACILITY_QUARANTINED": true,
+      "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F06_X01",
+      "REV005_CROSS_FACILITY_QUARANTINE_REASON": "Unaccepted V09 Toothpaste/Wet Wipes envelope structurally overlaps accepted F06 Micro-ingredient Weigh / Dispense footprint"
+    },
+    "V09_WET_WIPES_SOFFIT": {
+      "REV005_CROSS_FACILITY_QUARANTINED": true,
+      "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F06_X01",
+      "REV005_CROSS_FACILITY_QUARANTINE_REASON": "Unaccepted V09 Toothpaste/Wet Wipes envelope structurally overlaps accepted F06 Micro-ingredient Weigh / Dispense footprint"
+    }
+  },
+  "unauthorized_object_diffs": [],
+  "collection_membership_diffs": [],
+  "scene_custom_properties_unchanged": true,
+  "protected_signature_checks": {
+    "F01_accepted": {
+      "expected_count": 76,
+      "actual_count": 76,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "F02_accepted": {
+      "expected_count": 79,
+      "actual_count": 79,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "F03_accepted": {
+      "expected_count": 30,
+      "actual_count": 30,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "F04_accepted": {
+      "expected_count": 59,
+      "actual_count": 59,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "historical_glass_deck_source": {
+      "expected_count": 392,
+      "actual_count": 392,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "historical_pavilion": {
+      "expected_count": 1,
+      "actual_count": 1,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "wellness_glass": {
+      "expected_count": 1,
+      "actual_count": 1,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "restaurant_wellness": {
+      "expected_count": 1,
+      "actual_count": 1,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "v09_wellness_collection": {
+      "expected_count": 73,
+      "actual_count": 73,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "v09_glass_deck_quarantine": {
+      "expected_count": 117,
+      "actual_count": 117,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "v09_training_quarantine": {
+      "expected_count": 81,
+      "actual_count": 81,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "F05_accepted_primary": {
+      "expected_count": 54,
+      "actual_count": 54,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "F06_accepted": {
+      "expected_count": 43,
+      "actual_count": 43,
+      "signature_mismatches": [],
+      "status": "PASS"
+    },
+    "restaurant_right_wall_accepted_quarantine": {
+      "expected_count": 1,
+      "actual_count": 1,
+      "signature_mismatches": [],
+      "status": "PASS"
+    }
+  },
+  "all_protected_signatures_pass": true,
+  "exactly_seven_authorized_objects_changed": true,
+  "target_state_pass": true,
+  "glb_unchanged_before_export": true,
+  "blend_sha256_after": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B"
+}

@@ -1,0 +1,48 @@
+{
+  "task": "M08.38 / F06-X01 only",
+  "status": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "baseline": {
+    "blend_sha256": "BA2CFFBA98C317EBE8E96E0DAC40263FCACF1C4485D544FA467C38EFD2853655",
+    "glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825"
+  },
+  "after": {
+    "blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825"
+  },
+  "blend_bytes": 5758885,
+  "glb_bytes": 4031240,
+  "glb_export_policy": "Blender REV005 V09 current canonical policy: export_format=GLB, export_cameras=True, export_lights=True, export_apply=True, export_extras=True, use_selection=False, use_visible=True",
+  "glb_node_count": 2019,
+  "glb_mesh_count": 2019,
+  "quarantine_status": "PASS",
+  "protected_signatures": "PASS",
+  "camera_status": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "preview_count": 32,
+  "final_integrated_renders_created": false,
+  "stop_marker": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "canonical_export_status": "FAIL_F06_DESTINATION_OBJECTS_OMITTED",
+  "f06_destination_objects_in_glb": 31,
+  "expected_f06_destination_objects_in_glb": 43,
+  "missing_f06_destination_names": [
+    "RM_WEIGH_BALANCE",
+    "RM_WEIGH_BIN_0",
+    "RM_WEIGH_BIN_1",
+    "RM_WEIGH_BIN_2",
+    "RM_WEIGH_BIN_3",
+    "RM_WEIGH_BOOTH",
+    "RM_WEIGH_HOPPER_0",
+    "RM_WEIGH_HOPPER_1",
+    "RM_WEIGH_HOPPER_2",
+    "RM_WEIGH_HOPPER_3",
+    "RM_WEIGH_SCALE_TABLE",
+    "RM_WEIGH_TRANSFER_CART"
+  ],
+  "baseline_glb_nodes": 10605,
+  "after_glb_nodes": 2019,
+  "canonical_glb_restored_to_locked_baseline": true,
+  "attempted_export_sha256": "B9C82300BCAA2230F9A245318F0BDF37A0B2AD73D19F1CF6A3A0FDF8B5FEEFDD",
+  "attempted_export_nodes": 2019,
+  "f06_destination_objects_in_attempted_export": 31,
+  "expected_f06_destination_objects_in_attempted_export": 43,
+  "export_attempt_retained": false
+}

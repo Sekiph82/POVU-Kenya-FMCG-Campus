@@ -1,0 +1,66 @@
+{
+  "task": "M08.38 / F06-X01 only",
+  "status": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "candidate_count": 32,
+  "minimum_candidate_count": 24,
+  "candidates_meeting_los_minimum": 3,
+  "candidates_meeting_visual_gate": 0,
+  "selected_candidate": null,
+  "best_partial_candidate": {
+    "candidate_id": "F06_X01_CANDIDATE_32",
+    "camera_xyz_m": [
+      8,
+      43,
+      6
+    ],
+    "target_xyz_m": [
+      -4,
+      50,
+      2.8
+    ],
+    "lens_mm": 52,
+    "los_count": 9,
+    "los_total": 9,
+    "blockers": [],
+    "camera_outside_geometry": true,
+    "visual_cue_matrix": {
+      "weigh_booth": true,
+      "hopper_row": true,
+      "hopper_valves": true,
+      "dosing_chutes": true,
+      "precision_balances": true,
+      "balance_table": true,
+      "transfer_tote_or_cart": false,
+      "operator_or_service_zone": false,
+      "access_organization": false,
+      "complete_workflow_relationship": false,
+      "structure_dominance_or_clipping": true
+    },
+    "review_note": "Best LOS and process-line view (9/9). The yellow transfer item is cropped at the frame edge; operator/service zone and access organization are not established.",
+    "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_32_900x600.png",
+    "preview_sha256": "23D57568F03DDD5FAE7A00746F219BA7F71DF98616CDC44480DD8F9879295711"
+  },
+  "requirements": {
+    "weigh_booth_or_enclosure": false,
+    "substantially_complete_hopper_row": false,
+    "hopper_valves": false,
+    "dosing_chutes_or_path": false,
+    "precision_balance_stations": false,
+    "balance_table": false,
+    "transfer_tote_or_cart_fully_identifiable": false,
+    "operator_service_zone": false,
+    "access_organization": false,
+    "coherent_hopper_to_transfer_workflow": false,
+    "legitimate_current_context": true,
+    "camera_outside_geometry": true,
+    "no_unrelated_structure_dominates": false,
+    "no_material_clipping": false,
+    "no_qa_only_hiding": true,
+    "no_neighbor_mutation_beyond_exact_seven": true
+  },
+  "stop_marker": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "do_not_widen_quarantine": true,
+  "do_not_alter_wet_processing": true,
+  "do_not_alter_F06_geometry": true,
+  "final_integrated_renders_created": false
+}

@@ -1,0 +1,81 @@
+{
+  "task": "M08.38 / F06-X01 only",
+  "status": "BLOCKED_F06_X01_EXPORT_PARITY",
+  "F06_destination_collection": {
+    "name": "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+    "count": 43,
+    "expected_count": 43,
+    "status": "PASS"
+  },
+  "historical_contribution_split": {
+    "BASE": 0,
+    "V01": 0,
+    "V02": 0,
+    "V03": 0,
+    "V04": 0,
+    "V05": 0
+  },
+  "split_status": "FAIL",
+  "dimensional_validation": {
+    "status": "PASS",
+    "anchor_count": 36,
+    "evidence_path": "output/rev005-facility-gated/F06_micro_weigh/F06_PRIMARY_DIMENSIONAL_VALIDATION.json",
+    "sha256": "B2A52110BB481B0FD333171D2F398AF7F590DCB06BE208A03C8402AEE3A18803",
+    "unchanged": true
+  },
+  "F06_accepted_signature_regression": {
+    "count": 43,
+    "signature_parity": "PASS",
+    "geometry_transform_material_parent_data_unchanged": true,
+    "evidence_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_QUARANTINE_DIFF.json"
+  },
+  "source_and_historical_ABCs": {
+    "source_render_parity": "PASS",
+    "destination_parity": "PASS",
+    "historical_ABCs_rerendered": false,
+    "historical_evidence_preserved": true
+  },
+  "canonical_export_regression": {
+    "policy": "Blender REV005 V09 current canonical policy: export_format=GLB, export_cameras=True, export_lights=True, export_apply=True, export_extras=True, use_selection=False, use_visible=True",
+    "status": "FAIL_F06_DESTINATION_OBJECTS_OMITTED",
+    "glb_node_count": 2019,
+    "glb_mesh_count": 2019,
+    "f06_destination_object_names_found_in_glb": 31,
+    "expected_f06_destination_objects": 43,
+    "all_f06_destination_objects_present": false,
+    "authorized_v09_objects_absent_from_export": 7,
+    "missing_f06_destination_names": [
+      "RM_WEIGH_BALANCE",
+      "RM_WEIGH_BIN_0",
+      "RM_WEIGH_BIN_1",
+      "RM_WEIGH_BIN_2",
+      "RM_WEIGH_BIN_3",
+      "RM_WEIGH_BOOTH",
+      "RM_WEIGH_HOPPER_0",
+      "RM_WEIGH_HOPPER_1",
+      "RM_WEIGH_HOPPER_2",
+      "RM_WEIGH_HOPPER_3",
+      "RM_WEIGH_SCALE_TABLE",
+      "RM_WEIGH_TRANSFER_CART"
+    ],
+    "baseline_vs_after_glb_node_count": {
+      "baseline": 10605,
+      "after": 2019,
+      "delta": -8586
+    },
+    "attempted_export_sha256": "B9C82300BCAA2230F9A245318F0BDF37A0B2AD73D19F1CF6A3A0FDF8B5FEEFDD",
+    "attempted_export_nodes": 2019,
+    "current_canonical_glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+    "current_canonical_glb_restored_to_locked_baseline": true,
+    "export_result_retained": false
+  },
+  "quarantine_and_protection_gates": {
+    "exactly_seven_authorized_objects_changed": true,
+    "all_protected_signatures_pass": true,
+    "unauthorized_object_diffs": [],
+    "collection_membership_diffs": []
+  },
+  "camera_gate": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "stop_marker": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "next_facility_started": false
+}

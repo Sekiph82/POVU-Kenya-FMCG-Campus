@@ -1,0 +1,22 @@
+{
+  "task": "M08.38 / F06-X01 only",
+  "overall_status": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "quarantine_mutation": "PASS",
+  "protected_signatures": "PASS",
+  "canonical_export": "BLOCKED_F06_X01_EXPORT_PARITY",
+  "F06_regression": "FAIL",
+  "integrated_camera": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "scope": "exact seven V09 Toothpaste/Wet Wipes envelope objects only",
+  "stop_marker": "BLOCKED_F06_X01_NO_COMPLETE_INTEGRATED_VIEW",
+  "no_F07_started": true,
+  "evidence_paths": {
+    "before": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_QUARANTINE_BEFORE.json",
+    "after": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_QUARANTINE_AFTER.json",
+    "diff": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_QUARANTINE_DIFF.json",
+    "camera_candidates": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CAMERA_CANDIDATES.json",
+    "camera_validation": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_INTEGRATED_CAMERA_VALIDATION.json",
+    "regression": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_REGRESSION.json",
+    "final_hashes": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_FINAL_HASHES.json"
+  },
+  "export_note": "The requested use_visible=True export omitted 12 accepted F06 destination object names and reduced node count from 10,605 to 2,019. That output was discarded and the canonical GLB restored to its locked baseline SHA-256 to preserve accepted objects. GPT direction is required before another export."
+}

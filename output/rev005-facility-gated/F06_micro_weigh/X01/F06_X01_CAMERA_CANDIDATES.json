@@ -1,0 +1,3105 @@
+{
+  "task": "M08.38 / F06-X01 only",
+  "status": "VISUALLY_REVIEWED_NO_VALID_INTEGRATED_VIEW",
+  "canonical_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+  "quarantined_objects": [
+    "V09_TOOTHPASTE_FLOOR",
+    "V09_TOOTHPASTE_BACK_WALL",
+    "V09_TOOTHPASTE_SOFFIT",
+    "V09_WET_WIPES_FLOOR",
+    "V09_WET_WIPES_BACK_WALL",
+    "V09_WET_WIPES_LEFT_WALL",
+    "V09_WET_WIPES_SOFFIT"
+  ],
+  "quarantined_visibility_state": "saved canonical state; no temporary hide",
+  "camera_count": 32,
+  "minimum_required": 24,
+  "required_lenses_present": [
+    35,
+    40,
+    45,
+    52
+  ],
+  "los_targets": [
+    "V02_WEIGH_HOPPER_0",
+    "V02_WEIGH_HOPPER_2",
+    "V02_WEIGH_HOPPER_VALVE_1",
+    "V02_WEIGH_DOSING_CHUTE_0",
+    "V02_WEIGH_DOSING_CHUTE_2",
+    "V02_PRECISION_BALANCE_0",
+    "V02_PRECISION_BALANCE_2",
+    "V02_WEIGH_TRANSFER_TOTE",
+    "V02_WEIGH_OPERATOR_TABLE"
+  ],
+  "candidates": [
+    {
+      "candidate_id": "F06_X01_CANDIDATE_01",
+      "camera_xyz_m": [
+        -18,
+        38,
+        6
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.2986
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 19.8806
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.6657
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.6623
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 19.3296
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.4755
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.812
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 21.612
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.6576
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_01_900x600.png",
+      "preview_sha256": "14D63D8E12A965B5A16383BE0DB06B1623FAC1B0F4385C1D02A495B80F34BE69",
+      "visual_review_note": "Nearly fully occluded by foreground structure."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_02",
+      "camera_xyz_m": [
+        -20,
+        39,
+        7
+      ],
+      "target_xyz_m": [
+        -3,
+        49.5,
+        2.8
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.912
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 20.8048
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 19.499
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.4509
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 20.4091
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.5769
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 20.1691
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 23.0452
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.5853
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_02_900x600.png",
+      "preview_sha256": "7E39B39051842FCEBDE0BF5568C43205A041421EE1599A5D171830672DB7B348",
+      "visual_review_note": "Nearly fully occluded; process line is only a dark fragment."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_03",
+      "camera_xyz_m": [
+        -22,
+        40,
+        6
+      ],
+      "target_xyz_m": [
+        -2.5,
+        49.5,
+        2.6
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.5267
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 21.7081
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 20.2092
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.0564
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 21.308
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.4325
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 21.2954
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 24.2132
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.1568
+        }
+      ],
+      "camera_outside_geometry": false,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_03_900x600.png",
+      "preview_sha256": "D10155775A19DE69A67D509FD7EA9D784986C96CC2A6397601F1BFBE794C7289",
+      "visual_review_note": "Foreground geometry occludes the process area; camera also intersects geometry."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_04",
+      "camera_xyz_m": [
+        -18,
+        42,
+        5
+      ],
+      "target_xyz_m": [
+        -4,
+        49,
+        2.5
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 4,
+      "los_total": 9,
+      "blocker_names": [
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL",
+        "V02_WEIGH_BOOTH_SIDE",
+        "V09_TUBE_FEED_TOP"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 14.1647
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 17.2232
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 15.7356
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 13.5916
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 16.7551
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.8605
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+          "distance_m": 16.727
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL",
+          "distance_m": 19.6489
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_TUBE_FEED_TOP",
+          "distance_m": 10.6457
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_04_900x600.png",
+      "preview_sha256": "FD8EE38F7E351C375D0CE44FA0D294E9115C2F71B6BF178779B229C202E92FF8",
+      "visual_review_note": "Partial equipment view; transfer and service context are not shown."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_05",
+      "camera_xyz_m": [
+        -20,
+        43,
+        6
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 5,
+      "los_total": 9,
+      "blocker_names": [
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+        "V02_WEIGH_BOOTH_SIDE"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 15.1076
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 18.4456
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 16.8941
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 14.7524
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 18.1558
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 14.3768
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 18.4036
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+          "distance_m": 21.356
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.0636
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": false,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": true,
+        "access_organization": true,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_05_900x600.png",
+      "preview_sha256": "3D9A398A9B4AF320165BE7DB38095C7847F98B0EDBED4FA59AE1B7993219A4F5",
+      "visual_review_note": "Broad partial work-zone view; equipment and aisle are visible, but the complete transfer item and full process chain are not."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_06",
+      "camera_xyz_m": [
+        -17,
+        44,
+        5
+      ],
+      "target_xyz_m": [
+        -3,
+        49.5,
+        2.8
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 4,
+      "los_total": 9,
+      "blocker_names": [
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+        "V02_WEIGH_BOOTH_SIDE"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 12.0681
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 15.2853
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 13.7335
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 11.5816
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 14.9041
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.0812
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+          "distance_m": 15.1127
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+          "distance_m": 18.0632
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 8.8051
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": false,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": true,
+        "access_organization": true,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_06_900x600.png",
+      "preview_sha256": "95BC0F55926FD2B52863FBA05F442099C75B66EDFFA4E0DBFCD455C1A6D00AEE",
+      "visual_review_note": "Broad partial work-zone view; left-side equipment and downstream transfer remain obstructed."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_07",
+      "camera_xyz_m": [
+        -18,
+        45,
+        6
+      ],
+      "target_xyz_m": [
+        -2.5,
+        49.5,
+        2.6
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 5,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_PRECISION_BALANCE_2",
+        "V02_WEIGH_BOOTH_SIDE"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 12.3386
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 15.7556
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 14.1919
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 12.0844
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 15.5574
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.8951
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 15.9966
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_2",
+          "distance_m": 18.9547
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 9.6296
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": false,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": true,
+        "access_organization": true,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_07_900x600.png",
+      "preview_sha256": "1BD56DFBF9FC58C317C840F0F201E17E1A75B27AA9414161D69E78568EC17CBA",
+      "visual_review_note": "Partial hopper and balance line; transfer and full service context are absent."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_08",
+      "camera_xyz_m": [
+        -20,
+        46,
+        6
+      ],
+      "target_xyz_m": [
+        -4,
+        49,
+        2.5
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 2,
+      "los_total": 9,
+      "blocker_names": [
+        "HOLDING_TANK_VESSEL",
+        "V02_BALANCE_BOWL_1",
+        "V02_WEIGH_BOOTH_SIDE"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 13.5366
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 17.1825
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 15.5052
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 13.3878
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 17.0655
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 13.5164
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_1",
+          "distance_m": 17.7396
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_1",
+          "distance_m": 20.6853
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "HOLDING_TANK_VESSEL",
+          "distance_m": 11.1054
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_08_900x600.png",
+      "preview_sha256": "B8E74D6ACB71636D997B610CBA2A284C2BFC365EC8EE84128A51F67575A4E016",
+      "visual_review_note": "Foreground booth/wall clips the equipment row and downstream context."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_09",
+      "camera_xyz_m": [
+        -18,
+        39,
+        8
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_SOFFIT"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 16.8357
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 19.4792
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 18.3578
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 16.4388
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 19.1372
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 15.4173
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 18.7641
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 21.5981
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_SOFFIT",
+          "distance_m": 13.7233
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_09_900x600.png",
+      "preview_sha256": "F99064B7837FAE3A6F0AEC197E5001F85DD650DA3A2239AF79C0B73025A7BB53",
+      "visual_review_note": "Foreground structure fills nearly the entire image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_10",
+      "camera_xyz_m": [
+        -20,
+        41,
+        8
+      ],
+      "target_xyz_m": [
+        -3,
+        49.5,
+        2.8
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 6,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_PRECISION_BALANCE_2",
+        "V02_WEIGH_BOOTH_SIDE"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 16.7165
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 19.7848
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 18.4665
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 16.4509
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 19.561
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 15.8396
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 19.5676
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_2",
+          "distance_m": 22.4873
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 13.8394
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": true,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": true,
+        "access_organization": true,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_10_900x600.png",
+      "preview_sha256": "BC21356F8FD574B6FE17C71DD6511F643E7D4334FAE12FAF289018E0EE5798FF",
+      "visual_review_note": "Best broad contextual view after candidate 32; yellow item is partly occluded and not independently identifiable as a complete tote/cart."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_11",
+      "camera_xyz_m": [
+        -16,
+        38,
+        7
+      ],
+      "target_xyz_m": [
+        -2.5,
+        49.5,
+        2.6
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.3658
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.6505
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.6411
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.7903
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.1475
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.4358
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.4698
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 20.2109
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.9665
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_11_900x600.png",
+      "preview_sha256": "890FC33FC8AA532E22A8FC45DA3CC1B3507B883D5407909B0D5F23B6D1F02231",
+      "visual_review_note": "Foreground structure fills nearly the entire image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_12",
+      "camera_xyz_m": [
+        -24,
+        38,
+        7
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 21.4439
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 24.5732
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 23.1346
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 21.0079
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 24.1936
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 20.3271
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 24.0913
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 26.9904
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.1144
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_12_900x600.png",
+      "preview_sha256": "81A05756E76F9E2AB8279CB56BEB5E6D3F3BCCBAD41FC75BFB9920734FD891B1",
+      "visual_review_note": "Foreground structure fills nearly the entire image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_13",
+      "camera_xyz_m": [
+        -15,
+        40,
+        5
+      ],
+      "target_xyz_m": [
+        -5,
+        50,
+        2.8
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.9155
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.2985
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.1199
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.1656
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.6631
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.8149
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.0862
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.8852
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 10.1553
+        }
+      ],
+      "camera_outside_geometry": false,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_13_900x600.png",
+      "preview_sha256": "75688E5D4BC40B50F2CCC0ABD89E6EB0D2328915BCA5959A99A2BEC41173A241",
+      "visual_review_note": "Large foreground structure blocks most of the process line; camera intersects geometry."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_14",
+      "camera_xyz_m": [
+        -15,
+        38,
+        5
+      ],
+      "target_xyz_m": [
+        -3,
+        50.5,
+        2.8
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.6729
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.8225
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.7514
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.8638
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.1153
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.3264
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.297
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.9916
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.8292
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_14_900x600.png",
+      "preview_sha256": "5D34F5D24623C2013899E079D6CC8AC46D2816AA3F9E6E4AE0D4F4D9F70E97C5",
+      "visual_review_note": "Foreground structure fills nearly the entire image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_15",
+      "camera_xyz_m": [
+        -15,
+        40,
+        8
+      ],
+      "target_xyz_m": [
+        -2,
+        49.5,
+        2.6
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.4028
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.7165
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.7801
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.0154
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.3839
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.8021
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.8711
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 18.6569
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.4861
+        }
+      ],
+      "camera_outside_geometry": false,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_15_900x600.png",
+      "preview_sha256": "2CD55D74236C78672A12633DAC05AE943755C1A2CDE8533B57ABCC21567D7DBE",
+      "visual_review_note": "Foreground geometry blocks the line; camera intersects geometry."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_16",
+      "camera_xyz_m": [
+        -14,
+        42,
+        5
+      ],
+      "target_xyz_m": [
+        -4,
+        50.5,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 6,
+      "los_total": 9,
+      "blocker_names": [
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL",
+        "V09_TUBE_FEED_TOP",
+        "V09_TUBE_FILL_POST_-2.0_1.5"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.6893
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 14.1647
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.9464
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.9878
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 13.5916
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 9.7464
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL",
+          "distance_m": 13.1982
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_-2.0_1.5",
+          "distance_m": 16.0649
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_TUBE_FEED_TOP",
+          "distance_m": 8.0827
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": true,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_16_900x600.png",
+      "preview_sha256": "8B6705A310D1EE5813BD0E63053838D3E30CE0595E723696C4D440C2934675DF",
+      "visual_review_note": "Clear close equipment view, but row ends and transfer/service context are outside the frame."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_17",
+      "camera_xyz_m": [
+        -13,
+        39,
+        6
+      ],
+      "target_xyz_m": [
+        -6,
+        51,
+        3
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.0442
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.9135
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.0469
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.3354
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.2916
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.683
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.3838
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.0493
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 10.5891
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_17_900x600.png",
+      "preview_sha256": "4EA839457D0D172D3720B5A08D1A322B99CA3221C4D5AEF1D22AB8F417B0ED6C",
+      "visual_review_note": "Foreground structure fills the image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_18",
+      "camera_xyz_m": [
+        -12,
+        42,
+        7
+      ],
+      "target_xyz_m": [
+        -3,
+        50,
+        2.5
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 7,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_BALANCE_BOWL_0",
+        "V02_WEIGH_HOPPER_1"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.1283
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 13.1088
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_1",
+          "distance_m": 12.2967
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.6833
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.7331
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0",
+          "distance_m": 9.2732
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.1488
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 14.9292
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 8.3982
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": true,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_18_900x600.png",
+      "preview_sha256": "14E40282BA08E81C647D7BCC7531A3318CB50925E1010FF4845607DA339FB7B2",
+      "visual_review_note": "Strong close process view, but no identifiable transfer tote/cart or organized service zone."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_19",
+      "camera_xyz_m": [
+        -12,
+        39,
+        5
+      ],
+      "target_xyz_m": [
+        -4,
+        51,
+        2.8
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.625
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.2853
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.4433
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.7723
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.5304
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 10.945
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.4682
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.0711
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 9.9765
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_19_900x600.png",
+      "preview_sha256": "C1F9DA881C36F3D51304A78C49042E54FF5EE94A09B9F651C7B6D1DD4B2A7ECA",
+      "visual_review_note": "Foreground structure fills nearly the entire image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_20",
+      "camera_xyz_m": [
+        -12,
+        44,
+        5
+      ],
+      "target_xyz_m": [
+        -2,
+        50,
+        2.8
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 8,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_PRECISION_BALANCE_2"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 8.98
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.342
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.1789
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 8.3146
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.8228
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 7.0564
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.5543
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_2",
+          "distance_m": 13.464
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 5.7035
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_20_900x600.png",
+      "preview_sha256": "86CEE3E73C0C6CC3F97E2BA5F59F3F237ED56172CFEA61C3A414061670DDF832",
+      "visual_review_note": "Close crop shows part of the process line; the row and transfer context are incomplete."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_21",
+      "camera_xyz_m": [
+        -11,
+        42,
+        8
+      ],
+      "target_xyz_m": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 6,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_BALANCE_BOWL_0",
+        "V02_BALANCE_BOWL_2",
+        "V02_WEIGH_HOPPER_1"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.1104
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.7844
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_1",
+          "distance_m": 12.207
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.8089
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.5233
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0",
+          "distance_m": 9.3537
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_2",
+          "distance_m": 11.8445
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 14.5355
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 8.8955
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": true,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_21_900x600.png",
+      "preview_sha256": "B10255A4E28E4AB04A89138517B003BCD50186D22F3B9487EED831B9CFFCD592",
+      "visual_review_note": "Close process view with substantial clipping; the transfer item and service zone are absent."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_22",
+      "camera_xyz_m": [
+        -10,
+        40,
+        6
+      ],
+      "target_xyz_m": [
+        -3,
+        49,
+        2.5
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.298
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.5366
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.9773
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.5772
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.8854
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 9.6277
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.6916
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.2225
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 9.2591
+        }
+      ],
+      "camera_outside_geometry": false,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_22_900x600.png",
+      "preview_sha256": "06911B98F16D9DF48C90BD5674880ECC56DA8E6042F67008EEA02DA16F08A828",
+      "visual_review_note": "Foreground structure blocks the equipment; camera intersects geometry."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_23",
+      "camera_xyz_m": [
+        -9,
+        40,
+        5
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.0681
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.0246
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.5144
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.1952
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.2202
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 9.055
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 10.8255
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.262
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 8.8955
+        }
+      ],
+      "camera_outside_geometry": false,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_23_900x600.png",
+      "preview_sha256": "5506338C77595FBEF5DE9359982804F62385690B69E63790DE08C5B9006EF383",
+      "visual_review_note": "Foreground structure blocks the equipment; camera intersects geometry."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_24",
+      "camera_xyz_m": [
+        -8,
+        42,
+        7
+      ],
+      "target_xyz_m": [
+        -2,
+        50,
+        2.8
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 4,
+      "los_total": 9,
+      "blocker_names": [
+        "REV005_LABEL_WEIGH_DISPENSE_ROOM",
+        "V02_BALANCE_BOWL_0",
+        "V02_BALANCE_BOWL_2",
+        "V02_WEIGH_HOPPER_1",
+        "V09_TUBE_FILL_TOP"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.3846
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.1283
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_1",
+          "distance_m": 10.9183
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 9.9062
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "REV005_LABEL_WEIGH_DISPENSE_ROOM",
+          "distance_m": 10.6833
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0",
+          "distance_m": 7.9745
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_2",
+          "distance_m": 9.4864
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 11.9532
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP",
+          "distance_m": 8.3982
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_24_900x600.png",
+      "preview_sha256": "35349ACDC6828E468D4A7638EFE1FB95C47C2FCF0DE8491961E4346D11C9ABC2",
+      "visual_review_note": "Close crop clips the complete workflow and transfer context."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_25",
+      "camera_xyz_m": [
+        -16,
+        48,
+        5
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 2,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_BALANCE_BOWL_1",
+        "V02_WEIGH_BOOTH_SIDE"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 8.98
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 12.6744
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 10.9366
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 8.8279
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 12.5671
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 9.1756
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_1",
+          "distance_m": 13.4533
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_1",
+          "distance_m": 16.3609
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 6.8505
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_25_900x600.png",
+      "preview_sha256": "572BA0512C1B52065134C5C4636E808080A1C44289CA23BC2DB59A67506FE601",
+      "visual_review_note": "Aisle-facing partial view; large booth panel blocks the line."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_26",
+      "camera_xyz_m": [
+        -16,
+        50,
+        6
+      ],
+      "target_xyz_m": [
+        -2,
+        50,
+        2.8
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 2,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_WEIGH_BOOTH_SIDE"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 8.4404
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 12.298
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 10.6024
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 8.7197
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 12.4913
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 9.6069
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 13.7511
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 16.5614
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 7.598
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_26_900x600.png",
+      "preview_sha256": "F51DEE9ACFA5F9FC97F129E3A54A638BE077F101304FCFED69ECF909B05F9799",
+      "visual_review_note": "Aisle-facing partial view; large booth panel blocks the line."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_27",
+      "camera_xyz_m": [
+        -15,
+        52,
+        8
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        3
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 5,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_WEIGH_BOOTH_SIDE",
+        "V02_WEIGH_HOPPER_0",
+        "V02_WEIGH_HOPPER_1"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 7.9649
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_1",
+          "distance_m": 11.6379
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_0",
+          "distance_m": 10.2474
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 8.8788
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.2814
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 10.1928
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 13.8525
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 16.4706
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 8.8955
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_27_900x600.png",
+      "preview_sha256": "30B908C5D6AAB46486FC776179B7FD20CD23F02604683723B3EED54176812D83",
+      "visual_review_note": "Booth wall dominates the foreground and clips the workflow."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_28",
+      "camera_xyz_m": [
+        -13,
+        48,
+        8
+      ],
+      "target_xyz_m": [
+        -3,
+        50,
+        2.8
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 5,
+      "los_total": 9,
+      "blocker_names": [
+        "V02_BALANCE_BOWL_0",
+        "V02_BALANCE_BOWL_2",
+        "V02_WEIGH_BOOTH_SIDE",
+        "V02_WEIGH_HOPPER_1"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 7.4458
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.5565
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_1",
+          "distance_m": 9.4345
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance_m": 7.8761
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.8643
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0",
+          "distance_m": 8.0432
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_2",
+          "distance_m": 11.6229
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 14.4527
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 6.9807
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": false
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_28_900x600.png",
+      "preview_sha256": "E64FA5B17A4A5EE8B008C9E5C809B4D76BA81046F32030382C512DEB665035D1",
+      "visual_review_note": "Booth wall and process objects clip the workflow; transfer context is incomplete."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_29",
+      "camera_xyz_m": [
+        -5,
+        37,
+        7
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.5512
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.2918
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.5309
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.8705
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.5991
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.5615
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.5615
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.1732
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.3615
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_29_900x600.png",
+      "preview_sha256": "0CF4B2EA6725B84E62212E20FEBE749C49D1DC3CEDD6F554D8FF0DB7AE04BB1F",
+      "visual_review_note": "Foreground structure fills nearly the entire image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_30",
+      "camera_xyz_m": [
+        0,
+        38,
+        7
+      ],
+      "target_xyz_m": [
+        -3,
+        50,
+        2.5
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.3658
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.827
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.7229
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.7903
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.1892
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 13.5201
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.781
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.3483
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.2358
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_30_900x600.png",
+      "preview_sha256": "9E8A74748BA5DC3AEE7A72D4E475296951AE2CAC725E8A4C541228B151367B3A",
+      "visual_review_note": "Foreground structure fills nearly the entire image."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_31",
+      "camera_xyz_m": [
+        4,
+        40,
+        8
+      ],
+      "target_xyz_m": [
+        -2,
+        50,
+        2.8
+      ],
+      "lens_mm": 45,
+      "sensor_width_mm": 36,
+      "los_visible": 0,
+      "los_total": 9,
+      "blocker_names": [
+        "V09_WET_PROCESS_BACK_WALL"
+      ],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.3908
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.9144
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 16.371
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.0714
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 14.5407
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 15.116
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 12.2185
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 11.7932
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance_m": 17.4049
+        }
+      ],
+      "camera_outside_geometry": false,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": false,
+        "hopper_row": false,
+        "hopper_valves": false,
+        "dosing_chutes": false,
+        "precision_balances": false,
+        "balance_table": false,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_31_900x600.png",
+      "preview_sha256": "F0FCC44D82B013BD863F5BA76E865C4283447928475376471E6D09C2D2495680",
+      "visual_review_note": "Foreground structure blocks most equipment; camera intersects geometry."
+    },
+    {
+      "candidate_id": "F06_X01_CANDIDATE_32",
+      "camera_xyz_m": [
+        8,
+        43,
+        6
+      ],
+      "target_xyz_m": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "los_visible": 9,
+      "los_total": 9,
+      "blocker_names": [],
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 18.4456
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 15.1076
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 16.8941
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 18.1558
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 14.7524
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_0",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 16.5497
+        },
+        {
+          "target": "V02_PRECISION_BALANCE_2",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 12.629
+        },
+        {
+          "target": "V02_WEIGH_TRANSFER_TOTE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 10.9581
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance_m": 19.2232
+        }
+      ],
+      "camera_outside_geometry": true,
+      "no_qa_hide": true,
+      "no_neighbor_mutation": true,
+      "visual_cues": {
+        "weigh_booth": true,
+        "hopper_row": true,
+        "hopper_valves": true,
+        "dosing_chutes": true,
+        "precision_balances": true,
+        "balance_table": true,
+        "transfer_tote_or_cart": false,
+        "operator_or_service_zone": false,
+        "access_organization": false,
+        "complete_workflow_relationship": false,
+        "structure_dominance_or_clipping": true
+      },
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X01/F06_X01_CANDIDATE_32_900x600.png",
+      "preview_sha256": "23D57568F03DDD5FAE7A00746F219BA7F71DF98616CDC44480DD8F9879295711",
+      "visual_review_note": "Best LOS and process-line view (9/9). The yellow transfer item is cropped at the frame edge; operator/service zone and access organization are not established."
+    }
+  ],
+  "visual_gate_summary": {
+    "candidate_count": 32,
+    "candidates_with_los_at_least_7": 3,
+    "candidates_meeting_full_visual_gate": 0,
+    "selected_candidate": null,
+    "reason": "No preview shows all required cues in one frame. Candidate 32 has 9/9 clear LOS but clips the transfer item and does not establish operator/service zone or access organization."
+  }
+}
