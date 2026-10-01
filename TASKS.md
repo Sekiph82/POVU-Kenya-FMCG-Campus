@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.38
-- Current Task: M08.38 — Facility-Gated F06-X01 targeted cross-facility quarantine + integrated re-audit
+- Current Sprint: M08.39
+- Current Task: M08.39 — Facility-Gated F06-X02 wide-FOV integrated view + GLB export parity
 - Current Task Status: READY
-- Execution Authorization: M08.38 / F06-X01 only
-- Next Task/Action: Execute only F06-X01 using `coordination/Prompts/REV005_FACILITY_F06_X01_TARGETED_CROSS_FACILITY_QUARANTINE_GPT_PROMPT.md`. Apply only the seven authorized V09 Toothpaste/Wet Wipes structural-envelope quarantines proven to overlap accepted F06, preserve F01-F06 and all other neighbor geometry, then re-run integrated current-context camera validation and stop at `AWAITING_GPT_FACILITY_AUDIT_F06_X01`. Do not begin F07.
+- Execution Authorization: M08.39 / F06-X02 only
+- Next Task/Action: Execute only F06-X02 using `coordination/Prompts/REV005_FACILITY_F06_X02_WIDE_FOV_AND_GLB_EXPORT_PARITY_GPT_PROMPT.md`. Preserve the accepted seven-object X01 quarantine and all F01-F06 geometry, run a tight 20–35 mm wide-FOV search around the successful right/front-oblique camera family, repair the X01 contribution-split evidence bug, and rebuild the GLB only through deterministic baseline-membership selection parity. Stop at `AWAITING_GPT_FACILITY_AUDIT_F06_X02`. Do not begin F07.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -471,16 +471,26 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Stop: `BLOCKED_F06_R01_NO_COMPLETE_INTEGRATED_VIEW`.
   - Root cause escalated from camera framing to cross-facility obstruction.
 
-- [ ] M08.38 — F06-X01 targeted cross-facility quarantine + integrated re-audit
+- [!] M08.38 — F06-X01 targeted cross-facility quarantine + integrated re-audit
+  - Execution commit: `13569d4000751e71b38e9b6969bcd182144f9ff0`.
+  - Exactly seven authorized Toothpaste/Wet Wipes V09 structural objects quarantined; protection diff PASS.
+  - Canonical Blend after accepted quarantine: `4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B`.
+  - 32 camera candidates reviewed.
+  - Candidate 32: 9/9 LOS, but 52 mm framing clips the transfer/service relationship.
+  - Broad `use_visible=True` GLB export rejected: 10,605 → 2,019 nodes and 12 accepted F06 names omitted; failed export discarded.
+  - Independent GPT audit: X01 quarantine accepted; X02 required for wide-FOV framing + deterministic GLB membership export.
+  - Audit: `coordination/Audits/REV005_F06_X01_GPT_AUDIT.md`.
+
+- [ ] M08.39 — F06-X02 wide-FOV integrated view + GLB export parity
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F06_X01_TARGETED_CROSS_FACILITY_QUARANTINE_GPT_PROMPT.md`.
-  - Root cause: `coordination/Audits/REV005_F06_X01_CROSS_FACILITY_BLOCKER_ROOT_CAUSE.md`.
-  - Locked criteria: `coordination/Audits/REV005_F06_X01_TARGETED_QUARANTINE_GPT_CRITERIA.md`.
-  - Authorized canonical mutation: saved visibility/quarantine metadata for exactly seven proven-overlap V09 Toothpaste/Wet Wipes structural objects.
-  - Explicitly protect Wet Processing, legitimate F06 booth/operator geometry, all F01-F06 accepted objects, and every non-target neighbor object.
-  - Re-run >=24 integrated candidates after canonical quarantine; visual completeness remains mandatory even with LOS success.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F06_X02_WIDE_FOV_AND_GLB_EXPORT_PARITY_GPT_PROMPT.md`.
+  - No geometry changes and no wider quarantine.
+  - Preserve accepted X01 seven-object quarantine and locked Blend hash.
+  - Search 20/24/28/30/32/35 mm lenses around the successful right/front-oblique family seeded by candidate 32.
+  - Correct the X01 contribution-split evidence bug from the 43-object source_contribution fields.
+  - GLB export must use deterministic baseline membership: all baseline node names except the seven quarantined objects; 43/43 F06 names must remain present.
   - Do not begin F07.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F06_X01`.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F06_X02`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
