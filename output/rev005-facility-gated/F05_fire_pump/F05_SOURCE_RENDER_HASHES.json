@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "views": [
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\F05_SOURCE_A_900x600.png",
+      "sha256": "3981934E974DD7A10540A374FE18FF79EA79A5E42909A02B1AE4E559EB3A7369",
+      "bytes": 645115,
+      "view": "A",
+      "expected_sha256": "5CC3309AA25319E7C4DAA55DDBE2F8B8D50EDAD26EC40F74E82206B584D1F724",
+      "raw_sha_match": false,
+      "decoded_parity": {
+        "same_dimensions": true,
+        "differing_channels": 0,
+        "max_normalized_delta": 0.0,
+        "decoded_equal": true
+      }
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\F05_SOURCE_B_900x600.png",
+      "sha256": "DB7A1C33B4D5862BABBC201A2ED424BC41FED608AC5AAA3465296D173828E20A",
+      "bytes": 672711,
+      "view": "B",
+      "expected_sha256": "D97723E350428731580A1DB79CA84FEBC3922B05B6978D580879D2FA558B7D1F",
+      "raw_sha_match": false,
+      "decoded_parity": {
+        "same_dimensions": true,
+        "differing_channels": 0,
+        "max_normalized_delta": 0.0,
+        "decoded_equal": true
+      }
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\F05_SOURCE_C_900x600.png",
+      "sha256": "C36D85A1CA8FA130629228CFA6CF688BD390B0EBA58C5C09DD30C4CA99C389A8",
+      "bytes": 642233,
+      "view": "C",
+      "expected_sha256": "AC46E1F4DD829E66B3B3898857E85D53FAFB64DECBB635F7528728033F5A7304",
+      "raw_sha_match": false,
+      "decoded_parity": {
+        "same_dimensions": true,
+        "differing_channels": 0,
+        "max_normalized_delta": 0.0,
+        "decoded_equal": true
+      }
+    }
+  ]
+}

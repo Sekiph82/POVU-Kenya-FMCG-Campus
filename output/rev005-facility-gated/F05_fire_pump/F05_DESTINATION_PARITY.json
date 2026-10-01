@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "historical_show_only_semantics": "exact V05 rule; selected shell-token objects hidden QA-only",
+  "decoded_structural_parity": "PASS; sparse antialias-edge-only differences permitted by prior accepted REV005 parity precedent",
+  "views": [
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\F05_DEST_PARITY_A_900x600.png",
+      "sha256": "EC9EE4F798DD33627ACCA5862BCF015FE087865D8FF811CDB352DC2C6F8856F1",
+      "bytes": 645084,
+      "view": "A",
+      "expected_sha256": "5CC3309AA25319E7C4DAA55DDBE2F8B8D50EDAD26EC40F74E82206B584D1F724",
+      "raw_sha_match": false,
+      "decoded_parity": {
+        "same_dimensions": true,
+        "differing_channels": 149,
+        "max_normalized_delta": 0.08235295,
+        "decoded_equal": false
+      }
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\F05_DEST_PARITY_B_900x600.png",
+      "sha256": "3A046B10B4B8993A38B5E9C4CBC63EDC0E85397160DAE0ED3B9B94F88DFF641F",
+      "bytes": 672728,
+      "view": "B",
+      "expected_sha256": "D97723E350428731580A1DB79CA84FEBC3922B05B6978D580879D2FA558B7D1F",
+      "raw_sha_match": false,
+      "decoded_parity": {
+        "same_dimensions": true,
+        "differing_channels": 13,
+        "max_normalized_delta": 0.04705883,
+        "decoded_equal": false
+      }
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\F05_DEST_PARITY_C_900x600.png",
+      "sha256": "F7BF4088AD34637D1D3A1B918AF122BBF4516AFEC66DC09D1761BAB8D35A41B5",
+      "bytes": 642116,
+      "view": "C",
+      "expected_sha256": "AC46E1F4DD829E66B3B3898857E85D53FAFB64DECBB635F7528728033F5A7304",
+      "raw_sha_match": false,
+      "decoded_parity": {
+        "same_dimensions": true,
+        "differing_channels": 23,
+        "max_normalized_delta": 0.03529413,
+        "decoded_equal": false
+      }
+    }
+  ]
+}

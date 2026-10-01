@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "historical_first": true,
+  "selected_camera": {
+    "candidate": "historical_A",
+    "camera": [
+      76,
+      -22,
+      15
+    ],
+    "target": [
+      94,
+      -5,
+      3
+    ],
+    "clear_rays": 9,
+    "total_rays": 9,
+    "blockers": [],
+    "valid": true,
+    "qa_hiding": false,
+    "neighbor_mutation": false
+  },
+  "candidates": [
+    {
+      "candidate": "historical_A",
+      "camera": [
+        76,
+        -22,
+        15
+      ],
+      "target": [
+        94,
+        -5,
+        3
+      ],
+      "clear_rays": 9,
+      "total_rays": 9,
+      "blockers": [],
+      "valid": true,
+      "qa_hiding": false,
+      "neighbor_mutation": false
+    },
+    {
+      "candidate": "historical_B",
+      "camera": [
+        88,
+        -12,
+        9
+      ],
+      "target": [
+        94,
+        -5,
+        3
+      ],
+      "clear_rays": 9,
+      "total_rays": 9,
+      "blockers": [],
+      "valid": true,
+      "qa_hiding": false,
+      "neighbor_mutation": false
+    },
+    {
+      "candidate": "historical_C",
+      "camera": [
+        98,
+        -2,
+        9
+      ],
+      "target": [
+        94,
+        -5,
+        3
+      ],
+      "clear_rays": 9,
+      "total_rays": 9,
+      "blockers": [],
+      "valid": true,
+      "qa_hiding": false,
+      "neighbor_mutation": false
+    }
+  ],
+  "required_cues": [
+    "paired pumps",
+    "pump bases",
+    "suction/header network",
+    "discharge relation",
+    "multiple valves",
+    "control panel",
+    "service/access organization"
+  ],
+  "renders": [
+    {
+      "view": "A_CONTEXT",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\A_CONTEXT.png",
+      "sha256": "D593BE920B04B3C801D6E1B9E82BE669B8FAA2E8D6685D9F0D0E98609D72012C",
+      "bytes": 1625110
+    },
+    {
+      "view": "B_FUNCTIONAL",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\B_FUNCTIONAL.png",
+      "sha256": "D9159403203458D59A49C2FA1BDD89C2C9A0FA3CD3FBC525DD692AB44E7EF7BC",
+      "bytes": 1343480
+    },
+    {
+      "view": "C_PROCESS_OR_DETAIL",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\C_PROCESS_OR_DETAIL.png",
+      "sha256": "ED0825D3AB868A0490D10D1FEDBE12031DCF8D544936666E8B573119B8DC8C30",
+      "bytes": 1468342
+    },
+    {
+      "view": "D_INTEGRATED_CONTEXT",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\D_INTEGRATED_CONTEXT.png",
+      "sha256": "DF0345091947292B4FB4BF5EB28BF33E1F676762D33283C7854EFCA3C1146D7F",
+      "bytes": 1625110
+    },
+    {
+      "view": "D_PREVIEW_900x600",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\D_INTEGRATED_CONTEXT_PREVIEW_900x600.png",
+      "sha256": "6E6E4A4B46D77E58D5DCE22CEC92BC8A167CC5AB90B37E6DBFFC1708B9201A60",
+      "bytes": 705323
+    }
+  ]
+}

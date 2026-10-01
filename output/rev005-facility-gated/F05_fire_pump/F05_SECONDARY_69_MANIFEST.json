@@ -1,0 +1,4861 @@
+{
+  "status": "PASS",
+  "count": 69,
+  "objects": [
+    {
+      "name": "REV005_FIRE_PUMP_HOUSE_PUMP_0_BODY",
+      "type": "MESH",
+      "source": null,
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          74.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        74.0,
+        72.0,
+        2.0
+      ],
+      "dimensions": [
+        2.0,
+        1.5,
+        1.6
+      ],
+      "materials": [
+        "REV005_Safety_Red"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "Cube.649",
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Fire pump house",
+        "rev005_function": "fire pump",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      },
+      "modifiers": [],
+      "contribution_source": "BASE",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        74.0,
+        72.0,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_Safety_Red"
+      ],
+      "data_block": "Cube.649"
+    },
+    {
+      "name": "REV005_FIRE_PUMP_HOUSE_PUMP_0_PANEL",
+      "type": "MESH",
+      "source": null,
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          74.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          71.169998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.992
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        74.0,
+        71.169998,
+        2.992
+      ],
+      "dimensions": [
+        0.9,
+        0.08,
+        0.384
+      ],
+      "materials": [
+        "REV005_Black"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "Cube.650",
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Fire pump house",
+        "rev005_function": "operator control panel",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      },
+      "modifiers": [],
+      "contribution_source": "BASE",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        74.0,
+        71.169998,
+        2.992
+      ],
+      "material_slots": [
+        "REV005_Black"
+      ],
+      "data_block": "Cube.650"
+    },
+    {
+      "name": "REV005_FIRE_PUMP_HOUSE_PUMP_1_BODY",
+      "type": "MESH",
+      "source": null,
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          78.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        78.0,
+        72.0,
+        2.0
+      ],
+      "dimensions": [
+        2.0,
+        1.5,
+        1.6
+      ],
+      "materials": [
+        "REV005_Safety_Red"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "Cube.651",
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Fire pump house",
+        "rev005_function": "fire pump",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      },
+      "modifiers": [],
+      "contribution_source": "BASE",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        78.0,
+        72.0,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_Safety_Red"
+      ],
+      "data_block": "Cube.651"
+    },
+    {
+      "name": "REV005_FIRE_PUMP_HOUSE_PUMP_1_PANEL",
+      "type": "MESH",
+      "source": null,
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          78.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          71.169998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.992
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        78.0,
+        71.169998,
+        2.992
+      ],
+      "dimensions": [
+        0.9,
+        0.08,
+        0.384
+      ],
+      "materials": [
+        "REV005_Black"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "Cube.652",
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Fire pump house",
+        "rev005_function": "operator control panel",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      },
+      "modifiers": [],
+      "contribution_source": "BASE",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        78.0,
+        71.169998,
+        2.992
+      ],
+      "material_slots": [
+        "REV005_Black"
+      ],
+      "data_block": "Cube.652"
+    },
+    {
+      "name": "REV005_Fire_pump_house_FLOOR.001",
+      "type": "MESH",
+      "source": null,
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.28
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        76.0,
+        72.0,
+        1.28
+      ],
+      "dimensions": [
+        11.0,
+        7.0,
+        0.12
+      ],
+      "materials": [
+        "REV005_Floor_Clean"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "Cube.623",
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Fire pump house",
+        "rev005_function": "finished interior floor",
+        "rev005_source_basis": "REV005 conservative functional layout"
+      },
+      "modifiers": [],
+      "contribution_source": "BASE",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        76.0,
+        72.0,
+        1.28
+      ],
+      "material_slots": [
+        "REV005_Floor_Clean"
+      ],
+      "data_block": "Cube.623"
+    },
+    {
+      "name": "RM_FIRE_CONTROLLER",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          80.199997
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        80.199997,
+        72.0,
+        2.4
+      ],
+      "dimensions": [
+        1.2,
+        0.7,
+        2.2
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_CONTROLLER_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_CONTROLLER"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        80.199997,
+        72.0,
+        2.4
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_CONTROLLER_MESH"
+    },
+    {
+      "name": "RM_FIRE_MANIFOLD",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          76.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          74.599998
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        76.0,
+        74.599998,
+        2.7
+      ],
+      "dimensions": [
+        0.5,
+        0.5,
+        6.0
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_MANIFOLD_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_MANIFOLD"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        76.0,
+        74.599998,
+        2.7
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_MANIFOLD_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_0_BASE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          73.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.42
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        73.0,
+        72.0,
+        1.42
+      ],
+      "dimensions": [
+        2.0,
+        1.3,
+        0.22
+      ],
+      "materials": [
+        "REV005_RM_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_0_BASE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_0_BASE"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        73.0,
+        72.0,
+        1.42
+      ],
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "data_block": "RM_FIRE_PUMP_0_BASE_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_0_DISCHARGE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          73.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          73.724998
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        73.0,
+        73.724998,
+        2.7
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        1.75
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_0_DISCHARGE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_0_DISCHARGE"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        73.0,
+        73.724998,
+        2.7
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_0_DISCHARGE_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_0_MOTOR",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          73.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        73.0,
+        72.0,
+        2.2
+      ],
+      "dimensions": [
+        1.7,
+        1.7,
+        1.6
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_0_MOTOR_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_0_MOTOR"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        73.0,
+        72.0,
+        2.2
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_0_MOTOR_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_0_SUCTION",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          73.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          70.175003
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        73.0,
+        70.175003,
+        2.0
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        1.950005
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_0_SUCTION_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_0_SUCTION"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        73.0,
+        70.175003,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_0_SUCTION_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_1_BASE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.42
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        76.0,
+        72.0,
+        1.42
+      ],
+      "dimensions": [
+        2.0,
+        1.3,
+        0.22
+      ],
+      "materials": [
+        "REV005_RM_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_1_BASE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_1_BASE"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        76.0,
+        72.0,
+        1.42
+      ],
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "data_block": "RM_FIRE_PUMP_1_BASE_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_1_DISCHARGE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          76.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          73.724998
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        76.0,
+        73.724998,
+        2.7
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        1.75
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_1_DISCHARGE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_1_DISCHARGE"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        76.0,
+        73.724998,
+        2.7
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_1_DISCHARGE_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_1_MOTOR",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        76.0,
+        72.0,
+        2.2
+      ],
+      "dimensions": [
+        1.7,
+        1.7,
+        1.6
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_1_MOTOR_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_1_MOTOR"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        76.0,
+        72.0,
+        2.2
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_1_MOTOR_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_1_SUCTION",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          70.175003
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        76.0,
+        70.175003,
+        2.0
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        1.950005
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_1_SUCTION_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_1_SUCTION"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        76.0,
+        70.175003,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_1_SUCTION_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_2_BASE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          79.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.42
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        79.0,
+        72.0,
+        1.42
+      ],
+      "dimensions": [
+        2.0,
+        1.3,
+        0.22
+      ],
+      "materials": [
+        "REV005_RM_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_2_BASE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_2_BASE"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        79.0,
+        72.0,
+        1.42
+      ],
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "data_block": "RM_FIRE_PUMP_2_BASE_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_2_DISCHARGE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -1.0,
+          0.0,
+          -0.0,
+          79.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          73.724998
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        79.0,
+        73.724998,
+        2.7
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        1.75
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_2_DISCHARGE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_2_DISCHARGE"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        79.0,
+        73.724998,
+        2.7
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_2_DISCHARGE_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_2_MOTOR",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          79.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          72.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.2
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        79.0,
+        72.0,
+        2.2
+      ],
+      "dimensions": [
+        1.7,
+        1.7,
+        1.6
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_2_MOTOR_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_2_MOTOR"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        79.0,
+        72.0,
+        2.2
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_2_MOTOR_MESH"
+    },
+    {
+      "name": "RM_FIRE_PUMP_2_SUCTION",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          79.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          70.175003
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        79.0,
+        70.175003,
+        2.0
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        1.950005
+      ],
+      "materials": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_PUMP_2_SUCTION_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_PUMP_2_SUCTION"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        79.0,
+        70.175003,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_RM_FIRE_RED"
+      ],
+      "data_block": "RM_FIRE_PUMP_2_SUCTION_MESH"
+    },
+    {
+      "name": "RM_FIRE_SERVICE_ACCESS",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          76.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          68.599998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.34
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        76.0,
+        68.599998,
+        1.34
+      ],
+      "dimensions": [
+        9.0,
+        0.55,
+        0.06
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "RM_FIRE_SERVICE_ACCESS_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": "True",
+        "facility": "Fire Pump House",
+        "functional_role": "RM_FIRE_SERVICE_ACCESS"
+      },
+      "modifiers": [],
+      "contribution_source": "V01",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        76.0,
+        68.599998,
+        1.34
+      ],
+      "material_slots": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "data_block": "RM_FIRE_SERVICE_ACCESS_MESH"
+    },
+    {
+      "name": "V04_FIRE_01_BACK",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          78.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        78.0,
+        3.25
+      ],
+      "dimensions": [
+        18.0,
+        0.16,
+        6.5
+      ],
+      "materials": [
+        "REV005_V04_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_01_BACK_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        78.0,
+        3.25
+      ],
+      "material_slots": [
+        "REV005_V04_WHITE"
+      ],
+      "data_block": "V04_FIRE_01_BACK_MESH"
+    },
+    {
+      "name": "V04_FIRE_01_FLOOR",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        70.0,
+        1.05
+      ],
+      "dimensions": [
+        18.0,
+        16.0,
+        0.18
+      ],
+      "materials": [
+        "REV005_V04_FLOOR"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_01_FLOOR_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        70.0,
+        1.05
+      ],
+      "material_slots": [
+        "REV005_V04_FLOOR"
+      ],
+      "data_block": "V04_FIRE_01_FLOOR_MESH"
+    },
+    {
+      "name": "V04_FIRE_01_LEFT",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          85.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        85.0,
+        70.0,
+        3.25
+      ],
+      "dimensions": [
+        0.16,
+        16.0,
+        6.5
+      ],
+      "materials": [
+        "REV005_V04_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_01_LEFT_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        85.0,
+        70.0,
+        3.25
+      ],
+      "material_slots": [
+        "REV005_V04_WHITE"
+      ],
+      "data_block": "V04_FIRE_01_LEFT_MESH"
+    },
+    {
+      "name": "V04_FIRE_01_RIGHT",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          103.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.25
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        103.0,
+        70.0,
+        3.25
+      ],
+      "dimensions": [
+        0.16,
+        16.0,
+        6.5
+      ],
+      "materials": [
+        "REV005_V04_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_01_RIGHT_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        103.0,
+        70.0,
+        3.25
+      ],
+      "material_slots": [
+        "REV005_V04_WHITE"
+      ],
+      "data_block": "V04_FIRE_01_RIGHT_MESH"
+    },
+    {
+      "name": "V04_FIRE_DISCHARGE2_01",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          97.0
+        ],
+        [
+          0.0,
+          -0.351123,
+          0.936329,
+          71.400002
+        ],
+        [
+          0.0,
+          0.936329,
+          0.351123,
+          3.9
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        97.0,
+        71.400002,
+        3.9
+      ],
+      "dimensions": [
+        0.32,
+        0.32,
+        5.126405
+      ],
+      "materials": [
+        "REV005_V04_YELLOW"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_DISCHARGE2_01_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        97.0,
+        71.400002,
+        3.9
+      ],
+      "material_slots": [
+        "REV005_V04_YELLOW"
+      ],
+      "data_block": "V04_FIRE_DISCHARGE2_01_MESH"
+    },
+    {
+      "name": "V04_FIRE_DISCHARGE_01",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          -0.351123,
+          0.936329,
+          71.400002
+        ],
+        [
+          0.0,
+          0.936329,
+          0.351123,
+          3.9
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        91.0,
+        71.400002,
+        3.9
+      ],
+      "dimensions": [
+        0.32,
+        0.32,
+        5.126405
+      ],
+      "materials": [
+        "REV005_V04_YELLOW"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_DISCHARGE_01_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        91.0,
+        71.400002,
+        3.9
+      ],
+      "material_slots": [
+        "REV005_V04_YELLOW"
+      ],
+      "data_block": "V04_FIRE_DISCHARGE_01_MESH"
+    },
+    {
+      "name": "V04_FIRE_LIGHT_01_00_BODY",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          88.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        88.0,
+        70.0,
+        7.5
+      ],
+      "dimensions": [
+        2.4,
+        0.3,
+        0.1
+      ],
+      "materials": [
+        "REV005_V04_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_LIGHT_01_00_BODY_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        88.0,
+        70.0,
+        7.5
+      ],
+      "material_slots": [
+        "REV005_V04_WHITE"
+      ],
+      "data_block": "V04_FIRE_LIGHT_01_00_BODY_MESH"
+    },
+    {
+      "name": "V04_FIRE_LIGHT_01_00_GLOW",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          88.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.43
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        88.0,
+        70.0,
+        7.43
+      ],
+      "dimensions": [
+        1.8,
+        0.15,
+        0.04
+      ],
+      "materials": [
+        "REV005_V04_WARM"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_LIGHT_01_00_GLOW_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        88.0,
+        70.0,
+        7.43
+      ],
+      "material_slots": [
+        "REV005_V04_WARM"
+      ],
+      "data_block": "V04_FIRE_LIGHT_01_00_GLOW_MESH"
+    },
+    {
+      "name": "V04_FIRE_LIGHT_01_01_BODY",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        70.0,
+        7.5
+      ],
+      "dimensions": [
+        2.4,
+        0.3,
+        0.1
+      ],
+      "materials": [
+        "REV005_V04_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_LIGHT_01_01_BODY_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        70.0,
+        7.5
+      ],
+      "material_slots": [
+        "REV005_V04_WHITE"
+      ],
+      "data_block": "V04_FIRE_LIGHT_01_01_BODY_MESH"
+    },
+    {
+      "name": "V04_FIRE_LIGHT_01_01_GLOW",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.43
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        70.0,
+        7.43
+      ],
+      "dimensions": [
+        1.8,
+        0.15,
+        0.04
+      ],
+      "materials": [
+        "REV005_V04_WARM"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_LIGHT_01_01_GLOW_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        70.0,
+        7.43
+      ],
+      "material_slots": [
+        "REV005_V04_WARM"
+      ],
+      "data_block": "V04_FIRE_LIGHT_01_01_GLOW_MESH"
+    },
+    {
+      "name": "V04_FIRE_LIGHT_01_02_BODY",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        100.0,
+        70.0,
+        7.5
+      ],
+      "dimensions": [
+        2.4,
+        0.3,
+        0.1
+      ],
+      "materials": [
+        "REV005_V04_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_LIGHT_01_02_BODY_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        100.0,
+        70.0,
+        7.5
+      ],
+      "material_slots": [
+        "REV005_V04_WHITE"
+      ],
+      "data_block": "V04_FIRE_LIGHT_01_02_BODY_MESH"
+    },
+    {
+      "name": "V04_FIRE_LIGHT_01_02_GLOW",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.43
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        100.0,
+        70.0,
+        7.43
+      ],
+      "dimensions": [
+        1.8,
+        0.15,
+        0.04
+      ],
+      "materials": [
+        "REV005_V04_WARM"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_LIGHT_01_02_GLOW_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        100.0,
+        70.0,
+        7.43
+      ],
+      "material_slots": [
+        "REV005_V04_WARM"
+      ],
+      "data_block": "V04_FIRE_LIGHT_01_02_GLOW_MESH"
+    },
+    {
+      "name": "V04_FIRE_PANEL_01",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          65.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.6
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        100.0,
+        65.0,
+        2.6
+      ],
+      "dimensions": [
+        1.1,
+        0.25,
+        2.0
+      ],
+      "materials": [
+        "REV005_V04_BLUE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_PANEL_01_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        100.0,
+        65.0,
+        2.6
+      ],
+      "material_slots": [
+        "REV005_V04_BLUE"
+      ],
+      "data_block": "V04_FIRE_PANEL_01_MESH"
+    },
+    {
+      "name": "V04_FIRE_PUMP_01_00",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          69.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        91.0,
+        69.0,
+        2.0
+      ],
+      "dimensions": [
+        1.7,
+        1.7,
+        2.2
+      ],
+      "materials": [
+        "REV005_V04_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_PUMP_01_00_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        91.0,
+        69.0,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_V04_RED"
+      ],
+      "data_block": "V04_FIRE_PUMP_01_00_MESH"
+    },
+    {
+      "name": "V04_FIRE_PUMP_01_01",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          97.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          69.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        97.0,
+        69.0,
+        2.0
+      ],
+      "dimensions": [
+        1.7,
+        1.7,
+        2.2
+      ],
+      "materials": [
+        "REV005_V04_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_PUMP_01_01_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        97.0,
+        69.0,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_V04_RED"
+      ],
+      "data_block": "V04_FIRE_PUMP_01_01_MESH"
+    },
+    {
+      "name": "V04_FIRE_PUMP_BASE_01_00",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          69.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.35
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        91.0,
+        69.0,
+        1.35
+      ],
+      "dimensions": [
+        3.0,
+        1.7,
+        0.25
+      ],
+      "materials": [
+        "REV005_V04_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_PUMP_BASE_01_00_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        91.0,
+        69.0,
+        1.35
+      ],
+      "material_slots": [
+        "REV005_V04_STEEL"
+      ],
+      "data_block": "V04_FIRE_PUMP_BASE_01_00_MESH"
+    },
+    {
+      "name": "V04_FIRE_PUMP_BASE_01_01",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          97.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          69.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.35
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        97.0,
+        69.0,
+        1.35
+      ],
+      "dimensions": [
+        3.0,
+        1.7,
+        0.25
+      ],
+      "materials": [
+        "REV005_V04_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_PUMP_BASE_01_01_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        97.0,
+        69.0,
+        1.35
+      ],
+      "material_slots": [
+        "REV005_V04_STEEL"
+      ],
+      "data_block": "V04_FIRE_PUMP_BASE_01_01_MESH"
+    },
+    {
+      "name": "V04_FIRE_SUCTION_01",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          94.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          72.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        72.5,
+        2.4
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        14.0
+      ],
+      "materials": [
+        "REV005_V04_STAINLESS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_SUCTION_01_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        72.5,
+        2.4
+      ],
+      "material_slots": [
+        "REV005_V04_STAINLESS"
+      ],
+      "data_block": "V04_FIRE_SUCTION_01_MESH"
+    },
+    {
+      "name": "V04_FIRE_VALVE_01_00",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          88.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          72.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        88.0,
+        72.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "materials": [
+        "REV005_V04_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_VALVE_01_00_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        88.0,
+        72.5,
+        2.4
+      ],
+      "material_slots": [
+        "REV005_V04_RED"
+      ],
+      "data_block": "V04_FIRE_VALVE_01_00_MESH"
+    },
+    {
+      "name": "V04_FIRE_VALVE_01_01",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          92.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          72.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        92.0,
+        72.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "materials": [
+        "REV005_V04_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_VALVE_01_01_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        92.0,
+        72.5,
+        2.4
+      ],
+      "material_slots": [
+        "REV005_V04_RED"
+      ],
+      "data_block": "V04_FIRE_VALVE_01_01_MESH"
+    },
+    {
+      "name": "V04_FIRE_VALVE_01_02",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          96.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          72.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        96.0,
+        72.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "materials": [
+        "REV005_V04_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_VALVE_01_02_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        96.0,
+        72.5,
+        2.4
+      ],
+      "material_slots": [
+        "REV005_V04_RED"
+      ],
+      "data_block": "V04_FIRE_VALVE_01_02_MESH"
+    },
+    {
+      "name": "V04_FIRE_VALVE_01_03",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire Pump House",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V04"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          72.5
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          2.4
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        100.0,
+        72.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "materials": [
+        "REV005_V04_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V04_FIRE_VALVE_01_03_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V04": "True",
+        "facility": "Fire Pump House"
+      },
+      "modifiers": [],
+      "contribution_source": "V04",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        100.0,
+        72.5,
+        2.4
+      ],
+      "material_slots": [
+        "REV005_V04_RED"
+      ],
+      "data_block": "V04_FIRE_VALVE_01_03_MESH"
+    },
+    {
+      "name": "V05_FIRE1_BACK",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          79.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        79.0,
+        3.5
+      ],
+      "dimensions": [
+        20.0,
+        0.18,
+        7.0
+      ],
+      "materials": [
+        "REV005_V05_WALL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_BACK_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        79.0,
+        3.5
+      ],
+      "material_slots": [
+        "REV005_V05_WALL"
+      ],
+      "data_block": "V05_FIRE1_BACK_MESH"
+    },
+    {
+      "name": "V05_FIRE1_DOOR_HEADER",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          61.099998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.55
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        61.099998,
+        5.55
+      ],
+      "dimensions": [
+        4.2,
+        0.16,
+        0.16
+      ],
+      "materials": [
+        "REV005_V05_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_DOOR_HEADER_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        61.099998,
+        5.55
+      ],
+      "material_slots": [
+        "REV005_V05_STEEL"
+      ],
+      "data_block": "V05_FIRE1_DOOR_HEADER_MESH"
+    },
+    {
+      "name": "V05_FIRE1_DOOR_L",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          92.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          61.099998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        92.0,
+        61.099998,
+        3.0
+      ],
+      "dimensions": [
+        0.12,
+        0.16,
+        5.2
+      ],
+      "materials": [
+        "REV005_V05_GLASS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_DOOR_L_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        92.0,
+        61.099998,
+        3.0
+      ],
+      "material_slots": [
+        "REV005_V05_GLASS"
+      ],
+      "data_block": "V05_FIRE1_DOOR_L_MESH"
+    },
+    {
+      "name": "V05_FIRE1_DOOR_R",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          96.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          61.099998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        96.0,
+        61.099998,
+        3.0
+      ],
+      "dimensions": [
+        0.12,
+        0.16,
+        5.2
+      ],
+      "materials": [
+        "REV005_V05_GLASS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_DOOR_R_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        96.0,
+        61.099998,
+        3.0
+      ],
+      "material_slots": [
+        "REV005_V05_GLASS"
+      ],
+      "data_block": "V05_FIRE1_DOOR_R_MESH"
+    },
+    {
+      "name": "V05_FIRE1_FLOOR",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        70.0,
+        1.05
+      ],
+      "dimensions": [
+        20.0,
+        18.0,
+        0.18
+      ],
+      "materials": [
+        "REV005_V05_FLOOR"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_FLOOR_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        70.0,
+        1.05
+      ],
+      "material_slots": [
+        "REV005_V05_FLOOR"
+      ],
+      "data_block": "V05_FIRE1_FLOOR_MESH"
+    },
+    {
+      "name": "V05_FIRE1_LEFT",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          84.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        84.0,
+        70.0,
+        3.5
+      ],
+      "dimensions": [
+        0.18,
+        18.0,
+        7.0
+      ],
+      "materials": [
+        "REV005_V05_WALL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_LEFT_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        84.0,
+        70.0,
+        3.5
+      ],
+      "material_slots": [
+        "REV005_V05_WALL"
+      ],
+      "data_block": "V05_FIRE1_LEFT_MESH"
+    },
+    {
+      "name": "V05_FIRE1_LIGHT_0_FIXTURE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          89.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        89.0,
+        70.0,
+        6.5
+      ],
+      "dimensions": [
+        3.0,
+        0.28,
+        0.12
+      ],
+      "materials": [
+        "REV005_V05_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_LIGHT_0_FIXTURE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        89.0,
+        70.0,
+        6.5
+      ],
+      "material_slots": [
+        "REV005_V05_WHITE"
+      ],
+      "data_block": "V05_FIRE1_LIGHT_0_FIXTURE_MESH"
+    },
+    {
+      "name": "V05_FIRE1_LIGHT_0_GLOW",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          89.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.42
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        89.0,
+        70.0,
+        6.42
+      ],
+      "dimensions": [
+        2.2,
+        0.12,
+        0.05
+      ],
+      "materials": [
+        "REV005_V05_WARM"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_LIGHT_0_GLOW_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        89.0,
+        70.0,
+        6.42
+      ],
+      "material_slots": [
+        "REV005_V05_WARM"
+      ],
+      "data_block": "V05_FIRE1_LIGHT_0_GLOW_MESH"
+    },
+    {
+      "name": "V05_FIRE1_LIGHT_1_FIXTURE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          99.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        99.0,
+        70.0,
+        6.5
+      ],
+      "dimensions": [
+        3.0,
+        0.28,
+        0.12
+      ],
+      "materials": [
+        "REV005_V05_WHITE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_LIGHT_1_FIXTURE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        99.0,
+        70.0,
+        6.5
+      ],
+      "material_slots": [
+        "REV005_V05_WHITE"
+      ],
+      "data_block": "V05_FIRE1_LIGHT_1_FIXTURE_MESH"
+    },
+    {
+      "name": "V05_FIRE1_LIGHT_1_GLOW",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          99.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.42
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        99.0,
+        70.0,
+        6.42
+      ],
+      "dimensions": [
+        2.2,
+        0.12,
+        0.05
+      ],
+      "materials": [
+        "REV005_V05_WARM"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_LIGHT_1_GLOW_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        99.0,
+        70.0,
+        6.42
+      ],
+      "material_slots": [
+        "REV005_V05_WARM"
+      ],
+      "data_block": "V05_FIRE1_LIGHT_1_GLOW_MESH"
+    },
+    {
+      "name": "V05_FIRE1_RIGHT",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          104.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        104.0,
+        70.0,
+        3.5
+      ],
+      "dimensions": [
+        0.18,
+        18.0,
+        7.0
+      ],
+      "materials": [
+        "REV005_V05_WALL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_RIGHT_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        104.0,
+        70.0,
+        3.5
+      ],
+      "material_slots": [
+        "REV005_V05_WALL"
+      ],
+      "data_block": "V05_FIRE1_RIGHT_MESH"
+    },
+    {
+      "name": "V05_FIRE1_SOFFIT_88.4",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          88.400002
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.82
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        88.400002,
+        70.0,
+        6.82
+      ],
+      "dimensions": [
+        3.2,
+        17.200001,
+        0.18
+      ],
+      "materials": [
+        "REV005_V05_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_SOFFIT_88.4_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        88.400002,
+        70.0,
+        6.82
+      ],
+      "material_slots": [
+        "REV005_V05_STEEL"
+      ],
+      "data_block": "V05_FIRE1_SOFFIT_88.4_MESH"
+    },
+    {
+      "name": "V05_FIRE1_SOFFIT_94",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          94.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.82
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        70.0,
+        6.82
+      ],
+      "dimensions": [
+        3.2,
+        17.200001,
+        0.18
+      ],
+      "materials": [
+        "REV005_V05_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_SOFFIT_94_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        70.0,
+        6.82
+      ],
+      "material_slots": [
+        "REV005_V05_STEEL"
+      ],
+      "data_block": "V05_FIRE1_SOFFIT_94_MESH"
+    },
+    {
+      "name": "V05_FIRE1_SOFFIT_99.6",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          99.599998
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.82
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        99.599998,
+        70.0,
+        6.82
+      ],
+      "dimensions": [
+        3.2,
+        17.200001,
+        0.18
+      ],
+      "materials": [
+        "REV005_V05_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE1_SOFFIT_99.6_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        99.599998,
+        70.0,
+        6.82
+      ],
+      "material_slots": [
+        "REV005_V05_STEEL"
+      ],
+      "data_block": "V05_FIRE1_SOFFIT_99.6_MESH"
+    },
+    {
+      "name": "V05_FIRE_HEADER1",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          94.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          4.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        70.0,
+        4.0
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        6.0
+      ],
+      "materials": [
+        "REV005_V05_YELLOW"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_HEADER1_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        70.0,
+        4.0
+      ],
+      "material_slots": [
+        "REV005_V05_YELLOW"
+      ],
+      "data_block": "V05_FIRE_HEADER1_MESH"
+    },
+    {
+      "name": "V05_FIRE_PANEL1",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          65.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.6
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        100.0,
+        65.0,
+        2.6
+      ],
+      "dimensions": [
+        1.1,
+        0.25,
+        2.2
+      ],
+      "materials": [
+        "REV005_V05_BLUE"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_PANEL1_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        100.0,
+        65.0,
+        2.6
+      ],
+      "material_slots": [
+        "REV005_V05_BLUE"
+      ],
+      "data_block": "V05_FIRE_PANEL1_MESH"
+    },
+    {
+      "name": "V05_FIRE_PUMP1_0_BASE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.28
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        91.0,
+        70.0,
+        1.28
+      ],
+      "dimensions": [
+        3.0,
+        2.4,
+        0.22
+      ],
+      "materials": [
+        "REV005_V05_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_PUMP1_0_BASE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        91.0,
+        70.0,
+        1.28
+      ],
+      "material_slots": [
+        "REV005_V05_STEEL"
+      ],
+      "data_block": "V05_FIRE_PUMP1_0_BASE_MESH"
+    },
+    {
+      "name": "V05_FIRE_PUMP1_0_HOUSING",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        91.0,
+        70.0,
+        2.0
+      ],
+      "dimensions": [
+        2.6,
+        2.0,
+        2.0
+      ],
+      "materials": [
+        "REV005_V05_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_PUMP1_0_HOUSING_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        91.0,
+        70.0,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_V05_RED"
+      ],
+      "data_block": "V05_FIRE_PUMP1_0_HOUSING_MESH"
+    },
+    {
+      "name": "V05_FIRE_PUMP1_0_PANEL",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          68.919998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.3
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        91.0,
+        68.919998,
+        2.3
+      ],
+      "dimensions": [
+        1.43,
+        0.12,
+        0.56
+      ],
+      "materials": [
+        "REV005_V05_TEAL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_PUMP1_0_PANEL_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        91.0,
+        68.919998,
+        2.3
+      ],
+      "material_slots": [
+        "REV005_V05_TEAL"
+      ],
+      "data_block": "V05_FIRE_PUMP1_0_PANEL_MESH"
+    },
+    {
+      "name": "V05_FIRE_PUMP1_1_BASE",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          97.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.28
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        97.0,
+        70.0,
+        1.28
+      ],
+      "dimensions": [
+        3.0,
+        2.4,
+        0.22
+      ],
+      "materials": [
+        "REV005_V05_STEEL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_PUMP1_1_BASE_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        97.0,
+        70.0,
+        1.28
+      ],
+      "material_slots": [
+        "REV005_V05_STEEL"
+      ],
+      "data_block": "V05_FIRE_PUMP1_1_BASE_MESH"
+    },
+    {
+      "name": "V05_FIRE_PUMP1_1_HOUSING",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          97.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        97.0,
+        70.0,
+        2.0
+      ],
+      "dimensions": [
+        2.6,
+        2.0,
+        2.0
+      ],
+      "materials": [
+        "REV005_V05_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_PUMP1_1_HOUSING_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        97.0,
+        70.0,
+        2.0
+      ],
+      "material_slots": [
+        "REV005_V05_RED"
+      ],
+      "data_block": "V05_FIRE_PUMP1_1_HOUSING_MESH"
+    },
+    {
+      "name": "V05_FIRE_PUMP1_1_PANEL",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          97.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          68.919998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.3
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        97.0,
+        68.919998,
+        2.3
+      ],
+      "dimensions": [
+        1.43,
+        0.12,
+        0.56
+      ],
+      "materials": [
+        "REV005_V05_TEAL"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_PUMP1_1_PANEL_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        97.0,
+        68.919998,
+        2.3
+      ],
+      "material_slots": [
+        "REV005_V05_TEAL"
+      ],
+      "data_block": "V05_FIRE_PUMP1_1_PANEL_MESH"
+    },
+    {
+      "name": "V05_FIRE_SUCTION1",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          -0.0,
+          0.0,
+          1.0,
+          94.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          73.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        94.0,
+        73.0,
+        3.0
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        14.0
+      ],
+      "materials": [
+        "REV005_V05_STAINLESS"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_SUCTION1_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        94.0,
+        73.0,
+        3.0
+      ],
+      "material_slots": [
+        "REV005_V05_STAINLESS"
+      ],
+      "data_block": "V05_FIRE_SUCTION1_MESH"
+    },
+    {
+      "name": "V05_FIRE_VALVE1_0",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          88.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          73.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        88.0,
+        73.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "materials": [
+        "REV005_V05_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_VALVE1_0_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        88.0,
+        73.0,
+        3.0
+      ],
+      "material_slots": [
+        "REV005_V05_RED"
+      ],
+      "data_block": "V05_FIRE_VALVE1_0_MESH"
+    },
+    {
+      "name": "V05_FIRE_VALVE1_1",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          92.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          73.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        92.0,
+        73.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "materials": [
+        "REV005_V05_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_VALVE1_1_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        92.0,
+        73.0,
+        3.0
+      ],
+      "material_slots": [
+        "REV005_V05_RED"
+      ],
+      "data_block": "V05_FIRE_VALVE1_1_MESH"
+    },
+    {
+      "name": "V05_FIRE_VALVE1_2",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          96.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          73.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        96.0,
+        73.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "materials": [
+        "REV005_V05_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_VALVE1_2_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        96.0,
+        73.0,
+        3.0
+      ],
+      "material_slots": [
+        "REV005_V05_RED"
+      ],
+      "data_block": "V05_FIRE_VALVE1_2_MESH"
+    },
+    {
+      "name": "V05_FIRE_VALVE1_3",
+      "type": "MESH",
+      "source": null,
+      "facility": "Fire pump house",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          100.0
+        ],
+        [
+          0.0,
+          -0.0,
+          -1.0,
+          73.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0,
+          3.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "location": [
+        100.0,
+        73.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "materials": [
+        "REV005_V05_RED"
+      ],
+      "hide_viewport": false,
+      "hide_render": false,
+      "hide_set": false,
+      "display_type": "TEXTURED",
+      "data": "V05_FIRE_VALVE1_3_MESH",
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": "True",
+        "facility": "Fire pump house"
+      },
+      "modifiers": [],
+      "contribution_source": "V05",
+      "spatial_class": "SECONDARY",
+      "center_xyz": [
+        100.0,
+        73.0,
+        3.0
+      ],
+      "material_slots": [
+        "REV005_V05_RED"
+      ],
+      "data_block": "V05_FIRE_VALVE1_3_MESH"
+    }
+  ]
+}

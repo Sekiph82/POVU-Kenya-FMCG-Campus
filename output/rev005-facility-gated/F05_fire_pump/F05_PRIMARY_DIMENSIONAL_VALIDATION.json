@@ -1,0 +1,273 @@
+{
+  "status": "PASS",
+  "tolerance_m": 0.001,
+  "tolerance_rad": 0.0001,
+  "checks": [
+    {
+      "name": "V04_FIRE_00_FLOOR",
+      "center_xyz": [
+        94.0,
+        -5.0,
+        1.05
+      ],
+      "dimensions": [
+        18.0,
+        16.0,
+        0.18
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_PUMP_00_00",
+      "center_xyz": [
+        91.0,
+        -6.0,
+        2.0
+      ],
+      "dimensions": [
+        1.7,
+        1.7,
+        2.2
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_PUMP_00_01",
+      "center_xyz": [
+        97.0,
+        -6.0,
+        2.0
+      ],
+      "dimensions": [
+        1.7,
+        1.7,
+        2.2
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_SUCTION_00",
+      "center_xyz": [
+        94.0,
+        -2.5,
+        2.4
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        14.0
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_PANEL_00",
+      "center_xyz": [
+        100.0,
+        -10.0,
+        2.6
+      ],
+      "dimensions": [
+        1.1,
+        0.25,
+        2.0
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_VALVE_00_00",
+      "center_xyz": [
+        88.0,
+        -2.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_VALVE_00_01",
+      "center_xyz": [
+        92.0,
+        -2.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_VALVE_00_02",
+      "center_xyz": [
+        96.0,
+        -2.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "pass": true
+    },
+    {
+      "name": "V04_FIRE_VALVE_00_03",
+      "center_xyz": [
+        100.0,
+        -2.5,
+        2.4
+      ],
+      "dimensions": [
+        0.64,
+        0.64,
+        0.18
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE0_FLOOR",
+      "center_xyz": [
+        94.0,
+        -5.0,
+        1.05
+      ],
+      "dimensions": [
+        20.0,
+        18.0,
+        0.18
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_PUMP0_0_HOUSING",
+      "center_xyz": [
+        91.0,
+        -5.0,
+        2.0
+      ],
+      "dimensions": [
+        2.6,
+        2.0,
+        2.0
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_PUMP0_1_HOUSING",
+      "center_xyz": [
+        97.0,
+        -5.0,
+        2.0
+      ],
+      "dimensions": [
+        2.6,
+        2.0,
+        2.0
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_SUCTION0",
+      "center_xyz": [
+        94.0,
+        -2.0,
+        3.0
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        14.0
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_HEADER0",
+      "center_xyz": [
+        94.0,
+        -5.0,
+        4.0
+      ],
+      "dimensions": [
+        0.36,
+        0.36,
+        6.0
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_PANEL0",
+      "center_xyz": [
+        100.0,
+        -10.0,
+        2.6
+      ],
+      "dimensions": [
+        1.1,
+        0.25,
+        2.2
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_VALVE0_0",
+      "center_xyz": [
+        88.0,
+        -2.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_VALVE0_1",
+      "center_xyz": [
+        92.0,
+        -2.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_VALVE0_2",
+      "center_xyz": [
+        96.0,
+        -2.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "pass": true
+    },
+    {
+      "name": "V05_FIRE_VALVE0_3",
+      "center_xyz": [
+        100.0,
+        -2.0,
+        3.0
+      ],
+      "dimensions": [
+        0.6,
+        0.6,
+        0.2
+      ],
+      "pass": true
+    }
+  ]
+}
