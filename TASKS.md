@@ -10,9 +10,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 
 - Current Milestone: M08
 - Current Sprint: M08.30
-- Current Task: M08.30 — F04 V03 integrated-camera candidate evidence
+- Current Task: M08.30 — F04 V04 forced camera preview evidence
 - Current Task Status: READY_RETRY
-- Next Task/Action: Execute only the F04 V03 evidence-only camera candidate prompt. Reuse/revalidate the proven 59-object F04 source in memory, generate up to six 900×600 integrated camera previews from >=7/9-clear candidates without saving Blend/GLB, commit only preview/diagnostic evidence, and stop at AWAITING_GPT_F04_V03_CAMERA_SELECTION. Do not begin Facility 05.
+- Next Task/Action: Execute only the F04 V04 evidence-only forced-preview prompt. Use the proven >=7/9-clear V02 camera seeds, render their actual 900×600 integrated previews without rejecting them for projected-area/framing percentage, keep canonical Blend/GLB unchanged, and stop at AWAITING_GPT_F04_V04_PREVIEW_REVIEW. Do not begin Facility 05.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -33,6 +33,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F04 Employee Changing / Shower / Locker Support is now the only active facility. No later facility may begin until F04 receives independent GPT PASS.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
+- F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
 - M08.09 REV005 freeze cannot occur until every facility in the facility-gated program receives independent GPT PASS and the owner accepts the completed REV005 model.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
