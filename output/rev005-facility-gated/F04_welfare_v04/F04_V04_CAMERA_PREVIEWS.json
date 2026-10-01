@@ -1,0 +1,957 @@
+{
+  "status": "AWAITING_GPT_F04_V04_PREVIEW_REVIEW",
+  "scope": "F04 only",
+  "historical_source": {
+    "path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\povu-f04-replay-d14e7d4df8834dd5b31b8017de47c509\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+    "replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+    "source_initial_hash": "25AEA5F1F5458BA3814449B0D929B1F8B9601FAB7B956C6681EE4AFBAD26592D",
+    "expected_source_initial_hash": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+    "object_count": 59,
+    "composition": "10 BASE + 49 V01 = 59",
+    "dimensional_contract": {
+      "status": "PASS",
+      "object_count": 59,
+      "base_count": 10,
+      "v01_count": 49,
+      "composition": "10 BASE + 49 V01 = 59"
+    },
+    "archived_AB_parity": "REUSED_FROM_PRIOR_VERIFIED_F04_SOURCE_GATES"
+  },
+  "v02_seed_recovery": {
+    "source_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v02\\F04_V02_INTEGRATED_CAMERA_VALIDATION.json",
+    "rows_at_least_7_of_9": 45,
+    "unique_camera_positions_at_least_7_of_9": 5,
+    "selected_seed_count": 3,
+    "selection_order": "clear rays descending; clipping severity ascending; area closeness to 55% soft preference; lens 52 > 45 > 40",
+    "selected_seeds": [
+      {
+        "rank": 1,
+        "camera_xyz": [
+          19.899999618530273,
+          -61.900001525878906,
+          5.175000190734863
+        ],
+        "target_xyz": [
+          30.30000114440918,
+          -69.96249389648438,
+          1.8737502098083496
+        ],
+        "lens_mm": 40.0,
+        "clear_rays": 7,
+        "source_clipping_severity": 2.646459311246872,
+        "source_projected_area_percent": 496.38014959239405
+      },
+      {
+        "rank": 2,
+        "camera_xyz": [
+          40.099998474121094,
+          -61.900001525878906,
+          5.550000190734863
+        ],
+        "target_xyz": [
+          30.30000114440918,
+          -69.96249389648438,
+          1.8737502098083496
+        ],
+        "lens_mm": 40.0,
+        "clear_rays": 7,
+        "source_clipping_severity": 4.1077011823654175,
+        "source_projected_area_percent": 860.0731703993539
+      },
+      {
+        "rank": 3,
+        "camera_xyz": [
+          40.099998474121094,
+          -61.900001525878906,
+          5.175000190734863
+        ],
+        "target_xyz": [
+          30.30000114440918,
+          -69.96249389648438,
+          1.8737502098083496
+        ],
+        "lens_mm": 40.0,
+        "clear_rays": 7,
+        "source_clipping_severity": 4.358580946922302,
+        "source_projected_area_percent": 940.4792720259466
+      }
+    ]
+  },
+  "render_policy": {
+    "resolution": "900x600",
+    "normal_integrated_scene_visibility": true,
+    "qa_only_exclusions": false,
+    "projected_area_gate": false,
+    "clipping_gate": false,
+    "neighbor_hiding_or_quarantine": false
+  },
+  "previews": [
+    {
+      "candidate_rank": 1,
+      "source_seed_camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "source_seed_target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "source_seed_lens_mm": 40.0,
+      "source_seed_clear_rays": 7,
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 40.0,
+      "clear_rays": 7,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_RESTAURANT_RIGHT_WALL",
+          "hit_distance": 10.137529514942408
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_RESTAURANT_RIGHT_WALL",
+          "hit_distance": 8.571677566073635
+        }
+      ],
+      "camera_inside_f04": false,
+      "projected_bbox": {
+        "x_min": -210.61106872558594,
+        "x_max": -5.426753520965576,
+        "y_min": 24.36219596862793,
+        "y_max": 609.4998779296875,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 12006107.457359895,
+      "clipping_flags": {
+        "x_min": true,
+        "x_max": false,
+        "y_min": false,
+        "y_max": true,
+        "z_min": true,
+        "z_max": false
+      },
+      "nearest_unrelated_geometry_distance": 8.571677566073635,
+      "png_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v04\\F04_V04_CANDIDATE_01_PREVIEW_900x600.png",
+      "png_sha256": "E519C216370933D1A333475202651BC39A7E8E7D529A4D5C43055254B5570CC0",
+      "png_bytes": 612800
+    },
+    {
+      "candidate_rank": 2,
+      "source_seed_camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.550000190734863
+      ],
+      "source_seed_target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "source_seed_lens_mm": 40.0,
+      "source_seed_clear_rays": 7,
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.550000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 40.0,
+      "clear_rays": 7,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.035824992340756
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.644286761164143
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 5.043599225973148
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 10.758514691653021
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.306705006927377
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 12.742852722803494
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.508177299395611
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.37035754339683
+        }
+      ],
+      "camera_inside_f04": false,
+      "projected_bbox": {
+        "x_min": -0.3063516318798065,
+        "x_max": 1.6589040756225586,
+        "y_min": -1.6812036037445068,
+        "y_max": 0.8445753455162048,
+        "z_min": 2.2296743392944336,
+        "z_max": 25.883365631103516
+      },
+      "projected_area_percent": 496.38014959239405,
+      "clipping_flags": {
+        "x_min": true,
+        "x_max": true,
+        "y_min": true,
+        "y_max": false,
+        "z_min": false,
+        "z_max": true
+      },
+      "nearest_unrelated_geometry_distance": 10.758514691653021,
+      "png_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v04\\F04_V04_CANDIDATE_02_PREVIEW_900x600.png",
+      "png_sha256": "18245DF80518C72A43FAF86871D2E76E9E14C4AA010F9C6B693819A04A93FB65",
+      "png_bytes": 619565
+    },
+    {
+      "candidate_rank": 3,
+      "source_seed_camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "source_seed_target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "source_seed_lens_mm": 40.0,
+      "source_seed_clear_rays": 7,
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 40.0,
+      "clear_rays": 7,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 10.701509607189642
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 12.707474746258738
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "camera_inside_f04": false,
+      "projected_bbox": {
+        "x_min": -1.1104685068130493,
+        "x_max": 1.343912124633789,
+        "y_min": -2.653320550918579,
+        "y_max": 0.8509165644645691,
+        "z_min": 1.3113951683044434,
+        "z_max": 24.50397491455078
+      },
+      "projected_area_percent": 860.0731703993539,
+      "clipping_flags": {
+        "x_min": true,
+        "x_max": true,
+        "y_min": true,
+        "y_max": false,
+        "z_min": false,
+        "z_max": true
+      },
+      "nearest_unrelated_geometry_distance": 10.701509607189642,
+      "png_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v04\\F04_V04_CANDIDATE_03_PREVIEW_900x600.png",
+      "png_sha256": "920EF84032F16FC83BC721B1B630A55889DF761656E54CD4CAFEC16B3459D3C8",
+      "png_bytes": 617572
+    },
+    {
+      "candidate_rank": 4,
+      "source_seed_camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "source_seed_target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "source_seed_lens_mm": 40.0,
+      "source_seed_clear_rays": 7,
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 35.0,
+      "clear_rays": 7,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_RESTAURANT_RIGHT_WALL",
+          "hit_distance": 10.137529514942408
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_RESTAURANT_RIGHT_WALL",
+          "hit_distance": 8.571677566073635
+        }
+      ],
+      "camera_inside_f04": false,
+      "projected_bbox": {
+        "x_min": -1.0626226663589478,
+        "x_max": 1.241496205329895,
+        "y_min": -2.322138786315918,
+        "y_max": 0.8029354810714722,
+        "z_min": 1.1825989484786987,
+        "z_max": 24.47233772277832
+      },
+      "projected_area_percent": 720.054259491647,
+      "clipping_flags": {
+        "x_min": true,
+        "x_max": true,
+        "y_min": true,
+        "y_max": false,
+        "z_min": false,
+        "z_max": true
+      },
+      "nearest_unrelated_geometry_distance": 8.571677566073635,
+      "png_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v04\\F04_V04_CANDIDATE_04_PREVIEW_900x600.png",
+      "png_sha256": "AD16434FD736DA9489817DFE28932B85453F1842AF3BDEBC155AA7B7207835D4",
+      "png_bytes": 619407
+    },
+    {
+      "candidate_rank": 5,
+      "source_seed_camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.550000190734863
+      ],
+      "source_seed_target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "source_seed_lens_mm": 40.0,
+      "source_seed_clear_rays": 7,
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.550000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 35.0,
+      "clear_rays": 7,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.035824992340756
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.644286761164143
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 5.043599225973148
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 10.758514691653021
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.306705006927377
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 12.742852722803494
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.508177299395611
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.37035754339683
+        }
+      ],
+      "camera_inside_f04": false,
+      "projected_bbox": {
+        "x_min": -0.2055576592683792,
+        "x_max": 1.5140410661697388,
+        "y_min": -1.4085527658462524,
+        "y_max": 0.8015034198760986,
+        "z_min": 2.2296743392944336,
+        "z_max": 25.883365631103516
+      },
+      "projected_area_percent": 380.0409800114783,
+      "clipping_flags": {
+        "x_min": true,
+        "x_max": true,
+        "y_min": true,
+        "y_max": false,
+        "z_min": false,
+        "z_max": true
+      },
+      "nearest_unrelated_geometry_distance": 10.758514691653021,
+      "png_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v04\\F04_V04_CANDIDATE_05_PREVIEW_900x600.png",
+      "png_sha256": "5FBC26E11E5734BA4CBAD9E5B3748E60EF65FC3164B68953B5415B2D4DFC854B",
+      "png_bytes": 624048
+    },
+    {
+      "candidate_rank": 6,
+      "source_seed_camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "source_seed_target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "source_seed_lens_mm": 40.0,
+      "source_seed_clear_rays": 7,
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 28.0,
+      "clear_rays": 7,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 10.701509607189642
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": false,
+          "hit_object": "V09_TRAINING_BOARD",
+          "hit_distance": 12.707474746258738
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "camera_inside_f04": false,
+      "projected_bbox": {
+        "x_min": -0.6273278594017029,
+        "x_max": 1.0907385349273682,
+        "y_min": -1.7073241472244263,
+        "y_max": 0.7456415891647339,
+        "z_min": 1.3113951683044434,
+        "z_max": 24.50397491455078
+      },
+      "projected_area_percent": 421.4357998130879,
+      "clipping_flags": {
+        "x_min": true,
+        "x_max": true,
+        "y_min": true,
+        "y_max": false,
+        "z_min": false,
+        "z_max": true
+      },
+      "nearest_unrelated_geometry_distance": 10.701509607189642,
+      "png_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v04\\F04_V04_CANDIDATE_06_PREVIEW_900x600.png",
+      "png_sha256": "D6E2375C890BA69E6505498AB36B9D7C44D2592E9E8DD674560DB7C9583EFC31",
+      "png_bytes": 628296
+    }
+  ],
+  "canonical": {
+    "blend_before": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "blend_after": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "glb_before": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1",
+    "glb_after": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1",
+    "expected_blend": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "expected_glb": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1",
+    "blend_unchanged": true,
+    "glb_unchanged": true,
+    "model_saved": false,
+    "glb_exported": false,
+    "neighbor_mutation": false,
+    "current_f04_replaced_in_memory_only": true,
+    "removed_current_f04_object_count_in_memory": 59
+  }
+}
