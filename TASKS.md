@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.34
-- Current Task: M08.34 — Facility-Gated F05 Fire Pump House primary historical restoration
+- Current Sprint: M08.35
+- Current Task: M08.35 — Facility-Gated F05-R01 integrated-view + protection-evidence remediation
 - Current Task Status: READY
-- Next Task/Action: Execute only F05 Fire Pump House. Reconstruct the 123-object V05 historical selection, prove the required 54-primary / 69-secondary spatial split, restore only the 54-object primary accepted cluster around (94,-5), protect F01-F04 and existing quarantine states, produce historical A/B/C parity plus integrated primary-cluster evidence, and stop at AWAITING_GPT_FACILITY_AUDIT_F05. Do not begin Facility 06.
+- Next Task/Action: Execute only F05-R01 using `coordination/Prompts/REV005_FACILITY_F05_FIRE_PUMP_R01_INTEGRATED_PROTECTION_REMEDIATION_GPT_PROMPT.md`. Preserve all already-passed 123→54/69 historical/parity gates, replace the failed integrated D evidence with a genuinely readable current-context camera, resolve the Restaurant right-wall quarantine-state evidence inconsistency, and stop at `AWAITING_GPT_FACILITY_AUDIT_F05_R01`. Do not begin Facility 06.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -31,7 +31,9 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F02 Daycare / Crèche is now independently PASS and locked. Its 79 accepted objects are protected against casual edits.
 - F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
 - F04 Employee Changing / Shower / Locker Support is now independently PASS and locked. Its 59 accepted objects and accepted X01 quarantine state are protected against casual edits.
-- F05 Fire Pump House is now the only active facility. No later facility may begin until F05 receives independent GPT PASS.
+- F05 Fire Pump House remains the only active facility. No later facility may begin until F05 receives independent GPT PASS.
+- M08.34 F05 execution completed at `aab5d952ac10eb7751b12502d50547c811ada4e5`. Independent GPT Audit V01 result: `REMEDIATION_REQUIRED`. Historical source/split/dimensional/parity gates pass, but the selected integrated D preview is materially occluded and does not make the full pump/header/valve/panel system readable.
+- The same audit found a protection-evidence inconsistency: `quarantine_state.restaurant_right_wall` changes false→true between the committed before/after manifests while the recorded object payload is unchanged. M08.35 must resolve whether this is a manifest derivation bug or a real protected-state mutation before F05 can close.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
@@ -426,6 +428,26 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Independent GPT final decision: PASS.
   - Final audit: `coordination/Audits/REV005_FACILITY_F04_FINAL_GPT_AUDIT.md`.
   - F04 is locked.
+
+- [!] M08.34 — F05 Fire Pump House primary historical restoration
+  - Execution commit: `aab5d952ac10eb7751b12502d50547c811ada4e5`.
+  - Historical V05 selection 123 = 54 PRIMARY + 69 SECONDARY: PASS.
+  - Dimensional/source parity/destination parity gates: PASS.
+  - Final Blend: `E331FB7ADA9BF10DA43B544EDF6189A34D86002C5D3CD82FE74DA7D8CF019D07`.
+  - Final GLB: `98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825`.
+  - Independent GPT Audit V01: `REMEDIATION_REQUIRED`.
+  - Hard failure: selected D integrated preview is visually occluded despite 9/9 LOS and does not satisfy the locked functional-readability gate.
+  - Secondary evidence issue: Restaurant right-wall quarantine summary changes false→true between before/after protection manifests.
+  - Audit: `coordination/Audits/REV005_F05_FIRE_PUMP_GPT_AUDIT_V01.md`.
+
+- [ ] M08.35 — F05-R01 integrated-view + protection-evidence remediation
+  - Actor: CODEX.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F05_FIRE_PUMP_R01_INTEGRATED_PROTECTION_REMEDIATION_GPT_PROMPT.md`.
+  - Preserve the already-passed F05 historical 123→54/69, dimensional and A/B/C parity gates.
+  - Produce at least 9 true integrated 900×600 candidate previews; do not equate LOS success with visual acceptance.
+  - Resolve Restaurant right-wall protection truth against accepted F04 references and current canonical state.
+  - Do not begin F06.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F05_R01`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
