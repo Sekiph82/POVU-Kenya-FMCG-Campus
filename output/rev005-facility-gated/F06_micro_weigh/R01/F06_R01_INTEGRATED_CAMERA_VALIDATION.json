@@ -1,0 +1,74 @@
+{
+  "task": "M08.37 / F06-R01 only",
+  "status": "BLOCKED_F06_R01_NO_COMPLETE_INTEGRATED_VIEW",
+  "candidate_count": 32,
+  "minimum_candidates_required": 20,
+  "candidates_meeting_visual_gate": 0,
+  "candidates_meeting_los_minimum": 0,
+  "maximum_los_visible": 3,
+  "selected_candidate": null,
+  "final_render_created": false,
+  "visual_gate": {
+    "weigh_booth": false,
+    "hopper_row": false,
+    "hopper_valves": false,
+    "dosing_chutes": false,
+    "precision_balances": false,
+    "balance_table": false,
+    "transfer_tote_or_cart": false,
+    "operator_or_service_zone": false,
+    "access_organization": false,
+    "complete_workflow_relationship": false,
+    "structure_dominance_or_clipping": true,
+    "qa_hiding_used": false,
+    "neighbor_mutation": false
+  },
+  "best_partial_candidate": {
+    "candidate_id": "F06_R01_CANDIDATE_05",
+    "camera_xyz_m": [
+      -20,
+      43,
+      6
+    ],
+    "target_xyz_m": [
+      -4,
+      50,
+      2.8
+    ],
+    "lens_mm": 35,
+    "los_visible": 3,
+    "los_total": 9,
+    "visible_cues": [
+      "weigh_booth_partial",
+      "dosing_chutes_partial",
+      "precision_balances_partial",
+      "balance_table",
+      "operator_table"
+    ],
+    "missing_or_obscured_cues": [
+      "complete_four_hopper_row",
+      "hopper_valves",
+      "transfer_tote_or_cart",
+      "access_organization",
+      "complete_workflow_relationship"
+    ],
+    "blockers": [
+      "V02_WEIGH_BOOTH_SIDE",
+      "V09_WET_WIPES_LEFT_WALL",
+      "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+    ]
+  },
+  "recurring_blockers": [
+    "V09_WET_PROCESS_BACK_WALL",
+    "V09_WET_WIPES_LEFT_WALL",
+    "V09_TOOTHPASTE_SOFFIT",
+    "V09_WET_PROCESS_SOFFIT",
+    "V02_WEIGH_BOOTH_SIDE",
+    "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+    "HOLDING_TANK_VESSEL",
+    "HOLDING_TANK_LID"
+  ],
+  "camera_search": "Required far/front-oblique, farther-left and higher/wider front-left families, varied targets and 35/40/45/52 mm lenses, plus 12 south/front-center probes. Current saved visibility was preserved.",
+  "stop_marker": "BLOCKED_F06_R01_NO_COMPLETE_INTEGRATED_VIEW",
+  "do_not_begin": "F07"
+}

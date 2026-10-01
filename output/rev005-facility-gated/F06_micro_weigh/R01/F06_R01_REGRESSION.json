@@ -1,0 +1,27 @@
+{
+  "task": "M08.37 / F06-R01 only",
+  "status": "PASS_EVIDENCE_ONLY_REGRESSION",
+  "canonical_blend_expected_sha256": "BA2CFFBA98C317EBE8E96E0DAC40263FCACF1C4485D544FA467C38EFD2853655",
+  "canonical_blend_actual_sha256": "BA2CFFBA98C317EBE8E96E0DAC40263FCACF1C4485D544FA467C38EFD2853655",
+  "canonical_glb_expected_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+  "canonical_glb_actual_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+  "canonical_hashes_unchanged": true,
+  "destination_collection": "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+  "destination_count": 43,
+  "historical_selection_count": 43,
+  "historical_contribution_split": {
+    "BASE": 7,
+    "V01": 12,
+    "V02": 23,
+    "V03": 0,
+    "V04": 0,
+    "V05": 1
+  },
+  "prior_protection_evidence": "output/rev005-facility-gated/F06_micro_weigh/F06_PROTECTION_DIFF.json",
+  "prior_protection_diff_status": "PASS",
+  "f01_f05_protected_change_this_task": false,
+  "basis_for_no_model_change": "Canonical Blend and GLB hashes exactly match M08.37 locked values before and after evidence generation; render scripts loaded the Blend read-only and did not save it.",
+  "f07_work_started": false,
+  "only_task_scope": "F06-R01",
+  "stop_marker": "BLOCKED_F06_R01_NO_COMPLETE_INTEGRATED_VIEW"
+}
