@@ -1,0 +1,1021 @@
+{
+  "status": "PASS",
+  "minimum_candidates": 12,
+  "candidate_count": 12,
+  "selected_candidate": {
+    "candidate": "FRONT_LEFT",
+    "camera_location": [
+      -15,
+      41,
+      6
+    ],
+    "target": [
+      -5,
+      50,
+      3
+    ],
+    "lens_mm": 52,
+    "sensor_width_mm": 36,
+    "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_FRONT_LEFT_900x600.png",
+    "png_sha256": "0C1DBDFD0B8E1C1FFD578C1824E7385371C3F49AC6EEB776816CC6D978FA228A",
+    "los_target_count": 9,
+    "los_visible_count": 9,
+    "los": [
+      {
+        "target": "V02_WEIGH_HOPPER_0",
+        "visible": true,
+        "blocker": null,
+        "distance": 13.1621
+      },
+      {
+        "target": "V02_WEIGH_HOPPER_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 14.3262
+      },
+      {
+        "target": "V02_WEIGH_HOPPER_2",
+        "visible": true,
+        "blocker": null,
+        "distance": 15.6601
+      },
+      {
+        "target": "V02_WEIGH_HOPPER_VALVE_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 14.5055
+      },
+      {
+        "target": "V02_WEIGH_DOSING_CHUTE_0",
+        "visible": true,
+        "blocker": null,
+        "distance": 12.5791
+      },
+      {
+        "target": "V02_WEIGH_DOSING_CHUTE_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 13.7925
+      },
+      {
+        "target": "V02_WEIGH_OPERATOR_TABLE",
+        "visible": true,
+        "blocker": null,
+        "distance": 9.7637
+      },
+      {
+        "target": "V02_BALANCE_BOWL_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 12.9156
+      },
+      {
+        "target": "V02_BALANCE_BOWL_0",
+        "visible": true,
+        "blocker": null,
+        "distance": 11.2983
+      }
+    ],
+    "camera_outside_geometry": true,
+    "uses_full_current_context": true,
+    "qa_hiding_used": false
+  },
+  "candidates": [
+    {
+      "candidate": "FRONT_LEFT",
+      "camera_location": [
+        -15,
+        41,
+        6
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_FRONT_LEFT_900x600.png",
+      "png_sha256": "0C1DBDFD0B8E1C1FFD578C1824E7385371C3F49AC6EEB776816CC6D978FA228A",
+      "los_target_count": 9,
+      "los_visible_count": 9,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 13.1621
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 14.3262
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance": 15.6601
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 14.5055
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 12.5791
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 13.7925
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance": 9.7637
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 12.9156
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 11.2983
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "MID_LEFT",
+      "camera_location": [
+        -13,
+        46,
+        4
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_MID_LEFT_900x600.png",
+      "png_sha256": "6367171560C8D43F7F22B21BE428C93E924CC0CC1AB5BD2E93BA995E9EC8F115",
+      "los_target_count": 9,
+      "los_visible_count": 8,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 7.8128
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 9.2217
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance": 10.8185
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 9.2634
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 7.1297
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 8.6506
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance": 4.3738
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": true,
+          "blocker": null,
+          "distance": 8.4742
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 6.4384
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "MID_CENTER",
+      "camera_location": [
+        -5,
+        44,
+        4
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_MID_CENTER_900x600.png",
+      "png_sha256": "57DFE7DB60386BAE20EEC4C49969A152669D5B3889080E096782550D2918F61E",
+      "los_target_count": 9,
+      "los_visible_count": 4,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 8.5463
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5",
+          "distance": 8.0647
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5",
+          "distance": 8.0647
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5",
+          "distance": 8.1123
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 7.6441
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5",
+          "distance": 7.1016
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance": 6.9232
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5",
+          "distance": 4.6704
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 5.1626
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "SIDE_LEFT",
+      "camera_location": [
+        -16,
+        50,
+        5
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_SIDE_LEFT_900x600.png",
+      "png_sha256": "827ECC4F3600BD7157B960001099B0E7882DB043035DFFD39264D955B0722611",
+      "los_target_count": 9,
+      "los_visible_count": 2,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 8.2849
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 10.2294
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 12.1918
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 10.3735
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 8.3864
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 10.3118
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": true,
+          "blocker": null,
+          "distance": 7.0803
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE",
+          "distance": 11.3275
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": true,
+          "blocker": null,
+          "distance": 9.2061
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "FRONT_RIGHT",
+      "camera_location": [
+        5,
+        41,
+        6
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_FRONT_RIGHT_900x600.png",
+      "png_sha256": "5E2108B115DC07B9918A2F21985908A6835E9955FA4D7C0FCA66F0F08C897925",
+      "los_target_count": 9,
+      "los_visible_count": 1,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 17.1243
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 15.6601
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance": 14.3262
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 15.8243
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 16.6803
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 15.1734
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_TOP",
+          "distance": 17.1852
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_TOP",
+          "distance": 12.9156
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V09_PARENT_ROLL_TOP",
+          "distance": 14.6851
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "MID_RIGHT",
+      "camera_location": [
+        3,
+        45,
+        4
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_MID_RIGHT_900x600.png",
+      "png_sha256": "FCA40A6360E4869A965B5FE48756578DDD60905F8BEC8E0439B53CB8622222D4",
+      "los_target_count": 9,
+      "los_visible_count": 1,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 13.0399
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 11.4035
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": true,
+          "blocker": null,
+          "distance": 9.9015
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 11.4372
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 12.5552
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 10.8459
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 13.5842
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 8.8211
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 10.856
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "FRONT_WIDE",
+      "camera_location": [
+        -5,
+        39,
+        5
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_FRONT_WIDE_900x600.png",
+      "png_sha256": "3F023236C97CB7FDC0E8006B463CB049BF8E55D0839072C70A7D413322C221D0",
+      "los_target_count": 9,
+      "los_visible_count": 0,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 13.3656
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 13.0629
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 13.0629
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 13.1761
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 12.4953
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 12.171
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 10.9786
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 9.7628
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V09_WET_PROCESS_BACK_WALL",
+          "distance": 10.0076
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "HISTORICAL_A",
+      "camera_location": [
+        -16,
+        40,
+        12
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_HISTORICAL_A_900x600.png",
+      "png_sha256": "C9B720035A61766ED19AAFA88F327F1EBA1527157D8255BB8130860577D78C6A",
+      "los_target_count": 9,
+      "los_visible_count": 0,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 16.3963
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 17.4597
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 18.6773
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 17.978
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 16.4388
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 17.4995
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 14.4682
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 16.6977
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 15.3379
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "HISTORICAL_B",
+      "camera_location": [
+        -11,
+        45,
+        8
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_HISTORICAL_B_900x600.png",
+      "png_sha256": "CBD83A63172C54B64273A03C92554E2AA24D3D665FA6F1DDD9EB5F51BB7AE88C",
+      "los_target_count": 9,
+      "los_visible_count": 0,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 8.5112
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 9.4043
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 10.6038
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 9.9
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 8.5107
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 9.4039
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 7.1365
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 8.707
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 7.3656
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "HISTORICAL_C",
+      "camera_location": [
+        -3,
+        49,
+        8
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_HISTORICAL_C_900x600.png",
+      "png_sha256": "8F3CBE454D824390BDA1EDE4CC73A8C0CD71A263AEDE1223A3E69C92053476B8",
+      "los_target_count": 9,
+      "los_visible_count": 0,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_SOFFIT",
+          "distance": 6.9599
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 5.6956
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_SOFFIT",
+          "distance": 4.9437
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 6.4815
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 7.5652
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 6.4213
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 9.4515
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 5.6403
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V09_TOOTHPASTE_SOFFIT",
+          "distance": 6.7418
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "REAR_HIGH",
+      "camera_location": [
+        -5,
+        57,
+        6
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_REAR_HIGH_900x600.png",
+      "png_sha256": "72ED34F5EF0BB249D4F79321EB8FF252AC03058BF613BA94C3919E591D87431D",
+      "los_target_count": 9,
+      "los_visible_count": 0,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 6.1025
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 5.4074
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 5.4074
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 5.866
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 7.5784
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 7.0308
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 10.9968
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 9.1001
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_BACK",
+          "distance": 9.3623
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    },
+    {
+      "candidate": "SIDE_RIGHT",
+      "camera_location": [
+        7,
+        50,
+        5
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36,
+      "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_SIDE_RIGHT_900x600.png",
+      "png_sha256": "86CC4BC252A726CE271FE12F7A9F5562F222B627CCD1A7518C32461746888C14",
+      "los_target_count": 9,
+      "los_visible_count": 0,
+      "los": [
+        {
+          "target": "V02_WEIGH_HOPPER_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 15.1539
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_2",
+          "distance": 13.1773
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_2",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_3",
+          "distance": 11.2089
+        },
+        {
+          "target": "V02_WEIGH_HOPPER_VALVE_1",
+          "visible": false,
+          "blocker": "V02_WEIGH_HOPPER_3",
+          "distance": 13.2895
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 15.2096
+        },
+        {
+          "target": "V02_WEIGH_DOSING_CHUTE_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 13.2413
+        },
+        {
+          "target": "V02_WEIGH_OPERATOR_TABLE",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 17.4106
+        },
+        {
+          "target": "V02_BALANCE_BOWL_1",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 12.3009
+        },
+        {
+          "target": "V02_BALANCE_BOWL_0",
+          "visible": false,
+          "blocker": "V09_WET_WIPES_LEFT_WALL",
+          "distance": 14.4552
+        }
+      ],
+      "camera_outside_geometry": true,
+      "uses_full_current_context": true,
+      "qa_hiding_used": false
+    }
+  ]
+}

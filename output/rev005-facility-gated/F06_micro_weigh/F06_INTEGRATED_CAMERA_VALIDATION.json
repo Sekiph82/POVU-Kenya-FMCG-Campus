@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "candidate_count": 12,
+  "minimum_candidate_count": 12,
+  "minimum_los": 7,
+  "selected_candidate": {
+    "candidate": "FRONT_LEFT",
+    "camera_location": [
+      -15,
+      41,
+      6
+    ],
+    "target": [
+      -5,
+      50,
+      3
+    ],
+    "lens_mm": 52,
+    "sensor_width_mm": 36,
+    "render_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_CANDIDATE_FRONT_LEFT_900x600.png",
+    "png_sha256": "0C1DBDFD0B8E1C1FFD578C1824E7385371C3F49AC6EEB776816CC6D978FA228A",
+    "los_target_count": 9,
+    "los_visible_count": 9,
+    "los": [
+      {
+        "target": "V02_WEIGH_HOPPER_0",
+        "visible": true,
+        "blocker": null,
+        "distance": 13.1621
+      },
+      {
+        "target": "V02_WEIGH_HOPPER_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 14.3262
+      },
+      {
+        "target": "V02_WEIGH_HOPPER_2",
+        "visible": true,
+        "blocker": null,
+        "distance": 15.6601
+      },
+      {
+        "target": "V02_WEIGH_HOPPER_VALVE_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 14.5055
+      },
+      {
+        "target": "V02_WEIGH_DOSING_CHUTE_0",
+        "visible": true,
+        "blocker": null,
+        "distance": 12.5791
+      },
+      {
+        "target": "V02_WEIGH_DOSING_CHUTE_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 13.7925
+      },
+      {
+        "target": "V02_WEIGH_OPERATOR_TABLE",
+        "visible": true,
+        "blocker": null,
+        "distance": 9.7637
+      },
+      {
+        "target": "V02_BALANCE_BOWL_1",
+        "visible": true,
+        "blocker": null,
+        "distance": 12.9156
+      },
+      {
+        "target": "V02_BALANCE_BOWL_0",
+        "visible": true,
+        "blocker": null,
+        "distance": 11.2983
+      }
+    ],
+    "camera_outside_geometry": true,
+    "uses_full_current_context": true,
+    "qa_hiding_used": false
+  },
+  "final_views": [
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_A_CONTEXT.png",
+      "sha256": "D426BEEE25E96A93CF74DE83F0DD5488CBB338B40772B38B5AB5F301D4CF2D5E",
+      "bytes": 1513275,
+      "camera_location": [
+        -15,
+        41,
+        6
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_B_FUNCTIONAL.png",
+      "sha256": "D15A5E47FD43256C7D88909C0C406C7FABA4A5F4098F1E5880AAAD4CFD0D0A50",
+      "bytes": 1408001,
+      "camera_location": [
+        -13,
+        45,
+        5
+      ],
+      "target": [
+        -4,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_C_PROCESS_OR_DETAIL.png",
+      "sha256": "6ECBFB08AB0B0AD3F38F35425A9DF017C46AB795A151EBCE103D25ECAEAF224A",
+      "bytes": 1284994,
+      "camera_location": [
+        -8,
+        43,
+        5
+      ],
+      "target": [
+        -4,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_D_INTEGRATED_CONTEXT_PREVIEW_900x600.png",
+      "sha256": "EC8916277E87DC8AF542B35F7CCA2BF7DB5663D3CC2BE2E07D64ECE07ABCF66F",
+      "bytes": 635232,
+      "camera_location": [
+        -15,
+        41,
+        6
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36
+    },
+    {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_D_INTEGRATED_CONTEXT.png",
+      "sha256": "1F9305F7F2D7647CD0B5AE6DE9FBA71E40E4FAA97EFC9BB3CA7DB61A216E70ED",
+      "bytes": 1513267,
+      "camera_location": [
+        -15,
+        41,
+        6
+      ],
+      "target": [
+        -5,
+        50,
+        3
+      ],
+      "lens_mm": 52,
+      "sensor_width_mm": 36
+    }
+  ],
+  "current_context": true,
+  "qa_hiding_used": false,
+  "camera_outside_geometry": true,
+  "visual_cues": {
+    "weigh_booth": true,
+    "hopper_row": true,
+    "hopper_valves": true,
+    "dosing_chutes": true,
+    "precision_balances": true,
+    "operator_table": true,
+    "transfer_tote": true,
+    "transfer_cart": true,
+    "access_path": true,
+    "structure_dominance_or_clipping": false
+  },
+  "audit_note": "Selected FRONT_LEFT context view provides the strongest unobstructed process line of sight; historical A/B/C are retained in the candidate set and source parity set."
+}

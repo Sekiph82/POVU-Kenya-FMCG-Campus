@@ -1,0 +1,2739 @@
+{
+  "status": "PASS",
+  "facility": "Micro-ingredient Weigh / Dispense",
+  "broad_pre_restore_inventory_count": 91,
+  "identified_exact_current_representation_count": 43,
+  "historical_selection_count": 43,
+  "current_exact_names_missing_from_pre_restore": [],
+  "ambiguous_ownership": false,
+  "current_exact_representation_collections": [
+    "REV005_INTERIOR_COMPLETION",
+    "REV005_INTERIOR_REMEDIATION_V01",
+    "REV005_INTERIOR_REMEDIATION_V02",
+    "REV005_INTERIOR_REMEDIATION_V05"
+  ],
+  "objects": [
+    {
+      "name": "REV005_Micro-ingredient_weigh_/_dispense_FLOOR",
+      "type": "MESH",
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "data": "Cube.607",
+      "dimensions": [
+        21.0,
+        10.0,
+        0.119999997
+      ],
+      "location_world": [
+        -5.0,
+        50.0,
+        1.279999971
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          50.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.279999971
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_Floor_Clean"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Micro-ingredient weigh / dispense",
+        "rev005_function": "finished interior floor",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Micro-ingredient weigh / dispense"
+      }
+    },
+    {
+      "name": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY",
+      "type": "MESH",
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "data": "Cube.608",
+      "dimensions": [
+        2.200000048,
+        1.0,
+        1.399999976
+      ],
+      "location_world": [
+        -5.0,
+        47.599998474,
+        2.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          47.599998474
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_Equipment_White"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Micro-ingredient weigh / dispense",
+        "rev005_function": "operator control and line-side QC",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Micro-ingredient weigh / dispense"
+      }
+    },
+    {
+      "name": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL",
+      "type": "MESH",
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "data": "Cube.609",
+      "dimensions": [
+        0.99000001,
+        0.079999998,
+        0.335999995
+      ],
+      "location_world": [
+        -5.0,
+        47.020000458,
+        2.868000031
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          47.020000458
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.868000031
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_Black"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Micro-ingredient weigh / dispense",
+        "rev005_function": "operator control panel",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Micro-ingredient weigh / dispense"
+      }
+    },
+    {
+      "name": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH",
+      "type": "MESH",
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "data": "Cylinder.029",
+      "dimensions": [
+        0.360000014,
+        0.360000014,
+        0.550000012
+      ],
+      "location_world": [
+        4.349999905,
+        46.5,
+        1.799999952
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          4.349999905
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          46.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.799999952
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_Safety_Red"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Micro-ingredient weigh / dispense",
+        "rev005_function": "eyewash",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Micro-ingredient weigh / dispense"
+      }
+    },
+    {
+      "name": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE",
+      "type": "MESH",
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "data": "Cube.612",
+      "dimensions": [
+        0.800000012,
+        0.349999994,
+        1.299999952
+      ],
+      "location_world": [
+        3.700000048,
+        46.5,
+        2.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          3.700000048
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          46.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_Safety_Yellow"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Micro-ingredient weigh / dispense",
+        "rev005_function": "PPE station",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Micro-ingredient weigh / dispense"
+      }
+    },
+    {
+      "name": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0",
+      "type": "MESH",
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "data": "Cube.610",
+      "dimensions": [
+        1.799999952,
+        1.299999952,
+        0.419999987
+      ],
+      "location_world": [
+        -13.0,
+        53.0,
+        1.450000048
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -13.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          53.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.450000048
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_Wood"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Micro-ingredient weigh / dispense",
+        "rev005_function": "staged pallet",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Micro-ingredient weigh / dispense"
+      }
+    },
+    {
+      "name": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1",
+      "type": "MESH",
+      "facility": null,
+      "collections": [
+        "REV005_INTERIOR_COMPLETION"
+      ],
+      "parent": null,
+      "data": "Cube.611",
+      "dimensions": [
+        1.799999952,
+        1.299999952,
+        0.419999987
+      ],
+      "location_world": [
+        -13.0,
+        53.0,
+        1.970000029
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -13.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          53.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.970000029
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_Wood"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "revision": "REV005",
+        "rev005_facility": "Micro-ingredient weigh / dispense",
+        "rev005_function": "staged pallet",
+        "rev005_source_basis": "REV005 conservative functional layout",
+        "REV005_V08_LEGACY_RETIRED": true,
+        "REV005_V08_RETIRED_GROUP": "Wet wipes production",
+        "REV005_V09_PRESERVED_EXACT": true,
+        "REV005_V09_PRESERVED_GROUP": "Micro-ingredient weigh / dispense"
+      }
+    },
+    {
+      "name": "RM_WEIGH_BALANCE",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_BALANCE_MESH.001",
+      "dimensions": [
+        1.200000048,
+        0.699999988,
+        0.699999988
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_CYAN"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_BALANCE"
+      }
+    },
+    {
+      "name": "RM_WEIGH_BIN_0",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_BIN_0_MESH.001",
+      "dimensions": [
+        0.899999976,
+        1.0,
+        1.200000048
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_BIN_0"
+      }
+    },
+    {
+      "name": "RM_WEIGH_BIN_1",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_BIN_1_MESH.001",
+      "dimensions": [
+        0.899999976,
+        1.0,
+        1.200000048
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_BIN_1"
+      }
+    },
+    {
+      "name": "RM_WEIGH_BIN_2",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_BIN_2_MESH.001",
+      "dimensions": [
+        0.899999976,
+        1.0,
+        1.200000048
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_BIN_2"
+      }
+    },
+    {
+      "name": "RM_WEIGH_BIN_3",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_BIN_3_MESH.001",
+      "dimensions": [
+        0.899999976,
+        1.0,
+        1.200000048
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_PROCESS_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_BIN_3"
+      }
+    },
+    {
+      "name": "RM_WEIGH_BOOTH",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_BOOTH_MESH.001",
+      "dimensions": [
+        8.0,
+        4.199999809,
+        3.200000048
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_CLEAN_WHITE"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_BOOTH"
+      }
+    },
+    {
+      "name": "RM_WEIGH_HOPPER_0",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_HOPPER_0_MESH.001",
+      "dimensions": [
+        0.680000007,
+        0.680000007,
+        0.699999988
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_HOPPER_0"
+      }
+    },
+    {
+      "name": "RM_WEIGH_HOPPER_1",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_HOPPER_1_MESH.001",
+      "dimensions": [
+        0.680000007,
+        0.680000007,
+        0.699999988
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_HOPPER_1"
+      }
+    },
+    {
+      "name": "RM_WEIGH_HOPPER_2",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_HOPPER_2_MESH.001",
+      "dimensions": [
+        0.680000007,
+        0.680000007,
+        0.699999988
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_HOPPER_2"
+      }
+    },
+    {
+      "name": "RM_WEIGH_HOPPER_3",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_HOPPER_3_MESH.001",
+      "dimensions": [
+        0.680000007,
+        0.680000007,
+        0.699999988
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_HOPPER_3"
+      }
+    },
+    {
+      "name": "RM_WEIGH_SCALE_TABLE",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_SCALE_TABLE_MESH.001",
+      "dimensions": [
+        6.0,
+        1.0,
+        1.200000048
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_STEEL"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_SCALE_TABLE"
+      }
+    },
+    {
+      "name": "RM_WEIGH_TRANSFER_CART",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V01"
+      ],
+      "parent": null,
+      "data": "RM_WEIGH_TRANSFER_CART_MESH.001",
+      "dimensions": [
+        1.799999952,
+        1.200000048,
+        1.0
+      ],
+      "location_world": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_RM_SAFETY_YELLOW"
+      ],
+      "modifiers": [],
+      "hide_render": true,
+      "hide_viewport": true,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Micro-ingredient Weigh / Dispense",
+        "functional_role": "RM_WEIGH_TRANSFER_CART"
+      }
+    },
+    {
+      "name": "V02_BALANCE_BOWL_0",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_BALANCE_BOWL_0_MESH",
+      "dimensions": [
+        0.860000014,
+        0.860000014,
+        0.180000007
+      ],
+      "location_world": [
+        -7.199999809,
+        48.5,
+        2.75
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.199999809
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_WHITE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_BALANCE_BOWL_1",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_BALANCE_BOWL_1_MESH",
+      "dimensions": [
+        0.860000014,
+        0.860000014,
+        0.180000007
+      ],
+      "location_world": [
+        -5.0,
+        48.5,
+        2.75
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_WHITE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_BALANCE_BOWL_2",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_BALANCE_BOWL_2_MESH",
+      "dimensions": [
+        0.860000014,
+        0.860000014,
+        0.180000007
+      ],
+      "location_world": [
+        -2.799999952,
+        48.5,
+        2.75
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.799999952
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_WHITE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_PRECISION_BALANCE_0",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_PRECISION_BALANCE_0_MESH",
+      "dimensions": [
+        1.25,
+        0.649999976,
+        0.319999993
+      ],
+      "location_world": [
+        -7.199999809,
+        48.5,
+        2.450000048
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.199999809
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.450000048
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_PRECISION_BALANCE_1",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_PRECISION_BALANCE_1_MESH",
+      "dimensions": [
+        1.25,
+        0.649999976,
+        0.319999993
+      ],
+      "location_world": [
+        -5.0,
+        48.5,
+        2.450000048
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.450000048
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_PRECISION_BALANCE_2",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_PRECISION_BALANCE_2_MESH",
+      "dimensions": [
+        1.25,
+        0.649999976,
+        0.319999993
+      ],
+      "location_world": [
+        -2.799999952,
+        48.5,
+        2.450000048
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.799999952
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.5
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.450000048
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_BALANCE_TABLE",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_BALANCE_TABLE_MESH",
+      "dimensions": [
+        7.0,
+        1.0,
+        1.100000024
+      ],
+      "location_world": [
+        -5.0,
+        48.900001526,
+        1.799999952
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.900001526
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.799999952
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_STEEL"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_BOOTH_BACK",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_BOOTH_BACK_MESH",
+      "dimensions": [
+        10.0,
+        0.119999997,
+        4.0
+      ],
+      "location_world": [
+        -5.0,
+        53.099998474,
+        3.099999905
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          53.099998474
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.099999905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_WHITE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_BOOTH_SIDE",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_BOOTH_SIDE_MESH",
+      "dimensions": [
+        0.119999997,
+        4.0,
+        4.0
+      ],
+      "location_world": [
+        -10.0,
+        51.099998474,
+        3.099999905
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          51.099998474
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.099999905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_WHITE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_DOSING_CHUTE_0",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_DOSING_CHUTE_0_MESH",
+      "dimensions": [
+        0.180000007,
+        0.179999992,
+        2.2803514
+      ],
+      "location_world": [
+        -8.0,
+        50.900001526,
+        2.650000095
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          -0.263117313,
+          -0.96476382,
+          50.900001526
+        ],
+        [
+          0.0,
+          0.96476382,
+          -0.263117313,
+          2.650000095
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        1.837048292,
+        -0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_TEAL"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_DOSING_CHUTE_1",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_DOSING_CHUTE_1_MESH",
+      "dimensions": [
+        0.180000007,
+        0.179999992,
+        2.2803514
+      ],
+      "location_world": [
+        -6.0,
+        50.900001526,
+        2.650000095
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          -0.263117313,
+          -0.96476382,
+          50.900001526
+        ],
+        [
+          0.0,
+          0.96476382,
+          -0.263117313,
+          2.650000095
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        1.837048292,
+        -0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_TEAL"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_DOSING_CHUTE_2",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_DOSING_CHUTE_2_MESH",
+      "dimensions": [
+        0.180000007,
+        0.179999992,
+        2.2803514
+      ],
+      "location_world": [
+        -4.0,
+        50.900001526,
+        2.650000095
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          -0.263117313,
+          -0.96476382,
+          50.900001526
+        ],
+        [
+          0.0,
+          0.96476382,
+          -0.263117313,
+          2.650000095
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        1.837048292,
+        -0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_TEAL"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_DOSING_CHUTE_3",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_DOSING_CHUTE_3_MESH",
+      "dimensions": [
+        0.180000007,
+        0.179999992,
+        2.2803514
+      ],
+      "location_world": [
+        -2.0,
+        50.900001526,
+        2.650000095
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          -0.263117313,
+          -0.96476382,
+          50.900001526
+        ],
+        [
+          0.0,
+          0.96476382,
+          -0.263117313,
+          2.650000095
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        1.837048292,
+        -0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_TEAL"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_0",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_0_MESH",
+      "dimensions": [
+        1.440000057,
+        1.440000057,
+        1.799999952
+      ],
+      "location_world": [
+        -8.0,
+        52.0,
+        4.199999809
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.199999809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_1",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_1_MESH",
+      "dimensions": [
+        1.440000057,
+        1.440000057,
+        1.799999952
+      ],
+      "location_world": [
+        -6.0,
+        52.0,
+        4.199999809
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.199999809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_2",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_2_MESH",
+      "dimensions": [
+        1.440000057,
+        1.440000057,
+        1.799999952
+      ],
+      "location_world": [
+        -4.0,
+        52.0,
+        4.199999809
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.199999809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_3",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_3_MESH",
+      "dimensions": [
+        1.440000057,
+        1.440000057,
+        1.799999952
+      ],
+      "location_world": [
+        -2.0,
+        52.0,
+        4.199999809
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.199999809
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_STAINLESS"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_VALVE_0",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_VALVE_0_MESH",
+      "dimensions": [
+        0.449999988,
+        0.449999988,
+        0.349999994
+      ],
+      "location_world": [
+        -8.0,
+        52.0,
+        3.099999905
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -8.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.099999905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_VALVE_1",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_VALVE_1_MESH",
+      "dimensions": [
+        0.449999988,
+        0.449999988,
+        0.349999994
+      ],
+      "location_world": [
+        -6.0,
+        52.0,
+        3.099999905
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.099999905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_VALVE_2",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_VALVE_2_MESH",
+      "dimensions": [
+        0.449999988,
+        0.449999988,
+        0.349999994
+      ],
+      "location_world": [
+        -4.0,
+        52.0,
+        3.099999905
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.099999905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_HOPPER_VALVE_3",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_HOPPER_VALVE_3_MESH",
+      "dimensions": [
+        0.449999988,
+        0.449999988,
+        0.349999994
+      ],
+      "location_world": [
+        -2.0,
+        52.0,
+        3.099999905
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          52.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.099999905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_BLUE"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_OPERATOR_TABLE",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_OPERATOR_TABLE_MESH",
+      "dimensions": [
+        2.200000048,
+        1.0,
+        0.899999976
+      ],
+      "location_world": [
+        -10.0,
+        48.200000763,
+        1.700000048
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -10.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          48.200000763
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.700000048
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_WOOD"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V02_WEIGH_TRANSFER_TOTE",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V02"
+      ],
+      "parent": null,
+      "data": "V02_WEIGH_TRANSFER_TOTE_MESH",
+      "dimensions": [
+        1.799999952,
+        1.399999976,
+        1.200000048
+      ],
+      "location_world": [
+        0.0,
+        49.200000763,
+        1.799999952
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          49.200000763
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.799999952
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V02_YELLOW"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V02": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    },
+    {
+      "name": "V05_EVIDENCE_ANCHOR_MICR",
+      "type": "MESH",
+      "facility": "Micro-ingredient Weigh / Dispense",
+      "collections": [
+        "REV005_INTERIOR_REMEDIATION_V05"
+      ],
+      "parent": null,
+      "data": "V05_EVIDENCE_ANCHOR_MICR_MESH",
+      "dimensions": [
+        0.200000003,
+        0.200000003,
+        0.119999997
+      ],
+      "location_world": [
+        -5.0,
+        50.0,
+        1.080000043
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -5.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          50.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.080000043
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "material_slots": [
+        "REV005_V05_FLOOR"
+      ],
+      "modifiers": [],
+      "hide_render": false,
+      "hide_viewport": false,
+      "hide_get": false,
+      "custom_properties": {
+        "REV005_REMEDIATION_V05": true,
+        "facility": "Micro-ingredient Weigh / Dispense"
+      }
+    }
+  ],
+  "selection_match": true,
+  "note": "The canonical checkout already contained the exact historical 43-object selection; restoration bound those existing objects into the accepted destination collection without duplicate objects or broad spatial deletion."
+}

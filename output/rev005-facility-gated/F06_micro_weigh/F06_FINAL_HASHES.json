@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "canonical_blend_sha256": "BA2CFFBA98C317EBE8E96E0DAC40263FCACF1C4485D544FA467C38EFD2853655",
+  "canonical_glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+  "canonical_blend_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "canonical_glb_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+  "historical_source_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "historical_replay_blend_sha256": "266A4706FD994ACF171B5C5E3C8E0371CEAD5223888E8BE1B202D25901E294B5",
+  "historical_replay_glb_sha256": "B08AB2A38CFA5540F62DF166D292CDB9643806AFEF67195EC5D5EBCCB429062C",
+  "destination_count": 43,
+  "contribution_counts": {
+    "BASE": 7,
+    "V01": 12,
+    "V02": 23,
+    "V05": 1
+  },
+  "gates": {
+    "source_render_parity": "PASS",
+    "dimensional_validation": "PASS",
+    "destination_parity": "PASS",
+    "protection_diff": "PASS",
+    "integrated_camera": "PASS"
+  },
+  "stop_marker": "AWAITING_GPT_FACILITY_AUDIT_F06",
+  "next_facility_started": false
+}

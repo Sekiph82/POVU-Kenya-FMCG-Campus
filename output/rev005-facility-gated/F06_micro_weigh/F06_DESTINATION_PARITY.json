@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "collection": "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+  "object_count": 43,
+  "semantics": "Exact historical V05 show_only implementation; all hide_render flags restored after each render",
+  "views": [
+    {
+      "view": "A_WIDE",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_DEST_PARITY_A_WIDE_900x600.png",
+      "bytes": 646048,
+      "sha256": "31E55BC795706EF0A4982B6FDA40133393C404D0C40546392BBD3CC8C4D19F23",
+      "status": "PASS",
+      "source_reference": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_A_WIDE.png",
+      "decoded_pixel_equal": false,
+      "decoded_pixel_gate": true,
+      "decoded_max_channel_delta": 8,
+      "decoded_different_pixel_count": 21,
+      "decoded_mean_channel_abs": 6.99074074074074e-05
+    },
+    {
+      "view": "B_FUNCTIONAL",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_DEST_PARITY_B_FUNCTIONAL_900x600.png",
+      "bytes": 623120,
+      "sha256": "F5748D415E9DA918999B76F99A3969DACB52F353E2768C08E2EBF47D55C4C90E",
+      "status": "PASS",
+      "source_reference": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_B_FUNCTIONAL.png",
+      "decoded_pixel_equal": false,
+      "decoded_pixel_gate": true,
+      "decoded_max_channel_delta": 22,
+      "decoded_different_pixel_count": 10,
+      "decoded_mean_channel_abs": 6.944444444444444e-05
+    },
+    {
+      "view": "C_PROCESS_OR_DETAIL",
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F06_micro_weigh\\F06_DEST_PARITY_C_PROCESS_OR_DETAIL_900x600.png",
+      "bytes": 609340,
+      "sha256": "353A7D6F975CEAC4C4A1642348B892343E7EAC8082408A34C3FADB3AA85829DD",
+      "status": "PASS",
+      "source_reference": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_C_PROCESS_OR_DETAIL.png",
+      "decoded_pixel_equal": true,
+      "decoded_pixel_gate": true,
+      "decoded_max_channel_delta": 0,
+      "decoded_different_pixel_count": 0,
+      "decoded_mean_channel_abs": 0.0
+    }
+  ],
+  "pixel_gate_policy": {
+    "max_channel_delta": 32,
+    "max_different_pixel_fraction": 0.0001
+  }
+}

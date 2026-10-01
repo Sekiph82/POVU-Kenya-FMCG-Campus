@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "historical_source_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "historical_v05_blend_sha256": "266A4706FD994ACF171B5C5E3C8E0371CEAD5223888E8BE1B202D25901E294B5",
+  "historical_v05_glb_sha256": "B08AB2A38CFA5540F62DF166D292CDB9643806AFEF67195EC5D5EBCCB429062C",
+  "object_count": 43,
+  "contribution_counts": {
+    "BASE": 7,
+    "V01": 12,
+    "V02": 23,
+    "V03": 0,
+    "V04": 0,
+    "V05": 1
+  },
+  "views": [
+    {
+      "view": "A_WIDE",
+      "replay_path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\povu-m0836-historical-4200383\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_A_WIDE.png",
+      "archived_reference": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_A_WIDE.png",
+      "replay_sha256": "A965F55166D286975279269236A54106BFD8724374D75B5CBA881D599D303233",
+      "archived_sha256": "F9F086DD793E741FA363E97EDE284F703F24FE696D99ADE5A557E06DED39D822",
+      "decoded_pixel_equal": true,
+      "resolution": [
+        900,
+        600
+      ],
+      "object_count": 43
+    },
+    {
+      "view": "B_FUNCTIONAL",
+      "replay_path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\povu-m0836-historical-4200383\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_B_FUNCTIONAL.png",
+      "archived_reference": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_B_FUNCTIONAL.png",
+      "replay_sha256": "D595BCE2ECC624FDD997D66099D8DD4C99DA5A2EB91E239D404AAB03DE70E00F",
+      "archived_sha256": "325D58617C80CF738F80B870417043AF02070EE0611E6184255B6A2C038D708E",
+      "decoded_pixel_equal": true,
+      "resolution": [
+        900,
+        600
+      ],
+      "object_count": 43
+    },
+    {
+      "view": "C_PROCESS_OR_DETAIL",
+      "replay_path": "C:\\Users\\sekip\\AppData\\Local\\Temp\\povu-m0836-historical-4200383\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_C_PROCESS_OR_DETAIL.png",
+      "archived_reference": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-interior-remediation-v05\\qa\\micro_ingredient_weigh_dispense_C_PROCESS_OR_DETAIL.png",
+      "replay_sha256": "D89FD54F9F56788F90ABD31D399BA7A7A93F798B84E5DD133A61A9AB8388C5DC",
+      "archived_sha256": "CF9C131CFB8FD893D80AF9722A0CE36DDB0C0F020472B8B7A257F5C1DE3F7754",
+      "decoded_pixel_equal": true,
+      "resolution": [
+        900,
+        600
+      ],
+      "object_count": 43
+    }
+  ]
+}

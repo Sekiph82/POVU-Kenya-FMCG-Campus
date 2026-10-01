@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "facility": "F06",
+  "class": "R historical restoration",
+  "historical_selection_count": 43,
+  "destination_selection_count": 43,
+  "contribution_counts": {
+    "BASE": 7,
+    "V01": 12,
+    "V02": 23,
+    "V05": 1
+  },
+  "required_gates": {
+    "source_render_parity": "PASS",
+    "dimensional_validation": "PASS",
+    "destination_parity": "PASS",
+    "protection_diff": "PASS",
+    "integrated_camera": "PASS"
+  },
+  "protection_unauthorized_diffs": 0,
+  "integrated_candidate_count": 12,
+  "selected_candidate": "FRONT_LEFT",
+  "selected_los": 9,
+  "canonical_blend_sha256": "BA2CFFBA98C317EBE8E96E0DAC40263FCACF1C4485D544FA467C38EFD2853655",
+  "canonical_glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+  "stop_marker": "AWAITING_GPT_FACILITY_AUDIT_F06",
+  "do_not_begin": "F07"
+}

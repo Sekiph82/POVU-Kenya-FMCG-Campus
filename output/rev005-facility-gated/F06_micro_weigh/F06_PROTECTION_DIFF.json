@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "unauthorized_object_diffs": [],
+  "unauthorized_field_diffs": [],
+  "protected_counts": {
+    "F01_accepted": 76,
+    "F02_accepted": 79,
+    "F03_accepted": 30,
+    "F04_accepted": 59,
+    "historical_glass_deck_source": 392,
+    "historical_pavilion": 1,
+    "wellness_glass": 1,
+    "restaurant_wellness": 1,
+    "v09_wellness_collection": 73,
+    "v09_glass_deck_quarantine": 117,
+    "v09_training_quarantine": 81,
+    "F05_accepted_primary": 54
+  },
+  "comparison_basis": "F05 accepted after snapshot plus F05 R01 direct accepted quarantine state; numeric tolerance 1e-5"
+}
