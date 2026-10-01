@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.37
-- Current Task: M08.37 — Facility-Gated F06-R01 integrated-camera remediation
+- Current Sprint: M08.38
+- Current Task: M08.38 — Facility-Gated F06-X01 targeted cross-facility quarantine + integrated re-audit
 - Current Task Status: READY
-- Execution Authorization: M08.37 / F06-R01 only
-- Next Task/Action: Execute only F06-R01 using `coordination/Prompts/REV005_FACILITY_F06_MICRO_WEIGH_R01_INTEGRATED_CAMERA_REMEDIATION_GPT_PROMPT.md`. Preserve the accepted 43-object F06 geometry, all historical/dimensional/A-B-C parity gates, and all prior protections; replace only the failed integrated-camera evidence with a complete readable current-context workflow view and stop at `AWAITING_GPT_FACILITY_AUDIT_F06_R01`. Do not begin F07.
+- Execution Authorization: M08.38 / F06-X01 only
+- Next Task/Action: Execute only F06-X01 using `coordination/Prompts/REV005_FACILITY_F06_X01_TARGETED_CROSS_FACILITY_QUARANTINE_GPT_PROMPT.md`. Apply only the seven authorized V09 Toothpaste/Wet Wipes structural-envelope quarantines proven to overlap accepted F06, preserve F01-F06 and all other neighbor geometry, then re-run integrated current-context camera validation and stop at `AWAITING_GPT_FACILITY_AUDIT_F06_X01`. Do not begin F07.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -33,7 +33,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
 - F04 Employee Changing / Shower / Locker Support is now independently PASS and locked. Its 59 accepted objects and accepted X01 quarantine state are protected against casual edits.
 - F05 Fire Pump House is independently PASS and locked after M08.35 at `b0d8214a80621d867fcccb7aebf1d117c9e7b2c5`. The accepted R01 integrated camera is `front_exterior_right` with 9/9 LOS and direct visual readability; the Restaurant right-wall discrepancy was proven `MANIFEST_DERIVATION_BUG_ONLY` with zero unauthorized protected-state differences. Canonical Blend/GLB hashes remained unchanged.
-- F06 Micro-ingredient Weigh / Dispense remains the only active facility. M08.36 execution at `4dbcc1ce2faeb0b6e0f61a5229f50e934ef82944` passed the 43-object historical selection, dimensional, source/destination parity, and protection gates, but independent GPT Audit V01 requires camera-only remediation because the selected FRONT_LEFT integrated view crops the downstream transfer tote/cart and does not show the complete workflow coherently. No later facility may begin until F06 receives independent GPT PASS.
+- F06 Micro-ingredient Weigh / Dispense remains the only active facility. M08.37 camera-only remediation at `4fdd0c9b13d5c69623d197b47ef5e8617ffce58d` correctly stopped after 32 candidates: 0 complete visual passes and max LOS 3/9. Root cause is now proven cross-facility structural overlap from unaccepted V09 Toothpaste and Wet Wipes envelopes. F06-X01 authorizes only seven overlapping V09 structural objects for targeted saved quarantine; Wet Processing and legitimate F06 geometry remain protected. No later facility may begin until F06 receives independent GPT PASS.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
@@ -461,14 +461,26 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Independent GPT Audit V01: `REMEDIATION_REQUIRED` for integrated framing only.
   - Audit: `coordination/Audits/REV005_F06_MICRO_WEIGH_GPT_AUDIT_V01.md`.
 
-- [ ] M08.37 — F06-R01 integrated-camera remediation
+- [!] M08.37 — F06-R01 integrated-camera remediation
+  - Execution commit: `4fdd0c9b13d5c69623d197b47ef5e8617ffce58d`.
+  - 32 current-context candidates rendered and reviewed.
+  - Complete visual passes: 0.
+  - Candidates meeting >=7/9 LOS: 0.
+  - Maximum LOS: 3/9.
+  - Canonical Blend/GLB unchanged; F06 43-object geometry intact.
+  - Stop: `BLOCKED_F06_R01_NO_COMPLETE_INTEGRATED_VIEW`.
+  - Root cause escalated from camera framing to cross-facility obstruction.
+
+- [ ] M08.38 — F06-X01 targeted cross-facility quarantine + integrated re-audit
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F06_MICRO_WEIGH_R01_INTEGRATED_CAMERA_REMEDIATION_GPT_PROMPT.md`.
-  - Evidence-only: canonical Blend/GLB must not change.
-  - Preserve exact 43-object geometry and all accepted source/dimensional/parity/protection gates.
-  - Render at least 20 wider/farther current-context candidates and select only a view that visibly communicates hopper → dosing → balances → transfer tote/cart → operator/service workflow.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F06_X01_TARGETED_CROSS_FACILITY_QUARANTINE_GPT_PROMPT.md`.
+  - Root cause: `coordination/Audits/REV005_F06_X01_CROSS_FACILITY_BLOCKER_ROOT_CAUSE.md`.
+  - Locked criteria: `coordination/Audits/REV005_F06_X01_TARGETED_QUARANTINE_GPT_CRITERIA.md`.
+  - Authorized canonical mutation: saved visibility/quarantine metadata for exactly seven proven-overlap V09 Toothpaste/Wet Wipes structural objects.
+  - Explicitly protect Wet Processing, legitimate F06 booth/operator geometry, all F01-F06 accepted objects, and every non-target neighbor object.
+  - Re-run >=24 integrated candidates after canonical quarantine; visual completeness remains mandatory even with LOS success.
   - Do not begin F07.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F06_R01`.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F06_X01`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
