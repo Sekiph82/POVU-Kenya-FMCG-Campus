@@ -1,0 +1,194 @@
+{
+  "blockers": [
+    "V04_FIRE_DISCHARGE_00",
+    "V04_FIRE_PANEL_00",
+    "V04_FIRE_PUMP_BASE_00_00",
+    "V05_FIRE_HEADER0",
+    "V05_FIRE_PANEL0",
+    "V05_FIRE_PUMP0_0_HOUSING",
+    "V05_FIRE_SUCTION0"
+  ],
+  "camera": [
+    106.0,
+    -20.0,
+    4.2
+  ],
+  "clear_rays": 9,
+  "lens_mm": 40.0,
+  "neighbor_mutation": false,
+  "qa_hiding": false,
+  "rays": [
+    {
+      "blocker": "V05_FIRE_PUMP0_0_HOUSING",
+      "clear": true,
+      "hit_xyz": [
+        92.0,
+        -5.999999046325684,
+        2.1466662883758545
+      ],
+      "target": "V05_FIRE_PUMP0_0_HOUSING",
+      "target_xyz": [
+        91.0,
+        -5.0,
+        2.0
+      ]
+    },
+    {
+      "blocker": "V04_FIRE_PANEL_00",
+      "clear": true,
+      "hit_xyz": [
+        100.07499694824219,
+        -10.125000953674316,
+        2.751666784286499
+      ],
+      "target": "V05_FIRE_PUMP0_1_HOUSING",
+      "target_xyz": [
+        97.0,
+        -5.0,
+        2.0
+      ]
+    },
+    {
+      "blocker": "V04_FIRE_PUMP_BASE_00_00",
+      "clear": true,
+      "hit_xyz": [
+        92.001708984375,
+        -6.001712799072266,
+        1.475000262260437
+      ],
+      "target": "V05_FIRE_PUMP0_0_BASE",
+      "target_xyz": [
+        91.0,
+        -5.0,
+        1.2799999713897705
+      ]
+    },
+    {
+      "blocker": "V05_FIRE_PANEL0",
+      "clear": true,
+      "hit_xyz": [
+        100.07499694824219,
+        -10.125000953674316,
+        2.2776670455932617
+      ],
+      "target": "V05_FIRE_PUMP0_1_BASE",
+      "target_xyz": [
+        97.0,
+        -5.0,
+        1.2799999713897705
+      ]
+    },
+    {
+      "blocker": "V05_FIRE_HEADER0",
+      "clear": true,
+      "hit_xyz": [
+        94.14362335205078,
+        -5.179523468017578,
+        4.00239372253418
+      ],
+      "target": "V05_FIRE_HEADER0",
+      "target_xyz": [
+        94.0,
+        -5.0,
+        4.0
+      ]
+    },
+    {
+      "blocker": "V05_FIRE_SUCTION0",
+      "clear": true,
+      "hit_xyz": [
+        94.1184310913086,
+        -2.177642822265625,
+        3.011842966079712
+      ],
+      "target": "V05_FIRE_SUCTION0",
+      "target_xyz": [
+        94.0,
+        -2.0,
+        3.0
+      ]
+    },
+    {
+      "blocker": "V04_FIRE_DISCHARGE_00",
+      "clear": true,
+      "hit_xyz": [
+        91.09769439697266,
+        -5.097693920135498,
+        3.2065134048461914
+      ],
+      "target": "V05_FIRE_VALVE0_0",
+      "target_xyz": [
+        88.0,
+        -2.0,
+        3.0
+      ]
+    },
+    {
+      "blocker": "V05_FIRE_SUCTION0",
+      "clear": true,
+      "hit_xyz": [
+        92.13816833496094,
+        -2.177642822265625,
+        3.011842966079712
+      ],
+      "target": "V05_FIRE_VALVE0_1",
+      "target_xyz": [
+        92.0,
+        -2.0,
+        3.0
+      ]
+    },
+    {
+      "blocker": "V04_FIRE_PANEL_00",
+      "clear": true,
+      "hit_xyz": [
+        100.07499694824219,
+        -10.125001907348633,
+        2.6200003623962402
+      ],
+      "target": "V05_FIRE_PANEL0",
+      "target_xyz": [
+        100.0,
+        -10.0,
+        2.5999999046325684
+      ]
+    }
+  ],
+  "renders": [
+    {
+      "bytes": 1543893,
+      "height": 960,
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\R01\\D_INTEGRATED_CONTEXT_R01.png",
+      "sha256": "6A414AD89839BB040DEF1F7206F30C9D1FBA1E1DB6125BBD2AAF6D332F921A89",
+      "width": 1440
+    },
+    {
+      "bytes": 649142,
+      "height": 600,
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F05_fire_pump\\R01\\D_INTEGRATED_CONTEXT_R01_PREVIEW_900x600.png",
+      "sha256": "99F98979A5FE39869EA4F7FE2268BA39C17D476672A893A20F9A7D5900FB0C09",
+      "width": 900
+    }
+  ],
+  "saved_model_state": true,
+  "selected_candidate": "front_exterior_right",
+  "status": "PASS",
+  "target": [
+    94.0,
+    -4.5,
+    2.8
+  ],
+  "total_rays": 9,
+  "visibility_digest_unchanged": true,
+  "visual_cues": {
+    "both_pump_bases": true,
+    "both_pump_housings": true,
+    "control_panel_identifiable": true,
+    "header_suction_network": true,
+    "legitimate_current_context": true,
+    "multiple_valves": true,
+    "primary_cluster_clipped": false,
+    "service_access_organization": true,
+    "unrelated_structure_dominates": false
+  }
+}

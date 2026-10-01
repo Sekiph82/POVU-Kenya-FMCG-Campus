@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "canonical_blend_sha256": "E331FB7ADA9BF10DA43B544EDF6189A34D86002C5D3CD82FE74DA7D8CF019D07",
+  "canonical_glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+  "locked_blend_sha256": "E331FB7ADA9BF10DA43B544EDF6189A34D86002C5D3CD82FE74DA7D8CF019D07",
+  "locked_glb_sha256": "98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825",
+  "canonical_hashes_unchanged": true,
+  "f05_destination_primary_count": 54,
+  "f05_secondary_count": 69,
+  "protected_state_diff_zero": true,
+  "camera_candidate_count": 25,
+  "selected_camera": "front_exterior_right",
+  "selected_clear_rays": "9/9",
+  "qa_hiding_used": false,
+  "neighbor_mutation": false,
+  "no_f06_work": true,
+  "source_split_and_parity_locked": true
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "exact_protected_state_match": true,
+  "unauthorized_protected_state_differences": [],
+  "resolved_manifest_derivation_discrepancy": {
+    "field": "restaurant_right_wall.quarantine_state",
+    "old_before": false,
+    "old_after": true,
+    "actual_accepted_state": true,
+    "classification": "MANIFEST_DERIVATION_BUG_ONLY",
+    "model_changed": false
+  },
+  "protected_counts_match": true,
+  "F01_to_F04_unchanged": true,
+  "historical_protected_state_unchanged": true,
+  "glass_deck_training_quarantine_unchanged": true,
+  "diff_end_state": "ZERO_UNAUTHORIZED_PROTECTED_STATE_DIFFERENCES"
+}

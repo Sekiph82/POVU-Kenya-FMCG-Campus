@@ -1,0 +1,197 @@
+{
+  "status": "PASS",
+  "root_cause": "MANIFEST_DERIVATION_BUG_ONLY",
+  "conclusion": "The prior false-to-true Restaurant right-wall delta was introduced by F05 manifest summary derivation. Direct object, owning collection, view-layer, and quarantine-property state is the accepted F04-X01 quarantined state in the pre-F05, F04-X01, F04-X03, and current F05 scenes.",
+  "authoritative_references": {
+    "pre_f05_baseline_commit": "4fd49a647224727139f45016fa21d5c1ca724418",
+    "accepted_f04_x01_commit": "674a6bf",
+    "accepted_f04_x03_commit": "0fb3ff0",
+    "current_f05_commit": "62db9052e4b7ab82452489a27df0cc8e390b466a",
+    "accepted_f04_x01_manifest": "output/rev005-facility-gated/F04_x01/F04_X01_QUARANTINE_MANIFEST.json"
+  },
+  "direct_scene_comparisons": {
+    "pre_f05_baseline": {
+      "signature_match_to_accepted": true,
+      "state": {
+        "restaurant_right_wall": {
+          "name": "V09_RESTAURANT_RIGHT_WALL",
+          "object_hide_viewport": true,
+          "object_hide_render": true,
+          "object_hide_get": false,
+          "owning_collection": {
+            "name": "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN",
+            "hide_viewport": false,
+            "hide_render": false
+          },
+          "layer_collection": {
+            "path": [
+              "Scene Collection",
+              "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN"
+            ],
+            "exclude": false,
+            "hide_viewport": false
+          },
+          "quarantine_properties": {
+            "REV005_CROSS_FACILITY_QUARANTINED": true,
+            "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F04_X01",
+            "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Training envelope overlaps historical Wellness Pavilion / accepted F04 welfare zone"
+          }
+        },
+        "glass_deck": {
+          "count": 117,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        },
+        "training": {
+          "count": 81,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        }
+      }
+    },
+    "accepted_f04_x01": {
+      "signature_match_to_accepted": true,
+      "state": {
+        "restaurant_right_wall": {
+          "name": "V09_RESTAURANT_RIGHT_WALL",
+          "object_hide_viewport": true,
+          "object_hide_render": true,
+          "object_hide_get": false,
+          "owning_collection": {
+            "name": "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN",
+            "hide_viewport": false,
+            "hide_render": false
+          },
+          "layer_collection": {
+            "path": [
+              "Scene Collection",
+              "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN"
+            ],
+            "exclude": false,
+            "hide_viewport": false
+          },
+          "quarantine_properties": {
+            "REV005_CROSS_FACILITY_QUARANTINED": true,
+            "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F04_X01",
+            "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Training envelope overlaps historical Wellness Pavilion / accepted F04 welfare zone"
+          }
+        },
+        "glass_deck": {
+          "count": 117,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        },
+        "training": {
+          "count": 81,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        }
+      }
+    },
+    "accepted_f04_x03": {
+      "signature_match_to_accepted": true,
+      "state": {
+        "restaurant_right_wall": {
+          "name": "V09_RESTAURANT_RIGHT_WALL",
+          "object_hide_viewport": true,
+          "object_hide_render": true,
+          "object_hide_get": false,
+          "owning_collection": {
+            "name": "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN",
+            "hide_viewport": false,
+            "hide_render": false
+          },
+          "layer_collection": {
+            "path": [
+              "Scene Collection",
+              "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN"
+            ],
+            "exclude": false,
+            "hide_viewport": false
+          },
+          "quarantine_properties": {
+            "REV005_CROSS_FACILITY_QUARANTINED": true,
+            "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F04_X01",
+            "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Training envelope overlaps historical Wellness Pavilion / accepted F04 welfare zone"
+          }
+        },
+        "glass_deck": {
+          "count": 117,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        },
+        "training": {
+          "count": 81,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        }
+      }
+    },
+    "current_f05": {
+      "signature_match_to_accepted": true,
+      "state": {
+        "restaurant_right_wall": {
+          "name": "V09_RESTAURANT_RIGHT_WALL",
+          "object_hide_viewport": true,
+          "object_hide_render": true,
+          "object_hide_get": false,
+          "owning_collection": {
+            "name": "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN",
+            "hide_viewport": false,
+            "hide_render": false
+          },
+          "layer_collection": {
+            "path": [
+              "Scene Collection",
+              "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN"
+            ],
+            "exclude": false,
+            "hide_viewport": false
+          },
+          "quarantine_properties": {
+            "REV005_CROSS_FACILITY_QUARANTINED": true,
+            "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F04_X01",
+            "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Training envelope overlaps historical Wellness Pavilion / accepted F04 welfare zone"
+          }
+        },
+        "glass_deck": {
+          "count": 117,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        },
+        "training": {
+          "count": 81,
+          "collection_hide_viewport": true,
+          "collection_hide_render": true,
+          "layer_exclude": false,
+          "layer_hide_viewport": false
+        }
+      }
+    }
+  },
+  "old_manifest_delta": {
+    "F05_PROTECTION_BEFORE_restaurant_right_wall": false,
+    "F05_PROTECTION_AFTER_restaurant_right_wall": true,
+    "before_payload_hide_viewport": false,
+    "after_payload_hide_viewport": false,
+    "before_payload_hide_render": false,
+    "after_payload_hide_render": false,
+    "payload_changed": false
+  },
+  "no_model_mutation": true,
+  "no_neighbor_mutation": true
+}
