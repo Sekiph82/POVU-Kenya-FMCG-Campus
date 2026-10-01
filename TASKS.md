@@ -9,10 +9,10 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.30
-- Current Task: M08.30 — F04-X01 targeted V09 blocker quarantine + historical restore
+- Current Sprint: M08.32
+- Current Task: M08.32 — F04-X02 destination parity evidence correction
 - Current Task Status: READY_RETRY
-- Next Task/Action: Execute only F04-X01. Verify the proven V09 Training/Restaurant blockers, quarantine only the authorized invalid V09 Training collection and Restaurant right wall, restore exact historical F04, re-run integrated evidence, and stop at AWAITING_GPT_F04_X01_INTEGRATED_AUDIT or the locked blocker state. Do not begin Facility 05.
+- Next Task/Action: Execute only F04-X02. Keep the accepted F04-X01 canonical model and quarantine state unchanged, regenerate facility-only A/B parity evidence from the exact 59-object destination, prove canonical Blend/GLB hashes unchanged, and stop at AWAITING_GPT_F04_X02_FINAL_AUDIT or the locked parity blocker. Do not begin Facility 05.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -35,6 +35,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
 - F04 V04 visual review rejected all six previews. The images exposed cross-facility blockers: the V09 Training Academy envelope overlaps the historical Wellness Pavilion by about 198 m² plan, and `V09_RESTAURANT_RIGHT_WALL` extends beyond the historical Restaurant_Wellness shell into the F04 side. F04-X01 now authorizes only a targeted quarantine of the 81-object V09 Training collection plus the single V09 Restaurant right-wall blocker.
+- F04-X01 execution completed at `674a6bf`: the authorized 81-object Training collection and single Restaurant right wall were quarantined, exact 59-object F04 restored, integrated LOS reached 9/9, and prior-PASS protections held. Independent GPT review found the integrated preview materially improved, but the X01 facility-only parity evidence was invalid: A was occluded by an unrelated surface and B was nearly flat gray. F04-X02 is therefore evidence-only and must not mutate the canonical model.
 - M08.09 REV005 freeze cannot occur until every facility in the facility-gated program receives independent GPT PASS and the owner accepts the completed REV005 model.
 - M09 final REV005 tour work remains blocked until REV005 is visually accepted and frozen.
 - REV004 and the approved R04 470-second video remain frozen historical deliverables.
