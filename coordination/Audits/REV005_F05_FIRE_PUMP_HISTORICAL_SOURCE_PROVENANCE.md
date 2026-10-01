@@ -1,23 +1,15 @@
 # REV005 F05 — FIRE PUMP HOUSE — HISTORICAL SOURCE PROVENANCE
 
-## Important source split
+## Historical V05 selection
 
-Historical V05 `objects_for("Fire pump house")` returns **123 objects**.
+Group:
+`Fire pump house`
 
-However that selection contains two spatially separate pump-house clusters.
+Original V05 `objects_for()` selection after V01→V05 replay must contain exactly:
 
-The accepted V05 A/B/C cameras and visual evidence are centered on the **primary cluster around (94,-5)**.
-
-The second cluster around Y≈70 is not visible in the accepted A/B/C evidence and overlaps the Utilities/engineering side of the campus model. It must not be silently restored as part of F05 without separate proof.
-
-Therefore F05 must first reproduce the 123-object historical selection and split it spatially before canonical mutation.
-
-## Historical total selection
-
-Expected:
 **123 objects**
 
-Expected contribution accounting:
+Historical contribution count:
 
 - BASE visible: **10**
 - V01: **15**
@@ -29,57 +21,41 @@ Expected contribution accounting:
 Total:
 `10 + 15 + 44 + 54 = 123`
 
-## Expected spatial split
+## Spatial split
 
-### Primary accepted review cluster
+The 123 historical objects contain two physically separate Fire Pump House clusters.
 
-Anchor:
+Use actual replayed object world centers and classify:
+
+- **PRIMARY**: world-center Y < 30 m
+- **SECONDARY**: world-center Y >= 30 m
+
+Required split:
+
+- PRIMARY = **54 objects**
+- SECONDARY = **69 objects**
+
+No object may fall ambiguously on the threshold.
+
+Historical accepted A/B/C cameras all target the PRIMARY cluster around:
+
 `(94,-5,3)`
 
-Expected primary cluster count:
-**54**
+The SECONDARY cluster around Y≈70 is not part of the primary accepted facility restoration.
 
-Expected composition:
-- BASE: **5**
-- V01: **0**
-- V04: **22**
-- V05: **27**
+## Contribution split
 
-Primary Y window for deterministic classification:
-**-20 m <= object world-bounds center Y <= +10 m**
+### BASE
 
-### Secondary historical duplicate/remediation cluster
+10 visible base objects total.
 
-Expected secondary count:
-**69**
+Historical replay must prove:
+- PRIMARY BASE = **5**
+- SECONDARY BASE = **5**
 
-Expected composition:
-- BASE: **5**
-- V01: **15**
-- V04: **22**
-- V05: **27**
+Do not infer by capitalization. Classify by actual world center.
 
-Secondary Y window:
-**55 m <= object world-bounds center Y <= 85 m**
-
-If any of the 123 selected objects fall outside both windows, or the expected 54/69 split fails, STOP before canonical mutation.
-
-The secondary 69-object cluster is historical provenance only for F05 and is NOT authorized for canonical restoration by this task.
-
-## BASE inventory
-
-Owner inventory contains 12 names:
-- 8 pump body/panel objects
-- 2 floor objects
-- 2 label objects
-
-The two label objects are excluded by historical V05 label filtering.
-
-Visible BASE selection = **10**.
-
-Replay geometry determines which 5 belong to the primary cluster and which 5 belong to the secondary cluster.
-
-## V01 Fire Pump contribution
+### V01
 
 Historical function:
 `build_rev005_interior_remediation_v01.py::fire_pump()`
@@ -88,206 +64,193 @@ Anchor:
 - x = 76
 - y = 72
 
-All 15 V01 objects belong to the secondary Y≈70 cluster.
+All 15 V01 objects are SECONDARY.
 
 V01 objects:
-- three pump motors
-- three pump bases
-- three suction pipes
-- three discharge pipes
-- one manifold
-- one controller
-- one service-access strip
+- 3 pump motors
+- 3 bases
+- 3 suction pipes
+- 3 discharge pipes
+- 1 manifold
+- 1 controller
+- 1 service-access strip
 
-V01 contribution:
-**15**
-
-## V04 primary cluster
+### V04
 
 Historical function:
 `build_rev005_interior_remediation_v04.py::fire_pump()`
 
-Primary k=0:
-- x = **94**
-- y = **-5**
+Two clusters:
+- PRIMARY = (94,-5)
+- SECONDARY = (94,70)
 
-Expected V04 primary object count:
-**22**
+Each cluster contributes exactly **22 objects**.
 
-### Room shell
-Prefix:
-`V04_FIRE_00`
+Per cluster:
+- room floor/back/left/right = 4
+- two pump bodies + two bases = 4
+- suction/discharge/discharge2 pipes = 3
+- four valves = 4
+- panel = 1
+- three lights × BODY/GLOW = 6
 
-- FLOOR center (94,-5,1.05), size 18×16×0.18
-- BACK center (94,3,3.25), size 18×0.16×6.5
-- LEFT center (85,-5,3.25), size 0.16×16×6.5
-- RIGHT center (103,-5,3.25), size 0.16×16×6.5
+Total:
+22.
 
-### Two pump sets
+#### PRIMARY V04 exact geometry
 
-Pump X:
-- 91
-- 97
+Room:
+- floor center (94,-5,1.05), size 18×16×0.18 m
+- back center (94,3,3.25), size 18×0.16×6.5 m
+- left center (85,-5,3.25), size 0.16×16×6.5 m
+- right center (103,-5,3.25), size 0.16×16×6.5 m
 
-For each:
-- pump cylinder center (X,-6,2.0), radius 0.85, depth 2.2, rotation Y=π/2
-- base center (X,-6,1.35), size 3.0×1.7×0.25
+Pumps:
+- centers (91,-6,2.0), (97,-6,2.0)
+- radius 0.85 m
+- depth 2.2 m
+- rotation X = π/2
 
-### Pipework
-- suction: (87,-2.5,2.4) → (101,-2.5,2.4), radius 0.18
-- discharge 1: (91,-6,3.0) → (91,-1.2,4.8), radius 0.16
-- discharge 2: (97,-6,3.0) → (97,-1.2,4.8), radius 0.16
+Bases:
+- centers (91,-6,1.35), (97,-6,1.35)
+- size 3.0×1.7×0.25 m
 
-### Four valves
-X:
-- 88
-- 92
-- 96
-- 100
+Suction:
+- (87,-2.5,2.4) → (101,-2.5,2.4)
+- radius 0.18 m
 
-Y=-2.5, Z=2.4
-radius 0.32, depth 0.18, rotation Y=π/2
+Discharge 1:
+- (91,-6,3.0) → (91,-1.2,4.8)
+- radius 0.16 m
 
-### Panel
-center:
-(100,-10,2.6)
-size:
-1.1×0.25×2.0
+Discharge 2:
+- (97,-6,3.0) → (97,-1.2,4.8)
+- radius 0.16 m
 
-### Three lights
+Valves:
+- X = 88,92,96,100
+- Y = -2.5
+- Z = 2.4
+- radius 0.32 m
+- depth 0.18 m
 
-Centers:
-- (88,-5,7.5)
-- (94,-5,7.5)
-- (100,-5,7.5)
+Panel:
+- center (100,-10,2.6)
+- size 1.1×0.25×2.0 m
 
-Each historical light creates BODY + GLOW = 2 objects.
+Lights:
+- X = 88,94,100
+- Y = -5
+- Z = 7.5
+- each light has BODY + GLOW
 
-Total V04 primary:
-**22**
-
-## V05 primary cluster
+### V05
 
 Historical function:
 `build_rev005_interior_remediation_v05.py::fire()`
 
-Primary k=0:
-- x = **94**
-- y = **-5**
+Two clusters:
+- PRIMARY = (94,-5)
+- SECONDARY = (94,70)
 
-Expected V05 primary count:
-**27**
+Each cluster contributes exactly **27 objects**.
 
-### Envelope
-Prefix:
-`V05_FIRE0`
+Per cluster:
+- envelope = 14
+- two pump machines × 3 objects = 6
+- suction + header = 2
+- four valves = 4
+- panel = 1
 
-Envelope dimensions:
-20×18×7 m
+Total:
+27.
 
-Objects:
-- FLOOR
-- BACK
-- LEFT
-- RIGHT
-- 3 SOFFIT objects
-- 2 light fixtures × BODY/GLOW = 4 objects
-- DOOR_L
-- DOOR_R
-- DOOR_HEADER
+#### PRIMARY V05 envelope
 
-Envelope total:
-**14**
+Center:
+(94,-5)
 
-Exact major centers:
-- floor (94,-5,1.05)
-- back (94,4,3.5)
-- left (84,-5,3.5)
-- right (104,-5,3.5)
-- soffit X: 88.4, 94.0, 99.6
-- soffit Z: 6.82
-- door plane Y: -13.9
-- door L X=92
-- door R X=96
-- door header X=94, Z=5.55
+w = 20 m
+d = 18 m
+h = 7 m
 
-### Two pump machines
+Floor:
+- center (94,-5,1.05)
+- size 20×18×0.18 m
 
-Pump centers:
-- X=91
-- X=97
-- Y=-5
+Back:
+- center (94,4,3.5)
+- size 20×0.18×7 m
 
-Each `machine()` creates:
-- HOUSING
-- PANEL
-- BASE
+Left:
+- center (84,-5,3.5)
+- size 0.18×18×7 m
 
-Each machine = 3 objects.
-Two machines = **6**.
+Right:
+- center (104,-5,3.5)
+- size 0.18×18×7 m
 
-Housing:
-- dimensions 2.6×2.0×2.0
-- center Z=2.0
+Soffits:
+- X = 88.4, 94.0, 99.6
+- Y = -5
+- Z = 6.82
+- each size 3.2×17.2×0.18 m
+
+Lights:
+- X = 89,99
+- Y = -5
+- Z = 6.5
+- BODY + GLOW per light
+
+Doors:
+- L center (92,-13.9,3.0), size 0.12×0.16×5.2
+- R center (96,-13.9,3.0), size 0.12×0.16×5.2
+- header center (94,-13.9,5.55), size 4.2×0.16×0.16
+
+#### PRIMARY V05 pump machines
+
+Machine centers:
+- X = 91,97
+- Y = -5
+- w = 2.6
+- d = 2.0
+- h = 2.0
+
+Each machine:
+- HOUSING center Z=2.0, size 2.6×2.0×2.0
+- PANEL center Y=-6.08, Z=2.3, size 1.43×0.12×0.56
+- BASE center Z=1.28, size 3.0×2.4×0.22
+
+Suction:
+- (87,-2,3) → (101,-2,3)
+- radius 0.18
+
+Header:
+- (91,-5,4) → (97,-5,4)
+- radius 0.18
+
+Valves:
+- X = 88,92,96,100
+- Y = -2
+- Z = 3
+- radius 0.30
+- depth 0.20
 
 Panel:
-- Y=-6.08
-- center Z=2.3
-- dimensions 1.43×0.12×0.56
+- center (100,-10,2.6)
+- size 1.1×0.25×2.2 m
 
-Base:
-- center Z=1.28
-- dimensions 3.0×2.4×0.22
+## Required primary destination
 
-### Pipework
-- suction: (87,-2,3) → (101,-2,3), radius 0.18
-- header: (91,-5,4) → (97,-5,4), radius 0.18
+Restore only the **54 PRIMARY objects**.
 
-### Four valves
-X:
-88, 92, 96, 100
-Y=-2
-Z=3
-radius 0.30
-depth 0.20
-rotation Y=π/2
+Do not append the 69 SECONDARY objects.
 
-### Panel
-center:
-(100,-10,2.6)
-size:
-1.1×0.25×2.2
+Destination collection:
 
-Total V05 primary:
-14 + 6 + 2 + 4 + 1 = **27**
+`REV005_FG_F05_FIRE_PUMP_PRIMARY_ACCEPTED_V05_REPLAY`
 
-## Historical V05 QA visibility semantics
-
-The V05 renderer selects all 123 group objects, then hides shell-occluders whose names contain:
-- _LEFT
-- _RIGHT
-- _BACK
-- _SOFFIT
-- _CEILING_BEAM
-
-For primary F05 parity this rule must be reproduced exactly.
-
-Expected hidden primary shell objects include:
-
-V04:
-- V04_FIRE_00_BACK
-- V04_FIRE_00_LEFT
-- V04_FIRE_00_RIGHT
-
-V05:
-- V05_FIRE0_BACK
-- V05_FIRE0_LEFT
-- V05_FIRE0_RIGHT
-- all three V05_FIRE0_SOFFIT_* objects
-
-Primary historical QA selection after shell hiding therefore visually emphasizes pumps, manifolds, valves, panel and room floor/open context.
-
-## Accepted V05 cameras
+## Historical V05 cameras
 
 A_WIDE:
 - location (76,-22,15)
@@ -307,7 +270,7 @@ C_PROCESS_OR_DETAIL:
 - lens 52 mm
 - sensor 36 mm
 
-## Archived V05 PNG hashes
+## Archived hashes
 
 A:
 `5CC3309AA25319E7C4DAA55DDBE2F8B8D50EDAD26EC40F74E82206B584D1F724`
@@ -318,16 +281,27 @@ B:
 C:
 `AC46E1F4DD829E66B3B3898857E85D53FAFB64DECBB635F7528728033F5A7304`
 
+## Historical V05 QA visibility rule
+
+For A/B/C parity, reproduce original `show_only()` exactly.
+
+Even selected objects are hidden if their name contains:
+- `_LEFT`
+- `_RIGHT`
+- `_BACK`
+- `_SOFFIT`
+- `_CEILING_BEAM`
+
+This is temporary QA visibility only and must not alter the saved canonical model.
+
 ## Accepted visual identity
 
-Primary Fire Pump House must visibly show:
-- two large red pump/motor sets
-- paired bases
-- suction/header pipework
-- multiple red valves
-- yellow discharge/header relation
-- control panel
-- open service access around equipment
-- dedicated pump-room context
-
-The secondary Y≈70 historical cluster is not authorized for F05 canonical restore.
+Primary Fire Pump House must visibly read as:
+- paired pump sets
+- pump bases
+- suction/header piping
+- discharge piping
+- multiple valves
+- dedicated control panel
+- service-access relationship
+- compact dedicated pump-room arrangement
