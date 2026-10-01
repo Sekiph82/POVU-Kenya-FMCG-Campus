@@ -1,0 +1,53 @@
+{
+  "status": "BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES",
+  "source_validation": {
+    "object_count": 59,
+    "composition": "10 BASE + 49 V01 = 59",
+    "dimensional_contract": "PASS",
+    "replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+    "source_initial_hash": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D",
+    "reused_local_evidence": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v02\\F04_V02_REPLAY_SOURCE_MANIFEST.json",
+    "archived_AB_parity": "REUSED_FROM_PRIOR_VERIFIED_F04_SOURCE_GATES"
+  },
+  "v02_seed_summary": {
+    "source_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_welfare_v02\\F04_V02_INTEGRATED_CAMERA_VALIDATION.json",
+    "seed_rows_ge_7_of_9": 45,
+    "unique_seed_count": 15,
+    "seeds_used": 6
+  },
+  "pavilion": {
+    "bounds_min": [
+      19.0,
+      -79.0,
+      -2.384185791015625e-07
+    ],
+    "bounds_max": [
+      41.0,
+      -61.0,
+      6.0
+    ],
+    "glass_bounds_min": [
+      20.0,
+      -79.19999694824219,
+      0.2499997615814209
+    ],
+    "glass_bounds_max": [
+      40.0,
+      -79.0,
+      5.75
+    ]
+  },
+  "candidate_count_evaluated": 0,
+  "rendered_candidates": [],
+  "canonical": {
+    "blend_before": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "blend_after": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "glb_before": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1",
+    "glb_after": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1",
+    "blend_unchanged": true,
+    "glb_unchanged": true,
+    "model_saved": false,
+    "glb_exported": false,
+    "neighbor_mutation": false
+  }
+}
