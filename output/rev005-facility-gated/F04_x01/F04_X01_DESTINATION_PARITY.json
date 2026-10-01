@@ -1,0 +1,25 @@
+{
+  "status": "RENDERED_FOR_INDEPENDENT_VISUAL_PARITY_REVIEW",
+  "historical_expected": {
+    "A_WIDE": "485E04DA347BBB257C778204DB7613E7D355199BAD18B79541CE8BF5FA86EB21",
+    "B_FUNCTIONAL": "59F769B86BE5602FC43BA3F2D05786B8C94D169014C39FCBD2BC832D56BBC9D9"
+  },
+  "destination_renders": {
+    "A_WIDE": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_x01\\F04_X01_DEST_PARITY_A_900x600.png",
+      "sha256": "0FC445CF5A065936CF219546EA0AAF25161D96623DCECA779B880055FC449BF1",
+      "bytes": 586409,
+      "width": 900,
+      "height": 600
+    },
+    "B_FUNCTIONAL": {
+      "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_x01\\F04_X01_DEST_PARITY_B_900x600.png",
+      "sha256": "BAA5EDBA91A73E3C4AD2C43278FEFB39A9DC21968124D7F456E40E6CAAB4E56A",
+      "bytes": 480492,
+      "width": 900,
+      "height": 600
+    }
+  },
+  "visual_parity_required_for_independent_review": true,
+  "archived_byte_hash_available_locally": false
+}

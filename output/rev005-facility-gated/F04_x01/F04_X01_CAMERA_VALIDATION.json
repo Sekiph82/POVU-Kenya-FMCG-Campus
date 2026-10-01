@@ -1,0 +1,2994 @@
+{
+  "status": "PASS",
+  "selected": {
+    "camera_xyz": [
+      19.899999618530273,
+      -61.900001525878906,
+      5.175000190734863
+    ],
+    "target_xyz": [
+      30.30000114440918,
+      -69.96249389648438,
+      2.1237502098083496
+    ],
+    "lens_mm": 28,
+    "clear_rays": 9,
+    "ray_count": 9,
+    "first_hit_table": [
+      {
+        "target": [
+          30.30000114440918,
+          -69.96249389648438,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+        "hit_distance": 7.187673450533229
+      },
+      {
+        "target": [
+          24.1200008392334,
+          -69.96249389648438,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+        "hit_distance": 9.547448473499397
+      },
+      {
+        "target": [
+          36.480003356933594,
+          -69.96249389648438,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+        "hit_distance": 8.45318151515042
+      },
+      {
+        "target": [
+          30.30000114440918,
+          -72.94749450683594,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+        "hit_distance": 6.009826858203597
+      },
+      {
+        "target": [
+          30.30000114440918,
+          -66.97750091552734,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+        "hit_distance": 6.421697962193186
+      },
+      {
+        "target": [
+          26.18000030517578,
+          -72.94749450683594,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null
+      },
+      {
+        "target": [
+          34.42000198364258,
+          -72.94749450683594,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null
+      },
+      {
+        "target": [
+          26.18000030517578,
+          -66.97749328613281,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+        "hit_distance": 7.071146744042818
+      },
+      {
+        "target": [
+          34.42000198364258,
+          -66.97749328613281,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+        "hit_distance": 11.321893880366671
+      }
+    ],
+    "nearest_unrelated_geometry_distance": null,
+    "projected_bbox": {
+      "x_min": -147.2777557373047,
+      "x_max": -3.6487271785736084,
+      "y_min": 17.203535079956055,
+      "y_max": 426.7999267578125,
+      "z_min": -4.475000381469727,
+      "z_max": -0.20000004768371582
+    },
+    "projected_area_percent": 5882993.183785205,
+    "clipping_severity": 573.0776824951172,
+    "source": "V02"
+  },
+  "candidate_count": 24,
+  "candidate_preview": [
+    {
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 11.321893880366671
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 11.321893880366671
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 11.321893880366671
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.042163368682033
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.042163368682033
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.042163368682033
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        39.20000076293945,
+        -62.79999923706055,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.782988811783702
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 7.51770221610761
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 3.9032074637822314
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 13.800559946116497
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.163966723516156
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 9.147584935701255
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.059122937186835
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        39.20000076293945,
+        -62.79999923706055,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.782988811783702
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 7.51770221610761
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 3.9032074637822314
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 13.800559946116497
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.163966723516156
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 9.147584935701255
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.059122937186835
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        39.20000076293945,
+        -62.79999923706055,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.782988811783702
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 7.51770221610761
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 3.9032074637822314
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 13.800559946116497
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.163966723516156
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 9.147584935701255
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.059122937186835
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        38.0,
+        -64.0,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_2",
+          "hit_distance": 3.9300050701953126
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_2",
+          "hit_distance": 5.934806955856841
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 2.6448560258913214
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 12.155061913806898
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 6.263895000483917
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 7.754054693151163
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 3.4513987718658554
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        38.0,
+        -64.0,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_2",
+          "hit_distance": 3.9300050701953126
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_2",
+          "hit_distance": 5.934806955856841
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 2.6448560258913214
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 12.155061913806898
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 6.263895000483917
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 7.754054693151163
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 3.4513987718658554
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        38.0,
+        -64.0,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_2",
+          "hit_distance": 3.9300050701953126
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_2",
+          "hit_distance": 5.934806955856841
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 2.6448560258913214
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 12.155061913806898
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 6.263895000483917
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 7.754054693151163
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 3.4513987718658554
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.550000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.035824992340756
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.644286761164143
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 5.043599225973148
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.122290376435974
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.306705006927377
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.508177299395611
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.37035754339683
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.550000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.035824992340756
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.644286761164143
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 5.043599225973148
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.122290376435974
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.306705006927377
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.508177299395611
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.37035754339683
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.550000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 28,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.035824992340756
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.644286761164143
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 5.043599225973148
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.122290376435974
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.306705006927377
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.508177299395611
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.37035754339683
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -147.2777557373047,
+        "x_max": -3.6487271785736084,
+        "y_min": 17.203535079956055,
+        "y_max": 426.7999267578125,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 5882993.183785205,
+      "clipping_severity": 573.0776824951172,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 11.321893880366671
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 11.321893880366671
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        19.899999618530273,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.187673450533229
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+          "hit_distance": 9.547448473499397
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+          "hit_distance": 8.45318151515042
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 6.009826858203597
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+          "hit_distance": 6.421697962193186
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+          "hit_distance": 7.071146744042818
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 11.321893880366671
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.042163368682033
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.042163368682033
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        40.099998474121094,
+        -61.900001525878906,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.9932505175735455
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 8.612615844213225
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_3",
+          "hit_distance": 2.5779207784511917
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 15.042163368682033
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.2582236323372245
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_HEAD_2",
+          "hit_distance": 6.482402253243362
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 6.281667192563164
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        39.20000076293945,
+        -62.79999923706055,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.1237502098083496
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.782988811783702
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 7.51770221610761
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 3.9032074637822314
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 13.800559946116497
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.163966723516156
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 9.147584935701255
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.059122937186835
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        39.20000076293945,
+        -62.79999923706055,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        2.473750114440918
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.782988811783702
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 7.51770221610761
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 3.9032074637822314
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 13.800559946116497
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.163966723516156
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 9.147584935701255
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.059122937186835
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    },
+    {
+      "camera_xyz": [
+        39.20000076293945,
+        -62.79999923706055,
+        5.175000190734863
+      ],
+      "target_xyz": [
+        30.30000114440918,
+        -69.96249389648438,
+        1.8737502098083496
+      ],
+      "lens_mm": 32,
+      "clear_rays": 9,
+      "ray_count": 9,
+      "first_hit_table": [
+        {
+          "target": [
+            30.30000114440918,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.782988811783702
+        },
+        {
+          "target": [
+            24.1200008392334,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_A_2",
+          "hit_distance": 7.51770221610761
+        },
+        {
+          "target": [
+            36.480003356933594,
+            -69.96249389648438,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_BACK_3",
+          "hit_distance": 3.9032074637822314
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -72.94749450683594,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_DIRTY_ENTRY",
+          "hit_distance": 13.800559946116497
+        },
+        {
+          "target": [
+            30.30000114440918,
+            -66.97750091552734,
+            2.1237502098083496
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 4.163966723516156
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -72.94749450683594,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": null,
+          "hit_distance": null
+        },
+        {
+          "target": [
+            26.18000030517578,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+          "hit_distance": 9.147584935701255
+        },
+        {
+          "target": [
+            34.42000198364258,
+            -66.97749328613281,
+            2.978750228881836
+          ],
+          "clear": true,
+          "hit_object": "RM_WELFARE_SHOWER_SIDE_B_2",
+          "hit_distance": 5.059122937186835
+        }
+      ],
+      "nearest_unrelated_geometry_distance": null,
+      "projected_bbox": {
+        "x_min": -168.3888397216797,
+        "x_max": -4.241402626037598,
+        "y_min": 19.589754104614258,
+        "y_max": 487.6998596191406,
+        "z_min": -4.475000381469727,
+        "z_max": -0.20000004768371582
+      },
+      "projected_area_percent": 7683907.40987801,
+      "clipping_severity": 655.0886993408203,
+      "source": "V02"
+    }
+  ],
+  "authorized_exclusions": [
+    "REV005_V08_CLEAN_TRAINING_ACADEMY",
+    "V09_RESTAURANT_RIGHT_WALL"
+  ],
+  "qa_only_exclusions": false,
+  "f04_object_count": 59,
+  "dimensional_contract": {
+    "status": "PASS",
+    "object_count": 59,
+    "base_count": 10,
+    "v01_count": 49,
+    "composition": "10 BASE + 49 V01 = 59"
+  }
+}

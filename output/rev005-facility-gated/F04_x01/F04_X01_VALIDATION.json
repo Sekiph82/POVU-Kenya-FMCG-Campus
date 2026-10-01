@@ -1,0 +1,225 @@
+{
+  "status": "AWAITING_GPT_F04_X01_INTEGRATED_AUDIT",
+  "task": "M08.30 F04-X01",
+  "blocker_diagnostic": "PASS",
+  "quarantine": {
+    "training_collection": 81,
+    "restaurant_right_wall": 1
+  },
+  "f04": {
+    "object_count": 59,
+    "dimensional_contract": {
+      "status": "PASS",
+      "object_count": 59,
+      "base_count": 10,
+      "v01_count": 49,
+      "composition": "10 BASE + 49 V01 = 59"
+    }
+  },
+  "protection": {
+    "F01_accepted": {
+      "before_count": 76,
+      "after_count": 76,
+      "exact_parity": true
+    },
+    "F02_accepted": {
+      "before_count": 79,
+      "after_count": 79,
+      "exact_parity": true
+    },
+    "F03_accepted": {
+      "before_count": 30,
+      "after_count": 30,
+      "exact_parity": true
+    },
+    "historical_glass_deck_source": {
+      "before_count": 392,
+      "after_count": 392,
+      "exact_parity": true
+    },
+    "historical_pavilion": {
+      "before_count": 1,
+      "after_count": 1,
+      "exact_parity": true
+    },
+    "restaurant_wellness": {
+      "before_count": 1,
+      "after_count": 1,
+      "exact_parity": true
+    },
+    "v09_glass_deck_quarantine": {
+      "before_count": 117,
+      "after_count": 117,
+      "exact_parity": true
+    },
+    "v09_wellness_collection": {
+      "before_count": 73,
+      "after_count": 73,
+      "exact_parity": true
+    },
+    "wellness_glass": {
+      "before_count": 1,
+      "after_count": 1,
+      "exact_parity": true
+    }
+  },
+  "camera": {
+    "camera_xyz": [
+      19.899999618530273,
+      -61.900001525878906,
+      5.175000190734863
+    ],
+    "target_xyz": [
+      30.30000114440918,
+      -69.96249389648438,
+      2.1237502098083496
+    ],
+    "lens_mm": 28,
+    "clear_rays": 9,
+    "ray_count": 9,
+    "first_hit_table": [
+      {
+        "target": [
+          30.30000114440918,
+          -69.96249389648438,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+        "hit_distance": 7.187673450533229
+      },
+      {
+        "target": [
+          24.1200008392334,
+          -69.96249389648438,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_CLEAN_ENTRY",
+        "hit_distance": 9.547448473499397
+      },
+      {
+        "target": [
+          36.480003356933594,
+          -69.96249389648438,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_SIDE_A_1",
+        "hit_distance": 8.45318151515042
+      },
+      {
+        "target": [
+          30.30000114440918,
+          -72.94749450683594,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+        "hit_distance": 6.009826858203597
+      },
+      {
+        "target": [
+          30.30000114440918,
+          -66.97750091552734,
+          2.1237502098083496
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_SIDE_B_0",
+        "hit_distance": 6.421697962193186
+      },
+      {
+        "target": [
+          26.18000030517578,
+          -72.94749450683594,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null
+      },
+      {
+        "target": [
+          34.42000198364258,
+          -72.94749450683594,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": null,
+        "hit_distance": null
+      },
+      {
+        "target": [
+          26.18000030517578,
+          -66.97749328613281,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_BACK_0",
+        "hit_distance": 7.071146744042818
+      },
+      {
+        "target": [
+          34.42000198364258,
+          -66.97749328613281,
+          2.978750228881836
+        ],
+        "clear": true,
+        "hit_object": "RM_WELFARE_SHOWER_SIDE_B_1",
+        "hit_distance": 11.321893880366671
+      }
+    ],
+    "nearest_unrelated_geometry_distance": null,
+    "projected_bbox": {
+      "x_min": -147.2777557373047,
+      "x_max": -3.6487271785736084,
+      "y_min": 17.203535079956055,
+      "y_max": 426.7999267578125,
+      "z_min": -4.475000381469727,
+      "z_max": -0.20000004768371582
+    },
+    "projected_area_percent": 5882993.183785205,
+    "clipping_severity": 573.0776824951172,
+    "source": "V02"
+  },
+  "destination_parity": {
+    "status": "RENDERED_FOR_INDEPENDENT_VISUAL_PARITY_REVIEW",
+    "historical_expected": {
+      "A_WIDE": "485E04DA347BBB257C778204DB7613E7D355199BAD18B79541CE8BF5FA86EB21",
+      "B_FUNCTIONAL": "59F769B86BE5602FC43BA3F2D05786B8C94D169014C39FCBD2BC832D56BBC9D9"
+    },
+    "destination_renders": {
+      "A_WIDE": {
+        "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_x01\\F04_X01_DEST_PARITY_A_900x600.png",
+        "sha256": "0FC445CF5A065936CF219546EA0AAF25161D96623DCECA779B880055FC449BF1",
+        "bytes": 586409,
+        "width": 900,
+        "height": 600
+      },
+      "B_FUNCTIONAL": {
+        "path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F04_x01\\F04_X01_DEST_PARITY_B_900x600.png",
+        "sha256": "BAA5EDBA91A73E3C4AD2C43278FEFB39A9DC21968124D7F456E40E6CAAB4E56A",
+        "bytes": 480492,
+        "width": 900,
+        "height": 600
+      }
+    },
+    "visual_parity_required_for_independent_review": true,
+    "archived_byte_hash_available_locally": false
+  },
+  "final_hashes": {
+    "status": "PASS",
+    "blend_before": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "blend_after": "DA65C2F0F32E2108A2805AEFC94199A7733F4A813953403F8B8F0FD6B2CB888D",
+    "glb_before": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1",
+    "glb_after": "812E252E57CDEE17AC09AD270F543C04D7CD53816D0C0E4D2FAC46D6B331EC5C",
+    "export_visibility": "use_visible=True",
+    "canonical_saved": true,
+    "canonical_exported": true
+  },
+  "no_rev004_mutation": true,
+  "no_f05": true,
+  "no_rev006": true,
+  "no_hiveai": true,
+  "no_new_tour_video": true
+}

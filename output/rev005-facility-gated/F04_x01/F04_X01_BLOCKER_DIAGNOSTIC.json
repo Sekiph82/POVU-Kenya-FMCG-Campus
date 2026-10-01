@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "baseline": {
+    "blend": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "glb": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1",
+    "expected_blend": "754A76F35DCCBE9BD054227BA90A8505C332338ABDA9847BFEF101C2EFB0104D",
+    "expected_glb": "A426A25C19FA85D90CD741358554B484F6414D730A4898872A50D7CA17DA07A1"
+  },
+  "historical_wellness_pavilion": {
+    "expected_bounds": {
+      "x": [
+        19,
+        41
+      ],
+      "y": [
+        -79,
+        -61
+      ],
+      "z": [
+        1.2,
+        7.2
+      ]
+    },
+    "actual_bounds": {
+      "min": [
+        19.0,
+        -79.0,
+        -2.384185791015625e-07
+      ],
+      "max": [
+        41.0,
+        -61.0,
+        6.0
+      ]
+    }
+  },
+  "historical_restaurant_wellness": {
+    "expected_bounds": {
+      "x": [
+        -16,
+        26
+      ],
+      "y": [
+        -80.5,
+        -55.5
+      ],
+      "z": [
+        1.2,
+        9.2
+      ]
+    },
+    "actual_bounds": {
+      "min": [
+        -16.0,
+        -80.5,
+        -2.384185791015625e-07
+      ],
+      "max": [
+        26.0,
+        -55.5,
+        8.0
+      ]
+    },
+    "actual_max_x": 26.0
+  },
+  "v09_training_collection": {
+    "name": "REV005_V08_CLEAN_TRAINING_ACADEMY",
+    "object_count": 81,
+    "expected_object_count": 81,
+    "aggregate_bounds": {
+      "min": [
+        15.90999984741211,
+        -70.12999725341797,
+        0.0
+      ],
+      "max": [
+        48.20000076293945,
+        -51.90999984741211,
+        7.0
+      ]
+    },
+    "xy_overlap_with_wellness_pavilion": {
+      "x_overlap": 22.0,
+      "y_overlap": 9.129997253417969,
+      "area": 200.8599395751953
+    }
+  },
+  "v09_training_board": {
+    "name": "V09_TRAINING_BOARD",
+    "actual_bounds": {
+      "min": [
+        26.5,
+        -69.86000061035156,
+        2.5
+      ],
+      "max": [
+        33.5,
+        -69.74000549316406,
+        5.5
+      ]
+    },
+    "location": [
+      30.0,
+      -69.80000305175781,
+      4.0
+    ],
+    "dimensions": [
+      7.0,
+      0.11999999731779099,
+      3.0
+    ]
+  },
+  "v09_restaurant_right_wall": {
+    "name": "V09_RESTAURANT_RIGHT_WALL",
+    "actual_bounds": {
+      "min": [
+        27.90999984741211,
+        -82.0,
+        0.0
+      ],
+      "max": [
+        28.09000015258789,
+        -56.0,
+        7.0
+      ]
+    },
+    "location": [
+      28.0,
+      -69.0,
+      3.5
+    ],
+    "dimensions": [
+      0.18000000715255737,
+      26.0,
+      7.0
+    ],
+    "extends_beyond_restaurant_max_x": true
+  },
+  "authorized_targets_only": [
+    "REV005_V08_CLEAN_TRAINING_ACADEMY",
+    "V09_RESTAURANT_RIGHT_WALL"
+  ]
+}

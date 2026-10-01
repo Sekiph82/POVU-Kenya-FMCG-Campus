@@ -1,0 +1,2961 @@
+{
+  "status": "PASS",
+  "collection": "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY",
+  "object_count": 59,
+  "composition": "10 BASE + 49 V01 = 59",
+  "objects": [
+    {
+      "name": "REV005_WELFARE_CLEAN_DIRTY_PARTITION",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.5999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        20.0,
+        0.14000000059604645,
+        1.5
+      ],
+      "materials": [
+        "REV005_Interior_Partition.002"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_LOCKER_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          22.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.200000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.100000023841858,
+        0.44999998807907104,
+        1.899999976158142
+      ],
+      "materials": [
+        "REV005_Steel.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_LOCKER_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          26.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.200000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.100000023841858,
+        0.44999998807907104,
+        1.899999976158142
+      ],
+      "materials": [
+        "REV005_Steel.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_LOCKER_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.200000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.100000023841858,
+        0.44999998807907104,
+        1.899999976158142
+      ],
+      "materials": [
+        "REV005_Steel.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_LOCKER_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.200000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.100000023841858,
+        0.44999998807907104,
+        1.899999976158142
+      ],
+      "materials": [
+        "REV005_Steel.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_LOCKER_4",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          38.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.200000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.100000023841858,
+        0.44999998807907104,
+        1.899999976158142
+      ],
+      "materials": [
+        "REV005_Steel.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_SHOWER_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          23.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.29999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        1.600000023841858,
+        2.0
+      ],
+      "materials": [
+        "REV005_Interior_Partition.002"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_SHOWER_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          28.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.29999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        1.600000023841858,
+        2.0
+      ],
+      "materials": [
+        "REV005_Interior_Partition.002"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_SHOWER_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          33.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.29999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        1.600000023841858,
+        2.0
+      ],
+      "materials": [
+        "REV005_Interior_Partition.002"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "REV005_WELFARE_SHOWER_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          38.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.29999923706055
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.7999999523162842,
+        1.600000023841858,
+        2.0
+      ],
+      "materials": [
+        "REV005_Interior_Partition.002"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "rev005_facility": "Employee changing / shower / locker support",
+        "rev005_function": "sanitary and changing facility",
+        "revision": "REV005"
+      }
+    },
+    {
+      "name": "RM_WELFARE_CHANGE_BENCH_LEG-4.6",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          25.399999618530273
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -74.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4500000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        0.5,
+        0.6499999761581421
+      ],
+      "materials": [
+        "REV005_RM_STEEL.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_CHANGE_BENCH_LEG-4.6"
+      }
+    },
+    {
+      "name": "RM_WELFARE_CHANGE_BENCH_LEG4.6",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.599998474121094
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -74.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4500000476837158
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        0.5,
+        0.6499999761581421
+      ],
+      "materials": [
+        "REV005_RM_STEEL.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_CHANGE_BENCH_LEG4.6"
+      }
+    },
+    {
+      "name": "RM_WELFARE_CHANGE_BENCH_SEAT",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -74.4000015258789
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.7999999523162842
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        10.0,
+        0.75,
+        0.18000000715255737
+      ],
+      "materials": [
+        "REV005_RM_WOOD.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_CHANGE_BENCH_SEAT"
+      }
+    },
+    {
+      "name": "RM_WELFARE_CLEAN_ENTRY",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -70.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        16.0,
+        0.1599999964237213,
+        2.5999999046325684
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_GREEN.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_CLEAN_ENTRY"
+      }
+    },
+    {
+      "name": "RM_WELFARE_DIRTY_ENTRY",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -73.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        16.0,
+        0.1599999964237213,
+        2.5999999046325684
+      ],
+      "materials": [
+        "REV005_RM_SAFETY_YELLOW.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_DIRTY_ENTRY"
+      }
+    },
+    {
+      "name": "RM_WELFARE_DRAIN_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.309999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6499999761581421,
+        0.18000000715255737,
+        0.029999999329447746
+      ],
+      "materials": [
+        "REV005_RM_DARK.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_DRAIN_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_DRAIN_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.309999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6499999761581421,
+        0.18000000715255737,
+        0.029999999329447746
+      ],
+      "materials": [
+        "REV005_RM_DARK.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_DRAIN_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_DRAIN_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.309999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6499999761581421,
+        0.18000000715255737,
+        0.029999999329447746
+      ],
+      "materials": [
+        "REV005_RM_DARK.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_DRAIN_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_DRAIN_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.309999942779541
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.6499999761581421,
+        0.18000000715255737,
+        0.029999999329447746
+      ],
+      "materials": [
+        "REV005_RM_DARK.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_DRAIN_3"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_BANK_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          23.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.0,
+        0.550000011920929,
+        2.5
+      ],
+      "materials": [
+        "REV005_RM_STEEL.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_BANK_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_BANK_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.0,
+        0.550000011920929,
+        2.5
+      ],
+      "materials": [
+        "REV005_RM_STEEL.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_BANK_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_BANK_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          31.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.0,
+        0.550000011920929,
+        2.5
+      ],
+      "materials": [
+        "REV005_RM_STEEL.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_BANK_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_BANK_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          35.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.0,
+        0.550000011920929,
+        2.5
+      ],
+      "materials": [
+        "REV005_RM_STEEL.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_BANK_3"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_BANK_4",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.0,
+        0.550000011920929,
+        2.5
+      ],
+      "materials": [
+        "REV005_RM_STEEL.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_BANK_4"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_0_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          22.100000381469727
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_0_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_0_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          23.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_0_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_0_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          23.899999618530273
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_0_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_1_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          26.100000381469727
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_1_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_1_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_1_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_1_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.899999618530273
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_1_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_2_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.100000381469727
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_2_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_2_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          31.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_2_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_2_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          31.899999618530273
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_2_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_3_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.099998474121094
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_3_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_3_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          35.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_3_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_3_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          35.900001525878906
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_3_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_4_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          38.099998474121094
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_4_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_4_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_4_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_LOCKER_DOOR_4_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          39.900001525878906
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -77.33000183105469
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.699999988079071,
+        0.05999999865889549,
+        1.9500000476837158
+      ],
+      "materials": [
+        "REV005_RM_PROCESS_BLUE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_LOCKER_DOOR_4_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_BACK_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.200000047683716,
+        0.11999999731779099,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_BACK_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_BACK_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.200000047683716,
+        0.11999999731779099,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_BACK_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_BACK_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.200000047683716,
+        0.11999999731779099,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_BACK_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_BACK_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        3.200000047683716,
+        0.11999999731779099,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_BACK_3"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_HEAD_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.300000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_RM_STAINLESS.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_HEAD_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_HEAD_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.300000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_RM_STAINLESS.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_HEAD_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_HEAD_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.300000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_RM_STAINLESS.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_HEAD_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_HEAD_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -64.19999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.300000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.3499999940395355
+      ],
+      "materials": [
+        "REV005_RM_STAINLESS.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_HEAD_3"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_OPEN_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.91999816894531
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.5,
+        0.05000000074505806,
+        2.4000000953674316
+      ],
+      "materials": [
+        "REV005_RM_CYAN.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_OPEN_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_OPEN_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.91999816894531
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.5,
+        0.05000000074505806,
+        2.4000000953674316
+      ],
+      "materials": [
+        "REV005_RM_CYAN.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_OPEN_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_OPEN_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.91999816894531
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.5,
+        0.05000000074505806,
+        2.4000000953674316
+      ],
+      "materials": [
+        "REV005_RM_CYAN.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_OPEN_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_OPEN_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          39.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -63.91999816894531
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.700000047683716
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        1.5,
+        0.05000000074505806,
+        2.4000000953674316
+      ],
+      "materials": [
+        "REV005_RM_CYAN.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_OPEN_3"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_A_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          22.459999084472656
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_A_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_A_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.459999084472656
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_A_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_A_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          32.459999084472656
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_A_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_A_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.459999084472656
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_A_3"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_B_0",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          25.540000915527344
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_B_0"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_B_1",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.540000915527344
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_B_1"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_B_2",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          35.540000915527344
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_B_2"
+      }
+    },
+    {
+      "name": "RM_WELFARE_SHOWER_SIDE_B_3",
+      "type": "MESH",
+      "collections": [
+        "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          40.540000915527344
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -65.0999984741211
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.5999999046325684
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.11999999731779099,
+        2.299999952316284,
+        2.799999952316284
+      ],
+      "materials": [
+        "REV005_RM_CLEAN_WHITE.001"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "F04_X01_RESTORED_EXACT": true,
+        "REV005_REMEDIATION_V01": true,
+        "facility": "Employee Changing / Shower / Locker Support",
+        "functional_role": "RM_WELFARE_SHOWER_SIDE_B_3"
+      }
+    }
+  ],
+  "replay_commit": "420038365847de763d64c8583a9e31ac5a6bd677",
+  "source_hash": "25AEA5F1F5458BA3814449B0D929B1F8B9601FAB7B956C6681EE4AFBAD26592D",
+  "expected_source_hash": "1CAB3DC959B1FA8ED8729D33AD36C5C8EF6C89E80CEC41F4CCEFEDA58FCF747D"
+}

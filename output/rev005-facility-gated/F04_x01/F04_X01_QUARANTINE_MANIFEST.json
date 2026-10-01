@@ -1,0 +1,317 @@
+{
+  "status": "AFTER",
+  "authorized_targets": [
+    "REV005_V08_CLEAN_TRAINING_ACADEMY",
+    "V09_RESTAURANT_RIGHT_WALL"
+  ],
+  "before": {
+    "training_collection": {
+      "count": 81,
+      "bounds": {
+        "min": [
+          15.90999984741211,
+          -70.12999725341797,
+          0.0
+        ],
+        "max": [
+          48.20000076293945,
+          -51.90999984741211,
+          7.0
+        ]
+      },
+      "object_names": [
+        "TRAINING_STORAGE_BEAM_0",
+        "TRAINING_STORAGE_BEAM_1",
+        "TRAINING_STORAGE_BEAM_2",
+        "TRAINING_STORAGE_LOAD_0_0",
+        "TRAINING_STORAGE_LOAD_0_1",
+        "TRAINING_STORAGE_LOAD_1_0",
+        "TRAINING_STORAGE_LOAD_1_1",
+        "TRAINING_STORAGE_LOAD_2_0",
+        "TRAINING_STORAGE_LOAD_2_1",
+        "TRAINING_STORAGE_POST_0_0",
+        "TRAINING_STORAGE_POST_0_1",
+        "TRAINING_STORAGE_POST_1_0",
+        "TRAINING_STORAGE_POST_1_1",
+        "TRAINING_STORAGE_POST_2_0",
+        "TRAINING_STORAGE_POST_2_1",
+        "V09_INSTRUCTOR_LECTERN",
+        "V09_LEARNER_CHAIR_0_BACK",
+        "V09_LEARNER_CHAIR_0_LEG_-0.25",
+        "V09_LEARNER_CHAIR_0_LEG_0.25",
+        "V09_LEARNER_CHAIR_0_SEAT",
+        "V09_LEARNER_CHAIR_1_BACK",
+        "V09_LEARNER_CHAIR_1_LEG_-0.25",
+        "V09_LEARNER_CHAIR_1_LEG_0.25",
+        "V09_LEARNER_CHAIR_1_SEAT",
+        "V09_LEARNER_CHAIR_2_BACK",
+        "V09_LEARNER_CHAIR_2_LEG_-0.25",
+        "V09_LEARNER_CHAIR_2_LEG_0.25",
+        "V09_LEARNER_CHAIR_2_SEAT",
+        "V09_LEARNER_CHAIR_3_BACK",
+        "V09_LEARNER_CHAIR_3_LEG_-0.25",
+        "V09_LEARNER_CHAIR_3_LEG_0.25",
+        "V09_LEARNER_CHAIR_3_SEAT",
+        "V09_LEARNER_CHAIR_4_BACK",
+        "V09_LEARNER_CHAIR_4_LEG_-0.25",
+        "V09_LEARNER_CHAIR_4_LEG_0.25",
+        "V09_LEARNER_CHAIR_4_SEAT",
+        "V09_LEARNER_CHAIR_5_BACK",
+        "V09_LEARNER_CHAIR_5_LEG_-0.25",
+        "V09_LEARNER_CHAIR_5_LEG_0.25",
+        "V09_LEARNER_CHAIR_5_SEAT",
+        "V09_LEARNER_CHAIR_6_BACK",
+        "V09_LEARNER_CHAIR_6_LEG_-0.25",
+        "V09_LEARNER_CHAIR_6_LEG_0.25",
+        "V09_LEARNER_CHAIR_6_SEAT",
+        "V09_LEARNER_CHAIR_7_BACK",
+        "V09_LEARNER_CHAIR_7_LEG_-0.25",
+        "V09_LEARNER_CHAIR_7_LEG_0.25",
+        "V09_LEARNER_CHAIR_7_SEAT",
+        "V09_LEARNER_CHAIR_8_BACK",
+        "V09_LEARNER_CHAIR_8_LEG_-0.25",
+        "V09_LEARNER_CHAIR_8_LEG_0.25",
+        "V09_LEARNER_CHAIR_8_SEAT",
+        "V09_LEARNER_CHAIR_9_BACK",
+        "V09_LEARNER_CHAIR_9_LEG_-0.25",
+        "V09_LEARNER_CHAIR_9_LEG_0.25",
+        "V09_LEARNER_CHAIR_9_SEAT",
+        "V09_LEARNER_DESK_0",
+        "V09_LEARNER_DESK_1",
+        "V09_LEARNER_DESK_2",
+        "V09_LEARNER_DESK_3",
+        "V09_LEARNER_DESK_4",
+        "V09_LEARNER_DESK_5",
+        "V09_LEARNER_DESK_6",
+        "V09_LEARNER_DESK_7",
+        "V09_LEARNER_DESK_8",
+        "V09_LEARNER_DESK_9",
+        "V09_TRAINING_BACK_WALL",
+        "V09_TRAINING_BOARD",
+        "V09_TRAINING_DOOR_HEADER",
+        "V09_TRAINING_DOOR_L",
+        "V09_TRAINING_DOOR_R",
+        "V09_TRAINING_ENTRY_HEADER",
+        "V09_TRAINING_ENTRY_L",
+        "V09_TRAINING_ENTRY_R",
+        "V09_TRAINING_FLOOR",
+        "V09_TRAINING_FRONT_HEADER",
+        "V09_TRAINING_LEFT_WALL",
+        "V09_TRAINING_LIGHT_0",
+        "V09_TRAINING_LIGHT_1",
+        "V09_TRAINING_RIGHT_WALL",
+        "V09_TRAINING_SOFFIT"
+      ]
+    },
+    "restaurant_right_wall": {
+      "name": "V09_RESTAURANT_RIGHT_WALL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          28.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -69.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.18000000715255737,
+        26.0,
+        7.0
+      ],
+      "materials": [
+        "REV005_V08_WALL"
+      ],
+      "parent": null,
+      "hide_viewport": false,
+      "hide_render": false,
+      "custom_properties": {
+        "REV005_V08_CLEAN": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_V09_REMEDIATED": true,
+        "facility": "Restaurant / POVU Caf\u00e9 / kitchen"
+      }
+    },
+    "existing_glass_deck_quarantine_count": 117
+  },
+  "after": {
+    "training_collection": {
+      "count": 81,
+      "bounds": {
+        "min": [
+          15.90999984741211,
+          -70.12999725341797,
+          0.0
+        ],
+        "max": [
+          48.20000076293945,
+          -51.90999984741211,
+          7.0
+        ]
+      },
+      "collection_hide_viewport": true,
+      "collection_hide_render": true,
+      "object_names": [
+        "TRAINING_STORAGE_BEAM_0",
+        "TRAINING_STORAGE_BEAM_1",
+        "TRAINING_STORAGE_BEAM_2",
+        "TRAINING_STORAGE_LOAD_0_0",
+        "TRAINING_STORAGE_LOAD_0_1",
+        "TRAINING_STORAGE_LOAD_1_0",
+        "TRAINING_STORAGE_LOAD_1_1",
+        "TRAINING_STORAGE_LOAD_2_0",
+        "TRAINING_STORAGE_LOAD_2_1",
+        "TRAINING_STORAGE_POST_0_0",
+        "TRAINING_STORAGE_POST_0_1",
+        "TRAINING_STORAGE_POST_1_0",
+        "TRAINING_STORAGE_POST_1_1",
+        "TRAINING_STORAGE_POST_2_0",
+        "TRAINING_STORAGE_POST_2_1",
+        "V09_INSTRUCTOR_LECTERN",
+        "V09_LEARNER_CHAIR_0_BACK",
+        "V09_LEARNER_CHAIR_0_LEG_-0.25",
+        "V09_LEARNER_CHAIR_0_LEG_0.25",
+        "V09_LEARNER_CHAIR_0_SEAT",
+        "V09_LEARNER_CHAIR_1_BACK",
+        "V09_LEARNER_CHAIR_1_LEG_-0.25",
+        "V09_LEARNER_CHAIR_1_LEG_0.25",
+        "V09_LEARNER_CHAIR_1_SEAT",
+        "V09_LEARNER_CHAIR_2_BACK",
+        "V09_LEARNER_CHAIR_2_LEG_-0.25",
+        "V09_LEARNER_CHAIR_2_LEG_0.25",
+        "V09_LEARNER_CHAIR_2_SEAT",
+        "V09_LEARNER_CHAIR_3_BACK",
+        "V09_LEARNER_CHAIR_3_LEG_-0.25",
+        "V09_LEARNER_CHAIR_3_LEG_0.25",
+        "V09_LEARNER_CHAIR_3_SEAT",
+        "V09_LEARNER_CHAIR_4_BACK",
+        "V09_LEARNER_CHAIR_4_LEG_-0.25",
+        "V09_LEARNER_CHAIR_4_LEG_0.25",
+        "V09_LEARNER_CHAIR_4_SEAT",
+        "V09_LEARNER_CHAIR_5_BACK",
+        "V09_LEARNER_CHAIR_5_LEG_-0.25",
+        "V09_LEARNER_CHAIR_5_LEG_0.25",
+        "V09_LEARNER_CHAIR_5_SEAT",
+        "V09_LEARNER_CHAIR_6_BACK",
+        "V09_LEARNER_CHAIR_6_LEG_-0.25",
+        "V09_LEARNER_CHAIR_6_LEG_0.25",
+        "V09_LEARNER_CHAIR_6_SEAT",
+        "V09_LEARNER_CHAIR_7_BACK",
+        "V09_LEARNER_CHAIR_7_LEG_-0.25",
+        "V09_LEARNER_CHAIR_7_LEG_0.25",
+        "V09_LEARNER_CHAIR_7_SEAT",
+        "V09_LEARNER_CHAIR_8_BACK",
+        "V09_LEARNER_CHAIR_8_LEG_-0.25",
+        "V09_LEARNER_CHAIR_8_LEG_0.25",
+        "V09_LEARNER_CHAIR_8_SEAT",
+        "V09_LEARNER_CHAIR_9_BACK",
+        "V09_LEARNER_CHAIR_9_LEG_-0.25",
+        "V09_LEARNER_CHAIR_9_LEG_0.25",
+        "V09_LEARNER_CHAIR_9_SEAT",
+        "V09_LEARNER_DESK_0",
+        "V09_LEARNER_DESK_1",
+        "V09_LEARNER_DESK_2",
+        "V09_LEARNER_DESK_3",
+        "V09_LEARNER_DESK_4",
+        "V09_LEARNER_DESK_5",
+        "V09_LEARNER_DESK_6",
+        "V09_LEARNER_DESK_7",
+        "V09_LEARNER_DESK_8",
+        "V09_LEARNER_DESK_9",
+        "V09_TRAINING_BACK_WALL",
+        "V09_TRAINING_BOARD",
+        "V09_TRAINING_DOOR_HEADER",
+        "V09_TRAINING_DOOR_L",
+        "V09_TRAINING_DOOR_R",
+        "V09_TRAINING_ENTRY_HEADER",
+        "V09_TRAINING_ENTRY_L",
+        "V09_TRAINING_ENTRY_R",
+        "V09_TRAINING_FLOOR",
+        "V09_TRAINING_FRONT_HEADER",
+        "V09_TRAINING_LEFT_WALL",
+        "V09_TRAINING_LIGHT_0",
+        "V09_TRAINING_LIGHT_1",
+        "V09_TRAINING_RIGHT_WALL",
+        "V09_TRAINING_SOFFIT"
+      ]
+    },
+    "restaurant_right_wall": {
+      "name": "V09_RESTAURANT_RIGHT_WALL",
+      "type": "MESH",
+      "collections": [
+        "REV005_V08_CLEAN_RESTAURANT_POVU_CAF_KITCHEN"
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          28.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -69.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          3.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions": [
+        0.18000000715255737,
+        26.0,
+        7.0
+      ],
+      "materials": [
+        "REV005_V08_WALL"
+      ],
+      "parent": null,
+      "hide_viewport": true,
+      "hide_render": true,
+      "custom_properties": {
+        "REV005_CROSS_FACILITY_QUARANTINED": true,
+        "REV005_CROSS_FACILITY_QUARANTINE_OWNER": "F04_X01",
+        "REV005_CROSS_FACILITY_QUARANTINE_REASON": "V09 Training envelope overlaps historical Wellness Pavilion / accepted F04 welfare zone",
+        "REV005_V08_CLEAN": true,
+        "REV005_V09_IMAGE_BY_IMAGE": true,
+        "REV005_V09_LEGACY_PROXY_RETIRED": true,
+        "REV005_V09_REMEDIATED": true,
+        "facility": "Restaurant / POVU Caf\u00e9 / kitchen"
+      }
+    },
+    "existing_glass_deck_quarantine_count": 117
+  },
+  "only_authorized_targets_changed": true
+}
