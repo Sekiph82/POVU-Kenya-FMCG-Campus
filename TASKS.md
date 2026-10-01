@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.36
-- Current Task: M08.36 — Facility-Gated F06 Micro-ingredient Weigh / Dispense historical restoration
+- Current Sprint: M08.37
+- Current Task: M08.37 — Facility-Gated F06-R01 integrated-camera remediation
 - Current Task Status: READY
-- Execution Authorization: M08.36 / F06 only
-- Next Task/Action: Execute only F06 Micro-ingredient Weigh / Dispense using `coordination/Prompts/REV005_FACILITY_F06_MICRO_WEIGH_RESTORE_GPT_PROMPT.md`. Reconstruct and prove the exact historical V05 43-object accepted selection, restore only F06, protect F01-F05 plus quarantine states, reproduce historical A/B/C parity, produce visually readable integrated current-context evidence, and stop at `AWAITING_GPT_FACILITY_AUDIT_F06`. Do not begin F07.
+- Execution Authorization: M08.37 / F06-R01 only
+- Next Task/Action: Execute only F06-R01 using `coordination/Prompts/REV005_FACILITY_F06_MICRO_WEIGH_R01_INTEGRATED_CAMERA_REMEDIATION_GPT_PROMPT.md`. Preserve the accepted 43-object F06 geometry, all historical/dimensional/A-B-C parity gates, and all prior protections; replace only the failed integrated-camera evidence with a complete readable current-context workflow view and stop at `AWAITING_GPT_FACILITY_AUDIT_F06_R01`. Do not begin F07.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -33,7 +33,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
 - F04 Employee Changing / Shower / Locker Support is now independently PASS and locked. Its 59 accepted objects and accepted X01 quarantine state are protected against casual edits.
 - F05 Fire Pump House is independently PASS and locked after M08.35 at `b0d8214a80621d867fcccb7aebf1d117c9e7b2c5`. The accepted R01 integrated camera is `front_exterior_right` with 9/9 LOS and direct visual readability; the Restaurant right-wall discrepancy was proven `MANIFEST_DERIVATION_BUG_ONLY` with zero unauthorized protected-state differences. Canonical Blend/GLB hashes remained unchanged.
-- F06 Micro-ingredient Weigh / Dispense is now the only active facility. No later facility may begin until F06 receives independent GPT PASS.
+- F06 Micro-ingredient Weigh / Dispense remains the only active facility. M08.36 execution at `4dbcc1ce2faeb0b6e0f61a5229f50e934ef82944` passed the 43-object historical selection, dimensional, source/destination parity, and protection gates, but independent GPT Audit V01 requires camera-only remediation because the selected FRONT_LEFT integrated view crops the downstream transfer tote/cart and does not show the complete workflow coherently. No later facility may begin until F06 receives independent GPT PASS.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
@@ -449,15 +449,26 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Final audit: `coordination/Audits/REV005_F05_FIRE_PUMP_FINAL_GPT_AUDIT.md`.
   - F05 is locked.
 
-- [ ] M08.36 — F06 Micro-ingredient Weigh / Dispense historical restoration
+- [!] M08.36 — F06 Micro-ingredient Weigh / Dispense historical restoration
+  - Execution commit: `4dbcc1ce2faeb0b6e0f61a5229f50e934ef82944`.
+  - Exact V05 selection: 43 = BASE 7 / V01 12 / V02 23 / V05 1.
+  - Historical source A/B/C decoded parity: exact PASS.
+  - Dimensional validation: PASS.
+  - Destination parity: PASS; only sparse bounded renderer deltas in A/B, C exact.
+  - Protection diff: 0 unauthorized object/field differences.
+  - Canonical Blend: `BA2CFFBA98C317EBE8E96E0DAC40263FCACF1C4485D544FA467C38EFD2853655`.
+  - Canonical GLB: `98BFAE794024D7217FCEC51936B832F6D3AF4C33ECD17F7973860BBC9AE98825`.
+  - Independent GPT Audit V01: `REMEDIATION_REQUIRED` for integrated framing only.
+  - Audit: `coordination/Audits/REV005_F06_MICRO_WEIGH_GPT_AUDIT_V01.md`.
+
+- [ ] M08.37 — F06-R01 integrated-camera remediation
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F06_MICRO_WEIGH_RESTORE_GPT_PROMPT.md`.
-  - Locked provenance: `coordination/Audits/REV005_F06_MICRO_WEIGH_HISTORICAL_SOURCE_PROVENANCE.md`.
-  - Locked audit criteria: `coordination/Audits/REV005_FACILITY_F06_MICRO_WEIGH_GPT_AUDIT_CRITERIA.md`.
-  - Historical V05 selected count expected: 43.
-  - Restore F06 only; protect F01-F05 and all accepted quarantine states.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F06_MICRO_WEIGH_R01_INTEGRATED_CAMERA_REMEDIATION_GPT_PROMPT.md`.
+  - Evidence-only: canonical Blend/GLB must not change.
+  - Preserve exact 43-object geometry and all accepted source/dimensional/parity/protection gates.
+  - Render at least 20 wider/farther current-context candidates and select only a view that visibly communicates hopper → dosing → balances → transfer tote/cart → operator/service workflow.
   - Do not begin F07.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F06`.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F06_R01`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
