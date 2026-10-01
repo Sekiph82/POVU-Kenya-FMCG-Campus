@@ -1,0 +1,69 @@
+{
+  "status": "AWAITING_GPT_F04_X03_FINAL_AUDIT",
+  "decision": "MICROSCOPIC_ANTIALIAS_ONLY_DIFFERENCES",
+  "historical_expected": {
+    "A_WIDE": {
+      "path": "output/rev005-interior-remediation-v05/qa/employee_changing_shower_locker_support_A_WIDE.png",
+      "sha256": "485E04DA347BBB257C778204DB7613E7D355199BAD18B79541CE8BF5FA86EB21"
+    },
+    "B_FUNCTIONAL": {
+      "path": "output/rev005-interior-remediation-v05/qa/employee_changing_shower_locker_support_B_FUNCTIONAL.png",
+      "sha256": "59F769B86BE5602FC43BA3F2D05786B8C94D169014C39FCBD2BC832D56BBC9D9"
+    }
+  },
+  "destination_renders": {
+    "A_WIDE": {
+      "path": "output/rev005-facility-gated/F04_x03/F04_X03_DEST_PARITY_A_900x600.png",
+      "sha256": "F8B1E81797F9E86A1831C9E5ACBE997CB2CFA8C1ED80428CF640098B9114C4F1",
+      "bytes": 601910,
+      "width": 900,
+      "height": 600
+    },
+    "B_FUNCTIONAL": {
+      "path": "output/rev005-facility-gated/F04_x03/F04_X03_DEST_PARITY_B_900x600.png",
+      "sha256": "465ACEB151ECE8492A87CD121A4D9097D8FC50FFA810F238285623457AE38141",
+      "bytes": 594676,
+      "width": 900,
+      "height": 600
+    }
+  },
+  "decoded_pixel_comparison": {
+    "A_WIDE": {
+      "decoded_pixel_equality": false,
+      "differing_pixel_count": 99,
+      "differing_normalized_channel_count": 192,
+      "max_absolute_channel_delta": 30,
+      "microscopic_antialias_only": true
+    },
+    "B_FUNCTIONAL": {
+      "decoded_pixel_equality": false,
+      "differing_pixel_count": 35,
+      "differing_normalized_channel_count": 78,
+      "max_absolute_channel_delta": 30,
+      "microscopic_antialias_only": true
+    }
+  },
+  "interpretation": "Both views are visually identical to the archived references; the recorded sparse edge-pixel deltas are microscopic antialias-only differences, comparable to previously accepted facility parity evidence.",
+  "source_gate": {
+    "destination_collection": "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY",
+    "destination_object_count": 59,
+    "composition": "10 BASE + 49 V01",
+    "historical_v05_selection_count": 59,
+    "selection_equals_destination": true
+  },
+  "isolation_and_protection": {
+    "objects_with_visibility_recorded_and_restored": 10605,
+    "collections_with_visibility_recorded": 35,
+    "visibility_restored_in_memory": true,
+    "F01_accepted_objects": 76,
+    "F02_accepted_objects": 79,
+    "F03_accepted_objects": 30,
+    "v09_glass_deck_quarantine_objects": 117,
+    "v09_training_quarantine_objects": 81,
+    "restaurant_right_wall_quarantined": true
+  },
+  "canonical_mutation": {
+    "blend_saved": false,
+    "glb_exported": false
+  }
+}
