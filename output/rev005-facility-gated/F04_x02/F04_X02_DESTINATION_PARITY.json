@@ -1,0 +1,69 @@
+{
+  "status": "BLOCKED_F04_X02_DESTINATION_PARITY",
+  "decision": "BLOCKED_STRUCTURAL_IMAGE_CONTENT_DIFFERENCE",
+  "historical_expected": {
+    "A_WIDE": {
+      "path": "output/rev005-interior-remediation-v05/qa/employee_changing_shower_locker_support_A_WIDE.png",
+      "sha256": "485E04DA347BBB257C778204DB7613E7D355199BAD18B79541CE8BF5FA86EB21"
+    },
+    "B_FUNCTIONAL": {
+      "path": "output/rev005-interior-remediation-v05/qa/employee_changing_shower_locker_support_B_FUNCTIONAL.png",
+      "sha256": "59F769B86BE5602FC43BA3F2D05786B8C94D169014C39FCBD2BC832D56BBC9D9"
+    }
+  },
+  "destination_renders": {
+    "A_WIDE": {
+      "path": "output/rev005-facility-gated/F04_x02/F04_X02_DEST_PARITY_A_900x600.png",
+      "sha256": "CDB1BF8549DC630E81CC8674BD8BA1DE1376FD068A3FAB75FABBF158BFFCAB3E",
+      "bytes": 605061,
+      "width": 900,
+      "height": 600
+    },
+    "B_FUNCTIONAL": {
+      "path": "output/rev005-facility-gated/F04_x02/F04_X02_DEST_PARITY_B_900x600.png",
+      "sha256": "B2E8D4F3E08B39D9CE574487A31990DF1012A38B45363C789EEA83A960C1BEDD",
+      "bytes": 594633,
+      "width": 900,
+      "height": 600
+    }
+  },
+  "decoded_pixel_comparison": {
+    "channel_normalization": "RGBA 8-bit decoded pixels; all images 900x600",
+    "A_WIDE": {
+      "decoded_pixel_equality": false,
+      "differing_pixel_count": 63944,
+      "differing_normalized_channel_count": 184018,
+      "max_absolute_channel_delta": 134
+    },
+    "B_FUNCTIONAL": {
+      "decoded_pixel_equality": false,
+      "differing_pixel_count": 109361,
+      "differing_normalized_channel_count": 317142,
+      "max_absolute_channel_delta": 133
+    }
+  },
+  "interpretation": "Both comparisons exceed microscopic antialias-only variation. The rendered views show structural/image-content differences from archived V05 references; parity acceptance is not met.",
+  "source_gate": {
+    "destination_collection": "REV005_FG_F04_WELFARE_ACCEPTED_V05_REPLAY",
+    "destination_object_count": 59,
+    "composition": "10 BASE + 49 V01",
+    "historical_v05_selection_count": 59,
+    "selection_equals_destination": true
+  },
+  "isolation_and_protection": {
+    "objects_with_visibility_recorded_and_restored": 10605,
+    "collections_with_visibility_recorded": 35,
+    "visibility_restored_in_memory": true,
+    "F01_accepted_objects": 76,
+    "F02_accepted_objects": 79,
+    "F03_accepted_objects": 30,
+    "historical_glass_deck_source_objects": 392,
+    "v09_glass_deck_quarantine_objects": 117,
+    "v09_training_quarantine_objects": 81,
+    "restaurant_right_wall_quarantined": true
+  },
+  "canonical_mutation": {
+    "blend_saved": false,
+    "glb_exported": false
+  }
+}
