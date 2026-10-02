@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.41
-- Current Task: M08.41 — Facility-Gated F07 Administration / HQ / R&D / QC Class N completion
+- Current Sprint: M08.42
+- Current Task: M08.42 — Facility-Gated F08 Bottle Blow Molding Class N completion
 - Current Task Status: READY
-- Execution Authorization: M08.41 / F07 only
-- Next Task/Action: Execute only F07 Administration / HQ / R&D / QC using `coordination/Prompts/REV005_FACILITY_F07_ADMIN_HQ_RD_QC_CLASS_N_COMPLETION_GPT_PROMPT.md`. Build the first Class N facility to the locked dimensional/design contract, retire only confirmed legacy Admin-owned representation, preserve F01-F06 and all accepted quarantine states, produce A/B/C/D visual evidence and deterministic GLB membership parity, then stop at `AWAITING_GPT_FACILITY_AUDIT_F07`. Do not begin F08.
+- Execution Authorization: M08.42 / F08 only
+- Next Task/Action: Execute only F08 Bottle Blow Molding using `coordination/Prompts/REV005_FACILITY_F08_BOTTLE_BLOW_MOLDING_CLASS_N_COMPLETION_GPT_PROMPT.md`. Build the complete preform hopper/feed → heater oven → guarded two-station blow cell → formed-bottle outfeed sequence to the locked Class N design contract, retire only confirmed Bottle Blow legacy objects, preserve F01-F07 and all accepted quarantine states, produce A/B/C/D evidence and deterministic GLB membership parity, then stop at `AWAITING_GPT_FACILITY_AUDIT_F08`. Do not begin F09.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -33,7 +33,8 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
 - F04 Employee Changing / Shower / Locker Support is now independently PASS and locked. Its 59 accepted objects and accepted X01 quarantine state are protected against casual edits.
 - F05 Fire Pump House is independently PASS and locked after M08.35 at `b0d8214a80621d867fcccb7aebf1d117c9e7b2c5`. The accepted R01 integrated camera is `front_exterior_right` with 9/9 LOS and direct visual readability; the Restaurant right-wall discrepancy was proven `MANIFEST_DERIVATION_BUG_ONLY` with zero unauthorized protected-state differences. Canonical Blend/GLB hashes remained unchanged.
-- F06 Micro-ingredient Weigh / Dispense is independently PASS and locked after M08.40 at `dcad5ce30b0a3c1640a94c740f81744229602b69`. D process/transfer and E operator/service/access views jointly satisfy the F06-specific dual-view closure contract from the same canonical state; Blend and GLB hashes remain `4C2C7E...AA5B` and `948777A2...AF133`. All six Class R facilities are now closed. F07 Administration / HQ / R&D / QC is the first active Class N facility; no later facility may begin until F07 receives independent GPT PASS.
+- F06 Micro-ingredient Weigh / Dispense is independently PASS and locked after M08.40 at `dcad5ce30b0a3c1640a94c740f81744229602b69`. D process/transfer and E operator/service/access views jointly satisfy the F06-specific dual-view closure contract from the same canonical state; Blend and GLB hashes remain `4C2C7E...AA5B` and `948777A2...AF133`. All six Class R facilities are closed.
+- F07 Administration / HQ / R&D / QC is independently PASS and locked after M08.41 at `1b87d909946a165eec138f112d8bcd81d7350a61`. The 789-mesh Class N facility, 446-object exact legacy retirement, prior-state protection, four-view visual gate and 10,941-node deterministic GLB parity all passed. Canonical Blend/GLB are `B2C248A0...09642` and `B5C73F92...E28372`. F08 Bottle Blow Molding is now the active Class N facility; no later facility may begin until F08 receives independent GPT PASS.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
@@ -505,18 +506,30 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Final audit: `coordination/Audits/REV005_F06_FINAL_GPT_AUDIT.md`.
   - F06 is locked; all six Class R facilities are complete.
 
-- [ ] M08.41 — F07 Administration / HQ / R&D / QC Class N completion
+- [x] M08.41 — F07 Administration / HQ / R&D / QC Class N completion
+  - Execution commit: `1b87d909946a165eec138f112d8bcd81d7350a61`.
+  - Accepted destination: `REV005_FG_F07_ADMIN_HQ_RD_QC_ACCEPTED_CLASS_N`, 789 meshes.
+  - Confirmed legacy retirement: 446 objects; ambiguous retirements: 0.
+  - Dimensional/protection/retirement/camera gates: PASS.
+  - Direct A/B/C/D visual audit: PASS.
+  - Deterministic GLB parity: 10,941 expected = 10,941 actual; 0 missing, 0 unexpected.
+  - Canonical Blend: `B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642`.
+  - Canonical GLB: `B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372`.
+  - Independent GPT final decision: PASS.
+  - Final audit: `coordination/Audits/REV005_F07_FINAL_GPT_AUDIT.md`.
+  - F07 is locked.
+
+- [ ] M08.42 — F08 Bottle Blow Molding Class N completion
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F07_ADMIN_HQ_RD_QC_CLASS_N_COMPLETION_GPT_PROMPT.md`.
-  - Design contract: `coordination/Audits/REV005_F07_ADMIN_HQ_RD_QC_DESIGN_CONTRACT.md`.
-  - Locked audit criteria: `coordination/Audits/REV005_F07_ADMIN_HQ_RD_QC_GPT_AUDIT_CRITERIA.md`.
-  - First Class N facility.
-  - Locked envelope: center (-58,-64), 46×28 m.
-  - Required zones: reception, HQ open office, meeting/collaboration, R&D/QC laboratory.
-  - Preserve F01-F06 and all accepted quarantine states.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_BOTTLE_BLOW_MOLDING_CLASS_N_COMPLETION_GPT_PROMPT.md`.
+  - Design contract: `coordination/Audits/REV005_F08_BOTTLE_BLOW_MOLDING_DESIGN_CONTRACT.md`.
+  - Locked audit criteria: `coordination/Audits/REV005_F08_BOTTLE_BLOW_MOLDING_GPT_AUDIT_CRITERIA.md`.
+  - Locked envelope: center (52,10), 38×24 m.
+  - Required label-blind sequence: preform hopper/feed → heater oven → guarded two-station blow cell → formed-bottle outfeed/inspection.
+  - Preserve F01-F07 and all accepted quarantine/retirement states.
   - Deterministic GLB membership export only; no broad use_visible export.
-  - Do not begin F08.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F07`.
+  - Do not begin F09.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
