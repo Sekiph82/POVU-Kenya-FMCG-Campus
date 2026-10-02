@@ -1,0 +1,153 @@
+{
+  "task": "M08.43 / F08-R01",
+  "status": "BLOCKED_F08_R01_NO_COMPLETE_VISUAL_SET",
+  "rendered_candidate_counts": {
+    "A": 36,
+    "B": 30,
+    "C": 30,
+    "D": 38,
+    "total": 134
+  },
+  "camera_origin_mesh_bounds_hits": 0,
+  "canonical_promotion_authorized": false,
+  "canonical_blend_modified": false,
+  "canonical_glb_modified": false,
+  "roles": {
+    "A": {
+      "selected_attempt_id": "A_005",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        43.0,
+        2.0,
+        6.5
+      ],
+      "target_xyz": [
+        57.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 24,
+      "preview_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_A_SELECTED_PREVIEW_900x600.png",
+      "top12_contact_sheet_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_A_TOP12_CONTACT_SHEET.png",
+      "rationale": "Best context framing: orange preform/feed carriers lead into the heater and guarded blow cell; conveyor/outfeed and room floor are visible. Hopper itself is not visually distinct and formed bottles remain small; A gate fails.",
+      "passing_cues": [
+        "feeder_preform_path_visible",
+        "heater_oven_visible",
+        "heater_outlet_visible",
+        "transfer_visible",
+        "blow_cell_frame_visible",
+        "outfeed_visible",
+        "formed_bottles_readable",
+        "aisle_context_readable"
+      ],
+      "failing_cues": [
+        "hopper_visible",
+        "mould_station_readable",
+        "stretch_blow_cue_readable",
+        "HMI_operator_relationship_visible"
+      ]
+    },
+    "B": {
+      "selected_attempt_id": "B_015",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        44.5,
+        5.5,
+        6.5
+      ],
+      "target_xyz": [
+        54.0,
+        11.0,
+        3.5
+      ],
+      "lens_mm": 32,
+      "preview_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_B_SELECTED_PREVIEW_900x600.png",
+      "top12_contact_sheet_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_B_TOP12_CONTACT_SHEET.png",
+      "rationale": "Best functional balance: preform path, heater outlet/guide, guarded cell, mould area, and right-side outfeed are in one frame. The formed bottles and transfer connection do not read clearly enough for a pass.",
+      "passing_cues": [
+        "feeder_preform_path_visible",
+        "heater_oven_visible",
+        "heater_outlet_visible",
+        "transfer_visible",
+        "blow_cell_frame_visible",
+        "outfeed_visible",
+        "formed_bottles_readable"
+      ],
+      "failing_cues": [
+        "hopper_visible",
+        "mould_station_readable",
+        "stretch_blow_cue_readable",
+        "HMI_operator_relationship_visible",
+        "aisle_context_readable"
+      ]
+    },
+    "C": {
+      "selected_attempt_id": "C_028",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        54.0,
+        2.5,
+        6.01
+      ],
+      "target_xyz": [
+        56.0,
+        9.0,
+        2.5
+      ],
+      "lens_mm": 28,
+      "preview_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_C_SELECTED_PREVIEW_900x600.png",
+      "top12_contact_sheet_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_C_TOP12_CONTACT_SHEET.png",
+      "rationale": "Best close sequence candidate: mould/cell, connecting overhead/guide cues, and bottle outfeed are prominent. The upstream oven/transfer relationship is incomplete in-frame; C gate fails.",
+      "passing_cues": [
+        "heater_oven_visible",
+        "heater_outlet_visible",
+        "transfer_visible",
+        "blow_cell_frame_visible",
+        "mould_station_readable",
+        "stretch_blow_cue_readable",
+        "outfeed_visible",
+        "formed_bottles_readable",
+        "aisle_context_readable"
+      ],
+      "failing_cues": [
+        "hopper_visible",
+        "feeder_preform_path_visible",
+        "HMI_operator_relationship_visible"
+      ]
+    },
+    "D": {
+      "selected_attempt_id": "D_006",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        54.0,
+        2.25,
+        6.5
+      ],
+      "target_xyz": [
+        57.0,
+        11.0,
+        2.8
+      ],
+      "lens_mm": 16,
+      "preview_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_D_SELECTED_PREVIEW_900x600.png",
+      "top12_contact_sheet_path": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_R01_D_TOP12_CONTACT_SHEET.png",
+      "rationale": "Best integrated candidate: heater and blow cell, a partial preform feed, outfeed, HMI, and room context appear together. Feed hopper, clear operator/service relationship, and main aisle organization are not all readable; D gate fails.",
+      "passing_cues": [
+        "feeder_preform_path_visible",
+        "heater_oven_visible",
+        "heater_outlet_visible",
+        "transfer_visible",
+        "blow_cell_frame_visible",
+        "outfeed_visible",
+        "formed_bottles_readable",
+        "HMI_operator_relationship_visible",
+        "aisle_context_readable"
+      ],
+      "failing_cues": [
+        "hopper_visible",
+        "mould_station_readable",
+        "stretch_blow_cue_readable"
+      ]
+    }
+  }
+}

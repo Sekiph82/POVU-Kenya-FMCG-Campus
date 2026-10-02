@@ -1,0 +1,457 @@
+BlenderMCP addon registered
+ℹ️  blendkit: Verbose is enabled [22:56:32.818, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [22:56:32.820, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [22:56:32.821, client_lib.py:163]
+ℹ️  blendkit: Verbose is enabled [22:56:32.901, addon_updater.py:150]
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterInstallPopup', bl_idname 'blenderkit.updater_install_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterCheckNow', bl_idname 'blenderkit.updater_check_now' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterUpdateNow', bl_idname 'blenderkit.updater_update_now' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterUpdateTarget', bl_idname 'blenderkit.updater_update_target' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterInstallManually', bl_idname 'blenderkit.updater_install_manually' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterUpdatedSuccessful', bl_idname 'blenderkit.updater_update_successful' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterRestoreBackup', bl_idname 'blenderkit.updater_restore_backup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterIgnore', bl_idname 'blenderkit.updater_ignore' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterEndBackground', bl_idname 'blenderkit.end_background_check' has been registered before, unregistering previous
+ℹ️  blendkit: Read in JSON settings from file [22:56:32.903, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [22:56:32.905, client_lib.py:163]
+register_class(...):
+Info: Registering operator class: 'SearchOperator', bl_idname 'view3d.blenderkit_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UrlOperator', bl_idname 'wm.blenderkit_url' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'TooltipLabelOperator', bl_idname 'wm.blenderkit_tooltip' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AuthorAssetTypeSearch', bl_idname 'view3d.blenderkit_author_asset_type_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AuthorAssetTypePopup', bl_idname 'view3d.blenderkit_author_asset_type_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AutoFillTags', bl_idname 'object.blenderkit_auto_tags' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderkitDownloadOperator', bl_idname 'scene.blenderkit_download' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderkitKillDownloadOperator', bl_idname 'scene.blenderkit_download_kill' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderkitAddonChoiceOperator', bl_idname 'scene.blenderkit_addon_choice' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'DryRunExportOperator', bl_idname 'object.blenderkit_dry_run_export' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UploadOperator', bl_idname 'object.blenderkit_upload' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'FastMetadata', bl_idname 'wm.blenderkit_fast_metadata' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetDebugPrint', bl_idname 'object.blenderkit_print_asset_debug' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetVerificationStatusChange', bl_idname 'object.blenderkit_change_status' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'FastRateMenu', bl_idname 'wm.blenderkit_menu_rating_upload' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetBookmark', bl_idname 'wm.blenderkit_bookmark_asset' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetNotUsed', bl_idname 'wm.blenderkit_not_used' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'NotUsedMenu', bl_idname 'OBJECT_MT_blenderkit_not_used' has been registered before, unregistering previous
+register_class(...):
+Info: Registering gizmo class: 'RatingStarWidget', bl_idname 'VIEW3D_GT_custom_shape_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'GenerateThumbnailOperator', bl_idname 'object.blenderkit_generate_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ReGenerateThumbnailOperator', bl_idname 'object.blenderkit_regenerate_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'GenerateMaterialThumbnailOperator', bl_idname 'object.blenderkit_generate_material_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ReGenerateMaterialThumbnailOperator', bl_idname 'object.blenderkit_regenerate_material_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetBarModalStarter', bl_idname 'view3d.run_assetbar_start_modal' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'RunAssetBarWithContext', bl_idname 'view3d.run_assetbar_fix_context' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'TransferBlenderkitData', bl_idname 'object.blenderkit_data_trasnfer' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ParticlesDropDialog', bl_idname 'object.blenderkit_particles_drop' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_hdr_thumbnail_tune', bl_idname 'wm.blenderkit_hdr_thumbnail_tune' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_show_validation_popup', bl_idname 'wm.blenderkit_show_validation_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_permissions_error_popup', bl_idname 'wm.blenderkit_permissions_error_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_set_default_directory', bl_idname 'wm.blenderkit_set_default_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperatorOrigin', bl_idname 'view3d.blenderkit_set_category_origin' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperator', bl_idname 'view3d.blenderkit_set_category' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperatorInPopupCard', bl_idname 'view3d.blenderkit_set_category_in_popup_card' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperatorLastInPopupCard', bl_idname 'view3d.blenderkit_set_category_in_popup_card_last' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ClearSearchKeywords', bl_idname 'view3d.blenderkit_clear_search_keywords' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCommentReplyId', bl_idname 'view3d.blenderkit_set_comment_reply_id' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_profile', bl_idname 'VIEW3D_PT_blenderkit_profile' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_unified', bl_idname 'VIEW3D_PT_blenderkit_unified' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_model_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_model_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_material_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_material_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_scene_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_scene_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_HDR_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_HDR_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_brush_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_brush_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_nodegroup_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_nodegroup_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_addon_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_addon_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_author_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_author_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_printable_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_printable_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_categories', bl_idname 'VIEW3D_PT_blenderkit_categories' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_import_settings', bl_idname 'VIEW3D_PT_blenderkit_import_settings' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_model_properties', bl_idname 'VIEW3D_PT_blenderkit_model_properties' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'VIEW3D_MT_blenderkit_model_properties', bl_idname 'VIEW3D_MT_blenderkit_model_properties' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'NODE_PT_blenderkit_material_properties', bl_idname 'NODE_PT_blenderkit_material_properties' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenBlenderKitDiscord', bl_idname 'wm.blenderkit_join_discord' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'CopyEnvironmentInfo', bl_idname 'wm.blenderkit_copy_environment_info' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ReportBug', bl_idname 'wm.blenderkit_report_bug' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenSystemDirectory', bl_idname 'wm.blenderkit_open_system_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenAssetDirectory', bl_idname 'wm.blenderkit_open_asset_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenAddonDirectory', bl_idname 'wm.blenderkit_open_addon_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenGlobalDirectory', bl_idname 'wm.blenderkit_open_global_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenClientLog', bl_idname 'wm.blenderkit_open_client_log' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenTempDirectory', bl_idname 'wm.blenderkit_open_temp_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_downloads', bl_idname 'VIEW3D_PT_blenderkit_downloads' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'OBJECT_MT_blenderkit_asset_menu', bl_idname 'OBJECT_MT_blenderkit_asset_menu' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'OBJECT_MT_blenderkit_login_menu', bl_idname 'OBJECT_MT_blenderkit_login_menu' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetPopupCard', bl_idname 'wm.blenderkit_asset_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'PopupDialog', bl_idname 'wm.blenderkit_popup_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UrlPopupDialog', bl_idname 'wm.blenderkit_url_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ClosePopupButton', bl_idname 'view3d.close_popup_button' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitWelcomeOperator', bl_idname 'wm.blenderkit_welcome' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'MarkNotificationRead', bl_idname 'wm.blenderkit_mark_notification_read' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UpvoteComment', bl_idname 'wm.blenderkit_upvote_comment' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetPrivateComment', bl_idname 'wm.blenderkit_is_private_comment' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'PostComment', bl_idname 'wm.blenderkit_post_comment' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ShowNotifications', bl_idname 'wm.show_notifications' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'LogoStatus', bl_idname 'wm.logo_status' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'NotificationOpenTarget', bl_idname 'wm.blenderkit_open_notification_target' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'MarkAllNotificationsRead', bl_idname 'wm.blenderkit_mark_notifications_read_all' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'LoginPopupDialog', bl_idname 'wm.blenderkit_login_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'NodegroupDropDialog', bl_idname 'wm.blenderkit_nodegroup_drop_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'KillBgProcess', bl_idname 'object.kill_bg_process' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BringToScene', bl_idname 'object.blenderkit_bring_to_scene' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ColorCorrector', bl_idname 'object.blenderkit_color_corrector' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'LoginOnline', bl_idname 'wm.blenderkit_login' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'CancelLoginOnline', bl_idname 'wm.blenderkit_login_cancel' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'Logout', bl_idname 'wm.blenderkit_logout' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitAssetBarOperator', bl_idname 'view3d.blenderkit_asset_bar_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetDragOperator', bl_idname 'view3d.asset_drag_drop' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'DownloadGizmoOperator', bl_idname 'view3d.blenderkit_download_gizmo_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitDisclaimerOperator', bl_idname 'view3d.blenderkit_disclaimer_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitMSStoreWarningOperator', bl_idname 'wm.blenderkit_ms_store_warning' has been registered before, unregistering previous
+Created history step fabe6fcf-84bc-49ce-9110-129c45b0f8cb
+ℹ️  blendkit: Created new search history step [22:56:32.913, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:56:32.913, download.py:431]
+Created history step 0df0d2d6-6351-42f0-bd1b-7faa9e28ebea
+ℹ️  blendkit: Created new search history step [22:56:32.913, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:56:32.914, download.py:431]
+00:02.110  blend            | Read blend: "C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\F08_bottle_blow\F08_STAGED.blend"
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:56:33.336, download.py:431]
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:56:33.340, download.py:431]
+R01_RENDER_BEGIN A_019 camera_aabb_hits []
+00:27.000  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_019_900x600.png'
+R01_RENDER_END A_019 True
+R01_RENDER_BEGIN A_020 camera_aabb_hits []
+00:31.422  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_020_900x600.png'
+R01_RENDER_END A_020 True
+R01_RENDER_BEGIN A_021 camera_aabb_hits []
+00:35.782  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_021_900x600.png'
+R01_RENDER_END A_021 True
+R01_RENDER_BEGIN A_022 camera_aabb_hits []
+00:40.344  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_022_900x600.png'
+R01_RENDER_END A_022 True
+R01_RENDER_BEGIN A_023 camera_aabb_hits []
+00:44.688  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_023_900x600.png'
+R01_RENDER_END A_023 True
+R01_RENDER_BEGIN A_024 camera_aabb_hits []
+00:48.875  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_024_900x600.png'
+R01_RENDER_END A_024 True
+R01_RENDER_BEGIN A_025 camera_aabb_hits []
+00:53.313  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_025_900x600.png'
+R01_RENDER_END A_025 True
+R01_RENDER_BEGIN A_026 camera_aabb_hits []
+00:57.829  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_026_900x600.png'
+R01_RENDER_END A_026 True
+R01_RENDER_BEGIN A_027 camera_aabb_hits []
+01:02.157  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_027_900x600.png'
+R01_RENDER_END A_027 True
+R01_RENDER_BEGIN A_028 camera_aabb_hits []
+01:06.454  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_028_900x600.png'
+R01_RENDER_END A_028 True
+R01_RENDER_BEGIN A_029 camera_aabb_hits []
+01:10.938  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_029_900x600.png'
+R01_RENDER_END A_029 True
+R01_RENDER_BEGIN A_030 camera_aabb_hits []
+01:15.204  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_030_900x600.png'
+R01_RENDER_END A_030 True
+R01_RENDER_BEGIN A_031 camera_aabb_hits []
+01:19.344  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_031_900x600.png'
+R01_RENDER_END A_031 True
+R01_RENDER_BEGIN A_032 camera_aabb_hits []
+01:23.641  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_032_900x600.png'
+R01_RENDER_END A_032 True
+R01_RENDER_BEGIN A_033 camera_aabb_hits []
+01:27.672  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_033_900x600.png'
+R01_RENDER_END A_033 True
+R01_RENDER_BEGIN A_034 camera_aabb_hits []
+01:32.125  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_034_900x600.png'
+R01_RENDER_END A_034 True
+R01_RENDER_BEGIN A_035 camera_aabb_hits []
+01:36.516  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_035_900x600.png'
+R01_RENDER_END A_035 True
+R01_RENDER_BEGIN A_036 camera_aabb_hits []
+01:40.704  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_036_900x600.png'
+R01_RENDER_END A_036 True
+R01_RENDER_BEGIN B_010 camera_aabb_hits []
+01:44.954  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_010_900x600.png'
+R01_RENDER_END B_010 True
+R01_RENDER_BEGIN B_011 camera_aabb_hits []
+01:49.375  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_011_900x600.png'
+R01_RENDER_END B_011 True
+R01_RENDER_BEGIN B_012 camera_aabb_hits []
+01:53.688  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_012_900x600.png'
+R01_RENDER_END B_012 True
+R01_RENDER_BEGIN B_013 camera_aabb_hits []
+01:57.954  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_013_900x600.png'
+R01_RENDER_END B_013 True
+R01_RENDER_BEGIN B_014 camera_aabb_hits []
+02:02.204  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_014_900x600.png'
+R01_RENDER_END B_014 True
+R01_RENDER_BEGIN B_015 camera_aabb_hits []
+02:06.422  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_015_900x600.png'
+R01_RENDER_END B_015 True
+R01_RENDER_BEGIN B_016 camera_aabb_hits []
+02:10.563  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_016_900x600.png'
+R01_RENDER_END B_016 True
+R01_RENDER_BEGIN B_017 camera_aabb_hits []
+02:14.860  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_017_900x600.png'
+R01_RENDER_END B_017 True
+R01_RENDER_BEGIN B_018 camera_aabb_hits []
+02:19.172  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_018_900x600.png'
+R01_RENDER_END B_018 True
+R01_RENDER_BEGIN B_019 camera_aabb_hits []
+02:23.157  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_019_900x600.png'
+R01_RENDER_END B_019 True
+R01_RENDER_BEGIN B_020 camera_aabb_hits []
+02:27.391  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_020_900x600.png'
+R01_RENDER_END B_020 True
+R01_RENDER_BEGIN B_021 camera_aabb_hits []
+02:31.688  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_021_900x600.png'
+R01_RENDER_END B_021 True
+R01_RENDER_BEGIN B_022 camera_aabb_hits []
+02:35.844  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_022_900x600.png'
+R01_RENDER_END B_022 True
+R01_RENDER_BEGIN B_023 camera_aabb_hits []
+02:40.188  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_023_900x600.png'
+R01_RENDER_END B_023 True
+R01_RENDER_BEGIN B_024 camera_aabb_hits []
+02:44.657  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_024_900x600.png'
+R01_RENDER_END B_024 True
+R01_RENDER_BEGIN B_025 camera_aabb_hits []
+02:48.750  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_025_900x600.png'
+R01_RENDER_END B_025 True
+R01_RENDER_BEGIN B_026 camera_aabb_hits []
+02:52.891  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_026_900x600.png'
+R01_RENDER_END B_026 True
+R01_RENDER_BEGIN B_027 camera_aabb_hits []
+02:57.750  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_027_900x600.png'
+R01_RENDER_END B_027 True
+R01_RENDER_BEGIN B_028 camera_aabb_hits []
+03:02.438  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_028_900x600.png'
+R01_RENDER_END B_028 True
+R01_RENDER_BEGIN B_029 camera_aabb_hits []
+03:07.813  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_029_900x600.png'
+R01_RENDER_END B_029 True
+R01_RENDER_BEGIN B_030 camera_aabb_hits []
+03:12.219  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_030_900x600.png'
+R01_RENDER_END B_030 True
+R01_RENDER_BEGIN C_010 camera_aabb_hits []
+03:16.579  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_010_900x600.png'
+R01_RENDER_END C_010 True
+R01_RENDER_BEGIN C_011 camera_aabb_hits []
+03:21.063  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_011_900x600.png'
+R01_RENDER_END C_011 True
+R01_RENDER_BEGIN C_012 camera_aabb_hits []
+03:26.688  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_012_900x600.png'
+R01_RENDER_END C_012 True
+R01_RENDER_BEGIN C_013 camera_aabb_hits []
+03:30.829  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_013_900x600.png'
+R01_RENDER_END C_013 True
+R01_RENDER_BEGIN C_014 camera_aabb_hits []
+03:35.297  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_014_900x600.png'
+R01_RENDER_END C_014 True
+R01_RENDER_BEGIN C_015 camera_aabb_hits []
+03:39.985  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_015_900x600.png'
+R01_RENDER_END C_015 True
+R01_RENDER_BEGIN C_016 camera_aabb_hits []
+03:44.188  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_016_900x600.png'
+R01_RENDER_END C_016 True
+R01_RENDER_BEGIN C_017 camera_aabb_hits []
+03:48.282  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_017_900x600.png'
+R01_RENDER_END C_017 True
+R01_RENDER_BEGIN C_018 camera_aabb_hits []
+03:53.266  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_018_900x600.png'
+R01_RENDER_END C_018 True
+R01_RENDER_BEGIN C_019 camera_aabb_hits []
+03:57.438  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_019_900x600.png'
+R01_RENDER_END C_019 True
+R01_RENDER_BEGIN C_020 camera_aabb_hits []
+04:01.782  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_020_900x600.png'
+R01_RENDER_END C_020 True
+R01_RENDER_BEGIN C_021 camera_aabb_hits []
+04:08.500  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_021_900x600.png'
+R01_RENDER_END C_021 True
+R01_RENDER_BEGIN C_022 camera_aabb_hits []
+04:13.594  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_022_900x600.png'
+R01_RENDER_END C_022 True
+R01_RENDER_BEGIN C_023 camera_aabb_hits []
+04:18.344  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_023_900x600.png'
+R01_RENDER_END C_023 True
+R01_RENDER_BEGIN C_024 camera_aabb_hits []
+04:24.954  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_024_900x600.png'
+R01_RENDER_END C_024 True
+R01_RENDER_BEGIN C_025 camera_aabb_hits []
+04:29.563  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_025_900x600.png'
+R01_RENDER_END C_025 True
+R01_RENDER_BEGIN C_026 camera_aabb_hits []
+04:35.672  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_026_900x600.png'
+R01_RENDER_END C_026 True
+R01_RENDER_BEGIN C_027 camera_aabb_hits []
+04:41.172  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_027_900x600.png'
+R01_RENDER_END C_027 True
+R01_RENDER_BEGIN C_028 camera_aabb_hits []
+04:46.313  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_028_900x600.png'
+R01_RENDER_END C_028 True
+R01_RENDER_BEGIN C_029 camera_aabb_hits []
+04:51.797  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_029_900x600.png'
+R01_RENDER_END C_029 True
+R01_RENDER_BEGIN C_030 camera_aabb_hits []
+04:57.235  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\C\C_030_900x600.png'
+R01_RENDER_END C_030 True
+R01_RENDER_BEGIN D_019 camera_aabb_hits []
+05:02.204  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_019_900x600.png'
+R01_RENDER_END D_019 True
+R01_RENDER_BEGIN D_020 camera_aabb_hits []
+05:06.657  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_020_900x600.png'
+R01_RENDER_END D_020 True
+R01_RENDER_BEGIN D_021 camera_aabb_hits []
+05:10.938  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_021_900x600.png'
+R01_RENDER_END D_021 True
+R01_RENDER_BEGIN D_022 camera_aabb_hits []
+05:15.172  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_022_900x600.png'
+R01_RENDER_END D_022 True
+R01_RENDER_BEGIN D_023 camera_aabb_hits []
+05:19.797  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_023_900x600.png'
+R01_RENDER_END D_023 True
+R01_RENDER_BEGIN D_024 camera_aabb_hits []
+05:24.579  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_024_900x600.png'
+R01_RENDER_END D_024 True
+R01_RENDER_BEGIN D_025 camera_aabb_hits []
+05:32.141  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_025_900x600.png'
+R01_RENDER_END D_025 True
+R01_RENDER_BEGIN D_026 camera_aabb_hits []
+05:37.829  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_026_900x600.png'
+R01_RENDER_END D_026 True
+R01_RENDER_BEGIN D_027 camera_aabb_hits []
+05:42.938  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_027_900x600.png'
+R01_RENDER_END D_027 True
+R01_RENDER_BEGIN D_028 camera_aabb_hits []
+05:48.844  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_028_900x600.png'
+R01_RENDER_END D_028 True
+R01_RENDER_BEGIN D_029 camera_aabb_hits []
+05:54.469  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_029_900x600.png'
+R01_RENDER_END D_029 True
+R01_RENDER_BEGIN D_030 camera_aabb_hits []
+05:59.829  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_030_900x600.png'
+R01_RENDER_END D_030 True
+R01_RENDER_BEGIN D_031 camera_aabb_hits []
+06:04.750  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_031_900x600.png'
+R01_RENDER_END D_031 True
+R01_RENDER_BEGIN D_032 camera_aabb_hits []
+06:10.063  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_032_900x600.png'
+R01_RENDER_END D_032 True
+R01_RENDER_BEGIN D_033 camera_aabb_hits []
+06:15.750  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_033_900x600.png'
+R01_RENDER_END D_033 True
+R01_RENDER_BEGIN D_034 camera_aabb_hits []
+06:20.766  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_034_900x600.png'
+R01_RENDER_END D_034 True
+R01_RENDER_BEGIN D_035 camera_aabb_hits []
+06:27.704  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_035_900x600.png'
+R01_RENDER_END D_035 True
+R01_RENDER_BEGIN D_036 camera_aabb_hits []
+06:32.657  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_036_900x600.png'
+R01_RENDER_END D_036 True
+R01_RENDER_BEGIN D_037 camera_aabb_hits []
+06:36.485  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_037_900x600.png'
+R01_RENDER_END D_037 True
+R01_RENDER_BEGIN D_038 camera_aabb_hits []
+06:40.625  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\D\D_038_900x600.png'
+R01_RENDER_END D_038 True
+R01_RENDER_BEGIN D_039 camera_aabb_hits []

@@ -1,0 +1,321 @@
+BlenderMCP addon registered
+ℹ️  blendkit: Verbose is enabled [22:49:26.366, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [22:49:26.368, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [22:49:26.369, client_lib.py:163]
+ℹ️  blendkit: Verbose is enabled [22:49:26.449, addon_updater.py:150]
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterInstallPopup', bl_idname 'blenderkit.updater_install_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterCheckNow', bl_idname 'blenderkit.updater_check_now' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterUpdateNow', bl_idname 'blenderkit.updater_update_now' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterUpdateTarget', bl_idname 'blenderkit.updater_update_target' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterInstallManually', bl_idname 'blenderkit.updater_install_manually' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterUpdatedSuccessful', bl_idname 'blenderkit.updater_update_successful' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterRestoreBackup', bl_idname 'blenderkit.updater_restore_backup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterIgnore', bl_idname 'blenderkit.updater_ignore' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AddonUpdaterEndBackground', bl_idname 'blenderkit.end_background_check' has been registered before, unregistering previous
+ℹ️  blendkit: Read in JSON settings from file [22:49:26.450, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [22:49:26.452, client_lib.py:163]
+register_class(...):
+Info: Registering operator class: 'SearchOperator', bl_idname 'view3d.blenderkit_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UrlOperator', bl_idname 'wm.blenderkit_url' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'TooltipLabelOperator', bl_idname 'wm.blenderkit_tooltip' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AuthorAssetTypeSearch', bl_idname 'view3d.blenderkit_author_asset_type_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AuthorAssetTypePopup', bl_idname 'view3d.blenderkit_author_asset_type_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AutoFillTags', bl_idname 'object.blenderkit_auto_tags' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderkitDownloadOperator', bl_idname 'scene.blenderkit_download' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderkitKillDownloadOperator', bl_idname 'scene.blenderkit_download_kill' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderkitAddonChoiceOperator', bl_idname 'scene.blenderkit_addon_choice' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'DryRunExportOperator', bl_idname 'object.blenderkit_dry_run_export' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UploadOperator', bl_idname 'object.blenderkit_upload' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'FastMetadata', bl_idname 'wm.blenderkit_fast_metadata' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetDebugPrint', bl_idname 'object.blenderkit_print_asset_debug' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetVerificationStatusChange', bl_idname 'object.blenderkit_change_status' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'FastRateMenu', bl_idname 'wm.blenderkit_menu_rating_upload' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetBookmark', bl_idname 'wm.blenderkit_bookmark_asset' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetNotUsed', bl_idname 'wm.blenderkit_not_used' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'NotUsedMenu', bl_idname 'OBJECT_MT_blenderkit_not_used' has been registered before, unregistering previous
+register_class(...):
+Info: Registering gizmo class: 'RatingStarWidget', bl_idname 'VIEW3D_GT_custom_shape_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'GenerateThumbnailOperator', bl_idname 'object.blenderkit_generate_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ReGenerateThumbnailOperator', bl_idname 'object.blenderkit_regenerate_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'GenerateMaterialThumbnailOperator', bl_idname 'object.blenderkit_generate_material_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ReGenerateMaterialThumbnailOperator', bl_idname 'object.blenderkit_regenerate_material_thumbnail' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetBarModalStarter', bl_idname 'view3d.run_assetbar_start_modal' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'RunAssetBarWithContext', bl_idname 'view3d.run_assetbar_fix_context' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'TransferBlenderkitData', bl_idname 'object.blenderkit_data_trasnfer' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ParticlesDropDialog', bl_idname 'object.blenderkit_particles_drop' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_hdr_thumbnail_tune', bl_idname 'wm.blenderkit_hdr_thumbnail_tune' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_show_validation_popup', bl_idname 'wm.blenderkit_show_validation_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_permissions_error_popup', bl_idname 'wm.blenderkit_permissions_error_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BLENDERKIT_OT_set_default_directory', bl_idname 'wm.blenderkit_set_default_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperatorOrigin', bl_idname 'view3d.blenderkit_set_category_origin' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperator', bl_idname 'view3d.blenderkit_set_category' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperatorInPopupCard', bl_idname 'view3d.blenderkit_set_category_in_popup_card' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCategoryOperatorLastInPopupCard', bl_idname 'view3d.blenderkit_set_category_in_popup_card_last' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ClearSearchKeywords', bl_idname 'view3d.blenderkit_clear_search_keywords' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetCommentReplyId', bl_idname 'view3d.blenderkit_set_comment_reply_id' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_profile', bl_idname 'VIEW3D_PT_blenderkit_profile' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_unified', bl_idname 'VIEW3D_PT_blenderkit_unified' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_model_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_model_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_material_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_material_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_scene_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_scene_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_HDR_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_HDR_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_brush_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_brush_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_nodegroup_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_nodegroup_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_addon_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_addon_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_author_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_author_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_advanced_printable_search', bl_idname 'VIEW3D_PT_blenderkit_advanced_printable_search' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_categories', bl_idname 'VIEW3D_PT_blenderkit_categories' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_import_settings', bl_idname 'VIEW3D_PT_blenderkit_import_settings' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_model_properties', bl_idname 'VIEW3D_PT_blenderkit_model_properties' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'VIEW3D_MT_blenderkit_model_properties', bl_idname 'VIEW3D_MT_blenderkit_model_properties' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'NODE_PT_blenderkit_material_properties', bl_idname 'NODE_PT_blenderkit_material_properties' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenBlenderKitDiscord', bl_idname 'wm.blenderkit_join_discord' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'CopyEnvironmentInfo', bl_idname 'wm.blenderkit_copy_environment_info' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ReportBug', bl_idname 'wm.blenderkit_report_bug' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenSystemDirectory', bl_idname 'wm.blenderkit_open_system_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenAssetDirectory', bl_idname 'wm.blenderkit_open_asset_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenAddonDirectory', bl_idname 'wm.blenderkit_open_addon_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenGlobalDirectory', bl_idname 'wm.blenderkit_open_global_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenClientLog', bl_idname 'wm.blenderkit_open_client_log' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'OpenTempDirectory', bl_idname 'wm.blenderkit_open_temp_directory' has been registered before, unregistering previous
+register_class(...):
+Info: Registering panel class: 'VIEW3D_PT_blenderkit_downloads', bl_idname 'VIEW3D_PT_blenderkit_downloads' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'OBJECT_MT_blenderkit_asset_menu', bl_idname 'OBJECT_MT_blenderkit_asset_menu' has been registered before, unregistering previous
+register_class(...):
+Info: Registering menu class: 'OBJECT_MT_blenderkit_login_menu', bl_idname 'OBJECT_MT_blenderkit_login_menu' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetPopupCard', bl_idname 'wm.blenderkit_asset_popup' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'PopupDialog', bl_idname 'wm.blenderkit_popup_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UrlPopupDialog', bl_idname 'wm.blenderkit_url_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ClosePopupButton', bl_idname 'view3d.close_popup_button' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitWelcomeOperator', bl_idname 'wm.blenderkit_welcome' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'MarkNotificationRead', bl_idname 'wm.blenderkit_mark_notification_read' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'UpvoteComment', bl_idname 'wm.blenderkit_upvote_comment' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'SetPrivateComment', bl_idname 'wm.blenderkit_is_private_comment' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'PostComment', bl_idname 'wm.blenderkit_post_comment' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ShowNotifications', bl_idname 'wm.show_notifications' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'LogoStatus', bl_idname 'wm.logo_status' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'NotificationOpenTarget', bl_idname 'wm.blenderkit_open_notification_target' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'MarkAllNotificationsRead', bl_idname 'wm.blenderkit_mark_notifications_read_all' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'LoginPopupDialog', bl_idname 'wm.blenderkit_login_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'NodegroupDropDialog', bl_idname 'wm.blenderkit_nodegroup_drop_dialog' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'KillBgProcess', bl_idname 'object.kill_bg_process' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BringToScene', bl_idname 'object.blenderkit_bring_to_scene' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'ColorCorrector', bl_idname 'object.blenderkit_color_corrector' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'LoginOnline', bl_idname 'wm.blenderkit_login' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'CancelLoginOnline', bl_idname 'wm.blenderkit_login_cancel' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'Logout', bl_idname 'wm.blenderkit_logout' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitAssetBarOperator', bl_idname 'view3d.blenderkit_asset_bar_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'AssetDragOperator', bl_idname 'view3d.asset_drag_drop' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'DownloadGizmoOperator', bl_idname 'view3d.blenderkit_download_gizmo_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitDisclaimerOperator', bl_idname 'view3d.blenderkit_disclaimer_widget' has been registered before, unregistering previous
+register_class(...):
+Info: Registering operator class: 'BlenderKitMSStoreWarningOperator', bl_idname 'wm.blenderkit_ms_store_warning' has been registered before, unregistering previous
+Created history step ee22c3fd-ebe0-4f91-aa2d-4fc8a3b420b9
+ℹ️  blendkit: Created new search history step [22:49:26.460, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:49:26.460, download.py:431]
+Created history step 003fc237-7ef8-4c1c-a599-75d06e3fafde
+ℹ️  blendkit: Created new search history step [22:49:26.460, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:49:26.461, download.py:431]
+00:02.078  blend            | Read blend: "C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\F08_bottle_blow\F08_STAGED.blend"
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:49:26.858, download.py:431]
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:49:26.862, download.py:431]
+R01_RENDER_BEGIN A_001 camera_aabb_hits []
+00:25.937  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_001_900x600.png'
+R01_RENDER_END A_001 True
+R01_RENDER_BEGIN A_002 camera_aabb_hits []
+00:30.437  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_002_900x600.png'
+R01_RENDER_END A_002 True
+R01_RENDER_BEGIN A_003 camera_aabb_hits []
+00:34.750  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_003_900x600.png'
+R01_RENDER_END A_003 True
+R01_RENDER_BEGIN A_004 camera_aabb_hits []
+00:38.781  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_004_900x600.png'
+R01_RENDER_END A_004 True
+R01_RENDER_BEGIN A_005 camera_aabb_hits []
+00:42.750  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_005_900x600.png'
+R01_RENDER_END A_005 True
+R01_RENDER_BEGIN A_006 camera_aabb_hits []
+00:46.968  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_006_900x600.png'
+R01_RENDER_END A_006 True
+R01_RENDER_BEGIN A_007 camera_aabb_hits []
+00:51.312  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_007_900x600.png'
+R01_RENDER_END A_007 True
+R01_RENDER_BEGIN A_008 camera_aabb_hits []
+00:55.453  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_008_900x600.png'
+R01_RENDER_END A_008 True
+R01_RENDER_BEGIN A_009 camera_aabb_hits []
+00:59.562  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_009_900x600.png'
+R01_RENDER_END A_009 True
+R01_RENDER_BEGIN A_010 camera_aabb_hits []
+01:03.515  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_010_900x600.png'
+R01_RENDER_END A_010 True
+R01_RENDER_BEGIN A_011 camera_aabb_hits []
+01:07.640  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_011_900x600.png'
+R01_RENDER_END A_011 True
+R01_RENDER_BEGIN A_012 camera_aabb_hits []
+01:11.562  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_012_900x600.png'
+R01_RENDER_END A_012 True
+R01_RENDER_BEGIN A_013 camera_aabb_hits []
+01:15.468  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_013_900x600.png'
+R01_RENDER_END A_013 True
+R01_RENDER_BEGIN A_014 camera_aabb_hits []
+01:19.640  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_014_900x600.png'
+R01_RENDER_END A_014 True
+R01_RENDER_BEGIN A_015 camera_aabb_hits []
+01:23.875  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_015_900x600.png'
+R01_RENDER_END A_015 True
+R01_RENDER_BEGIN A_016 camera_aabb_hits []
+01:27.734  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_016_900x600.png'
+R01_RENDER_END A_016 True
+R01_RENDER_BEGIN A_017 camera_aabb_hits []
+01:31.703  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_017_900x600.png'
+R01_RENDER_END A_017 True
+R01_RENDER_BEGIN A_018 camera_aabb_hits []
+01:35.718  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\A\A_018_900x600.png'
+R01_RENDER_END A_018 True
+R01_RENDER_BEGIN B_001 camera_aabb_hits []
+01:39.937  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_001_900x600.png'
+R01_RENDER_END B_001 True
+R01_RENDER_BEGIN B_002 camera_aabb_hits []
+01:44.140  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_002_900x600.png'
+R01_RENDER_END B_002 True
+R01_RENDER_BEGIN B_003 camera_aabb_hits []
+01:48.343  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_003_900x600.png'
+R01_RENDER_END B_003 True
+R01_RENDER_BEGIN B_004 camera_aabb_hits []
+01:52.187  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_004_900x600.png'
+R01_RENDER_END B_004 True
+R01_RENDER_BEGIN B_005 camera_aabb_hits []
+01:55.796  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_005_900x600.png'
+R01_RENDER_END B_005 True
+R01_RENDER_BEGIN B_006 camera_aabb_hits []
+01:59.484  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_006_900x600.png'
+R01_RENDER_END B_006 True
+R01_RENDER_BEGIN B_007 camera_aabb_hits []
+02:03.171  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_007_900x600.png'
+R01_RENDER_END B_007 True
+R01_RENDER_BEGIN B_008 camera_aabb_hits []
+02:07.343  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_008_900x600.png'
+R01_RENDER_END B_008 True
+R01_RENDER_BEGIN B_009 camera_aabb_hits []
+02:11.312  render           | Saved: 'C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\candidates\B\B_009_900x600.png'
+R01_RENDER_END B_009 True
+Traceback (most recent call last):
+  File "C:\Users\sekip\Desktop\POVU-Kenya-FMCG-Campus\output\rev005-facility-gated\F08_bottle_blow\R01\F08_R01_render_candidate_batch.py", line 29, in <module>
+    cam=bpy.data.objects[cfg['cam']]
+        ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "F08_CAMERA_C_DETAIL" not found'
+BlenderMCP addon unregistered
+ℹ️  blendkit: Unregistering Blendkit add-on [22:51:35.823, __init__.py:3030]
+Traceback (most recent call last):
+  File "C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\modules\addon_utils.py", line 595, in disable
+    mod.unregister()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\sekip\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\blenderkit\__init__.py", line 3034, in unregister
+    ui_panels.unregister_ui_panels()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\sekip\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\blenderkit\ui_panels.py", line 5019, in unregister_ui_panels
+    bpy.utils.unregister_class(c)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+RuntimeError: unregister_class(...):, missing bl_rna attribute from '_RNAMeta' instance (may not be registered)
+Exception in module unregister(): 'C:\\Users\\sekip\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\user_default\\blenderkit\\__init__.py'
+ℹ️  blendkit: Unregistering Blendkit add-on [22:51:35.830, __init__.py:3030]
+ℹ️  blendkit: No temporarily enabled addons to clean up [22:51:35.831, download.py:431]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -1,0 +1,118 @@
+{
+  "task": "M08.43 / F08-R01 only",
+  "published_manifest": "F08_NEW_ACCEPTED_MANIFEST.json",
+  "rebuilt_manifest": "F08_R01_REBUILT_MANIFEST.json",
+  "differences": [
+    {
+      "name": "F08_EAST_DOOR_JAMB_0",
+      "changed_fields": [
+        "location"
+      ],
+      "published_location": [
+        70.84,
+        8.95,
+        2.39
+      ],
+      "rebuilt_location": [
+        70.84,
+        9.0,
+        2.39
+      ],
+      "published_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ],
+      "rebuilt_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ]
+    },
+    {
+      "name": "F08_EAST_DOOR_JAMB_1",
+      "changed_fields": [
+        "location"
+      ],
+      "published_location": [
+        70.84,
+        11.05,
+        2.39
+      ],
+      "rebuilt_location": [
+        70.84,
+        11.0,
+        2.39
+      ],
+      "published_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ],
+      "rebuilt_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ]
+    },
+    {
+      "name": "F08_EAST_WALL_NORTH",
+      "changed_fields": [
+        "dimensions"
+      ],
+      "published_location": [
+        70.86,
+        16.5,
+        4.295
+      ],
+      "rebuilt_location": [
+        70.86,
+        16.5,
+        4.295
+      ],
+      "published_dimensions": [
+        0.28,
+        12.5,
+        6.41
+      ],
+      "rebuilt_dimensions": [
+        0.28,
+        11.0,
+        6.41
+      ]
+    },
+    {
+      "name": "F08_EAST_WALL_SOUTH",
+      "changed_fields": [
+        "dimensions"
+      ],
+      "published_location": [
+        70.86,
+        3.5,
+        4.295
+      ],
+      "rebuilt_location": [
+        70.86,
+        3.5,
+        4.295
+      ],
+      "published_dimensions": [
+        0.28,
+        4.5,
+        6.41
+      ],
+      "rebuilt_dimensions": [
+        0.28,
+        11.0,
+        6.41
+      ]
+    }
+  ],
+  "expected_differences_from_published_helpers": [
+    "F08_EAST_DOOR_JAMB_0",
+    "F08_EAST_DOOR_JAMB_1",
+    "F08_EAST_WALL_NORTH",
+    "F08_EAST_WALL_SOUTH"
+  ],
+  "matches_expected_helper_refresh": true
+}

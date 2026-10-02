@@ -1,0 +1,134 @@
+{
+  "task": "M08.43 / F08-R01 only",
+  "source_blend": "output/rev005-facility-gated/F08_bottle_blow/R01/F08_bottle_blow/F08_STAGED.blend",
+  "status": "PASS",
+  "manifest_expected_count": 338,
+  "destination_collection_count": 338,
+  "max_manifest_location_error_m": 0.0,
+  "max_manifest_dimension_error_m": 0.0,
+  "published_manifest_differences": [
+    {
+      "name": "F08_EAST_DOOR_JAMB_0",
+      "changed_fields": [
+        "location"
+      ],
+      "published_location": [
+        70.84,
+        8.95,
+        2.39
+      ],
+      "rebuilt_location": [
+        70.84,
+        9.0,
+        2.39
+      ],
+      "published_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ],
+      "rebuilt_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ]
+    },
+    {
+      "name": "F08_EAST_DOOR_JAMB_1",
+      "changed_fields": [
+        "location"
+      ],
+      "published_location": [
+        70.84,
+        11.05,
+        2.39
+      ],
+      "rebuilt_location": [
+        70.84,
+        11.0,
+        2.39
+      ],
+      "published_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ],
+      "rebuilt_dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ]
+    },
+    {
+      "name": "F08_EAST_WALL_NORTH",
+      "changed_fields": [
+        "dimensions"
+      ],
+      "published_location": [
+        70.86,
+        16.5,
+        4.295
+      ],
+      "rebuilt_location": [
+        70.86,
+        16.5,
+        4.295
+      ],
+      "published_dimensions": [
+        0.28,
+        12.5,
+        6.41
+      ],
+      "rebuilt_dimensions": [
+        0.28,
+        11.0,
+        6.41
+      ]
+    },
+    {
+      "name": "F08_EAST_WALL_SOUTH",
+      "changed_fields": [
+        "dimensions"
+      ],
+      "published_location": [
+        70.86,
+        3.5,
+        4.295
+      ],
+      "rebuilt_location": [
+        70.86,
+        3.5,
+        4.295
+      ],
+      "published_dimensions": [
+        0.28,
+        4.5,
+        6.41
+      ],
+      "rebuilt_dimensions": [
+        0.28,
+        11.0,
+        6.41
+      ]
+    }
+  ],
+  "counts": {
+    "accepted_meshes": 338,
+    "confirmed_legacy": 391,
+    "retired_legacy": 391,
+    "preforms": 20,
+    "heater_elements": 16,
+    "service_doors": 2,
+    "air_branches": 4,
+    "formed_bottles": 16
+  },
+  "protected_object_unauthorized_differences": 0,
+  "cross_facility_collisions": 0,
+  "outside_envelope_objects": 0,
+  "glb_expected_actual": [
+    10888,
+    10888
+  ],
+  "all_locked_technical_facts_pass": true,
+  "issues": []
+}
