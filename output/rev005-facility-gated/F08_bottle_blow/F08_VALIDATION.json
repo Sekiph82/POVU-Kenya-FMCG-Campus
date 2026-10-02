@@ -1,0 +1,26 @@
+{
+  "task": "M08.42 / F08 only",
+  "facility": "Bottle blow molding",
+  "status": "BLOCKED_F08_VISUAL_ACCEPTANCE",
+  "stop_marker": "BLOCKED_F08_VISUAL_ACCEPTANCE",
+  "canonical_baseline_hashes_match": true,
+  "canonical_blend_sha256": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+  "canonical_glb_sha256": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+  "phase_gate_results": {
+    "ownership_inventory": "PASS: 391 confirmed F08 legacy, 0 ambiguous, 5 non-F08 preserved",
+    "protection_before_and_diff": "PASS",
+    "dimensional_and_cross_facility": "PASS",
+    "deterministic_glb_candidate_parity": "PASS: candidate only, canonical not replaced",
+    "camera_contract_limits": "PASS",
+    "visual_acceptance": "BLOCKED",
+    "A_CONTEXT": "FAIL: revised preview occluded by wall with black field; required complete sequence not visible",
+    "B_FUNCTIONAL": "INCOMPLETE: heater, transfer, cell and outfeed are not all visually legible in the preview",
+    "C_SEQUENCE_DETAIL": "FAIL: preview lacks readable heater-to-cell relationship; bottles remain too small to establish formed-bottle discharge",
+    "D_INTEGRATED": "INCOMPLETE: overall context preview does not establish every required process element label-blind"
+  },
+  "canonical_mutated": false,
+  "final_1440_renders_created": false,
+  "committed": false,
+  "pushed": false,
+  "reason": "Phase 10 visual acceptance failed in rendered previews. Stopped before canonical Blend save and canonical GLB replacement."
+}

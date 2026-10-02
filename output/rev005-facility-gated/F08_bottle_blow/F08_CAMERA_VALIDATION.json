@@ -1,0 +1,147 @@
+{
+  "task": "M08.42 / F08 only",
+  "status": "PASS",
+  "refinements_within_contract_limits": true,
+  "cameras": [
+    {
+      "name": "A_CONTEXT",
+      "camera_xyz": [
+        32.0,
+        -3.5,
+        6.0
+      ],
+      "target_xyz": [
+        52.0,
+        10.0,
+        3.0
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ],
+      "contract_seed_used": true,
+      "refinement_camera_delta_xyz": [
+        -3.0,
+        -3.0,
+        0.0
+      ],
+      "refinement_target_delta_xyz": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "B_FUNCTIONAL",
+      "camera_xyz": [
+        45,
+        4.5,
+        5.5
+      ],
+      "target_xyz": [
+        58,
+        11,
+        3
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ],
+      "contract_seed_used": true,
+      "refinement_camera_delta_xyz": [
+        3.0,
+        1.0,
+        0.6999998092651367
+      ],
+      "refinement_target_delta_xyz": [
+        2.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C_SEQUENCE_DETAIL",
+      "camera_xyz": [
+        51,
+        6,
+        4
+      ],
+      "target_xyz": [
+        58.5,
+        12,
+        3
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ],
+      "contract_seed_used": true,
+      "refinement_camera_delta_xyz": [
+        3.0,
+        1.0,
+        0.0
+      ],
+      "refinement_target_delta_xyz": [
+        2.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "name": "D_INTEGRATED",
+      "camera_xyz": [
+        37.5,
+        19.5,
+        6.5
+      ],
+      "target_xyz": [
+        56,
+        10,
+        3
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ],
+      "contract_seed_used": true,
+      "refinement_camera_delta_xyz": [
+        3.0,
+        0.0,
+        0.0
+      ],
+      "refinement_target_delta_xyz": [
+        2.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

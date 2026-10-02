@@ -1,0 +1,2931 @@
+{
+  "task": "M08.42 / F08 only",
+  "status": "PASS",
+  "confirmed_retired_count": 391,
+  "not_f08_preserved_count": 5,
+  "ambiguous_count": 0,
+  "only_visibility_and_retirement_metadata_changed": true,
+  "objects": [
+    {
+      "name": "REV005_Bottle_BlowMolding_OPERATOR_STATION_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_Bottle_BlowMolding_OPERATOR_STATION_PANEL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_Bottle_BlowMolding_SAFETY_EYEWASH",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_Bottle_BlowMolding_SAFETY_PPE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_Bottle_BlowMolding_SAFETY_SIGN",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_Bottle_BlowMolding_STAGING_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_Bottle_BlowMolding_STAGING_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_Bottle_blow_molding_FLOOR",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "REV005_LABEL_BOTTLE_BLOWMOLDING",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_BED",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_GUARD_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_GUARD_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_ROLLER_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_ROLLER_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_ROLLER_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_ROLLER_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_BOTTLE_OUTFEED_ROLLER_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_HEATER_COLUMN",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_HOPPER_FEED",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_MOULDING_MOLD_STATION",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_MOULDING_PRESS_CONTROL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_MOULDING_PRESS_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PREFORM_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PREFORM_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PREFORM_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PREFORM_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PREFORM_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PREFORM_5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PREFORM_HOPPER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "RM_BLOW_PROCESS_PANEL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_NECK_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_NECK_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_NECK_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_NECK_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_NECK_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_NECK_5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_NECK_6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_ROLLER_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_ROLLER_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_ROLLER_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_ROLLER_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_ROLLER_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_ROLLER_5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_ROLLER_6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_SIDE_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_BOTTLE_OUTFEED_SIDE_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_CLAMP_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_FORMED_BOTTLE_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_FORMED_BOTTLE_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_FORMED_BOTTLE_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_FORMED_BOTTLE_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_FORMED_BOTTLE_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_FORMED_BOTTLE_5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_FORMED_BOTTLE_6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_HEATER_BANK_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_HEATER_BANK_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_HEATER_BANK_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_HEATER_BANK_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_HEATER_BANK_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_HEATER_TUNNEL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_HOPPER_CONE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_MOULD_LEFT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_MOULD_RIGHT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_PREFORM_FEED",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_PREFORM_HOPPER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V02_BLOW_STRETCH_ROD",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_AIR_DROP_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_AIR_DROP_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_AIR_DROP_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_AIR_HEADER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BACK_WALL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_04",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_05",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_06",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_NECK_07",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_GUARD_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_GUARD_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_ROLLER_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_ROLLER_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_ROLLER_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_ROLLER_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_ROLLER_04",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_ROLLER_05",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_BOTTLE_OUTFEED_ROLLER_06",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_CASE_PACKER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_CLAMP_GUARD",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_CLAMP_WINDOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FINISHED_CASE_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FINISHED_CASE_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FINISHED_CASE_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FINISHED_CASE_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FLOOR",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_04",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_05",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_06",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_FORMED_BOTTLE_07",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATED_PREFORM_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATED_PREFORM_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATED_PREFORM_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATED_PREFORM_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATED_PREFORM_04",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATED_PREFORM_05",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATER_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATER_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATER_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATER_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATER_04",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATER_05",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HEATER_06",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_HOPPER_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_00_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_00_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_01_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_01_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_02_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_02_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_03_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_03_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_04_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_LIGHT_04_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_MOULD_HALF_L",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_MOULD_HALF_R",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_OVEN_HOUSING",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_OVEN_WINDOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_HOPPER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_GUARD_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_GUARD_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_ROLLER_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_ROLLER_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_ROLLER_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_ROLLER_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_ROLLER_04",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_ROLLER_05",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_PREFORM_INFEED_ROLLER_06",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V03_BLOW_VISION_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_BOTTLE_INSPECTION",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_CAGE_SIDE_-1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_CAGE_SIDE_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_00_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_00_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_01_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_01_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_02_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_02_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_03_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_03_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_04_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_04_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_05_BODY",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_LIGHT_05_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_OVEN_DUCT_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_OVEN_DUCT_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_OVEN_DUCT_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_OVEN_SERVICE_DECK",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_BIN",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_BIN_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_BIN_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_BIN_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_BIN_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_GUARD_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_GUARD_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_00",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_01",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_02",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_03",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_04",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_05",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_06",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V04_BLOW_PREFORM_TRANSFER_ROLLER_07",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_GUARD_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_GUARD_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_HEAT_DUCT0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_HEAT_DUCT1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_HEAT_DUCT2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_INSPECTION_BASE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_INSPECTION_HOUSING",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_INSPECTION_PANEL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_MOULD_CLAMP_BASE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_MOULD_CLAMP_HOUSING",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_MOULD_CLAMP_PANEL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_BED",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_ROLLER0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_ROLLER1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_ROLLER2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_ROLLER3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_ROLLER4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_ROLLER5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OUTFEED_ROLLER6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OVEN_BASE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OVEN_HOUSING",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_OVEN_PANEL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_BED",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_ROLLER0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_ROLLER1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_ROLLER2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_ROLLER3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_ROLLER4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_ROLLER5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_FEED_ROLLER6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_HOPPER_BASE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_HOPPER_HOUSING",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BLOW_PREFORM_HOPPER_PANEL",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_BACK",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_DOOR_HEADER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_DOOR_L",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_DOOR_R",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_FLOOR",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_LEFT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_LIGHT_0_FIXTURE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_LIGHT_0_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_LIGHT_1_FIXTURE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_LIGHT_1_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_LIGHT_2_FIXTURE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_LIGHT_2_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_RIGHT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_SOFFIT_41.36",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_SOFFIT_52",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V05_BOTTLE_SOFFIT_62.64",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_BACK",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_BLOW_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_DOOR_HEADER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_DOOR_L",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_DOOR_R",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_FLOOR",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_GUARD_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_GUARD_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_HEATER_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_HEATER_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_HEATER_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_HEATER_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_HEATER_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_HEATER_5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_INSPECTION_HEAD",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_LEFT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_LIGHT_0_FIXTURE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_LIGHT_0_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_LIGHT_1_FIXTURE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_LIGHT_1_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_LIGHT_2_FIXTURE",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_LIGHT_2_GLOW",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_MOULD_LEFT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_MOULD_RIGHT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_BED",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_ROLLER0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_ROLLER1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_ROLLER2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_ROLLER3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_ROLLER4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_ROLLER5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUTFEED_ROLLER6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OUT_BOTTLES_7",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_OVEN_FRAME",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORMS_0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORMS_1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORMS_2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORMS_3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORMS_4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORMS_5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORMS_6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_A",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_B",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_BED",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_ROLLER0",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_ROLLER1",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_ROLLER2",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_ROLLER3",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_ROLLER4",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_ROLLER5",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_FEED_ROLLER6",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_PREFORM_HOPPER",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_RIGHT",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_SOFFIT_41.36",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_SOFFIT_52",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V06_BOTTLE_SOFFIT_62.64",
+      "changed_fields": [
+        "custom_properties"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_AIR_DROP",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_AIR_MANIFOLD",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_BACK_WALL",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_BASE",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_BODY",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_PANEL",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_POST_-3.0_-2.1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_POST_-3.0_2.1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_POST_3.0_-2.1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_POST_3.0_2.1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_CELL_TOP",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_ENTRY_HEADER",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_ENTRY_L",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_ENTRY_R",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_FLOOR",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_FRONT_HEADER",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_GUARD_POST_52.6_12.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_GUARD_POST_52.6_7.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_GUARD_POST_59.4_12.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_GUARD_POST_59.4_7.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_GUARD_TOP",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_LEFT_WALL",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_LIGHT_0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_LIGHT_1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_RIGHT_WALL",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_SERVICE_DOOR_HEADER",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_SERVICE_DOOR_L",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_SERVICE_DOOR_R",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BLOW_SOFFIT",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_BED",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_GUARD_10.75",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_GUARD_9.25",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_ROLLER_0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_ROLLER_1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_ROLLER_2",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_ROLLER_3",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_ROLLER_4",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_ROLLER_5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_BOTTLE_OUTFEED_ROLLER_6",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_2",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_3",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_4",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_6",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_BOTTLE_7",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_2",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_3",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_4",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_6",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_FORMED_NECK_7",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_BASE",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_BODY",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_PANEL",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_POST_-2.5_-2.0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_POST_-2.5_2.0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_POST_2.5_-2.0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_POST_2.5_2.0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HEATER_OVEN_TOP",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_HOPPER_FUNNEL",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_BED",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_GUARD_10.6",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_GUARD_9.4",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_ROLLER_0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_ROLLER_1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_ROLLER_2",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_ROLLER_3",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_ROLLER_4",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_ROLLER_5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_FEED_ROLLER_6",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_BASE",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_BODY",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_PANEL",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_POST_-1.6_-1.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_POST_-1.6_1.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_POST_1.6_-1.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_POST_1.6_1.5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_PREFORM_HOPPER_TOP",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_0",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_1",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_2",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_3",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_4",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_5",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_6",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_HEATER_BANK_7",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_MOULD_CLAMP_53.8",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    },
+    {
+      "name": "V09_V09_MOULD_CLAMP_58.2",
+      "changed_fields": [
+        "custom_properties",
+        "hide_render",
+        "hide_viewport"
+      ],
+      "transform_material_data_unchanged": true
+    }
+  ]
+}

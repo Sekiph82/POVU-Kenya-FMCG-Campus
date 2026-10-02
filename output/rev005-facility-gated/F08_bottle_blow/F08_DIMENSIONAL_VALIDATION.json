@@ -1,0 +1,452 @@
+{
+  "task": "M08.42 / F08 only",
+  "facility": "Bottle blow molding",
+  "status": "PASS",
+  "design_contract": "coordination/Audits/REV005_F08_BOTTLE_BLOW_MOLDING_DESIGN_CONTRACT.md",
+  "tolerance_m": {
+    "room_and_major_machinery": 0.05,
+    "secondary_equipment": 0.1,
+    "pipe_and_conveyor_endpoints": 0.1,
+    "aisle_shortfall": 0.1
+  },
+  "anchors": {
+    "room_floor_center_and_dimensions": {
+      "actual_location": [
+        52.0,
+        10.0,
+        1.0
+      ],
+      "actual_dimensions": [
+        38.0,
+        24.0,
+        0.18
+      ],
+      "expected_location": [
+        52,
+        10,
+        1.0
+      ],
+      "expected_dimensions": [
+        38,
+        24,
+        0.18
+      ]
+    },
+    "hopper_bulk_bin": {
+      "actual_location": [
+        36.5,
+        10.0,
+        4.3
+      ],
+      "actual_dimensions": [
+        2.4,
+        2.4,
+        1.8
+      ],
+      "expected_location": [
+        36.5,
+        10,
+        4.3
+      ],
+      "expected_dimensions": [
+        2.4,
+        2.4,
+        1.8
+      ]
+    },
+    "heater_oven_frame_bounds": {
+      "expected_center": [
+        47.5,
+        10,
+        3.1
+      ],
+      "expected_dimensions": [
+        7,
+        4,
+        4.2
+      ],
+      "observed_frame_bounds": [
+        44,
+        51,
+        8,
+        12,
+        1.15,
+        5.25
+      ]
+    },
+    "blow_cell_frame_bounds": {
+      "expected_center": [
+        57,
+        10,
+        3.3
+      ],
+      "expected_dimensions": [
+        8,
+        5.6,
+        5.2
+      ],
+      "observed_frame_bounds": [
+        53,
+        61,
+        7.2,
+        12.8,
+        1.16,
+        6.3
+      ]
+    },
+    "outfeed_belt": {
+      "actual_location": [
+        65.0,
+        10.0,
+        1.88
+      ],
+      "actual_dimensions": [
+        9.0,
+        1.2,
+        0.14
+      ],
+      "expected_location": [
+        65,
+        10,
+        1.88
+      ],
+      "expected_dimensions": [
+        9,
+        1.2,
+        0.14
+      ]
+    },
+    "hopper_to_oven_preform_count": 20,
+    "formed_bottle_count": 16,
+    "heater_elements_total": 16,
+    "heater_elements_per_bank": {
+      "south": 8,
+      "north": 8
+    },
+    "air_branch_count": 4,
+    "service_door_count": 2,
+    "staging_bin_centers": [
+      [
+        35.8,
+        19.0,
+        1.72
+      ],
+      [
+        37.7,
+        19.0,
+        1.72
+      ]
+    ],
+    "camera_seeds": [
+      {
+        "name": "A_CONTEXT",
+        "camera_xyz": [
+          35,
+          -0.5,
+          6
+        ],
+        "target_xyz": [
+          52,
+          10,
+          3
+        ],
+        "lens_mm": 24,
+        "sensor_width_mm": 36
+      },
+      {
+        "name": "B_FUNCTIONAL",
+        "camera_xyz": [
+          42,
+          3.5,
+          4.8
+        ],
+        "target_xyz": [
+          56,
+          10,
+          3
+        ],
+        "lens_mm": 32,
+        "sensor_width_mm": 36
+      },
+      {
+        "name": "C_SEQUENCE_DETAIL",
+        "camera_xyz": [
+          48,
+          5,
+          4
+        ],
+        "target_xyz": [
+          56.5,
+          10,
+          3
+        ],
+        "lens_mm": 38,
+        "sensor_width_mm": 36
+      },
+      {
+        "name": "D_INTEGRATED",
+        "camera_xyz": [
+          34.5,
+          19.5,
+          6.5
+        ],
+        "target_xyz": [
+          54,
+          10,
+          3
+        ],
+        "lens_mm": 24,
+        "sensor_width_mm": 36
+      }
+    ],
+    "ceiling_soffit_open_beam_grid": {
+      "status": "PASS",
+      "underside_z": 7.0,
+      "no_opaque_overhead_panel": true,
+      "fixture_count": 12
+    },
+    "ceiling_soffit_luminous_finish": {
+      "status": "PASS",
+      "underside_z": 7.14,
+      "interior_lighting_below_soffit": true,
+      "fixture_count": 12
+    },
+    "formed_bottle_outfeed": {
+      "status": "PASS",
+      "count": 16,
+      "bounds": [
+        {
+          "name": "F08_FORMED_BOTTLE_01",
+          "bounds_min": [
+            60.953,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            61.047,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_02",
+          "bounds_min": [
+            61.433,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            61.527,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_03",
+          "bounds_min": [
+            61.913,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            62.007,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_04",
+          "bounds_min": [
+            62.393,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            62.487,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_05",
+          "bounds_min": [
+            62.873,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            62.967,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_06",
+          "bounds_min": [
+            63.353,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            63.447,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_07",
+          "bounds_min": [
+            63.833,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            63.927,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_08",
+          "bounds_min": [
+            64.313,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            64.407,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_09",
+          "bounds_min": [
+            64.793,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            64.887,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_10",
+          "bounds_min": [
+            65.273,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            65.367,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_11",
+          "bounds_min": [
+            65.753,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            65.847,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_12",
+          "bounds_min": [
+            66.233,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            66.327,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_13",
+          "bounds_min": [
+            66.713,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            66.807,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_14",
+          "bounds_min": [
+            67.193,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            67.287,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_15",
+          "bounds_min": [
+            67.673,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            67.767,
+            10.047,
+            2.29
+          ]
+        },
+        {
+          "name": "F08_FORMED_BOTTLE_16",
+          "bounds_min": [
+            68.153,
+            9.953,
+            1.96
+          ],
+          "bounds_max": [
+            68.247,
+            10.047,
+            2.29
+          ]
+        }
+      ],
+      "all_inside_room_envelope": true
+    },
+    "east_service_door": {
+      "clear_opening_width_m": 2.0,
+      "clear_opening_height_m": 2.6,
+      "opening_y_range": [
+        9.0,
+        11.0
+      ],
+      "north_wall_segment_y_range": [
+        11.0,
+        22.0
+      ],
+      "south_wall_segment_y_range": [
+        -2.0,
+        9.0
+      ],
+      "black_void_behind_opening": false
+    }
+  },
+  "all_accepted_f08_geometry_within_room_envelope": true,
+  "north_service_aisle_clear": true,
+  "south_operator_aisle_clear": true,
+  "cross_facility_collisions": [],
+  "outside_envelope_objects": []
+}

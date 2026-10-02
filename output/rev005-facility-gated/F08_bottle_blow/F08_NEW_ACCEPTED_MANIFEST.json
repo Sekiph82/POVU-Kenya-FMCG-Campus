@@ -1,0 +1,5753 @@
+{
+  "task": "M08.42 / F08 only",
+  "destination_collection": "REV005_FG_F08_BOTTLE_BLOW_ACCEPTED_CLASS_N",
+  "count": 338,
+  "objects": [
+    {
+      "name": "F08_BLOW_CELL_BASE_PLATE_53.0_12.8",
+      "role": "blow-cell base plate",
+      "location": [
+        53.0,
+        12.8,
+        1.2
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        0.16
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_BASE_PLATE_53.0_7.2",
+      "role": "blow-cell base plate",
+      "location": [
+        53.0,
+        7.2,
+        1.2
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        0.16
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_BASE_PLATE_61.0_12.8",
+      "role": "blow-cell base plate",
+      "location": [
+        61.0,
+        12.8,
+        1.2
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        0.16
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_BASE_PLATE_61.0_7.2",
+      "role": "blow-cell base plate",
+      "location": [
+        61.0,
+        7.2,
+        1.2
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        0.16
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_BASE_X_53.4",
+      "role": "blow-cell machine base",
+      "location": [
+        53.4,
+        10.0,
+        1.5
+      ],
+      "dimensions": [
+        0.2,
+        0.2,
+        4.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_BASE_X_56.9",
+      "role": "blow-cell machine base",
+      "location": [
+        56.9,
+        10.0,
+        1.5
+      ],
+      "dimensions": [
+        0.2,
+        0.2,
+        4.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_BASE_X_60.5",
+      "role": "blow-cell machine base",
+      "location": [
+        60.5,
+        10.0,
+        1.5
+      ],
+      "dimensions": [
+        0.2,
+        0.2,
+        4.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_END_RAIL_1.35_53",
+      "role": "blow-cell structural rail",
+      "location": [
+        53.0,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        5.6
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_END_RAIL_1.35_61",
+      "role": "blow-cell structural rail",
+      "location": [
+        61.0,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        5.6
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_END_RAIL_6.25_53",
+      "role": "blow-cell structural rail",
+      "location": [
+        53.0,
+        10.0,
+        6.25
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        5.6
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_END_RAIL_6.25_61",
+      "role": "blow-cell structural rail",
+      "location": [
+        61.0,
+        10.0,
+        6.25
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        5.6
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_LONG_RAIL_1.35_12.8",
+      "role": "blow-cell structural rail",
+      "location": [
+        57.0,
+        12.8,
+        1.35
+      ],
+      "dimensions": [
+        0.15,
+        0.15,
+        8.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_LONG_RAIL_1.35_7.2",
+      "role": "blow-cell structural rail",
+      "location": [
+        57.0,
+        7.2,
+        1.35
+      ],
+      "dimensions": [
+        0.15,
+        0.15,
+        8.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_LONG_RAIL_6.25_12.8",
+      "role": "blow-cell structural rail",
+      "location": [
+        57.0,
+        12.8,
+        6.25
+      ],
+      "dimensions": [
+        0.15,
+        0.15,
+        8.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_LONG_RAIL_6.25_7.2",
+      "role": "blow-cell structural rail",
+      "location": [
+        57.0,
+        7.2,
+        6.25
+      ],
+      "dimensions": [
+        0.15,
+        0.15,
+        8.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_POST_53.0_12.8",
+      "role": "guarded blow-cell frame post",
+      "location": [
+        53.0,
+        12.8,
+        3.73
+      ],
+      "dimensions": [
+        0.17,
+        0.17,
+        5.14
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_POST_53.0_7.2",
+      "role": "guarded blow-cell frame post",
+      "location": [
+        53.0,
+        7.2,
+        3.73
+      ],
+      "dimensions": [
+        0.17,
+        0.17,
+        5.14
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_POST_61.0_12.8",
+      "role": "guarded blow-cell frame post",
+      "location": [
+        61.0,
+        12.8,
+        3.73
+      ],
+      "dimensions": [
+        0.17,
+        0.17,
+        5.14
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_BLOW_CELL_POST_61.0_7.2",
+      "role": "guarded blow-cell frame post",
+      "location": [
+        61.0,
+        7.2,
+        3.73
+      ],
+      "dimensions": [
+        0.17,
+        0.17,
+        5.14
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_DOOR_0",
+      "role": "transparent blow-cell service door",
+      "location": [
+        54.0,
+        7.26,
+        3.55
+      ],
+      "dimensions": [
+        1.75,
+        0.065,
+        3.35
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_DOOR_1",
+      "role": "transparent blow-cell service door",
+      "location": [
+        60.0,
+        7.26,
+        3.55
+      ],
+      "dimensions": [
+        1.75,
+        0.065,
+        3.35
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_DOOR_HANDLE_0_-1",
+      "role": "service door handle",
+      "location": [
+        53.28,
+        7.18,
+        3.45
+      ],
+      "dimensions": [
+        0.045,
+        0.045,
+        0.5
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_DOOR_HANDLE_0_1",
+      "role": "service door handle",
+      "location": [
+        54.72,
+        7.18,
+        3.45
+      ],
+      "dimensions": [
+        0.045,
+        0.045,
+        0.5
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_DOOR_HANDLE_1_-1",
+      "role": "service door handle",
+      "location": [
+        59.28,
+        7.18,
+        3.45
+      ],
+      "dimensions": [
+        0.045,
+        0.045,
+        0.5
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_DOOR_HANDLE_1_1",
+      "role": "service door handle",
+      "location": [
+        60.72,
+        7.18,
+        3.45
+      ],
+      "dimensions": [
+        0.045,
+        0.045,
+        0.5
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_EAST_PANEL_0",
+      "role": "transparent machine guard panel",
+      "location": [
+        60.96,
+        10.0,
+        2.45
+      ],
+      "dimensions": [
+        0.05,
+        4.9,
+        1.5
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_EAST_PANEL_1",
+      "role": "transparent machine guard panel",
+      "location": [
+        60.96,
+        10.0,
+        4.25
+      ],
+      "dimensions": [
+        0.05,
+        4.9,
+        1.5
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_NORTH_PANEL_0",
+      "role": "transparent machine guard panel",
+      "location": [
+        54.0,
+        12.76,
+        3.62
+      ],
+      "dimensions": [
+        1.78,
+        0.055,
+        3.2
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_NORTH_PANEL_1",
+      "role": "transparent machine guard panel",
+      "location": [
+        56.0,
+        12.76,
+        3.62
+      ],
+      "dimensions": [
+        1.78,
+        0.055,
+        3.2
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_NORTH_PANEL_2",
+      "role": "transparent machine guard panel",
+      "location": [
+        58.0,
+        12.76,
+        3.62
+      ],
+      "dimensions": [
+        1.78,
+        0.055,
+        3.2
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_BLOW_GUARD_NORTH_PANEL_3",
+      "role": "transparent machine guard panel",
+      "location": [
+        60.0,
+        12.76,
+        3.62
+      ],
+      "dimensions": [
+        1.78,
+        0.055,
+        3.2
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_0_0",
+      "role": "ceiling light fixture",
+      "location": [
+        37.0,
+        3.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_0_1",
+      "role": "ceiling light fixture",
+      "location": [
+        37.0,
+        10.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_0_2",
+      "role": "ceiling light fixture",
+      "location": [
+        37.0,
+        17.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_1_0",
+      "role": "ceiling light fixture",
+      "location": [
+        42.0,
+        3.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_1_1",
+      "role": "ceiling light fixture",
+      "location": [
+        42.0,
+        10.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_1_2",
+      "role": "ceiling light fixture",
+      "location": [
+        42.0,
+        17.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_2_0",
+      "role": "ceiling light fixture",
+      "location": [
+        47.0,
+        3.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_2_1",
+      "role": "ceiling light fixture",
+      "location": [
+        47.0,
+        10.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_2_2",
+      "role": "ceiling light fixture",
+      "location": [
+        47.0,
+        17.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_3_0",
+      "role": "ceiling light fixture",
+      "location": [
+        52.0,
+        3.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_3_1",
+      "role": "ceiling light fixture",
+      "location": [
+        52.0,
+        10.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_3_2",
+      "role": "ceiling light fixture",
+      "location": [
+        52.0,
+        17.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_4_0",
+      "role": "ceiling light fixture",
+      "location": [
+        57.0,
+        3.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_4_1",
+      "role": "ceiling light fixture",
+      "location": [
+        57.0,
+        10.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_4_2",
+      "role": "ceiling light fixture",
+      "location": [
+        57.0,
+        17.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_5_0",
+      "role": "ceiling light fixture",
+      "location": [
+        62.0,
+        3.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_5_1",
+      "role": "ceiling light fixture",
+      "location": [
+        62.0,
+        10.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_5_2",
+      "role": "ceiling light fixture",
+      "location": [
+        62.0,
+        17.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_6_0",
+      "role": "ceiling light fixture",
+      "location": [
+        67.0,
+        3.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_6_1",
+      "role": "ceiling light fixture",
+      "location": [
+        67.0,
+        10.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_LIGHT_6_2",
+      "role": "ceiling light fixture",
+      "location": [
+        67.0,
+        17.0,
+        7.09
+      ],
+      "dimensions": [
+        1.05,
+        0.22,
+        0.055
+      ],
+      "materials": [
+        "F08_CeilingDiffuser"
+      ]
+    },
+    {
+      "name": "F08_CEILING_SOFFIT",
+      "role": "open ceiling soffit beam",
+      "location": [
+        52.0,
+        10.0,
+        7.2
+      ],
+      "dimensions": [
+        37.6,
+        23.6,
+        0.12
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_COOLING_WATER_DROP_1_1",
+      "role": "cooling water mould connection",
+      "location": [
+        55.7,
+        13.05,
+        3.425
+      ],
+      "dimensions": [
+        0.07,
+        0.07,
+        2.3901
+      ],
+      "materials": [
+        "F08_CoolingWater"
+      ]
+    },
+    {
+      "name": "F08_COOLING_WATER_DROP_1_2",
+      "role": "cooling water mould connection",
+      "location": [
+        58.3,
+        13.05,
+        3.425
+      ],
+      "dimensions": [
+        0.07,
+        0.07,
+        2.3901
+      ],
+      "materials": [
+        "F08_CoolingWater"
+      ]
+    },
+    {
+      "name": "F08_COOLING_WATER_DROP_2_1",
+      "role": "cooling water mould connection",
+      "location": [
+        55.7,
+        13.325,
+        3.425
+      ],
+      "dimensions": [
+        0.07,
+        0.07,
+        2.8469
+      ],
+      "materials": [
+        "F08_CoolingWater"
+      ]
+    },
+    {
+      "name": "F08_COOLING_WATER_DROP_2_2",
+      "role": "cooling water mould connection",
+      "location": [
+        58.3,
+        13.325,
+        3.425
+      ],
+      "dimensions": [
+        0.07,
+        0.07,
+        2.8469
+      ],
+      "materials": [
+        "F08_CoolingWater"
+      ]
+    },
+    {
+      "name": "F08_COOLING_WATER_LINE_1",
+      "role": "mould cooling water supply return",
+      "location": [
+        57.05,
+        14.0,
+        4.15
+      ],
+      "dimensions": [
+        0.106,
+        0.106,
+        6.9
+      ],
+      "materials": [
+        "F08_CoolingWater"
+      ]
+    },
+    {
+      "name": "F08_COOLING_WATER_LINE_2",
+      "role": "mould cooling water supply return",
+      "location": [
+        57.05,
+        14.55,
+        4.15
+      ],
+      "dimensions": [
+        0.106,
+        0.106,
+        6.9
+      ],
+      "materials": [
+        "F08_CoolingWater"
+      ]
+    },
+    {
+      "name": "F08_EAST_DOOR_JAMB_0",
+      "role": "service door hardware",
+      "location": [
+        70.84,
+        8.95,
+        2.39
+      ],
+      "dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_EAST_DOOR_JAMB_1",
+      "role": "service door hardware",
+      "location": [
+        70.84,
+        11.05,
+        2.39
+      ],
+      "dimensions": [
+        0.2,
+        0.12,
+        2.62
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_EAST_DOOR_LEAF",
+      "role": "east service door leaf",
+      "location": [
+        70.86,
+        10.0,
+        2.39
+      ],
+      "dimensions": [
+        0.08,
+        1.9,
+        2.58
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_EAST_DOOR_LINTEL",
+      "role": "east service door head",
+      "location": [
+        70.86,
+        10.0,
+        6.72
+      ],
+      "dimensions": [
+        0.28,
+        2.0,
+        1.16
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_EAST_HANDOFF_FRAME",
+      "role": "continued eastward discharge handoff",
+      "location": [
+        70.2,
+        10.0,
+        2.12
+      ],
+      "dimensions": [
+        0.32,
+        1.34,
+        0.44
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_EAST_WALL_NORTH",
+      "role": "east enclosure wall",
+      "location": [
+        70.86,
+        16.5,
+        4.295
+      ],
+      "dimensions": [
+        0.28,
+        12.5,
+        6.41
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_EAST_WALL_SOUTH",
+      "role": "east enclosure wall",
+      "location": [
+        70.86,
+        3.5,
+        4.295
+      ],
+      "dimensions": [
+        0.28,
+        4.5,
+        6.41
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_BELT",
+      "role": "inclined preform belt",
+      "location": [
+        39.4,
+        10.0,
+        3.22
+      ],
+      "dimensions": [
+        0.07,
+        0.07,
+        3.6796
+      ],
+      "materials": [
+        "F08_DarkConveyorBelt"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_DISCHARGE_HOOD",
+      "role": "feed rail discharge transition",
+      "location": [
+        41.05,
+        10.0,
+        4.0
+      ],
+      "dimensions": [
+        0.34,
+        1.08,
+        0.3
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_LEFT_RAIL",
+      "role": "inclined preform elevator",
+      "location": [
+        39.4,
+        9.55,
+        3.23
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        3.6249
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_RIGHT_RAIL",
+      "role": "inclined preform elevator",
+      "location": [
+        39.4,
+        10.45,
+        3.23
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        3.6249
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_0_10.52",
+      "role": "elevator support",
+      "location": [
+        38.0,
+        10.52,
+        1.88
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        1.44
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_0_9.48",
+      "role": "elevator support",
+      "location": [
+        38.0,
+        9.48,
+        1.88
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        1.44
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_1_10.52",
+      "role": "elevator support",
+      "location": [
+        39.1,
+        10.52,
+        2.1302
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        1.9405
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_1_9.48",
+      "role": "elevator support",
+      "location": [
+        39.1,
+        9.48,
+        2.1302
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        1.9405
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_2_10.52",
+      "role": "elevator support",
+      "location": [
+        40.2,
+        10.52,
+        2.3805
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.441
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_2_9.48",
+      "role": "elevator support",
+      "location": [
+        40.2,
+        9.48,
+        2.3805
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.441
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_3_10.52",
+      "role": "elevator support",
+      "location": [
+        41.0,
+        10.52,
+        2.5625
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.805
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ELEVATOR_SUPPORT_3_9.48",
+      "role": "elevator support",
+      "location": [
+        41.0,
+        9.48,
+        2.5625
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.805
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_EYEWASH_BOWL_68.28",
+      "role": "eyewash bowl",
+      "location": [
+        68.28,
+        4.0,
+        2.05
+      ],
+      "dimensions": [
+        0.21,
+        0.21,
+        0.08
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_EYEWASH_BOWL_68.72",
+      "role": "eyewash bowl",
+      "location": [
+        68.72,
+        4.0,
+        2.05
+      ],
+      "dimensions": [
+        0.21,
+        0.21,
+        0.08
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_EYEWASH_CROSSBAR",
+      "role": "eyewash crossbar",
+      "location": [
+        68.5,
+        4.0,
+        2.12
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        0.5
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_EYEWASH_PEDESTAL",
+      "role": "eyewash safety station",
+      "location": [
+        68.5,
+        4.0,
+        1.56
+      ],
+      "dimensions": [
+        0.2,
+        0.2,
+        0.92
+      ],
+      "materials": [
+        "F08_SafetyRed"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_40.65_10.45",
+      "role": "feed rail guide frame",
+      "location": [
+        40.65,
+        10.45,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_40.65_9.55",
+      "role": "feed rail guide frame",
+      "location": [
+        40.65,
+        9.55,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_41.55_10.45",
+      "role": "feed rail guide frame",
+      "location": [
+        41.55,
+        10.45,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_41.55_9.55",
+      "role": "feed rail guide frame",
+      "location": [
+        41.55,
+        9.55,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_42.45_10.45",
+      "role": "feed rail guide frame",
+      "location": [
+        42.45,
+        10.45,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_42.45_9.55",
+      "role": "feed rail guide frame",
+      "location": [
+        42.45,
+        9.55,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_43.35_10.45",
+      "role": "feed rail guide frame",
+      "location": [
+        43.35,
+        10.45,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FEED_GUIDE_SUPPORT_43.35_9.55",
+      "role": "feed rail guide frame",
+      "location": [
+        43.35,
+        9.55,
+        2.71
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        2.02
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_FIRE_EXTINGUISHER",
+      "role": "fire extinguisher",
+      "location": [
+        64.65,
+        4.02,
+        1.55
+      ],
+      "dimensions": [
+        0.22,
+        0.18,
+        0.88
+      ],
+      "materials": [
+        "F08_SafetyRed"
+      ]
+    },
+    {
+      "name": "F08_FIRST_RESPONSE_CABINET",
+      "role": "first-response cabinet",
+      "location": [
+        65.2,
+        4.0,
+        1.8
+      ],
+      "dimensions": [
+        0.72,
+        0.42,
+        1.28
+      ],
+      "materials": [
+        "F08_SafetyRed"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_01",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_02",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_03",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_04",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_05",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_06",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_07",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_08",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_09",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_10",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_11",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_12",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_13",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_14",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_15",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_FORMED_BOTTLE_16",
+      "role": "formed bottle product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.094,
+        0.094,
+        0.33
+      ],
+      "materials": [
+        "F08_FormedBottlePET"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_01",
+      "role": "distinct infrared heater element",
+      "location": [
+        44.55,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_02",
+      "role": "distinct infrared heater element",
+      "location": [
+        45.35,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_03",
+      "role": "distinct infrared heater element",
+      "location": [
+        46.15,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_04",
+      "role": "distinct infrared heater element",
+      "location": [
+        46.95,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_05",
+      "role": "distinct infrared heater element",
+      "location": [
+        47.75,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_06",
+      "role": "distinct infrared heater element",
+      "location": [
+        48.55,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_07",
+      "role": "distinct infrared heater element",
+      "location": [
+        49.35,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_ELEMENT_08",
+      "role": "distinct infrared heater element",
+      "location": [
+        50.15,
+        11.28,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_01",
+      "role": "heater element mount",
+      "location": [
+        44.55,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_02",
+      "role": "heater element mount",
+      "location": [
+        45.35,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_03",
+      "role": "heater element mount",
+      "location": [
+        46.15,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_04",
+      "role": "heater element mount",
+      "location": [
+        46.95,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_05",
+      "role": "heater element mount",
+      "location": [
+        47.75,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_06",
+      "role": "heater element mount",
+      "location": [
+        48.55,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_07",
+      "role": "heater element mount",
+      "location": [
+        49.35,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_N_MOUNT_08",
+      "role": "heater element mount",
+      "location": [
+        50.15,
+        11.28,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_01",
+      "role": "distinct infrared heater element",
+      "location": [
+        44.55,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_02",
+      "role": "distinct infrared heater element",
+      "location": [
+        45.35,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_03",
+      "role": "distinct infrared heater element",
+      "location": [
+        46.15,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_04",
+      "role": "distinct infrared heater element",
+      "location": [
+        46.95,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_05",
+      "role": "distinct infrared heater element",
+      "location": [
+        47.75,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_06",
+      "role": "distinct infrared heater element",
+      "location": [
+        48.55,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_07",
+      "role": "distinct infrared heater element",
+      "location": [
+        49.35,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_ELEMENT_08",
+      "role": "distinct infrared heater element",
+      "location": [
+        50.15,
+        8.72,
+        3.12
+      ],
+      "dimensions": [
+        0.24,
+        0.22,
+        2.25
+      ],
+      "materials": [
+        "F08_HeaterElements"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_01",
+      "role": "heater element mount",
+      "location": [
+        44.55,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_02",
+      "role": "heater element mount",
+      "location": [
+        45.35,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_03",
+      "role": "heater element mount",
+      "location": [
+        46.15,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_04",
+      "role": "heater element mount",
+      "location": [
+        46.95,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_05",
+      "role": "heater element mount",
+      "location": [
+        47.75,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_06",
+      "role": "heater element mount",
+      "location": [
+        48.55,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_07",
+      "role": "heater element mount",
+      "location": [
+        49.35,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HEATER_BANK_S_MOUNT_08",
+      "role": "heater element mount",
+      "location": [
+        50.15,
+        8.72,
+        3.11
+      ],
+      "dimensions": [
+        0.064,
+        0.064,
+        2.32
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HMI_BODY",
+      "role": "operator HMI enclosure",
+      "location": [
+        57.0,
+        5.62,
+        2.28
+      ],
+      "dimensions": [
+        1.0,
+        0.6,
+        0.76
+      ],
+      "materials": [
+        "F08_ControlCabinet"
+      ]
+    },
+    {
+      "name": "F08_HMI_CONTROL_0",
+      "role": "operator control button",
+      "location": [
+        56.78,
+        5.27,
+        2.09
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        0.035
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_HMI_CONTROL_1",
+      "role": "operator control button",
+      "location": [
+        57.0,
+        5.27,
+        2.09
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        0.035
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_HMI_CONTROL_2",
+      "role": "operator control button",
+      "location": [
+        57.22,
+        5.27,
+        2.09
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        0.035
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_HMI_ESTOP",
+      "role": "emergency stop button",
+      "location": [
+        57.42,
+        5.27,
+        2.09
+      ],
+      "dimensions": [
+        0.15,
+        0.15,
+        0.045
+      ],
+      "materials": [
+        "F08_SafetyRed"
+      ]
+    },
+    {
+      "name": "F08_HMI_PEDESTAL",
+      "role": "operator HMI pedestal",
+      "location": [
+        57.0,
+        5.65,
+        1.76
+      ],
+      "dimensions": [
+        0.55,
+        0.55,
+        1.2
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_HMI_SCREEN",
+      "role": "HMI screen plane",
+      "location": [
+        57.0,
+        5.285,
+        2.4
+      ],
+      "dimensions": [
+        0.67,
+        0.025,
+        0.4
+      ],
+      "materials": [
+        "F08_HMI_Glass"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_X_1.3_11.5",
+      "role": "hopper support frame",
+      "location": [
+        36.5,
+        11.5,
+        1.3
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_X_1.3_8.5",
+      "role": "hopper support frame",
+      "location": [
+        36.5,
+        8.5,
+        1.3
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_X_4.0_11.5",
+      "role": "hopper support frame",
+      "location": [
+        36.5,
+        11.5,
+        4.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_X_4.0_8.5",
+      "role": "hopper support frame",
+      "location": [
+        36.5,
+        8.5,
+        4.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_X_4.75_11.5",
+      "role": "hopper support frame",
+      "location": [
+        36.5,
+        11.5,
+        4.75
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_X_4.75_8.5",
+      "role": "hopper support frame",
+      "location": [
+        36.5,
+        8.5,
+        4.75
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_Y_35_1.3",
+      "role": "hopper support frame",
+      "location": [
+        35.0,
+        10.0,
+        1.3
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_Y_35_4.0",
+      "role": "hopper support frame",
+      "location": [
+        35.0,
+        10.0,
+        4.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_Y_35_4.75",
+      "role": "hopper support frame",
+      "location": [
+        35.0,
+        10.0,
+        4.75
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_Y_38_1.3",
+      "role": "hopper support frame",
+      "location": [
+        38.0,
+        10.0,
+        1.3
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_Y_38_4.0",
+      "role": "hopper support frame",
+      "location": [
+        38.0,
+        10.0,
+        4.0
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_CROSS_Y_38_4.75",
+      "role": "hopper support frame",
+      "location": [
+        38.0,
+        10.0,
+        4.75
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        3.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_FEED_THROAT",
+      "role": "preform feed throat",
+      "location": [
+        37.5,
+        10.0,
+        2.63
+      ],
+      "dimensions": [
+        0.72,
+        0.72,
+        0.36
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_FRAME_POST_35.0_11.5",
+      "role": "hopper support frame",
+      "location": [
+        35.0,
+        11.5,
+        2.935
+      ],
+      "dimensions": [
+        0.13,
+        0.13,
+        3.63
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_FRAME_POST_35.0_8.5",
+      "role": "hopper support frame",
+      "location": [
+        35.0,
+        8.5,
+        2.935
+      ],
+      "dimensions": [
+        0.13,
+        0.13,
+        3.63
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_FRAME_POST_38.0_11.5",
+      "role": "hopper support frame",
+      "location": [
+        38.0,
+        11.5,
+        2.935
+      ],
+      "dimensions": [
+        0.13,
+        0.13,
+        3.63
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_FRAME_POST_38.0_8.5",
+      "role": "hopper support frame",
+      "location": [
+        38.0,
+        8.5,
+        2.935
+      ],
+      "dimensions": [
+        0.13,
+        0.13,
+        3.63
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_LOAD_LIP",
+      "role": "bulk bin upper lip",
+      "location": [
+        36.5,
+        10.0,
+        5.25
+      ],
+      "dimensions": [
+        2.25,
+        2.25,
+        0.09
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_HOPPER_SERVICE_DOOR",
+      "role": "hopper service access panel",
+      "location": [
+        38.02,
+        10.0,
+        3.7
+      ],
+      "dimensions": [
+        0.06,
+        0.72,
+        0.84
+      ],
+      "materials": [
+        "F08_ControlCabinet"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_BRANCH_1_DROP",
+      "role": "high-pressure air branch drop",
+      "location": [
+        54.8,
+        12.825,
+        4.075
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        1.416
+      ],
+      "materials": [
+        "F08_HighPressureAir"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_BRANCH_2_DROP",
+      "role": "high-pressure air branch drop",
+      "location": [
+        56.2,
+        12.825,
+        4.075
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        1.416
+      ],
+      "materials": [
+        "F08_HighPressureAir"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_BRANCH_3_DROP",
+      "role": "high-pressure air branch drop",
+      "location": [
+        57.8,
+        12.825,
+        4.075
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        1.416
+      ],
+      "materials": [
+        "F08_HighPressureAir"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_BRANCH_4_DROP",
+      "role": "high-pressure air branch drop",
+      "location": [
+        59.2,
+        12.825,
+        4.075
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        1.416
+      ],
+      "materials": [
+        "F08_HighPressureAir"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_MAIN",
+      "role": "high-pressure air manifold main",
+      "location": [
+        57.0,
+        13.3,
+        4.6
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        6.0
+      ],
+      "materials": [
+        "F08_HighPressureAir"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_VALVE_1",
+      "role": "air manifold valve",
+      "location": [
+        54.8,
+        13.3,
+        4.36
+      ],
+      "dimensions": [
+        0.19,
+        0.19,
+        0.14
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_VALVE_2",
+      "role": "air manifold valve",
+      "location": [
+        56.2,
+        13.3,
+        4.36
+      ],
+      "dimensions": [
+        0.19,
+        0.19,
+        0.14
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_VALVE_3",
+      "role": "air manifold valve",
+      "location": [
+        57.8,
+        13.3,
+        4.36
+      ],
+      "dimensions": [
+        0.19,
+        0.19,
+        0.14
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_HP_AIR_VALVE_4",
+      "role": "air manifold valve",
+      "location": [
+        59.2,
+        13.3,
+        4.36
+      ],
+      "dimensions": [
+        0.19,
+        0.19,
+        0.14
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_INSPECTION_BRIDGE_POST_10.6",
+      "role": "outfeed inspection bridge post",
+      "location": [
+        68.0,
+        10.6,
+        2.735
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        1.43
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_INSPECTION_BRIDGE_POST_9.4",
+      "role": "outfeed inspection bridge post",
+      "location": [
+        68.0,
+        9.4,
+        2.735
+      ],
+      "dimensions": [
+        0.09,
+        0.09,
+        1.43
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_INSPECTION_BRIDGE_TOP",
+      "role": "outfeed inspection bridge",
+      "location": [
+        68.0,
+        10.0,
+        3.45
+      ],
+      "dimensions": [
+        0.1,
+        0.1,
+        1.2
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_INSPECTION_OPTICAL_SENSOR_10.3",
+      "role": "optical inspection sensor head",
+      "location": [
+        68.0,
+        10.3,
+        3.18
+      ],
+      "dimensions": [
+        0.24,
+        0.2,
+        0.28
+      ],
+      "materials": [
+        "F08_ControlCabinet"
+      ]
+    },
+    {
+      "name": "F08_INSPECTION_OPTICAL_SENSOR_9.7",
+      "role": "optical inspection sensor head",
+      "location": [
+        68.0,
+        9.7,
+        3.18
+      ],
+      "dimensions": [
+        0.24,
+        0.2,
+        0.28
+      ],
+      "materials": [
+        "F08_ControlCabinet"
+      ]
+    },
+    {
+      "name": "F08_INSPECTION_SENSOR_LENS_67.85",
+      "role": "inspection optical lens",
+      "location": [
+        67.85,
+        10.0,
+        3.02
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.08
+      ],
+      "materials": [
+        "F08_HMI_Glass"
+      ]
+    },
+    {
+      "name": "F08_INSPECTION_SENSOR_LENS_68.15",
+      "role": "inspection optical lens",
+      "location": [
+        68.15,
+        10.0,
+        3.02
+      ],
+      "dimensions": [
+        0.11,
+        0.11,
+        0.08
+      ],
+      "materials": [
+        "F08_HMI_Glass"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_BLOW_NOZZLE",
+      "role": "blow nozzle",
+      "location": [
+        55.7,
+        10.0,
+        4.24
+      ],
+      "dimensions": [
+        0.2,
+        0.2,
+        0.22
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_LOWER_GUIDE",
+      "role": "lower station guide and base",
+      "location": [
+        55.7,
+        10.0,
+        1.78
+      ],
+      "dimensions": [
+        2.35,
+        1.35,
+        0.34
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_MOLD_BOLT_-0.62",
+      "role": "mould fixing bolt",
+      "location": [
+        55.08,
+        9.36,
+        3.2
+      ],
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_MOLD_BOLT_0.62",
+      "role": "mould fixing bolt",
+      "location": [
+        56.32,
+        9.36,
+        3.2
+      ],
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_MOLD_HALF_L",
+      "role": "split mould cavity half",
+      "location": [
+        55.44,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.46,
+        1.02,
+        1.78
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_MOLD_HALF_R",
+      "role": "split mould cavity half",
+      "location": [
+        55.96,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.46,
+        1.02,
+        1.78
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_PLATEN_L",
+      "role": "opposing mould platen",
+      "location": [
+        54.97,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_PLATEN_R",
+      "role": "opposing mould platen",
+      "location": [
+        56.43,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_STRETCH_BLOW_ROD",
+      "role": "vertical stretch and blow rod",
+      "location": [
+        55.7,
+        10.0,
+        4.19
+      ],
+      "dimensions": [
+        0.124,
+        0.124,
+        1.82
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_TIEBAR_L_10.58",
+      "role": "platen guide tie bar",
+      "location": [
+        54.97,
+        10.58,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_TIEBAR_L_9.42",
+      "role": "platen guide tie bar",
+      "location": [
+        54.97,
+        9.42,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_TIEBAR_R_10.58",
+      "role": "platen guide tie bar",
+      "location": [
+        56.43,
+        10.58,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_1_TIEBAR_R_9.42",
+      "role": "platen guide tie bar",
+      "location": [
+        56.43,
+        9.42,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_BLOW_NOZZLE",
+      "role": "blow nozzle",
+      "location": [
+        58.3,
+        10.0,
+        4.24
+      ],
+      "dimensions": [
+        0.2,
+        0.2,
+        0.22
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_LOWER_GUIDE",
+      "role": "lower station guide and base",
+      "location": [
+        58.3,
+        10.0,
+        1.78
+      ],
+      "dimensions": [
+        2.35,
+        1.35,
+        0.34
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_MOLD_BOLT_-0.62",
+      "role": "mould fixing bolt",
+      "location": [
+        57.68,
+        9.36,
+        3.2
+      ],
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_MOLD_BOLT_0.62",
+      "role": "mould fixing bolt",
+      "location": [
+        58.92,
+        9.36,
+        3.2
+      ],
+      "dimensions": [
+        0.12,
+        0.12,
+        0.18
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_MOLD_HALF_L",
+      "role": "split mould cavity half",
+      "location": [
+        58.04,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.46,
+        1.02,
+        1.78
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_MOLD_HALF_R",
+      "role": "split mould cavity half",
+      "location": [
+        58.56,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.46,
+        1.02,
+        1.78
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_PLATEN_L",
+      "role": "opposing mould platen",
+      "location": [
+        57.57,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_PLATEN_R",
+      "role": "opposing mould platen",
+      "location": [
+        59.03,
+        10.0,
+        3.2
+      ],
+      "dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_STRETCH_BLOW_ROD",
+      "role": "vertical stretch and blow rod",
+      "location": [
+        58.3,
+        10.0,
+        4.19
+      ],
+      "dimensions": [
+        0.124,
+        0.124,
+        1.82
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_TIEBAR_L_10.58",
+      "role": "platen guide tie bar",
+      "location": [
+        57.57,
+        10.58,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_TIEBAR_L_9.42",
+      "role": "platen guide tie bar",
+      "location": [
+        57.57,
+        9.42,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_TIEBAR_R_10.58",
+      "role": "platen guide tie bar",
+      "location": [
+        59.03,
+        10.58,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_MOULD_STATION_2_TIEBAR_R_9.42",
+      "role": "platen guide tie bar",
+      "location": [
+        59.03,
+        9.42,
+        3.275
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        2.55
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_NORTH_AISLE_EDGE",
+      "role": "aisle floor marking",
+      "location": [
+        52.0,
+        15.0,
+        1.105
+      ],
+      "dimensions": [
+        36.0,
+        0.045,
+        0.008
+      ],
+      "materials": [
+        "F08_AisleMarking"
+      ]
+    },
+    {
+      "name": "F08_NORTH_BACK_WALL",
+      "role": "north enclosure wall",
+      "location": [
+        52.0,
+        21.86,
+        4.295
+      ],
+      "dimensions": [
+        38.0,
+        0.28,
+        6.41
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_OPERATOR_ZONE_MARK_53.0",
+      "role": "operator/service floor marking",
+      "location": [
+        53.0,
+        5.05,
+        1.11
+      ],
+      "dimensions": [
+        0.055,
+        2.2,
+        0.008
+      ],
+      "materials": [
+        "F08_AisleMarking"
+      ]
+    },
+    {
+      "name": "F08_OPERATOR_ZONE_MARK_61.0",
+      "role": "operator/service floor marking",
+      "location": [
+        61.0,
+        5.05,
+        1.11
+      ],
+      "dimensions": [
+        0.055,
+        2.2,
+        0.008
+      ],
+      "materials": [
+        "F08_AisleMarking"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_BELT",
+      "role": "formed-bottle outfeed conveyor",
+      "location": [
+        65.0,
+        10.0,
+        1.88
+      ],
+      "dimensions": [
+        9.0,
+        1.2,
+        0.14
+      ],
+      "materials": [
+        "F08_DarkConveyorBelt"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_CROSSBRACE_0",
+      "role": "conveyor support cross-brace",
+      "location": [
+        60.65,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.06,
+        0.06,
+        1.08
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_CROSSBRACE_1",
+      "role": "conveyor support cross-brace",
+      "location": [
+        62.1,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.06,
+        0.06,
+        1.08
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_CROSSBRACE_2",
+      "role": "conveyor support cross-brace",
+      "location": [
+        63.55,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.06,
+        0.06,
+        1.08
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_CROSSBRACE_3",
+      "role": "conveyor support cross-brace",
+      "location": [
+        65.0,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.06,
+        0.06,
+        1.08
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_CROSSBRACE_4",
+      "role": "conveyor support cross-brace",
+      "location": [
+        66.45,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.06,
+        0.06,
+        1.08
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_CROSSBRACE_5",
+      "role": "conveyor support cross-brace",
+      "location": [
+        67.9,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.06,
+        0.06,
+        1.08
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_CROSSBRACE_6",
+      "role": "conveyor support cross-brace",
+      "location": [
+        69.25,
+        10.0,
+        1.35
+      ],
+      "dimensions": [
+        0.06,
+        0.06,
+        1.08
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_0_10.54",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        60.65,
+        10.54,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_0_9.46",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        60.65,
+        9.46,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_1_10.54",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        62.1,
+        10.54,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_1_9.46",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        62.1,
+        9.46,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_2_10.54",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        63.55,
+        10.54,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_2_9.46",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        63.55,
+        9.46,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_3_10.54",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        65.0,
+        10.54,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_3_9.46",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        65.0,
+        9.46,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_4_10.54",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        66.45,
+        10.54,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_4_9.46",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        66.45,
+        9.46,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_5_10.54",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        67.9,
+        10.54,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_5_9.46",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        67.9,
+        9.46,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_6_10.54",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        69.25,
+        10.54,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_LEG_6_9.46",
+      "role": "outfeed conveyor support leg",
+      "location": [
+        69.25,
+        9.46,
+        1.455
+      ],
+      "dimensions": [
+        0.084,
+        0.084,
+        0.67
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_SIDE_GUIDE_10.63",
+      "role": "outfeed side guide",
+      "location": [
+        65.0,
+        10.63,
+        2.12
+      ],
+      "dimensions": [
+        9.0,
+        0.075,
+        0.42
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OUTFEED_SIDE_GUIDE_9.37",
+      "role": "outfeed side guide",
+      "location": [
+        65.0,
+        9.37,
+        2.12
+      ],
+      "dimensions": [
+        9.0,
+        0.075,
+        0.42
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_BASE_FOOT_44.0_12.0",
+      "role": "oven base plate",
+      "location": [
+        44.0,
+        12.0,
+        1.22
+      ],
+      "dimensions": [
+        0.34,
+        0.34,
+        0.15
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_BASE_FOOT_44.0_8.0",
+      "role": "oven base plate",
+      "location": [
+        44.0,
+        8.0,
+        1.22
+      ],
+      "dimensions": [
+        0.34,
+        0.34,
+        0.15
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_BASE_FOOT_51.0_12.0",
+      "role": "oven base plate",
+      "location": [
+        51.0,
+        12.0,
+        1.22
+      ],
+      "dimensions": [
+        0.34,
+        0.34,
+        0.15
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_BASE_FOOT_51.0_8.0",
+      "role": "oven base plate",
+      "location": [
+        51.0,
+        8.0,
+        1.22
+      ],
+      "dimensions": [
+        0.34,
+        0.34,
+        0.15
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_CORNER_POST_44.0_12.0",
+      "role": "heater oven structural post",
+      "location": [
+        44.0,
+        12.0,
+        3.2
+      ],
+      "dimensions": [
+        0.16,
+        0.16,
+        4.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_CORNER_POST_44.0_8.0",
+      "role": "heater oven structural post",
+      "location": [
+        44.0,
+        8.0,
+        3.2
+      ],
+      "dimensions": [
+        0.16,
+        0.16,
+        4.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_CORNER_POST_51.0_12.0",
+      "role": "heater oven structural post",
+      "location": [
+        51.0,
+        12.0,
+        3.2
+      ],
+      "dimensions": [
+        0.16,
+        0.16,
+        4.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_CORNER_POST_51.0_8.0",
+      "role": "heater oven structural post",
+      "location": [
+        51.0,
+        8.0,
+        3.2
+      ],
+      "dimensions": [
+        0.16,
+        0.16,
+        4.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_END_RAIL_1.28_44",
+      "role": "heater oven end rail",
+      "location": [
+        44.0,
+        10.0,
+        1.28
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        4.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_END_RAIL_1.28_51",
+      "role": "heater oven end rail",
+      "location": [
+        51.0,
+        10.0,
+        1.28
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        4.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_END_RAIL_5.18_44",
+      "role": "heater oven end rail",
+      "location": [
+        44.0,
+        10.0,
+        5.18
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        4.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_END_RAIL_5.18_51",
+      "role": "heater oven end rail",
+      "location": [
+        51.0,
+        10.0,
+        5.18
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        4.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_INLET_FRAME",
+      "role": "heater oven inlet frame",
+      "location": [
+        44.12,
+        10.0,
+        3.08
+      ],
+      "dimensions": [
+        0.16,
+        1.05,
+        2.65
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_OVEN_LONG_RAIL_1.28_12.0",
+      "role": "heater oven longitudinal rail",
+      "location": [
+        47.5,
+        12.0,
+        1.28
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        7.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_LONG_RAIL_1.28_8.0",
+      "role": "heater oven longitudinal rail",
+      "location": [
+        47.5,
+        8.0,
+        1.28
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        7.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_LONG_RAIL_5.18_12.0",
+      "role": "heater oven longitudinal rail",
+      "location": [
+        47.5,
+        12.0,
+        5.18
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        7.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_LONG_RAIL_5.18_8.0",
+      "role": "heater oven longitudinal rail",
+      "location": [
+        47.5,
+        8.0,
+        5.18
+      ],
+      "dimensions": [
+        0.14,
+        0.14,
+        7.0
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_PRODUCT_RAIL_10.27",
+      "role": "visible neck-support rail through oven",
+      "location": [
+        47.5,
+        10.27,
+        3.66
+      ],
+      "dimensions": [
+        0.056,
+        0.056,
+        6.9
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_OVEN_PRODUCT_RAIL_9.73",
+      "role": "visible neck-support rail through oven",
+      "location": [
+        47.5,
+        9.73,
+        3.66
+      ],
+      "dimensions": [
+        0.056,
+        0.056,
+        6.9
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PPE_CABINET",
+      "role": "PPE station cabinet",
+      "location": [
+        66.8,
+        4.0,
+        1.82
+      ],
+      "dimensions": [
+        0.82,
+        0.44,
+        1.32
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_PPE_HOOK_66.55",
+      "role": "PPE hanging hook",
+      "location": [
+        66.55,
+        3.76,
+        2.4
+      ],
+      "dimensions": [
+        0.08,
+        0.035,
+        0.18
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PPE_HOOK_66.8",
+      "role": "PPE hanging hook",
+      "location": [
+        66.8,
+        3.76,
+        2.4
+      ],
+      "dimensions": [
+        0.08,
+        0.035,
+        0.18
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PPE_HOOK_67.05",
+      "role": "PPE hanging hook",
+      "location": [
+        67.05,
+        3.76,
+        2.4
+      ],
+      "dimensions": [
+        0.08,
+        0.035,
+        0.18
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_BULK_BIN",
+      "role": "preform bulk bin",
+      "location": [
+        36.5,
+        10.0,
+        4.3
+      ],
+      "dimensions": [
+        2.4,
+        2.4,
+        1.8
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_FEED_4100",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_FEED_4145",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_FEED_4190",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_FEED_4235",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_FEED_4280",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_FEED_4325",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_FEED_4370",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_HOPPER_FUNNEL",
+      "role": "tapered preform funnel",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        2.35,
+        2.35,
+        0.78
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_NECK_RAIL_10.27",
+      "role": "paired neck-support feed rail",
+      "location": [
+        42.315,
+        10.27,
+        3.72
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        3.53
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_NECK_RAIL_9.73",
+      "role": "paired neck-support feed rail",
+      "location": [
+        42.315,
+        9.73,
+        3.72
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        3.53
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_01",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_02",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_03",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_04",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_05",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_06",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_07",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_08",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_09",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_10",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_11",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_12",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_OVEN_13",
+      "role": "PET preform product",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": [
+        0.054,
+        0.054,
+        0.13
+      ],
+      "materials": [
+        "F08_PreformPolymer"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_STAGING_BIN_1",
+      "role": "preform staging bin",
+      "location": [
+        35.8,
+        19.0,
+        1.72
+      ],
+      "dimensions": [
+        1.5,
+        1.2,
+        1.2
+      ],
+      "materials": [
+        "F08_PreformStagingBins"
+      ]
+    },
+    {
+      "name": "F08_PREFORM_STAGING_BIN_2",
+      "role": "preform staging bin",
+      "location": [
+        37.7,
+        19.0,
+        1.72
+      ],
+      "dimensions": [
+        1.5,
+        1.2,
+        1.2
+      ],
+      "materials": [
+        "F08_PreformStagingBins"
+      ]
+    },
+    {
+      "name": "F08_QUALITY_SAMPLE_TOTE",
+      "role": "quality sample tote",
+      "location": [
+        68.95,
+        11.5,
+        1.43
+      ],
+      "dimensions": [
+        0.82,
+        0.7,
+        0.62
+      ],
+      "materials": [
+        "F08_PreformStagingBins"
+      ]
+    },
+    {
+      "name": "F08_REJECT_CHUTE",
+      "role": "reject sample discharge chute",
+      "location": [
+        68.25,
+        11.16,
+        1.98
+      ],
+      "dimensions": [
+        0.55,
+        0.28,
+        0.14
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_ROOM_FINISHED_FLOOR",
+      "role": "finished industrial floor",
+      "location": [
+        52.0,
+        10.0,
+        1.0
+      ],
+      "dimensions": [
+        38.0,
+        24.0,
+        0.18
+      ],
+      "materials": [
+        "F08_IndustrialFloor"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_LONGITUDINAL_BEAM_1",
+      "role": "open ceiling soffit beam",
+      "location": [
+        33.2,
+        10.0,
+        7.12
+      ],
+      "dimensions": [
+        0.18,
+        23.6,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_LONGITUDINAL_BEAM_2",
+      "role": "open ceiling soffit beam",
+      "location": [
+        45.8,
+        10.0,
+        7.12
+      ],
+      "dimensions": [
+        0.18,
+        23.6,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_LONGITUDINAL_BEAM_3",
+      "role": "open ceiling soffit beam",
+      "location": [
+        58.4,
+        10.0,
+        7.12
+      ],
+      "dimensions": [
+        0.18,
+        23.6,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_LONGITUDINAL_BEAM_4",
+      "role": "open ceiling soffit beam",
+      "location": [
+        70.8,
+        10.0,
+        7.12
+      ],
+      "dimensions": [
+        0.18,
+        23.6,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_TRANSVERSE_BEAM_1",
+      "role": "open ceiling soffit beam",
+      "location": [
+        52.0,
+        -1.75,
+        7.12
+      ],
+      "dimensions": [
+        37.6,
+        0.18,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_TRANSVERSE_BEAM_2",
+      "role": "open ceiling soffit beam",
+      "location": [
+        52.0,
+        4.0,
+        7.12
+      ],
+      "dimensions": [
+        37.6,
+        0.18,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_TRANSVERSE_BEAM_3",
+      "role": "open ceiling soffit beam",
+      "location": [
+        52.0,
+        10.0,
+        7.12
+      ],
+      "dimensions": [
+        37.6,
+        0.18,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_TRANSVERSE_BEAM_4",
+      "role": "open ceiling soffit beam",
+      "location": [
+        52.0,
+        16.0,
+        7.12
+      ],
+      "dimensions": [
+        37.6,
+        0.18,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOFFIT_TRANSVERSE_BEAM_5",
+      "role": "open ceiling soffit beam",
+      "location": [
+        52.0,
+        21.75,
+        7.12
+      ],
+      "dimensions": [
+        37.6,
+        0.18,
+        0.24
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_AISLE_EDGE",
+      "role": "aisle floor marking",
+      "location": [
+        52.0,
+        5.15,
+        1.105
+      ],
+      "dimensions": [
+        36.0,
+        0.045,
+        0.008
+      ],
+      "materials": [
+        "F08_AisleMarking"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_EGRESS_HEADER",
+      "role": "south egress door frame",
+      "location": [
+        35.0,
+        -1.84,
+        6.92
+      ],
+      "dimensions": [
+        3.6,
+        0.16,
+        0.34
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_EGRESS_JAMB_33.35",
+      "role": "south egress door frame",
+      "location": [
+        33.35,
+        -1.84,
+        2.4
+      ],
+      "dimensions": [
+        0.12,
+        0.15,
+        2.6
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_EGRESS_JAMB_36.65",
+      "role": "south egress door frame",
+      "location": [
+        36.65,
+        -1.84,
+        2.4
+      ],
+      "dimensions": [
+        0.12,
+        0.15,
+        2.6
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_EGRESS_LEAF",
+      "role": "south egress door leaf",
+      "location": [
+        35.0,
+        -1.95,
+        2.4
+      ],
+      "dimensions": [
+        1.55,
+        0.06,
+        2.55
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_PANEL_0",
+      "role": "front glazed enclosure",
+      "location": [
+        39.5,
+        -1.84,
+        4.0
+      ],
+      "dimensions": [
+        4.85,
+        0.055,
+        4.7
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_PANEL_1",
+      "role": "front glazed enclosure",
+      "location": [
+        44.5,
+        -1.84,
+        4.0
+      ],
+      "dimensions": [
+        4.85,
+        0.055,
+        4.7
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_PANEL_2",
+      "role": "front glazed enclosure",
+      "location": [
+        49.5,
+        -1.84,
+        4.0
+      ],
+      "dimensions": [
+        4.85,
+        0.055,
+        4.7
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_PANEL_3",
+      "role": "front glazed enclosure",
+      "location": [
+        54.5,
+        -1.84,
+        4.0
+      ],
+      "dimensions": [
+        4.85,
+        0.055,
+        4.7
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_PANEL_4",
+      "role": "front glazed enclosure",
+      "location": [
+        59.5,
+        -1.84,
+        4.0
+      ],
+      "dimensions": [
+        4.85,
+        0.055,
+        4.7
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_PANEL_5",
+      "role": "front glazed enclosure",
+      "location": [
+        64.5,
+        -1.84,
+        4.0
+      ],
+      "dimensions": [
+        4.85,
+        0.055,
+        4.7
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_POST_0",
+      "role": "front glazing mullion",
+      "location": [
+        37.0,
+        -1.84,
+        4.05
+      ],
+      "dimensions": [
+        0.12,
+        0.14,
+        5.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_POST_1",
+      "role": "front glazing mullion",
+      "location": [
+        42.0,
+        -1.84,
+        4.05
+      ],
+      "dimensions": [
+        0.12,
+        0.14,
+        5.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_POST_2",
+      "role": "front glazing mullion",
+      "location": [
+        47.0,
+        -1.84,
+        4.05
+      ],
+      "dimensions": [
+        0.12,
+        0.14,
+        5.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_POST_3",
+      "role": "front glazing mullion",
+      "location": [
+        52.0,
+        -1.84,
+        4.05
+      ],
+      "dimensions": [
+        0.12,
+        0.14,
+        5.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_POST_4",
+      "role": "front glazing mullion",
+      "location": [
+        57.0,
+        -1.84,
+        4.05
+      ],
+      "dimensions": [
+        0.12,
+        0.14,
+        5.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_POST_5",
+      "role": "front glazing mullion",
+      "location": [
+        62.0,
+        -1.84,
+        4.05
+      ],
+      "dimensions": [
+        0.12,
+        0.14,
+        5.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_SOUTH_GLAZING_POST_6",
+      "role": "front glazing mullion",
+      "location": [
+        67.0,
+        -1.84,
+        4.05
+      ],
+      "dimensions": [
+        0.12,
+        0.14,
+        5.9
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_STAGING_BIN_RIM_0_18.42",
+      "role": "staging bin rim",
+      "location": [
+        35.8,
+        18.42,
+        2.34
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        1.44
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_STAGING_BIN_RIM_0_19.58",
+      "role": "staging bin rim",
+      "location": [
+        35.8,
+        19.58,
+        2.34
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        1.44
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_STAGING_BIN_RIM_1_18.42",
+      "role": "staging bin rim",
+      "location": [
+        37.7,
+        18.42,
+        2.34
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        1.44
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_STAGING_BIN_RIM_1_19.58",
+      "role": "staging bin rim",
+      "location": [
+        37.7,
+        19.58,
+        2.34
+      ],
+      "dimensions": [
+        0.05,
+        0.05,
+        1.44
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_CURVED_GUIDE_10.28",
+      "role": "connected oven-to-cell transfer guide",
+      "location": [
+        52.025,
+        10.28,
+        3.44
+      ],
+      "dimensions": [
+        0.052,
+        0.052,
+        2.3006
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_CURVED_GUIDE_9.72",
+      "role": "connected oven-to-cell transfer guide",
+      "location": [
+        52.025,
+        9.72,
+        3.44
+      ],
+      "dimensions": [
+        0.052,
+        0.052,
+        2.3006
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_GUARD",
+      "role": "open transfer guard",
+      "location": [
+        52.1,
+        10.0,
+        3.85
+      ],
+      "dimensions": [
+        1.7,
+        0.07,
+        0.6
+      ],
+      "materials": [
+        "F08_PaleSafetyGlazing"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_HUB",
+      "role": "preform neck transfer hub",
+      "location": [
+        52.15,
+        10.0,
+        2.78
+      ],
+      "dimensions": [
+        0.4,
+        0.4,
+        0.42
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_01",
+      "role": "transfer starwheel pocket",
+      "location": [
+        52.62,
+        10.0,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_02",
+      "role": "transfer starwheel pocket",
+      "location": [
+        52.4823,
+        10.3323,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_03",
+      "role": "transfer starwheel pocket",
+      "location": [
+        52.15,
+        10.47,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_04",
+      "role": "transfer starwheel pocket",
+      "location": [
+        51.8177,
+        10.3323,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_05",
+      "role": "transfer starwheel pocket",
+      "location": [
+        51.68,
+        10.0,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_06",
+      "role": "transfer starwheel pocket",
+      "location": [
+        51.8177,
+        9.6677,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_07",
+      "role": "transfer starwheel pocket",
+      "location": [
+        52.15,
+        9.53,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_POCKET_08",
+      "role": "transfer starwheel pocket",
+      "location": [
+        52.4823,
+        9.6677,
+        3.18
+      ],
+      "dimensions": [
+        0.14,
+        0.1,
+        0.19
+      ],
+      "materials": [
+        "F08_BrushedStainless"
+      ]
+    },
+    {
+      "name": "F08_TRANSFER_STARWHEEL_RING",
+      "role": "curved preform transfer starwheel",
+      "location": [
+        52.15,
+        10.0,
+        3.08
+      ],
+      "dimensions": [
+        1.05,
+        1.05,
+        0.11
+      ],
+      "materials": [
+        "F08_SafetyAmber"
+      ]
+    },
+    {
+      "name": "F08_UTILITY_PIPE_HANGER_54.4",
+      "role": "north utility pipe supports",
+      "location": [
+        54.4,
+        13.9,
+        4.8
+      ],
+      "dimensions": [
+        0.09,
+        1.45,
+        0.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_UTILITY_PIPE_HANGER_55.8",
+      "role": "north utility pipe supports",
+      "location": [
+        55.8,
+        13.9,
+        4.8
+      ],
+      "dimensions": [
+        0.09,
+        1.45,
+        0.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_UTILITY_PIPE_HANGER_57.2",
+      "role": "north utility pipe supports",
+      "location": [
+        57.2,
+        13.9,
+        4.8
+      ],
+      "dimensions": [
+        0.09,
+        1.45,
+        0.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_UTILITY_PIPE_HANGER_58.6",
+      "role": "north utility pipe supports",
+      "location": [
+        58.6,
+        13.9,
+        4.8
+      ],
+      "dimensions": [
+        0.09,
+        1.45,
+        0.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_UTILITY_PIPE_HANGER_60.0",
+      "role": "north utility pipe supports",
+      "location": [
+        60.0,
+        13.9,
+        4.8
+      ],
+      "dimensions": [
+        0.09,
+        1.45,
+        0.1
+      ],
+      "materials": [
+        "F08_GraphiteFrames"
+      ]
+    },
+    {
+      "name": "F08_WEST_WALL",
+      "role": "west enclosure wall",
+      "location": [
+        33.14,
+        10.0,
+        4.295
+      ],
+      "dimensions": [
+        0.28,
+        24.0,
+        6.41
+      ],
+      "materials": [
+        "F08_WarmWhiteEnclosure"
+      ]
+    }
+  ]
+}

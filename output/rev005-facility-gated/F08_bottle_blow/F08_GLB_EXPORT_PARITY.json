@@ -1,0 +1,18 @@
+{
+  "task": "M08.42 / F08 only",
+  "status": "PASS",
+  "method": "pre-F08 named GLB membership minus exact confirmed F08 legacy names, plus every new accepted F08 mesh; selection visibility state restored",
+  "baseline_named_node_count": 10941,
+  "confirmed_f08_legacy_candidate_count": 391,
+  "retired_f08_nodes_present_in_baseline": 391,
+  "new_f08_mesh_count": 338,
+  "expected_node_count": 10888,
+  "actual_node_count": 10888,
+  "missing_expected_names": [],
+  "unexpected_names": [],
+  "accepted_f01_f07_baseline_names_preserved": true,
+  "new_f08_names_present": true,
+  "exact_retired_f08_names_absent": true,
+  "candidate_glb_sha256": "5325004702D94FB042EBA14EF83801681958097B64E98AAB2BD27871459B9ABC",
+  "candidate_path": "output\\rev005-facility-gated\\F08_bottle_blow\\F08_GLB_PARITY_CANDIDATE.glb"
+}

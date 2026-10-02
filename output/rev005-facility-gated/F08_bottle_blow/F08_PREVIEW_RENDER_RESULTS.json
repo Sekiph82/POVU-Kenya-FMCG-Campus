@@ -1,0 +1,82 @@
+{
+  "task": "M08.42 / F08 only",
+  "state_source": "F08_STAGED.blend saved model; no visibility changes",
+  "renders": [
+    {
+      "name": "A_CONTEXT",
+      "path": "output\\rev005-facility-gated\\F08_bottle_blow\\F08_A_CONTEXT_PREVIEW_900x600.png",
+      "resolution": [
+        900,
+        600
+      ],
+      "render_result": "FINISHED",
+      "camera_xyz": [
+        32.0,
+        -3.5,
+        6.0
+      ],
+      "target_xyz": [
+        40.225,
+        2.052,
+        4.766
+      ]
+    },
+    {
+      "name": "B_FUNCTIONAL",
+      "path": "output\\rev005-facility-gated\\F08_bottle_blow\\F08_B_FUNCTIONAL_PREVIEW_900x600.png",
+      "resolution": [
+        900,
+        600
+      ],
+      "render_result": "FINISHED",
+      "camera_xyz": [
+        45.0,
+        4.5,
+        5.5
+      ],
+      "target_xyz": [
+        53.815,
+        8.907,
+        3.805
+      ]
+    },
+    {
+      "name": "C_SEQUENCE_DETAIL",
+      "path": "output\\rev005-facility-gated\\F08_bottle_blow\\F08_C_SEQUENCE_DETAIL_PREVIEW_900x600.png",
+      "resolution": [
+        900,
+        600
+      ],
+      "render_result": "FINISHED",
+      "camera_xyz": [
+        51.0,
+        4.0,
+        4.0
+      ],
+      "target_xyz": [
+        57.791,
+        11.276,
+        3.03
+      ]
+    },
+    {
+      "name": "D_INTEGRATED",
+      "path": "output\\rev005-facility-gated\\F08_bottle_blow\\F08_D_INTEGRATED_PREVIEW_900x600.png",
+      "resolution": [
+        900,
+        600
+      ],
+      "render_result": "FINISHED",
+      "camera_xyz": [
+        37.5,
+        19.5,
+        6.5
+      ],
+      "target_xyz": [
+        46.272,
+        14.995,
+        4.84
+      ]
+    }
+  ]
+}
