@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.42A
-- Current Task: M08.42A — F08 blocked evidence publication only
+- Current Sprint: M08.43
+- Current Task: M08.43 — F08-R01 camera-contract remediation
 - Current Task Status: READY
-- Execution Authorization: M08.42A / F08 evidence publication only
-- Next Task/Action: Execute only M08.42A using `coordination/Prompts/REV005_FACILITY_F08_M08_42A_BLOCKED_EVIDENCE_PUBLISH_GPT_PROMPT.md`. Publish the already-produced blocked F08 log/JSON/renders and any F08-only reproduction helpers without changing or committing the canonical Blend/GLB. Stop at `AWAITING_GPT_F08_M08_42_VISUAL_AUDIT`. Do not remediate F08 and do not begin F09.
+- Execution Authorization: M08.43 / F08-R01 only
+- Next Task/Action: Execute only F08-R01 using `coordination/Prompts/REV005_FACILITY_F08_R01_CAMERA_CONTRACT_REMEDIATION_GPT_PROMPT.md`. Preserve the accepted staged F08 technical model, expand the camera search beyond the old ±3 m seed constraint, prove A/B/C/D label-blind process readability, and promote the exact staged state to canonical Blend/GLB only if all visual and technical gates pass. Stop at `AWAITING_GPT_FACILITY_AUDIT_F08_R01`. Do not begin F09.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -526,14 +526,25 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - No commit/push was made, so independent GPT cannot yet inspect the local blocker images.
   - No F09 work began.
 
-- [ ] M08.42A — F08 blocked evidence publication only
+- [x] M08.42A — F08 blocked evidence publication only
+  - Execution commit: `0960465b3ecc22a3f500aac2cc0d628f46f8530b`.
+  - Published four 900×600 previews, 14 JSON evidence files, six F08 reproduction helpers and both execution/publication logs.
+  - Canonical Blend/GLB remained unchanged.
+  - Independent GPT visual audit result: `REMEDIATION_REQUIRED_R01_CAMERA_CONTRACT`.
+  - Direct audit confirms staged process geometry exists; A is wall-occluded, while B/C/D are partial evidence but fail composition.
+  - Audit: `coordination/Audits/REV005_F08_M08_42_GPT_VISUAL_AUDIT.md`.
+
+- [ ] M08.43 — F08-R01 camera-contract remediation
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_M08_42A_BLOCKED_EVIDENCE_PUBLISH_GPT_PROMPT.md`.
-  - Publish existing M08.42 F08 blocked log/JSON/renders and F08-only reproduction helpers only.
-  - Do not regenerate/remediate the model in this task.
-  - Do not save or commit canonical Blend/GLB.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_R01_CAMERA_CONTRACT_REMEDIATION_GPT_PROMPT.md`.
+  - Locked R01 criteria: `coordination/Audits/REV005_F08_R01_CAMERA_REMEDIATION_GPT_CRITERIA.md`.
+  - Preserve the staged F08 geometry and accepted M08.42 technical gates.
+  - Old ±3 m camera-seed restriction is superseded.
+  - Search side-on/south-aisle and complementary functional/detail/integrated families with 16–35 mm lenses.
+  - Promote to canonical Blend/GLB only if selected A/B/C/D visual gates and technical revalidation all PASS.
+  - Publish blocked candidate evidence in the same run if no complete visual set exists.
   - Do not begin F09.
-  - Success stop: `AWAITING_GPT_F08_M08_42_VISUAL_AUDIT`.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08_R01`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
