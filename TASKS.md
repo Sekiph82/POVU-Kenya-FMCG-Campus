@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.42
-- Current Task: M08.42 — Facility-Gated F08 Bottle Blow Molding Class N completion
+- Current Sprint: M08.42A
+- Current Task: M08.42A — F08 blocked evidence publication only
 - Current Task Status: READY
-- Execution Authorization: M08.42 / F08 only
-- Next Task/Action: Execute only F08 Bottle Blow Molding using `coordination/Prompts/REV005_FACILITY_F08_BOTTLE_BLOW_MOLDING_CLASS_N_COMPLETION_GPT_PROMPT.md`. Build the complete preform hopper/feed → heater oven → guarded two-station blow cell → formed-bottle outfeed sequence to the locked Class N design contract, retire only confirmed Bottle Blow legacy objects, preserve F01-F07 and all accepted quarantine states, produce A/B/C/D evidence and deterministic GLB membership parity, then stop at `AWAITING_GPT_FACILITY_AUDIT_F08`. Do not begin F09.
+- Execution Authorization: M08.42A / F08 evidence publication only
+- Next Task/Action: Execute only M08.42A using `coordination/Prompts/REV005_FACILITY_F08_M08_42A_BLOCKED_EVIDENCE_PUBLISH_GPT_PROMPT.md`. Publish the already-produced blocked F08 log/JSON/renders and any F08-only reproduction helpers without changing or committing the canonical Blend/GLB. Stop at `AWAITING_GPT_F08_M08_42_VISUAL_AUDIT`. Do not remediate F08 and do not begin F09.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -519,17 +519,21 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Final audit: `coordination/Audits/REV005_F07_FINAL_GPT_AUDIT.md`.
   - F07 is locked.
 
-- [ ] M08.42 — F08 Bottle Blow Molding Class N completion
+- [!] M08.42 — F08 Bottle Blow Molding Class N completion
+  - Executor stopped before canonical save/export replacement because the A context view was wall-occluded and C sequence detail did not prove heater→blow-cell→formed-bottle discharge clearly enough.
+  - Ownership, protection, dimensional, collision and candidate GLB parity were reported PASS in the local blocked evidence.
+  - Canonical Blend/GLB were reported unchanged at the locked F07 baselines.
+  - No commit/push was made, so independent GPT cannot yet inspect the local blocker images.
+  - No F09 work began.
+
+- [ ] M08.42A — F08 blocked evidence publication only
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_BOTTLE_BLOW_MOLDING_CLASS_N_COMPLETION_GPT_PROMPT.md`.
-  - Design contract: `coordination/Audits/REV005_F08_BOTTLE_BLOW_MOLDING_DESIGN_CONTRACT.md`.
-  - Locked audit criteria: `coordination/Audits/REV005_F08_BOTTLE_BLOW_MOLDING_GPT_AUDIT_CRITERIA.md`.
-  - Locked envelope: center (52,10), 38×24 m.
-  - Required label-blind sequence: preform hopper/feed → heater oven → guarded two-station blow cell → formed-bottle outfeed/inspection.
-  - Preserve F01-F07 and all accepted quarantine/retirement states.
-  - Deterministic GLB membership export only; no broad use_visible export.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_M08_42A_BLOCKED_EVIDENCE_PUBLISH_GPT_PROMPT.md`.
+  - Publish existing M08.42 F08 blocked log/JSON/renders and F08-only reproduction helpers only.
+  - Do not regenerate/remediate the model in this task.
+  - Do not save or commit canonical Blend/GLB.
   - Do not begin F09.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08`.
+  - Success stop: `AWAITING_GPT_F08_M08_42_VISUAL_AUDIT`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
