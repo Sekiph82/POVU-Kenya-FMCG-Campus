@@ -1,0 +1,2613 @@
+{
+  "task": "M08.40 / F06-X03 only",
+  "status": "VISUALLY_REVIEWED_E01_SELECTED",
+  "canonical_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+  "candidate_count": 30,
+  "camera_positions": [
+    [
+      -14,
+      44,
+      4.5
+    ],
+    [
+      -13,
+      45,
+      4
+    ],
+    [
+      -12,
+      46,
+      4
+    ],
+    [
+      -11,
+      45,
+      5
+    ],
+    [
+      -10,
+      44,
+      4.5
+    ],
+    [
+      -9,
+      45,
+      4
+    ],
+    [
+      -8,
+      44,
+      5
+    ],
+    [
+      -7,
+      45,
+      4.5
+    ],
+    [
+      -13,
+      46.5,
+      4.5
+    ],
+    [
+      -11.5,
+      46.8,
+      5.5
+    ],
+    [
+      -5,
+      44,
+      4.5
+    ],
+    [
+      2,
+      45,
+      5
+    ],
+    [
+      5,
+      44,
+      4.5
+    ],
+    [
+      8,
+      45,
+      5
+    ],
+    [
+      6,
+      43,
+      5
+    ]
+  ],
+  "target_families": [
+    [
+      -6,
+      48,
+      2.2
+    ],
+    [
+      -5,
+      47.6,
+      2.2
+    ],
+    [
+      -7,
+      48.5,
+      2.3
+    ],
+    [
+      -4,
+      48.5,
+      2.2
+    ],
+    [
+      -2,
+      49,
+      2.2
+    ]
+  ],
+  "lens_set_mm": [
+    20,
+    24,
+    28,
+    32,
+    35,
+    40
+  ],
+  "sensor_width_mm": 36,
+  "candidates": [
+    {
+      "candidate_id": "E01",
+      "camera_xyz": [
+        -14.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -6.0,
+        48.0,
+        2.2
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.62,
+      "nearest_geometry_name": "V09_TUBE_FEED_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_01_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": true
+    },
+    {
+      "candidate_id": "E02",
+      "camera_xyz": [
+        -14.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -7.0,
+        48.5,
+        2.3
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.62,
+      "nearest_geometry_name": "V09_TUBE_FEED_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_02_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E03",
+      "camera_xyz": [
+        -13.0,
+        45.0,
+        4.0
+      ],
+      "target_xyz": [
+        -5.0,
+        47.6,
+        2.2
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.7517,
+      "nearest_geometry_name": "V09_TOOTHPASTE_GUARD_POST_-13.5_44.5",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_03_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E04",
+      "camera_xyz": [
+        -13.0,
+        45.0,
+        4.0
+      ],
+      "target_xyz": [
+        -4.0,
+        48.5,
+        2.2
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.7517,
+      "nearest_geometry_name": "V09_TOOTHPASTE_GUARD_POST_-13.5_44.5",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_04_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E05",
+      "camera_xyz": [
+        -12.0,
+        46.0,
+        4.0
+      ],
+      "target_xyz": [
+        -7.0,
+        48.5,
+        2.3
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.7457,
+      "nearest_geometry_name": "V09_TUBE_FEED_POST_1.5_1.25",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_05_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E06",
+      "camera_xyz": [
+        -12.0,
+        46.0,
+        4.0
+      ],
+      "target_xyz": [
+        -2.0,
+        49.0,
+        2.2
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.7457,
+      "nearest_geometry_name": "V09_TUBE_FEED_POST_1.5_1.25",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_06_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E07",
+      "camera_xyz": [
+        -11.0,
+        45.0,
+        5.0
+      ],
+      "target_xyz": [
+        -4.0,
+        48.5,
+        2.2
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.9868,
+      "nearest_geometry_name": "V09_TUBE_FEED_POST_1.5_1.25",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_07_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E08",
+      "camera_xyz": [
+        -11.0,
+        45.0,
+        5.0
+      ],
+      "target_xyz": [
+        -6.0,
+        48.0,
+        2.2
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.9868,
+      "nearest_geometry_name": "V09_TUBE_FEED_POST_1.5_1.25",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_08_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E09",
+      "camera_xyz": [
+        -10.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -2.0,
+        49.0,
+        2.2
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.0239,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_-2.0_1.5"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_-2.0_1.5"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_09_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E10",
+      "camera_xyz": [
+        -10.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -5.0,
+        47.6,
+        2.2
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.0239,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_-2.0_1.5"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_-2.0_1.5"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_10_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E11",
+      "camera_xyz": [
+        -9.0,
+        45.0,
+        4.0
+      ],
+      "target_xyz": [
+        -6.0,
+        48.0,
+        2.2
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.43,
+      "nearest_geometry_name": "V09_TUBE_FILL_POST_-2.0_1.5",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_11_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E12",
+      "camera_xyz": [
+        -9.0,
+        45.0,
+        4.0
+      ],
+      "target_xyz": [
+        -7.0,
+        48.5,
+        2.3
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.43,
+      "nearest_geometry_name": "V09_TUBE_FILL_POST_-2.0_1.5",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_12_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E13",
+      "camera_xyz": [
+        -8.0,
+        44.0,
+        5.0
+      ],
+      "target_xyz": [
+        -5.0,
+        47.6,
+        2.2
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.12,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        }
+      },
+      "operator_station_body_visible_los": false,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": false,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_13_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        }
+      },
+      "operator_station_body_visible": false,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": false,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E14",
+      "camera_xyz": [
+        -8.0,
+        44.0,
+        5.0
+      ],
+      "target_xyz": [
+        -4.0,
+        48.5,
+        2.2
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.12,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        }
+      },
+      "operator_station_body_visible_los": false,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": false,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_14_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_TOP"
+        }
+      },
+      "operator_station_body_visible": false,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": false,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E15",
+      "camera_xyz": [
+        -7.0,
+        45.0,
+        4.5
+      ],
+      "target_xyz": [
+        -7.0,
+        48.5,
+        2.3
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.5463,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_15_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E16",
+      "camera_xyz": [
+        -7.0,
+        45.0,
+        4.5
+      ],
+      "target_xyz": [
+        -2.0,
+        49.0,
+        2.2
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.5463,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_16_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E17",
+      "camera_xyz": [
+        -13.0,
+        46.5,
+        4.5
+      ],
+      "target_xyz": [
+        -4.0,
+        48.5,
+        2.2
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 2.1943,
+      "nearest_geometry_name": "V09_TOOTHPASTE_GUARD_POST_-13.5_44.5",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_1"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_17_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E18",
+      "camera_xyz": [
+        -13.0,
+        46.5,
+        4.5
+      ],
+      "target_xyz": [
+        -6.0,
+        48.0,
+        2.2
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 2.1943,
+      "nearest_geometry_name": "V09_TOOTHPASTE_GUARD_POST_-13.5_44.5",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_1"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_18_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E19",
+      "camera_xyz": [
+        -11.5,
+        46.8,
+        5.5
+      ],
+      "target_xyz": [
+        -2.0,
+        49.0,
+        2.2
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 2.7429,
+      "nearest_geometry_name": "V02_WEIGH_BOOTH_SIDE",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_2"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_19_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E20",
+      "camera_xyz": [
+        -11.5,
+        46.8,
+        5.5
+      ],
+      "target_xyz": [
+        -5.0,
+        47.6,
+        2.2
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 2.7429,
+      "nearest_geometry_name": "V02_WEIGH_BOOTH_SIDE",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_2"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_BALANCE_BOWL_0"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": true,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": false,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_20_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_1"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": true,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": false,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E21",
+      "camera_xyz": [
+        -5.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -6.0,
+        48.0,
+        2.2
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.22,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5"
+        }
+      },
+      "operator_station_body_visible_los": false,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_21_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        }
+      },
+      "operator_station_body_visible": false,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E22",
+      "camera_xyz": [
+        -5.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -7.0,
+        48.5,
+        2.3
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.22,
+      "nearest_geometry_name": "V09_TUBE_FILL_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_TUBE_FILL_POST_2.0_1.5"
+        }
+      },
+      "operator_station_body_visible_los": false,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": true,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_22_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        }
+      },
+      "operator_station_body_visible": false,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": true,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E23",
+      "camera_xyz": [
+        2.0,
+        45.0,
+        5.0
+      ],
+      "target_xyz": [
+        -5.0,
+        47.6,
+        2.2
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.5936,
+      "nearest_geometry_name": "V09_CRIMP_CODE_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_23_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E24",
+      "camera_xyz": [
+        2.0,
+        45.0,
+        5.0
+      ],
+      "target_xyz": [
+        -4.0,
+        48.5,
+        2.2
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.5936,
+      "nearest_geometry_name": "V09_CRIMP_CODE_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_BALANCE_TABLE"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_24_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E25",
+      "camera_xyz": [
+        5.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -7.0,
+        48.5,
+        2.3
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.825,
+      "nearest_geometry_name": "V09_WEB_ROLLER_0",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_25_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E26",
+      "camera_xyz": [
+        5.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -2.0,
+        49.0,
+        2.2
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.825,
+      "nearest_geometry_name": "V09_WEB_ROLLER_0",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_26_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V09_CRIMP_CODE_POST_2.0_1.5"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E27",
+      "camera_xyz": [
+        8.0,
+        45.0,
+        5.0
+      ],
+      "target_xyz": [
+        -4.0,
+        48.5,
+        2.2
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.91,
+      "nearest_geometry_name": "V09_TOOTHPASTE_RIGHT_WALL",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_27_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V02_WEIGH_DOSING_CHUTE_0"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E28",
+      "camera_xyz": [
+        8.0,
+        45.0,
+        5.0
+      ],
+      "target_xyz": [
+        -6.0,
+        48.0,
+        2.2
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 0.91,
+      "nearest_geometry_name": "V09_TOOTHPASTE_RIGHT_WALL",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        }
+      },
+      "operator_station_body_visible_los": true,
+      "operator_panel_visible_los": true,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": false,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_28_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V02_WEIGH_BOOTH_SIDE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V02_WEIGH_DOSING_CHUTE_0"
+        }
+      },
+      "operator_station_body_visible": true,
+      "operator_station_panel_visible": true,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": false,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E29",
+      "camera_xyz": [
+        6.0,
+        43.0,
+        5.0
+      ],
+      "target_xyz": [
+        -2.0,
+        49.0,
+        2.2
+      ],
+      "lens_mm": 35,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.36,
+      "nearest_geometry_name": "V09_TOOTHPASTE_GUARD_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        }
+      },
+      "operator_station_body_visible_los": false,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_29_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        }
+      },
+      "operator_station_body_visible": false,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    },
+    {
+      "candidate_id": "E30",
+      "camera_xyz": [
+        6.0,
+        43.0,
+        5.0
+      ],
+      "target_xyz": [
+        -5.0,
+        47.6,
+        2.2
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_outside_geometry": true,
+      "nearest_geometry_distance_m": 1.36,
+      "nearest_geometry_name": "V09_TOOTHPASTE_GUARD_TOP",
+      "los": {
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "V02_WEIGH_OPERATOR_TABLE": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "V02_PRECISION_BALANCE_0": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "V02_PRECISION_BALANCE_2": {
+          "visible": true,
+          "blocker": "V02_PRECISION_BALANCE_2"
+        },
+        "V02_WEIGH_TRANSFER_TOTE": {
+          "visible": true,
+          "blocker": "V02_WEIGH_TRANSFER_TOTE"
+        },
+        "V02_WEIGH_BALANCE_TABLE": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        }
+      },
+      "operator_station_body_visible_los": false,
+      "operator_panel_visible_los": false,
+      "V02_operator_table_visible_los": false,
+      "access_service_zone_readable_visual_review": false,
+      "safety_service_cue_visible_visual_review": true,
+      "shared_process_anchor_visible_los": true,
+      "structure_dominance_clipping_visual_review": true,
+      "preview_path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_CANDIDATE_30_900x600.png",
+      "safety_service_cues_los": {
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_EYEWASH"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_0": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        },
+        "REV005_WEIGH_DISPENSE_ROOM_STAGING_1": {
+          "visible": false,
+          "blocker": "V09_WEB_ROLLER_0"
+        }
+      },
+      "operator_station_body_visible": false,
+      "operator_station_panel_visible": false,
+      "V02_operator_table_visible": false,
+      "access_service_zone_readable": false,
+      "safety_service_cue_visible": true,
+      "shared_process_anchor_visible": true,
+      "visual_review_status": "VISUALLY_REVIEWED",
+      "structure_dominance_or_clipping": true,
+      "selected_for_final": false
+    }
+  ],
+  "selected_candidate_id": "E01",
+  "visual_review_note": "All 30 previews visually inspected; E01 preserves a readable service aisle, operator body and panel, V02 operator table, PPE cue, and shared F06 process equipment without dominant occlusion."
+}

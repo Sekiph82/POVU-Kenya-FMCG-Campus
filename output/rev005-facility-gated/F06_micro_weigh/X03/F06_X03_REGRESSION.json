@@ -1,0 +1,56 @@
+{
+  "task": "M08.40 / F06-X03 only",
+  "status": "PASS",
+  "canonical_files": {
+    "blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "expected_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "blend_unchanged": true,
+    "glb_sha256": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133",
+    "expected_glb_sha256": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133",
+    "glb_unchanged": true
+  },
+  "F06_destination_collection": "REV005_FG_F06_MICRO_WEIGH_ACCEPTED_V05_REPLAY",
+  "F06_destination_count": 43,
+  "expected_F06_count": 43,
+  "historical_contribution_split": {
+    "BASE": 7,
+    "V01": 12,
+    "V02": 23,
+    "V03": 0,
+    "V04": 0,
+    "V05": 1
+  },
+  "all_43_F06_signatures_unchanged": true,
+  "signature_evidence": {
+    "method": "Current canonical Blend SHA-256 equals locked X02/X01 accepted canonical state; source is byte-identical, preserving all object signatures.",
+    "prior_regression": "output/rev005-facility-gated/F06_micro_weigh/X02/F06_X02_REGRESSION.json",
+    "prior_signature_check_status": "PASS",
+    "prior_all_43_unchanged": true
+  },
+  "X01_quarantine": {
+    "count": 7,
+    "expected_count": 7,
+    "objects": [
+      "V09_TOOTHPASTE_FLOOR",
+      "V09_TOOTHPASTE_BACK_WALL",
+      "V09_TOOTHPASTE_SOFFIT",
+      "V09_WET_WIPES_FLOOR",
+      "V09_WET_WIPES_BACK_WALL",
+      "V09_WET_WIPES_LEFT_WALL",
+      "V09_WET_WIPES_SOFFIT"
+    ],
+    "all_locked_and_unchanged": true,
+    "saved_hidden_state_preserved": true
+  },
+  "F01_F05_protection": {
+    "status": "PASS",
+    "method": "canonical Blend byte identity to X01 accepted locked state",
+    "unchanged": true,
+    "accepted_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "current_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B"
+  },
+  "F07_started": false,
+  "geometry_mutation": false,
+  "saved_visibility_mutation": false,
+  "stop_marker": "AWAITING_GPT_FACILITY_AUDIT_F06_X03"
+}

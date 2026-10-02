@@ -1,0 +1,140 @@
+{
+  "task": "M08.40 / F06-X03 only",
+  "status": "PASS",
+  "canonical_state": {
+    "blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "expected_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+    "blend_unchanged": true,
+    "glb_sha256": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133",
+    "expected_glb_sha256": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133",
+    "glb_unchanged": true
+  },
+  "views": {
+    "D": {
+      "camera_xyz": [
+        8,
+        43,
+        6
+      ],
+      "target_xyz": [
+        -4,
+        50,
+        2.8
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "process_overview": true,
+      "booth": true,
+      "hopper_row": true,
+      "valves": true,
+      "dosing": true,
+      "precision_balances": true,
+      "balance_table": true,
+      "transfer_tote": true,
+      "coherent_process_relationship": true,
+      "visual_review": "PASS",
+      "images": {
+        "full": {
+          "path": "output/rev005-facility-gated/F06_micro_weigh/X03/D_PROCESS_INTEGRATED_CONTEXT.png",
+          "sha256": "EC36EE45EA35DF6D3EDDA386F2BDBB9CE64691FBD1A05856F52BE0F499A70C99",
+          "dimensions_px": [
+            1440,
+            960
+          ],
+          "bytes": 1581605
+        },
+        "preview": {
+          "path": "output/rev005-facility-gated/F06_micro_weigh/X03/D_PROCESS_INTEGRATED_CONTEXT_PREVIEW_900x600.png",
+          "sha256": "A7DE7657F6B9C422BCBFF0CAE0FAC59073933EFB15D00F23262D106F25668178",
+          "dimensions_px": [
+            900,
+            600
+          ],
+          "bytes": 658269
+        }
+      }
+    },
+    "E": {
+      "selected_candidate_id": "E01",
+      "camera_xyz": [
+        -14.0,
+        44.0,
+        4.5
+      ],
+      "target_xyz": [
+        -6.0,
+        48.0,
+        2.2
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "operator_station_body": true,
+      "operator_station_panel": true,
+      "operator_table_or_service_zone": true,
+      "access_organization": true,
+      "service_or_safety_cue": true,
+      "service_safety_cues": [
+        "PPE station",
+        "service workspace/staging"
+      ],
+      "shared_process_anchor": true,
+      "visual_review": "PASS",
+      "images": {
+        "full": {
+          "path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_OPERATOR_ACCESS_CONTEXT.png",
+          "sha256": "CD630890014D8C3E4D0CC37BC4E12B41AC31D7251A56C2B05AEF649D932F38EC",
+          "dimensions_px": [
+            1440,
+            960
+          ],
+          "bytes": 1508761
+        },
+        "preview": {
+          "path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_OPERATOR_ACCESS_CONTEXT_PREVIEW_900x600.png",
+          "sha256": "74C037B1603D19DC1B0E1C36ACFF13164E00512E6A6385E6EE5844929F7B6081",
+          "dimensions_px": [
+            900,
+            600
+          ],
+          "bytes": 637867
+        }
+      },
+      "line_of_sight": {
+        "operator_body": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        },
+        "operator_panel": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_PANEL"
+        },
+        "operator_table": {
+          "visible": true,
+          "blocker": "V02_WEIGH_OPERATOR_TABLE"
+        },
+        "PPE": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_SAFETY_PPE"
+        },
+        "staging_0": {
+          "visible": true,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_STAGING_0"
+        },
+        "transfer_tote": {
+          "visible": false,
+          "blocker": "REV005_WEIGH_DISPENSE_ROOM_OPERATOR_STATION_BODY"
+        }
+      }
+    }
+  },
+  "pair": {
+    "same_canonical_blend_state": true,
+    "same_saved_visibility_state": true,
+    "same_locked_seven_quarantines": true,
+    "qa_only_hiding_used": false,
+    "neighbor_mutation": false,
+    "geometry_mutation": false,
+    "complete_original_F06_visual_contract_covered_by_pair": true
+  },
+  "stop_marker": "AWAITING_GPT_FACILITY_AUDIT_F06_X03"
+}

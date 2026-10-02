@@ -1,0 +1,52 @@
+{
+  "task": "M08.40 / F06-X03 only",
+  "status": "PASS",
+  "coverage": {
+    "original_F06_process_transfer_contract": "D",
+    "operator_station_and_access": "E",
+    "safety_service_cue": "E",
+    "same_facility_spatial_link": "D+E",
+    "complete_original_F06_visual_contract_covered_by_pair": true
+  },
+  "selected_E_candidate_id": "E01",
+  "reviewed_candidate_count": 30,
+  "images": {
+    "D_full": {
+      "path": "output/rev005-facility-gated/F06_micro_weigh/X03/D_PROCESS_INTEGRATED_CONTEXT.png",
+      "sha256": "EC36EE45EA35DF6D3EDDA386F2BDBB9CE64691FBD1A05856F52BE0F499A70C99",
+      "dimensions_px": [
+        1440,
+        960
+      ],
+      "bytes": 1581605
+    },
+    "D_preview": {
+      "path": "output/rev005-facility-gated/F06_micro_weigh/X03/D_PROCESS_INTEGRATED_CONTEXT_PREVIEW_900x600.png",
+      "sha256": "A7DE7657F6B9C422BCBFF0CAE0FAC59073933EFB15D00F23262D106F25668178",
+      "dimensions_px": [
+        900,
+        600
+      ],
+      "bytes": 658269
+    },
+    "E_full": {
+      "path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_OPERATOR_ACCESS_CONTEXT.png",
+      "sha256": "CD630890014D8C3E4D0CC37BC4E12B41AC31D7251A56C2B05AEF649D932F38EC",
+      "dimensions_px": [
+        1440,
+        960
+      ],
+      "bytes": 1508761
+    },
+    "E_preview": {
+      "path": "output/rev005-facility-gated/F06_micro_weigh/X03/E_OPERATOR_ACCESS_CONTEXT_PREVIEW_900x600.png",
+      "sha256": "74C037B1603D19DC1B0E1C36ACFF13164E00512E6A6385E6EE5844929F7B6081",
+      "dimensions_px": [
+        900,
+        600
+      ],
+      "bytes": 637867
+    }
+  },
+  "review_basis": "Direct review of full-resolution D and E plus all 30 E preview renders; E01 line-of-sight verified for body, panel, table, PPE, staging, and shared transfer tote."
+}

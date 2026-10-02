@@ -1,0 +1,21 @@
+{
+  "task": "M08.40 / F06-X03 only",
+  "status": "PASS",
+  "candidate_count": 30,
+  "candidate_limit": {
+    "minimum": 12,
+    "maximum": 30,
+    "satisfied": true
+  },
+  "selected_candidate_id": "E01",
+  "locked_canonical_hashes_unchanged": true,
+  "required_images_present_and_dimensions_valid": true,
+  "evidence_jsons_written": [
+    "F06_X03_OPERATOR_ACCESS_CANDIDATES.json",
+    "F06_X03_DUAL_VIEW_VALIDATION.json",
+    "F06_X03_COMBINED_VISUAL_COVERAGE.json",
+    "F06_X03_REGRESSION.json"
+  ],
+  "git_scope_only_X03_evidence": true,
+  "stop_marker": "AWAITING_GPT_FACILITY_AUDIT_F06_X03"
+}
