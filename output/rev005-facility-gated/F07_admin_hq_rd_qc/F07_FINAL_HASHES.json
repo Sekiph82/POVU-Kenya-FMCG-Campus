@@ -1,0 +1,15 @@
+{
+  "task": "M08.41 / F07 only",
+  "status": "SAVED",
+  "blend_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_KENYA_FMCG_CAMPUS_REV005_INTERIOR_COMPLETION_MASTER.blend",
+  "glb_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\3d\\revisions\\REV005\\POVU_REV005_INTERIOR_COMPLETION_MASTER.glb",
+  "blend_sha256": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+  "glb_sha256": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+  "baseline_blend_sha256": "4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B",
+  "baseline_glb_sha256": "948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133",
+  "glb_export_parity": "PASS",
+  "expected_glb_node_count": 10941,
+  "actual_glb_node_count": 10941,
+  "canonical_blend_replaced": true,
+  "canonical_glb_replaced": true
+}

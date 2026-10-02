@@ -1,0 +1,16 @@
+{
+  "saved_destination_collection_exists": true,
+  "new_f07_mesh_count": 789,
+  "new_f07_mesh_count_pass": true,
+  "retired_legacy_count": 446,
+  "retired_legacy_count_pass": true,
+  "all_retired_hidden": true,
+  "glb_actual_node_count": 10941,
+  "glb_parity_expected": 10941,
+  "glb_node_membership_exact": true,
+  "blend_sha256": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+  "glb_sha256": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+  "blend_hash_matches_final_hashes": true,
+  "glb_hash_matches_final_hashes": true,
+  "status": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "task": "M08.41 / F07 only",
+  "status": "PASS",
+  "method": "accepted pre-F07 GLB node-name set minus exact confirmed F07 legacy names, plus all new accepted F07 mesh names; Blender glTF selection export use_selection=true use_visible=false export_cameras=true export_lights=true",
+  "baseline_node_count": 10598,
+  "retired_legacy_glb_node_count": 446,
+  "new_f07_node_count": 789,
+  "expected_node_count": 10941,
+  "actual_node_count": 10941,
+  "missing_expected_names": [],
+  "unexpected_names": [],
+  "accepted_f01_f06_baseline_names_preserved": true,
+  "new_f07_names_present": true,
+  "retired_f07_legacy_names_absent": true,
+  "canonical_glb_sha256_unchanged": true,
+  "candidate_glb_sha256": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+  "candidate_path": "C:\\Users\\sekip\\Desktop\\POVU-Kenya-FMCG-Campus\\output\\rev005-facility-gated\\F07_admin_hq_rd_qc\\F07_GLB_PARITY_CANDIDATE.glb"
+}

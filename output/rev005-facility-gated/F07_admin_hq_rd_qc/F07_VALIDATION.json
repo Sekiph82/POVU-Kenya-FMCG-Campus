@@ -1,0 +1,527 @@
+{
+  "task": "M08.41 / F07 only",
+  "facility": "Administration / HQ / R&D / QC",
+  "status": "PASS",
+  "room_envelope": {
+    "center": [
+      -58,
+      -64
+    ],
+    "dimensions": [
+      46,
+      28
+    ],
+    "x_range": [
+      -81,
+      -35
+    ],
+    "y_range": [
+      -78,
+      -50
+    ]
+  },
+  "anchor_checks": [
+    {
+      "name": "F07_ROOM_FLOOR",
+      "actual_location": [
+        -58.0,
+        -64.0,
+        1.0
+      ],
+      "actual_dimensions": [
+        46.0,
+        28.0,
+        0.18
+      ],
+      "expected_location": [
+        -58,
+        -64,
+        1
+      ],
+      "expected_dimensions": [
+        46,
+        28,
+        0.18
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_RECEPTION_DESK_TOP",
+      "actual_location": [
+        -74.0,
+        -72.5,
+        1.82
+      ],
+      "actual_dimensions": [
+        5.5,
+        1.0,
+        0.1
+      ],
+      "expected_location": [
+        -74,
+        -72.5,
+        1.82
+      ],
+      "expected_dimensions": [
+        5.5,
+        1,
+        0.1
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_MEETING_DISPLAY_SCREEN",
+      "actual_location": [
+        -59.0,
+        -50.32,
+        3.4
+      ],
+      "actual_dimensions": [
+        3.2,
+        0.035,
+        1.8
+      ],
+      "expected_location": [
+        -59,
+        -50.32,
+        3.4
+      ],
+      "expected_dimensions": [
+        3.2,
+        0.035,
+        1.8
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_SAMPLE_ISLAND_TOP",
+      "actual_location": [
+        -44.5,
+        -60.3,
+        1.96
+      ],
+      "actual_dimensions": [
+        1.2,
+        5.0,
+        0.1
+      ],
+      "expected_location": [
+        -44.5,
+        -60.3,
+        1.96
+      ],
+      "expected_dimensions": [
+        1.2,
+        5,
+        0.1
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_SINK_BENCH_TOP",
+      "actual_location": [
+        -38.5,
+        -72.0,
+        1.96
+      ],
+      "actual_dimensions": [
+        2.2,
+        0.8,
+        0.1
+      ],
+      "expected_location": [
+        -38.5,
+        -72,
+        1.96
+      ],
+      "expected_dimensions": [
+        2.2,
+        0.8,
+        0.1
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_00_TOP",
+      "actual_location": [
+        -69.0,
+        -65.2,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -69,
+        -65.2,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_01_TOP",
+      "actual_location": [
+        -65.0,
+        -65.2,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -65,
+        -65.2,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_02_TOP",
+      "actual_location": [
+        -61.0,
+        -65.2,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -61,
+        -65.2,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_03_TOP",
+      "actual_location": [
+        -57.0,
+        -65.2,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -57,
+        -65.2,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_04_TOP",
+      "actual_location": [
+        -69.0,
+        -61.3,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -69,
+        -61.3,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_05_TOP",
+      "actual_location": [
+        -65.0,
+        -61.3,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -65,
+        -61.3,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_06_TOP",
+      "actual_location": [
+        -61.0,
+        -61.3,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -61,
+        -61.3,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_OFFICE_STATION_07_TOP",
+      "actual_location": [
+        -57.0,
+        -61.3,
+        1.81
+      ],
+      "actual_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "expected_location": [
+        -57,
+        -61.3,
+        1.81
+      ],
+      "expected_dimensions": [
+        1.6,
+        0.75,
+        0.06
+      ],
+      "tolerance_m": 0.05,
+      "pass": true
+    },
+    {
+      "name": "F07_LAB_BENCH_1_WORKTOP",
+      "location": [
+        -48.0,
+        -72.0,
+        1.94
+      ],
+      "dimensions": [
+        0.8,
+        4.0,
+        0.1
+      ],
+      "footprint_orientation": "4.0 m long axis along Y",
+      "pass": true
+    },
+    {
+      "name": "F07_LAB_BENCH_2_WORKTOP",
+      "location": [
+        -43.0,
+        -72.0,
+        1.94
+      ],
+      "dimensions": [
+        0.8,
+        4.0,
+        0.1
+      ],
+      "footprint_orientation": "4.0 m long axis along Y",
+      "pass": true
+    },
+    {
+      "name": "F07_LAB_BENCH_3_WORKTOP",
+      "location": [
+        -48.0,
+        -66.0,
+        1.94
+      ],
+      "dimensions": [
+        0.8,
+        4.0,
+        0.1
+      ],
+      "footprint_orientation": "4.0 m long axis along Y",
+      "pass": true
+    },
+    {
+      "name": "F07_LAB_BENCH_4_WORKTOP",
+      "location": [
+        -43.0,
+        -66.0,
+        1.94
+      ],
+      "dimensions": [
+        0.8,
+        4.0,
+        0.1
+      ],
+      "footprint_orientation": "4.0 m long axis along Y",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "reception_visitor_chairs": 4,
+    "reception_operator_chair": 1,
+    "office_workstations": 8,
+    "meeting_chairs": 10,
+    "primary_lab_benches": 4,
+    "qc_instrument_classes": 6,
+    "storage_bays": 5,
+    "ceiling_fixtures": 12,
+    "lab_task_lights": 4
+  },
+  "confirmed_legacy_retired": 446,
+  "ambiguous_legacy_candidates": 0,
+  "not_f07_candidates_preserved": 121,
+  "protection_diff": "PASS",
+  "cross_facility_collisions": [],
+  "outside_envelope_objects": [],
+  "accepted_mesh_count": 789,
+  "camera_records": [
+    {
+      "name": "A_CONTEXT",
+      "camera_xyz": [
+        -78,
+        -75,
+        5.2
+      ],
+      "target_xyz": [
+        -57,
+        -64,
+        2.6
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    },
+    {
+      "name": "B_FUNCTIONAL",
+      "camera_xyz": [
+        -69,
+        -67,
+        4.4
+      ],
+      "target_xyz": [
+        -45,
+        -66,
+        2.4
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    },
+    {
+      "name": "C_LAB_DETAIL",
+      "camera_xyz": [
+        -49.5,
+        -74.5,
+        3.8
+      ],
+      "target_xyz": [
+        -45,
+        -69,
+        2.5
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    },
+    {
+      "name": "D_INTEGRATED",
+      "camera_xyz": [
+        -77,
+        -71,
+        5.8
+      ],
+      "target_xyz": [
+        -52,
+        -63.5,
+        2.7
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    }
+  ],
+  "visual_status": "RENDERED_FOR_REVIEW"
+}

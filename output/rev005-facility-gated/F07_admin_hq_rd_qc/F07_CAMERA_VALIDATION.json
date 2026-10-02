@@ -1,0 +1,102 @@
+{
+  "task": "M08.41 / F07 only",
+  "status": "PASS",
+  "cameras": [
+    {
+      "name": "A_CONTEXT",
+      "camera_xyz": [
+        -78,
+        -75,
+        5.2
+      ],
+      "target_xyz": [
+        -57,
+        -64,
+        2.6
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    },
+    {
+      "name": "B_FUNCTIONAL",
+      "camera_xyz": [
+        -69,
+        -67,
+        4.4
+      ],
+      "target_xyz": [
+        -45,
+        -66,
+        2.4
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    },
+    {
+      "name": "C_LAB_DETAIL",
+      "camera_xyz": [
+        -49.5,
+        -74.5,
+        3.8
+      ],
+      "target_xyz": [
+        -45,
+        -69,
+        2.5
+      ],
+      "lens_mm": 40,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    },
+    {
+      "name": "D_INTEGRATED",
+      "camera_xyz": [
+        -77,
+        -71,
+        5.8
+      ],
+      "target_xyz": [
+        -52,
+        -63.5,
+        2.7
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "camera_inside_geometry": false,
+      "final_resolution": [
+        1440,
+        960
+      ],
+      "preview_resolution": [
+        900,
+        600
+      ]
+    }
+  ]
+}
