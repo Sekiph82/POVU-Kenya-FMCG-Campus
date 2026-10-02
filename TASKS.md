@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.40
-- Current Task: M08.40 — Facility-Gated F06-X03 dual-view evidence closure
+- Current Sprint: M08.41
+- Current Task: M08.41 — Facility-Gated F07 Administration / HQ / R&D / QC Class N completion
 - Current Task Status: READY
-- Execution Authorization: M08.40 / F06-X03 only
-- Next Task/Action: Execute only F06-X03 using `coordination/Prompts/REV005_FACILITY_F06_X03_DUAL_VIEW_EVIDENCE_CLOSURE_GPT_PROMPT.md`. Preserve the accepted 43-object F06 geometry, the exact seven X01 quarantines, the locked Blend/GLB hashes, and close the remaining visual proof using two complementary current-context views: D process/transfer and E operator/service/access. Stop at `AWAITING_GPT_FACILITY_AUDIT_F06_X03`. Do not begin F07.
+- Execution Authorization: M08.41 / F07 only
+- Next Task/Action: Execute only F07 Administration / HQ / R&D / QC using `coordination/Prompts/REV005_FACILITY_F07_ADMIN_HQ_RD_QC_CLASS_N_COMPLETION_GPT_PROMPT.md`. Build the first Class N facility to the locked dimensional/design contract, retire only confirmed legacy Admin-owned representation, preserve F01-F06 and all accepted quarantine states, produce A/B/C/D visual evidence and deterministic GLB membership parity, then stop at `AWAITING_GPT_FACILITY_AUDIT_F07`. Do not begin F08.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -33,7 +33,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F03 Electrical / LV-MV Room is now independently PASS and locked. Its 30 accepted objects are protected against casual edits.
 - F04 Employee Changing / Shower / Locker Support is now independently PASS and locked. Its 59 accepted objects and accepted X01 quarantine state are protected against casual edits.
 - F05 Fire Pump House is independently PASS and locked after M08.35 at `b0d8214a80621d867fcccb7aebf1d117c9e7b2c5`. The accepted R01 integrated camera is `front_exterior_right` with 9/9 LOS and direct visual readability; the Restaurant right-wall discrepancy was proven `MANIFEST_DERIVATION_BUG_ONLY` with zero unauthorized protected-state differences. Canonical Blend/GLB hashes remained unchanged.
-- F06 Micro-ingredient Weigh / Dispense remains the only active facility. M08.39 at `c1963124397d4b343349e075fd9b883eb911f403` passed contribution regression and deterministic GLB membership parity with 43/43 F06 names preserved and only the seven X01 quarantine names removed. After 78 wide-FOV candidates, no single frame could prove both the process side and operator/service/access side without legitimate occlusion. Independent GPT X02 audit therefore supersedes the single-frame requirement for F06 only and authorizes an evidence-only two-view closure in M08.40. No later facility may begin until F06 receives independent GPT PASS.
+- F06 Micro-ingredient Weigh / Dispense is independently PASS and locked after M08.40 at `dcad5ce30b0a3c1640a94c740f81744229602b69`. D process/transfer and E operator/service/access views jointly satisfy the F06-specific dual-view closure contract from the same canonical state; Blend and GLB hashes remain `4C2C7E...AA5B` and `948777A2...AF133`. All six Class R facilities are now closed. F07 Administration / HQ / R&D / QC is the first active Class N facility; no later facility may begin until F07 receives independent GPT PASS.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
@@ -492,17 +492,31 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Independent GPT audit supersedes the single-frame gate for F06 only and requires X03 two-view evidence closure.
   - Audit: `coordination/Audits/REV005_F06_X02_GPT_AUDIT.md`.
 
-- [ ] M08.40 — F06-X03 dual-view evidence closure
+- [x] M08.40 — F06-X03 dual-view evidence closure
+  - Execution commit: `dcad5ce30b0a3c1640a94c740f81744229602b69`.
+  - D process/transfer overview: PASS.
+  - E operator/service/access proof: PASS.
+  - Same canonical state, no QA-only hiding, no geometry/neighbor mutation.
+  - F06 destination count 43 and contribution split 7/12/23/0/0/1 unchanged.
+  - Exact seven X01 quarantines unchanged.
+  - Canonical Blend: `4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B`.
+  - Canonical GLB: `948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133`.
+  - Independent GPT final decision: PASS.
+  - Final audit: `coordination/Audits/REV005_F06_FINAL_GPT_AUDIT.md`.
+  - F06 is locked; all six Class R facilities are complete.
+
+- [ ] M08.41 — F07 Administration / HQ / R&D / QC Class N completion
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F06_X03_DUAL_VIEW_EVIDENCE_CLOSURE_GPT_PROMPT.md`.
-  - Evidence-only. No Blend save, no GLB export, no geometry change, no wider quarantine.
-  - View D must prove booth/hoppers/valves/dosing/balances/transfer workflow.
-  - View E must prove operator station/service/access organization with a shared process anchor linking it to D.
-  - Both views must use the exact same locked canonical state.
-  - Blend must remain `4C2C7E4439CEE37874042C802FB8439729623982AA6E84ADCBE1E6661173AA5B`.
-  - GLB must remain `948777A20528E4F3FB86D8DA72981049F063E67F36315C6349C6B736E4DAF133`.
-  - Do not begin F07.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F06_X03`.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F07_ADMIN_HQ_RD_QC_CLASS_N_COMPLETION_GPT_PROMPT.md`.
+  - Design contract: `coordination/Audits/REV005_F07_ADMIN_HQ_RD_QC_DESIGN_CONTRACT.md`.
+  - Locked audit criteria: `coordination/Audits/REV005_F07_ADMIN_HQ_RD_QC_GPT_AUDIT_CRITERIA.md`.
+  - First Class N facility.
+  - Locked envelope: center (-58,-64), 46×28 m.
+  - Required zones: reception, HQ open office, meeting/collaboration, R&D/QC laboratory.
+  - Preserve F01-F06 and all accepted quarantine states.
+  - Deterministic GLB membership export only; no broad use_visible export.
+  - Do not begin F08.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F07`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
