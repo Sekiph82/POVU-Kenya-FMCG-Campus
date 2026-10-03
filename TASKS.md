@@ -9,13 +9,13 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.47
-- Current Task: M08.47 — F08–F15 combined facility closure
-- Current Task Status: EXECUTION_COMPLETE_AWAITING_INDEPENDENT_GPT_AUDIT_WITH_RECORDED_BLOCKERS
-- Execution Authorization: M08.47 / F08–F15 combined campaign
-- Next Task/Action: Independent GPT combined audit of M08.47 using `coordination/Logs/REV005_F08_F15_COMBINED_FACILITY_CLOSURE_CODEX_LOG.md`, the 24 rendered PNGs and contact sheets under `output/rev005-facility-gated/F08_F15_combined/`, the canonical Blend/GLB, and the published exact-node parity/protection reports. Resolve recorded blockers for F08, F09, F11 and F15; review builder-pass claims for F10, F12, F13 and F14. Do not self-mark independent GPT PASS.
-- Required Actor: GPT
-- Workflow State: AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS
+- Current Sprint: M08.48
+- Current Task: M08.48 — F08/F09/F11/F15 final visual closure + F08–F15 evidence publication
+- Current Task Status: READY
+- Execution Authorization: M08.48 / combined four-blocker remediation + eight-facility visual evidence publication
+- Next Task/Action: Execute M08.48 using `coordination/Prompts/REV005_M08_48_F08_F15_FINAL_VISUAL_CLOSURE_GPT_PROMPT.md`. Preserve F01–F07 and the technically accepted F10/F12/F13/F14 promotions; remediate only F08/F09/F11/F15 unless rerender proves a real defect; commit the exact final 24 audit frames plus three contact sheets under `coordination/Evidence/M08_48_F08_F15_FINAL_VISUAL_AUDIT/`; then stop at the combined GPT final visual-audit state.
+- Required Actor: CODEX
+- Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
 - Tracking Branch: main
 
@@ -34,7 +34,7 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - F04 Employee Changing / Shower / Locker Support is now independently PASS and locked. Its 59 accepted objects and accepted X01 quarantine state are protected against casual edits.
 - F05 Fire Pump House is independently PASS and locked after M08.35 at `b0d8214a80621d867fcccb7aebf1d117c9e7b2c5`. The accepted R01 integrated camera is `front_exterior_right` with 9/9 LOS and direct visual readability; the Restaurant right-wall discrepancy was proven `MANIFEST_DERIVATION_BUG_ONLY` with zero unauthorized protected-state differences. Canonical Blend/GLB hashes remained unchanged.
 - F06 Micro-ingredient Weigh / Dispense is independently PASS and locked after M08.40 at `dcad5ce30b0a3c1640a94c740f81744229602b69`. D process/transfer and E operator/service/access views jointly satisfy the F06-specific dual-view closure contract from the same canonical state; Blend and GLB hashes remain `4C2C7E...AA5B` and `948777A2...AF133`. All six Class R facilities are closed.
-- F07 Administration / HQ / R&D / QC is independently PASS and locked after M08.41 at `1b87d909946a165eec138f112d8bcd81d7350a61`. The 789-mesh Class N facility, 446-object exact legacy retirement, prior-state protection, four-view visual gate and 10,941-node deterministic GLB parity all passed. Canonical Blend/GLB are `B2C248A0...09642` and `B5C73F92...E28372`. F08 Bottle Blow Molding is now the active Class N facility; no later facility may begin until F08 receives independent GPT PASS.
+- F07 Administration / HQ / R&D / QC is independently PASS and locked after M08.41 at `1b87d909946a165eec138f112d8bcd81d7350a61`. The 789-mesh Class N facility, 446-object exact legacy retirement, prior-state protection, four-view visual gate and 10,941-node deterministic GLB parity all passed. Canonical Blend/GLB at that accepted boundary were `B2C248A0...09642` and `B5C73F92...E28372`. The former one-facility stop rule was explicitly superseded by the owner's M08.47 combined-campaign directive; current continuation is governed by M08.48.
 - F04 first attempt stopped correctly at `BLOCKED_F04_INTEGRATED_COLLISION` before canonical save. Historical 59-object source, dimensional contract and archived A/B parity passed. Root cause is now confirmed as a camera-model error: F04 is intentionally contained inside the historical `WELLNESS_PAVILION` (X 19–41, Y -79–-61, Z 1.2–7.2), so an exterior 8-azimuth ring necessarily hits the legitimate pavilion shell. F04 V02 uses an interior pavilion camera grid and does not quarantine Wellness/Training/Restaurant.
 - F04 V02 then tested 432 interior-camera candidates. Best candidates reached 7/9 clear rays but none satisfied the hard 35–78% projected-area framing threshold, so it stopped at `BLOCKED_F04_INTERIOR_CAMERA_NO_VALID_VIEW` without canonical mutation. V03 now removes projected-area percentage as an automatic gate and instead produces evidence-only candidate previews for independent GPT visual selection.
 - F04 V03 then stopped at `BLOCKED_F04_V03_NO_ELIGIBLE_CANDIDATES`: source validation still passed and V02 contained 45 rows / 15 unique seeds at >=7/9 clear rays, but V03 eligibility rejected all expanded candidates before any preview was rendered. V04 therefore forces actual preview rendering from the best >=7/9 seeds and removes projected-area/clipping as a pre-render blocker so GPT can judge the images directly.
@@ -586,6 +586,22 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Exact GLB node parity passed: 10,941 baseline nodes, 350 prior target nodes replaced, 595 new target nodes, 11,186 final nodes, zero missing/extra.
   - Final execution stop: `AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS`.
   - Next actor: GPT for the independent combined audit. Builder evidence is not acceptance.
+  - Independent GPT M08.47 audit: `REMEDIATION_REQUIRED_EVIDENCE_PUBLICATION_AND_4_FACILITY_VISUAL_CLOSURE`.
+  - Technical acceptance: F10/F12/F13/F14 selective promotion scope, non-promoted object protection, 24/24 solid-camera-origin checks and exact 11,186-node GLB parity are accepted.
+  - Visual acceptance remains pending because the exact 24 final renders/contact sheets were left only in an ignored local output path and are not available in GitHub for direct GPT inspection.
+  - Audit: `coordination/Audits/REV005_M08_47_F08_F15_COMBINED_GPT_AUDIT.md`.
+  - Operationally superseded by M08.48.
+  - Do not self-mark independent GPT PASS.
+
+- [ ] M08.48 — F08/F09/F11/F15 final visual closure + F08–F15 evidence publication
+  - Actor: CODEX.
+  - Prompt: `coordination/Prompts/REV005_M08_48_F08_F15_FINAL_VISUAL_CLOSURE_GPT_PROMPT.md`.
+  - Preserve F01–F07 and the technically accepted current F10/F12/F13/F14 promotions.
+  - Remediate the four recorded blockers only: F08 process-state sequence readability; F09 receiving-to-transfer continuity; F11 staging/dispatch/loading plus recognizable handling vehicle; F15 receiving-versus-issue separation plus recognizable handling vehicle.
+  - Do not restart broad random camera searches; geometry/process fixes come first and camera alternatives are bounded.
+  - Publish the exact final 24 1280×800 audit frames and three contact sheets under `coordination/Evidence/M08_48_F08_F15_FINAL_VISUAL_AUDIT/` so independent GPT can directly inspect them.
+  - Re-run protection, solid-camera and exact deterministic GLB parity gates after any additional promotion.
+  - Success stop: `AWAITING_GPT_F08_F15_FINAL_VISUAL_AUDIT` or truthful blocker variant.
   - Do not self-mark independent GPT PASS.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
