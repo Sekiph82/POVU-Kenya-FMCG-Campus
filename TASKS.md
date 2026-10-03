@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.46
-- Current Task: M08.46 — F08-R04 process-state geometry remediation
+- Current Sprint: M08.47
+- Current Task: M08.47 — F08–F15 combined facility closure
 - Current Task Status: READY
-- Execution Authorization: M08.46 / F08-R04 only
-- Next Task/Action: Execute only F08-R04 using `coordination/Prompts/REV005_FACILITY_F08_R04_PROCESS_STATE_GEOMETRY_REMEDIATION_GPT_PROMPT.md`. Preserve the R02 staged room and major process anchors, remediate only F08 process-state storytelling inside the blow cell and immediate transfer/discharge path so preform→stretch/blow→formed-bottle becomes label-blind readable, correct the camera solid-geometry validator, then run a focused A/B/C/D validation and promote only if visual + technical + deterministic GLB gates PASS. Stop at `AWAITING_GPT_FACILITY_AUDIT_F08_R04`. Do not begin F09.
+- Execution Authorization: M08.47 / F08–F15 combined campaign
+- Next Task/Action: Execute M08.47 using `coordination/Prompts/REV005_F08_F15_COMBINED_FACILITY_CLOSURE_GPT_PROMPT.md`. Process F08 through F15 in one continuous campaign; do not wait for independent audit between facilities. Use bounded facility-specific geometry/camera remediation, continue past any recorded blocker, perform one final blocker sweep after F15, publish one combined evidence/log package, then stop at `AWAITING_GPT_F08_F15_FINAL_AUDIT` or `AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS`.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -564,19 +564,25 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Independent GPT decision: camera-only F08 work is exhausted. Remaining defect is the actual process-state storytelling inside the blow cell and immediate discharge path.
   - Audit: `coordination/Audits/REV005_F08_R03_GPT_AUDIT.md`.
 
-- [ ] M08.46 — F08-R04 process-state geometry remediation
+- [!] M08.46 — F08-R04 process-state geometry remediation
   - Actor: CODEX.
   - Prompt: `coordination/Prompts/REV005_FACILITY_F08_R04_PROCESS_STATE_GEOMETRY_REMEDIATION_GPT_PROMPT.md`.
   - Locked criteria: `coordination/Audits/REV005_F08_R04_PROCESS_STATE_GEOMETRY_GPT_CRITERIA.md`.
-  - Start from exact R02 staged SHA `0BA679DDE639B8DC1C048D3025E313A89F66ACC5F8E7EFF3DD752066BA049F25`.
-  - Preserve room and major hopper/oven/blow-cell/outfeed centers.
-  - Station 1 must visibly read as heated-preform/load/stretch state; Station 2 must visibly read as formed-bottle/blow/eject state.
-  - Add only physically plausible F08 process-state, mould/cavity, tie-bar, discharge and product continuity detail; no neighbor or room-shell mutation.
-  - Replace broad-AABB camera invalidation with actual solid-geometry validation.
-  - Focused A/B/C/D validation only; no another 100+ random camera loop.
-  - Promote only after visual, dimensional, protection, collision and deterministic GLB parity PASS.
-  - Do not begin F09.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08_R04`.
+  - Owner override: superseded before standalone execution by M08.47. Do not execute M08.46 as a separate stop-and-audit task.
+  - Its valid F08 technical findings remain input to M08.47, especially process-state storytelling, actual solid-geometry camera validation, preserved process anchors, and bounded camera search.
+
+- [ ] M08.47 — F08–F15 combined facility closure
+  - Actor: CODEX.
+  - Owner directive: execute F08 through F15 in one continuous campaign; no GPT/owner wait between facilities.
+  - Prompt: `coordination/Prompts/REV005_F08_F15_COMBINED_FACILITY_CLOSURE_GPT_PROMPT.md`.
+  - F08 must reuse the valid M08.46/R04 process-state remediation findings rather than restart camera search.
+  - F09–F15 identities and facility contracts must be resolved from canonical repository truth before mutation.
+  - Per-facility loop is bounded: focused geometry/process remediation, focused camera correction only when genuinely camera-specific, then continue to the next facility even if a blocker remains.
+  - After F15, perform one final targeted blocker sweep.
+  - F01–F07 remain independently PASS and locked.
+  - Publish one combined evidence/log package and update this tracker with real builder results.
+  - Success stop: `AWAITING_GPT_F08_F15_FINAL_AUDIT` or `AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS`.
+  - Do not self-mark independent GPT PASS.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
