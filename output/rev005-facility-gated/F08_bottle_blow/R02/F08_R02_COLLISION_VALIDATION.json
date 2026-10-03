@@ -1,0 +1,8 @@
+{
+  "task": "M08.44 / F08-R02",
+  "status": "PASS",
+  "threshold_m": 0.015,
+  "protected_mesh_count": 1130,
+  "tested_f08_meshes": 391,
+  "collisions": []
+}

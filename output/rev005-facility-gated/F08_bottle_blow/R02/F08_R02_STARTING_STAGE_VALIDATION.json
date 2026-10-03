@@ -1,0 +1,32 @@
+{
+  "task": "M08.44 / F08-R02",
+  "status": "PASS",
+  "source_blend": "output\\rev005-facility-gated\\F08_bottle_blow\\R01\\F08_bottle_blow\\F08_STAGED.blend",
+  "source_validation": "R01/F08_R01_STAGED_STATE_VALIDATION.json",
+  "destination_collection": "REV005_FG_F08_BOTTLE_BLOW_ACCEPTED_CLASS_N",
+  "accepted_meshes": 338,
+  "confirmed_legacy": 391,
+  "retired_legacy": 391,
+  "ambiguous_legacy": 0,
+  "not_f08_preserved": 5,
+  "preforms": 20,
+  "heater_elements": 16,
+  "service_doors": 2,
+  "hp_air_branches": 4,
+  "formed_bottles": 16,
+  "unauthorized_prior_differences": 0,
+  "cross_facility_collisions": 0,
+  "outside_envelope_objects": 0,
+  "canonical_baseline_hashes": {
+    "blend": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+    "glb": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372"
+  },
+  "source_sha256": "E3D861D882D4921D449CC34B921A712E159DAA66232B8EB8ED28A85F1B3052B9",
+  "east_service_opening_contract": {
+    "jamb_y": [
+      9.0,
+      11.0
+    ],
+    "east_wall_segments_m": 11.0
+  }
+}

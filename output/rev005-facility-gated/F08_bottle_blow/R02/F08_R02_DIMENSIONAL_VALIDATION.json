@@ -1,0 +1,236 @@
+{
+  "task": "M08.44 / F08-R02",
+  "status": "PASS",
+  "tolerance_m": 0.05,
+  "anchors": {
+    "F08_ROOM_FINISHED_FLOOR": {
+      "actual_location": [
+        52.0,
+        10.0,
+        1.0
+      ],
+      "actual_dimensions": [
+        38.0,
+        24.0,
+        0.18000000715255737
+      ],
+      "expected_location": [
+        52,
+        10,
+        1
+      ],
+      "expected_dimensions": [
+        38,
+        24,
+        0.18
+      ],
+      "max_location_delta_m": 0.0,
+      "max_dimension_delta_m": 7.152557379708213e-09,
+      "pass": true
+    },
+    "F08_PREFORM_BULK_BIN": {
+      "actual_location": [
+        36.5,
+        10.0,
+        4.300000190734863
+      ],
+      "actual_dimensions": [
+        2.4000000953674316,
+        2.4000000953674316,
+        1.7999999523162842
+      ],
+      "expected_location": [
+        36.5,
+        10,
+        4.3
+      ],
+      "expected_dimensions": [
+        2.4,
+        2.4,
+        1.8
+      ],
+      "max_location_delta_m": 1.9073486345888568e-07,
+      "max_dimension_delta_m": 9.536743172944284e-08,
+      "pass": true
+    },
+    "F08_OVEN_INLET_FRAME": {
+      "actual_location": [
+        44.119998931884766,
+        10.0,
+        3.0799999237060547
+      ],
+      "actual_dimensions": [
+        0.1599999964237213,
+        1.0499999523162842,
+        2.6500000953674316
+      ],
+      "expected_location": [
+        44.12,
+        10,
+        3.08
+      ],
+      "expected_dimensions": [
+        0.16,
+        1.05,
+        2.65
+      ],
+      "max_location_delta_m": 1.0681152318170462e-06,
+      "max_dimension_delta_m": 9.536743172944284e-08,
+      "pass": true
+    },
+    "F08_OUTFEED_BELT": {
+      "actual_location": [
+        65.0,
+        10.0,
+        1.8799999952316284
+      ],
+      "actual_dimensions": [
+        9.0,
+        1.2000000476837158,
+        0.14000000059604645
+      ],
+      "expected_location": [
+        65,
+        10,
+        1.88
+      ],
+      "expected_dimensions": [
+        9,
+        1.2,
+        0.14
+      ],
+      "max_location_delta_m": 4.76837147544984e-09,
+      "max_dimension_delta_m": 4.768371586472142e-08,
+      "pass": true
+    },
+    "F08_HMI_BODY": {
+      "actual_location": [
+        57.0,
+        5.619999885559082,
+        2.2799999713897705
+      ],
+      "actual_dimensions": [
+        1.0,
+        0.6000000238418579,
+        0.7599999904632568
+      ],
+      "expected_location": [
+        57,
+        5.62,
+        2.28
+      ],
+      "expected_dimensions": [
+        1,
+        0.6,
+        0.76
+      ],
+      "max_location_delta_m": 1.1444091807533141e-07,
+      "max_dimension_delta_m": 2.384185793236071e-08,
+      "pass": true
+    },
+    "F08_MOULD_STATION_1_PLATEN_L": {
+      "actual_location": [
+        54.970001220703125,
+        10.0,
+        3.200000047683716
+      ],
+      "actual_dimensions": [
+        0.30000001192092896,
+        1.399999976158142,
+        2.4000000953674316
+      ],
+      "expected_location": [
+        54.97,
+        10,
+        3.2
+      ],
+      "expected_dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "max_location_delta_m": 1.2207031261368684e-06,
+      "max_dimension_delta_m": 9.536743172944284e-08,
+      "pass": true
+    },
+    "F08_MOULD_STATION_1_PLATEN_R": {
+      "actual_location": [
+        56.43000030517578,
+        10.0,
+        3.200000047683716
+      ],
+      "actual_dimensions": [
+        0.30000001192092896,
+        1.399999976158142,
+        2.4000000953674316
+      ],
+      "expected_location": [
+        56.43,
+        10,
+        3.2
+      ],
+      "expected_dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "max_location_delta_m": 3.051757815342171e-07,
+      "max_dimension_delta_m": 9.536743172944284e-08,
+      "pass": true
+    },
+    "F08_MOULD_STATION_2_PLATEN_L": {
+      "actual_location": [
+        57.56999969482422,
+        10.0,
+        3.200000047683716
+      ],
+      "actual_dimensions": [
+        0.30000001192092896,
+        1.399999976158142,
+        2.4000000953674316
+      ],
+      "expected_location": [
+        57.57,
+        10,
+        3.2
+      ],
+      "expected_dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "max_location_delta_m": 3.051757815342171e-07,
+      "max_dimension_delta_m": 9.536743172944284e-08,
+      "pass": true
+    },
+    "F08_MOULD_STATION_2_PLATEN_R": {
+      "actual_location": [
+        59.029998779296875,
+        10.0,
+        3.200000047683716
+      ],
+      "actual_dimensions": [
+        0.30000001192092896,
+        1.399999976158142,
+        2.4000000953674316
+      ],
+      "expected_location": [
+        59.03,
+        10,
+        3.2
+      ],
+      "expected_dimensions": [
+        0.3,
+        1.4,
+        2.4
+      ],
+      "max_location_delta_m": 1.2207031261368684e-06,
+      "max_dimension_delta_m": 9.536743172944284e-08,
+      "pass": true
+    }
+  },
+  "all_accepted_f08_geometry_within_room_envelope": true,
+  "outside_envelope_objects": [],
+  "locked_major_centers_preserved": true,
+  "cross_facility_collisions": []
+}

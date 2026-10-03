@@ -1,0 +1,44 @@
+{
+  "task": "M08.44 / F08-R02",
+  "status": "BLOCKED_F08_R02_VISUAL_ACCEPTANCE",
+  "accepted_meshes": 391,
+  "preforms_total": 30,
+  "elevator_riders": 6,
+  "downstream_feed_preforms": 7,
+  "oven_path_preforms": 13,
+  "transfer_riders": 3,
+  "heater_elements": 16,
+  "bottles_in_outfeed": 16,
+  "existing_bottle_dimensions_pass": true,
+  "legacy_retired": 391,
+  "not_f08_preserved": 5,
+  "protection": "PASS",
+  "dimensional": "PASS",
+  "collisions": 0,
+  "outside_envelope": 0,
+  "issues": [],
+  "technical_status": "PASS",
+  "visual_status": "FAIL",
+  "camera_candidate_counts": {
+    "A": 24,
+    "B": 24,
+    "C": 24,
+    "D": 24
+  },
+  "all_candidate_renders_pass_file_check": true,
+  "selected_role_verdicts": {
+    "A": "FAIL",
+    "B": "FAIL",
+    "C": "FAIL",
+    "D": "FAIL"
+  },
+  "canonical_promotion_authorized": false,
+  "glb_parity_prepromotion": "NOT_RUN_VISUAL_GATE_FAILED",
+  "canonical_hashes_unchanged": true,
+  "hashes": {
+    "canonical_blend_sha256": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+    "canonical_glb_sha256": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+    "r02_staged_blend_sha256": "0BA679DDE639B8DC1C048D3025E313A89F66ACC5F8E7EFF3DD752066BA049F25"
+  },
+  "f09_started": false
+}

@@ -1,0 +1,109 @@
+{
+  "task": "M08.44 / F08-R02",
+  "status": "PASS",
+  "source_blend": "output\\rev005-facility-gated\\F08_bottle_blow\\R01\\F08_bottle_blow\\F08_STAGED.blend",
+  "staged_blend": "output\\rev005-facility-gated\\F08_bottle_blow\\R02\\F08_R02_STAGED.blend",
+  "source_mesh_count": 338,
+  "accepted_mesh_count": 391,
+  "added_meshes": 53,
+  "outside_destination_unauthorized_differences": [],
+  "anchor_checks": {
+    "F08_PREFORM_BULK_BIN": {
+      "actual": [
+        36.5,
+        10.0,
+        4.3
+      ],
+      "expected": [
+        36.5,
+        10,
+        4.3
+      ],
+      "pass": true
+    },
+    "F08_OVEN_CORNER_POST_44.0_12.0": {
+      "actual": [
+        44.0,
+        12.0,
+        3.2
+      ],
+      "expected": [
+        44,
+        12,
+        3.2
+      ],
+      "pass": true
+    },
+    "F08_BLOW_CELL_BASE_X_56.9": {
+      "actual": [
+        56.9,
+        10.0,
+        1.5
+      ],
+      "expected": [
+        56.9,
+        10,
+        1.5
+      ],
+      "pass": true
+    },
+    "F08_OUTFEED_BELT": {
+      "actual": [
+        65.0,
+        10.0,
+        1.88
+      ],
+      "expected": [
+        65,
+        10,
+        1.88
+      ],
+      "pass": true
+    },
+    "F08_HMI_BODY": {
+      "actual": [
+        57.0,
+        5.62,
+        2.28
+      ],
+      "expected": [
+        57,
+        5.62,
+        2.28
+      ],
+      "pass": true
+    }
+  },
+  "counts": {
+    "heater_north": 8,
+    "heater_south": 8,
+    "existing_outfeed_bottles": 16,
+    "elevator_preforms": 6,
+    "downstream_preforms_preserved": 7,
+    "transfer_preforms": 3,
+    "service_doors": 2,
+    "hp_air_branches": 4
+  },
+  "remediations": [
+    "open tapered hopper panels and visible rim",
+    "elevator carrier flights and six riders",
+    "existing downstream feed-rail preforms preserved",
+    "slender infrared lamps and reflector banks",
+    "three transfer preforms",
+    "mould alloy separation, cavity relief, clamp actuators and air drops",
+    "clearer F08 guard glazing",
+    "heated station-one preform cue",
+    "sixteen enlarged formed bottles and immediate-release station-two bottle",
+    "operator pad and local task-light geometry"
+  ],
+  "preserved": {
+    "canonical_hashes": {
+      "blend": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+      "glb": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372"
+    },
+    "confirmed_legacy_retired": 391,
+    "not_f08_preserved": 5,
+    "major_centers_and_envelopes": true,
+    "no_F01_F07_mutation": true
+  }
+}

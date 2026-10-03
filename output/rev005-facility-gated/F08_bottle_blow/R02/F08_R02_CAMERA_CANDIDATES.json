@@ -1,0 +1,2878 @@
+{
+  "schema": "F08_R02_CAMERA_CANDIDATES_V1",
+  "task": "M08.44 / F08-R02",
+  "stage_blend": "F08_R02_STAGED.blend",
+  "candidate_minimum_per_role": 24,
+  "records": [
+    {
+      "id": "A_001",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        62.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_001_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "A_002",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        64.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_002_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "A_003",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        66.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_003_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "A_004",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        68.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.5,
+        3.4
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_004_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "A_005",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        69.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_005_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "A_006",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        70.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_006_900x600.png",
+      "rendered": true,
+      "visual_verdict": "FAIL",
+      "retained_top8": true,
+      "visual_cues": {
+        "hopper_visibly_distinct": false,
+        "elevator_feed_visible": true,
+        "oven_visible": true,
+        "transfer_visible": true,
+        "blow_cell_visible": true,
+        "outfeed_visible": true,
+        "room_context_visible": true,
+        "complete_process_sequence_readable": false
+      },
+      "visual_rationale": "Shows the oven, transfer area, guarded cell, outfeed direction, and room context; the upstream bulk hopper remains visually indistinct/out of frame, so the required complete context sequence fails."
+    },
+    {
+      "id": "A_007",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        62.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        9.5,
+        3.1
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_007_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "A_008",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        64.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        9.5,
+        3.1
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_008_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_009",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        66.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        9.5,
+        3.4
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_009_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_010",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        68.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_010_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "A_011",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        69.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.0,
+        3.7
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_011_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_012",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        70.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.0,
+        3.7
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_012_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_013",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        62.0,
+        11.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.5,
+        3.1
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_013_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_014",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        64.0,
+        11.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.5,
+        3.1
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_014_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_015",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        66.0,
+        11.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.5,
+        3.4
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_015_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_016",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        68.0,
+        11.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        9.5,
+        3.4
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_016_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_017",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        69.0,
+        11.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        9.5,
+        3.7
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_017_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_018",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        70.0,
+        11.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        9.5,
+        3.7
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_018_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_019",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        62.0,
+        13.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_019_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_020",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        64.0,
+        13.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_020_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_021",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        66.0,
+        13.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_021_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_022",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        68.0,
+        13.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.5,
+        3.4
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_022_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_023",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        69.0,
+        13.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_023_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "A_024",
+      "role": "A",
+      "camera_object": "F08_R02_CAMERA_A_CONTEXT",
+      "origin_xyz": [
+        70.0,
+        13.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\A\\A_024_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_001",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        60.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        10.0,
+        3.0
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_001_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_002",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        62.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        10.0,
+        3.0
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_002_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "B_003",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        64.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        10.0,
+        3.3
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_003_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_004",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        66.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        10.5,
+        3.3
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_004_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "B_005",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        68.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        10.5,
+        3.6
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_005_900x600.png",
+      "rendered": true,
+      "visual_verdict": "FAIL",
+      "retained_top8": true,
+      "visual_cues": {
+        "heater_outlet_visible": true,
+        "transfer_visible": true,
+        "blow_cell_visible": true,
+        "mould_station_readable": true,
+        "stretch_blow_readable": false,
+        "outfeed_visible": true,
+        "formed_bottles_readable": false,
+        "transformation_inferable": false,
+        "complete_role_readable": false
+      },
+      "visual_rationale": "Shows the heater outlet, transfer, cell, and outfeed in one functional view; mould clamp/stretch-blow and formed-bottle transformation are not sufficiently readable at 900x600."
+    },
+    {
+      "id": "B_006",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        70.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        10.5,
+        3.6
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_006_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "B_007",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        60.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        9.5,
+        3.0
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_007_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "B_008",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        62.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        9.5,
+        3.0
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_008_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "B_009",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        64.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        9.5,
+        3.3
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_009_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_010",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        66.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        10.0,
+        3.3
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_010_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_011",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        68.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        10.0,
+        3.6
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_011_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_012",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        70.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        10.0,
+        3.6
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_012_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_013",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        60.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        10.5,
+        3.0
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_013_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_014",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        62.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        10.5,
+        3.0
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_014_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "B_015",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        64.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        10.5,
+        3.3
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_015_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_016",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        66.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        9.5,
+        3.3
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_016_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_017",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        68.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        9.5,
+        3.6
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_017_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_018",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        70.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        9.5,
+        3.6
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_018_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_019",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        60.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        10.0,
+        3.0
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_019_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_020",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        62.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        10.0,
+        3.0
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_020_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "B_021",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        64.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        10.0,
+        3.3
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_021_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_022",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        66.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        58.5,
+        10.5,
+        3.3
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_022_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_023",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        68.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        10.5,
+        3.6
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_023_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "B_024",
+      "role": "B",
+      "camera_object": "F08_R02_CAMERA_B_FUNCTIONAL",
+      "origin_xyz": [
+        70.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        61.5,
+        10.5,
+        3.6
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\B\\B_024_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_001",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        50.0,
+        0.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        10.0,
+        2.9
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_001_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_002",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        52.0,
+        0.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        10.0,
+        2.9
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_002_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_003",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        54.0,
+        0.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        10.0,
+        3.2
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_003_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_004",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        56.0,
+        0.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        10.5,
+        3.2
+      ],
+      "lens_mm": 26,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_004_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "C_005",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        58.0,
+        0.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        10.5,
+        3.5
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_005_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "C_006",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        60.0,
+        0.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        10.5,
+        3.5
+      ],
+      "lens_mm": 30,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_006_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "C_007",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        50.0,
+        1.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        9.5,
+        2.9
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_007_900x600.png",
+      "rendered": true,
+      "visual_verdict": "FAIL",
+      "retained_top8": true,
+      "visual_cues": {
+        "oven_transfer_visible": true,
+        "mould_clamp_readable": true,
+        "stretch_blow_cue_visible": true,
+        "preform_to_bottle_transformation_readable": false,
+        "discharge_outfeed_visible": true,
+        "complete_role_readable": false
+      },
+      "visual_rationale": "Best sequence detail candidate for oven edge, transfer guide, mould stations, and discharge; no single readable preform-to-bottle transformation is established in frame."
+    },
+    {
+      "id": "C_008",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        52.0,
+        1.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        9.5,
+        2.9
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_008_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "C_009",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        54.0,
+        1.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        9.5,
+        3.2
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_009_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "C_010",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        56.0,
+        1.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        10.0,
+        3.2
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_010_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_011",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        58.0,
+        1.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        10.0,
+        3.5
+      ],
+      "lens_mm": 26,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_011_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_012",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        60.0,
+        1.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        10.0,
+        3.5
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_012_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_013",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        50.0,
+        2.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        10.5,
+        2.9
+      ],
+      "lens_mm": 30,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_013_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_014",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        52.0,
+        2.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        10.5,
+        2.9
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_014_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_015",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        54.0,
+        2.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        10.5,
+        3.2
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_015_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_016",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        56.0,
+        2.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        9.5,
+        3.2
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_016_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_017",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        58.0,
+        2.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        9.5,
+        3.5
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_017_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_018",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        60.0,
+        2.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        9.5,
+        3.5
+      ],
+      "lens_mm": 26,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_018_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_019",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        50.0,
+        3.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        10.0,
+        2.9
+      ],
+      "lens_mm": 28,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_019_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_020",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        52.0,
+        3.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        10.0,
+        2.9
+      ],
+      "lens_mm": 30,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_020_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "C_021",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        54.0,
+        3.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        10.0,
+        3.2
+      ],
+      "lens_mm": 32,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_021_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "C_022",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        56.0,
+        3.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        10.5,
+        3.2
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_022_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_023",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        58.0,
+        3.5,
+        6.2
+      ],
+      "target_xyz": [
+        57.0,
+        10.5,
+        3.5
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_023_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "C_024",
+      "role": "C",
+      "camera_object": "F08_R02_CAMERA_C_SEQUENCE_DETAIL",
+      "origin_xyz": [
+        60.0,
+        3.5,
+        6.2
+      ],
+      "target_xyz": [
+        58.5,
+        10.5,
+        3.5
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\C\\C_024_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_001",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        38.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_001_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "D_002",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        42.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_002_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "D_003",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        46.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_003_900x600.png",
+      "rendered": true,
+      "visual_verdict": "FAIL",
+      "retained_top8": true,
+      "visual_cues": {
+        "hopper_visibly_distinct": false,
+        "feed_visible": true,
+        "oven_visible": true,
+        "blow_cell_visible": true,
+        "outfeed_visible": true,
+        "hmi_operator_side_visible": true,
+        "aisle_context_visible": true,
+        "complete_sequence_readable": false
+      },
+      "visual_rationale": "Shows the room, process direction, HMI-side aisle, and cell context; the bulk source hopper is not identifiable and the complete bulk-to-outfeed sequence is not label-blind readable."
+    },
+    {
+      "id": "D_004",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        50.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.5,
+        3.4
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_004_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_005",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        54.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_005_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_006",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        58.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_006_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "D_007",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        38.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        9.5,
+        3.1
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_007_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "D_008",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        42.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        9.5,
+        3.1
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_008_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "D_009",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        46.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        9.5,
+        3.4
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_009_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "D_010",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        50.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_010_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": true
+    },
+    {
+      "id": "D_011",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        54.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.0,
+        3.7
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_011_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_012",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        58.0,
+        5.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.0,
+        3.7
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_012_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_013",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        38.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.5,
+        3.1
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_013_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_014",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        42.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.5,
+        3.1
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_014_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_015",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        46.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.5,
+        3.4
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_015_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_016",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        50.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        9.5,
+        3.4
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_016_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_017",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        54.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        9.5,
+        3.7
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_017_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_018",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        58.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        9.5,
+        3.7
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_018_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_019",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        38.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_019_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_020",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        42.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.0,
+        3.1
+      ],
+      "lens_mm": 24,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_020_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_021",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        46.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 16,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_021_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_022",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        50.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        51.0,
+        10.5,
+        3.4
+      ],
+      "lens_mm": 18,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_022_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_023",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        54.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        53.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 20,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_023_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    },
+    {
+      "id": "D_024",
+      "role": "D",
+      "camera_object": "F08_R02_CAMERA_D_INTEGRATED",
+      "origin_xyz": [
+        58.0,
+        9.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 22,
+      "sensor_width_mm": 36,
+      "resolution": [
+        900,
+        600
+      ],
+      "clip_start_m": 0.08,
+      "camera_inside_mesh_aabb_objects": [],
+      "wall_ceiling_clipping": false,
+      "visibility_changed": false,
+      "render_path": "candidates\\D\\D_024_900x600.png",
+      "rendered": true,
+      "visual_verdict": "PENDING_IMAGE_REVIEW",
+      "retained_top8": false
+    }
+  ],
+  "retained_strongest_8_by_role": {
+    "A": [
+      "A_001",
+      "A_002",
+      "A_003",
+      "A_004",
+      "A_005",
+      "A_006",
+      "A_007",
+      "A_010"
+    ],
+    "B": [
+      "B_002",
+      "B_004",
+      "B_005",
+      "B_006",
+      "B_007",
+      "B_008",
+      "B_014",
+      "B_020"
+    ],
+    "C": [
+      "C_004",
+      "C_005",
+      "C_006",
+      "C_007",
+      "C_008",
+      "C_009",
+      "C_020",
+      "C_021"
+    ],
+    "D": [
+      "D_001",
+      "D_002",
+      "D_003",
+      "D_006",
+      "D_007",
+      "D_008",
+      "D_009",
+      "D_010"
+    ]
+  },
+  "visual_review_method": "Manual review of all 96 rendered 900x600 images via four 24-image review sheets; no visibility changes."
+}

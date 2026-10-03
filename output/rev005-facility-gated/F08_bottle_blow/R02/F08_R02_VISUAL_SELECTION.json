@@ -1,0 +1,181 @@
+{
+  "task": "M08.44 / F08-R02",
+  "status": "BLOCKED_F08_R02_VISUAL_ACCEPTANCE",
+  "stage_blend": "F08_R02_STAGED.blend",
+  "canonical_promotion_authorized": false,
+  "canonical_blend_modified": false,
+  "canonical_glb_modified": false,
+  "candidate_counts": {
+    "A": 24,
+    "B": 24,
+    "C": 24,
+    "D": 24
+  },
+  "camera_origin_mesh_bounds_hits": 0,
+  "camera_visibility_mutations": 0,
+  "all_roles_pass": false,
+  "roles": {
+    "A": {
+      "selected_attempt_id": "A_006",
+      "verdict": "FAIL",
+      "origin_xyz": [
+        70.0,
+        7.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.5,
+        3.7
+      ],
+      "lens_mm": 16,
+      "selected_preview_path": "F08_R02_A_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R02_A_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "A_001",
+        "A_002",
+        "A_003",
+        "A_004",
+        "A_005",
+        "A_006",
+        "A_007",
+        "A_010"
+      ],
+      "passing_cues": [
+        "elevator_feed_visible",
+        "oven_visible",
+        "transfer_visible",
+        "blow_cell_visible",
+        "outfeed_visible",
+        "room_context_visible"
+      ],
+      "failing_cues": [
+        "hopper_visibly_distinct",
+        "complete_process_sequence_readable"
+      ],
+      "rationale": "Shows the oven, transfer area, guarded cell, outfeed direction, and room context; the upstream bulk hopper remains visually indistinct/out of frame, so the required complete context sequence fails."
+    },
+    "B": {
+      "selected_attempt_id": "B_005",
+      "verdict": "FAIL",
+      "origin_xyz": [
+        68.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        60.0,
+        10.5,
+        3.6
+      ],
+      "lens_mm": 24,
+      "selected_preview_path": "F08_R02_B_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R02_B_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "B_002",
+        "B_004",
+        "B_005",
+        "B_006",
+        "B_007",
+        "B_008",
+        "B_014",
+        "B_020"
+      ],
+      "passing_cues": [
+        "heater_outlet_visible",
+        "transfer_visible",
+        "blow_cell_visible",
+        "mould_station_readable",
+        "outfeed_visible"
+      ],
+      "failing_cues": [
+        "stretch_blow_readable",
+        "formed_bottles_readable",
+        "transformation_inferable",
+        "complete_role_readable"
+      ],
+      "rationale": "Shows the heater outlet, transfer, cell, and outfeed in one functional view; mould clamp/stretch-blow and formed-bottle transformation are not sufficiently readable at 900x600."
+    },
+    "C": {
+      "selected_attempt_id": "C_007",
+      "verdict": "FAIL",
+      "origin_xyz": [
+        50.0,
+        1.5,
+        6.2
+      ],
+      "target_xyz": [
+        55.5,
+        9.5,
+        2.9
+      ],
+      "lens_mm": 32,
+      "selected_preview_path": "F08_R02_C_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R02_C_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "C_004",
+        "C_005",
+        "C_006",
+        "C_007",
+        "C_008",
+        "C_009",
+        "C_020",
+        "C_021"
+      ],
+      "passing_cues": [
+        "oven_transfer_visible",
+        "mould_clamp_readable",
+        "stretch_blow_cue_visible",
+        "discharge_outfeed_visible"
+      ],
+      "failing_cues": [
+        "preform_to_bottle_transformation_readable",
+        "complete_role_readable"
+      ],
+      "rationale": "Best sequence detail candidate for oven edge, transfer guide, mould stations, and discharge; no single readable preform-to-bottle transformation is established in frame."
+    },
+    "D": {
+      "selected_attempt_id": "D_003",
+      "verdict": "FAIL",
+      "origin_xyz": [
+        46.0,
+        3.0,
+        6.4
+      ],
+      "target_xyz": [
+        55.0,
+        10.0,
+        3.4
+      ],
+      "lens_mm": 20,
+      "selected_preview_path": "F08_R02_D_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R02_D_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "D_001",
+        "D_002",
+        "D_003",
+        "D_006",
+        "D_007",
+        "D_008",
+        "D_009",
+        "D_010"
+      ],
+      "passing_cues": [
+        "feed_visible",
+        "oven_visible",
+        "blow_cell_visible",
+        "outfeed_visible",
+        "hmi_operator_side_visible",
+        "aisle_context_visible"
+      ],
+      "failing_cues": [
+        "hopper_visibly_distinct",
+        "complete_sequence_readable"
+      ],
+      "rationale": "Shows the room, process direction, HMI-side aisle, and cell context; the bulk source hopper is not identifiable and the complete bulk-to-outfeed sequence is not label-blind readable."
+    }
+  },
+  "complete_label_blind_sequence": "bulk preforms \u2192 elevator/feed \u2192 IR heating \u2192 transfer \u2192 clamp/mould + stretch/blow \u2192 formed bottles \u2192 inspection/outfeed",
+  "complete_sequence_pass": false,
+  "stop_reason": "No selected role set provides a complete readable label-blind process sequence with an identifiable bulk hopper, readable blow transformation, and sufficiently legible formed-bottle outfeed. R02 remains stage-only for independent GPT facility audit."
+}

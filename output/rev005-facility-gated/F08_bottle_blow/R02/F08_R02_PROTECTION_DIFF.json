@@ -1,0 +1,12 @@
+{
+  "task": "M08.44 / F08-R02",
+  "status": "PASS",
+  "accepted_meshes": 391,
+  "prior_facility_protected_meshes": 1130,
+  "unauthorized_differences_outside_destination": 0,
+  "f01_f07_mutations": [],
+  "legacy_retired_expected": 391,
+  "legacy_retired_actual": 391,
+  "ambiguous_legacy": 0,
+  "not_f08_preserved": 5
+}
