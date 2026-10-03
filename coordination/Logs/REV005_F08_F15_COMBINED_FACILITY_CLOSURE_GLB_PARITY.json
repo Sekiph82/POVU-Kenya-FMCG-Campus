@@ -1,0 +1,37 @@
+{
+  "status": "PASS_EXACT_CANONICAL_NODE_SET_PARITY",
+  "baseline_blend_sha256": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+  "baseline_glb_sha256": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+  "candidate_blend_sha256": "83D00D7C18B4DED5B8E674AEF3DF77659E21C9E6035F2CAD318E7F6B414AC3E6",
+  "candidate_glb_sha256": "18C146559F5675D6FE36759328F14CDD44F3626C5571B5671D3DCE6F33BAB5D0",
+  "baseline_glb_named_nodes": 10941,
+  "replaced_old_target_nodes": 350,
+  "new_target_nodes": 595,
+  "expected_final_nodes": 11186,
+  "candidate_glb_nodes": 11186,
+  "missing_nodes": [],
+  "extra_nodes": [],
+  "promoted_collections": {
+    "F10": {
+      "collection": "REV005_V08_CLEAN_ETP_WATER_TREATMENT",
+      "objects": 107,
+      "mesh_objects": 107
+    },
+    "F12": {
+      "collection": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+      "objects": 215,
+      "mesh_objects": 215
+    },
+    "F13": {
+      "collection": "REV005_V08_CLEAN_LIQUID_FILLING_PACKAGING",
+      "objects": 210,
+      "mesh_objects": 210
+    },
+    "F14": {
+      "collection": "REV005_V08_CLEAN_OCCUPATIONAL_HEALTH_FIRST_AID",
+      "objects": 63,
+      "mesh_objects": 63
+    }
+  },
+  "export_mode": "selected node set = baseline GLB minus replaced target facility nodes plus four new builder-pass collections"
+}

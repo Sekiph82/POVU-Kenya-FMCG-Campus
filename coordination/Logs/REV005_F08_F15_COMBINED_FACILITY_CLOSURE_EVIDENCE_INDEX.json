@@ -1,0 +1,708 @@
+{
+  "schema": "M08_47_F08_F15_EVIDENCE_V1",
+  "source_sha256": {
+    "f08_r02": "0BA679DDE639B8DC1C048D3025E313A89F66ACC5F8E7EFF3DD752066BA049F25",
+    "canonical_blend": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642"
+  },
+  "facilities": {
+    "F08": {
+      "name": "Bottle blow molding",
+      "collection": "REV005_FG_F08_BOTTLE_BLOW_ACCEPTED_CLASS_N",
+      "mesh_count": 413,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            29.959999084472656,
+            -29.600000381469727,
+            19.200000762939453
+          ],
+          "target": [
+            52.0,
+            10.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "F08_SOFFIT_TRANSVERSE_BEAM_1",
+            "F08_SOFFIT_TRANSVERSE_BEAM_2",
+            "F08_SOFFIT_TRANSVERSE_BEAM_3",
+            "F08_SOFFIT_TRANSVERSE_BEAM_4",
+            "F08_SOFFIT_TRANSVERSE_BEAM_5",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_1",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_2",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_3",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_4",
+            "F08_CEILING_SOFFIT"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F08\\F08_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            36.040000915527344,
+            -9.680000305175781,
+            10.079999923706055
+          ],
+          "target": [
+            52.0,
+            10.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "F08_SOFFIT_TRANSVERSE_BEAM_1",
+            "F08_SOFFIT_TRANSVERSE_BEAM_2",
+            "F08_SOFFIT_TRANSVERSE_BEAM_3",
+            "F08_SOFFIT_TRANSVERSE_BEAM_4",
+            "F08_SOFFIT_TRANSVERSE_BEAM_5",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_1",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_2",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_3",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_4",
+            "F08_CEILING_SOFFIT"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F08\\F08_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            48.20000076293945,
+            -4.400000095367432,
+            7.0
+          ],
+          "target": [
+            52.0,
+            10.0,
+            3.0999999046325684
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "F08_SOFFIT_TRANSVERSE_BEAM_1",
+            "F08_SOFFIT_TRANSVERSE_BEAM_2",
+            "F08_SOFFIT_TRANSVERSE_BEAM_3",
+            "F08_SOFFIT_TRANSVERSE_BEAM_4",
+            "F08_SOFFIT_TRANSVERSE_BEAM_5",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_1",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_2",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_3",
+            "F08_SOFFIT_LONGITUDINAL_BEAM_4",
+            "F08_CEILING_SOFFIT"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F08\\F08_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    },
+    "F09": {
+      "name": "Chemical compound / controlled receiving",
+      "collection": "REV005_V08_CLEAN_CHEMICAL_COMPOUND_CONTROLLED_RECEIVING",
+      "mesh_count": 98,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            33.959999084472656,
+            30.5,
+            24.0
+          ],
+          "target": [
+            56.0,
+            80.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "CHEM_V10_SOFFIT",
+            "CHEM_V10_FRONT_HEADER",
+            "CHEM_V10_FRONT_L",
+            "CHEM_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F09\\F09_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            40.040000915527344,
+            55.400001525878906,
+            12.600000381469727
+          ],
+          "target": [
+            56.0,
+            80.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "CHEM_V10_SOFFIT",
+            "CHEM_V10_FRONT_HEADER",
+            "CHEM_V10_FRONT_L",
+            "CHEM_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F09\\F09_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            27.0,
+            84.0,
+            10.0
+          ],
+          "target": [
+            56.0,
+            82.0,
+            2.700000047683716
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "CHEM_V10_LEFT_WALL",
+            "CHEM_V10_SOFFIT",
+            "CHEM_V10_FRONT_HEADER",
+            "CHEM_V10_FRONT_L",
+            "CHEM_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F09\\F09_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    },
+    "F10": {
+      "name": "ETP / water treatment",
+      "collection": "REV005_V08_CLEAN_ETP_WATER_TREATMENT",
+      "mesh_count": 107,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            84.80000305175781,
+            -17.799999237060547,
+            25.600000381469727
+          ],
+          "target": [
+            108.0,
+            35.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "ETP_V10_SOFFIT",
+            "ETP_V10_FRONT_HEADER",
+            "ETP_V10_FRONT_L",
+            "ETP_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F10\\F10_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            91.19999694824219,
+            8.760000228881836,
+            13.4399995803833
+          ],
+          "target": [
+            108.0,
+            35.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "ETP_V10_SOFFIT",
+            "ETP_V10_FRONT_HEADER",
+            "ETP_V10_FRONT_L",
+            "ETP_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F10\\F10_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            104.0,
+            15.800000190734863,
+            8.960000038146973
+          ],
+          "target": [
+            108.0,
+            35.0,
+            3.0999999046325684
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "ETP_V10_SOFFIT",
+            "ETP_V10_FRONT_HEADER",
+            "ETP_V10_FRONT_L",
+            "ETP_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F10\\F10_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    },
+    "F11": {
+      "name": "Finished goods warehouse / dispatch",
+      "collection": "REV005_V08_CLEAN_FINISHED_GOODS_WAREHOUSE_DISPATCH",
+      "mesh_count": 188,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            49.84000015258789,
+            -90.5999984741211,
+            19.200000762939453
+          ],
+          "target": [
+            80.0,
+            -51.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "FG_V10_SOFFIT",
+            "FG_V10_FRONT_HEADER",
+            "FG_V10_FRONT_L",
+            "FG_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F11\\F11_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            70.0,
+            -75.0,
+            11.0
+          ],
+          "target": [
+            91.0,
+            -54.0,
+            2.799999952316284
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "FG_V10_SOFFIT",
+            "FG_V10_FRONT_HEADER",
+            "FG_V10_FRONT_L",
+            "FG_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F11\\F11_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            87.0,
+            -77.4000015258789,
+            10.0
+          ],
+          "target": [
+            91.0,
+            -55.0,
+            2.799999952316284
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "FG_V10_SOFFIT",
+            "FG_V10_FRONT_HEADER",
+            "FG_V10_FRONT_L",
+            "FG_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F11\\F11_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    },
+    "F12": {
+      "name": "Glass Deck central command / training / caf\u00e9 gallery",
+      "collection": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+      "mesh_count": 215,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            46.79999923706055,
+            -15.600000381469727,
+            19.200000762939453
+          ],
+          "target": [
+            70.0,
+            24.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "GLASS_V10_SOFFIT",
+            "GLASS_V10_FRONT_GLAZING",
+            "GLASS_V10_FRONT_L",
+            "GLASS_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F12\\F12_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            58.0,
+            -12.0,
+            12.0
+          ],
+          "target": [
+            70.0,
+            24.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "GLASS_V10_SOFFIT",
+            "GLASS_V10_FRONT_GLAZING",
+            "GLASS_V10_FRONT_L",
+            "GLASS_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F12\\F12_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            54.0,
+            4.0,
+            11.0
+          ],
+          "target": [
+            66.0,
+            21.0,
+            3.0
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "GLASS_V10_SOFFIT",
+            "GLASS_V10_FRONT_GLAZING",
+            "GLASS_V10_FRONT_L",
+            "GLASS_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F12\\F12_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    },
+    "F13": {
+      "name": "Liquid filling / packaging",
+      "collection": "REV005_V08_CLEAN_LIQUID_FILLING_PACKAGING",
+      "mesh_count": 210,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            -19.0,
+            -35.0,
+            18.0
+          ],
+          "target": [
+            10.0,
+            -2.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "LIQUID_V10_SOFFIT",
+            "LIQUID_V10_FRONT_HEADER",
+            "LIQUID_V10_FRONT_L",
+            "LIQUID_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F13\\F13_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            0.0,
+            -20.0,
+            10.0
+          ],
+          "target": [
+            12.0,
+            -2.0,
+            3.0
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "LIQUID_V10_SOFFIT",
+            "LIQUID_V10_FRONT_HEADER",
+            "LIQUID_V10_FRONT_L",
+            "LIQUID_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F13\\F13_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            18.0,
+            -19.0,
+            8.0
+          ],
+          "target": [
+            23.0,
+            -2.0,
+            2.6500000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "LIQUID_V10_SOFFIT",
+            "LIQUID_V10_FRONT_HEADER",
+            "LIQUID_V10_FRONT_L",
+            "LIQUID_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F13\\F13_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    },
+    "F14": {
+      "name": "Occupational health / first aid",
+      "collection": "REV005_V08_CLEAN_OCCUPATIONAL_HEALTH_FIRST_AID",
+      "mesh_count": 63,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            -33.08000183105469,
+            -123.69999694824219,
+            18.0
+          ],
+          "target": [
+            -18.0,
+            -94.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "CLINIC_V10_SOFFIT",
+            "CLINIC_V10_FRONT_GLAZING",
+            "CLINIC_V10_FRONT_L",
+            "CLINIC_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F14\\F14_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            -28.920000076293945,
+            -108.76000213623047,
+            10.0
+          ],
+          "target": [
+            -18.0,
+            -94.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "CLINIC_V10_SOFFIT",
+            "CLINIC_V10_FRONT_GLAZING",
+            "CLINIC_V10_FRONT_L",
+            "CLINIC_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F14\\F14_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            -11.0,
+            -108.4000015258789,
+            8.0
+          ],
+          "target": [
+            -11.0,
+            -98.0,
+            2.5
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "CLINIC_V10_SOFFIT",
+            "CLINIC_V10_FRONT_GLAZING",
+            "CLINIC_V10_FRONT_L",
+            "CLINIC_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F14\\F14_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    },
+    "F15": {
+      "name": "Packaging warehouse",
+      "collection": "REV005_V08_CLEAN_PACKAGING_WAREHOUSE",
+      "mesh_count": 176,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            -43.63999938964844,
+            4.75,
+            36.0
+          ],
+          "target": [
+            -10.0,
+            79.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "PKG_V10_SOFFIT",
+            "PKG_V10_FRONT_HEADER",
+            "PKG_V10_FRONT_L",
+            "PKG_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F15\\F15_A.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            -34.36000061035156,
+            42.099998474121094,
+            18.899999618530273
+          ],
+          "target": [
+            -10.0,
+            79.0,
+            2.9000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "PKG_V10_SOFFIT",
+            "PKG_V10_FRONT_HEADER",
+            "PKG_V10_FRONT_L",
+            "PKG_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F15\\F15_B.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            0.0,
+            47.5,
+            10.0
+          ],
+          "target": [
+            7.0,
+            70.0,
+            2.4000000953674316
+          ],
+          "camera_origin_inside_mesh_aabbs": [],
+          "qa_hidden_shell_objects": [
+            "PKG_V10_SOFFIT",
+            "PKG_V10_FRONT_HEADER",
+            "PKG_V10_FRONT_L",
+            "PKG_V10_FRONT_R"
+          ],
+          "png": "output\\rev005-facility-gated\\F08_F15_combined\\F15\\F15_C.png",
+          "resolution": [
+            1280,
+            800
+          ],
+          "camera_clear": true
+        }
+      ]
+    }
+  }
+}

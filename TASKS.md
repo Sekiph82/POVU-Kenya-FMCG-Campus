@@ -11,11 +11,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 - Current Milestone: M08
 - Current Sprint: M08.47
 - Current Task: M08.47 — F08–F15 combined facility closure
-- Current Task Status: READY
+- Current Task Status: EXECUTION_COMPLETE_AWAITING_INDEPENDENT_GPT_AUDIT_WITH_RECORDED_BLOCKERS
 - Execution Authorization: M08.47 / F08–F15 combined campaign
-- Next Task/Action: Execute M08.47 using `coordination/Prompts/REV005_F08_F15_COMBINED_FACILITY_CLOSURE_GPT_PROMPT.md`. Process F08 through F15 in one continuous campaign; do not wait for independent audit between facilities. Use bounded facility-specific geometry/camera remediation, continue past any recorded blocker, perform one final blocker sweep after F15, publish one combined evidence/log package, then stop at `AWAITING_GPT_F08_F15_FINAL_AUDIT` or `AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS`.
-- Required Actor: CODEX
-- Workflow State: READY_FOR_CODEX_EXECUTION
+- Next Task/Action: Independent GPT combined audit of M08.47 using `coordination/Logs/REV005_F08_F15_COMBINED_FACILITY_CLOSURE_CODEX_LOG.md`, the 24 rendered PNGs and contact sheets under `output/rev005-facility-gated/F08_F15_combined/`, the canonical Blend/GLB, and the published exact-node parity/protection reports. Resolve recorded blockers for F08, F09, F11 and F15; review builder-pass claims for F10, F12, F13 and F14. Do not self-mark independent GPT PASS.
+- Required Actor: GPT
+- Workflow State: AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
 - Tracking Branch: main
 
@@ -571,7 +571,7 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Owner override: superseded before standalone execution by M08.47. Do not execute M08.46 as a separate stop-and-audit task.
   - Its valid F08 technical findings remain input to M08.47, especially process-state storytelling, actual solid-geometry camera validation, preserved process anchors, and bounded camera search.
 
-- [ ] M08.47 — F08–F15 combined facility closure
+- [~] M08.47 — F08–F15 combined facility closure
   - Actor: CODEX.
   - Owner directive: execute F08 through F15 in one continuous campaign; no GPT/owner wait between facilities.
   - Prompt: `coordination/Prompts/REV005_F08_F15_COMBINED_FACILITY_CLOSURE_GPT_PROMPT.md`.
@@ -581,7 +581,11 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - After F15, perform one final targeted blocker sweep.
   - F01–F07 remain independently PASS and locked.
   - Publish one combined evidence/log package and update this tracker with real builder results.
-  - Success stop: `AWAITING_GPT_F08_F15_FINAL_AUDIT` or `AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS`.
+  - Builder result: F10, F12, F13 and F14 `BUILDER_VISUAL_PASS`; F08, F09, F11 and F15 remain blocked. Four passes and four blockers are recorded in `coordination/Logs/REV005_F08_F15_COMBINED_FACILITY_CLOSURE_CODEX_LOG.md`.
+  - Canonical selective promotion: only F10/F12/F13/F14 collections; F01–F07 and every non-promoted Blender object retain their baseline signature. Final canonical hashes: Blend `83D00D7C18B4DED5B8E674AEF3DF77659E21C9E6035F2CAD318E7F6B414AC3E6`; GLB `18C146559F5675D6FE36759328F14CDD44F3626C5571B5671D3DCE6F33BAB5D0`.
+  - Exact GLB node parity passed: 10,941 baseline nodes, 350 prior target nodes replaced, 595 new target nodes, 11,186 final nodes, zero missing/extra.
+  - Final execution stop: `AWAITING_GPT_F08_F15_FINAL_AUDIT_WITH_RECORDED_BLOCKERS`.
+  - Next actor: GPT for the independent combined audit. Builder evidence is not acceptance.
   - Do not self-mark independent GPT PASS.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze

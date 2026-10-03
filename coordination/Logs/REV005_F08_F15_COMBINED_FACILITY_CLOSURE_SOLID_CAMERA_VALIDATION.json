@@ -1,0 +1,378 @@
+{
+  "schema": "M08_47_SOLID_CAMERA_VALIDATION_V1",
+  "method": "world-space BVH point-to-solid containment by parity of three non-axis-aligned ray casts; boundary proximity rejected; nonwatertight meshes use conservative per-object AABB containment",
+  "epsilon": 1e-05,
+  "camera_count": 24,
+  "result": "PASS",
+  "errors": [],
+  "facilities": {
+    "F08": {
+      "collection": "REV005_FG_F08_BOTTLE_BLOW_ACCEPTED_CLASS_N",
+      "watertight_meshes_built": 365,
+      "nonwatertight_meshes_conservatively_checked": 48,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            29.959999084472656,
+            -29.600000381469727,
+            19.200000762939453
+          ],
+          "watertight_meshes_tested": 365,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            36.040000915527344,
+            -9.680000305175781,
+            10.079999923706055
+          ],
+          "watertight_meshes_tested": 365,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            48.20000076293945,
+            -4.400000095367432,
+            7.0
+          ],
+          "watertight_meshes_tested": 365,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    },
+    "F09": {
+      "collection": "REV005_V08_CLEAN_CHEMICAL_COMPOUND_CONTROLLED_RECEIVING",
+      "watertight_meshes_built": 98,
+      "nonwatertight_meshes_conservatively_checked": 0,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            33.959999084472656,
+            30.5,
+            24.0
+          ],
+          "watertight_meshes_tested": 98,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            40.040000915527344,
+            55.400001525878906,
+            12.600000381469727
+          ],
+          "watertight_meshes_tested": 98,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            27.0,
+            84.0,
+            10.0
+          ],
+          "watertight_meshes_tested": 98,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    },
+    "F10": {
+      "collection": "REV005_V08_CLEAN_ETP_WATER_TREATMENT",
+      "watertight_meshes_built": 107,
+      "nonwatertight_meshes_conservatively_checked": 0,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            84.80000305175781,
+            -17.799999237060547,
+            25.600000381469727
+          ],
+          "watertight_meshes_tested": 107,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            91.19999694824219,
+            8.760000228881836,
+            13.4399995803833
+          ],
+          "watertight_meshes_tested": 107,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            104.0,
+            15.800000190734863,
+            8.960000038146973
+          ],
+          "watertight_meshes_tested": 107,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    },
+    "F11": {
+      "collection": "REV005_V08_CLEAN_FINISHED_GOODS_WAREHOUSE_DISPATCH",
+      "watertight_meshes_built": 188,
+      "nonwatertight_meshes_conservatively_checked": 0,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            49.84000015258789,
+            -90.5999984741211,
+            19.200000762939453
+          ],
+          "watertight_meshes_tested": 188,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            70.0,
+            -75.0,
+            11.0
+          ],
+          "watertight_meshes_tested": 188,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            87.0,
+            -77.4000015258789,
+            10.0
+          ],
+          "watertight_meshes_tested": 188,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    },
+    "F12": {
+      "collection": "REV005_V08_CLEAN_GLASS_DECK_CENTRAL_COMMAND_TRAINING_CAF_GALLERY",
+      "watertight_meshes_built": 215,
+      "nonwatertight_meshes_conservatively_checked": 0,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            46.79999923706055,
+            -15.600000381469727,
+            19.200000762939453
+          ],
+          "watertight_meshes_tested": 215,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            58.0,
+            -12.0,
+            12.0
+          ],
+          "watertight_meshes_tested": 215,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            54.0,
+            4.0,
+            11.0
+          ],
+          "watertight_meshes_tested": 215,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    },
+    "F13": {
+      "collection": "REV005_V08_CLEAN_LIQUID_FILLING_PACKAGING",
+      "watertight_meshes_built": 210,
+      "nonwatertight_meshes_conservatively_checked": 0,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            -19.0,
+            -35.0,
+            18.0
+          ],
+          "watertight_meshes_tested": 210,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            0.0,
+            -20.0,
+            10.0
+          ],
+          "watertight_meshes_tested": 210,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            18.0,
+            -19.0,
+            8.0
+          ],
+          "watertight_meshes_tested": 210,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    },
+    "F14": {
+      "collection": "REV005_V08_CLEAN_OCCUPATIONAL_HEALTH_FIRST_AID",
+      "watertight_meshes_built": 63,
+      "nonwatertight_meshes_conservatively_checked": 0,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            -33.08000183105469,
+            -123.69999694824219,
+            18.0
+          ],
+          "watertight_meshes_tested": 63,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            -28.920000076293945,
+            -108.76000213623047,
+            10.0
+          ],
+          "watertight_meshes_tested": 63,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            -11.0,
+            -108.4000015258789,
+            8.0
+          ],
+          "watertight_meshes_tested": 63,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    },
+    "F15": {
+      "collection": "REV005_V08_CLEAN_PACKAGING_WAREHOUSE",
+      "watertight_meshes_built": 176,
+      "nonwatertight_meshes_conservatively_checked": 0,
+      "views": [
+        {
+          "role": "A",
+          "camera_world": [
+            -43.63999938964844,
+            4.75,
+            36.0
+          ],
+          "watertight_meshes_tested": 176,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "B",
+          "camera_world": [
+            -34.36000061035156,
+            42.099998474121094,
+            18.899999618530273
+          ],
+          "watertight_meshes_tested": 176,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        },
+        {
+          "role": "C",
+          "camera_world": [
+            0.0,
+            47.5,
+            10.0
+          ],
+          "watertight_meshes_tested": 176,
+          "nonwatertight_meshes_aabb_containment_candidates": [],
+          "inside_solid_meshes": [],
+          "on_solid_mesh_boundary": [],
+          "camera_origin_clear": true
+        }
+      ]
+    }
+  }
+}
