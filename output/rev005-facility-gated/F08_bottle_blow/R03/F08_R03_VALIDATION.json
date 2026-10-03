@@ -1,0 +1,34 @@
+{
+  "schema": "F08_R03_VALIDATION_V1",
+  "task": "M08.45 / F08-R03",
+  "status": "BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE",
+  "source_sha256": "0BA679DDE639B8DC1C048D3025E313A89F66ACC5F8E7EFF3DD752066BA049F25",
+  "candidate_minimum_per_role": 18,
+  "candidate_rendered_counts": {
+    "A": 24,
+    "B": 24,
+    "C": 24,
+    "D": 24
+  },
+  "camera_AABB_clear_counts": {
+    "A": 24,
+    "B": 24,
+    "C": 0,
+    "D": 24
+  },
+  "visual_role_verdicts": {
+    "A": "FAIL",
+    "B": "FAIL",
+    "C": "FAIL",
+    "D": "FAIL"
+  },
+  "R02_technical_gates": "INHERITED_PASS_NOT_RERUN_VISUAL_GATE_FAILED",
+  "canonical_promotion_authorized": false,
+  "canonical_blend_modified": false,
+  "canonical_glb_modified": false,
+  "canonical_blend_sha256": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+  "canonical_glb_sha256": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+  "prepromotion_GLB_parity": "NOT_RUN_VISUAL_GATE_FAILED",
+  "F09_started": false,
+  "stop_marker": "BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE"
+}

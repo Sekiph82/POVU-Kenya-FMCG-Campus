@@ -1,0 +1,56 @@
+{
+  "schema": "F08_R03_STAGED_STATE_VALIDATION_V1",
+  "task": "M08.45 / F08-R03",
+  "status": "BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE",
+  "source_blend": "output/rev005-facility-gated/F08_bottle_blow/R02/F08_R02_STAGED.blend",
+  "source_sha256": "0BA679DDE639B8DC1C048D3025E313A89F66ACC5F8E7EFF3DD752066BA049F25",
+  "source_stage_exact_match": true,
+  "blend_saved_by_R03": false,
+  "geometry_material_transform_collection_visibility_retirement_room_shell_changes": 0,
+  "camera_changes_saved_to_blend": false,
+  "R02_technical_facts": {
+    "accepted_meshes": 391,
+    "retired_legacy": 391,
+    "NOT_F08_preserved": 5,
+    "preforms_total": 30,
+    "elevator_riders": 6,
+    "downstream_feed_preforms": 7,
+    "oven_path_preforms": 13,
+    "transfer_riders": 3,
+    "heater_elements": 16,
+    "formed_outfeed_bottles": 16,
+    "protected_unauthorized_differences": 0,
+    "cross_facility_collisions": 0,
+    "outside_envelope_objects": 0,
+    "dimensional_validation": "PASS",
+    "protection_validation": "PASS",
+    "source": "R02 published validation and independent audit; new technical rerun was not required because visual gates failed."
+  },
+  "R03_camera_search": {
+    "candidate_count_per_role": {
+      "A": 24,
+      "B": 24,
+      "C": 24,
+      "D": 24
+    },
+    "rendered_candidate_count_total": 96,
+    "camera_AABB_clear_count_per_role": {
+      "A": 24,
+      "B": 24,
+      "C": 0,
+      "D": 24
+    },
+    "missing_preview_count": 0,
+    "visibility_changes": 0,
+    "C_AABB_blocker": "Production_Hall world AABB X[-75,75], Y[-36,36], Z[-6,6] and PRODUCTION_ROOF Z[5.7464,6.0]; all authorized C cameras have X/Y inside those bounds and Z<=6.0."
+  },
+  "canonical_hashes_rechecked": {
+    "blend": "B2C248A0EE3EB0322CC76A626FB101FB2AA6851C724BE9865836EBA626009642",
+    "glb": "B5C73F9294AAC384711A9493F48FA74A699508A2059077C40626AC19E3E28372",
+    "match_locked_baseline": true
+  },
+  "visual_status": "FAIL",
+  "promotion_authorized": false,
+  "GLB_parity": "NOT_RUN_VISUAL_GATE_FAILED",
+  "f09_started": false
+}

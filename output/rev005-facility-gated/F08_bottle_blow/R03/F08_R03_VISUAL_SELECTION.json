@@ -1,0 +1,218 @@
+{
+  "schema": "F08_R03_VISUAL_SELECTION_V1",
+  "task": "M08.45 / F08-R03",
+  "status": "BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE",
+  "source_blend": "../R02/F08_R02_STAGED.blend",
+  "source_sha256": "0BA679DDE639B8DC1C048D3025E313A89F66ACC5F8E7EFF3DD752066BA049F25",
+  "candidate_counts": {
+    "A": 24,
+    "B": 24,
+    "C": 24,
+    "D": 24
+  },
+  "candidate_rendered_counts": {
+    "A": 24,
+    "B": 24,
+    "C": 24,
+    "D": 24
+  },
+  "camera_aabb_clear_counts": {
+    "A": 24,
+    "B": 24,
+    "C": 0,
+    "D": 24
+  },
+  "camera_visibility_mutations": 0,
+  "canonical_promotion_authorized": false,
+  "canonical_blend_modified": false,
+  "canonical_glb_modified": false,
+  "all_roles_pass": false,
+  "roles": {
+    "A": {
+      "selected_candidate_id": "A_005",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        56.0,
+        -8.0,
+        7.0
+      ],
+      "target_xyz": [
+        51.0,
+        11.0,
+        3.0
+      ],
+      "lens_mm": 22,
+      "camera_inside_geometry": false,
+      "camera_inside_geometry_objects": [],
+      "selected_preview_path": "F08_R03_A_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R03_A_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "A_005",
+        "A_002",
+        "A_010",
+        "A_014",
+        "A_019",
+        "A_022",
+        "A_006",
+        "A_024"
+      ],
+      "passing_cues": [
+        "hopper_visible",
+        "elevator_feed_visible",
+        "oven_visible",
+        "transfer_visible",
+        "outfeed_visible",
+        "aisle_context"
+      ],
+      "failing_cues": [
+        "mould_station_readable",
+        "stretch_blow_readable",
+        "in_process_preform_readable",
+        "formed_bottle_readable",
+        "hmi_operator_relationship"
+      ],
+      "rationale": "The selected external view includes a distinct tapered bulk hopper, its feed path, the open-frame heater, guarded blow cell, and outfeed in west-to-east order. The foreground glazing posts cross portions of the line, and the small product cues do not explain the complete label-blind sequence at 900x600. FAIL."
+    },
+    "B": {
+      "selected_candidate_id": "B_005",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        60.0,
+        -5.0,
+        6.6
+      ],
+      "target_xyz": [
+        55.0,
+        11.0,
+        3.0
+      ],
+      "lens_mm": 28,
+      "camera_inside_geometry": false,
+      "camera_inside_geometry_objects": [],
+      "selected_preview_path": "F08_R03_B_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R03_B_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "B_005",
+        "B_010",
+        "B_015",
+        "B_020",
+        "B_002",
+        "B_009",
+        "B_014",
+        "B_024"
+      ],
+      "passing_cues": [
+        "oven_visible",
+        "transfer_visible",
+        "mould_station_readable",
+        "outfeed_visible",
+        "hmi_operator_relationship",
+        "aisle_context"
+      ],
+      "failing_cues": [
+        "hopper_visible",
+        "elevator_feed_visible",
+        "stretch_blow_readable",
+        "in_process_preform_readable",
+        "formed_bottle_readable"
+      ],
+      "rationale": "The selected oblique view shows heater outlet, transfer hardware, guarded twin mould stations, and downstream outfeed. The moulds and stretch/blow product action remain visually compressed, and individual formed bottles are not readable at this scale. FAIL."
+    },
+    "C": {
+      "selected_candidate_id": "C_005",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        60.0,
+        -4.0,
+        6.0
+      ],
+      "target_xyz": [
+        56.0,
+        11.0,
+        2.8
+      ],
+      "lens_mm": 32,
+      "camera_inside_geometry": true,
+      "camera_inside_geometry_objects": [
+        "Production_Hall",
+        "PRODUCTION_ROOF"
+      ],
+      "selected_preview_path": "F08_R03_C_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R03_C_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "C_005",
+        "C_010",
+        "C_015",
+        "C_020",
+        "C_002",
+        "C_007",
+        "C_018",
+        "C_024"
+      ],
+      "passing_cues": [
+        "oven_visible",
+        "transfer_visible",
+        "mould_station_readable",
+        "outfeed_visible",
+        "hmi_operator_relationship",
+        "aisle_context"
+      ],
+      "failing_cues": [
+        "hopper_visible",
+        "elevator_feed_visible",
+        "stretch_blow_readable",
+        "in_process_preform_readable",
+        "formed_bottle_readable"
+      ],
+      "rationale": "This is the clearest transformation-side image, with the twin mould/clamp stations and downstream belt in view, but the preform-to-formed-bottle state change is not visually readable. More importantly, every allowed C camera origin is inside the broad Production_Hall and roof mesh AABBs, so this preview is not a valid camera candidate. FAIL."
+    },
+    "D": {
+      "selected_candidate_id": "D_005",
+      "verdict": "FAIL",
+      "camera_xyz": [
+        58.0,
+        -8.0,
+        7.0
+      ],
+      "target_xyz": [
+        52.0,
+        11.0,
+        3.1
+      ],
+      "lens_mm": 22,
+      "camera_inside_geometry": false,
+      "camera_inside_geometry_objects": [],
+      "selected_preview_path": "F08_R03_D_SELECTED_PREVIEW_900x600.png",
+      "top8_contact_sheet_path": "F08_R03_D_TOP8_CONTACT_SHEET.png",
+      "strongest_8_candidate_ids": [
+        "D_005",
+        "D_010",
+        "D_014",
+        "D_022",
+        "D_004",
+        "D_006",
+        "D_008",
+        "D_017"
+      ],
+      "passing_cues": [
+        "hopper_visible",
+        "elevator_feed_visible",
+        "oven_visible",
+        "transfer_visible",
+        "outfeed_visible",
+        "hmi_operator_relationship",
+        "aisle_context"
+      ],
+      "failing_cues": [
+        "mould_station_readable",
+        "stretch_blow_readable",
+        "in_process_preform_readable",
+        "formed_bottle_readable"
+      ],
+      "rationale": "The selected wide view shows the hopper/feed, oven, blow cell, HMI/operator pad, aisle, and outfeed with room context. Product-state evidence is too small to read and the complete label-blind process sequence is not self-explanatory. FAIL."
+    }
+  },
+  "complete_label_blind_sequence": "bulk preforms \u2192 elevator/feed \u2192 infrared heating \u2192 transfer \u2192 clamp/mould + stretch/blow \u2192 formed bottles \u2192 inspection/outfeed",
+  "complete_sequence_pass": false,
+  "failure_summary": "A/B/C/D selected sets do not establish the full label-blind sequence. The C family has zero camera origins clear of every mesh AABB because the authorized C camera Z ceiling is 6.0 m and the Production_Hall and PRODUCTION_ROOF AABBs extend through Z=6.0 m. C previews were rendered only for visual diagnosis and are invalid as technical candidates. No geometry, visibility, or canonical file was changed."
+}
