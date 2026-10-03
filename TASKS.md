@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.45
-- Current Task: M08.45 — F08-R03 external south-frontage visual closure
+- Current Sprint: M08.46
+- Current Task: M08.46 — F08-R04 process-state geometry remediation
 - Current Task Status: READY
-- Execution Authorization: M08.45 / F08-R03 only
-- Next Task/Action: Execute only F08-R03 using `coordination/Prompts/REV005_FACILITY_F08_R03_EXTERNAL_SOUTH_FRONTAGE_VISUAL_CLOSURE_GPT_PROMPT.md`. Use the exact R02 staged model unchanged, exhaust the previously untested true external south-frontage camera family through the existing glazing, and promote to canonical Blend/GLB only if A/B/C/D visual plus technical/GLB gates all pass. If external frontage still fails, publish evidence and stop at `BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE`; no further camera-only F08 task is allowed. Do not begin F09.
+- Execution Authorization: M08.46 / F08-R04 only
+- Next Task/Action: Execute only F08-R04 using `coordination/Prompts/REV005_FACILITY_F08_R04_PROCESS_STATE_GEOMETRY_REMEDIATION_GPT_PROMPT.md`. Preserve the R02 staged room and major process anchors, remediate only F08 process-state storytelling inside the blow cell and immediate transfer/discharge path so preform→stretch/blow→formed-bottle becomes label-blind readable, correct the camera solid-geometry validator, then run a focused A/B/C/D validation and promote only if visual + technical + deterministic GLB gates PASS. Stop at `AWAITING_GPT_FACILITY_AUDIT_F08_R04`. Do not begin F09.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -554,18 +554,29 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Independent GPT decision: one final external-frontage camera-only closure is required before any further model mutation.
   - Audit: `coordination/Audits/REV005_F08_R02_GPT_AUDIT.md`.
 
-- [ ] M08.45 — F08-R03 external south-frontage visual closure
+- [!] M08.45 — F08-R03 external south-frontage visual closure
+  - Execution commit: `753fe43`.
+  - 96 external-frontage candidates rendered: A/B/C/D = 24 each.
+  - A/B/D had valid external cameras; C candidates were diagnostic only because the old validator used broad Production_Hall/roof AABBs as a hard inside-geometry test.
+  - A/D finally proved the tapered hopper/feed can be visible from the true south frontage.
+  - Across all roles, stretch/blow readability = 0, in-process preform readability = 0, formed-bottle state readability = 0, complete label-blind process sequence = 0.
+  - Canonical Blend/GLB unchanged; no promotion; F09 not started.
+  - Independent GPT decision: camera-only F08 work is exhausted. Remaining defect is the actual process-state storytelling inside the blow cell and immediate discharge path.
+  - Audit: `coordination/Audits/REV005_F08_R03_GPT_AUDIT.md`.
+
+- [ ] M08.46 — F08-R04 process-state geometry remediation
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_R03_EXTERNAL_SOUTH_FRONTAGE_VISUAL_CLOSURE_GPT_PROMPT.md`.
-  - Locked criteria: `coordination/Audits/REV005_F08_R03_EXTERNAL_FRONTAGE_GPT_CRITERIA.md`.
-  - Exact R02 staged model only; no geometry/material/visibility changes.
-  - Search true external south-frontage cameras generally at Y=-5…-16 through the existing glazing.
-  - Minimum 18 candidates per role, A/B/C/D.
-  - Promote only if all visual roles plus technical/protection/collision and deterministic GLB gates pass.
-  - If blocked, publish evidence in the same run and stop at `BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE`.
-  - No further camera-only F08 task after an R03 visual failure.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_R04_PROCESS_STATE_GEOMETRY_REMEDIATION_GPT_PROMPT.md`.
+  - Locked criteria: `coordination/Audits/REV005_F08_R04_PROCESS_STATE_GEOMETRY_GPT_CRITERIA.md`.
+  - Start from exact R02 staged SHA `0BA679DDE639B8DC1C048D3025E313A89F66ACC5F8E7EFF3DD752066BA049F25`.
+  - Preserve room and major hopper/oven/blow-cell/outfeed centers.
+  - Station 1 must visibly read as heated-preform/load/stretch state; Station 2 must visibly read as formed-bottle/blow/eject state.
+  - Add only physically plausible F08 process-state, mould/cavity, tie-bar, discharge and product continuity detail; no neighbor or room-shell mutation.
+  - Replace broad-AABB camera invalidation with actual solid-geometry validation.
+  - Focused A/B/C/D validation only; no another 100+ random camera loop.
+  - Promote only after visual, dimensional, protection, collision and deterministic GLB parity PASS.
   - Do not begin F09.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08_R03`.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08_R04`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
