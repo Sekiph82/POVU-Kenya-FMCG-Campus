@@ -45,4 +45,3 @@
 - Exact stop: `BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE`.
 - Further camera-only F08 work is not permitted by the task gate.
 - F09 was not started.
-
