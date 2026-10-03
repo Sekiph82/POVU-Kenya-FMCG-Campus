@@ -9,11 +9,11 @@ Historical prompts, logs, audits, planning files, renders, Blender/GLB artifacts
 ## Project Status
 
 - Current Milestone: M08
-- Current Sprint: M08.44
-- Current Task: M08.44 — F08-R02 visual-legibility geometry remediation
+- Current Sprint: M08.45
+- Current Task: M08.45 — F08-R03 external south-frontage visual closure
 - Current Task Status: READY
-- Execution Authorization: M08.44 / F08-R02 only
-- Next Task/Action: Execute only F08-R02 using `coordination/Prompts/REV005_FACILITY_F08_R02_VISUAL_LEGIBILITY_GEOMETRY_REMEDIATION_GPT_PROMPT.md`. Preserve the locked room and major process anchors, remediate only the new F08 hopper/feed, heater oven, transfer, blow-cell internals and formed-bottle outfeed for label-blind readability, then re-run A/B/C/D visual, protection, dimensional, collision and deterministic GLB gates. Promote to canonical Blend/GLB only if all R02 gates pass. Stop at `AWAITING_GPT_FACILITY_AUDIT_F08_R02`. Do not begin F09.
+- Execution Authorization: M08.45 / F08-R03 only
+- Next Task/Action: Execute only F08-R03 using `coordination/Prompts/REV005_FACILITY_F08_R03_EXTERNAL_SOUTH_FRONTAGE_VISUAL_CLOSURE_GPT_PROMPT.md`. Use the exact R02 staged model unchanged, exhaust the previously untested true external south-frontage camera family through the existing glazing, and promote to canonical Blend/GLB only if A/B/C/D visual plus technical/GLB gates all pass. If external frontage still fails, publish evidence and stop at `BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE`; no further camera-only F08 task is allowed. Do not begin F09.
 - Required Actor: CODEX
 - Workflow State: READY_FOR_CODEX_EXECUTION
 - Tracking Repository: Sekiph82/POVU-Kenya-FMCG-Campus
@@ -543,17 +543,29 @@ Legend: `[x]` validated complete, `[~]` active/implemented-but-partial, `[!]` bl
   - Independent GPT decision: camera search is exhausted; visual-model legibility remediation is required.
   - Audit: `coordination/Audits/REV005_F08_R01_GPT_AUDIT.md`.
 
-- [ ] M08.44 — F08-R02 visual-legibility geometry remediation
+- [!] M08.44 — F08-R02 visual-legibility geometry remediation
+  - Execution commit: `26e55140ca75a99c4ba8088c541d2339c6dbe086`.
+  - R02 staged accepted meshes: 391 (338 + 53).
+  - Dimensional/protection/legacy-retirement/collision gates: PASS.
+  - Canonical Blend/GLB remained unchanged.
+  - 96 candidates rendered: A/B/C/D = 24 each.
+  - Direct visual audit: all four selected roles remain FAIL.
+  - Important audit finding: R02 camera search never tested a true external south-frontage view; A Y=7…13, B Y=3…9, C Y=0.5…3.5, D Y=3…9 while the south glazing is at Y≈-1.84.
+  - Independent GPT decision: one final external-frontage camera-only closure is required before any further model mutation.
+  - Audit: `coordination/Audits/REV005_F08_R02_GPT_AUDIT.md`.
+
+- [ ] M08.45 — F08-R03 external south-frontage visual closure
   - Actor: CODEX.
-  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_R02_VISUAL_LEGIBILITY_GEOMETRY_REMEDIATION_GPT_PROMPT.md`.
-  - Locked R02 criteria: `coordination/Audits/REV005_F08_R02_VISUAL_LEGIBILITY_GEOMETRY_GPT_CRITERIA.md`.
-  - Keep room envelope and major hopper/oven/blow-cell/outfeed centers/envelopes locked.
-  - Remediate only new F08 process-readability geometry: hopper/elevator, IR oven, transfer, mould/stretch-blow cues, product-state transition and formed-bottle outfeed.
-  - Preserve F01-F07, exact 391 F08 legacy retirement state, 5 NOT_F08 objects, and zero cross-facility collision.
-  - Starting accepted count is 338 meshes; normal R02 cap is 460.
-  - Promote to canonical Blend/GLB only after staged A/B/C/D visual PASS plus dimensional/protection/collision and deterministic GLB parity PASS.
+  - Prompt: `coordination/Prompts/REV005_FACILITY_F08_R03_EXTERNAL_SOUTH_FRONTAGE_VISUAL_CLOSURE_GPT_PROMPT.md`.
+  - Locked criteria: `coordination/Audits/REV005_F08_R03_EXTERNAL_FRONTAGE_GPT_CRITERIA.md`.
+  - Exact R02 staged model only; no geometry/material/visibility changes.
+  - Search true external south-frontage cameras generally at Y=-5…-16 through the existing glazing.
+  - Minimum 18 candidates per role, A/B/C/D.
+  - Promote only if all visual roles plus technical/protection/collision and deterministic GLB gates pass.
+  - If blocked, publish evidence in the same run and stop at `BLOCKED_F08_R03_EXTERNAL_FRONTAGE_VISUAL_FAILURE`.
+  - No further camera-only F08 task after an R03 visual failure.
   - Do not begin F09.
-  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08_R02`.
+  - Success stop: `AWAITING_GPT_FACILITY_AUDIT_F08_R03`.
 
 - [ ] M08.09 — Owner final REV005 model review and freeze
   - Dependency: all 26 facility-gated completion/audit gates must reach independent GPT PASS.
